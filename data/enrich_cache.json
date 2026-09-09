@@ -12,6 +12,9 @@
   "tmdb_id": "1696266",
   "year": 2026
  },
+ "15nov": {
+  "enriched_at": "2026-09-09"
+ },
  "6portraitsneorealistes": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/8/4/9/2/8/1484928-6-portraits-neorealistes-0-230-0-345-crop.jpg?v=7751933a06",
   "enriched_at": "2026-09-09",
@@ -80,7 +83,23 @@
   "tmdb_id": "1359",
   "year": 2000
  },
+ "amour:2012": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/2m/2c/7v/g4/amour-50-1200-1200-675-675-crop-000000.jpg?v=480487d38f",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt1602620",
+  "letterboxd_rating": 4.24,
+  "letterboxd_url": "https://letterboxd.com/film/amour/",
+  "letterboxd_votes": 153646,
+  "overview": "Georges and Anne are in their eighties. They are cultivated, retired music teachers. Their daughter, who is also a musician, lives abroad with her family. One day, Anne has a stroke, and the couple's bond of love is severely tested.",
+  "poster": "https://media.themoviedb.org/t/p/w500/A0VPf9B3YhFlf7SHi3gBNBb3GFt.jpg",
+  "runtime": 127,
+  "tmdb_id": "86837",
+  "year": 2012
+ },
  "amourmagie2": {
+  "enriched_at": "2026-09-09"
+ },
+ "amoursimpossibles:1980": {
   "enriched_at": "2026-09-09"
  },
  "andrerieus2026summerconcertvivamaastricht": {
@@ -104,6 +123,12 @@
   "tmdb_id": "582309",
   "year": 2019
  },
+ "anvilstoryanvil": {
+  "enriched_at": "2026-09-09"
+ },
+ "apocalypsecarletournagemariachapdelaine": {
+  "enriched_at": "2026-09-09"
+ },
  "apocalypsenowfinalcut:1979": {
   "enriched_at": "2026-09-09"
  },
@@ -120,8 +145,32 @@
   "tmdb_id": "31542",
   "year": 1978
  },
+ "aryans": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/9/0/6/0/1/190601-the-aryans-0-230-0-345-crop.jpg?v=9e3cbf15ff",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt3509420",
+  "letterboxd_url": "https://letterboxd.com/film/the-aryans/",
+  "overview": "THE ARYANS is Mo Asumang's personal journey into the madness of racism during which she meets German neo-Nazis, the US leading racist, the notorious Tom Metzger and Ku Klux Klan members in the alarming twilight of the Midwest. In The ARYANS Mo questions the completely wrong interpretation of \"Aryanism\" - a phenomenon of the tall, blond and blue-eyed master race.",
+  "poster": "https://media.themoviedb.org/t/p/w500/osII683LuEO5n0w6Cz2d5e8ZL1Z.jpg",
+  "runtime": 92,
+  "tmdb_id": "267430",
+  "year": 2014
+ },
  "auboutoakstreet": {
   "enriched_at": "2026-09-09"
+ },
+ "audition:1999": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/qc/fp/8g/nx/audition-1200-1200-675-675-crop-000000.jpg?v=3b73fff95d",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0235198",
+  "letterboxd_rating": 3.8,
+  "letterboxd_url": "https://letterboxd.com/film/audition/",
+  "letterboxd_votes": 299145,
+  "overview": "Ayant organisé des auditions bidon afin de se trouver une nouvelle épouse, un producteur de films veuf jette son dévolu sur une jeune femme étrange.",
+  "poster": "https://media.themoviedb.org/t/p/w500/zsPmvIKtlrFsDT6ROAoHBkGB9Gy.jpg",
+  "runtime": 115,
+  "tmdb_id": "11075",
+  "year": 2000
  },
  "autre:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/4/7/0/4/1564704-lautre-2026-0-230-0-345-crop.jpg?v=d80a16db3b",
@@ -180,6 +229,20 @@
  "bataillegaulleresistance:2026": {
   "enriched_at": "2026-09-09"
  },
+ "beans:2021": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dd/jt/zz/9y/beans-1200-1200-675-675-crop-000000.jpg?v=8e30e63657",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt11735544",
+  "letterboxd_rating": 3.62,
+  "letterboxd_url": "https://letterboxd.com/film/beans-2020/",
+  "letterboxd_votes": 5967,
+  "overview": "Beans, douze ans, est à cran : tiraillée entre l’innocence de l’enfance et l’éveil bouillonnant de l’adolescence, forcée de grandir rapidement pour se transformer en la courageuse guerrière Mohawk dont elle a besoin pour survivre. Beans est l’histoire émouvante d’une jeune fille et de son passage à la vie d’adulte, se déroulant pendant les événements de la crise d’Oka, qui ont déchiré le Québec pendant 78 jours de l’été 1990.",
+  "poster": "https://media.themoviedb.org/t/p/w500/2LkLGOTHOvMCxKwJBav607Hqmgw.jpg",
+  "runtime": 92,
+  "tmdb_id": "726220",
+  "wikidata_id": "Q97959512",
+  "year": 2020
+ },
  "bestyearsourlives:1946": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kq/rl/hd/wf/bestyears-1200-1200-675-675-crop-000000.jpg?v=ccd5eeb1fd",
   "enriched_at": "2026-09-09",
@@ -197,6 +260,12 @@
   "enriched_at": "2026-09-09"
  },
  "bethlehemkudumbaunitmalengsub": {
+  "enriched_at": "2026-09-09"
+ },
+ "billie": {
+  "enriched_at": "2026-09-09"
+ },
+ "blackeagles": {
   "enriched_at": "2026-09-09"
  },
  "blackzombie:2026": {
@@ -224,6 +293,16 @@
   "runtime": 108,
   "tmdb_id": "11644",
   "year": 1981
+ },
+ "bluewindow": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/9/7/9/5/7/1397957-the-blue-roof-from-the-window-0-230-0-345-crop.jpg?v=5c73dd28ac",
+  "enriched_at": "2026-09-09",
+  "letterboxd_url": "https://letterboxd.com/film/the-blue-roof-from-the-window/",
+  "overview": "My family has lived in a house across from the Blue House, the presidential palace, for 50 years. During the era of military dictatorship, the Blue House was a place of fear and inaccessibility. But as South Korea democratized, more and more people were allowed to approach it. I had grown up surrounded by countless protests, but it was the first time their sound followed me home. The never-ending noise made the house where I was born and raised feel unfamiliar. But the place they now stood was the very spot where I had held a candle to protest just months before. My right to raise my voice also guarantees theirs.",
+  "poster": "https://media.themoviedb.org/t/p/w500/sVpMjgI2U8Q9bbBKHlICrV8DBOy.jpg",
+  "runtime": 74,
+  "tmdb_id": "1522753",
+  "year": 2025
  },
  "bolbhaveinnabol": {
   "enriched_at": "2026-09-09"
@@ -346,6 +425,30 @@
   "tmdb_id": "1596767",
   "year": 2026
  },
+ "cauchemarconseil:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/yu/rn/mh/bc/tJ8JufDYnDCou3TlJEmYT1S0srZ-1200-1200-675-675-crop-000000.jpg?v=99478fdbb7",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt39337450",
+  "letterboxd_url": "https://letterboxd.com/film/nightmares-advice/",
+  "overview": "Lucie, une thésarde sans visa de travail et en proie à l’insomnie, est enfermée dans une liaison destructrice avec son directeur de thèse, en plus d’être pourchassée par un ex jaloux. En quête d’aide auprès d’un chaman reclus aux confins de la ville, elle rencontre Béatrice, une jeune femme aussi insouciante qu’elle semble déterminée à lui venir en aide.",
+  "poster": "https://media.themoviedb.org/t/p/w500/8vlFkqGeVtatvPdwpAEzGv7ikdp.jpg",
+  "runtime": 148,
+  "tmdb_id": "1596767",
+  "year": 2026
+ },
+ "cavaliersjustice:2020": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/81/bz/qf/d5/riders-1200-1200-675-675-crop-000000.jpg?v=f8300eaeaf",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt11655202",
+  "letterboxd_rating": 3.85,
+  "letterboxd_url": "https://letterboxd.com/film/riders-of-justice/",
+  "letterboxd_votes": 88869,
+  "overview": "Un militaire déployé, Markus, rentre chez lui au Danemark après le décès de sa femme dans un accident de train. Il doit s'occuper de leur fille adolescente, Mathilde. Bientôt, Markus découvre que le déraillement ferroviaire qui a coûté la vie de sa femme n'est peut-être pas un malheureux accident...",
+  "poster": "https://media.themoviedb.org/t/p/w500/hodjybp8Ih4F9qk7isBW9sA3hJ4.jpg",
+  "runtime": 116,
+  "tmdb_id": "663870",
+  "year": 2020
+ },
  "chateaudarioka": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/bl/kc/7o/27/z5oMoDs6a1GAuK5cNAeBkAr0yk-1200-1200-675-675-crop-000000.jpg?v=789a65f6ee",
   "enriched_at": "2026-09-09",
@@ -395,6 +498,19 @@
   "runtime": 105,
   "tmdb_id": "1244078",
   "year": 2025
+ },
+ "christianef:1981": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/oy/da/zw/za/christiane-1200-1200-675-675-crop-000000.jpg?v=fa9db8038f",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0082176",
+  "letterboxd_rating": 3.88,
+  "letterboxd_url": "https://letterboxd.com/film/christiane-f/",
+  "letterboxd_votes": 253134,
+  "overview": "A teen girl in 1970s Berlin becomes addicted to heroin. Everything in her life slowly begins to distort and disappear as she befriends a small crew of junkies and falls in love with a drug-abusing male prostitute.",
+  "poster": "https://media.themoviedb.org/t/p/w500/me0PVsuNI2yKg9f85QFWCgVliU4.jpg",
+  "runtime": 131,
+  "tmdb_id": "9589",
+  "year": 1981
  },
  "cinemaparadisostaffpicks:1988": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1i/b1/z6/5u/cinema-paradiso-1200-1200-675-675-crop-000000.jpg?v=8efaca6418",
@@ -486,6 +602,20 @@
  "dearyou": {
   "enriched_at": "2026-09-09"
  },
+ "dig:2004": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/yt/ml/74/1p/dig-1200-1200-675-675-crop-000000.jpg?v=44cfb417b7",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0388888",
+  "letterboxd_rating": 4.0,
+  "letterboxd_url": "https://letterboxd.com/film/dig/",
+  "letterboxd_votes": 13452,
+  "overview": "A documentary on the once promising American rock bands The Brian Jonestown Massacre and The Dandy Warhols. The friendship between respective founders, Anton Newcombe and Courtney Taylor, escalated into bitter rivalry as the Dandy Warhols garnered major international success while the Brian Jonestown Massacre imploded in a haze of drugs.",
+  "poster": "https://media.themoviedb.org/t/p/w500/lTE7ODSgIvYUBNhkSnW3qL2h4mi.jpg",
+  "runtime": 107,
+  "tmdb_id": "1843",
+  "wikidata_id": "Q3025746",
+  "year": 2004
+ },
  "dogstars": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mg/jf/b5/t1/dog%20stars-1200-1200-675-675-crop-000000.jpg?v=07cdea3a26",
   "enriched_at": "2026-09-09",
@@ -512,6 +642,19 @@
   "tmdb_id": "553",
   "year": 2003
  },
+ "dollypartonmameremoi:2011": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/7/3/1/3/0/73130-the-year-dolly-parton-was-my-mom-0-230-0-345-crop.jpg?v=8bc9075a79",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt1316624",
+  "letterboxd_rating": 3.28,
+  "letterboxd_url": "https://letterboxd.com/film/the-year-dolly-parton-was-my-mom/",
+  "letterboxd_votes": 491,
+  "overview": "La petite Elizabeth, onze ans, vient d’apprendre qu’elle est adoptée. Convaincue que sa mère biologique n’est nulle autre que la populaire chanteuse country Dolly Parton, elle prend la folle décision d’aller la rejoindre à l’un de ses concerts. Enfourchant son vélo, elle s’embarque alors pour un voyage qui prendra des allures de quête identitaire.",
+  "poster": "https://media.themoviedb.org/t/p/w500/p3vHgcO6gOOvjUsecMzrllW7mem.jpg",
+  "runtime": 95,
+  "tmdb_id": "86507",
+  "year": 2011
+ },
  "douniaprincessedalep:2023": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/7/3/7/1/3/873713-dounia-and-the-princess-of-aleppo-0-230-0-345-crop.jpg?v=fccc63994b",
   "enriched_at": "2026-09-09",
@@ -525,6 +668,22 @@
   "tmdb_id": "970867",
   "year": 2023
  },
+ "educationaumaobama": {
+  "enriched_at": "2026-09-09"
+ },
+ "elegant:2009": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/8/9/1/9/4/1189194-elegant-0-230-0-345-crop.jpg?v=7f76598ee5",
+  "enriched_at": "2026-09-09",
+  "letterboxd_url": "https://letterboxd.com/film/elegant/",
+  "overview": "Parti aux Îles de la madeleine pour donner deux spectacles et tourner un vidéoclip, le groupe Chocolat boit deux bouteilles de whisky de trop et le cours des choses change.",
+  "poster": "https://media.themoviedb.org/t/p/w500/9JtKvlPZOYFMTcBmEw9MFv7XaCs.jpg",
+  "runtime": 85,
+  "tmdb_id": "1307813",
+  "year": 2009
+ },
+ "enavantmusique:1982": {
+  "enriched_at": "2026-09-09"
+ },
  "endoakstreet": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/9/2/9/6/2/tmdb/mJDCrEFKHUqoZe4xyI8CE47pw7P-1200-1200-675-675-crop-000000.jpg?v=8ab201f560",
   "enriched_at": "2026-09-09",
@@ -537,6 +696,9 @@
   "runtime": 100,
   "tmdb_id": "1101383",
   "year": 2026
+ },
+ "enqueteverite:1979": {
+  "enriched_at": "2026-09-09"
  },
  "espoir": {
   "enriched_at": "2026-09-09"
@@ -594,6 +756,17 @@
  },
  "festivalsatellitesprogram2:2026": {
   "enriched_at": "2026-09-09"
+ },
+ "fillesroi:2023": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/6/2/0/9/5/1062095-les-filles-du-roi-0-230-0-345-crop.jpg?v=4371303c1e",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt15485128",
+  "letterboxd_url": "https://letterboxd.com/film/les-filles-du-roi/",
+  "overview": "1665. Louis XIV has seen fit to send a gift to the New World: surplus women to bring succor and support to French settlers in what is now Quebec. Among them is Marie-Jeanne (Julie McIsaac), who immediately falls foul of the matronly Madame Savoie (Claire Johnstone) by making nice with a native Mohawk trader, Jean-Baptiste (Raes Calvert), and his naive young sister Kateri (Kaitlyn Yott).",
+  "poster": "https://media.themoviedb.org/t/p/w500/2JTsVMNf0EarhUHIYlCmjdZ1lPL.jpg",
+  "runtime": 102,
+  "tmdb_id": "1175422",
+  "year": 2023
  },
  "filmpopagridulce:2026": {
   "enriched_at": "2026-09-09"
@@ -696,6 +869,12 @@
   "tmdb_id": "1483527",
   "year": 2026
  },
+ "fromdusktilldawn": {
+  "enriched_at": "2026-09-09"
+ },
+ "furyo": {
+  "enriched_at": "2026-09-09"
+ },
  "gabrielle:2013": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/lh/rv/5j/zo/qbGeHj0oMMoKCHdXPLM5Xi45uwb-1200-1200-675-675-crop-000000.jpg?v=2be566d003",
   "enriched_at": "2026-09-09",
@@ -794,6 +973,9 @@
  "haiwaanhinengsub": {
   "enriched_at": "2026-09-09"
  },
+ "hardboiled": {
+  "enriched_at": "2026-09-09"
+ },
  "heartbeats:2010": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/z9/d8/xx/im/heartbeats-1200-1200-675-675-crop-000000.jpg?v=360434c07a",
   "enriched_at": "2026-09-09",
@@ -848,6 +1030,19 @@
  "hitamengsub": {
   "enriched_at": "2026-09-09"
  },
+ "hommequiment:1968": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/g6/8c/nb/wm/pq8JxWkSfnrdPeou1R7zWBi9ebs-1200-1200-675-675-crop-000000.jpg?v=8f009c012d",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0063080",
+  "letterboxd_rating": 3.56,
+  "letterboxd_url": "https://letterboxd.com/film/the-man-who-lies/",
+  "letterboxd_votes": 1963,
+  "overview": "A man may or may not have betrayed a resistance fighter during World War II. He has supposedly been shot down by the Nazis and wanders into town. Mourning the death of an unseen comrade, he is taken in by the family of the dead rebel. He engages in a superfluous affair and witnesses the lesbian relationship between the man's sister and a female servant. When passions subside, the family has doubts about the reliability of the man's story.",
+  "poster": "https://media.themoviedb.org/t/p/w500/kjcIvZnAegkVMbC7Lj4lR42RwFu.jpg",
+  "runtime": 97,
+  "tmdb_id": "63213",
+  "year": 1968
+ },
  "hope:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/5/4/6/6/3/tmdb/qv2gffpbllYE1Pxz5nhYQmYuht5-1200-1200-675-675-crop-000000.jpg?v=c62374719c",
   "enriched_at": "2026-09-09",
@@ -874,6 +1069,9 @@
   "tmdb_id": "25623",
   "wikidata_id": "Q1132905",
   "year": 1977
+ },
+ "hunger": {
+  "enriched_at": "2026-09-09"
  },
  "ilpaesevillage": {
   "enriched_at": "2026-09-09"
@@ -935,6 +1133,19 @@
   "runtime": 106,
   "tmdb_id": "1291595",
   "year": 2026
+ },
+ "interetdadam:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/6/7/1/5/tmdb/ltpZ8p6WiaMJqFU5Wpsdx6fRT5I-1200-1200-675-675-crop-000000.jpg?v=798025bc98",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt32318707",
+  "letterboxd_rating": 3.38,
+  "letterboxd_url": "https://letterboxd.com/film/adams-sake/",
+  "letterboxd_votes": 8486,
+  "overview": "A head nurse defies hospital rules to let a mother stay with her malnourished son. As they navigate a complex crisis, the nurse's empathy proves just as vital to the boy's healing as medicine.",
+  "poster": "https://media.themoviedb.org/t/p/w500/3hcK2phIRQW5UeeyVr2YLMOEN8U.jpg",
+  "runtime": 78,
+  "tmdb_id": "1293858",
+  "year": 2025
  },
  "interetdadam:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/6/7/1/5/tmdb/ltpZ8p6WiaMJqFU5Wpsdx6fRT5I-1200-1200-675-675-crop-000000.jpg?v=798025bc98",
@@ -1030,6 +1241,19 @@
   "tmdb_id": "1570621",
   "year": 2025
  },
+ "johnnysenvatenguerre:1971": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jh/tk/vz/6f/nNEcfPsdkNomQmHvA9ruyqlEB5J-1200-1200-675-675-crop-000000.jpg?v=fd5f8f6048",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0067277",
+  "letterboxd_rating": 3.98,
+  "letterboxd_url": "https://letterboxd.com/film/johnny-got-his-gun/",
+  "letterboxd_votes": 22362,
+  "overview": "A young American soldier, rendered in pseudocoma from an artillery shell from WWI, recalls his life leading up to that point.",
+  "poster": "https://media.themoviedb.org/t/p/w500/uLkf2Jdzbp3xxgBPD1ljmnxmi0b.jpg",
+  "runtime": 112,
+  "tmdb_id": "16328",
+  "year": 1971
+ },
  "kagemushaombreguerrier:1980": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j5/ws/62/s0/kagemusha-1200-1200-675-675-crop-000000.jpg?v=ef20a6a239",
   "enriched_at": "2026-09-09",
@@ -1042,6 +1266,19 @@
   "runtime": 180,
   "tmdb_id": "11953",
   "year": 1980
+ },
+ "kamikazegirls:2004": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dy/qr/46/nq/kamikaze-girls-1200-1200-675-675-crop-000000.jpg?v=60e133c3b7",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0416220",
+  "letterboxd_rating": 4.26,
+  "letterboxd_url": "https://letterboxd.com/film/kamikaze-girls/",
+  "letterboxd_votes": 95079,
+  "overview": "Momoko, a strange and seemingly emotionless girl obsessed with 18th century France, befriends a Yanki biker and the two experience the ups and downs of their unusual lives in a rural Japanese town.",
+  "poster": "https://media.themoviedb.org/t/p/w500/Aozyw4SIXeMnTC4kFrwqiJgzvbc.jpg",
+  "runtime": 102,
+  "tmdb_id": "26275",
+  "year": 2004
  },
  "kindergartenq:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
@@ -1065,6 +1302,17 @@
   "runtime": 183,
   "tmdb_id": "30959",
   "year": 1965
+ },
+ "labyrinth": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/0/4/4/6/6/1604466-labyrinth-2025-2-0-230-0-345-crop.jpg?v=3339ffe667",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt38128471",
+  "letterboxd_url": "https://letterboxd.com/film/labyrinth-2025-2/",
+  "overview": "A group of strangers are brought together under mysterious circumstances by a nefarious leader to be judged for their past transgressions in a facility designed to test their mettle against a gauntlet of deadly challenges. Most will fall while others find redemption in this action-packed descent into Hell.",
+  "poster": "https://media.themoviedb.org/t/p/w500/iovuh1ZecuLWXROSqXrzk4foWbt.jpg",
+  "runtime": 94,
+  "tmdb_id": "1738359",
+  "year": 2025
  },
  "langueestdonchistoiredamour": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/5/8/0/0/3/8/580038-la-langue-est-donc-une-histoire-d-amour-0-230-0-345-crop.jpg?v=b1b1404e40",
@@ -1148,10 +1396,50 @@
   "tmdb_id": "309809",
   "year": 2015
  },
+ "luisa:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/7/3/9/6/1/1373961-luisa-2025-1-0-230-0-345-crop.jpg?v=97c1290d42",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt13321796",
+  "letterboxd_url": "https://letterboxd.com/film/luisa-2025-1/",
+  "overview": "Luisa recently moved out of her parent's home into a residential group at a facility for people with disabilities on the outskirts of a small German town. There she receives support in her often turbulent everyday life. Unnoticed, Luisa becomes increasingly quiet, everyday life in the residential group continues until it is unexpectedly discovered that Luisa is pregnant. She does not say how this happened and everyone knows that her boyfriend Anton is infertile. Suspicion of sexual abuse is obvious. Luisa decides to terminate the pregnancy. The police are called in and try to find out whether a crime has been committed. The investigation becomes a test of endurance for Luisa, her relationship with Anton and for all the staff at the residential facility.",
+  "poster": "https://media.themoviedb.org/t/p/w500/urJScr7fcPkGOEXbxpqXBJnmBJM.jpg",
+  "runtime": 94,
+  "tmdb_id": "1497740",
+  "year": 2026
+ },
+ "mamanputain:1973": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/r3/zd/ul/nc/d7f7Dq0I5SuevNHVqLwInQq3EBr-1200-1200-675-675-crop-000000.jpg?v=1b85333bb5",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0070359",
+  "letterboxd_rating": 4.15,
+  "letterboxd_url": "https://letterboxd.com/film/the-mother-and-the-whore/",
+  "letterboxd_votes": 23869,
+  "overview": "Aimless young Alexandre juggles his relationships with his girlfriend, Marie, and a casual lover named Veronika. Marie becomes increasingly jealous of Alexandre's fling with Veronika and as the trio continues their unsustainable affair, the emotional stakes get higher, leading to conflict and unhappiness.",
+  "poster": "https://media.themoviedb.org/t/p/w500/vTboNhuETaWuwGAIS2NRmOs8R55.jpg",
+  "runtime": 219,
+  "tmdb_id": "48693",
+  "year": 1973
+ },
  "mandaaditamengsub": {
   "enriched_at": "2026-09-09"
  },
  "mandaaditamil": {
+  "enriched_at": "2026-09-09"
+ },
+ "manwhofelltoearth:1976": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/v3/am/ij/mi/man-1200-1200-675-675-crop-000000.jpg?v=99ebb38991",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0074851",
+  "letterboxd_rating": 3.46,
+  "letterboxd_url": "https://letterboxd.com/film/the-man-who-fell-to-earth/",
+  "letterboxd_votes": 65315,
+  "overview": "Envoyé sur Terre pour trouver un remède au manque d'eau qui décime lentement les habitants de sa planète, un extra-terrestre est confronté à la folie des humains et au souvenir nostalgique d'une femme et de ses deux enfants qui l'attendent.",
+  "poster": "https://media.themoviedb.org/t/p/w500/5TvSWz1SyJ2fOue81IczPhv9zGr.jpg",
+  "runtime": 139,
+  "tmdb_id": "991",
+  "year": 1976
+ },
+ "mariachapdelaine": {
   "enriched_at": "2026-09-09"
  },
  "mariages": {
@@ -1176,6 +1464,9 @@
   "tmdb_id": "148253",
   "year": 2001
  },
+ "marsexpress": {
+  "enriched_at": "2026-09-09"
+ },
  "medecinamericain:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/6/4/9/3/2/tmdb/yzNoanH2Jfn5bj7d6reKeaAbd4S-1200-1200-675-675-crop-000000.jpg?v=0562e8da20",
   "enriched_at": "2026-09-09",
@@ -1199,6 +1490,9 @@
   "runtime": 111,
   "tmdb_id": "1571076",
   "year": 2026
+ },
+ "memoiresprincessemumbi:2025": {
+  "enriched_at": "2026-09-09"
  },
  "memoiresprincessemumbi:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/5/8/8/6/tmdb/knhbKdKeJcDH6SegNC57si0UuGk-1200-1200-675-675-crop-000000.jpg?v=3a8c39d388",
@@ -1345,6 +1639,9 @@
   "tmdb_id": "108433",
   "year": 1994
  },
+ "newnewautrenouvellevagueanimationindependantejaponaise": {
+  "enriched_at": "2026-09-09"
+ },
  "nightlivingdead:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j1/z4/q2/vi/bhgMBDnjG9tIVE3RNCD9YeNJHq5-1200-1200-675-675-crop-000000.jpg?v=42c7601897",
   "enriched_at": "2026-09-09",
@@ -1439,6 +1736,17 @@
   "poster": "https://media.themoviedb.org/t/p/w500/7QXCmstJ6QVumoyt2v6qsyJYeCF.jpg",
   "runtime": 173,
   "tmdb_id": "1368337",
+  "year": 2026
+ },
+ "onceupontimehollywood": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/2/1/3/7/3/1621373-paranormal-hollywood-haunting-0-230-0-345-crop.jpg?v=cd004123d7",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt43452614",
+  "letterboxd_url": "https://letterboxd.com/film/paranormal-hollywood-haunting/",
+  "overview": "British paranormal investigators explore a Hollywood mansion, uncovering true story of couple Daniel and Arthur, whose journey from homelessness to Hollywood history explores LGBTQ identity, resilience, and unexplained supernatural events.",
+  "poster": "https://media.themoviedb.org/t/p/w500/1EsLqcBBe03FrfTkZKtEE7vOlpw.jpg",
+  "runtime": 93,
+  "tmdb_id": "1756543",
   "year": 2026
  },
  "onenightonly": {
@@ -1557,6 +1865,19 @@
   "tmdb_id": "1185806",
   "year": 2026
  },
+ "perdants": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/9/6/3/1/0/1296310-a-losing-game-2025-0-230-0-345-crop.jpg?v=bc4e8c51c8",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt35974089",
+  "letterboxd_rating": 3.49,
+  "letterboxd_url": "https://letterboxd.com/film/a-losing-game-2025/",
+  "letterboxd_votes": 215,
+  "overview": "Les perdants suit trois candidat·es aux élections provinciales d’octobre 2022. Leur point commun: une défaite assurée. À travers leurs campagnes respectives, le film décortique le système électoral et ses nombreux dysfonctionnements: difficultés supplémentaires pour les femmes et les personnes racisées, mode de scrutin déficient, financement inéquitable, poids des médias et des sondages...",
+  "poster": "https://media.themoviedb.org/t/p/w500/jfNIMsxarLBbQbzg29RDpgVgVqR.jpg",
+  "runtime": 98,
+  "tmdb_id": "1415512",
+  "year": 2025
+ },
  "perfectblue:1997": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jf/e4/gt/jx/mHG7dpLb0ZScSY3LpP443IHRmjy-1200-1200-675-675-crop-000000.jpg?v=363b875554",
   "enriched_at": "2026-09-09",
@@ -1569,6 +1890,22 @@
   "runtime": 81,
   "tmdb_id": "10494",
   "year": 1998
+ },
+ "perspectivessourdestourne": {
+  "enriched_at": "2026-09-09"
+ },
+ "petitevieux": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/7/1/2/1081712-blue-sky-jo-0-230-0-345-crop.jpg?v=9dc98a6baf",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt33327831",
+  "letterboxd_rating": 3.44,
+  "letterboxd_url": "https://letterboxd.com/film/blue-sky-jo/",
+  "letterboxd_votes": 666,
+  "overview": "Hélène, se fait appeler Jo parce qu’elle veut être comme Joséphine La Petite Mousquetaire, héroïne de son dessin animé préféré. Malgré ses 10 ans, la jeune fille est déterminée à sauver son père du travail et du malheur. En cours de route, elle rencontre son voisin Roger, un vieil homme bourru qui cache un cœur tendre.",
+  "poster": "https://media.themoviedb.org/t/p/w500/2NWpOWfOe1x2vBW4DDfumY43UiV.jpg",
+  "runtime": 105,
+  "tmdb_id": "1196668",
+  "year": 2024
  },
  "philadelphiastory:1940": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fb/5g/0b/qp/the-philadelphia-story-1200-1200-675-675-crop-000000.jpg?v=0700316506",
@@ -1595,6 +1932,29 @@
   "poster": "https://media.themoviedb.org/t/p/w500/r4ojLMrDK22ov9OXHsYrI3bFC1J.jpg",
   "runtime": 85,
   "tmdb_id": "1705113",
+  "year": 2026
+ },
+ "plusprecieusemarchandises:2024": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/oy/vn/qg/15/TheMostPrecious1-1200-1200-675-675-crop-000000.jpg?v=5e7ed0bf25",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt10462154",
+  "letterboxd_rating": 3.8,
+  "letterboxd_url": "https://letterboxd.com/film/the-most-precious-of-cargoes/",
+  "letterboxd_votes": 29573,
+  "overview": "Once upon a time, a poor woodcutter and his wife lived in a great forest. Cold, hunger, poverty, and a war raging all around them meant their lives were very hard. One day, the woodcutter's wife rescues a baby. A baby girl thrown from one of the many trains that constantly pass through the forest. This baby, this \"most precious of cargoes\", will transform the lives of the poor woodcutter's wife and her husband, as well as those whose paths the child will cross—including the man who threw her from the train. And some will try to protect her, whatever the cost. Their story will reveal the worst and the best in the hearts of men.",
+  "poster": "https://media.themoviedb.org/t/p/w500/tPakN7T2T6VHd3Q7kPmASbHfq9P.jpg",
+  "runtime": 81,
+  "tmdb_id": "842859",
+  "year": 2024
+ },
+ "plusriennestegalparailleurs:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/1/4/5/6/6/1514566-all-things-are-no-longer-equal-0-230-0-345-crop.jpg?v=48ebb1dd29",
+  "enriched_at": "2026-09-09",
+  "letterboxd_url": "https://letterboxd.com/film/all-things-are-no-longer-equal/",
+  "overview": "Blending video art, documentary and music video, Martin Bureau’s film explores the abuses of Western society, at once ravaged by late-stage capitalism and unable to free itself from it. A visceral image and sound experience, All Things Are No Longer Equal juxtaposes an aesthetic of excess and domination with the measured critical commentary of philosopher Alain Deneault, calling for reinvented forms of collective and local solidarity.",
+  "poster": "https://media.themoviedb.org/t/p/w500/lhFEamogpHvVfUcTEoeEv2u7FRz.jpg",
+  "runtime": 66,
+  "tmdb_id": "1650665",
   "year": 2026
  },
  "possession:1981": {
@@ -1636,6 +1996,9 @@
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-09"
  },
+ "quebecduplessisapres": {
+  "enriched_at": "2026-09-09"
+ },
  "rashomon:1950": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fj/p1/fz/8h/rashomon-1200-1200-675-675-crop-000000.jpg?v=be65ddef83",
   "enriched_at": "2026-09-09",
@@ -1665,6 +2028,19 @@
   "tmdb_id": "1705737",
   "wikidata_id": "Q140484908",
   "year": null
+ },
+ "regarddulysse:1995": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9o/xn/pn/3u/ulysses%20gaze-1200-1200-675-675-crop-000000.jpg?v=b7e515a0d5",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0114863",
+  "letterboxd_rating": 4.15,
+  "letterboxd_url": "https://letterboxd.com/film/ulysses-gaze/",
+  "letterboxd_votes": 12768,
+  "overview": "An exiled filmmaker finally returns to his home country where former mysteries and afflictions of his early life come back to haunt him once more.",
+  "poster": "https://media.themoviedb.org/t/p/w500/tPy53dgQZ9kblr9NgPwd2vkMJ7f.jpg",
+  "runtime": 169,
+  "tmdb_id": "22549",
+  "year": 1995
  },
  "renversement:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/8/4/1/9/1/1584191-un-renversement-0-230-0-345-crop.jpg?v=61a7121ab2",
@@ -1829,6 +2205,19 @@
   "tmdb_id": "989246",
   "year": 2025
  },
+ "shame:1968": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tx/j8/e2/uo/shame-1200-1200-675-675-crop-000000.jpg?v=fa06b92886",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0063611",
+  "letterboxd_rating": 4.21,
+  "letterboxd_url": "https://letterboxd.com/film/shame/",
+  "letterboxd_votes": 32727,
+  "overview": "In the midst of a civil war, a pair of former violinists in a tempestuous marriage oversee a farm on a rural island. In spite of their best efforts to escape their homeland, the war impinges on every aspect of their lives.",
+  "poster": "https://media.themoviedb.org/t/p/w500/uBPneouZtSjvijCJhDdcbPkof4E.jpg",
+  "runtime": 104,
+  "tmdb_id": "26372",
+  "year": 1968
+ },
  "sheepdetectives": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/76/w9/hj/wo/g6uEVedSBXsZ3QuXKP4WDCeSsOy%20(1)-1200-1200-675-675-crop-000000.jpg?v=08bcff0341",
   "enriched_at": "2026-09-09",
@@ -1870,6 +2259,17 @@
  },
  "singhvskaur2": {
   "enriched_at": "2026-09-09"
+ },
+ "sphinx:1995": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/8/0/5/0/4/280504-le-sphinx-0-230-0-345-crop.jpg?v=183ccda635",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0114510",
+  "letterboxd_url": "https://letterboxd.com/film/le-sphinx/",
+  "overview": "Lors d'une soirée entre collègues au Solid Gold, Réal, employé de bureau sans histoire, tombe follement amoureux de la belle Angie, la danseuse de la place. Elle deviendra pour lui, la principale motivation de sa nouvelle vie, celle de stand-up comique adulé. Réal est enfin sûr de lui et peut se tenir debout devant Carbone, le patron de la mafia locale.",
+  "poster": "https://media.themoviedb.org/t/p/w500/mloVsyBhUoV9VAoGwMUwLqFqaUd.jpg",
+  "runtime": 115,
+  "tmdb_id": "350593",
+  "year": 1995
  },
  "spidermanbrandnewday": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/8/7/2/8/7/1/tmdb/jenQoCLJ4FEfFGZS13op91jlxjy-1200-1200-675-675-crop-000000.jpg?v=131b9e91eb",
@@ -1974,6 +2374,19 @@
   "runtime": 112,
   "tmdb_id": "10239",
   "year": 1998
+ },
+ "tangerine:2015": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/4z/4t/br/tu/tangerine-1200-1200-675-675-crop-000000.jpg?v=afe3b48bc2",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt3824458",
+  "letterboxd_rating": 3.87,
+  "letterboxd_url": "https://letterboxd.com/film/tangerine/",
+  "letterboxd_votes": 258084,
+  "overview": "It's Christmas Eve in Tinseltown and Sin-Dee is back on the block. Upon hearing that her pimp boyfriend hasn't been faithful during the 28 days she was locked up, the working girl and her best friend, Alexandra, embark on a mission to get to the bottom of the scandalous rumor. Their rip-roaring odyssey leads them through various subcultures of Los Angeles, including an Armenian family dealing with their own repercussions of infidelity.",
+  "poster": "https://media.themoviedb.org/t/p/w500/eI6j5vtu3dTCxEpDiJCixtEeSLx.jpg",
+  "runtime": 87,
+  "tmdb_id": "308084",
+  "year": 2015
  },
  "teenagesexdeathatcampmiasma:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7m/h0/iq/dx/5dbLRlAeIh4U3hyj4i4S4shv9AW-1200-1200-675-675-crop-000000.jpg?v=4f87c8fe02",
@@ -2104,6 +2517,22 @@
   "tmdb_id": "1458823",
   "year": 2026
  },
+ "uzumaki:2000": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kr/ig/46/3t/spiral-1200-1200-675-675-crop-000000.jpg?v=8a1914fa13",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0244870",
+  "letterboxd_rating": 3.05,
+  "letterboxd_url": "https://letterboxd.com/film/uzumaki-2000/",
+  "letterboxd_votes": 26880,
+  "overview": "The inhabitants of a small Japanese town become increasingly obsessed with and tormented by spirals.",
+  "poster": "https://media.themoviedb.org/t/p/w500/dS5ZG1qgjCIZWO1OvJOhbG46PaL.jpg",
+  "runtime": 90,
+  "tmdb_id": "11366",
+  "year": 2000
+ },
+ "vampirehumanistecherchesuicidaireconsentant": {
+  "enriched_at": "2026-09-09"
+ },
  "vertige2": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/9/3/2/4/7/tmdb/iAlOJ7KUyZffBJBHf8nhXlrqGdY-1200-1200-675-675-crop-000000.jpg?v=4df19174ba",
   "enriched_at": "2026-09-09",
@@ -2156,6 +2585,32 @@
   "tmdb_id": "837",
   "year": 1983
  },
+ "viking": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/8/0/1/7/tmdb/dcf2MSKj9wW074jXP7cljI78gMC-1200-1200-675-675-crop-000000.jpg?v=a99194ece6",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt27817389",
+  "letterboxd_rating": 3.67,
+  "letterboxd_url": "https://letterboxd.com/film/the-last-viking-2025/",
+  "letterboxd_votes": 51213,
+  "overview": "After serving fourteen years for robbery, Anker is released from prison and reunites with his mentally ill brother Manfred, who alone knows where the stolen money is hidden but has forgotten its location, sending them on a journey to recover the loot and confront who they are.",
+  "poster": "https://media.themoviedb.org/t/p/w500/fFSKEBs290DW26mrKckObHwU5Sm.jpg",
+  "runtime": 116,
+  "tmdb_id": "1295400",
+  "year": 2025
+ },
+ "villesansjuifs:1924": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/7/3/7/0/67370-the-city-without-jews-0-230-0-345-crop.jpg?v=db3d80fa8f",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0016392",
+  "letterboxd_rating": 3.29,
+  "letterboxd_url": "https://letterboxd.com/film/the-city-without-jews/",
+  "letterboxd_votes": 580,
+  "overview": "In the Republic of Utopia, because of the bad economic crisis ailing the nation, the Jews are made the scapegoats for the economic and social ills affecting the population; therefore, the government decides to expel them. Leo Strakosch is among the exiled. He is engaged to Counsellor's Linder's daughter. He gets into the Republic, in a clandestine way, to show to the society the wrongness of their anti-semitic prejudice. Bettauer's novel differs essentially from the film version. \"Vienna\" was named \"Utopia.\" Even a happy ending was provided.",
+  "poster": "https://media.themoviedb.org/t/p/w500/7iEb9qQuQuuoRh8Op3WroHMvuLl.jpg",
+  "runtime": 87,
+  "tmdb_id": "80881",
+  "year": 1924
+ },
  "vincentprophetiemers:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/6/0/1/8/5/0/tmdb/l57zMmISH0SCWsXR7iorceZTm8y-1200-1200-675-675-crop-000000.jpg?v=6d79fc3d28",
   "enriched_at": "2026-09-09",
@@ -2189,6 +2644,23 @@
   "year": 2025
  },
  "wallacegromitclassicshorts:1996": {
+  "enriched_at": "2026-09-09"
+ },
+ "wrong:2012": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0c/ie/fz/9l/wrong-1200-1200-675-675-crop-000000.jpg?v=648ff8ca5f",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt1901040",
+  "letterboxd_rating": 3.33,
+  "letterboxd_url": "https://letterboxd.com/film/wrong/",
+  "letterboxd_votes": 16803,
+  "overview": "Dolph Springer wakes up one morning to realize he has lost the love of his life, his dog, Paul. During his quest to get Paul (and his life) back, Dolph radically changes the lives of others -- risking his sanity all the while.",
+  "poster": "https://media.themoviedb.org/t/p/w500/j3dkb0o5wPoDmAG4Rqeo1S6p7EN.jpg",
+  "runtime": 93,
+  "tmdb_id": "83186",
+  "wikidata_id": "Q129874",
+  "year": 2012
+ },
+ "ziggystardustspidersfrommars:1979": {
   "enriched_at": "2026-09-09"
  }
 }

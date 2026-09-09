@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-09T19:26:13+00:00",
+ "generated_at": "2026-09-09T20:38:16+00:00",
  "counts": {
-  "movies": 202,
-  "venues": 25,
-  "showtimes": 7516
+  "movies": 254,
+  "venues": 26,
+  "showtimes": 7605
  },
  "sources": [
   {
@@ -11,50 +11,57 @@
    "ok": true,
    "screenings": 421,
    "venues": 3,
-   "seconds": 53.2
+   "seconds": 84.3
   },
   {
    "source": "cinemamoderne",
    "ok": true,
    "screenings": 66,
    "venues": 1,
-   "seconds": 5.5
+   "seconds": 3.2
   },
   {
    "source": "ticketacces",
    "ok": true,
-   "screenings": 32,
+   "screenings": 34,
    "venues": 2,
-   "seconds": 23.3
+   "seconds": 11.2
   },
   {
    "source": "cineplex",
    "ok": true,
-   "screenings": 4561,
+   "screenings": 4484,
    "venues": 11,
-   "seconds": 55.9
+   "seconds": 37.0
   },
   {
    "source": "cinestarz",
    "ok": true,
    "screenings": 2420,
    "venues": 7,
-   "seconds": 25.4
+   "seconds": 26.5
   },
   {
    "source": "guzzo",
    "ok": true,
    "screenings": 16,
    "venues": 1,
-   "seconds": 2.0
+   "seconds": 1.1
   },
   {
    "source": "cinematheque",
+   "ok": true,
+   "screenings": 164,
+   "venues": 1,
+   "seconds": 37.3
+  },
+  {
+   "source": "outremont",
    "ok": false,
    "screenings": 0,
    "venues": 0,
-   "error": "RuntimeError: cinematheque: pages fetched but no screening times in HTML (this venue publishes times outside the markup); outremont: GET https://theatreoutremont.ca/evenements/ failed after 2 tries: HTTP Error 404: Not Found",
-   "seconds": 150.2
+   "error": "RuntimeError: 5 cinema events listed, none with a start time (their programme prints dates only; times live in the Tuxedo ticketing app, which renders them in JavaScript)",
+   "seconds": 3.9
   }
  ]
 }
