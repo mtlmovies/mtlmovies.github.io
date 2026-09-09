@@ -95,8 +95,11 @@ jobs:
           mkdir -p _site/data
           cp site/index.html site/app.js site/styles.css _site/
           cp data/index.json data/status.json _site/data/
+          # Crawlable film / cinema / theme pages, regenerated every build.
+          if [ -d pages ]; then cp -r pages/. _site/; fi
           touch _site/.nojekyll
           du -h _site/data/index.json
+          echo "static pages: $(find _site -name index.html | wc -l)"
 
       - uses: actions/upload-pages-artifact@v3
         with:

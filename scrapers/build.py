@@ -20,6 +20,7 @@ import traceback
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "data")
+PAGES = os.path.join(ROOT, "pages")
 sys.path.insert(0, HERE)
 
 from common import (SPECIAL_WEIGHTS, Screening, Venue, clean, derive_tags, log,
@@ -354,6 +355,19 @@ def main():
         "movies": movies,
         "sources": report,
     }
+
+    # Crawlable pages first: it assigns each film and venue its permanent slug,
+    # which then travels in index.json so the app can link to them.
+    try:
+        import shutil
+
+        import pages as page_gen
+        shutil.rmtree(PAGES, ignore_errors=True)
+        os.makedirs(PAGES, exist_ok=True)
+        n_pages = page_gen.build(payload, PAGES)
+        log(f"[build] generated {n_pages} static pages")
+    except Exception as e:  # noqa: BLE001
+        log(f"[build] static pages skipped: {e}")
 
     out = os.path.join(DATA, "index.json")
     with open(out, "w", encoding="utf-8") as f:
