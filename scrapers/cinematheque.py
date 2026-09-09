@@ -1,15 +1,20 @@
-"""Cinémathèque québécoise + Théâtre Outremont.
+"""Cinémathèque québécoise + Théâtre Outremont — best-effort.
 
-Both sit behind Cloudflare, which rate-limits or blocks some networks outright.
-The adapter therefore:
+Both are reachable from GitHub runners (they 403 or reset from other networks),
+but neither publishes screening *times* as HTML today:
 
-  1. tries schema.org JSON-LD first (cheapest and most reliable when present);
-  2. falls back to parsing French date + time pairs out of the page text;
-  3. degrades gracefully — a venue it cannot reach is reported in status.json
-     rather than failing the whole build.
+  * Cinémathèque québécoise — film pages carry rich metadata (director, country,
+    year, format, cycle, synopsis) and a schema.org Event with a `startDate`,
+    but the date has no time component. The actual grid is published only as a
+    monthly PDF (`/workspace/uploads/files/grille_<mon><yy>.pdf`).
+  * Théâtre Outremont — the programme page exposes only a WebPage JSON-LD; the
+    individual shows live under /spectacles/ and list no times in markup.
 
-`python3 scrapers/probe.py` dumps what these URLs actually return from the
-current network, which is how to iterate on the parsers.
+So this adapter parses schema.org ScreeningEvent/Event with a real time when it
+is present, falls back to French "date + time" pairs in the page text, and
+otherwise reports itself unavailable. The build treats that as a skipped source,
+never a failure. If either venue starts publishing times in HTML, this begins
+working with no changes.
 """
 
 from __future__ import annotations
@@ -267,7 +272,10 @@ def fetch() -> tuple[list[Venue], list[Screening]]:
             log(f"[cinematheque] {cfg['venue'].short_name}: {len(got)} showtimes")
         else:
             if err is None:
-                problems.append(f"{key}: no showtimes parsed")
+                problems.append(
+                    f"{key}: pages fetched but no screening times in HTML "
+                    f"(this venue publishes times outside the markup)"
+                )
             log(f"[cinematheque] {cfg['venue'].short_name}: unavailable")
 
     if not screenings:

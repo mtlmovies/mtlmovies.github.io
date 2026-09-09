@@ -270,11 +270,17 @@ def fetch_org(org_key: str) -> tuple[list[Venue], list[Screening]]:
     return cfg["venues"], screenings
 
 
+# Cinéma Moderne has its own richer adapter (cinemamoderne.py) which falls back
+# to fetch_org("moderne") here; only Cinéma Public is scraped from this module
+# directly, so the two never produce duplicate screenings.
+DIRECT_ORGS = ["public"]
+
+
 def fetch() -> tuple[list[Venue], list[Screening]]:
     venues: list[Venue] = []
     screenings: list[Screening] = []
     errors = []
-    for key in ORGS:
+    for key in DIRECT_ORGS:
         try:
             v, s = fetch_org(key)
             venues.extend(v)

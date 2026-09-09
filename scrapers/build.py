@@ -26,6 +26,7 @@ from common import Screening, Venue, clean, log, parse_version, title_key, today
 
 ADAPTERS = [
     "cinemacinema",
+    "cinemamoderne",
     "ticketacces",
     "cineplex",
     "cinestarz",

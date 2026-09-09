@@ -30,17 +30,23 @@ result to `data/`, and redeploys a static site to GitHub Pages. No server, no da
 | **Cinéma du Parc** | cinemacinema.ca | SvelteKit `__data.json` |
 | **Cinéma Beaubien** | cinemacinema.ca | SvelteKit `__data.json` |
 | **Cinéma du Musée** | cinemacinema.ca | SvelteKit `__data.json` |
-| **Cinéma Moderne** | TicketAcces | server-rendered HTML |
+| **Cinéma Moderne** | cinemamoderne.com (TicketAcces fallback) | month calendar HTML |
 | **Cinéma Public** (Casa d'Italia + Le Livart) | TicketAcces | server-rendered HTML |
 | **Cinéma Banque Scotia**, **Forum**, **Quartier Latin**, **Starcité**, **Carrefour Angrignon**, **Royalmount**, **Kirkland**, **Laval**, **Brossard**, **Saint-Bruno**, **Vaudreuil** | Cineplex public API | JSON |
 | **Ciné Starz** ×7 (Côte-des-Neiges, Cavendish, Des Sources, Lacordaire, Saint-Laurent, Longueuil, Taschereau) | cinestarz.ca | HTML |
 | **Cinémas Guzzo — Méga-Plex Terrebonne 14** | cinemasguzzo.com | HTML |
 | **Cinémathèque québécoise**, **Théâtre Outremont** | own sites | best-effort (see below) |
 
-> **Cinémathèque québécoise and Théâtre Outremont sit behind Cloudflare.** They are
-> implemented and attempted on every run; when a run cannot reach them the build
-> still succeeds and the failure is reported in `data/status.json` and in the
-> Action's step summary. `scrapers/probe.py` shows exactly what the runner sees.
+> **Cinémathèque québécoise and Théâtre Outremont do not publish screening times
+> in HTML.** Both are reachable from GitHub runners, and their pages are parsed on
+> every run, but the Cinémathèque publishes its grid only as a monthly PDF and
+> Outremont's programme carries no times in markup. They are reported as skipped
+> in `data/status.json`, in the Action summary and in the site footer, and will
+> start working unchanged if either publishes times. Everything else still builds.
+>
+> Run `scrapers/probe.py` to see what a given network can reach, and the
+> **Dump source HTML** workflow to pull a venue's real markup down as an artifact
+> for parser work (several venues reset connections from non-runner networks).
 
 ## Run it locally
 
@@ -105,7 +111,8 @@ days, so a daily run only looks up films it has never seen.
 scrapers/
   common.py        HTTP, version/time parsing, Venue + Screening models
   cinemacinema.py  Parc · Beaubien · Musée
-  ticketacces.py   Moderne · Public
+  cinemamoderne.py Cinéma Moderne (own calendar)
+  ticketacces.py   Cinéma Public (+ Moderne fallback)
   cineplex.py      Cineplex circuit
   cinestarz.py     Ciné Starz
   guzzo.py         Guzzo Terrebonne
