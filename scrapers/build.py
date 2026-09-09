@@ -34,6 +34,7 @@ ADAPTERS = [
     "cinestarz",
     "guzzo",
     "cinematheque",
+    "outremont",
 ]
 
 
