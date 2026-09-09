@@ -1,0 +1,113 @@
+name: Refresh showtimes & deploy
+
+on:
+  schedule:
+    # 05:00 America/Toronto. 09:00 UTC is 5am EDT, 10:00 UTC is 5am EST.
+    # Both fire year-round; the build is idempotent and the second run of the
+    # day simply finds nothing new to commit.
+    - cron: "0 9 * * *"
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+    inputs:
+      skip_enrichment:
+        description: "Skip Letterboxd / IMDb rating lookups (much faster)"
+        type: boolean
+        default: false
+      only:
+        description: "Comma-separated adapters to run (blank = all)"
+        type: string
+        default: ""
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/refresh.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # A code-only push just redeploys the site with the data already in the
+      # repo; scheduled and manual runs scrape fresh showtimes first.
+      - name: Should we scrape?
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "scrape=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "scrape=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Probe source reachability
+        if: steps.mode.outputs.scrape == 'true'
+        continue-on-error: true
+        run: python3 scrapers/probe.py
+
+      - name: Build dataset
+        if: steps.mode.outputs.scrape == 'true'
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          SKIP_ENRICH: ${{ inputs.skip_enrichment }}
+          ONLY: ${{ inputs.only }}
+        run: |
+          set -o pipefail
+          ARGS=""
+          [ "$SKIP_ENRICH" = "true" ] && ARGS="$ARGS --no-enrich"
+          [ -n "$ONLY" ] && ARGS="$ARGS --only $ONLY"
+          echo "python3 scrapers/build.py $ARGS"
+          python3 scrapers/build.py $ARGS
+
+      - name: Step summary
+        if: always() && steps.mode.outputs.scrape == 'true'
+        run: python3 scrapers/summary.py >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit refreshed data
+        if: steps.mode.outputs.scrape == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "data: refresh showtimes $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site/data
+          cp site/index.html site/app.js site/styles.css _site/
+          cp data/index.json data/status.json _site/data/
+          touch _site/.nojekyll
+          du -h _site/data/index.json
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

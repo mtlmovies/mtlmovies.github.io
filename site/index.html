@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Montréal Cinéma — toutes les séances en salle</title>
+<meta name="description" content="Toutes les séances de cinéma à Montréal : cinémas de répertoire, classiques, restaurations et grandes salles. Filtrez par jour, quartier, langue et format.">
+<meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)">
+<meta property="og:title" content="Montréal Cinéma">
+<meta property="og:description" content="Toutes les séances de cinéma à Montréal, en un seul endroit.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%8E%9E%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="./data/index.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="brand">
+    <svg class="brand-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="2.5" y="5.5" width="19" height="13" rx="2.5"/>
+      <path d="M2.5 9h19M2.5 15h19M7 5.5v13M17 5.5v13"/>
+    </svg>
+    Montréal Cinéma
+  </div>
+
+  <div class="search">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+      <circle cx="7" cy="7" r="4.2"/><path d="m10.2 10.2 3.3 3.3"/>
+    </svg>
+    <input id="q" type="search" placeholder="Titre, réalisateur, acteur…  (/)" aria-label="Rechercher un film" autocomplete="off" spellcheck="false">
+    <button class="search-clear" aria-label="Effacer">✕</button>
+  </div>
+
+  <button class="icon-btn" id="theme" aria-label="Changer le thème" title="Thème clair / sombre">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="8" cy="8" r="3.2"/><path d="M8 1v1.6M8 13.4V15M15 8h-1.6M2.6 8H1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1M12.9 12.9l-1.1-1.1M4.2 4.2 3.1 3.1"/>
+    </svg>
+  </button>
+</header>
+
+<nav class="filters" aria-label="Filtres">
+  <div class="daystrip" id="daystrip" role="group" aria-label="Choisir une date"></div>
+  <div class="chips" id="chips">
+    <button class="chip" data-tag="classic" aria-pressed="false">Classiques</button>
+    <button class="chip" data-tag="restoration" aria-pressed="false">Restaurations</button>
+    <button class="chip" data-tag="celluloid" aria-pressed="false">Pellicule 35&nbsp;mm</button>
+    <button class="chip" id="f-indie" aria-pressed="false">Cinémas indépendants</button>
+    <button class="chip" data-lang="fr" aria-pressed="false">Version française</button>
+    <button class="chip" data-lang="en" aria-pressed="false">Version anglaise</button>
+    <button class="chip" data-lang="vo-st" aria-pressed="false">Sous-titré</button>
+
+    <select class="chip-select" id="f-venue" aria-label="Cinéma"></select>
+    <select class="chip-select" id="f-hood" aria-label="Quartier"></select>
+    <select class="chip-select" id="f-genre" aria-label="Genre"></select>
+    <select class="chip-select" id="f-sort" aria-label="Trier">
+      <option value="relevance">Suggéré</option>
+      <option value="soonest">Prochaine séance</option>
+      <option value="rating">Mieux noté</option>
+      <option value="year">Plus récent</option>
+      <option value="title">Titre (A→Z)</option>
+    </select>
+
+    <button class="filters-reset" id="f-reset">Réinitialiser</button>
+  </div>
+</nav>
+
+<section class="hero" id="hero" hidden></section>
+
+<main id="content">
+  <div class="section">
+    <div class="grid">
+      <div class="skeleton" style="aspect-ratio:2/3"></div>
+      <div class="skeleton" style="aspect-ratio:2/3"></div>
+      <div class="skeleton" style="aspect-ratio:2/3"></div>
+      <div class="skeleton" style="aspect-ratio:2/3"></div>
+      <div class="skeleton" style="aspect-ratio:2/3"></div>
+      <div class="skeleton" style="aspect-ratio:2/3"></div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <span id="meta">Chargement…</span>
+  <span>·</span>
+  <span>Données agrégées depuis les sites des cinémas · notes&nbsp;: Letterboxd, IMDb, Rotten&nbsp;Tomatoes</span>
+  <span>·</span>
+  <a href="https://github.com/RodolpheKouyoumdjian/mtlmovies">Code source</a>
+  <span>·</span>
+  <span>Fait pour soutenir les salles de Montréal 🎞️</span>
+</footer>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-label="Détails du film">
+  <div class="modal-scrim"></div>
+  <div class="modal-panel" id="modal-content"></div>
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
