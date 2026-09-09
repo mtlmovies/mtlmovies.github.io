@@ -67,7 +67,16 @@
       </svg>
       <span id="fbtn-label"></span><b id="fbtn-count" hidden>0</b>
     </button>
-    <div class="sel" id="f-sort"></div>
+    <span class="chipsep"></span>
+    <div class="sortchips" id="sortchips" role="group">
+      <button class="chip" data-sort="relevance" aria-pressed="true"></button>
+      <button class="chip" data-sort="rating"></button>
+      <button class="chip" data-sort="soonest"></button>
+      <button class="chip" data-sort="decade"></button>
+      <button class="chip" data-sort="director"></button>
+      <button class="chip" data-sort="year"></button>
+      <button class="chip" data-sort="title"></button>
+    </div>
     <span class="grow"></span>
     <div class="viewtoggle" role="group">
       <button type="button" id="view-grid" data-view="grid" aria-pressed="true" aria-label="Grid">

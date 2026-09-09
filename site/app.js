@@ -754,6 +754,12 @@ function paintSelect(key, keepFocus) {
 
 function placeSelect(key) {
   const s = SELECTS[key];
+  if (window.matchMedia("(max-width: 720px)").matches) {
+    // CSS pins it as a sheet above the filter panel; clear any desktop coords.
+    s.pop.style.left = s.pop.style.top = s.pop.style.bottom = "";
+    s.pop.querySelector(".sel-list").style.maxHeight = "";
+    return;
+  }
   const btn = s.host.querySelector(".sel-btn");
   const r = btn.getBoundingClientRect();
   const vw = window.innerWidth, vh = window.innerHeight;
@@ -870,19 +876,7 @@ function buildFilters() {
       [...countGenre.entries()].sort((a, b) => a[0].localeCompare(b[0], locale()))
         .map(([g, c]) => ({ value: g, label: g, count: c }))),
   });
-  makeSelect($("#f-sort"), {
-    key: "sort", label: t("sort"),
-    options: [
-      { value: "relevance", label: t("sortRelevance") },
-      { value: "soonest", label: t("sortSoonest") },
-      { value: "rating", label: t("sortRating") },
-      { value: "year", label: t("sortYear") },
-      { value: "oldest", label: t("sortOldest") },
-      { value: "decade", label: t("sortDecade") },
-      { value: "director", label: t("sortDirector") },
-      { value: "title", label: t("sortTitle") },
-    ],
-  });
+
 }
 
 function paintStatic() {
@@ -905,6 +899,11 @@ function paintStatic() {
     tn.querySelector(".lg").textContent = t("tonightCta");
     tn.querySelector(".sm").textContent = t("tonight");
   }
+  const SORT_LABELS = {
+    relevance: "sortRelevance", rating: "sortRating", soonest: "sortSoonest",
+    decade: "sortDecade", director: "sortDirector", year: "sortYear", title: "sortTitle",
+  };
+  $$("#sortchips [data-sort]").forEach((b) => { b.textContent = t(SORT_LABELS[b.dataset.sort]); });
   $("#fbtn-label").textContent = t("filters");
   $("#fpanel-title").textContent = t("filters");
   $("#fg-format").textContent = t("fgFormat");
@@ -985,6 +984,9 @@ function wire() {
       document.getElementById("content")?.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
+
+    const sc = e.target.closest("[data-sort]");
+    if (sc) { state.sort = sc.dataset.sort; syncChips(); render(); return; }
 
     const chip = e.target.closest("[data-tag],[data-langv],[data-time],[data-range],#chip-indie");
     if (chip) {
@@ -1076,7 +1078,7 @@ function wire() {
 function activeFilterCount() {
   return state.tags.size + (state.time ? 1 : 0) + (state.language ? 1 : 0) +
     (state.indie ? 1 : 0) + (state.venue ? 1 : 0) + (state.hood ? 1 : 0) +
-    (state.genre ? 1 : 0) + (state.sort !== "relevance" ? 1 : 0);
+    (state.genre ? 1 : 0);
 }
 
 function placePanel() {
@@ -1114,6 +1116,8 @@ function syncChips() {
   $$("[data-range]").forEach((b) => b.setAttribute("aria-pressed", String(state.range === "week")));
   $("#chip-indie").setAttribute("aria-pressed", String(state.indie));
   $("#chip-tonight")?.setAttribute("aria-pressed", String(!!state.tonight));
+  $$("#sortchips [data-sort]").forEach((b) =>
+    b.setAttribute("aria-pressed", String(state.sort === b.dataset.sort)));
 
   const n = activeFilterCount();
   const badge = $("#fbtn-count");

@@ -904,3 +904,32 @@ html { overflow-x: clip; }
 
 /* The sort control sits in the bar; make its purpose legible. */
 #f-sort .sel-btn { max-width: 230px; }
+
+/* ===================================================== mobile filter fixes */
+
+/* The select popovers open from inside the filter sheet, so they must stack
+   above it — at z-index 200 they were rendering behind the sheet. */
+.sel-pop { z-index: 300; }
+
+/* iOS zooms the whole page when a focused input is under 16px. Every text
+   input here has to be at least that on touch layouts. */
+@media (max-width: 720px) {
+  .sel-pop .f input,
+  .fpanel input,
+  .search input,
+  #q { font-size: 16px; }
+}
+
+.sortchips { display: flex; gap: 7px; flex-wrap: wrap; align-items: center; }
+
+/* On phones the sheet holds the filters, so a popover inside it should behave
+   like a nested sheet rather than a floating box that can land off-screen. */
+@media (max-width: 720px) {
+  .sel-pop {
+    left: 8px !important; right: 8px;
+    width: auto !important; max-width: none;
+    top: auto !important; bottom: 12px;
+    max-height: 62vh;
+  }
+  .sel-list { max-height: 46vh !important; }
+}
