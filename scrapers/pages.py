@@ -427,3 +427,25 @@ def build(payload: dict, out_dir: str) -> int:
         f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
 
     return n
+
+
+if __name__ == "__main__":
+    # Regenerate the static pages from whatever data/ currently holds, without
+    # scraping. Deploys triggered by a code push take this path.
+    import shutil
+    import sys
+
+    here = os.path.dirname(os.path.abspath(__file__))
+    root = os.path.dirname(here)
+    src = os.path.join(root, "data", "index.json")
+    dst = os.path.join(root, "pages")
+    try:
+        with open(src, encoding="utf-8") as fh:
+            payload = json.load(fh)
+    except Exception as exc:  # noqa: BLE001
+        print(f"pages: no dataset to render ({exc})", file=sys.stderr)
+        raise SystemExit(0)
+
+    shutil.rmtree(dst, ignore_errors=True)
+    os.makedirs(dst, exist_ok=True)
+    print(f"pages: generated {build(payload, dst)} files")

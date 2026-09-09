@@ -90,6 +90,10 @@ jobs:
             git push
           fi
 
+      # Scrape runs already emit these; a code-only push needs them too.
+      - name: Generate static pages
+        run: python3 scrapers/pages.py
+
       - name: Assemble site
         run: |
           mkdir -p _site/data
