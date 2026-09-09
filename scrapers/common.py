@@ -378,3 +378,80 @@ def make_start(date: dt.date, hm) -> tuple[str, str, str]:
         date.isoformat(),
         f"{h:02d}:{m:02d}",
     )
+
+
+# --------------------------------------------------------------------------
+# "Specialness" — what separates a Tuesday Cineplex show from a one-night
+# 35 mm Kurosawa print. These drive the badges, the filters and the radar.
+# --------------------------------------------------------------------------
+
+_FMT_35 = re.compile(r"\b35\s*mm\b|\b35mm\b", re.I)
+_FMT_16 = re.compile(r"\b16\s*mm\b|\b16mm\b", re.I)
+_FMT_70 = re.compile(r"\b70\s*mm\b|\b70mm\b", re.I)
+_FMT_IMAX = re.compile(r"\bimax\b", re.I)
+_RESTORED = re.compile(r"restaur|restor|remaster|\b[24]k\b", re.I)
+_ANNIV = re.compile(r"anniversair|anniversary|\b\d{1,3}\s*(e|er|th|st|nd|rd)\s*ann", re.I)
+# Deliberately narrow. These must describe *this screening*, so they are only
+# matched against the title and format — a synopsis saying "Palme d'or au
+# Festival de Cannes" is a mention, not a festival screening, and "discussion"
+# in a plot summary is not a Q&A.
+_QA = re.compile(r"\bq\s*&\s*a\b|en pr[ée]sence d|suivie? d'une discussion|"
+                 r"rencontre avec l|introduit par|introduced by", re.I)
+_PREMIERE = re.compile(r"avant-?premi[èe]re|premi[èe]re|sneak preview|opening night", re.I)
+_FESTIVAL = re.compile(r"festival|fantasia|\bfnc\b|ridm|cinemania|sommets|rvqc", re.I)
+_REPERTORY_KINDS = {"repertory", "museum"}
+
+LATE_SHOW_FROM = "22:30"
+
+
+def derive_tags(*, title="", fmt="", version="", time_="", venue_kind="",
+                venue_chain="", year=None, synopsis="", existing=()) -> tuple:
+    """Classify one screening. Cheap, string-based, and source-agnostic.
+
+    Only the title, format and version are inspected: they describe the
+    screening. A synopsis describes the film, and matching on it produced
+    false Q&As and festivals wholesale.
+    """
+    tags = set(existing)
+    blob = f"{title} {fmt} {version}"
+
+    if _FMT_35.search(blob):
+        tags.update(("celluloid", "35mm"))
+    if _FMT_16.search(blob):
+        tags.update(("celluloid", "16mm"))
+    if _FMT_70.search(blob):
+        tags.update(("celluloid", "70mm"))
+    if _FMT_IMAX.search(blob):
+        tags.add("imax")
+        if "70mm" in tags:
+            tags.add("imax70")
+
+    if _RESTORED.search(blob):
+        tags.add("restoration")
+    if _ANNIV.search(title):
+        tags.add("anniversary")
+    if _QA.search(blob):
+        tags.add("qa")
+    if _PREMIERE.search(title):
+        tags.add("premiere")
+    if _FESTIVAL.search(blob):
+        tags.add("festival")
+
+    if venue_kind in _REPERTORY_KINDS:
+        tags.add("repertory")
+    if isinstance(year, int) and year and year <= today().year - 12:
+        tags.add("classic")
+    if time_ and time_ >= LATE_SHOW_FROM:
+        tags.add("late")
+
+    return tuple(sorted(tags))
+
+
+# How much each attribute contributes to a screening being worth crossing town
+# for. Used to rank the "don't miss" radar.
+SPECIAL_WEIGHTS = {
+    "35mm": 10, "16mm": 10, "70mm": 12, "imax70": 12,
+    "celluloid": 4, "qa": 8, "premiere": 6, "restoration": 5,
+    "anniversary": 4, "repertory": 3, "classic": 3, "festival": 4,
+    "imax": 2, "late": 1,
+}

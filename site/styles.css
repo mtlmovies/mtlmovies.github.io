@@ -652,3 +652,67 @@ a.slot:hover small { color: var(--bg); opacity: .68; }
   border-color: color-mix(in srgb, var(--sc, var(--lb)) 32%, transparent);
   color: var(--sc, var(--lb));
 }
+
+/* ------------------------------------------------------- filter extras */
+
+.chipsep {
+  flex: none; width: 1px; align-self: stretch; margin: 2px 4px;
+  background: var(--line);
+}
+
+.chip.hot {
+  background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 650;
+}
+.chip.hot:hover { background: #f6121d; border-color: #f6121d; color: #fff; }
+.chip.hot[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
+
+/* badge palette — each attribute reads distinctly at a glance */
+.tag.qa    { background: #7c5cff; color: #fff; }
+.tag.prem  { background: #0aa2c0; color: #04212a; }
+.tag.fest  { background: #ff8a3d; color: #2b1200; }
+.tag.only  { background: rgba(0,0,0,.75); color: #fff; box-shadow: inset 0 0 0 1px rgba(255,255,255,.35); }
+
+/* ------------------------------------------------------------ don't-miss */
+
+.radar-sec .sec-head h2::before {
+  content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--accent); margin-right: 9px; vertical-align: middle;
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+.radar-row {
+  display: flex; gap: 12px; padding: 10px var(--pad) 22px;
+  overflow-x: auto; scrollbar-width: none;
+  scroll-snap-type: x proximity; scroll-padding-left: var(--pad);
+}
+.radar-row::-webkit-scrollbar { display: none; }
+.radar-row > * { scroll-snap-align: start; }
+
+.radar {
+  flex: none; width: clamp(250px, 25vw, 320px);
+  display: grid; grid-template-columns: 78px 1fr; gap: 12px;
+  padding: 12px; border-radius: var(--r-lg);
+  border: 1px solid var(--line-2); background: var(--surface);
+  text-align: left; cursor: pointer;
+  transition: transform var(--med) var(--ease), border-color var(--med) var(--ease),
+              background var(--med) var(--ease);
+}
+.radar:hover { transform: translateY(-3px); border-color: var(--text-3); background: var(--surface-2); }
+
+.radar-art {
+  width: 78px; aspect-ratio: 2/3; border-radius: var(--r-sm);
+  overflow: hidden; background: var(--surface-2); position: relative;
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.radar-art img { width: 100%; height: 100%; object-fit: cover; }
+
+.radar-body { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.radar-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 3px; }
+.radar-tags .tag { position: static; }
+.radar-t {
+  font-size: 14.5px; font-weight: 700; letter-spacing: -.024em; line-height: 1.2; color: var(--text);
+  display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.radar-m { font-size: 11.5px; color: var(--text-3); }
+.radar-w { font-size: 12px; color: var(--text-2); font-weight: 600; margin-top: 2px; }
+.radar-r { font-size: 12.5px; font-weight: 750; font-variant-numeric: tabular-nums; margin-top: 2px; }

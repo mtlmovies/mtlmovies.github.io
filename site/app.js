@@ -42,6 +42,14 @@ const STR = {
     oneScreening: "Séance unique", classicTag: "Classique", restoTag: "Restauré",
     votes: "votes",
     versions: "Versions", viewGrid: "Grille", viewList: "Liste",
+    tonight: "Ce soir", thisWeek: "Cette semaine", repertory: "Répertoire",
+    onlyOnce: "Séance unique", matinee: "En journée", lateShow: "Tard le soir",
+    radar: "À ne pas manquer", radarSub: "Ce qu'un cinéphile montréalais regretterait de rater.",
+    why: "Pourquoi cette séance compte", tonightCta: "Que voir ce soir ?",
+    tagFilm: "Pellicule", tagQa: "Rencontre", tagPremiere: "Première",
+    tagResto: "Restauration", tagOnly: "Séance unique", tagImax: "IMAX",
+    tagAnniv: "Anniversaire", tagFest: "Festival", tagLate: "Tard",
+    nothingTonight: "Plus rien ce soir — regardez demain.",
   },
   en: {
     tagline: "Showtimes in Montréal",
@@ -80,6 +88,14 @@ const STR = {
     oneScreening: "One only", classicTag: "Classic", restoTag: "Restored",
     votes: "votes",
     versions: "Versions", viewGrid: "Grid", viewList: "List",
+    tonight: "Tonight", thisWeek: "This week", repertory: "Repertory",
+    onlyOnce: "One screening", matinee: "Daytime", lateShow: "Late night",
+    radar: "Don't miss", radarSub: "What a Montréal cinephile would regret missing.",
+    why: "Why this screening matters", tonightCta: "What can I see tonight?",
+    tagFilm: "On film", tagQa: "Q&A", tagPremiere: "Premiere",
+    tagResto: "Restored", tagOnly: "One only", tagImax: "IMAX",
+    tagAnniv: "Anniversary", tagFest: "Festival", tagLate: "Late",
+    nothingTonight: "Nothing left tonight — try tomorrow.",
   },
 };
 
@@ -94,9 +110,19 @@ const locale = () => (LANG === "fr" ? "fr-CA" : "en-CA");
 
 const state = {
   data: null, venues: new Map(),
-  date: null, venue: "", hood: "", genre: "", tag: "", language: "",
-  sort: "relevance", q: "", indie: false, view: "grid",
+  date: null, venue: "", hood: "", genre: "", language: "",
+  tags: new Set(),            // multi-select: 35mm, imax70, qa, repertory, ...
+  time: "",                   // "" | matinee | evening | late
+  range: "day",               // day | week | all
+  sort: "relevance", q: "", indie: false, view: "grid", tonight: false,
 };
+
+/** Which bucket a HH:MM start falls into. */
+function timeBucket(hhmm) {
+  if (hhmm < "17:00") return "matinee";
+  if (hhmm < "21:00") return "evening";
+  return "late";
+}
 
 /** Letterboxd 0-5 mapped red -> amber -> green. */
 function rateColor(v) {
@@ -135,8 +161,18 @@ const runtimeStr = (m) => {
 
 /* ----------------------------------------------------------------- filtering */
 
-function showMatches(st) {
-  if (state.date && state.date !== "all" && st.date !== state.date) return false;
+function inRange(date) {
+  if (state.range === "all") return true;
+  const today = todayStr();
+  if (state.range === "week") {
+    const end = iso(new Date(parseDate(today).getTime() + 6 * 864e5));
+    return date >= today && date <= end;
+  }
+  return state.date === "all" ? date >= today : date === state.date;
+}
+
+function showMatches(st, m) {
+  if (!inRange(st.date)) return false;
   if (state.venue && st.venue !== state.venue) return false;
   if (state.hood) { const v = state.venues.get(st.venue); if (!v || v.neighbourhood !== state.hood) return false; }
   if (state.indie) { const v = state.venues.get(st.venue); if (!v || v.chain !== "independent") return false; }
@@ -144,14 +180,21 @@ function showMatches(st) {
     if (state.language === "sub") { if (!st.subtitles) return false; }
     else if (st.language !== state.language) return false;
   }
-  if (state.tag === "celluloid" && !(st.tags || []).includes("celluloid")) return false;
+  if (state.time && timeBucket(st.time) !== state.time) return false;
+  // "Tonight" means what is still startable, not merely what is dated today.
+  if (state.tonight && (st.date !== todayStr() || st.time < nowHHMM())) return false;
+  if (state.tags.size) {
+    // A tag may be on the screening (35 mm, IMAX, Q&A) or on the film itself
+    // (classic, restoration) — either satisfies the filter.
+    const have = new Set([...(st.tags || []), ...(m.tags || [])]);
+    for (const t of state.tags) if (!have.has(t)) return false;
+  }
   return true;
 }
 
 function movieMatches(m, shows) {
   if (!shows.length) return false;
   if (state.genre && !(m.genres || []).includes(state.genre)) return false;
-  if (state.tag && state.tag !== "celluloid" && !(m.tags || []).includes(state.tag)) return false;
   if (state.q) {
     const q = state.q.toLowerCase();
     const hay = [m.title, m.original_title, m.director, m.cast, (m.genres || []).join(" "), m.country,
@@ -164,7 +207,7 @@ function movieMatches(m, shows) {
 function visible() {
   const out = [];
   for (const m of state.data.movies) {
-    const shows = m.showtimes.filter(showMatches);
+    const shows = m.showtimes.filter((st) => showMatches(st, m));
     if (movieMatches(m, shows)) out.push({ m, shows });
   }
   const lb = (x) => x.m.letterboxd_rating ?? -1;
@@ -174,16 +217,9 @@ function visible() {
   else if (s === "year") out.sort((a, b) => (b.m.year ?? 0) - (a.m.year ?? 0));
   else if (s === "soonest") out.sort((a, b) => (a.shows[0]?.start || "9").localeCompare(b.shows[0]?.start || "9"));
   else {
-    const score = (x) => {
-      let n = 0;
-      const tg = new Set(x.m.tags || []);
-      if (tg.has("classic")) n += 3;
-      if (tg.has("restoration")) n += 2;
-      if (tg.has("celluloid")) n += 3;
-      if (x.m.letterboxd_rating) n += x.m.letterboxd_rating;
-      if (x.shows.some((st) => state.venues.get(st.venue)?.chain === "independent")) n += 2;
-      return n;
-    };
+    // The build already scored how much a cinephile would regret missing it.
+    const score = (x) => (x.m.special ?? 0) +
+      (x.shows.some((st) => state.venues.get(st.venue)?.chain === "independent") ? 2 : 0);
     out.sort((a, b) => score(b) - score(a) || b.shows.length - a.shows.length);
   }
   return out;
@@ -217,13 +253,35 @@ function artHTML(m) {
   return m.poster ? `${ph}<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">` : ph;
 }
 
-function tagsHTML(m, shows) {
+/** Badge vocabulary, most distinctive first — only the top two are shown. */
+const BADGES = [
+  ["70mm",           "film",    () => "70 mm"],
+  ["imax70",         "film",    () => "IMAX 70"],
+  ["35mm",           "film",    () => "35 mm"],
+  ["16mm",           "film",    () => "16 mm"],
+  ["celluloid",      "film",    () => t("tagFilm")],
+  ["qa",             "qa",      () => t("tagQa")],
+  ["premiere",       "prem",    () => t("tagPremiere")],
+  ["only-screening", "only",    () => t("tagOnly")],
+  ["restoration",    "resto",   () => t("tagResto")],
+  ["anniversary",    "resto",   () => t("tagAnniv")],
+  ["festival",       "fest",    () => t("tagFest")],
+  ["classic",        "classic", () => t("classicTag")],
+];
+
+function allTags(m, shows) {
   const tg = new Set(m.tags || []);
-  for (const s of shows) (s.tags || []).forEach((x) => tg.add(x));
+  for (const s of shows || []) (s.tags || []).forEach((x) => tg.add(x));
+  return tg;
+}
+
+function tagsHTML(m, shows, limit = 2) {
+  const tg = allTags(m, shows);
   const out = [];
-  if (tg.has("celluloid")) out.push(`<span class="tag film">35mm</span>`);
-  if (tg.has("classic")) out.push(`<span class="tag classic">${esc(t("classicTag"))}</span>`);
-  else if (tg.has("restoration")) out.push(`<span class="tag resto">${esc(t("restoTag"))}</span>`);
+  for (const [key, cls, label] of BADGES) {
+    if (tg.has(key)) out.push(`<span class="tag ${cls}">${esc(label())}</span>`);
+    if (out.length >= limit) break;
+  }
   return out.length ? `<div class="tags">${out.join("")}</div>` : "";
 }
 
@@ -283,6 +341,38 @@ function listRowHTML({ m, shows }) {
       ${m.imdb_rating ? `<span class="lscv im" style="color:${rateColor10(m.imdb_rating)}">${m.imdb_rating.toFixed(1)}</span><span class="lsck">IMDb</span>` : ""}
     </div>
   </button>`;
+}
+
+function radarHTML({ m, shows }) {
+  const next = [...shows].sort((a, b) => a.start.localeCompare(b.start))[0];
+  const v = next ? state.venues.get(next.venue) : null;
+  const tg = allTags(m, shows);
+  const reasons = BADGES.filter(([k]) => tg.has(k)).slice(0, 3)
+    .map(([k, cls, label]) => `<span class="tag ${cls}">${esc(label())}</span>`).join("");
+  const when = next ? `${dayLong(next.date)} · ${next.time}` : "";
+
+  return `<button class="radar" data-id="${esc(m.id)}">
+    <div class="radar-art">${m.poster ? `<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">` : `<div class="ph">${esc(m.title)}</div>`}</div>
+    <div class="radar-body">
+      <div class="radar-tags">${reasons}</div>
+      <div class="radar-t">${esc(m.title)}</div>
+      <div class="radar-m">${esc([m.year, m.director, runtimeStr(m.runtime)].filter(Boolean).join(" · "))}</div>
+      <div class="radar-w">${esc(v ? v.short_name || v.name : "")}${when ? ` · ${esc(when)}` : ""}</div>
+      ${m.letterboxd_rating ? `<div class="radar-r" style="color:${rateColor(m.letterboxd_rating)}">★ ${m.letterboxd_rating.toFixed(2)}</div>` : ""}
+    </div>
+  </button>`;
+}
+
+function radarSectionHTML(list) {
+  const picks = list.filter((x) => (x.m.special ?? 0) >= 12).slice(0, 8);
+  if (picks.length < 3) return "";
+  return `<section class="sec radar-sec">
+    <div class="sec-head">
+      <h2>${esc(t("radar"))}<em>${picks.length}</em></h2>
+      <p>${esc(t("radarSub"))}</p>
+    </div>
+    <div class="radar-row">${picks.map(radarHTML).join("")}</div>
+  </section>`;
 }
 
 function rowHTML(title, items, sub) {
@@ -349,7 +439,7 @@ function render() {
   };
   const has = (x, tag) => (x.m.tags || []).includes(tag) || x.shows.some((s) => (s.tags || []).includes(tag));
 
-  const parts = [];
+  const parts = [radarSectionHTML(list)];
   if (state.date === todayStr()) {
     const now = nowHHMM();
     const later = list.map((x) => ({ ...x, shows: x.shows.filter((s) => s.time >= now) }))
@@ -717,7 +807,10 @@ function paintStatic() {
   qi.placeholder = t("search"); qi.setAttribute("aria-label", t("searchAria"));
   $("#theme").title = t("theme");
   const chips = {
-    "chip-classic": "classics", "chip-resto": "restorations", "chip-film": "film35",
+    "chip-tonight": "tonightCta", "chip-week": "thisWeek",
+    "chip-classic": "classics", "chip-resto": "restorations",
+    "chip-rep": "repertory", "chip-only": "onlyOnce",
+    "chip-mat": "matinee", "chip-late": "lateShow",
     "chip-indie": "indie", "chip-vf": "vf", "chip-vo": "vo", "chip-sub": "sub",
   };
   for (const [id, k] of Object.entries(chips)) { const el = document.getElementById(id); if (el) el.textContent = t(k); }
@@ -780,11 +873,28 @@ function wire() {
       render(); return;
     }
 
-    const chip = e.target.closest("[data-tag],[data-langv],#chip-indie");
+    if (e.target.closest("#chip-tonight")) {
+      // "What can I see tonight?" — today, from now on, evening onward.
+      state.range = "day"; state.date = todayStr();
+      state.time = ""; state.tags.clear(); state.tonight = !state.tonight;
+      buildDays(); syncChips(); render();
+      document.getElementById("content")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+
+    const chip = e.target.closest("[data-tag],[data-langv],[data-time],[data-range],#chip-indie");
     if (chip) {
       if (chip.id === "chip-indie") state.indie = !state.indie;
-      else if (chip.dataset.tag) state.tag = state.tag === chip.dataset.tag ? "" : chip.dataset.tag;
-      else state.language = state.language === chip.dataset.langv ? "" : chip.dataset.langv;
+      else if (chip.dataset.tag) {
+        state.tags.has(chip.dataset.tag) ? state.tags.delete(chip.dataset.tag)
+                                         : state.tags.add(chip.dataset.tag);
+      } else if (chip.dataset.time) {
+        state.time = state.time === chip.dataset.time ? "" : chip.dataset.time;
+      } else if (chip.dataset.range) {
+        state.range = state.range === "week" ? "day" : "week";
+      } else {
+        state.language = state.language === chip.dataset.langv ? "" : chip.dataset.langv;
+      }
       syncChips(); render(); return;
     }
 
@@ -796,8 +906,10 @@ function wire() {
     }
 
     if (e.target.closest("#f-reset")) {
-      Object.assign(state, { venue: "", hood: "", genre: "", tag: "", language: "", q: "",
-        sort: "relevance", indie: false, date: todayStr() });
+      Object.assign(state, { venue: "", hood: "", genre: "", language: "", q: "",
+        sort: "relevance", indie: false, date: todayStr(), time: "",
+        range: "day", tonight: false });
+      state.tags.clear();
       $("#q").value = ""; $(".search").classList.remove("open");
       buildDays(); syncChips(); Object.keys(SELECTS).forEach(paintSelectButton); render(); return;
     }
@@ -853,9 +965,12 @@ function syncView() {
 }
 
 function syncChips() {
-  $$("[data-tag]").forEach((b) => b.setAttribute("aria-pressed", String(state.tag === b.dataset.tag)));
+  $$("[data-tag]").forEach((b) => b.setAttribute("aria-pressed", String(state.tags.has(b.dataset.tag))));
   $$("[data-langv]").forEach((b) => b.setAttribute("aria-pressed", String(state.language === b.dataset.langv)));
+  $$("[data-time]").forEach((b) => b.setAttribute("aria-pressed", String(state.time === b.dataset.time)));
+  $$("[data-range]").forEach((b) => b.setAttribute("aria-pressed", String(state.range === "week")));
   $("#chip-indie").setAttribute("aria-pressed", String(state.indie));
+  $("#chip-tonight")?.setAttribute("aria-pressed", String(!!state.tonight));
 }
 
 /* ---------------------------------------------------------------------- boot */

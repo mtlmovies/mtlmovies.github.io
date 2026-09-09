@@ -60,13 +60,27 @@
   </div>
   <div class="bar-row">
     <div class="chips">
-      <button class="chip" id="chip-classic" data-tag="classic" aria-pressed="false"></button>
-      <button class="chip" id="chip-resto" data-tag="restoration" aria-pressed="false"></button>
-      <button class="chip" id="chip-film" data-tag="celluloid" aria-pressed="false"></button>
+      <button class="chip hot" id="chip-tonight"></button>
+      <button class="chip" id="chip-week" data-range="week" aria-pressed="false"></button>
+      <span class="chipsep"></span>
+      <button class="chip" data-tag="celluloid" aria-pressed="false">35&nbsp;mm</button>
+      <button class="chip" data-tag="imax" aria-pressed="false">IMAX</button>
+      <button class="chip" data-tag="restoration" aria-pressed="false" id="chip-resto"></button>
+      <button class="chip" data-tag="classic" aria-pressed="false" id="chip-classic"></button>
+      <button class="chip" data-tag="repertory" aria-pressed="false" id="chip-rep"></button>
+      <button class="chip" data-tag="qa" aria-pressed="false">Q&amp;A</button>
+      <button class="chip" data-tag="only-screening" aria-pressed="false" id="chip-only"></button>
+      <span class="chipsep"></span>
+      <button class="chip" data-time="matinee" aria-pressed="false" id="chip-mat"></button>
+      <button class="chip" data-time="late" aria-pressed="false" id="chip-late"></button>
+    </div>
+  </div>
+  <div class="bar-row">
+    <div class="chips">
       <button class="chip" id="chip-indie" aria-pressed="false"></button>
-      <button class="chip" id="chip-vf" data-langv="fr" aria-pressed="false"></button>
-      <button class="chip" id="chip-vo" data-langv="en" aria-pressed="false"></button>
-      <button class="chip" id="chip-sub" data-langv="sub" aria-pressed="false"></button>
+      <button class="chip" data-langv="fr" aria-pressed="false" id="chip-vf"></button>
+      <button class="chip" data-langv="en" aria-pressed="false" id="chip-vo"></button>
+      <button class="chip" data-langv="sub" aria-pressed="false" id="chip-sub"></button>
       <div class="sel" id="f-venue"></div>
       <div class="sel" id="f-hood"></div>
       <div class="sel" id="f-genre"></div>

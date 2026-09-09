@@ -22,7 +22,8 @@ ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "data")
 sys.path.insert(0, HERE)
 
-from common import Screening, Venue, clean, log, parse_version, title_key, today  # noqa: E402
+from common import (SPECIAL_WEIGHTS, Screening, Venue, clean, derive_tags, log,
+                    parse_version, title_key, today)  # noqa: E402
 
 ADAPTERS = [
     "cinemacinema",
@@ -47,7 +48,7 @@ def pick(*vals):
     return ""
 
 
-def merge(screenings: list[Screening]) -> list[dict]:
+def merge(screenings: list[Screening], venues: dict) -> list[dict]:
     """Group screenings into films keyed by a normalized title."""
     groups: dict[str, list[Screening]] = {}
     for s in screenings:
@@ -104,6 +105,16 @@ def merge(screenings: list[Screening]) -> list[dict]:
         shows = []
         for s in items:
             v = parse_version(s.version_raw)
+            ven = venues.get(s.venue_id)
+            st_tags = derive_tags(
+                title=s.title, fmt=s.fmt, version=s.version_raw, time_=s.time,
+                venue_kind=getattr(ven, "kind", ""), venue_chain=getattr(ven, "chain", ""),
+                year=years[0] if years else s.year, synopsis=s.synopsis,
+                existing=s.tags,
+            )
+            for tg in st_tags:
+                if tg not in tags:
+                    tags.append(tg)
             shows.append({
                 "venue": s.venue_id,
                 "start": s.start,
@@ -118,7 +129,7 @@ def merge(screenings: list[Screening]) -> list[dict]:
                 "format": s.fmt,
                 "room": s.room,
                 "source": s.source,
-                "tags": list(s.tags),
+                "tags": list(st_tags),
             })
 
         movies.append({
@@ -227,6 +238,19 @@ def merge_by_identity(movies: list[dict]) -> list[dict]:
     return out
 
 
+def special_score(m: dict) -> int:
+    """How much a cinephile would regret missing this. Drives the radar."""
+    score = sum(SPECIAL_WEIGHTS.get(t, 0) for t in m.get("tags", []))
+    if "only-screening" in m.get("tags", []):
+        score += 9
+    elif len(m["showtimes"]) <= 3:
+        score += 4
+    lb = m.get("letterboxd_rating")
+    if lb:
+        score += max(0, (lb - 3.2)) * 6          # 4.5 -> +7.8
+    return round(score)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-enrich", action="store_true")
@@ -271,7 +295,7 @@ def main():
                        "sources": report, "failed": True}, f, indent=1)
         raise SystemExit(1)
 
-    movies = merge(all_screenings)
+    movies = merge(all_screenings, all_venues)
     log(f"[build] merged into {len(movies)} films")
 
     os.makedirs(DATA, exist_ok=True)
@@ -308,6 +332,13 @@ def main():
     movies = merge_by_identity(movies)
     if before != len(movies):
         log(f"[build] folded {before - len(movies)} duplicate titles via IMDb/TMDB ids")
+
+    # A single screening anywhere in the city is the strongest urgency signal
+    # there is, so it becomes a tag of its own.
+    for m in movies:
+        if len(m["showtimes"]) == 1 and "only-screening" not in m["tags"]:
+            m["tags"].append("only-screening")
+        m["special"] = special_score(m)
 
     dates = sorted({s["date"] for m in movies for s in m["showtimes"]})
     payload = {
