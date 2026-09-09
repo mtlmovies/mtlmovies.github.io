@@ -158,6 +158,11 @@ def apply_enrichment(movies: list[dict], cache: dict):
         # Fill metadata gaps only.
         if not m.get("synopsis") and info.get("overview"):
             m["synopsis"] = info["overview"]
+        # Backdrop is the exception to "fill gaps only": several venues point at
+        # stills on hosts that refuse hotlinking or are unreachable, leaving the
+        # hero blank. Letterboxd's CDN always serves, so it wins when we have it.
+        if info.get("backdrop"):
+            m["backdrop"] = info["backdrop"]
         for src, dst in (("poster", "poster"), ("backdrop", "backdrop"),
                          ("director", "director"), ("cast", "cast"),
                          ("country", "country"), ("runtime", "runtime"),
