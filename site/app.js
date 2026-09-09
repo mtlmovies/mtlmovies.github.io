@@ -41,6 +41,7 @@ const STR = {
     unavailableBody: "Le fichier data/index.json n'a pas pu être chargé.",
     oneScreening: "Séance unique", classicTag: "Classique", restoTag: "Restauré",
     votes: "votes",
+    versions: "Versions", viewGrid: "Grille", viewList: "Liste",
   },
   en: {
     tagline: "Showtimes in Montréal",
@@ -78,6 +79,7 @@ const STR = {
     unavailableBody: "data/index.json could not be loaded.",
     oneScreening: "One only", classicTag: "Classic", restoTag: "Restored",
     votes: "votes",
+    versions: "Versions", viewGrid: "Grid", viewList: "List",
   },
 };
 
@@ -93,8 +95,17 @@ const locale = () => (LANG === "fr" ? "fr-CA" : "en-CA");
 const state = {
   data: null, venues: new Map(),
   date: null, venue: "", hood: "", genre: "", tag: "", language: "",
-  sort: "relevance", q: "", indie: false,
+  sort: "relevance", q: "", indie: false, view: "grid",
 };
+
+/** Letterboxd 0-5 mapped red -> amber -> green. */
+function rateColor(v) {
+  if (v == null) return "var(--text-2)";
+  const p = Math.max(0, Math.min(1, v / 5));
+  return `hsl(${Math.round(p * 132)} 82% ${p < .45 ? 58 : 48}%)`;
+}
+/** IMDb 0-10 on the same scale. */
+const rateColor10 = (v) => (v == null ? "var(--text-2)" : rateColor(v / 2));
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -189,6 +200,16 @@ const ICON = {
   star: `<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1.6l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.4 4.2 13.4l.7-4.3-3.1-3 4.3-.6z"/></svg>`,
 };
 
+/** Distinct version labels across a film's screenings, most common first. */
+function versionSummary(shows) {
+  const counts = new Map();
+  for (const s of shows) {
+    const l = (s.version_label || "").trim();
+    if (l) counts.set(l, (counts.get(l) || 0) + 1);
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([l]) => l);
+}
+
 function artHTML(m) {
   // Posters only. A 16:9 still centre-cropped into a 2:3 tile reads as a
   // screenshot, not artwork, so a titled placeholder is the better fallback.
@@ -218,7 +239,7 @@ function cardHTML({ m, shows }) {
     <div class="art">
       ${artHTML(m)}
       ${tagsHTML(m, shows)}
-      ${m.letterboxd_rating ? `<span class="score">${m.letterboxd_rating.toFixed(1)}</span>` : ""}
+      ${m.letterboxd_rating ? `<span class="score" style="--sc:${rateColor(m.letterboxd_rating)}">${m.letterboxd_rating.toFixed(1)}</span>` : ""}
       <div class="over">
         <div class="t">${esc(m.title)}</div>
         <div class="v">${esc(vlabel)}</div>
@@ -228,6 +249,38 @@ function cardHTML({ m, shows }) {
     <div class="cap">
       <div class="n">${esc(m.title)}</div>
       <div class="m">${esc(meta || vlabel)}</div>
+    </div>
+  </button>`;
+}
+
+function listRowHTML({ m, shows }) {
+  const sorted = [...shows].sort((a, b) => a.start.localeCompare(b.start));
+  const byVenue = new Map();
+  for (const s of sorted) {
+    const n = state.venues.get(s.venue)?.short_name || s.venue;
+    if (!byVenue.has(n)) byVenue.set(n, []);
+    byVenue.get(n).push(s.time);
+  }
+  const meta = [m.year, runtimeStr(m.runtime), m.director].filter(Boolean).join(" · ");
+  const vers = versionSummary(shows)[0] || "";
+
+  return `<button class="lrow" data-id="${esc(m.id)}">
+    <div class="lart">${m.poster ? `<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">` : ""}</div>
+    <div class="lmain">
+      <div class="lt">${esc(m.title)}
+        ${(m.tags || []).includes("celluloid") ? `<span class="tag film">35mm</span>` : ""}
+        ${(m.tags || []).includes("classic") ? `<span class="tag classic">${esc(t("classicTag"))}</span>` : ""}
+      </div>
+      <div class="lm">${esc(meta)}${vers ? ` · ${esc(vers)}` : ""}</div>
+      <div class="lv">${[...byVenue.entries()].slice(0, 4).map(([n, times]) =>
+        `<span class="lvn"><b>${esc(n)}</b> ${times.slice(0, 6).map((x) => `<i>${x}</i>`).join("")}${
+          times.length > 6 ? `<i class="more">+${times.length - 6}</i>` : ""}</span>`).join("")}
+        ${byVenue.size > 4 ? `<span class="lvn more">+${byVenue.size - 4}</span>` : ""}
+      </div>
+    </div>
+    <div class="lsc">
+      ${m.letterboxd_rating ? `<span class="lscv" style="color:${rateColor(m.letterboxd_rating)}">${m.letterboxd_rating.toFixed(1)}</span><span class="lsck">LB</span>` : ""}
+      ${m.imdb_rating ? `<span class="lscv im" style="color:${rateColor10(m.imdb_rating)}">${m.imdb_rating.toFixed(1)}</span><span class="lsck">IMDb</span>` : ""}
     </div>
   </button>`;
 }
@@ -263,6 +316,14 @@ function render() {
   }
 
   renderHero(list[0]);
+
+  if (state.view === "list") {
+    root.innerHTML = `<section class="sec">
+      <div class="sec-head"><h2>${esc(state.q ? t("resultsFor", state.q) : t("secAll"))}<em>${list.length}</em></h2></div>
+      <div class="list">${list.map(listRowHTML).join("")}</div>
+    </section>`;
+    return;
+  }
 
   if (filtering) {
     root.innerHTML = `<section class="sec">
@@ -335,7 +396,7 @@ function renderHero(entry) {
       <h1>${esc(m.title)}</h1>
       <div class="hero-meta">
         ${meta.map((x) => `<span>${esc(x)}</span>`).join(`<span class="dot"></span>`)}
-        ${m.letterboxd_rating ? `<span class="rate-chip">${ICON.star} ${m.letterboxd_rating.toFixed(2)}</span>` : ""}
+        ${m.letterboxd_rating ? `<span class="rate-chip" style="--sc:${rateColor(m.letterboxd_rating)}">${ICON.star} ${m.letterboxd_rating.toFixed(2)}</span>` : ""}
         ${m.imdb_rating ? `<span class="rate-chip imdb">IMDb ${m.imdb_rating.toFixed(1)}</span>` : ""}
       </div>
       ${m.synopsis ? `<p>${esc(m.synopsis)}</p>` : ""}
@@ -360,10 +421,10 @@ function openMovie(id) {
   const nf = new Intl.NumberFormat(locale());
   const scores = [];
   if (m.letterboxd_rating) scores.push(`<a class="sc lb" href="${esc(m.letterboxd_url || "#")}" target="_blank" rel="noopener">
-    <div><div class="v">${m.letterboxd_rating.toFixed(2)}</div><div class="k">Letterboxd</div></div>
+    <div><div class="v" style="color:${rateColor(m.letterboxd_rating)}">${m.letterboxd_rating.toFixed(2)}</div><div class="k">Letterboxd</div></div>
     ${m.letterboxd_votes ? `<span class="c">${nf.format(m.letterboxd_votes)}</span>` : ""}</a>`);
   if (m.imdb_rating) scores.push(`<a class="sc imdb" href="${esc(m.imdb_url || "#")}" target="_blank" rel="noopener">
-    <div><div class="v">${m.imdb_rating.toFixed(1)}</div><div class="k">IMDb</div></div>
+    <div><div class="v" style="color:${rateColor10(m.imdb_rating)}">${m.imdb_rating.toFixed(1)}</div><div class="k">IMDb</div></div>
     ${m.imdb_votes ? `<span class="c">${nf.format(m.imdb_votes)}</span>` : ""}</a>`);
   if (m.rt_rating != null) scores.push(`<div class="sc rt"><div><div class="v">${m.rt_rating}%</div><div class="k">Rotten Tomatoes</div></div></div>`);
   if (m.metacritic != null) scores.push(`<div class="sc"><div><div class="v">${m.metacritic}</div><div class="k">Metacritic</div></div></div>`);
@@ -419,6 +480,10 @@ function openMovie(id) {
         ${(m.tags || []).includes("celluloid") ? `<span class="fact hi">35 mm</span>` : ""}
         ${(m.tags || []).includes("restoration") ? `<span class="fact hi">${esc(t("restoTag"))}</span>` : ""}
       </div>
+      ${versionSummary(shows).length ? `<div class="facts vers">
+        <span class="vk">${esc(t("versions"))}</span>
+        ${versionSummary(shows).map((v) => `<span class="fact">${esc(v)}</span>`).join("")}
+      </div>` : ""}
       ${scores.length ? `<div class="scores">${scores.join("")}</div>` : ""}
       ${m.synopsis ? `<div class="syn">${esc(m.synopsis)}</div>` : ""}
       ${credits.length ? `<dl class="credits">${credits.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
@@ -443,28 +508,48 @@ function closeModal() {
 const SELECTS = {};
 
 function makeSelect(host, { key, label, options }) {
-  SELECTS[key] = { host, key, label, options, open: false, cursor: 0, query: "" };
-  host.innerHTML = `
-    <button class="sel-btn" type="button" aria-haspopup="listbox" aria-expanded="false"><span></span></button>
-    <div class="sel-pop" hidden>
-      <div class="f"><input type="text" placeholder="${esc(t("filter"))}" aria-label="${esc(label)}"></div>
-      <div class="sel-list" role="listbox"></div>
-    </div>`;
-  host.querySelector(".sel-btn").addEventListener("click", (e) => { e.stopPropagation(); toggleSelect(key); });
-  const input = host.querySelector("input");
-  input.addEventListener("input", () => { SELECTS[key].query = input.value; SELECTS[key].cursor = 0; paintSelect(key); });
-  input.addEventListener("keydown", (e) => {
-    const s = SELECTS[key];
-    const opts = filteredOptions(key);
-    if (e.key === "ArrowDown") { e.preventDefault(); s.cursor = Math.min(s.cursor + 1, opts.length - 1); paintSelect(key, true); }
-    else if (e.key === "ArrowUp") { e.preventDefault(); s.cursor = Math.max(s.cursor - 1, 0); paintSelect(key, true); }
-    else if (e.key === "Enter") { e.preventDefault(); const o = opts[s.cursor]; if (o) chooseSelect(key, o.value); }
-    else if (e.key === "Escape") { e.preventDefault(); closeSelect(key); }
+  // Rebuilt on language change: drop the previous portalled popover first.
+  SELECTS[key]?.pop?.remove();
+  // The popover lives on <body>. The filter bar uses backdrop-filter, which
+  // makes it a containing block for position:fixed children — a popover left
+  // inside it would be positioned against the bar and clipped by it.
+  const pop = document.createElement("div");
+  pop.className = "sel-pop";
+  pop.hidden = true;
+  pop.innerHTML = `
+    <div class="f"><input type="text" placeholder="${esc(t("filter"))}" aria-label="${esc(label)}"></div>
+    <div class="sel-list" role="listbox"></div>`;
+  document.body.appendChild(pop);
+
+  host.innerHTML = `<button class="sel-btn" type="button" aria-haspopup="listbox" aria-expanded="false"><span></span></button>`;
+
+  SELECTS[key] = { host, pop, key, label, options, open: false, cursor: 0, query: "" };
+
+  host.querySelector(".sel-btn").addEventListener("click", (e) => {
+    e.stopPropagation();
+    toggleSelect(key);
   });
-  host.querySelector(".sel-list").addEventListener("click", (e) => {
+
+  const input = pop.querySelector("input");
+  input.addEventListener("input", () => {
+    SELECTS[key].query = input.value;
+    SELECTS[key].cursor = 0;
+    paintSelect(key);
+  });
+  input.addEventListener("keydown", (e) => {
+    const st = SELECTS[key];
+    const opts = filteredOptions(key);
+    if (e.key === "ArrowDown") { e.preventDefault(); st.cursor = Math.min(st.cursor + 1, opts.length - 1); paintSelect(key, true); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); st.cursor = Math.max(st.cursor - 1, 0); paintSelect(key, true); }
+    else if (e.key === "Enter") { e.preventDefault(); const o = opts[st.cursor]; if (o) chooseSelect(key, o.value); }
+    else if (e.key === "Escape") { e.preventDefault(); closeSelect(key); host.querySelector(".sel-btn").focus(); }
+    else if (e.key === "Tab") closeSelect(key);
+  });
+  pop.querySelector(".sel-list").addEventListener("click", (e) => {
     const b = e.target.closest("[data-value]");
     if (b) chooseSelect(key, b.dataset.value);
   });
+
   paintSelectButton(key);
 }
 
@@ -485,7 +570,7 @@ function paintSelectButton(key) {
 function paintSelect(key, keepFocus) {
   const s = SELECTS[key];
   const opts = filteredOptions(key);
-  const list = s.host.querySelector(".sel-list");
+  const list = s.pop.querySelector(".sel-list");
   list.innerHTML = opts.length
     ? opts.map((o, i) => `<button class="sel-opt ${i === s.cursor ? "cur" : ""}" role="option"
         aria-selected="${state[key] === o.value}" data-value="${esc(o.value)}">
@@ -495,17 +580,46 @@ function paintSelect(key, keepFocus) {
   paintSelectButton(key);
 }
 
+function placeSelect(key) {
+  const s = SELECTS[key];
+  const btn = s.host.querySelector(".sel-btn");
+  const r = btn.getBoundingClientRect();
+  const vw = window.innerWidth, vh = window.innerHeight;
+  const M = 8;
+
+  // Cap the list so the popover always fits, then measure the real height.
+  const room = Math.max(r.top - M * 2, vh - r.bottom - M * 2);
+  s.pop.querySelector(".sel-list").style.maxHeight = `${Math.max(120, Math.min(300, room - 58))}px`;
+
+  s.pop.style.bottom = "auto";
+  s.pop.style.top = "0px";
+  const h = s.pop.offsetHeight;
+  const w = s.pop.offsetWidth;
+
+  // Below the trigger when it fits, otherwise above; clamped to the viewport
+  // either way so it can never land off-screen.
+  let top = r.bottom + M;
+  if (top + h > vh - M) top = r.top - M - h;
+  top = Math.max(M, Math.min(top, vh - h - M));
+
+  s.pop.style.top = `${top}px`;
+  s.pop.style.left = `${Math.max(M, Math.min(r.left, vw - w - M))}px`;
+}
+
 function toggleSelect(key) { SELECTS[key].open ? closeSelect(key) : openSelect(key); }
 
 function openSelect(key) {
   Object.keys(SELECTS).forEach((k) => k !== key && closeSelect(k));
   const s = SELECTS[key];
-  s.open = true; s.query = ""; s.cursor = Math.max(0, s.options.findIndex((o) => o.value === state[key]));
-  s.host.querySelector(".sel-pop").hidden = false;
+  s.open = true;
+  s.query = "";
+  s.cursor = Math.max(0, s.options.findIndex((o) => o.value === state[key]));
+  s.pop.hidden = false;
   s.host.querySelector(".sel-btn").setAttribute("aria-expanded", "true");
-  const input = s.host.querySelector("input");
+  const input = s.pop.querySelector("input");
   input.value = "";
   paintSelect(key, true);
+  placeSelect(key);
   input.focus();
 }
 
@@ -513,7 +627,7 @@ function closeSelect(key) {
   const s = SELECTS[key];
   if (!s || !s.open) return;
   s.open = false;
-  s.host.querySelector(".sel-pop").hidden = true;
+  s.pop.hidden = true;
   s.host.querySelector(".sel-btn").setAttribute("aria-expanded", "false");
 }
 
@@ -527,16 +641,29 @@ function chooseSelect(key, value) {
 /* --------------------------------------------------------------------- chrome */
 
 function buildDays() {
-  // Every date that actually has a screening — no arbitrary cap.
+  // Every date that actually has a screening — no arbitrary cap. The strip can
+  // run months out, so each month change gets a label.
   const dates = [...new Set(state.data.movies.flatMap((m) => m.showtimes.map((s) => s.date)))]
     .filter((d) => d >= todayStr()).sort();
-  $("#days").innerHTML = dates.map((d) => {
+
+  let lastMonth = null;
+  const html = dates.map((d) => {
     const dt = parseDate(d);
+    const key = `${dt.getFullYear()}-${dt.getMonth()}`;
+    let sep = "";
+    if (key !== lastMonth) {
+      lastMonth = key;
+      const name = dt.toLocaleDateString(locale(), { month: "short" }).replace(".", "");
+      const showYear = dt.getFullYear() !== new Date().getFullYear();
+      sep = `<div class="monthsep" aria-hidden="true"><span>${esc(name)}${showYear ? " " + dt.getFullYear() : ""}</span></div>`;
+    }
     const dow = d === todayStr() ? t("today")
       : dt.toLocaleDateString(locale(), { weekday: "short" }).replace(".", "");
-    return `<button class="day" data-date="${d}" aria-pressed="${d === state.date}">
+    return `${sep}<button class="day" data-date="${d}" aria-pressed="${d === state.date}">
       <i>${esc(dow)}</i><b>${dt.getDate()}</b></button>`;
-  }).join("") +
+  }).join("");
+
+  $("#days").innerHTML = html +
     `<button class="day" data-date="all" aria-pressed="${state.date === "all"}" style="min-width:70px">
       <i>${esc(t("all"))}</i><b>∞</b></button>`;
 }
@@ -595,6 +722,7 @@ function paintStatic() {
   };
   for (const [id, k] of Object.entries(chips)) { const el = document.getElementById(id); if (el) el.textContent = t(k); }
   $("#f-reset").textContent = t("reset");
+  syncView();
   $$(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === LANG)));
   paintMeta();
 }
@@ -635,7 +763,9 @@ function setLang(l) {
 
 function wire() {
   document.addEventListener("click", (e) => {
-    if (!e.target.closest(".sel")) Object.keys(SELECTS).forEach(closeSelect);
+    if (!e.target.closest(".sel") && !e.target.closest(".sel-pop")) {
+      Object.keys(SELECTS).forEach(closeSelect);
+    }
 
     const lang = e.target.closest("[data-lang]");
     if (lang) { setLang(lang.dataset.lang); return; }
@@ -656,6 +786,13 @@ function wire() {
       else if (chip.dataset.tag) state.tag = state.tag === chip.dataset.tag ? "" : chip.dataset.tag;
       else state.language = state.language === chip.dataset.langv ? "" : chip.dataset.langv;
       syncChips(); render(); return;
+    }
+
+    const vw = e.target.closest("[data-view]");
+    if (vw) {
+      state.view = vw.dataset.view;
+      try { localStorage.setItem("mtlcine-view", state.view); } catch {}
+      syncView(); render(); return;
     }
 
     if (e.target.closest("#f-reset")) {
@@ -699,9 +836,20 @@ function wire() {
   });
 
   const nav = $(".nav");
-  const onScroll = () => nav.classList.toggle("solid", window.scrollY > 40);
+  const onScroll = () => {
+    nav.classList.toggle("solid", window.scrollY > 40);
+    // The popover is fixed to the trigger's rect, so follow the trigger.
+    Object.keys(SELECTS).forEach((k) => { if (SELECTS[k].open) placeSelect(k); });
+  };
   window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", () => Object.keys(SELECTS).forEach(closeSelect));
   onScroll();
+}
+
+function syncView() {
+  $$("[data-view]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === state.view)));
+  $("#view-grid").title = t("viewGrid");
+  $("#view-list").title = t("viewList");
 }
 
 function syncChips() {
@@ -718,6 +866,8 @@ async function boot() {
     if (th) document.documentElement.setAttribute("data-theme", th);
     const lg = localStorage.getItem("mtlcine-lang");
     if (lg === "en" || lg === "fr") LANG = lg;
+    const vw = localStorage.getItem("mtlcine-view");
+    if (vw === "list" || vw === "grid") state.view = vw;
   } catch {}
   if (!localStorage.getItem?.("mtlcine-lang") && (navigator.language || "").toLowerCase().startsWith("en")) LANG = "en";
 
@@ -740,11 +890,16 @@ async function boot() {
   buildDays();
   buildFilters();
   syncChips();
+  syncView();
   wire();
   render();
 
   const h = location.hash.match(/^#film=(.+)$/);
   if (h) openMovie(decodeURIComponent(h[1]));
+
+  // ?view=list / ?view=grid makes a view shareable.
+  const qv = new URLSearchParams(location.search).get("view");
+  if (qv === "list" || qv === "grid") { state.view = qv; syncView(); render(); }
 }
 
 boot();
