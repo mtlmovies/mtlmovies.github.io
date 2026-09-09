@@ -1,85 +1,179 @@
-"""Film metadata + ratings enrichment.
+"""Film identification, artwork and ratings — entirely without API keys.
 
-Priority order for ratings, per request: Letterboxd first, then Rotten Tomatoes
-/ IMDb / Metacritic, then TMDB.
+    title (+year, +runtime)
+        -> TMDB public search / Wikidata      : which film is this, really
+        -> themoviedb.org page                : real portrait poster
+        -> letterboxd.com/tmdb|imdb/<id>      : Letterboxd rating + IMDb id
+        -> IMDb's official ratings dataset    : IMDb rating + votes
 
-Everything is keyless by default:
-
-    title (+year) --> Wikidata --> imdb_id / tmdb_id --> Letterboxd rating
-
-Two optional API keys upgrade the results if present in the environment:
-  TMDB_API_KEY  -> better title matching, backdrops, overviews, TMDB score
-  OMDB_API_KEY  -> IMDb rating + Rotten Tomatoes + Metacritic
-
-Results are cached in data/enrich_cache.json (committed) so a daily run only
-looks up films it has never seen.
+Identification is the part that matters. Multiplexes list films with no year,
+so a title alone is a dangerous key: "L'Odyssée" matches a 2016 Cousteau
+documentary as readily as the 2026 Nolan film playing this week. Every
+candidate is therefore checked against the runtime and year the cinema
+reported, and rejected when they disagree.
 """
 
 from __future__ import annotations
 
+import datetime as dt
+import gzip
+import io
 import json
 import os
 import re
 import time
 import urllib.parse
 
-from common import clean, http_get, http_get_bytes, http_json, log, title_key
+from common import clean, http_get, http_get_bytes, http_json, log
 
-TMDB_KEY = os.environ.get("TMDB_API_KEY", "").strip()
-OMDB_KEY = os.environ.get("OMDB_API_KEY", "").strip()
+TMDB_KEY = os.environ.get("TMDB_API_KEY", "").strip()   # optional
+OMDB_KEY = os.environ.get("OMDB_API_KEY", "").strip()   # optional
 
 WIKIDATA_API = "https://www.wikidata.org/w/api.php"
+TMDB_WEB = "https://www.themoviedb.org"
 LETTERBOXD = "https://letterboxd.com"
 
-# Cache entries older than this are refreshed (ratings drift).
 CACHE_TTL_DAYS = 21
-# A lookup that resolved nothing is retried much sooner: the title may have been
-# decorated ("- Staff Picks"), or the film may be too new to be indexed yet.
 UNRESOLVED_TTL_DAYS = 3
 
+# How far a candidate may differ from what the cinema published.
+RUNTIME_TOLERANCE = 10      # minutes
+YEAR_TOLERANCE = 1          # years
+
+FILMISH = {"Q11424", "Q24869", "Q506240", "Q202866", "Q93204", "Q29168811"}
+
 
 # ---------------------------------------------------------------------------
-# Wikidata (keyless id resolution)
+# Title cleanup
 # ---------------------------------------------------------------------------
 
-def _wikidata_ids(title: str, year: int | None, director: str = "") -> dict:
-    """Resolve a film title to {imdb_id, tmdb_id, year, wikidata_id}."""
-    best: dict = {}
+_DECORATIONS = [
+    re.compile(r"\[[^\]]*\]"),
+    re.compile(r"\s*\+\s*Q\s*&\s*A.*$", re.I),
+    re.compile(r"\s*[-–—:]\s*(staff picks?|coups? de c(?:o|œ)eur.*|petits modernes|"
+               r"cin[ée]-?club.*|s[ée]ance sp[ée]ciale.*|pr[ée]sent[ée].*|en pr[ée]sence.*)$", re.I),
+    re.compile(r"\s*[-–—:,]?\s*\d{1,3}\s*(e|er|th|st|nd|rd)?\s*(anniversaire|anniversary).*$", re.I),
+    re.compile(r"\s*[-–—:]\s*(nouvelle\s+)?(restauration|restored|remaster\w*)(\s*\d?k)?\s*$", re.I),
+    re.compile(r"\s*\((?:vf|voa|vostf|vosta|vo|2d|3d|imax|4k|dcp)\)\s*$", re.I),
+    re.compile(r"\s*\((?:re-?release|reprise)\)\s*$", re.I),
+    re.compile(r"\s*\b(w/?e\.?s\.?t\.?|with english subtitles|avec s\.?t\.?f\.?)\b.*$", re.I),
+]
+
+
+def search_title(title: str) -> str:
+    """Strip programme decorations so a title can be looked up."""
+    t = clean(title)
+    for _ in range(3):
+        before = t
+        for rx in _DECORATIONS:
+            t = rx.sub("", t).strip(" -–—:,")
+        if t == before:
+            break
+    return t or clean(title)
+
+
+def _is_rerelease(title: str) -> bool:
+    return bool(re.search(r"anniversar|anniversaire|re-?release|reprise|restaur|classic", title, re.I))
+
+
+# ---------------------------------------------------------------------------
+# Candidate acceptance
+# ---------------------------------------------------------------------------
+
+def _accept(cand_year, cand_runtime, want_year, want_runtime, title) -> bool:
+    """Would this candidate plausibly be the film the cinema is showing?"""
+    if want_year and cand_year and abs(cand_year - want_year) > YEAR_TOLERANCE:
+        return False
+    if want_runtime and cand_runtime and abs(cand_runtime - want_runtime) > RUNTIME_TOLERANCE:
+        return False
+    # No year from the venue (typical of multiplexes): a film in wide release is
+    # a recent one unless the title itself advertises a revival.
+    if not want_year and cand_year and not _is_rerelease(title):
+        if cand_year < dt.date.today().year - 2 and not (
+            want_runtime and cand_runtime and abs(cand_runtime - want_runtime) <= 3
+        ):
+            return False
+    return True
+
+
+# ---------------------------------------------------------------------------
+# TMDB public website (no key)
+# ---------------------------------------------------------------------------
+
+_TMDB_ID_RE = re.compile(r'href="/movie/(\d+)[^"]*"')
+_TMDB_RUNTIME_RE = re.compile(r'<span class="runtime">\s*(?:(\d+)h)?\s*(?:(\d+)m)?\s*</span>')
+_TMDB_TITLE_RE = re.compile(r"<title>\s*(.*?)\s*\((\d{4})\)\s*&#8212;")
+
+
+def _tmdb_search(title: str, limit: int = 5) -> list[str]:
+    try:
+        html = http_get(
+            f"{TMDB_WEB}/search/movie?" + urllib.parse.urlencode({"query": title}),
+            browser_ua=True, retries=2, timeout=30)
+    except Exception:
+        return []
+    out = []
+    for mid in _TMDB_ID_RE.findall(html):
+        if mid not in out:
+            out.append(mid)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def _tmdb_page(tmdb_id: str) -> dict:
+    """Poster, year and runtime from a TMDB film page."""
+    try:
+        html = http_get(f"{TMDB_WEB}/movie/{tmdb_id}", browser_ua=True, retries=2, timeout=30)
+    except Exception:
+        return {}
+    out: dict = {"tmdb_id": str(tmdb_id)}
+
+    m = _TMDB_TITLE_RE.search(html)
+    if m:
+        out["title"] = clean(m.group(1))
+        out["year"] = int(m.group(2))
+
+    r = _TMDB_RUNTIME_RE.search(html)
+    if r and (r.group(1) or r.group(2)):
+        out["runtime"] = int(r.group(1) or 0) * 60 + int(r.group(2) or 0)
+
+    for src in re.findall(r'<meta property="og:image" content="([^"]+)"', html):
+        if "/t/p/" in src:
+            out["poster"] = src
+            break
+    d = re.search(r'<meta property="og:description" content="([^"]+)"', html)
+    if d:
+        out["overview"] = clean(d.group(1))
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Wikidata (no key)
+# ---------------------------------------------------------------------------
+
+def _wikidata(title: str, want_year, want_runtime) -> dict:
     for lang in ("en", "fr"):
         try:
-            res = http_json(
-                WIKIDATA_API + "?" + urllib.parse.urlencode({
-                    "action": "wbsearchentities", "search": title, "language": lang,
-                    "uselang": lang, "type": "item", "limit": 8, "format": "json",
-                })
-            )
+            res = http_json(WIKIDATA_API + "?" + urllib.parse.urlencode({
+                "action": "wbsearchentities", "search": title, "language": lang,
+                "uselang": lang, "type": "item", "limit": 8, "format": "json"}))
         except Exception:
             continue
-
         qids = [h["id"] for h in res.get("search", [])]
         if not qids:
             continue
-
         try:
-            ents = http_json(
-                WIKIDATA_API + "?" + urllib.parse.urlencode({
-                    "action": "wbgetentities", "ids": "|".join(qids[:8]),
-                    "props": "claims|labels", "format": "json",
-                })
-            ).get("entities", {})
+            ents = http_json(WIKIDATA_API + "?" + urllib.parse.urlencode({
+                "action": "wbgetentities", "ids": "|".join(qids[:8]),
+                "props": "claims", "format": "json"})).get("entities", {})
         except Exception:
             continue
 
         for qid in qids:
-            ent = ents.get(qid) or {}
-            claims = ent.get("claims") or {}
-
-            # instance of (P31) must be film-ish
-            inst = {
-                c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id")
-                for c in claims.get("P31", [])
-            }
-            FILMISH = {"Q11424", "Q24869", "Q506240", "Q202866", "Q93204", "Q29168811"}
+            claims = (ents.get(qid) or {}).get("claims") or {}
+            inst = {c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id")
+                    for c in claims.get("P31", [])}
             if not (inst & FILMISH):
                 continue
 
@@ -90,122 +184,68 @@ def _wikidata_ids(title: str, year: int | None, director: str = "") -> dict:
                         return v
                 return None
 
-            pub = first("P577")
-            wyear = None
+            pub, cyear = first("P577"), None
             if isinstance(pub, dict) and pub.get("time"):
-                m = re.search(r"(\d{4})", pub["time"])
-                wyear = int(m.group(1)) if m else None
+                mm = re.search(r"(\d{4})", pub["time"])
+                cyear = int(mm.group(1)) if mm else None
 
-            if year and wyear and abs(wyear - year) > 1:
+            dur, cruntime = first("P2047"), None
+            if isinstance(dur, dict) and dur.get("amount"):
+                try:
+                    cruntime = int(float(str(dur["amount"]).lstrip("+")))
+                except ValueError:
+                    cruntime = None
+
+            if not _accept(cyear, cruntime, want_year, want_runtime, title):
                 continue
 
-            cand = {
-                "imdb_id": first("P345") or "",
-                "tmdb_id": str(first("P4947") or ""),
-                "year": wyear,
-                "wikidata_id": qid,
-            }
-            if not cand["imdb_id"] and not cand["tmdb_id"]:
+            imdb_id = first("P345") or ""
+            tmdb_id = str(first("P4947") or "")
+            if not imdb_id and not tmdb_id:
                 continue
-            # A year match is a strong signal; take it immediately.
-            if year and wyear == year:
-                return cand
-            best = best or cand
-        if best and not year:
-            return best
-    return best
+            return {"imdb_id": imdb_id, "tmdb_id": tmdb_id,
+                    "year": cyear, "wikidata_id": qid}
+    return {}
 
 
 # ---------------------------------------------------------------------------
-# TMDB (optional)
+# Identification
 # ---------------------------------------------------------------------------
 
-def _tmdb(title: str, year: int | None) -> dict:
-    if not TMDB_KEY:
-        return {}
-    try:
-        params = {"api_key": TMDB_KEY, "query": title, "include_adult": "false"}
-        if year:
-            params["year"] = str(year)
-        res = http_json("https://api.themoviedb.org/3/search/movie?" + urllib.parse.urlencode(params))
-        hits = res.get("results") or []
-        if not hits:
-            return {}
-        hit = hits[0]
-        tmdb_id = hit.get("id")
-        out = {
-            "tmdb_id": str(tmdb_id or ""),
-            "overview": clean(hit.get("overview")),
-            "tmdb_rating": hit.get("vote_average") or None,
-            "tmdb_votes": hit.get("vote_count") or None,
-            "poster": f"https://image.tmdb.org/t/p/w500{hit['poster_path']}" if hit.get("poster_path") else "",
-            "backdrop": f"https://image.tmdb.org/t/p/w1280{hit['backdrop_path']}" if hit.get("backdrop_path") else "",
-            "original_title": clean(hit.get("original_title")),
-        }
-        if hit.get("release_date"):
-            out["year"] = int(hit["release_date"][:4])
-        det = http_json(
-            f"https://api.themoviedb.org/3/movie/{tmdb_id}?"
-            + urllib.parse.urlencode({"api_key": TMDB_KEY, "append_to_response": "credits"})
-        )
-        out["imdb_id"] = det.get("imdb_id") or ""
-        out["runtime"] = det.get("runtime") or None
-        out["genres"] = [g["name"] for g in det.get("genres") or []]
-        crew = (det.get("credits") or {}).get("crew") or []
-        directors = [c["name"] for c in crew if c.get("job") == "Director"]
-        out["director"] = ", ".join(directors)
-        castl = (det.get("credits") or {}).get("cast") or []
-        out["cast"] = ", ".join(c["name"] for c in castl[:5])
-        return {k: v for k, v in out.items() if v}
-    except Exception as e:  # noqa: BLE001
-        log(f"[enrich] tmdb '{title}': {e}")
-        return {}
+def resolve(title: str, want_year=None, want_runtime=None) -> dict:
+    """Identify a film, validating each candidate against year and runtime."""
+    info: dict = {}
+
+    # TMDB's search covers current releases that Wikidata has not caught up to.
+    for tmdb_id in _tmdb_search(title):
+        page = _tmdb_page(tmdb_id)
+        if not page:
+            continue
+        if not _accept(page.get("year"), page.get("runtime"), want_year, want_runtime, title):
+            continue
+        info.update({k: v for k, v in page.items() if k != "title"})
+        break
+
+    if not info.get("tmdb_id"):
+        info.update(_wikidata(title, want_year, want_runtime))
+        if info.get("tmdb_id") and not info.get("poster"):
+            info.update({k: v for k, v in _tmdb_page(info["tmdb_id"]).items()
+                         if k not in ("title", "year")})
+    return info
 
 
 # ---------------------------------------------------------------------------
-# TMDB public web page — real posters without an API key
+# Letterboxd — the priority rating, plus the IMDb id
 # ---------------------------------------------------------------------------
 
-def _tmdb_web(tmdb_id: str) -> dict:
-    """themoviedb.org's public film page exposes the poster as og:image.
-
-    This is the only keyless source of real portrait poster art; Letterboxd's
-    og:image is a 16:9 still, which looks wrong in a poster grid.
-    """
-    if not tmdb_id:
-        return {}
-    try:
-        html = http_get(f"https://www.themoviedb.org/movie/{tmdb_id}",
-                        browser_ua=True, retries=2, timeout=30)
-    except Exception:
-        return {}
-    out = {}
-    imgs = re.findall(r'<meta property="og:image" content="([^"]+)"', html)
-    for src in imgs:
-        if "/t/p/w500/" in src or "/t/p/original/" in src:
-            out["poster"] = src
-            break
-    if not out.get("poster") and imgs:
-        out["poster"] = imgs[0]
-    m = re.search(r'<meta property="og:description" content="([^"]+)"', html)
-    if m:
-        out["overview"] = clean(m.group(1))
-    return out
+_LB_BLOCK = re.compile(r'"aggregateRating"\s*:\s*\{(.*?)\}', re.S)
+_LB_VALUE = re.compile(r'"ratingValue"\s*:\s*([0-9.]+)')
+_LB_COUNT = re.compile(r'"ratingCount"\s*:\s*(\d+)')
+_LB_REVIEWS = re.compile(r'"reviewCount"\s*:\s*(\d+)')
 
 
-# ---------------------------------------------------------------------------
-# Letterboxd (keyless, highest priority rating)
-# ---------------------------------------------------------------------------
-
-_LB_RATING_RE = re.compile(r'"aggregateRating"\s*:\s*\{(.*?)\}', re.S)
-_LB_VALUE_RE = re.compile(r'"ratingValue"\s*:\s*([0-9.]+)')
-_LB_COUNT_RE = re.compile(r'"ratingCount"\s*:\s*(\d+)')
-_LB_REVIEWS_RE = re.compile(r'"reviewCount"\s*:\s*(\d+)')
-
-
-def _letterboxd(imdb_id: str = "", tmdb_id: str = "") -> dict:
-    """Letterboxd exposes /imdb/<id>/ and /tmdb/<id>/ redirects to the film page."""
-    for path in (f"/imdb/{imdb_id}/" if imdb_id else "", f"/tmdb/{tmdb_id}/" if tmdb_id else ""):
+def letterboxd(imdb_id: str = "", tmdb_id: str = "") -> dict:
+    for path in (f"/tmdb/{tmdb_id}/" if tmdb_id else "", f"/imdb/{imdb_id}/" if imdb_id else ""):
         if not path:
             continue
         try:
@@ -214,32 +254,32 @@ def _letterboxd(imdb_id: str = "", tmdb_id: str = "") -> dict:
             continue
 
         out: dict = {}
-        # Letterboxd's og:image is a 16:9 still — the only artwork available for
-        # venues (Cinéma Moderne, Cinémathèque) that publish none themselves.
-        ogi = re.search(r'<meta property="og:image" content="([^"]+)"', html)
-        if ogi and "ltrbxd.com" in ogi.group(1) and "empty-poster" not in ogi.group(1):
-            out["backdrop"] = ogi.group(1)
-        m = re.search(r'<meta property="og:url" content="([^"]+)"', html)
-        if m:
-            out["letterboxd_url"] = m.group(1)
-        else:
-            s = re.search(r'data-film-slug="([^"]+)"', html)
-            if s:
-                out["letterboxd_url"] = f"{LETTERBOXD}/film/{s.group(1)}/"
+        u = re.search(r'<meta property="og:url" content="([^"]+)"', html)
+        if u:
+            out["letterboxd_url"] = u.group(1)
 
-        block = _LB_RATING_RE.search(html)
+        block = _LB_BLOCK.search(html)
         scope = block.group(1) if block else html
-        v = _LB_VALUE_RE.search(scope)
-        if not v:
+        v = _LB_VALUE.search(scope)
+        if v:
+            out["letterboxd_rating"] = float(v.group(1))
+        else:
             tw = re.search(r'name="twitter:data2" content="([0-9.]+) out of 5"', html)
             if tw:
                 out["letterboxd_rating"] = float(tw.group(1))
-        else:
-            out["letterboxd_rating"] = float(v.group(1))
-
-        c = _LB_COUNT_RE.search(scope) or _LB_REVIEWS_RE.search(scope)
+        c = _LB_COUNT.search(scope) or _LB_REVIEWS.search(scope)
         if c:
             out["letterboxd_votes"] = int(c.group(1))
+
+        # Letterboxd links out to both databases — the cheapest imdb_id we get.
+        i = re.search(r"imdb\.com/title/(tt\d+)", html)
+        if i:
+            out["imdb_id"] = i.group(1)
+
+        # 16:9 still, used for the hero and detail header.
+        ogi = re.search(r'<meta property="og:image" content="([^"]+)"', html)
+        if ogi and "ltrbxd.com" in ogi.group(1) and "empty-poster" not in ogi.group(1):
+            out["backdrop"] = ogi.group(1)
 
         if out.get("letterboxd_rating") or out.get("letterboxd_url"):
             return out
@@ -247,45 +287,63 @@ def _letterboxd(imdb_id: str = "", tmdb_id: str = "") -> dict:
 
 
 # ---------------------------------------------------------------------------
-# OMDb (optional): IMDb + Rotten Tomatoes + Metacritic
+# OMDb (only if a key happens to be present) — Rotten Tomatoes / Metacritic
 # ---------------------------------------------------------------------------
 
-def _omdb(imdb_id: str, title: str = "", year: int | None = None) -> dict:
-    if not OMDB_KEY:
+def _omdb(imdb_id: str) -> dict:
+    if not OMDB_KEY or not imdb_id:
         return {}
-    params = {"apikey": OMDB_KEY}
-    if imdb_id:
-        params["i"] = imdb_id
-    else:
-        params["t"] = title
-        if year:
-            params["y"] = str(year)
     try:
-        d = http_json("https://www.omdbapi.com/?" + urllib.parse.urlencode(params))
+        d = http_json("https://www.omdbapi.com/?" + urllib.parse.urlencode(
+            {"apikey": OMDB_KEY, "i": imdb_id}))
     except Exception:
         return {}
     if d.get("Response") != "True":
         return {}
-
     out: dict = {}
-    if d.get("imdbRating") and d["imdbRating"] != "N/A":
-        out["imdb_rating"] = float(d["imdbRating"])
-    if d.get("imdbVotes") and d["imdbVotes"] != "N/A":
-        out["imdb_votes"] = int(d["imdbVotes"].replace(",", ""))
     for r in d.get("Ratings") or []:
-        src, val = r.get("Source"), r.get("Value", "")
-        if src == "Rotten Tomatoes" and val.endswith("%"):
-            out["rt_rating"] = int(val[:-1])
-        elif src == "Metacritic" and "/" in val:
-            out["metacritic"] = int(val.split("/")[0])
-    if d.get("imdbID"):
-        out["imdb_id"] = d["imdbID"]
-    for k_src, k_dst in (("Plot", "overview"), ("Director", "director"),
-                         ("Actors", "cast"), ("Country", "country")):
-        if d.get(k_src) and d[k_src] != "N/A":
-            out.setdefault(k_dst, d[k_src])
-    if d.get("Runtime", "").endswith(" min"):
-        out["runtime"] = int(d["Runtime"].split()[0])
+        if r.get("Source") == "Rotten Tomatoes" and r.get("Value", "").endswith("%"):
+            out["rt_rating"] = int(r["Value"][:-1])
+        elif r.get("Source") == "Metacritic" and "/" in r.get("Value", ""):
+            out["metacritic"] = int(r["Value"].split("/")[0])
+    return out
+
+
+# ---------------------------------------------------------------------------
+# IMDb ratings — official dataset, no key and no scraping
+# ---------------------------------------------------------------------------
+
+IMDB_RATINGS_URL = "https://datasets.imdbws.com/title.ratings.tsv.gz"
+
+
+def imdb_ratings(wanted: set[str]) -> dict[str, dict]:
+    wanted = {w for w in wanted if w}
+    if not wanted:
+        return {}
+    try:
+        raw = http_get_bytes(IMDB_RATINGS_URL, timeout=180, retries=2)
+    except Exception as e:  # noqa: BLE001
+        log(f"[enrich] imdb dataset unavailable: {e}")
+        return {}
+    out: dict[str, dict] = {}
+    try:
+        with gzip.open(io.BytesIO(raw), "rt", encoding="utf-8") as f:
+            next(f, None)
+            for line in f:
+                tconst, _, rest = line.partition("\t")
+                if tconst not in wanted:
+                    continue
+                avg, _, votes = rest.partition("\t")
+                try:
+                    out[tconst] = {"imdb_rating": float(avg), "imdb_votes": int(votes.strip())}
+                except ValueError:
+                    continue
+                if len(out) == len(wanted):
+                    break
+    except Exception as e:  # noqa: BLE001
+        log(f"[enrich] imdb dataset parse failed: {e}")
+        return {}
+    log(f"[enrich] imdb ratings matched {len(out)}/{len(wanted)}")
     return out
 
 
@@ -306,69 +364,29 @@ def save_cache(path: str, cache: dict):
         json.dump(cache, f, ensure_ascii=False, indent=1, sort_keys=True)
 
 
-# Programme decorations that stop a title matching a film database. Repertory
-# venues append these constantly: "Lawrence of Arabia - Staff Picks",
-# "The Good, The Bad and The Ugly: 60th Anniversary", "Buddy + Q&A".
-_DECORATION_RES = [
-    re.compile(r"\[[^\]]*\]"),                                   # [LAST SCREENING]
-    re.compile(r"\s*\+\s*Q\s*&\s*A.*$", re.I),                   # + Q&A
-    re.compile(r"\s*[-–—:]\s*(staff picks?|coups? de c(?:o|œ)eur.*|"
-               r"petits modernes|cin[ée]-?club.*|s[ée]ance sp[ée]ciale.*|"
-               r"pr[ée]sent[ée].*|en pr[ée]sence.*)$", re.I),
-    re.compile(r"\s*[-–—:,]?\s*\d{1,3}\s*(e|er|th|st|nd|rd)?\s*"
-               r"(anniversaire|anniversary).*$", re.I),
-    re.compile(r"\s*[-–—:]\s*(nouvelle\s+)?(restauration|restored|remaster\w*)"
-               r"(\s*\d?k)?\s*$", re.I),
-    re.compile(r"\s*\((?:vf|voa|vostf|vosta|vo|2d|3d|imax|4k|dcp)\)\s*$", re.I),
-]
-
-
-def search_title(title: str) -> str:
-    """Strip programme decorations so the title can be looked up."""
-    t = clean(title)
-    for _ in range(3):          # decorations stack: "X - Staff Picks [LAST]"
-        before = t
-        for rx in _DECORATION_RES:
-            t = rx.sub("", t).strip(" -–—:,")
-        if t == before:
-            break
-    return t or clean(title)
-
-
-def enrich_film(title: str, year: int | None, director: str = "",
-                original_title: str = "") -> dict:
-    """Look a film up across the sources. Never raises."""
+def enrich_film(title: str, year=None, director: str = "", original_title: str = "",
+                runtime=None) -> dict:
+    """Identify one film and gather its artwork and ratings. Never raises."""
     info: dict = {}
-    title = search_title(title)
-    original_title = search_title(original_title) if original_title else ""
+    queries = [q for q in dict.fromkeys(
+        [search_title(original_title or ""), search_title(title)]) if q]
 
-    # 1. Identity: TMDB when we have a key, Wikidata otherwise.
-    ident = _tmdb(original_title or title, year)
-    if not ident and original_title and original_title != title:
-        ident = _tmdb(title, year)
-    if not ident:
-        ident = _wikidata_ids(original_title or title, year, director)
-        if not ident and original_title and original_title != title:
-            ident = _wikidata_ids(title, year, director)
-    info.update(ident)
+    for q in queries:
+        info = resolve(q, year, runtime)
+        if info.get("tmdb_id") or info.get("imdb_id"):
+            break
 
-    imdb_id = info.get("imdb_id") or ""
-    tmdb_id = info.get("tmdb_id") or ""
+    if info.get("tmdb_id") or info.get("imdb_id"):
+        lb = letterboxd(info.get("imdb_id", ""), info.get("tmdb_id", ""))
+        for k, v in lb.items():
+            # An id we already resolved is more trustworthy than a scraped link.
+            if k == "imdb_id":
+                info.setdefault(k, v)
+            else:
+                info[k] = v
+        time.sleep(0.35)
 
-    # 2. Letterboxd (priority rating) — also yields a 16:9 still.
-    if imdb_id or tmdb_id:
-        info.update(_letterboxd(imdb_id, tmdb_id))
-        time.sleep(0.4)
-
-    # 3. A real portrait poster, which no venue reliably provides.
-    if tmdb_id and not info.get("poster"):
-        info.update({k: v for k, v in _tmdb_web(tmdb_id).items()
-                     if k != "overview" or not info.get("overview")})
-        time.sleep(0.25)
-
-    # 4. OMDb (optional key) for Rotten Tomatoes / Metacritic.
-    omdb = _omdb(imdb_id, title, year)
-    for k, v in omdb.items():
+    for k, v in _omdb(info.get("imdb_id", "")).items():
         info.setdefault(k, v)
 
     info["enriched_at"] = time.strftime("%Y-%m-%d")
@@ -376,16 +394,14 @@ def enrich_film(title: str, year: int | None, director: str = "",
 
 
 def enrich_all(films: list[dict], cache_path: str, limit: int | None = None) -> dict:
-    """films: [{key,title,year,director,original_title}] -> {key: info}"""
     cache = load_cache(cache_path)
     now = time.time()
     todo = []
     for f in films:
         hit = cache.get(f["key"])
         if hit:
-            stamp = hit.get("enriched_at", "")
             try:
-                age = time.mktime(time.strptime(stamp, "%Y-%m-%d"))
+                age = time.mktime(time.strptime(hit.get("enriched_at", ""), "%Y-%m-%d"))
             except Exception:
                 age = 0
             resolved = bool(hit.get("imdb_id") or hit.get("tmdb_id"))
@@ -396,14 +412,13 @@ def enrich_all(films: list[dict], cache_path: str, limit: int | None = None) -> 
 
     if limit:
         todo = todo[:limit]
-    log(f"[enrich] {len(films)} films, {len(todo)} need lookup "
-        f"(tmdb={'yes' if TMDB_KEY else 'no'}, omdb={'yes' if OMDB_KEY else 'no'})")
+    log(f"[enrich] {len(films)} films, {len(todo)} need lookup")
 
     for i, f in enumerate(todo, 1):
         try:
             cache[f["key"]] = enrich_film(
-                f["title"], f.get("year"), f.get("director", ""), f.get("original_title", "")
-            )
+                f["title"], f.get("year"), f.get("director", ""),
+                f.get("original_title", ""), f.get("runtime"))
         except Exception as e:  # noqa: BLE001
             log(f"[enrich] {f['title']}: {e}")
             cache[f["key"]] = {"enriched_at": time.strftime("%Y-%m-%d")}
@@ -413,53 +428,3 @@ def enrich_all(films: list[dict], cache_path: str, limit: int | None = None) -> 
 
     save_cache(cache_path, cache)
     return cache
-
-
-# ---------------------------------------------------------------------------
-# IMDb ratings — from IMDb's official public dataset, no key and no scraping
-# ---------------------------------------------------------------------------
-
-IMDB_RATINGS_URL = "https://datasets.imdbws.com/title.ratings.tsv.gz"
-
-
-def imdb_ratings(wanted: set[str]) -> dict[str, dict]:
-    """Look up IMDb ratings for a set of tconsts.
-
-    IMDb blocks page scraping, but publishes title.ratings.tsv.gz (~8 MB, every
-    rated title) for free. One download per build beats thousands of requests,
-    and it is the sanctioned way to get this data.
-    """
-    wanted = {w for w in wanted if w}
-    if not wanted:
-        return {}
-    import gzip
-    import io
-
-    try:
-        raw = http_get_bytes(IMDB_RATINGS_URL, timeout=120, retries=2)
-    except Exception as e:  # noqa: BLE001
-        log(f"[enrich] imdb dataset unavailable: {e}")
-        return {}
-
-    out: dict[str, dict] = {}
-    try:
-        with gzip.open(io.BytesIO(raw), "rt", encoding="utf-8") as f:
-            next(f, None)  # header
-            for line in f:
-                tconst, _, rest = line.partition("\t")
-                if tconst not in wanted:
-                    continue
-                avg, _, votes = rest.partition("\t")
-                try:
-                    out[tconst] = {"imdb_rating": float(avg),
-                                   "imdb_votes": int(votes.strip())}
-                except ValueError:
-                    continue
-                if len(out) == len(wanted):
-                    break
-    except Exception as e:  # noqa: BLE001
-        log(f"[enrich] imdb dataset parse failed: {e}")
-        return {}
-
-    log(f"[enrich] imdb ratings matched {len(out)}/{len(wanted)}")
-    return out

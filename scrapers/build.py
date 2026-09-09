@@ -197,6 +197,12 @@ def merge_by_identity(movies: list[dict]) -> list[dict]:
         if len(items) == 1:
             out.append(items[0])
             continue
+        # Defence in depth: never fold entries whose years genuinely disagree,
+        # even if they somehow resolved to the same id.
+        years = {m["year"] for m in items if m.get("year")}
+        if len(years) > 1 and max(years) - min(years) > 1:
+            out.extend(items)
+            continue
         # Keep the entry with the most showtimes as the base.
         items.sort(key=lambda m: (-len(m["showtimes"]), m["title"]))
         base = dict(items[0])
@@ -277,6 +283,9 @@ def main():
         films = [{
             "key": m["id"], "title": m["title"], "year": m.get("year"),
             "director": m.get("director", ""), "original_title": m.get("original_title", ""),
+            # Runtime is the strongest signal we have for films the cinema
+            # lists without a year.
+            "runtime": m.get("runtime"),
         } for m in movies]
         cache = enrich.enrich_all(films, cache_path, limit=args.enrich_limit)
         apply_enrichment(movies, cache)
