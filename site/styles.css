@@ -879,3 +879,28 @@ html { overflow-x: clip; }
   border-bottom: 1px solid var(--line);
 }
 .lgroup:first-child { margin-top: 0; }
+
+/* --------------------------------------------------------- rotating hero */
+
+.hero-dots {
+  position: absolute; right: var(--pad); bottom: clamp(22px, 3.4vh, 40px);
+  display: flex; gap: 7px; z-index: 3;
+}
+.hdot {
+  width: 26px; height: 3px; border: 0; padding: 0; border-radius: 99px;
+  background: rgba(255,255,255,.28); cursor: pointer;
+  transition: background var(--med) var(--ease), width var(--med) var(--ease);
+}
+.hdot:hover { background: rgba(255,255,255,.55); }
+.hdot.on { background: #fff; width: 34px; }
+:root[data-theme="light"] .hdot { background: rgba(0,0,0,.2); }
+:root[data-theme="light"] .hdot.on { background: var(--text); }
+
+@media (max-width: 720px) {
+  .hero-dots { left: var(--pad); right: auto; bottom: 14px; }
+  .hdot { width: 20px; }
+  .hdot.on { width: 26px; }
+}
+
+/* The sort control sits in the bar; make its purpose legible. */
+#f-sort .sel-btn { max-width: 230px; }

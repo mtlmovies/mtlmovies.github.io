@@ -53,7 +53,7 @@ const STR = {
     tagAnniv: "Anniversaire", tagFest: "Festival", tagLate: "Tard",
     nothingTonight: "Plus rien ce soir — regardez demain.",
     filters: "Filtres", fgFormat: "Format & séances", fgTime: "Heure",
-    fgLang: "Langue", fgWhere: "Où & tri", evening: "En soirée", close: "Fermer",
+    fgLang: "Langue", fgWhere: "Où", evening: "En soirée", close: "Fermer",
   },
   en: {
     tagline: "Showtimes in Montréal",
@@ -103,7 +103,7 @@ const STR = {
     tagAnniv: "Anniversary", tagFest: "Festival", tagLate: "Late",
     nothingTonight: "Nothing left tonight — try tomorrow.",
     filters: "Filters", fgFormat: "Format & screenings", fgTime: "Time of day",
-    fgLang: "Language", fgWhere: "Where & sort", evening: "Evening", close: "Close",
+    fgLang: "Language", fgWhere: "Where", evening: "Evening", close: "Close",
   },
 };
 
@@ -422,12 +422,15 @@ function render() {
     state.language || state.hood || state.indie || state.sort !== "relevance";
 
   if (!list.length) {
+    heroStop();
     $("#hero").hidden = true;
     root.innerHTML = `<div class="empty"><h3>${esc(t("emptyTitle"))}</h3><p>${esc(t("emptyBody"))}</p></div>`;
     return;
   }
 
-  renderHero(list[0]);
+  // Lead with the most notable screenings, best first.
+  heroStart([...list].sort((a, b) => (b.m.special ?? 0) - (a.m.special ?? 0) ||
+                                     (b.m.letterboxd_rating ?? -1) - (a.m.letterboxd_rating ?? -1)));
 
   if (state.view === "list") {
     // Grouped sorts get visible headers, otherwise the ordering is invisible.
@@ -515,6 +518,32 @@ function render() {
   root.innerHTML = parts.filter(Boolean).join("");
 }
 
+/* The hero cycles through the most notable screenings rather than fixing on
+   one. Paused for reduced-motion users, while the modal is open, and on hover. */
+const HERO_MS = 7000;
+let heroTimer = null, heroList = [], heroIdx = 0, heroPaused = false;
+
+function heroStop() { clearInterval(heroTimer); heroTimer = null; }
+
+function heroStart(list) {
+  heroStop();
+  heroList = list.slice(0, 6);
+  heroIdx = 0;
+  renderHero(heroList[0]);
+  const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (heroList.length > 1 && !still) {
+    heroTimer = setInterval(() => {
+      if (heroPaused || !$("#modal").hidden) return;
+      heroGo((heroIdx + 1) % heroList.length);
+    }, HERO_MS);
+  }
+}
+
+function heroGo(i) {
+  heroIdx = i;
+  renderHero(heroList[i]);
+}
+
 function renderHero(entry) {
   const hero = $("#hero");
   if (!entry) { hero.hidden = true; return; }
@@ -540,7 +569,13 @@ function renderHero(entry) {
         ${m.trailer ? `<a class="btn btn-glass" href="${esc(m.trailer)}" target="_blank" rel="noopener">${ICON.play} ${esc(t("trailer"))}</a>` : ""}
         ${vs.length ? `<span class="btn btn-glass btn-sm" style="pointer-events:none">${esc(vs.slice(0, 2).join(" · "))}</span>` : ""}
       </div>
-    </div>`;
+    </div>
+    ${heroList.length > 1 ? `<div class="hero-dots">${heroList.map((x, i) =>
+      `<button class="hdot${i === heroIdx ? " on" : ""}" data-hero="${i}"
+         aria-label="${esc(x.m.title)}"${i === heroIdx ? ' aria-current="true"' : ""}></button>`).join("")}</div>` : ""}`;
+
+  hero.onmouseenter = () => { heroPaused = true; };
+  hero.onmouseleave = () => { heroPaused = false; };
 }
 
 /* -------------------------------------------------------------------- modal */
@@ -699,7 +734,9 @@ function paintSelectButton(key) {
   const cur = s.options.find((o) => o.value === state[key]);
   const isSet = !!state[key] && !(key === "sort" && state[key] === "relevance");
   s.host.classList.toggle("set", isSet);
-  s.host.querySelector(".sel-btn span").textContent = cur && cur.value ? cur.label : s.label;
+  const txt = cur && cur.value ? cur.label : s.label;
+  s.host.querySelector(".sel-btn span").textContent =
+    s.key === "sort" ? `${t("sort")}: ${txt}` : txt;
 }
 
 function paintSelect(key, keepFocus) {
@@ -922,6 +959,9 @@ function wire() {
 
     const lang = e.target.closest("[data-lang]");
     if (lang) { setLang(lang.dataset.lang); return; }
+
+    const dot = e.target.closest("[data-hero]");
+    if (dot) { heroGo(Number(dot.dataset.hero)); return; }
 
     const card = e.target.closest("[data-id]");
     if (card) { openMovie(card.dataset.id); return; }
