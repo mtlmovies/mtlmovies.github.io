@@ -257,6 +257,12 @@ const ICON = {
   play: `<svg viewBox="0 0 16 16" fill="currentColor"><path d="M5 3.2v9.6l7.5-4.8z"/></svg>`,
   ext: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3.5H3.5v9h9v-3M9.5 3.5h3v3M12.5 3.5 7 9"/></svg>`,
   star: `<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1.6l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.4 4.2 13.4l.7-4.3-3.1-3 4.3-.6z"/></svg>`,
+  // Letterboxd's three-dot mark, so a rating is attributed rather than "LB".
+  lb: `<svg class="lbmark" viewBox="0 0 40 24" aria-hidden="true">
+        <circle cx="8" cy="12" r="8" fill="#FF8000"/>
+        <circle cx="20" cy="12" r="8" fill="#00E054"/>
+        <circle cx="32" cy="12" r="8" fill="#40BCF4"/>
+      </svg>`,
 };
 
 /** Distinct version labels across a film's screenings, most common first. */
@@ -360,7 +366,7 @@ function listRowHTML({ m, shows }) {
       </div>
     </div>
     <div class="lsc">
-      ${m.letterboxd_rating ? `<span class="lscv" style="color:${rateColor(m.letterboxd_rating)}">${m.letterboxd_rating.toFixed(1)}</span><span class="lsck">LB</span>` : ""}
+      ${m.letterboxd_rating ? `<span class="lscv" style="color:${rateColor(m.letterboxd_rating)}">${m.letterboxd_rating.toFixed(1)}</span><span class="lsck" title="Letterboxd">${ICON.lb}</span>` : ""}
       ${m.imdb_rating ? `<span class="lscv im" style="color:${rateColor10(m.imdb_rating)}">${m.imdb_rating.toFixed(1)}</span><span class="lsck">IMDb</span>` : ""}
     </div>
   </button>`;
@@ -381,7 +387,7 @@ function radarHTML({ m, shows }) {
       <div class="radar-t">${esc(m.title)}</div>
       <div class="radar-m">${esc([m.year, m.director, runtimeStr(m.runtime)].filter(Boolean).join(" · "))}</div>
       <div class="radar-w">${esc(v ? v.short_name || v.name : "")}${when ? ` · ${esc(when)}` : ""}</div>
-      ${m.letterboxd_rating ? `<div class="radar-r" style="color:${rateColor(m.letterboxd_rating)}">★ ${m.letterboxd_rating.toFixed(2)}</div>` : ""}
+      ${m.letterboxd_rating ? `<div class="radar-r" style="color:${rateColor(m.letterboxd_rating)}">${ICON.lb} ${m.letterboxd_rating.toFixed(2)}</div>` : ""}
     </div>
   </button>`;
 }
@@ -495,9 +501,11 @@ function render() {
     pick((x) => (x.m.letterboxd_rating ?? 0) >= 3.9, 24, byRating)));
   parts.push(rowHTML(t("secOnce"), pick((x) => x.shows.length === 1, 24, bySoonest), t("secOnceSub")));
 
+  // A cinema's own row reads as "what's on here, best first" — ranking it by
+  // rarity buried Lawrence of Arabia behind a dozen lower-rated titles.
   for (const v of state.data.venues) {
     if (v.chain !== "independent") continue;
-    const items = pick((x) => x.shows.some((s) => s.venue === v.id));
+    const items = pick((x) => x.shows.some((s) => s.venue === v.id), 30, byRating);
     if (items.length) parts.push(rowHTML(v.name, items, v.address));
   }
 
@@ -513,7 +521,7 @@ function render() {
 
 /* The hero cycles through the most notable screenings rather than fixing on
    one. Paused for reduced-motion users, while the modal is open, and on hover. */
-const HERO_MS = 7000;
+const HERO_MS = 5200;
 let heroTimer = null, heroList = [], heroIdx = 0, heroPaused = false;
 
 function heroStop() { clearInterval(heroTimer); heroTimer = null; }
@@ -605,7 +613,7 @@ function renderHero(entry) {
       <h1>${esc(m.title)}</h1>
       <div class="hero-meta">
         ${meta.map((x) => `<span>${esc(x)}</span>`).join(`<span class="dot"></span>`)}
-        ${m.letterboxd_rating ? `<span class="rate-chip" style="--sc:${rateColor(m.letterboxd_rating)}">${ICON.star} ${m.letterboxd_rating.toFixed(2)}</span>` : ""}
+        ${m.letterboxd_rating ? `<span class="rate-chip" style="--sc:${rateColor(m.letterboxd_rating)}" title="Letterboxd">${ICON.lb} ${m.letterboxd_rating.toFixed(2)}</span>` : ""}
         ${m.imdb_rating ? `<span class="rate-chip imdb">IMDb ${m.imdb_rating.toFixed(1)}</span>` : ""}
       </div>
       ${m.synopsis ? `<p>${esc(m.synopsis)}</p>` : ""}
@@ -621,6 +629,23 @@ function renderHero(entry) {
 
   hero.onmouseenter = () => { heroPaused = true; };
   hero.onmouseleave = () => { heroPaused = false; };
+
+  // Swipe left/right to move between the featured screenings.
+  let x0 = null, y0 = null;
+  hero.ontouchstart = (ev) => {
+    const tp = ev.changedTouches[0];
+    x0 = tp.clientX; y0 = tp.clientY; heroPaused = true;
+  };
+  hero.ontouchend = (ev) => {
+    heroPaused = false;
+    if (x0 == null || heroList.length < 2) return;
+    const tp = ev.changedTouches[0];
+    const dx = tp.clientX - x0, dy = tp.clientY - y0;
+    x0 = y0 = null;
+    // Horizontal, and clearly not a scroll.
+    if (Math.abs(dx) < 45 || Math.abs(dx) < Math.abs(dy) * 1.4) return;
+    heroGo((heroIdx + (dx < 0 ? 1 : -1) + heroList.length) % heroList.length);
+  };
 }
 
 /* -------------------------------------------------------------------- modal */
@@ -636,7 +661,7 @@ function openMovie(id) {
   const nf = new Intl.NumberFormat(locale());
   const scores = [];
   if (m.letterboxd_rating) scores.push(`<a class="sc lb" href="${esc(m.letterboxd_url || "#")}" target="_blank" rel="noopener">
-    <div><div class="v" style="color:${rateColor(m.letterboxd_rating)}">${m.letterboxd_rating.toFixed(2)}</div><div class="k">Letterboxd</div></div>
+    <div><div class="v" style="color:${rateColor(m.letterboxd_rating)}">${m.letterboxd_rating.toFixed(2)}</div><div class="k">${ICON.lb} Letterboxd</div></div>
     ${m.letterboxd_votes ? `<span class="c">${nf.format(m.letterboxd_votes)}</span>` : ""}</a>`);
   if (m.imdb_rating) scores.push(`<a class="sc imdb" href="${esc(m.imdb_url || "#")}" target="_blank" rel="noopener">
     <div><div class="v" style="color:${rateColor10(m.imdb_rating)}">${m.imdb_rating.toFixed(1)}</div><div class="k">IMDb</div></div>
@@ -1112,8 +1137,38 @@ function wire() {
   });
 
   const nav = $(".nav");
+  const bar = $(".bar");
+  const daysRow = bar.querySelector(".bar-row");
+  let collapsed = null;
+
+  // Driven with inline styles rather than a class: the bar's height is what
+  // decides how much of a phone screen the chrome eats, and this cannot be
+  // lost to a cascade conflict.
+  function setCollapsed(on) {
+    if (on === collapsed) return;
+    collapsed = on;
+    bar.classList.toggle("collapsed", on);
+    daysRow.style.maxHeight = on ? "0px" : "";
+    daysRow.style.paddingTop = on ? "0px" : "";
+    daysRow.style.paddingBottom = on ? "0px" : "";
+    daysRow.style.opacity = on ? "0" : "";
+    const touch = isTouch();
+    bar.style.paddingTop = on && touch ? "0px" : "";
+    document.body.classList.toggle("nav-up", on && touch);
+  }
+
+  let lastY = window.scrollY;
   const onScroll = () => {
-    nav.classList.toggle("solid", window.scrollY > 40);
+    const y = window.scrollY;
+    nav.classList.toggle("solid", y > 40);
+
+    // Reading the listings matters more than the controls: going down folds
+    // the date strip (and the nav on phones) away, coming up brings them back.
+    const down = y > lastY + 5;
+    const up = y < lastY - 5;
+    if (down && y > 240) setCollapsed(true);
+    else if (up || y < 120) setCollapsed(false);
+    if (Math.abs(y - lastY) > 5) lastY = y;
     // The popover is fixed to the trigger's rect, so follow the trigger.
     if (!isTouch()) {
       Object.keys(SELECTS).forEach((k) => { if (SELECTS[k].open) placeSelect(k); });
@@ -1153,7 +1208,7 @@ function togglePanel(force) {
   p.hidden = !open;
   $("#fbtn").setAttribute("aria-expanded", String(open));
   document.body.classList.toggle("sheet-open", open && isTouch());
-  if (open) placePanel();
+  if (open) { placePanel(); }
 }
 
 function syncView() {

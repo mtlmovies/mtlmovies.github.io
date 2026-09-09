@@ -974,3 +974,71 @@ html { overflow-x: clip; }
   .sel-opt { padding: 13px 12px; font-size: 15px; }
   .fpanel .chip, .fpanel .sel-btn { height: 36px; font-size: 13.5px; }
 }
+
+/* ------------------------------------------------ collapse-on-scroll chrome */
+
+.bar { transition: padding-top var(--med) var(--ease); }
+
+.bar .bar-row:first-child {           /* the date strip */
+  max-height: 84px; overflow: hidden;
+  transition: max-height var(--med) var(--ease), opacity .18s var(--ease),
+              padding var(--med) var(--ease);
+}
+.bar.collapsed .bar-row:first-child {
+  max-height: 0; opacity: 0; padding-top: 0; padding-bottom: 0;
+}
+
+.nav { transition: background var(--med) var(--ease), border-color var(--med) var(--ease),
+                   transform var(--med) var(--ease); }
+
+@media (max-width: 720px) {
+  /* The sort toggles take their own line and scroll sideways, rather than
+     wrapping to three lines and eating the screen. */
+  .sortchips {
+    flex: 1 0 100%; flex-wrap: nowrap;
+    overflow-x: auto; scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .sortchips::-webkit-scrollbar { display: none; }
+  .bar-actions .grow { display: none; }
+  .bar .bar-row:last-child { gap: 7px; }
+  .chipsep { display: none; }
+
+  /* Give the listings the screen back on the way down. */
+  body.nav-up .nav { transform: translateY(-100%); }
+  body.nav-up .bar { padding-top: 0; }
+  .bar.collapsed .sortchips { display: none; }
+}
+
+/* A sheet is open: chrome must stay put underneath it. */
+body.sheet-open .nav { transform: none; }
+body.sheet-open .bar .bar-row:first-child { max-height: 84px; opacity: 1; }
+
+/* Collapsed on a phone means one compact row: Tonight / This week / Filters.
+   The view toggle and Reset come back as soon as you scroll up. */
+@media (max-width: 720px) {
+  .bar.collapsed .bar-row:last-child { padding-top: 6px; padding-bottom: 6px; }
+  .bar.collapsed .viewtoggle,
+  .bar.collapsed .reset { display: none; }
+}
+
+/* ------------------------------------------------------------ Letterboxd */
+
+.lbmark { width: 1em; height: 1em; flex: none; display: inline-block; vertical-align: -0.13em; }
+.lbmark circle { mix-blend-mode: screen; }
+:root[data-theme="light"] .lbmark circle { mix-blend-mode: multiply; }
+
+.rate-chip .lbmark { width: 15px; height: 15px; }
+.lsck .lbmark, .sc .lbmark { width: 12px; height: 12px; }
+.sc .k { display: inline-flex; align-items: center; gap: 5px; }
+.lsck { display: inline-flex; align-items: center; gap: 3px; }
+
+/* Collapsed must be exactly one line, whatever the width: wrapping is what
+   was leaving ~175px of chrome on a 390px screen. */
+@media (max-width: 720px) {
+  .bar.collapsed .bar-row:last-child {
+    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none;
+  }
+  .bar.collapsed .bar-row:last-child::-webkit-scrollbar { display: none; }
+  .bar.collapsed .chipsep { display: none; }
+}
