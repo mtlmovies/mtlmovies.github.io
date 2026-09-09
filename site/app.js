@@ -190,9 +190,10 @@ const ICON = {
 };
 
 function artHTML(m) {
+  // Posters only. A 16:9 still centre-cropped into a 2:3 tile reads as a
+  // screenshot, not artwork, so a titled placeholder is the better fallback.
   const ph = `<div class="ph">${esc(m.title)}</div>`;
-  const art = m.poster || m.backdrop;
-  return art ? `${ph}<img loading="lazy" src="${esc(art)}" alt="" onerror="this.remove()">` : ph;
+  return m.poster ? `${ph}<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">` : ph;
 }
 
 function tagsHTML(m, shows) {
