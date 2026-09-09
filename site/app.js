@@ -26,6 +26,8 @@ const STR = {
     secFilm: "Sur pellicule", secFilmSub: "Projections 35 mm et 70 mm.",
     secClassics: "Classiques & reprises", secClassicsSub: "Restaurations, rétrospectives et grands films en salle.",
     secTop: "Les mieux notés sur Letterboxd",
+    secNew: (y) => `Nouveautés ${y}`,
+    secNewSub: "Les sorties de l'année, actuellement en salle.",
     secOnce: "Séance unique", secOnceSub: "Une seule projection prévue.",
     secAll: "Tout à l'affiche",
     resultsFor: (q) => `Résultats pour « ${q} »`,
@@ -77,6 +79,8 @@ const STR = {
     secFilm: "Shot on film", secFilmSub: "35 mm and 70 mm projections.",
     secClassics: "Classics & revivals", secClassicsSub: "Restorations, retrospectives and great films back on screen.",
     secTop: "Top rated on Letterboxd",
+    secNew: (y) => `New in ${y}`,
+    secNewSub: "This year's releases, currently on screen.",
     secOnce: "One screening only", secOnceSub: "A single projection scheduled.",
     secAll: "Everything showing",
     resultsFor: (q) => `Results for “${q}”`,
@@ -499,6 +503,9 @@ function render() {
     pick((x) => has(x, "classic") || has(x, "restoration"), 30, byRating), t("secClassicsSub")));
   parts.push(rowHTML(t("secTop"),
     pick((x) => (x.m.letterboxd_rating ?? 0) >= 3.9, 24, byRating)));
+  const thisYear = new Date().getFullYear();
+  parts.push(rowHTML(t("secNew", thisYear),
+    pick((x) => x.m.year === thisYear, 30, byRating), t("secNewSub")));
   parts.push(rowHTML(t("secOnce"), pick((x) => x.shows.length === 1, 24, bySoonest), t("secOnceSub")));
 
   // A cinema's own row reads as "what's on here, best first" — ranking it by
@@ -1158,29 +1165,52 @@ function wire() {
   }
 
   let lastY = window.scrollY;
-  const onScroll = () => {
+  let ticking = false;
+  let lockUntil = 0;
+
+  const apply = () => {
     const y = window.scrollY;
     nav.classList.toggle("solid", y > 40);
 
-    // Reading the listings matters more than the controls: going down folds
-    // the date strip (and the nav on phones) away, coming up brings them back.
-    const down = y > lastY + 5;
-    const up = y < lastY - 5;
-    if (down && y > 240) setCollapsed(true);
-    else if (up || y < 120) setCollapsed(false);
-    if (Math.abs(y - lastY) > 5) lastY = y;
-    // The popover is fixed to the trigger's rect, so follow the trigger.
+    // Collapsing a sticky bar shortens the document, which shifts everything
+    // below it and immediately looks like an upward scroll — which expands the
+    // bar, which shifts it back. That feedback loop is the jitter. Asymmetric
+    // thresholds plus a lock after each toggle break it, and the collapse is
+    // limited to touch layouts, where the bar actually costs half a screen.
+    const now = performance.now();
+    if (isTouch() && now >= lockUntil) {
+      const dy = y - lastY;
+      if (!collapsed && dy > 12 && y > 320) {
+        setCollapsed(true);
+        lockUntil = now + 450;
+      } else if (collapsed && (dy < -28 || y < 140)) {
+        setCollapsed(false);
+        lockUntil = now + 450;
+      }
+    } else if (!isTouch() && collapsed) {
+      setCollapsed(false);
+    }
+
+    if (Math.abs(y - lastY) > 4) lastY = y;
+
+    // The popover is anchored to its trigger's rect, so it has to follow it.
     if (!isTouch()) {
       Object.keys(SELECTS).forEach((k) => { if (SELECTS[k].open) placeSelect(k); });
       placePanel();
     }
+  };
+
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => { ticking = false; apply(); });
   };
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", () => {
     Object.keys(SELECTS).forEach(closeSelect);
     placePanel();
   });
-  onScroll();
+  apply();
 }
 
 function activeFilterCount() {

@@ -332,6 +332,9 @@ THEMES = [
     ("repertory", "Repertory cinema in Montréal",
      lambda m: "repertory" in (m.get("tags") or []),
      "What Montréal's repertory houses and cinematheques are showing."),
+    ("new-releases", f"New {dt.date.today().year} releases in Montréal cinemas",
+     lambda m: m.get("year") == dt.date.today().year,
+     f"Films released in {dt.date.today().year} currently playing in Montréal."),
 ]
 
 
