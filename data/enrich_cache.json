@@ -205,6 +205,9 @@
  "bolbhaveinnabol": {
   "enriched_at": "2026-09-08"
  },
+ "boogienightsstaffpicks:1997": {
+  "enriched_at": "2026-09-09"
+ },
  "bouchra:2025": {
   "enriched_at": "2026-09-08",
   "imdb_id": "tt36543744",
@@ -356,6 +359,9 @@
  "cinemaparadisocoupsdecoeurdelequipe:1988": {
   "enriched_at": "2026-09-08"
  },
+ "cinemaparadisostaffpicks:1988": {
+  "enriched_at": "2026-09-09"
+ },
  "citizenkane:1941": {
   "enriched_at": "2026-09-08",
   "imdb_id": "tt0033467",
@@ -377,6 +383,9 @@
  },
  "colorpomegranatescoupscoeurequipe:1969": {
   "enriched_at": "2026-09-08"
+ },
+ "colorpomegranatesstaffpicks:1969": {
+  "enriched_at": "2026-09-09"
  },
  "compostelle:2026": {
   "enriched_at": "2026-09-08",
@@ -491,6 +500,45 @@
  "festivalsatellites": {
   "enriched_at": "2026-09-08"
  },
+ "festivalsatellitesprogram1:2026": {
+  "enriched_at": "2026-09-09"
+ },
+ "festivalsatellitesprogram2:2026": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpopagridulce:2026": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpopaki:2025": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpopbuttholesurfersholetruthnothingbutt:2026": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpopiamtryingtobreakyourheartfilmaboutwilco:2002": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpopimaginaldisk:2026": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpopkanatenhswhenpineneedlesfall:2023": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpoppulpwhatdoyoudofor:2026": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpopsummer2000xcetrastory:2026": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpopturnitup:2026": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpopweareshaggs:2026": {
+  "enriched_at": "2026-09-09"
+ },
+ "filmpopxoxwantstobepopstar": {
+  "enriched_at": "2026-09-09"
+ },
  "filmslaureatsfare": {
   "enriched_at": "2026-09-08"
  },
@@ -591,6 +639,9 @@
  "goodbadugly60e:1966": {
   "enriched_at": "2026-09-08"
  },
+ "goodbadugly60th:1966": {
+  "enriched_at": "2026-09-09"
+ },
  "grandeseduction:2003": {
   "enriched_at": "2026-09-08",
   "imdb_id": "tt0366532",
@@ -613,6 +664,16 @@
  },
  "haiwaanhinengsub": {
   "enriched_at": "2026-09-08"
+ },
+ "heartbeats:2010": {
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt1600524",
+  "letterboxd_rating": 3.56,
+  "letterboxd_url": "https://letterboxd.com/film/heartbeats/",
+  "letterboxd_votes": 60090,
+  "tmdb_id": "51241",
+  "wikidata_id": "Q2336453",
+  "year": 2010
  },
  "hemela:2025": {
   "enriched_at": "2026-09-08"
@@ -679,6 +740,9 @@
   "tmdb_id": "46738",
   "wikidata_id": "Q1212650",
   "year": 2010
+ },
+ "inheritors:2023": {
+  "enriched_at": "2026-09-09"
  },
  "insidieuxhorsduplusloin": {
   "enriched_at": "2026-09-08"
@@ -759,6 +823,12 @@
  "jacquotnantescoupscoeurequipe": {
   "enriched_at": "2026-09-08"
  },
+ "jacquotnantesstaffpicks:1991": {
+  "enriched_at": "2026-09-09"
+ },
+ "jardindenfants": {
+  "enriched_at": "2026-09-09"
+ },
  "jardindenfants:2025": {
   "enriched_at": "2026-09-08"
  },
@@ -784,6 +854,9 @@
   "tmdb_id": "11953",
   "wikidata_id": "Q854990",
   "year": 1980
+ },
+ "kindergartenq:2025": {
+  "enriched_at": "2026-09-09"
  },
  "kwaidan:1965": {
   "enriched_at": "2026-09-08",
@@ -1032,6 +1105,9 @@
   "wikidata_id": "Q134083296",
   "year": 2026
  },
+ "littleprincepetitsmodernes:2015": {
+  "enriched_at": "2026-09-09"
+ },
  "lodyssee": {
   "enriched_at": "2026-09-08",
   "imdb_id": "tt1659619",
@@ -1055,8 +1131,28 @@
   "wikidata_id": "Q136146573",
   "year": 2025
  },
+ "maddiessecret:2025": {
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt37675037",
+  "letterboxd_rating": 3.68,
+  "letterboxd_url": "https://letterboxd.com/film/maddies-secret/",
+  "letterboxd_votes": 39806,
+  "tmdb_id": "1517868",
+  "wikidata_id": "Q136146573",
+  "year": 2025
+ },
  "mandaaditamengsub": {
   "enriched_at": "2026-09-08"
+ },
+ "mariages": {
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0388242",
+  "letterboxd_rating": 2.9,
+  "letterboxd_url": "https://letterboxd.com/film/mariages/",
+  "letterboxd_votes": 796,
+  "tmdb_id": "52538",
+  "wikidata_id": "Q3291179",
+  "year": 2004
  },
  "mariages:2001": {
   "enriched_at": "2026-09-08",
@@ -1065,6 +1161,9 @@
   "tmdb_id": "148253",
   "wikidata_id": "Q3291178",
   "year": 2001
+ },
+ "marriagescoupscoeurequipe:2001": {
+  "enriched_at": "2026-09-09"
  },
  "medecinamericain:2026": {
   "enriched_at": "2026-09-08"
@@ -1181,6 +1280,9 @@
   "tmdb_id": "10331",
   "wikidata_id": "Q623051",
   "year": 1968
+ },
+ "nightmaresadvice:2026": {
+  "enriched_at": "2026-09-09"
  },
  "nightofthelivingdead:1968": {
   "enriched_at": "2026-09-08",
@@ -1367,6 +1469,9 @@
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-08"
  },
+ "redballonwhitemanepetitsmodernes:1953": {
+  "enriched_at": "2026-09-09"
+ },
  "redemptions:2026": {
   "enriched_at": "2026-09-08",
   "imdb_id": "tt36412781",
@@ -1515,6 +1620,9 @@
  "sickmyselfcoupscoeurequipe:2022": {
   "enriched_at": "2026-09-08"
  },
+ "sickmyselfstaffpicks:2022": {
+  "enriched_at": "2026-09-09"
+ },
  "sickofmyselfcoupsdecoeurdelequipe:2022": {
   "enriched_at": "2026-09-08"
  },
@@ -1579,6 +1687,9 @@
   "tmdb_id": "11906",
   "wikidata_id": "Q546900",
   "year": 1977
+ },
+ "taleautumn:1998": {
+  "enriched_at": "2026-09-09"
  },
  "teenagesexanddeathatcampmiasma:2026": {
   "enriched_at": "2026-09-08",
@@ -1789,8 +1900,14 @@
  "trainspotting30e:1996": {
   "enriched_at": "2026-09-08"
  },
+ "trainspotting30th:1996": {
+  "enriched_at": "2026-09-09"
+ },
  "traintobusan10e:2016": {
   "enriched_at": "2026-09-08"
+ },
+ "traintobusan10th:2016": {
+  "enriched_at": "2026-09-09"
  },
  "transport": {
   "enriched_at": "2026-09-08",
@@ -1861,6 +1978,9 @@
  },
  "virginsuicidescinetricot": {
   "enriched_at": "2026-09-08"
+ },
+ "virginsuicidescinetricot:1999": {
+  "enriched_at": "2026-09-09"
  },
  "vishwanathandsonstamengsub": {
   "enriched_at": "2026-09-08"
