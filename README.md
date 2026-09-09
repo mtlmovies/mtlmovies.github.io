@@ -64,12 +64,20 @@ python3 scrapers/build.py --only cinemacinema,ticketacces
 python3 scrapers/probe.py
 ```
 
-Then serve the site (it reads `./data/index.json` relative to the page):
+### Previewing the site locally
+
+The page loads `./data/index.json` relative to itself, and browsers block
+`fetch()` on `file://` URLs — so **opening `site/index.html` from Finder shows an
+empty page**. Serve it over HTTP instead:
 
 ```bash
-mkdir -p _site && cp site/* _site/ && ln -sfn ../data _site/data
-python3 -m http.server -d _site 8000   # → http://localhost:8000
+ln -sfn ../data site/data          # once; git-ignored, only for local preview
+python3 -m http.server -d site 8000
+# → http://localhost:8000
 ```
+
+The deploy does the same thing differently: the workflow copies `site/*` and
+`data/*.json` into `_site/` before publishing.
 
 ## Ratings enrichment
 
