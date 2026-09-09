@@ -33,6 +33,9 @@ LETTERBOXD = "https://letterboxd.com"
 
 # Cache entries older than this are refreshed (ratings drift).
 CACHE_TTL_DAYS = 21
+# A lookup that resolved nothing is retried much sooner: the title may have been
+# decorated ("- Staff Picks"), or the film may be too new to be indexed yet.
+UNRESOLVED_TTL_DAYS = 3
 
 
 # ---------------------------------------------------------------------------
@@ -267,10 +270,41 @@ def save_cache(path: str, cache: dict):
         json.dump(cache, f, ensure_ascii=False, indent=1, sort_keys=True)
 
 
+# Programme decorations that stop a title matching a film database. Repertory
+# venues append these constantly: "Lawrence of Arabia - Staff Picks",
+# "The Good, The Bad and The Ugly: 60th Anniversary", "Buddy + Q&A".
+_DECORATION_RES = [
+    re.compile(r"\[[^\]]*\]"),                                   # [LAST SCREENING]
+    re.compile(r"\s*\+\s*Q\s*&\s*A.*$", re.I),                   # + Q&A
+    re.compile(r"\s*[-–—:]\s*(staff picks?|coups? de c(?:o|œ)eur.*|"
+               r"petits modernes|cin[ée]-?club.*|s[ée]ance sp[ée]ciale.*|"
+               r"pr[ée]sent[ée].*|en pr[ée]sence.*)$", re.I),
+    re.compile(r"\s*[-–—:,]?\s*\d{1,3}\s*(e|er|th|st|nd|rd)?\s*"
+               r"(anniversaire|anniversary).*$", re.I),
+    re.compile(r"\s*[-–—:]\s*(nouvelle\s+)?(restauration|restored|remaster\w*)"
+               r"(\s*\d?k)?\s*$", re.I),
+    re.compile(r"\s*\((?:vf|voa|vostf|vosta|vo|2d|3d|imax|4k|dcp)\)\s*$", re.I),
+]
+
+
+def search_title(title: str) -> str:
+    """Strip programme decorations so the title can be looked up."""
+    t = clean(title)
+    for _ in range(3):          # decorations stack: "X - Staff Picks [LAST]"
+        before = t
+        for rx in _DECORATION_RES:
+            t = rx.sub("", t).strip(" -–—:,")
+        if t == before:
+            break
+    return t or clean(title)
+
+
 def enrich_film(title: str, year: int | None, director: str = "",
                 original_title: str = "") -> dict:
     """Look a film up across the sources. Never raises."""
     info: dict = {}
+    title = search_title(title)
+    original_title = search_title(original_title) if original_title else ""
 
     # 1. Identity: TMDB when we have a key, Wikidata otherwise.
     ident = _tmdb(original_title or title, year)
@@ -302,7 +336,7 @@ def enrich_film(title: str, year: int | None, director: str = "",
 def enrich_all(films: list[dict], cache_path: str, limit: int | None = None) -> dict:
     """films: [{key,title,year,director,original_title}] -> {key: info}"""
     cache = load_cache(cache_path)
-    fresh_cutoff = time.time() - CACHE_TTL_DAYS * 86400
+    now = time.time()
     todo = []
     for f in films:
         hit = cache.get(f["key"])
@@ -312,7 +346,9 @@ def enrich_all(films: list[dict], cache_path: str, limit: int | None = None) -> 
                 age = time.mktime(time.strptime(stamp, "%Y-%m-%d"))
             except Exception:
                 age = 0
-            if age >= fresh_cutoff:
+            resolved = bool(hit.get("imdb_id") or hit.get("tmdb_id"))
+            ttl = CACHE_TTL_DAYS if resolved else UNRESOLVED_TTL_DAYS
+            if age >= now - ttl * 86400:
                 continue
         todo.append(f)
 
