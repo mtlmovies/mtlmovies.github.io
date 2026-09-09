@@ -40,8 +40,10 @@ LOCATIONS = {
                        neighbourhood="Rive-Sud", lat=45.4900, lng=-73.4700),
 }
 
+# Anchor on the card container, not the title: the poster <div> comes BEFORE
+# the <h3>, so splitting on the title captures the next film's artwork.
 CARD_RE = re.compile(
-    r'<h3 class="nowPlaying__movieTitle"(.*?)(?=<h3 class="nowPlaying__movieTitle"|<footer|</main)', re.S
+    r'<div class="nowPlaying__item[^"]*"(.*?)(?=<div class="nowPlaying__item|<footer|</main)', re.S
 )
 TITLE_RE = re.compile(r'<a class="nowPlaying__movieLink" href="([^"]*)"[^>]*>(.*?)</a>', re.S)
 POSTER_RE = re.compile(r'<img data-src="([^"]+)"')

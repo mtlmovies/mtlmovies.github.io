@@ -383,6 +383,9 @@ main { padding-bottom: 96px; }
   padding: 4px var(--page-pad) 8px;
   overflow-x: auto;
   scroll-snap-type: x proximity;
+  /* Without this, snapping aligns the first card to the container edge and
+     eats the row's left padding. */
+  scroll-padding-left: var(--page-pad);
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
@@ -455,6 +458,8 @@ main { padding-bottom: 96px; }
   transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
 }
 .poster img {
+  position: relative;   /* paint above the absolutely-placed fallback */
+  z-index: 1;
   width: 100%; height: 100%;
   object-fit: cover;
   display: block;

@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-09-08T22:51:22-04:00",
+ "counts": {
+  "movies": 204,
+  "venues": 25,
+  "showtimes": 4461
+ },
+ "sources": [
+  {
+   "source": "cinemacinema",
+   "ok": true,
+   "screenings": 461,
+   "venues": 3,
+   "seconds": 55.7
+  },
+  {
+   "source": "ticketacces",
+   "ok": true,
+   "screenings": 89,
+   "venues": 3,
+   "seconds": 87.1
+  },
+  {
+   "source": "cineplex",
+   "ok": true,
+   "screenings": 1569,
+   "venues": 11,
+   "seconds": 78.2
+  },
+  {
+   "source": "cinestarz",
+   "ok": true,
+   "screenings": 2326,
+   "venues": 7,
+   "seconds": 89.1
+  },
+  {
+   "source": "guzzo",
+   "ok": true,
+   "screenings": 16,
+   "venues": 1,
+   "seconds": 2.7
+  }
+ ]
+}

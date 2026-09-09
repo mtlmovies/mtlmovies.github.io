@@ -133,11 +133,13 @@ function sortMovies(list) {
 /* ------------------------------------------------------------------ render */
 
 function posterHTML(m) {
+  // The fallback sits underneath; a loaded poster covers it, and a broken one
+  // removes itself to reveal it.
+  const fb = `<div class="poster-fallback">${esc(m.title)}</div>`;
   if (m.poster) {
-    return `<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">
-            <div class="poster-fallback" style="z-index:-1">${esc(m.title)}</div>`;
+    return `${fb}<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">`;
   }
-  return `<div class="poster-fallback">${esc(m.title)}</div>`;
+  return fb;
 }
 
 function badgesHTML(m, shows) {
@@ -405,6 +407,8 @@ function openMovie(id) {
       <h2 class="modal-title">${esc(m.title)}</h2>
       ${m.original_title && m.original_title.toLowerCase() !== m.title.toLowerCase()
         ? `<div class="modal-orig">${esc(m.original_title)}</div>` : ""}
+      ${(m.alt_titles || []).length
+        ? `<div class="modal-orig">Aussi à l'affiche sous&nbsp;: ${esc(m.alt_titles.join(" · "))}</div>` : ""}
       <div class="modal-meta">
         ${m.year ? `<span class="pill">${esc(m.year)}</span>` : ""}
         ${m.runtime ? `<span class="pill">${runtimeStr(m.runtime)}</span>` : ""}

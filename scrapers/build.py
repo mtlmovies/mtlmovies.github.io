@@ -169,6 +169,52 @@ def apply_enrichment(movies: list[dict], cache: dict):
             m["imdb_url"] = f"https://www.imdb.com/title/{m['imdb_id']}/"
 
 
+def merge_by_identity(movies: list[dict]) -> list[dict]:
+    """Fold together entries that enrichment proved are the same film.
+
+    Venues list the same title in French and in English ("Minions & Monsters"
+    vs "Les minions et les monstres"); normalizing the strings cannot reconcile
+    those, but a shared IMDb/TMDB id can. The per-showtime version label still
+    tells the viewer which print they are buying a ticket for.
+    """
+    groups: dict[str, list[dict]] = {}
+    singles: list[dict] = []
+    for m in movies:
+        ident = m.get("imdb_id") or (f"tmdb:{m['tmdb_id']}" if m.get("tmdb_id") else "")
+        if ident:
+            groups.setdefault(ident, []).append(m)
+        else:
+            singles.append(m)
+
+    out = list(singles)
+    for ident, items in groups.items():
+        if len(items) == 1:
+            out.append(items[0])
+            continue
+        # Keep the entry with the most showtimes as the base.
+        items.sort(key=lambda m: (-len(m["showtimes"]), m["title"]))
+        base = dict(items[0])
+        for other in items[1:]:
+            base["showtimes"] = base["showtimes"] + other["showtimes"]
+            for key in ("genres", "tags"):
+                merged = list(base.get(key) or [])
+                for v in other.get(key) or []:
+                    if v not in merged:
+                        merged.append(v)
+                base[key] = merged
+            for key in ("synopsis", "poster", "backdrop", "director", "cast",
+                        "trailer", "country", "rating", "original_title",
+                        "year", "runtime"):
+                if not base.get(key) and other.get(key):
+                    base[key] = other[key]
+        base["showtimes"].sort(key=lambda s: s["start"])
+        base["alt_titles"] = sorted({m["title"] for m in items[1:]} - {base["title"]})
+        out.append(base)
+
+    out.sort(key=lambda m: (-len(m["showtimes"]), m["title"]))
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-enrich", action="store_true")
@@ -230,6 +276,11 @@ def main():
         apply_enrichment(movies, cache)
     else:
         apply_enrichment(movies, enrich_cache_safe(cache_path))
+
+    before = len(movies)
+    movies = merge_by_identity(movies)
+    if before != len(movies):
+        log(f"[build] folded {before - len(movies)} duplicate titles via IMDb/TMDB ids")
 
     dates = sorted({s["date"] for m in movies for s in m["showtimes"]})
     payload = {

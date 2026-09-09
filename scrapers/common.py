@@ -148,19 +148,33 @@ def slugify(s: str) -> str:
     return s or "x"
 
 
+# Words that differ purely by language or styling between venues and must not
+# affect whether two listings are the same film.
+_NOISE_WORDS = re.compile(
+    r"\b(v\.?o\.?a?|v\.?f\.?|vostf|vosta|stf|sta|imax|3d|2d|4k|dcp|35mm|70mm|"
+    r"version\s+francaise|version\s+originale|version\s+anglaise|"
+    r"encore|anniversaire|anniversary|edition|remastered|restauration|restaure|"
+    r"the|le|la|les|l|un|une|des|du|de|a|an|and|et|of|in|on)\b"
+)
+
+
 def title_key(title: str, year=None) -> str:
-    """Normalized key used to merge the same film across cinemas."""
+    """Normalized key used to merge the same film across cinemas.
+
+    Aggressive on purpose: venues list the same film as "The Odyssey",
+    "ODYSSEY" and "L'Odyssey", or with "&" where another writes "and".
+    Cross-language pairs (Minions and Monsters / Les minions et les monstres)
+    still differ here — build.py merges those later using the IMDb id that
+    enrichment resolves.
+    """
     t = unicodedata.normalize("NFKD", title or "")
     t = "".join(c for c in t if not unicodedata.combining(c)).lower()
-    # Drop common decorations that differ between venues.
-    t = re.sub(r"\(.*?\)", " ", t)
-    t = re.sub(
-        r"\b(v\.?o\.?a?|v\.?f\.?|vostf|vosta|stf|sta|imax|3d|2d|4k|dcp|"
-        r"version francaise|version originale|encore|anniversaire|anniversary)\b",
-        " ",
-        t,
-    )
-    t = re.sub(r"[^a-z0-9]+", "", t)
+    t = re.sub(r"\(.*?\)", " ", t)          # (VF), (2024), ...
+    t = re.sub(r"\[.*?\]", " ", t)          # [DERNIÈRE SÉANCE]
+    t = t.replace("&", " and ")
+    t = re.sub(r"[^a-z0-9]+", " ", t)
+    t = _NOISE_WORDS.sub(" ", t)
+    t = re.sub(r"\s+", "", t)
     return t or slugify(title)
 
 
