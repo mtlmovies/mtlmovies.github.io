@@ -10,7 +10,8 @@
   "year": 2026
  },
  "125ruemalaises:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/8/3/4/4/1558344-125-rue-des-malaises-0-230-0-345-crop.jpg?v=7c08cce49e",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt42702735",
   "letterboxd_rating": 3.0,
   "letterboxd_url": "https://letterboxd.com/film/125-rue-des-malaises/",
@@ -23,21 +24,23 @@
   "enriched_at": "2026-09-09"
  },
  "812": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ho/pb/4o/of/8%20half-1200-1200-675-675-crop-000000.jpg?v=b249097cac",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0056801",
   "letterboxd_rating": 4.26,
   "letterboxd_url": "https://letterboxd.com/film/8-half/",
-  "letterboxd_votes": 277219,
+  "letterboxd_votes": 277222,
   "tmdb_id": "422",
   "wikidata_id": "Q12018",
   "year": 1963
  },
  "adieumaconcubine:1993": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/gr/an/nn/ns/farewell-my-concubine-1200-1200-675-675-crop-000000.jpg?v=9ffbacfc0a",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0106332",
   "letterboxd_rating": 4.4,
   "letterboxd_url": "https://letterboxd.com/film/farewell-my-concubine/",
-  "letterboxd_votes": 81616,
+  "letterboxd_votes": 81622,
   "tmdb_id": "10997",
   "wikidata_id": "Q696413",
   "year": 1993
@@ -53,11 +56,12 @@
   "year": 1964
  },
  "agathasalmanac": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/7/6/0/tmdb/gE32MBHgTTl7ROg9bWOnD8Mmm1j-1200-1200-675-675-crop-000000.jpg?v=775f0c3249",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt35932393",
   "letterboxd_rating": 3.82,
   "letterboxd_url": "https://letterboxd.com/film/agathas-almanac/",
-  "letterboxd_votes": 2082,
+  "letterboxd_votes": 2088,
   "tmdb_id": "",
   "wikidata_id": "Q134309015",
   "year": null
@@ -69,11 +73,12 @@
   "enriched_at": "2026-09-09"
  },
  "americanpsycho:2000": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tr/kl/dj/zi/american-psycho-1200-1200-675-675-crop-000000.jpg?v=59e7d630d5",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0144084",
   "letterboxd_rating": 3.75,
   "letterboxd_url": "https://letterboxd.com/film/american-psycho/",
-  "letterboxd_votes": 4144365,
+  "letterboxd_votes": 4144464,
   "tmdb_id": "1359",
   "wikidata_id": "Q1405126",
   "year": 2000
@@ -106,11 +111,12 @@
   "enriched_at": "2026-09-09"
  },
  "arbreauxsabots:1978": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0w/lc/fc/qx/the-tree-of-wooden-clogs-1200-1200-675-675-crop-000000.jpg?v=9ab7ba0a70",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0077138",
   "letterboxd_rating": 4.08,
   "letterboxd_url": "https://letterboxd.com/film/the-tree-of-wooden-clogs/",
-  "letterboxd_votes": 9460,
+  "letterboxd_votes": 9459,
   "tmdb_id": "31542",
   "wikidata_id": "Q1194413",
   "year": 1978
@@ -127,21 +133,23 @@
   "year": null
  },
  "backrooms:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/7/6/4/1/9/tmdb/nwlTTCHTIBtkvb70762Ug25khlV-1200-1200-675-675-crop-000000.jpg?v=ffeffd44cc",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt26657236",
   "letterboxd_rating": 3.32,
   "letterboxd_url": "https://letterboxd.com/film/backrooms-2026/",
-  "letterboxd_votes": 2951715,
+  "letterboxd_votes": 2951961,
   "tmdb_id": "1083381",
   "wikidata_id": "Q125131076",
   "year": 2026
  },
  "bagnoles20e": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/it/25/j1/wu/cars-120-1200-1200-675-675-crop-000000.jpg?v=99af96b3d6",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0317219",
   "letterboxd_rating": 3.95,
   "letterboxd_url": "https://letterboxd.com/film/cars/",
-  "letterboxd_votes": 2100926,
+  "letterboxd_votes": 2100945,
   "tmdb_id": "920",
   "wikidata_id": "Q182153",
   "year": 2006
@@ -150,7 +158,8 @@
   "enriched_at": "2026-09-09"
  },
  "barriotriste": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/9/1/7/1/5/tmdb/3AhCk3cEiHjtXFLFw2Ewj7ZQdqH-1200-1200-675-675-crop-000000.jpg?v=2db32397f9",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt37660515",
   "letterboxd_rating": 3.39,
   "letterboxd_url": "https://letterboxd.com/film/barrio-triste/",
@@ -166,11 +175,12 @@
   "enriched_at": "2026-09-09"
  },
  "bestyearsourlives:1946": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kq/rl/hd/wf/bestyears-1200-1200-675-675-crop-000000.jpg?v=ccd5eeb1fd",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0036868",
   "letterboxd_rating": 4.25,
   "letterboxd_url": "https://letterboxd.com/film/the-best-years-of-our-lives/",
-  "letterboxd_votes": 51729,
+  "letterboxd_votes": 51730,
   "tmdb_id": "887",
   "wikidata_id": "Q645094",
   "year": 1946
@@ -185,11 +195,12 @@
   "enriched_at": "2026-09-09"
  },
  "blowout:1981": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wn/ia/3s/a3/blow-out-1200-1200-675-675-crop-000000.jpg?v=d5f4e4bff2",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0082085",
   "letterboxd_rating": 4.1,
   "letterboxd_url": "https://letterboxd.com/film/blow-out/",
-  "letterboxd_votes": 311096,
+  "letterboxd_votes": 311113,
   "tmdb_id": "11644",
   "wikidata_id": "Q885488",
   "year": 1981
@@ -198,51 +209,56 @@
   "enriched_at": "2026-09-09"
  },
  "boogienightsstaffpicks:1997": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8i/1a/1r/ti/boogie-nights-1200-1200-675-675-crop-000000.jpg?v=72fafdeaec",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0118749",
   "letterboxd_rating": 4.21,
   "letterboxd_url": "https://letterboxd.com/film/boogie-nights/",
-  "letterboxd_votes": 721607,
+  "letterboxd_votes": 721614,
   "tmdb_id": "4995",
   "wikidata_id": "Q291170",
   "year": 1997
  },
  "bouchra:2025": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/iu/nc/r9/u2/uhmjRW26fBJu80H8cA29xM4X8wC-1200-1200-675-675-crop-000000.jpg?v=99a1571251",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt36543744",
   "letterboxd_rating": 3.82,
   "letterboxd_url": "https://letterboxd.com/film/bouchra/",
-  "letterboxd_votes": 5916,
+  "letterboxd_votes": 5918,
   "tmdb_id": "1517206",
   "wikidata_id": "Q136599700",
   "year": null
  },
  "boymeetsgirl:1984": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6q/s3/le/e4/boy-meets-girl-1200-1200-675-675-crop-000000.jpg?v=b80e60f0fa",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0086994",
   "letterboxd_rating": 3.69,
   "letterboxd_url": "https://letterboxd.com/film/boy-meets-girl/",
-  "letterboxd_votes": 13943,
+  "letterboxd_votes": 13944,
   "tmdb_id": "63418",
   "wikidata_id": "Q2922980",
   "year": 1984
  },
  "bridgesmadisoncounty:1995": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/5z/hx/37/14/bridges-1200-1200-675-675-crop-000000.jpg?v=a6157228df",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0112579",
   "letterboxd_rating": 4.1,
   "letterboxd_url": "https://letterboxd.com/film/the-bridges-of-madison-county/",
-  "letterboxd_votes": 137362,
+  "letterboxd_votes": 137369,
   "tmdb_id": "688",
   "wikidata_id": "Q399823",
   "year": 1995
  },
  "buddy:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0a/6z/rm/nm/ytoLEl5yDaxB8AtZ52uKWjaQ9ql-1200-1200-675-675-crop-000000.jpg?v=492d66a109",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt37281055",
   "letterboxd_rating": 3.15,
   "letterboxd_url": "https://letterboxd.com/film/buddy-2026/",
-  "letterboxd_votes": 138416,
+  "letterboxd_votes": 139444,
   "tmdb_id": "1514026",
   "wikidata_id": "Q137356269",
   "year": 2026
@@ -251,17 +267,19 @@
   "enriched_at": "2026-09-09"
  },
  "byanymeans": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/a8/w9/h0/k9/1jANqIbqrWJZb8GM5Kb3L6U8iHi-1200-1200-675-675-crop-000000.jpg?v=93e6be2389",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt34379051",
   "letterboxd_rating": 3.2,
   "letterboxd_url": "https://letterboxd.com/film/by-any-means-2026/",
-  "letterboxd_votes": 14233,
+  "letterboxd_votes": 14431,
   "tmdb_id": "1380417",
   "wikidata_id": "Q133864224",
   "year": 2026
  },
  "callmylife": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/2/3/4/7/3/1523473-call-of-my-life-0-230-0-345-crop.jpg?v=4a3ff4fe70",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt39858051",
   "letterboxd_rating": 3.42,
   "letterboxd_url": "https://letterboxd.com/film/call-of-my-life/",
@@ -281,7 +299,8 @@
   "year": null
  },
  "careful:1992": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ob/pi/f3/l7/careful-1200-1200-675-675-crop-000000.jpg?v=7c4ee2b03f",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0103926",
   "letterboxd_rating": 3.72,
   "letterboxd_url": "https://letterboxd.com/film/careful/",
@@ -291,21 +310,23 @@
   "year": 1992
  },
  "carrie:1976": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/oy/wp/1g/b5/carrie-1200-1200-675-675-crop-000000.jpg?v=358988d90c",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0074285",
   "letterboxd_rating": 3.85,
   "letterboxd_url": "https://letterboxd.com/film/carrie-1976/",
-  "letterboxd_votes": 946389,
+  "letterboxd_votes": 946413,
   "tmdb_id": "7340",
   "wikidata_id": "Q162672",
   "year": 1976
  },
  "cars20th": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/it/25/j1/wu/cars-120-1200-1200-675-675-crop-000000.jpg?v=99af96b3d6",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0317219",
   "letterboxd_rating": 3.95,
   "letterboxd_url": "https://letterboxd.com/film/cars/",
-  "letterboxd_votes": 2100917,
+  "letterboxd_votes": 2100945,
   "tmdb_id": "920",
   "wikidata_id": "Q182153",
   "year": 2006
@@ -314,11 +335,12 @@
   "enriched_at": "2026-09-09"
  },
  "chateaudarioka": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/bl/kc/7o/27/z5oMoDs6a1GAuK5cNAeBkAr0yk-1200-1200-675-675-crop-000000.jpg?v=789a65f6ee",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt39602215",
   "letterboxd_rating": 3.57,
   "letterboxd_url": "https://letterboxd.com/film/the-samurai-and-the-prisoner/",
-  "letterboxd_votes": 15329,
+  "letterboxd_votes": 15332,
   "tmdb_id": "1620313",
   "wikidata_id": "Q138024655",
   "year": 2026
@@ -342,7 +364,8 @@
   "year": 2018
  },
  "chiengarde:2018": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dk/ap/ci/av/bgxzgCkaJzQW3FxH8RtT9DWHboe-1200-1200-675-675-crop-000000.jpg?v=cbc905d390",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt8042452",
   "letterboxd_rating": 3.43,
   "letterboxd_url": "https://letterboxd.com/film/family-first/",
@@ -360,21 +383,23 @@
   "year": null
  },
  "cinemaparadisostaffpicks:1988": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1i/b1/z6/5u/cinema-paradiso-1200-1200-675-675-crop-000000.jpg?v=8efaca6418",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0095765",
   "letterboxd_rating": 4.51,
   "letterboxd_url": "https://letterboxd.com/film/cinema-paradiso/",
-  "letterboxd_votes": 549944,
+  "letterboxd_votes": 549946,
   "tmdb_id": "11216",
   "wikidata_id": "Q464032",
   "year": 1988
  },
  "citizenkane:1941": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9b/2v/zw/cc/zGutQCLUIQ5LakubDZtfM8s22eA-1200-1200-675-675-crop-000000.jpg?v=c4e0e0922a",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0033467",
   "letterboxd_rating": 4.19,
   "letterboxd_url": "https://letterboxd.com/film/citizen-kane/",
-  "letterboxd_votes": 680802,
+  "letterboxd_votes": 680814,
   "tmdb_id": "15",
   "wikidata_id": "Q24815",
   "year": 1941
@@ -386,21 +411,23 @@
   "enriched_at": "2026-09-09"
  },
  "colorpomegranatesstaffpicks:1969": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kq/7d/as/nu/the-color-of-pomegranates-1200-1200-675-675-crop-000000.jpg?v=aa00f006dc",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0063555",
   "letterboxd_rating": 4.11,
   "letterboxd_url": "https://letterboxd.com/film/the-color-of-pomegranates/",
-  "letterboxd_votes": 108966,
+  "letterboxd_votes": 108969,
   "tmdb_id": "26302",
   "wikidata_id": "Q2235380",
   "year": 1969
  },
  "compostelle:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/8/7/7/0/1/tmdb/lW9uSLT4t7trf1rG0nnOj14AoXT-1200-1200-675-675-crop-000000.jpg?v=f2a20dc11a",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt39814688",
   "letterboxd_rating": 3.38,
   "letterboxd_url": "https://letterboxd.com/film/compostelle/",
-  "letterboxd_votes": 6519,
+  "letterboxd_votes": 6521,
   "tmdb_id": "1404604",
   "wikidata_id": "Q138777644",
   "year": 2026
@@ -419,11 +446,12 @@
   "year": 1998
  },
  "contreattaque": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/li/wx/cp/fl/uctt9NZWKU10iGepUii8DTofDTV-1200-1200-675-675-crop-000000.jpg?v=92991e112e",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0116704",
   "letterboxd_rating": 3.28,
   "letterboxd_url": "https://letterboxd.com/film/police-story-4-first-strike/",
-  "letterboxd_votes": 19191,
+  "letterboxd_votes": 19192,
   "tmdb_id": "9404",
   "wikidata_id": "Q1144962",
   "year": 1996
@@ -441,11 +469,12 @@
   "enriched_at": "2026-09-09"
  },
  "dogville:2003": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/it/u4/om/y6/dogville-1200-1200-675-675-crop-000000.jpg?v=a288ff4968",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0276919",
   "letterboxd_rating": 4.18,
   "letterboxd_url": "https://letterboxd.com/film/dogville/",
-  "letterboxd_votes": 218818,
+  "letterboxd_votes": 218824,
   "tmdb_id": "553",
   "wikidata_id": "Q327681",
   "year": 2003
@@ -461,7 +490,8 @@
   "year": 2022
  },
  "douniaprincessedalep:2023": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/7/3/7/1/3/873713-dounia-and-the-princess-of-aleppo-0-230-0-345-crop.jpg?v=fccc63994b",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt23327624",
   "letterboxd_rating": 3.63,
   "letterboxd_url": "https://letterboxd.com/film/dounia-and-the-princess-of-aleppo/",
@@ -477,7 +507,8 @@
   "enriched_at": "2026-09-09"
  },
  "faceanother": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/o2/3j/aw/i9/face%20of%20another-1200-1200-675-675-crop-000000.jpg?v=d0e3b87478",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0061065",
   "letterboxd_rating": 4.25,
   "letterboxd_url": "https://letterboxd.com/film/the-face-of-another/",
@@ -490,11 +521,12 @@
   "enriched_at": "2026-09-09"
  },
  "fallenangels:1995": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mr/p7/cy/5h/fallen-angels-1200-1200-675-675-crop-000000.jpg?v=b79bc8eb91",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0112913",
   "letterboxd_rating": 4.16,
   "letterboxd_url": "https://letterboxd.com/film/fallen-angels/",
-  "letterboxd_votes": 756119,
+  "letterboxd_votes": 756139,
   "tmdb_id": "11220",
   "wikidata_id": "Q1353408",
   "year": 1995
@@ -542,11 +574,12 @@
   "enriched_at": "2026-09-09"
  },
  "findingemily": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/3/4/3/9/8/tmdb/5E1Mz14VaUDxe5K28HEkXNnysW-1200-1200-675-675-crop-000000.jpg?v=6734068b89",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt32499466",
   "letterboxd_rating": 3.79,
   "letterboxd_url": "https://letterboxd.com/film/finding-emily/",
-  "letterboxd_votes": 108224,
+  "letterboxd_votes": 108338,
   "tmdb_id": "1339588",
   "wikidata_id": "Q131737274",
   "year": 2026
@@ -555,11 +588,12 @@
   "enriched_at": "2026-09-09"
  },
  "fistfuldollars:1964": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ck/af/in/xb/a-fistfull-of-dollars-1200-1200-675-675-crop-000000.jpg?v=5b2cca9778",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0058461",
   "letterboxd_rating": 3.98,
   "letterboxd_url": "https://letterboxd.com/film/a-fistful-of-dollars/",
-  "letterboxd_votes": 391393,
+  "letterboxd_votes": 391405,
   "tmdb_id": "391",
   "wikidata_id": "Q76479",
   "year": 1964
@@ -575,17 +609,19 @@
   "year": 1965
  },
  "forfewdollarsmore:1965": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9k/y1/6f/j7/8tbWZYvniZcjFZEX4XiCjrbHgl4-1200-1200-675-675-crop-000000.jpg?v=63cce732f7",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0059578",
   "letterboxd_rating": 4.25,
   "letterboxd_url": "https://letterboxd.com/film/for-a-few-dollars-more/",
-  "letterboxd_votes": 289441,
+  "letterboxd_votes": 289448,
   "tmdb_id": "938",
   "wikidata_id": "Q153677",
   "year": 1965
  },
  "francoise:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/6/0/3/7/6/1360376-francoise-2026-0-230-0-345-crop.jpg?v=977cb6f189",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt36961579",
   "letterboxd_rating": 3.49,
   "letterboxd_url": "https://letterboxd.com/film/francoise-2026/",
@@ -601,21 +637,23 @@
   "enriched_at": "2026-09-09"
  },
  "ghost2bigtorig": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/5/3/4/2/1555342-2-big-to-rig-0-230-0-345-crop.jpg?v=4a41c3cc91",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt43683692",
   "letterboxd_rating": 4.23,
   "letterboxd_url": "https://letterboxd.com/film/2-big-to-rig/",
-  "letterboxd_votes": 5351,
+  "letterboxd_votes": 5352,
   "tmdb_id": "1693400",
   "wikidata_id": "Q140645349",
   "year": 2026
  },
  "ghostbusters": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ea/24/ql/ts/ghostbusters-20-1200-1200-675-675-crop-000000.jpg?v=26fad515be",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0087332",
   "letterboxd_rating": 3.75,
   "letterboxd_url": "https://letterboxd.com/film/ghostbusters/",
-  "letterboxd_votes": 997430,
+  "letterboxd_votes": 997449,
   "tmdb_id": "620",
   "wikidata_id": "Q108745",
   "year": 1984
@@ -627,17 +665,19 @@
   "enriched_at": "2026-09-09"
  },
  "goodbadugly60th:1966": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/07/zz/2k/vy/the-good-the-bad-and-the-ugly-1200-1200-675-675-crop-000000.jpg?v=6fdc9111b0",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0060196",
   "letterboxd_rating": 4.51,
   "letterboxd_url": "https://letterboxd.com/film/the-good-the-bad-and-the-ugly/",
-  "letterboxd_votes": 818601,
+  "letterboxd_votes": 818607,
   "tmdb_id": "429",
   "wikidata_id": "Q41483",
   "year": 1966
  },
  "grandeseduction:2003": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/2/3/7/4/3/tmdb/sVvsR3Y6KRAgi2uu3hvqCyL1AUW-1200-1200-675-675-crop-000000.jpg?v=51ad54c038",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0366532",
   "letterboxd_rating": 3.51,
   "letterboxd_url": "https://letterboxd.com/film/seducing-doctor-lewis/",
@@ -647,11 +687,12 @@
   "year": 2003
  },
  "guepard": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/b2/26/wl/xg/the-leopard-1200-1200-675-675-crop-000000.jpg?v=5b38f9d921",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0057091",
   "letterboxd_rating": 4.14,
   "letterboxd_url": "https://letterboxd.com/film/the-leopard/",
-  "letterboxd_votes": 58588,
+  "letterboxd_votes": 58590,
   "tmdb_id": "1040",
   "wikidata_id": "Q596623",
   "year": 1963
@@ -660,11 +701,12 @@
   "enriched_at": "2026-09-09"
  },
  "heartbeats:2010": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/z9/d8/xx/im/heartbeats-1200-1200-675-675-crop-000000.jpg?v=360434c07a",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt1600524",
   "letterboxd_rating": 3.56,
   "letterboxd_url": "https://letterboxd.com/film/heartbeats/",
-  "letterboxd_votes": 60090,
+  "letterboxd_votes": 60091,
   "tmdb_id": "51241",
   "wikidata_id": "Q2336453",
   "year": 2010
@@ -679,7 +721,8 @@
   "enriched_at": "2026-09-09"
  },
  "histoiresparalleles:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hl/2p/vd/vk/8mQayOm0n013Y36Rahd3O9OAuHT-1200-1200-675-675-crop-000000.jpg?v=5d80ba9d64",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt36646880",
   "letterboxd_rating": 2.89,
   "letterboxd_url": "https://letterboxd.com/film/parallel-tales/",
@@ -698,11 +741,12 @@
   "enriched_at": "2026-09-09"
  },
  "house:1977": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/or/gm/iv/cm/5040XNTvwARvLq1KtfCgJXBj3LC-1200-1200-675-675-crop-000000.jpg?v=111eee7888",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0076162",
   "letterboxd_rating": 3.99,
   "letterboxd_url": "https://letterboxd.com/film/house/",
-  "letterboxd_votes": 378634,
+  "letterboxd_votes": 378643,
   "tmdb_id": "25623",
   "wikidata_id": "Q1132905",
   "year": 1977
@@ -714,11 +758,12 @@
   "enriched_at": "2026-09-09"
  },
  "incendies:2010": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xc/7a/mq/v8/incendies-1200-1200-675-675-crop-000000.jpg?v=916978c613",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt1255953",
   "letterboxd_rating": 4.45,
   "letterboxd_url": "https://letterboxd.com/film/incendies/",
-  "letterboxd_votes": 659503,
+  "letterboxd_votes": 659517,
   "tmdb_id": "46738",
   "wikidata_id": "Q1212650",
   "year": 2010
@@ -736,7 +781,8 @@
   "enriched_at": "2026-09-09"
  },
  "interetdadam:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/6/7/1/5/tmdb/ltpZ8p6WiaMJqFU5Wpsdx6fRT5I-1200-1200-675-675-crop-000000.jpg?v=798025bc98",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt32318707",
   "letterboxd_rating": 3.38,
   "letterboxd_url": "https://letterboxd.com/film/adams-sake/",
@@ -768,27 +814,30 @@
   "enriched_at": "2026-09-09"
  },
  "itends:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6s/nw/3k/i2/blIQ1Xlc3gfOHqWc67ULnyYGEAe-1200-1200-675-675-crop-000000.jpg?v=68470cf57d",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt35519455",
   "letterboxd_rating": 3.32,
   "letterboxd_url": "https://letterboxd.com/film/it-ends/",
-  "letterboxd_votes": 70536,
+  "letterboxd_votes": 70579,
   "tmdb_id": "1422011",
   "wikidata_id": "Q133546293",
   "year": 2026
  },
  "iwantyoursex": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/0/9/5/4/tmdb/qNZm0m1WWjYx8UVyrEkEwN4dgyl-1200-1200-675-675-crop-000000.jpg?v=ad8344b874",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt32332915",
   "letterboxd_rating": 3.23,
   "letterboxd_url": "https://letterboxd.com/film/i-want-your-sex/",
-  "letterboxd_votes": 86462,
+  "letterboxd_votes": 86525,
   "tmdb_id": "1288059",
   "wikidata_id": "Q130646766",
   "year": 2026
  },
  "jacquotnantesstaffpicks:1991": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/m4/28/ol/ym/jacquot-1200-1200-675-675-crop-000000.jpg?v=459d787600",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0102141",
   "letterboxd_rating": 4.16,
   "letterboxd_url": "https://letterboxd.com/film/jacquot-de-nantes/",
@@ -811,11 +860,12 @@
   "year": 1980
  },
  "kagemushaombreguerrier:1980": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j5/ws/62/s0/kagemusha-1200-1200-675-675-crop-000000.jpg?v=ef20a6a239",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0080979",
   "letterboxd_rating": 4.22,
   "letterboxd_url": "https://letterboxd.com/film/kagemusha/",
-  "letterboxd_votes": 52149,
+  "letterboxd_votes": 52150,
   "tmdb_id": "11953",
   "wikidata_id": "Q854990",
   "year": 1980
@@ -824,11 +874,12 @@
   "enriched_at": "2026-09-09"
  },
  "kwaidan:1965": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7z/5f/p3/5m/kwaidan-1200-1200-675-675-crop-000000.jpg?v=73cf6350db",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0058279",
   "letterboxd_rating": 4.22,
   "letterboxd_url": "https://letterboxd.com/film/kwaidan/",
-  "letterboxd_votes": 66136,
+  "letterboxd_votes": 66139,
   "tmdb_id": "30959",
   "wikidata_id": "Q133488",
   "year": 1964
@@ -875,11 +926,12 @@
   "year": 1963
  },
  "lastdaysdisco:1998": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l8/w6/92/jy/the-last-days-of-disco-1200-1200-675-675-crop-000000.jpg?v=b0368447e5",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0120728",
   "letterboxd_rating": 3.76,
   "letterboxd_url": "https://letterboxd.com/film/the-last-days-of-disco/",
-  "letterboxd_votes": 39287,
+  "letterboxd_votes": 39288,
   "tmdb_id": "16980",
   "wikidata_id": "Q1465840",
   "year": 1998
@@ -888,11 +940,12 @@
   "enriched_at": "2026-09-09"
  },
  "latefame:2025": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/6/9/2/1/0/tmdb/tDG3iVhR4gZOTtXoBEtqZgNrD1U-1200-1200-675-675-crop-000000.jpg?v=a16f816989",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt32298494",
   "letterboxd_rating": 3.38,
   "letterboxd_url": "https://letterboxd.com/film/late-fame/",
-  "letterboxd_votes": 8075,
+  "letterboxd_votes": 8080,
   "tmdb_id": "1285895",
   "wikidata_id": "Q125808089",
   "year": 2025
@@ -906,11 +959,12 @@
   "year": null
  },
  "lawrencearabia:1962": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/99/4b/qr/9o/lawrence-of-arabia-1200-1200-675-675-crop-000000.jpg?v=083f410dd7",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0056172",
   "letterboxd_rating": 4.42,
   "letterboxd_url": "https://letterboxd.com/film/lawrence-of-arabia/",
-  "letterboxd_votes": 410348,
+  "letterboxd_votes": 410350,
   "tmdb_id": "947",
   "wikidata_id": "Q228186",
   "year": 1962
@@ -1023,11 +1077,12 @@
   "year": 2026
  },
  "littleprincepetitsmodernes:2015": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wm/dh/a8/sq/the-little-prince-1200-1200-675-675-crop-000000.jpg?v=189674e838",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt1754656",
   "letterboxd_rating": 3.97,
   "letterboxd_url": "https://letterboxd.com/film/the-little-prince-2015/",
-  "letterboxd_votes": 225038,
+  "letterboxd_votes": 225041,
   "tmdb_id": "309809",
   "wikidata_id": "Q16386722",
   "year": 2015
@@ -1053,11 +1108,12 @@
   "year": 2025
  },
  "maddiessecret:2025": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/3/5/4/9/tmdb/kwBX4d1MsVl5h3GkQCXJAQ4r0O4-1200-1200-675-675-crop-000000.jpg?v=d082b93af2",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt37675037",
   "letterboxd_rating": 3.68,
   "letterboxd_url": "https://letterboxd.com/film/maddies-secret/",
-  "letterboxd_votes": 39806,
+  "letterboxd_votes": 39810,
   "tmdb_id": "1517868",
   "wikidata_id": "Q136146573",
   "year": 2025
@@ -1066,7 +1122,8 @@
   "enriched_at": "2026-09-09"
  },
  "mariages": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/3/5/2/13352-mariages-0-230-0-345-crop.jpg?v=5a2f2e316d",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0388242",
   "letterboxd_rating": 2.9,
   "letterboxd_url": "https://letterboxd.com/film/mariages/",
@@ -1103,7 +1160,8 @@
   "year": null
  },
  "memoiresprincessemumbi:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/5/8/8/6/tmdb/knhbKdKeJcDH6SegNC57si0UuGk-1200-1200-675-675-crop-000000.jpg?v=3a8c39d388",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt37670940",
   "letterboxd_rating": 3.28,
   "letterboxd_url": "https://letterboxd.com/film/memory-of-princess-mumbi/",
@@ -1123,11 +1181,12 @@
   "year": 2026
  },
  "minionsmonsters": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/9/6/8/0/8/tmdb/pqFnCSJZ3Hq7QOM8uu2WC8k0R3q-1200-1200-675-675-crop-000000.jpg?v=0c3bc65b5a",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt32890033",
   "letterboxd_rating": 3.2,
   "letterboxd_url": "https://letterboxd.com/film/minions-monsters-2026/",
-  "letterboxd_votes": 499181,
+  "letterboxd_votes": 499228,
   "tmdb_id": "1315772",
   "wikidata_id": "Q127605787",
   "year": 2026
@@ -1139,7 +1198,8 @@
   "enriched_at": "2026-09-09"
  },
  "mllebottine:2024": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/0/4/0/890040-miss-boots-0-230-0-345-crop.jpg?v=5b4bd3c02f",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt27854619",
   "letterboxd_rating": 3.49,
   "letterboxd_url": "https://letterboxd.com/film/miss-boots/",
@@ -1149,21 +1209,23 @@
   "year": 2024
  },
  "moana": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/2a/dc/ev/uk/moana-1200-1200-675-675-crop-000000.jpg?v=505f3aed6d",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt3521164",
   "letterboxd_rating": 3.72,
   "letterboxd_url": "https://letterboxd.com/film/moana-2016/",
-  "letterboxd_votes": 1888718,
+  "letterboxd_votes": 1888770,
   "tmdb_id": "277834",
   "wikidata_id": "Q18647981",
   "year": 2016
  },
  "mommy:2014": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tg/mx/rm/i0/mommy-2014-1200-1200-675-675-crop-000000.jpg?v=beb8f65b8a",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt3612616",
   "letterboxd_rating": 4.32,
   "letterboxd_url": "https://letterboxd.com/film/mommy-2014/",
-  "letterboxd_votes": 277976,
+  "letterboxd_votes": 277982,
   "tmdb_id": "265177",
   "wikidata_id": "Q16395232",
   "year": 2014
@@ -1172,7 +1234,8 @@
   "enriched_at": "2026-09-09"
  },
  "mutiny": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/7/3/4/8/27348-hornblower-mutiny-0-230-0-345-crop.jpg?v=d164c2329d",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0273656",
   "letterboxd_rating": 3.83,
   "letterboxd_url": "https://letterboxd.com/film/hornblower-mutiny/",
@@ -1182,11 +1245,12 @@
   "year": 2002
  },
  "mybrotherswedding:1983": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l7/7t/pp/tx/my%20brother-1200-1200-675-675-crop-000000.jpg?v=01510d17d8",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0087763",
   "letterboxd_rating": 3.73,
   "letterboxd_url": "https://letterboxd.com/film/my-brothers-wedding/",
-  "letterboxd_votes": 5643,
+  "letterboxd_votes": 5644,
   "tmdb_id": "91735",
   "wikidata_id": "Q6945105",
   "year": 1983
@@ -1195,11 +1259,12 @@
   "enriched_at": "2026-09-09"
  },
  "nightlivingdead:1968": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j1/z4/q2/vi/bhgMBDnjG9tIVE3RNCD9YeNJHq5-1200-1200-675-675-crop-000000.jpg?v=42c7601897",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0063350",
   "letterboxd_rating": 3.94,
   "letterboxd_url": "https://letterboxd.com/film/night-of-the-living-dead/",
-  "letterboxd_votes": 347370,
+  "letterboxd_votes": 347379,
   "tmdb_id": "10331",
   "wikidata_id": "Q623051",
   "year": 1968
@@ -1218,7 +1283,8 @@
   "year": 1968
  },
  "ninaroza:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/0/2/6/9/4/1402694-nina-roza-0-230-0-345-crop.jpg?v=7be9091344",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt29271639",
   "letterboxd_rating": 3.44,
   "letterboxd_url": "https://letterboxd.com/film/fleur-bleue-1/",
@@ -1252,7 +1318,8 @@
   "year": 2026
  },
  "obsession": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/79/b1/s2/t6/obsession-1976-1200-1200-675-675-crop-000000.jpg?v=787784f646",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0074991",
   "letterboxd_rating": 3.52,
   "letterboxd_url": "https://letterboxd.com/film/obsession-1976/",
@@ -1262,7 +1329,8 @@
   "year": 1976
  },
  "odyssee": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8n/oh/e3/q5/the-odyssey-2016-1200-1200-675-675-crop-000000.jpg?v=88f9492d35",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt1659619",
   "letterboxd_rating": 3.33,
   "letterboxd_url": "https://letterboxd.com/film/the-odyssey-2016/",
@@ -1283,11 +1351,12 @@
   "year": 2014
  },
  "onslaught": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/3r/9z/mh/ma/aDZzEdUTmnRaPtnzSqJFgtqWmE2-1200-1200-675-675-crop-000000.jpg?v=6966605617",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt32268691",
   "letterboxd_rating": 2.94,
   "letterboxd_url": "https://letterboxd.com/film/onslaught-2026/",
-  "letterboxd_votes": 24105,
+  "letterboxd_votes": 24395,
   "tmdb_id": "1284046",
   "wikidata_id": "Q131451703",
   "year": 2026
@@ -1333,11 +1402,12 @@
   "enriched_at": "2026-09-09"
  },
  "philadelphiastory:1940": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fb/5g/0b/qp/the-philadelphia-story-1200-1200-675-675-crop-000000.jpg?v=0700316506",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0032904",
   "letterboxd_rating": 3.99,
   "letterboxd_url": "https://letterboxd.com/film/the-philadelphia-story/",
-  "letterboxd_votes": 108986,
+  "letterboxd_votes": 108991,
   "tmdb_id": "981",
   "wikidata_id": "Q498822",
   "year": 1940
@@ -1349,21 +1419,23 @@
   "enriched_at": "2026-09-09"
  },
  "possession:1981": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/md/zx/rq/4v/possession-1200-1200-675-675-crop-000000.jpg?v=e8b6f32f0a",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0082933",
   "letterboxd_rating": 4.03,
   "letterboxd_url": "https://letterboxd.com/film/possession/",
-  "letterboxd_votes": 519686,
+  "letterboxd_votes": 519713,
   "tmdb_id": "21484",
   "wikidata_id": "Q1773078",
   "year": 1981
  },
  "practicalmagic2": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/8/5/0/2/2/tmdb/yDgYYuz8jDQCRJbHC3XM7IIGoeR-1200-1200-675-675-crop-000000.jpg?v=104462dc86",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt32588798",
   "letterboxd_rating": 3.2,
   "letterboxd_url": "https://letterboxd.com/film/practical-magic-2/",
-  "letterboxd_votes": 796,
+  "letterboxd_votes": 852,
   "tmdb_id": "1302904",
   "wikidata_id": "Q131901398",
   "year": 2026
@@ -1384,7 +1456,8 @@
   "enriched_at": "2026-09-09"
  },
  "redemptions:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/7/0/1/6/1567016-redemptions-0-230-0-345-crop.jpg?v=9ec64b0beb",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt36412781",
   "letterboxd_rating": 3.45,
   "letterboxd_url": "https://letterboxd.com/film/redemptions/",
@@ -1397,11 +1470,12 @@
   "enriched_at": "2026-09-09"
  },
  "residentevil": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/53/h9/n1/6y/resident-evil-1200-1200-675-675-crop-000000.jpg?v=56aaec9044",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0120804",
   "letterboxd_rating": 2.94,
   "letterboxd_url": "https://letterboxd.com/film/resident-evil/",
-  "letterboxd_votes": 319832,
+  "letterboxd_votes": 319853,
   "tmdb_id": "1576",
   "wikidata_id": "Q153484",
   "year": 2002
@@ -1410,14 +1484,15 @@
   "enriched_at": "2026-09-09"
  },
  "revolte": {
-  "enriched_at": "2000-01-01",
-  "imdb_id": "tt0057687",
-  "letterboxd_rating": 3.46,
-  "letterboxd_url": "https://letterboxd.com/film/apache-gold/",
-  "letterboxd_votes": 3636,
-  "tmdb_id": "3685",
-  "wikidata_id": "Q564124",
-  "year": 1963
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1v/4j/az/oq/cWspYQc6dblxwayInWJIFrvG6NN-1200-1200-675-675-crop-000000.jpg?v=295239af87",
+  "enriched_at": "2026-09-09",
+  "imdb_id": "tt0029511",
+  "letterboxd_rating": 3.18,
+  "letterboxd_url": "https://letterboxd.com/film/san-quentin/",
+  "letterboxd_votes": 1130,
+  "tmdb_id": "51601",
+  "wikidata_id": "Q3212614",
+  "year": 1937
  },
  "ring:2007": {
   "enriched_at": "2026-09-08",
@@ -1431,21 +1506,23 @@
   "enriched_at": "2026-09-09"
  },
  "room:2003": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ay/jb/b5/xa/the-room-1200-1200-675-675-crop-000000.jpg?v=b2e17b62e4",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0368226",
   "letterboxd_rating": 2.58,
   "letterboxd_url": "https://letterboxd.com/film/the-room/",
-  "letterboxd_votes": 280558,
+  "letterboxd_votes": 280566,
   "tmdb_id": "17473",
   "wikidata_id": "Q533383",
   "year": 2003
  },
  "rosenevada:2025": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/p8/5h/ju/vb/xKeYArWgmP7oEyDxsz7aK9fETm-1200-1200-675-675-crop-000000.jpg?v=029e71e047",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt35674521",
   "letterboxd_rating": 3.47,
   "letterboxd_url": "https://letterboxd.com/film/rose-of-nevada/",
-  "letterboxd_votes": 31850,
+  "letterboxd_votes": 31856,
   "tmdb_id": "1399525",
   "wikidata_id": "Q132645632",
   "year": 2025
@@ -1470,7 +1547,8 @@
   "enriched_at": "2026-09-09"
  },
  "sambatraore": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/9/0/6/0/169060-samba-traore-0-230-0-345-crop.jpg?v=c1fd64436f",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0108031",
   "letterboxd_rating": 3.71,
   "letterboxd_url": "https://letterboxd.com/film/samba-traore/",
@@ -1480,11 +1558,12 @@
   "year": 1992
  },
  "samuraiprisoner:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/bl/kc/7o/27/z5oMoDs6a1GAuK5cNAeBkAr0yk-1200-1200-675-675-crop-000000.jpg?v=789a65f6ee",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt39602215",
   "letterboxd_rating": 3.57,
   "letterboxd_url": "https://letterboxd.com/film/the-samurai-and-the-prisoner/",
-  "letterboxd_votes": 15329,
+  "letterboxd_votes": 15332,
   "tmdb_id": "1620313",
   "wikidata_id": "Q138024655",
   "year": 2026
@@ -1493,7 +1572,8 @@
   "enriched_at": "2026-09-09"
  },
  "secretmesanges": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/8/8/4/890884-the-songbirds-secret-0-230-0-345-crop.jpg?v=ee8f0b84f5",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt29497084",
   "letterboxd_rating": 3.57,
   "letterboxd_url": "https://letterboxd.com/film/the-songbirds-secret/",
@@ -1503,31 +1583,34 @@
   "year": 2025
  },
  "sheepdetectives": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/76/w9/hj/wo/g6uEVedSBXsZ3QuXKP4WDCeSsOy%20(1)-1200-1200-675-675-crop-000000.jpg?v=08bcff0341",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt32565993",
   "letterboxd_rating": 3.78,
   "letterboxd_url": "https://letterboxd.com/film/the-sheep-detectives/",
-  "letterboxd_votes": 1032396,
+  "letterboxd_votes": 1032462,
   "tmdb_id": "1301421",
   "wikidata_id": "Q126405648",
   "year": 2026
  },
  "shining:1980": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tm/ta/x1/yh/shining-1200-1200-675-675-crop-000000.jpg?v=3eeee4ee5a",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0081505",
   "letterboxd_rating": 4.21,
   "letterboxd_url": "https://letterboxd.com/film/the-shining/",
-  "letterboxd_votes": 3381310,
+  "letterboxd_votes": 3381374,
   "tmdb_id": "694",
   "wikidata_id": "Q186341",
   "year": 1980
  },
  "sickmyselfstaffpicks:2022": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/3q/kp/mc/4m/sick-1200-1200-675-675-crop-000000.jpg?v=f9fb06d5d4",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt18816518",
   "letterboxd_rating": 3.72,
   "letterboxd_url": "https://letterboxd.com/film/sick-of-myself/",
-  "letterboxd_votes": 193031,
+  "letterboxd_votes": 193032,
   "tmdb_id": "788734",
   "wikidata_id": "Q114000704",
   "year": 2022
@@ -1542,27 +1625,30 @@
   "enriched_at": "2026-09-09"
  },
  "stalker:1979": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hm/9i/xs/np/stalker-1200-1200-675-675-crop-000000.jpg?v=cb028d9961",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0079944",
   "letterboxd_rating": 4.39,
   "letterboxd_url": "https://letterboxd.com/film/stalker/",
-  "letterboxd_votes": 399862,
+  "letterboxd_votes": 399869,
   "tmdb_id": "1398",
   "wikidata_id": "Q200437",
   "year": 1979
  },
  "substance:2024": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ju/7r/z4/9i/xfSVZf7naMoGuqoHaQhbvfPrfWs-1200-1200-675-675-crop-000000.jpg?v=adde104f43",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt17526714",
   "letterboxd_rating": 3.73,
   "letterboxd_url": "https://letterboxd.com/film/the-substance/",
-  "letterboxd_votes": 3815508,
+  "letterboxd_votes": 3815592,
   "tmdb_id": "933260",
   "wikidata_id": "Q113380226",
   "year": 2024
  },
  "summerwithmonika:1953": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fq/fi/f6/75/summer-with-monika-1200-1200-675-675-crop-000000.jpg?v=da6b079a91",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0046345",
   "letterboxd_rating": 3.85,
   "letterboxd_url": "https://letterboxd.com/film/summer-with-monika/",
@@ -1572,21 +1658,23 @@
   "year": 1953
  },
  "supergirl": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mn/tc/5u/s3/supergirl-1200-1200-675-675-crop-000000.jpg?v=4c71084573",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0088206",
   "letterboxd_rating": 2.0,
   "letterboxd_url": "https://letterboxd.com/film/supergirl/",
-  "letterboxd_votes": 26803,
+  "letterboxd_votes": 26804,
   "tmdb_id": "9651",
   "wikidata_id": "Q283134",
   "year": 1984
  },
  "suspiria:1977": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/t4/ch/a6/pn/suspiria-1200-1200-675-675-crop-000000.jpg?v=32b7a16f8b",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0076786",
   "letterboxd_rating": 3.92,
   "letterboxd_url": "https://letterboxd.com/film/suspiria/",
-  "letterboxd_votes": 590259,
+  "letterboxd_votes": 590271,
   "tmdb_id": "11906",
   "wikidata_id": "Q546900",
   "year": 1977
@@ -1605,11 +1693,12 @@
   "year": 2026
  },
  "teenagesexdeathatcampmiasma:2026": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7m/h0/iq/dx/5dbLRlAeIh4U3hyj4i4S4shv9AW-1200-1200-675-675-crop-000000.jpg?v=4f87c8fe02",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt35298123",
   "letterboxd_rating": 3.78,
   "letterboxd_url": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
-  "letterboxd_votes": 271178,
+  "letterboxd_votes": 271332,
   "tmdb_id": "1240889",
   "wikidata_id": "Q134434223",
   "year": 2026
@@ -1773,37 +1862,41 @@
   "enriched_at": "2026-09-09"
  },
  "toystory5": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/95/lo/so/uy/1WAxiCSwgPAKlOGrqbCdks0A1NI-1200-1200-675-675-crop-000000.jpg?v=6787fc1781",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt29355505",
   "letterboxd_rating": 3.65,
   "letterboxd_url": "https://letterboxd.com/film/toy-story-5/",
-  "letterboxd_votes": 1040555,
+  "letterboxd_votes": 1040614,
   "tmdb_id": "1084244",
   "wikidata_id": "Q113641997",
   "year": 2026
  },
  "trainspotting30th:1996": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jq/84/k3/al/trainspotting-55-1200-1200-675-675-crop-000000.jpg?v=c019cea1ec",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0117951",
   "letterboxd_rating": 4.23,
   "letterboxd_url": "https://letterboxd.com/film/trainspotting/",
-  "letterboxd_votes": 1324172,
+  "letterboxd_votes": 1324178,
   "tmdb_id": "627",
   "wikidata_id": "Q109135",
   "year": 1996
  },
  "traintobusan10th:2016": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/11/sk/ys/wg/train-to-busan-1200-1200-675-675-crop-000000.jpg?v=e747d81711",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt5700672",
   "letterboxd_rating": 4.0,
   "letterboxd_url": "https://letterboxd.com/film/train-to-busan/",
-  "letterboxd_votes": 1302029,
+  "letterboxd_votes": 1302033,
   "tmdb_id": "396535",
   "wikidata_id": "Q20948236",
   "year": 2016
  },
  "transport": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/m9/bt/zr/lj/the-transporter-refueled-1200-1200-675-675-crop-000000.jpg?v=b217ab15f7",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt2938956",
   "letterboxd_rating": 2.23,
   "letterboxd_url": "https://letterboxd.com/film/the-transporter-refueled/",
@@ -1813,7 +1906,8 @@
   "year": 2015
  },
  "tudorsnicole:2014": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/yo/mr/w8/gh/tu-dors-1200-1200-675-675-crop-000000.jpg?v=c858808465",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt3483194",
   "letterboxd_rating": 3.64,
   "letterboxd_url": "https://letterboxd.com/film/youre-sleeping-nicole/",
@@ -1838,21 +1932,23 @@
   "enriched_at": "2026-09-09"
  },
  "vertigo:1958": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/4r/2r/1e/rd/vertigo-1200-1200-675-675-crop-000000.jpg?v=faac39f9d3",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0052357",
   "letterboxd_rating": 4.22,
   "letterboxd_url": "https://letterboxd.com/film/vertigo/",
-  "letterboxd_votes": 861558,
+  "letterboxd_votes": 861586,
   "tmdb_id": "426",
   "wikidata_id": "Q202548",
   "year": 1958
  },
  "videodrome:1983": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xa/04/29/l7/videodrome-1200-1200-675-675-crop-000000.jpg?v=0d3584f6b2",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt0086541",
   "letterboxd_rating": 3.87,
   "letterboxd_url": "https://letterboxd.com/film/videodrome/",
-  "letterboxd_votes": 411014,
+  "letterboxd_votes": 411054,
   "tmdb_id": "837",
   "wikidata_id": "Q747551",
   "year": 1983
@@ -1877,7 +1973,8 @@
   "year": 2025
  },
  "vivaldimoi:2025": {
-  "enriched_at": "2000-01-01",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/5/3/4/7/6/tmdb/tjRhxRyaF7LgGnNP2lrAIo3cQSb-1200-1200-675-675-crop-000000.jpg?v=8a7daffeff",
+  "enriched_at": "2026-09-09",
   "imdb_id": "tt33586629",
   "letterboxd_rating": 3.58,
   "letterboxd_url": "https://letterboxd.com/film/primavera-2025/",
