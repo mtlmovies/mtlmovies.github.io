@@ -136,8 +136,11 @@ function posterHTML(m) {
   // The fallback sits underneath; a loaded poster covers it, and a broken one
   // removes itself to reveal it.
   const fb = `<div class="poster-fallback">${esc(m.title)}</div>`;
-  if (m.poster) {
-    return `${fb}<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">`;
+  // Repertory venues often publish a still but no poster; a centre-crop of the
+  // still still beats a text card in a wall of artwork.
+  const art = m.poster || m.backdrop;
+  if (art) {
+    return `${fb}<img loading="lazy" src="${esc(art)}" alt="" onerror="this.remove()">`;
   }
   return fb;
 }

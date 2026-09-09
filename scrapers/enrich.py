@@ -183,6 +183,11 @@ def _letterboxd(imdb_id: str = "", tmdb_id: str = "") -> dict:
             continue
 
         out: dict = {}
+        # Letterboxd's og:image is a 16:9 still — the only artwork available for
+        # venues (Cinéma Moderne, Cinémathèque) that publish none themselves.
+        ogi = re.search(r'<meta property="og:image" content="([^"]+)"', html)
+        if ogi and "ltrbxd.com" in ogi.group(1) and "empty-poster" not in ogi.group(1):
+            out["backdrop"] = ogi.group(1)
         m = re.search(r'<meta property="og:url" content="([^"]+)"', html)
         if m:
             out["letterboxd_url"] = m.group(1)
