@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-08T22:51:22-04:00",
+ "generated_at": "2026-09-09T03:00:09+00:00",
  "counts": {
-  "movies": 204,
+  "movies": 205,
   "venues": 25,
-  "showtimes": 4461
+  "showtimes": 4782
  },
  "sources": [
   {
@@ -11,35 +11,43 @@
    "ok": true,
    "screenings": 461,
    "venues": 3,
-   "seconds": 55.7
+   "seconds": 19.0
   },
   {
    "source": "ticketacces",
    "ok": true,
    "screenings": 89,
    "venues": 3,
-   "seconds": 87.1
+   "seconds": 40.6
   },
   {
    "source": "cineplex",
    "ok": true,
-   "screenings": 1569,
+   "screenings": 1890,
    "venues": 11,
-   "seconds": 78.2
+   "seconds": 39.8
   },
   {
    "source": "cinestarz",
    "ok": true,
    "screenings": 2326,
    "venues": 7,
-   "seconds": 89.1
+   "seconds": 18.9
   },
   {
    "source": "guzzo",
    "ok": true,
    "screenings": 16,
    "venues": 1,
-   "seconds": 2.7
+   "seconds": 1.7
+  },
+  {
+   "source": "cinematheque",
+   "ok": false,
+   "screenings": 0,
+   "venues": 0,
+   "error": "RuntimeError: cinematheque: no showtimes parsed; outremont: GET https://theatreoutremont.ca/evenements/ failed after 2 tries: HTTP Error 404: Not Found",
+   "seconds": 156.1
   }
  ]
 }
