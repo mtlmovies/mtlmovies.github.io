@@ -23,7 +23,7 @@ import re
 import time
 import urllib.parse
 
-from common import clean, http_get, http_json, log, title_key
+from common import clean, http_get, http_get_bytes, http_json, log, title_key
 
 TMDB_KEY = os.environ.get("TMDB_API_KEY", "").strip()
 OMDB_KEY = os.environ.get("OMDB_API_KEY", "").strip()
@@ -160,6 +160,37 @@ def _tmdb(title: str, year: int | None) -> dict:
     except Exception as e:  # noqa: BLE001
         log(f"[enrich] tmdb '{title}': {e}")
         return {}
+
+
+# ---------------------------------------------------------------------------
+# TMDB public web page — real posters without an API key
+# ---------------------------------------------------------------------------
+
+def _tmdb_web(tmdb_id: str) -> dict:
+    """themoviedb.org's public film page exposes the poster as og:image.
+
+    This is the only keyless source of real portrait poster art; Letterboxd's
+    og:image is a 16:9 still, which looks wrong in a poster grid.
+    """
+    if not tmdb_id:
+        return {}
+    try:
+        html = http_get(f"https://www.themoviedb.org/movie/{tmdb_id}",
+                        browser_ua=True, retries=2, timeout=30)
+    except Exception:
+        return {}
+    out = {}
+    imgs = re.findall(r'<meta property="og:image" content="([^"]+)"', html)
+    for src in imgs:
+        if "/t/p/w500/" in src or "/t/p/original/" in src:
+            out["poster"] = src
+            break
+    if not out.get("poster") and imgs:
+        out["poster"] = imgs[0]
+    m = re.search(r'<meta property="og:description" content="([^"]+)"', html)
+    if m:
+        out["overview"] = clean(m.group(1))
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -324,12 +355,18 @@ def enrich_film(title: str, year: int | None, director: str = "",
     imdb_id = info.get("imdb_id") or ""
     tmdb_id = info.get("tmdb_id") or ""
 
-    # 2. Letterboxd (priority rating).
+    # 2. Letterboxd (priority rating) — also yields a 16:9 still.
     if imdb_id or tmdb_id:
         info.update(_letterboxd(imdb_id, tmdb_id))
         time.sleep(0.4)
 
-    # 3. OMDb for IMDb / Rotten Tomatoes / Metacritic.
+    # 3. A real portrait poster, which no venue reliably provides.
+    if tmdb_id and not info.get("poster"):
+        info.update({k: v for k, v in _tmdb_web(tmdb_id).items()
+                     if k != "overview" or not info.get("overview")})
+        time.sleep(0.25)
+
+    # 4. OMDb (optional key) for Rotten Tomatoes / Metacritic.
     omdb = _omdb(imdb_id, title, year)
     for k, v in omdb.items():
         info.setdefault(k, v)
@@ -376,3 +413,53 @@ def enrich_all(films: list[dict], cache_path: str, limit: int | None = None) -> 
 
     save_cache(cache_path, cache)
     return cache
+
+
+# ---------------------------------------------------------------------------
+# IMDb ratings — from IMDb's official public dataset, no key and no scraping
+# ---------------------------------------------------------------------------
+
+IMDB_RATINGS_URL = "https://datasets.imdbws.com/title.ratings.tsv.gz"
+
+
+def imdb_ratings(wanted: set[str]) -> dict[str, dict]:
+    """Look up IMDb ratings for a set of tconsts.
+
+    IMDb blocks page scraping, but publishes title.ratings.tsv.gz (~8 MB, every
+    rated title) for free. One download per build beats thousands of requests,
+    and it is the sanctioned way to get this data.
+    """
+    wanted = {w for w in wanted if w}
+    if not wanted:
+        return {}
+    import gzip
+    import io
+
+    try:
+        raw = http_get_bytes(IMDB_RATINGS_URL, timeout=120, retries=2)
+    except Exception as e:  # noqa: BLE001
+        log(f"[enrich] imdb dataset unavailable: {e}")
+        return {}
+
+    out: dict[str, dict] = {}
+    try:
+        with gzip.open(io.BytesIO(raw), "rt", encoding="utf-8") as f:
+            next(f, None)  # header
+            for line in f:
+                tconst, _, rest = line.partition("\t")
+                if tconst not in wanted:
+                    continue
+                avg, _, votes = rest.partition("\t")
+                try:
+                    out[tconst] = {"imdb_rating": float(avg),
+                                   "imdb_votes": int(votes.strip())}
+                except ValueError:
+                    continue
+                if len(out) == len(wanted):
+                    break
+    except Exception as e:  # noqa: BLE001
+        log(f"[enrich] imdb dataset parse failed: {e}")
+        return {}
+
+    log(f"[enrich] imdb ratings matched {len(out)}/{len(wanted)}")
+    return out

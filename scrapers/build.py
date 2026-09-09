@@ -283,6 +283,18 @@ def main():
     else:
         apply_enrichment(movies, enrich_cache_safe(cache_path))
 
+    # IMDb ratings come from IMDb's official dataset in one bulk fetch.
+    try:
+        import enrich as _e
+        ids = {m.get("imdb_id") for m in movies if m.get("imdb_id")}
+        ratings = _e.imdb_ratings(ids)
+        for m in movies:
+            r = ratings.get(m.get("imdb_id") or "")
+            if r:
+                m.update(r)
+    except Exception as e:  # noqa: BLE001
+        log(f"[build] imdb ratings skipped: {e}")
+
     before = len(movies)
     movies = merge_by_identity(movies)
     if before != len(movies):
