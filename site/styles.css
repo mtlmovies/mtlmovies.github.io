@@ -716,3 +716,154 @@ a.slot:hover small { color: var(--bg); opacity: .68; }
 .radar-m { font-size: 11.5px; color: var(--text-3); }
 .radar-w { font-size: 12px; color: var(--text-2); font-weight: 600; margin-top: 2px; }
 .radar-r { font-size: 12.5px; font-weight: 750; font-variant-numeric: tabular-nums; margin-top: 2px; }
+
+/* ================================================================= layout v2
+   The filter bar is one row of actions plus a panel. Three rows of chips ate
+   the viewport, especially on phones where the bar is sticky.
+   ========================================================================= */
+
+.bar-actions { display: flex; align-items: center; gap: 8px; flex-wrap: nowrap; }
+.bar-actions .grow { flex: 1 1 auto; min-width: 0; }
+
+.chip.fbtn { gap: 7px; padding-left: 12px; }
+.chip.fbtn svg { width: 14px; height: 14px; }
+.chip.fbtn.on { background: var(--text); border-color: var(--text); color: var(--bg); }
+.chip.fbtn b {
+  font-size: 10.5px; font-weight: 800; min-width: 16px; height: 16px;
+  display: inline-grid; place-items: center; border-radius: 99px; padding: 0 4px;
+  background: var(--accent); color: #fff;
+}
+.chip.fbtn.on b { background: var(--bg); color: var(--text); }
+.chip.fbtn b[hidden] { display: none; }   /* attribute must beat inline-grid */
+
+/* ------------------------------------------------------------ filter panel */
+
+.fpanel {
+  position: fixed; z-index: 210;
+  width: min(390px, calc(100vw - 16px));
+  max-height: min(72vh, 620px); overflow-y: auto; overscroll-behavior: contain;
+  background: var(--surface); border: 1px solid var(--line-2);
+  border-radius: var(--r-lg); box-shadow: var(--shadow-lg);
+  animation: pop .16s var(--ease) both;
+}
+.fpanel[hidden] { display: none; }
+
+.fpanel-head {
+  position: sticky; top: 0; z-index: 2;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 13px 15px; border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+}
+.fpanel-head strong { font-size: 14px; letter-spacing: -.02em; }
+.fpanel-x {
+  width: 28px; height: 28px; display: grid; place-items: center;
+  border: 0; border-radius: 50%; background: var(--surface-2);
+  color: var(--text-2); cursor: pointer;
+}
+.fpanel-x:hover { background: var(--surface-3); color: var(--text); }
+
+.fpanel-body { padding: 6px 15px 16px; }
+.fgroup { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.fgroup:last-child { border-bottom: 0; }
+.fgroup h4 {
+  margin: 0 0 9px; font-size: 9.5px; font-weight: 750;
+  letter-spacing: .11em; text-transform: uppercase; color: var(--text-3);
+}
+.chips.wrap { flex-wrap: wrap; overflow: visible; }
+.chips.wrap .sel-btn { max-width: 100%; }
+
+/* Bottom sheet on phones */
+@media (max-width: 720px) {
+  .fpanel {
+    left: 0 !important; right: 0; top: auto !important; bottom: 0;
+    width: 100%; max-height: 82vh;
+    border-radius: var(--r-xl) var(--r-xl) 0 0;
+    border-left: 0; border-right: 0; border-bottom: 0;
+    animation: sheetUp .26s var(--ease) both;
+  }
+  @keyframes sheetUp { from { transform: translateY(100%); } }
+  body.sheet-open { overflow: hidden; }
+}
+
+/* ------------------------------------------------------------- responsive */
+
+@media (max-width: 900px) {
+  .hero { min-height: min(74vh, 620px); }
+  .hero h1 { font-size: clamp(30px, 8vw, 50px); }
+  .hero p { -webkit-line-clamp: 2; line-clamp: 2; }
+}
+
+@media (max-width: 720px) {
+  :root { --nav-h: 58px; }
+  .brand span { display: none; }
+  .search.open input { width: min(58vw, 240px); }
+  .hero { min-height: 64vh; padding-bottom: 22px; }
+  .hero-meta { font-size: 13px; gap: 7px; }
+  .hero p { font-size: 14.5px; margin-bottom: 18px; }
+  .btn { height: 42px; padding: 0 18px; font-size: 14px; }
+  .bar-row { padding: 9px var(--pad); }
+  .bar-row + .bar-row { padding-bottom: 10px; }
+  .sec-head h2 { font-size: 17px; }
+  .radar { width: min(78vw, 300px); }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); }
+  .row .card { width: 124px; }
+  .arrow { display: none; }
+  .dayline { grid-template-columns: 1fr; gap: 4px; }
+  .dayline .d { padding-top: 0; }
+  .credits { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 420px) {
+  .grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
+  .row .card { width: 112px; }
+  .credits { grid-template-columns: 1fr; }
+  .chip.fbtn span { display: none; }   /* icon + count only */
+}
+
+/* --------------------------------------------------- horizontal containment
+   `overflow-x: hidden` on body used to hide this, but it also clips
+   position:fixed popovers. `clip` on the root contains overflow without
+   creating a scroll container, and the real offenders are fixed below.
+   ========================================================================= */
+
+html { overflow-x: clip; }
+
+.nav { gap: 8px; }
+.brand { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.nav-act { min-width: 0; }
+
+.hero h1 { overflow-wrap: anywhere; }
+.hero-in { max-width: min(660px, 100%); }
+.hero-meta { max-width: 100%; }
+
+.sec-head, .bar-row, .foot { max-width: 100vw; }
+.days { max-width: 100%; }
+
+@media (max-width: 720px) {
+  .hero h1 { font-size: clamp(27px, 8.4vw, 44px); letter-spacing: -.035em; }
+  .hero-act { gap: 8px; }
+  .hero-act .btn:last-child { display: none; }   /* venue pill: redundant here */
+}
+
+@media (max-width: 420px) {
+  .brand { font-size: 14px; }
+  .lang button { padding: 0 8px; }
+}
+
+/* The action row must never force the page wider than the viewport. */
+.bar-actions { flex-wrap: wrap; row-gap: 8px; }
+#chip-tonight .sm { display: none; }
+
+@media (max-width: 720px) {
+  #chip-tonight .lg { display: none; }
+  #chip-tonight .sm { display: inline; }
+  .bar-actions .grow { flex-basis: 0; }
+  .reset { margin-left: auto; }
+}
+
+/* Very narrow phones: the theme toggle is the first thing that can go. */
+@media (max-width: 360px) {
+  #theme { display: none; }
+  .brand svg { display: none; }
+}

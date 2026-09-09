@@ -58,34 +58,16 @@
   <div class="bar-row">
     <div class="days" id="days" role="group"></div>
   </div>
-  <div class="bar-row">
-    <div class="chips">
-      <button class="chip hot" id="chip-tonight"></button>
-      <button class="chip" id="chip-week" data-range="week" aria-pressed="false"></button>
-      <span class="chipsep"></span>
-      <button class="chip" data-tag="celluloid" aria-pressed="false">35&nbsp;mm</button>
-      <button class="chip" data-tag="imax" aria-pressed="false">IMAX</button>
-      <button class="chip" data-tag="restoration" aria-pressed="false" id="chip-resto"></button>
-      <button class="chip" data-tag="classic" aria-pressed="false" id="chip-classic"></button>
-      <button class="chip" data-tag="repertory" aria-pressed="false" id="chip-rep"></button>
-      <button class="chip" data-tag="qa" aria-pressed="false">Q&amp;A</button>
-      <button class="chip" data-tag="only-screening" aria-pressed="false" id="chip-only"></button>
-      <span class="chipsep"></span>
-      <button class="chip" data-time="matinee" aria-pressed="false" id="chip-mat"></button>
-      <button class="chip" data-time="late" aria-pressed="false" id="chip-late"></button>
-    </div>
-  </div>
-  <div class="bar-row">
-    <div class="chips">
-      <button class="chip" id="chip-indie" aria-pressed="false"></button>
-      <button class="chip" data-langv="fr" aria-pressed="false" id="chip-vf"></button>
-      <button class="chip" data-langv="en" aria-pressed="false" id="chip-vo"></button>
-      <button class="chip" data-langv="sub" aria-pressed="false" id="chip-sub"></button>
-      <div class="sel" id="f-venue"></div>
-      <div class="sel" id="f-hood"></div>
-      <div class="sel" id="f-genre"></div>
-      <div class="sel" id="f-sort"></div>
-    </div>
+  <div class="bar-row bar-actions">
+    <button class="chip hot" id="chip-tonight"><span class="lg"></span><span class="sm"></span></button>
+    <button class="chip" id="chip-week" data-range="week" aria-pressed="false"></button>
+    <button class="chip fbtn" id="fbtn" aria-expanded="false">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+        <path d="M2 4.5h12M4.5 8h7M6.5 11.5h3"/>
+      </svg>
+      <span id="fbtn-label"></span><b id="fbtn-count" hidden>0</b>
+    </button>
+    <span class="grow"></span>
     <div class="viewtoggle" role="group">
       <button type="button" id="view-grid" data-view="grid" aria-pressed="true" aria-label="Grid">
         <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="1.5" y="1.5" width="5.5" height="5.5" rx="1.2"/><rect x="9" y="1.5" width="5.5" height="5.5" rx="1.2"/><rect x="1.5" y="9" width="5.5" height="5.5" rx="1.2"/><rect x="9" y="9" width="5.5" height="5.5" rx="1.2"/></svg>
@@ -111,6 +93,54 @@
   <a href="https://github.com/mtlmovies/mtlmovies.github.io" id="foot-src"></a>
   <span id="foot-made"></span>
 </footer>
+
+
+<div class="fpanel" id="fpanel" hidden role="dialog" aria-label="Filters">
+  <div class="fpanel-head">
+    <strong id="fpanel-title"></strong>
+    <button class="fpanel-x" id="fpanel-close" aria-label="Close">✕</button>
+  </div>
+  <div class="fpanel-body">
+    <div class="fgroup">
+      <h4 id="fg-format"></h4>
+      <div class="chips wrap">
+        <button class="chip" data-tag="celluloid" aria-pressed="false">35&nbsp;mm</button>
+        <button class="chip" data-tag="imax" aria-pressed="false">IMAX</button>
+        <button class="chip" data-tag="restoration" aria-pressed="false" id="chip-resto"></button>
+        <button class="chip" data-tag="classic" aria-pressed="false" id="chip-classic"></button>
+        <button class="chip" data-tag="repertory" aria-pressed="false" id="chip-rep"></button>
+        <button class="chip" data-tag="qa" aria-pressed="false">Q&amp;A</button>
+        <button class="chip" data-tag="only-screening" aria-pressed="false" id="chip-only"></button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <h4 id="fg-time"></h4>
+      <div class="chips wrap">
+        <button class="chip" data-time="matinee" aria-pressed="false" id="chip-mat"></button>
+        <button class="chip" data-time="evening" aria-pressed="false" id="chip-eve"></button>
+        <button class="chip" data-time="late" aria-pressed="false" id="chip-late"></button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <h4 id="fg-lang"></h4>
+      <div class="chips wrap">
+        <button class="chip" data-langv="fr" aria-pressed="false" id="chip-vf"></button>
+        <button class="chip" data-langv="en" aria-pressed="false" id="chip-vo"></button>
+        <button class="chip" data-langv="sub" aria-pressed="false" id="chip-sub"></button>
+        <button class="chip" id="chip-indie" aria-pressed="false"></button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <h4 id="fg-where"></h4>
+      <div class="chips wrap">
+        <div class="sel" id="f-venue"></div>
+        <div class="sel" id="f-hood"></div>
+        <div class="sel" id="f-genre"></div>
+        <div class="sel" id="f-sort"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="modal" id="modal" hidden role="dialog" aria-modal="true">
   <div class="scrim"></div>

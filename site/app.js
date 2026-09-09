@@ -50,6 +50,8 @@ const STR = {
     tagResto: "Restauration", tagOnly: "Séance unique", tagImax: "IMAX",
     tagAnniv: "Anniversaire", tagFest: "Festival", tagLate: "Tard",
     nothingTonight: "Plus rien ce soir — regardez demain.",
+    filters: "Filtres", fgFormat: "Format & séances", fgTime: "Heure",
+    fgLang: "Langue", fgWhere: "Où & tri", evening: "En soirée", close: "Fermer",
   },
   en: {
     tagline: "Showtimes in Montréal",
@@ -96,6 +98,8 @@ const STR = {
     tagResto: "Restored", tagOnly: "One only", tagImax: "IMAX",
     tagAnniv: "Anniversary", tagFest: "Festival", tagLate: "Late",
     nothingTonight: "Nothing left tonight — try tomorrow.",
+    filters: "Filters", fgFormat: "Format & screenings", fgTime: "Time of day",
+    fgLang: "Language", fgWhere: "Where & sort", evening: "Evening", close: "Close",
   },
 };
 
@@ -807,14 +811,26 @@ function paintStatic() {
   qi.placeholder = t("search"); qi.setAttribute("aria-label", t("searchAria"));
   $("#theme").title = t("theme");
   const chips = {
-    "chip-tonight": "tonightCta", "chip-week": "thisWeek",
+    "chip-week": "thisWeek",
     "chip-classic": "classics", "chip-resto": "restorations",
     "chip-rep": "repertory", "chip-only": "onlyOnce",
-    "chip-mat": "matinee", "chip-late": "lateShow",
+    "chip-mat": "matinee", "chip-eve": "evening", "chip-late": "lateShow",
     "chip-indie": "indie", "chip-vf": "vf", "chip-vo": "vo", "chip-sub": "sub",
   };
   for (const [id, k] of Object.entries(chips)) { const el = document.getElementById(id); if (el) el.textContent = t(k); }
   $("#f-reset").textContent = t("reset");
+  const tn = $("#chip-tonight");
+  if (tn) {
+    tn.querySelector(".lg").textContent = t("tonightCta");
+    tn.querySelector(".sm").textContent = t("tonight");
+  }
+  $("#fbtn-label").textContent = t("filters");
+  $("#fpanel-title").textContent = t("filters");
+  $("#fg-format").textContent = t("fgFormat");
+  $("#fg-time").textContent = t("fgTime");
+  $("#fg-lang").textContent = t("fgLang");
+  $("#fg-where").textContent = t("fgWhere");
+  $("#fpanel-close").setAttribute("aria-label", t("close"));
   syncView();
   $$(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === LANG)));
   paintMeta();
@@ -898,6 +914,13 @@ function wire() {
       syncChips(); render(); return;
     }
 
+    if (e.target.closest("#fbtn")) { togglePanel(); return; }
+    if (e.target.closest("#fpanel-close")) { togglePanel(false); return; }
+    if (!e.target.closest("#fpanel") && !e.target.closest("#fbtn") &&
+        !e.target.closest(".sel-pop") && !$("#fpanel").hidden) {
+      togglePanel(false);
+    }
+
     const vw = e.target.closest("[data-view]");
     if (vw) {
       state.view = vw.dataset.view;
@@ -952,10 +975,42 @@ function wire() {
     nav.classList.toggle("solid", window.scrollY > 40);
     // The popover is fixed to the trigger's rect, so follow the trigger.
     Object.keys(SELECTS).forEach((k) => { if (SELECTS[k].open) placeSelect(k); });
+    placePanel();
   };
   window.addEventListener("scroll", onScroll, { passive: true });
-  window.addEventListener("resize", () => Object.keys(SELECTS).forEach(closeSelect));
+  window.addEventListener("resize", () => {
+    Object.keys(SELECTS).forEach(closeSelect);
+    placePanel();
+  });
   onScroll();
+}
+
+function activeFilterCount() {
+  return state.tags.size + (state.time ? 1 : 0) + (state.language ? 1 : 0) +
+    (state.indie ? 1 : 0) + (state.venue ? 1 : 0) + (state.hood ? 1 : 0) +
+    (state.genre ? 1 : 0) + (state.sort !== "relevance" ? 1 : 0);
+}
+
+function placePanel() {
+  const p = $("#fpanel");
+  if (p.hidden) return;
+  if (window.matchMedia("(max-width: 720px)").matches) {
+    p.style.left = p.style.top = p.style.width = "";   // CSS drives the sheet
+    return;
+  }
+  const r = $("#fbtn").getBoundingClientRect();
+  const w = p.offsetWidth || 380;
+  p.style.left = `${Math.max(8, Math.min(r.left, window.innerWidth - w - 8))}px`;
+  p.style.top = `${r.bottom + 8}px`;
+}
+
+function togglePanel(force) {
+  const p = $("#fpanel");
+  const open = force ?? p.hidden;
+  p.hidden = !open;
+  $("#fbtn").setAttribute("aria-expanded", String(open));
+  document.body.classList.toggle("sheet-open", open && window.matchMedia("(max-width: 720px)").matches);
+  if (open) placePanel();
 }
 
 function syncView() {
@@ -971,6 +1026,11 @@ function syncChips() {
   $$("[data-range]").forEach((b) => b.setAttribute("aria-pressed", String(state.range === "week")));
   $("#chip-indie").setAttribute("aria-pressed", String(state.indie));
   $("#chip-tonight")?.setAttribute("aria-pressed", String(!!state.tonight));
+
+  const n = activeFilterCount();
+  const badge = $("#fbtn-count");
+  if (badge) { badge.hidden = n === 0; badge.textContent = String(n); }
+  $("#fbtn")?.classList.toggle("on", n > 0);
 }
 
 /* ---------------------------------------------------------------------- boot */
