@@ -1,0 +1,67 @@
+name: Dump source HTML (debug)
+
+# Manual-only helper. Several venues block non-residential networks, so this
+# fetches their pages from a runner and uploads them as an artifact to develop
+# the parsers against. Not part of the daily refresh.
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Extra URLs to fetch, comma-separated"
+        type: string
+        default: ""
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch pages
+        env:
+          EXTRA: ${{ inputs.urls }}
+        run: |
+          mkdir -p dump
+          python3 - <<'PY'
+          import os, re, urllib.request, urllib.parse
+
+          UA = "montreal-cinema-index/1.0 (+https://github.com/RodolpheKouyoumdjian/mtlmovies)"
+          urls = [
+              "https://www.cinemamoderne.com/en/schedule/2026/09/",
+              "https://www.cinemamoderne.com/en/schedule/2026/10/",
+              "https://www.cinemamoderne.com/horaire/",
+              "https://cinemapublic.ca/horaire/",
+              "https://www.cinematheque.qc.ca/fr/programme/",
+              "https://www.cinematheque.qc.ca/fr/cinema/le-conformiste/",
+              "https://theatreoutremont.ca/",
+              "https://theatreoutremont.ca/programmation/",
+          ]
+          urls += [u.strip() for u in os.environ.get("EXTRA", "").split(",") if u.strip()]
+
+          for u in urls:
+              name = re.sub(r"[^a-zA-Z0-9]+", "_", u)[:110] + ".html"
+              try:
+                  req = urllib.request.Request(u, headers={
+                      "User-Agent": UA,
+                      "Accept": "text/html,application/xhtml+xml",
+                      "Accept-Language": "fr-CA,fr;q=0.9,en;q=0.8",
+                  })
+                  with urllib.request.urlopen(req, timeout=40) as r:
+                      body = r.read()
+                  open(os.path.join("dump", name), "wb").write(body)
+                  print(f"OK   {r.status:3d} {len(body):8d}  {u}")
+              except Exception as e:
+                  open(os.path.join("dump", name + ".error.txt"), "w").write(f"{type(e).__name__}: {e}")
+                  print(f"FAIL      {'':8s}  {u}  -> {type(e).__name__}: {e}")
+          PY
+          ls -la dump
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: source-html
+          path: dump
+          retention-days: 3
