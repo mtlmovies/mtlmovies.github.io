@@ -2,8 +2,16 @@
 
 A performing-arts venue that also programmes cinema (Ciné-Outremont,
 Ciné-Rencontre, Ciné-Récré). Its programme grid gives each event a category,
-a title and a date — but no start time, and "Billets" leads to a Tuxedo
-single-page app that renders its times in JavaScript.
+a title and a date — but no start time.
+
+The start times exist only inside its Tuxedo box office, and there is no
+public way to read them. Traced in full: the ticket page is an Angular app
+whose only data request is its own configuration.json; every same-origin API
+route returns the app shell; the app is backed by a Firebase Realtime
+Database that answers "Permission denied" on every path even with a valid
+anonymous session; the project has Firestore disabled; and neither Tuxedo
+property publishes a sitemap or feed. Rendered in a real browser the page
+never gets past "Chargement en cours".
 
 So this tries, in order:
   1. /cinema/, their dedicated cinema page, for a date *and* a time;
@@ -163,10 +171,12 @@ def fetch() -> tuple[list[Venue], list[Screening]]:
 
     if not screenings:
         raise RuntimeError(
-            f"{len(cards)} cinema events listed, none with a start time "
-            f"(their programme prints dates only; times live in the Tuxedo "
-            f"ticketing app, which renders them in JavaScript)"
-            + (f"; {'; '.join(problems)}" if problems else "")
+            f"{len(cards)} cinema events listed, none with a start time. "
+            f"Their programme publishes dates only, and the start times are "
+            f"held in a Tuxedo box office with no publicly readable source "
+            f"(Firebase RTDB denies every path even to an anonymous session; "
+            f"Firestore is disabled; no sitemap or feed)."
+            + (f" {'; '.join(problems)}" if problems else "")
         )
 
     log(f"[outremont] {len(screenings)} showtimes "
