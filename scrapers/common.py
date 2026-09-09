@@ -25,7 +25,7 @@ MONTREAL_TZ = "America/Toronto"
 
 # A descriptive UA by default: we identify ourselves and scrape once a day.
 USER_AGENT = (
-    "montreal-cinema-index/1.0 (+https://github.com/RodolpheKouyoumdjian/mtlmovies)"
+    "montreal-cinema-index/1.0 (+https://github.com/mtlmovies/mtlmovies.github.io)"
 )
 # Some venues sit behind WAFs that reject unknown agents outright. For those we
 # fall back to a browser UA rather than dropping the venue entirely.
