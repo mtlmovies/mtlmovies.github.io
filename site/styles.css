@@ -933,3 +933,44 @@ html { overflow-x: clip; }
   }
   .sel-list { max-height: 46vh !important; }
 }
+
+/* ------------------------------------------------- touch sheets, done right */
+
+@media (max-width: 720px), (pointer: coarse) {
+  /* Both the filter panel and the select popovers are sheets: pinned to the
+     bottom, never repositioned while scrolling, with a dimmed backdrop so it
+     is obvious what has focus. */
+  .fpanel, .sel-pop {
+    position: fixed;
+    left: 0 !important; right: 0; bottom: 0;
+    top: auto !important;
+    width: 100% !important; max-width: none;
+    border-radius: var(--r-xl) var(--r-xl) 0 0;
+    border-left: 0; border-right: 0; border-bottom: 0;
+    animation: sheetUp .26s var(--ease) both;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    box-shadow: 0 -20px 60px rgba(0, 0, 0, .6);
+  }
+  .fpanel { max-height: 82vh; }
+  .sel-pop { max-height: 70vh; }
+  .sel-list { max-height: 52vh !important; }
+
+  .fpanel::before, .sel-pop::before {
+    content: ""; position: fixed; inset: 0 0 100% 0; height: 100vh;
+    background: rgba(0, 0, 0, .55); z-index: -1;
+  }
+
+  /* A grab handle reads as a sheet rather than a stray panel. */
+  .sel-pop .f { position: relative; padding-top: 20px; }
+  .sel-pop .f::before, .fpanel-head::before {
+    content: ""; position: absolute; top: 8px; left: 50%; transform: translateX(-50%);
+    width: 36px; height: 4px; border-radius: 99px; background: var(--line-2);
+  }
+  .fpanel-head { position: relative; padding-top: 20px; }
+
+  body.sheet-open { overflow: hidden; }
+
+  /* Comfortable tap targets. */
+  .sel-opt { padding: 13px 12px; font-size: 15px; }
+  .fpanel .chip, .fpanel .sel-btn { height: 36px; font-size: 13.5px; }
+}

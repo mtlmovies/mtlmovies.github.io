@@ -17,7 +17,7 @@ const STR = {
     cinema: "Cinéma", hood: "Quartier", genre: "Genre", sort: "Trier",
     sortRelevance: "Suggéré", sortSoonest: "Prochaine séance", sortRating: "Mieux noté",
     sortYear: "Plus récent", sortTitle: "Titre (A→Z)",
-    sortDirector: "Réalisateur (A→Z)", sortDecade: "Décennie", sortOldest: "Plus ancien",
+    sortDirector: "Par réalisateur", sortDecade: "Par décennie", sortOldest: "Plus ancien",
     reset: "Réinitialiser", filter: "Filtrer…",
     noneFound: "Aucun résultat",
     heroClassic: "Classique à l'affiche", heroNow: "À l'affiche",
@@ -43,6 +43,7 @@ const STR = {
     oneScreening: "Séance unique", classicTag: "Classique", restoTag: "Restauré",
     votes: "votes",
     versions: "Versions", viewGrid: "Grille", viewList: "Liste",
+    unknownDirector: "Réalisateur inconnu", unknownYear: "Année inconnue", film: "film",
     tonight: "Ce soir", thisWeek: "Cette semaine", repertory: "Répertoire",
     onlyOnce: "Séance unique", matinee: "En journée", lateShow: "Tard le soir",
     radar: "À ne pas manquer",
@@ -67,7 +68,7 @@ const STR = {
     cinema: "Cinema", hood: "Neighbourhood", genre: "Genre", sort: "Sort",
     sortRelevance: "Suggested", sortSoonest: "Next showing", sortRating: "Top rated",
     sortYear: "Newest", sortTitle: "Title (A→Z)",
-    sortDirector: "Director (A→Z)", sortDecade: "Decade", sortOldest: "Oldest first",
+    sortDirector: "By director", sortDecade: "By decade", sortOldest: "Oldest first",
     reset: "Reset", filter: "Filter…",
     noneFound: "No matches",
     heroClassic: "Classic on screen", heroNow: "Now showing",
@@ -93,6 +94,7 @@ const STR = {
     oneScreening: "One only", classicTag: "Classic", restoTag: "Restored",
     votes: "votes",
     versions: "Versions", viewGrid: "Grid", viewList: "List",
+    unknownDirector: "Director unknown", unknownYear: "Year unknown", film: "film",
     tonight: "Tonight", thisWeek: "This week", repertory: "Repertory",
     onlyOnce: "One screening", matinee: "Daytime", lateShow: "Late night",
     radar: "Don't miss",
@@ -140,6 +142,9 @@ function rateColor(v) {
 }
 /** IMDb 0-10 on the same scale. */
 const rateColor10 = (v) => (v == null ? "var(--text-2)" : rateColor(v / 2));
+
+/** Touch layouts get sheets, not anchored popovers. */
+const isTouch = () => window.matchMedia("(max-width: 720px), (pointer: coarse)").matches;
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -432,29 +437,17 @@ function render() {
   heroStart([...list].sort((a, b) => (b.m.special ?? 0) - (a.m.special ?? 0) ||
                                      (b.m.letterboxd_rating ?? -1) - (a.m.letterboxd_rating ?? -1)));
 
+  // Director and decade are groupings, not orderings: each gets its own
+  // heading with that director's or decade's films under it.
+  if (state.sort === "director" || state.sort === "decade") {
+    root.innerHTML = groupedHTML(list);
+    return;
+  }
+
   if (state.view === "list") {
-    // Grouped sorts get visible headers, otherwise the ordering is invisible.
-    const groupOf = state.sort === "decade"
-      ? (x) => (x.m.year ? `${Math.floor(x.m.year / 10) * 10}s` : "—")
-      : state.sort === "director"
-        ? (x) => (x.m.director || "—").split(",")[0].trim()
-        : null;
-
-    let body = "";
-    if (groupOf) {
-      let cur = null;
-      for (const x of list) {
-        const g = groupOf(x);
-        if (g !== cur) { cur = g; body += `<div class="lgroup">${esc(g)}</div>`; }
-        body += listRowHTML(x);
-      }
-    } else {
-      body = list.map(listRowHTML).join("");
-    }
-
     root.innerHTML = `<section class="sec">
       <div class="sec-head"><h2>${esc(state.q ? t("resultsFor", state.q) : t("secAll"))}<em>${list.length}</em></h2></div>
-      <div class="list">${body}</div>
+      <div class="list">${list.map(listRowHTML).join("")}</div>
     </section>`;
     return;
   }
@@ -542,6 +535,58 @@ function heroStart(list) {
 function heroGo(i) {
   heroIdx = i;
   renderHero(heroList[i]);
+}
+
+/** Sections for the director / decade groupings. */
+function groupedHTML(list) {
+  const byDirector = state.sort === "director";
+  const groups = new Map();
+
+  for (const x of list) {
+    let key;
+    if (byDirector) {
+      const d = (x.m.director || "").split(",")[0].trim();
+      key = d || t("unknownDirector");
+    } else {
+      key = x.m.year ? `${Math.floor(x.m.year / 10) * 10}s` : t("unknownYear");
+    }
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(x);
+  }
+
+  const lb = (x) => x.m.letterboxd_rating ?? -1;
+  const entries = [...groups.entries()];
+
+  if (byDirector) {
+    // Best director first — their strongest film, then how much of them is on.
+    const rank = ([, xs]) => Math.max(...xs.map(lb));
+    entries.sort((a, b) => {
+      const un = (k) => (k === t("unknownDirector") ? 1 : 0);
+      return un(a[0]) - un(b[0]) || rank(b) - rank(a) || b[1].length - a[1].length ||
+             a[0].localeCompare(b[0], locale());
+    });
+  } else {
+    entries.sort((a, b) => {
+      const n = (k) => (parseInt(k, 10) || -1);
+      return n(b[0]) - n(a[0]);
+    });
+  }
+
+  return entries.map(([key, xs]) => {
+    xs.sort((a, b) => lb(b) - lb(a) || (a.m.year ?? 0) - (b.m.year ?? 0));
+    const best = Math.max(...xs.map(lb));
+    const sub = byDirector && best > 0
+      ? `${xs.length} ${xs.length > 1 ? t("films") : t("film")} · ★ ${best.toFixed(2)}`
+      : "";
+    const inner = state.view === "list"
+      ? `<div class="list">${xs.map(listRowHTML).join("")}</div>`
+      : `<div class="grid">${xs.map(cardHTML).join("")}</div>`;
+    return `<section class="sec">
+      <div class="sec-head"><h2>${esc(key)}<em>${xs.length}</em></h2>
+        ${sub ? `<p>${esc(sub)}</p>` : ""}</div>
+      ${inner}
+    </section>`;
+  }).join("");
 }
 
 function renderHero(entry) {
@@ -754,7 +799,7 @@ function paintSelect(key, keepFocus) {
 
 function placeSelect(key) {
   const s = SELECTS[key];
-  if (window.matchMedia("(max-width: 720px)").matches) {
+  if (isTouch()) {
     // CSS pins it as a sheet above the filter panel; clear any desktop coords.
     s.pop.style.left = s.pop.style.top = s.pop.style.bottom = "";
     s.pop.querySelector(".sel-list").style.maxHeight = "";
@@ -798,7 +843,10 @@ function openSelect(key) {
   input.value = "";
   paintSelect(key, true);
   placeSelect(key);
-  input.focus();
+  // Focusing on touch summons the keyboard, which scrolls and zooms the page.
+  // The list is short enough to browse; the field is there if they tap it.
+  if (!isTouch()) input.focus();
+  else document.body.classList.add("sheet-open");
 }
 
 function closeSelect(key) {
@@ -807,6 +855,9 @@ function closeSelect(key) {
   s.open = false;
   s.pop.hidden = true;
   s.host.querySelector(".sel-btn").setAttribute("aria-expanded", "false");
+  if (!Object.values(SELECTS).some((x) => x.open) && $("#fpanel").hidden) {
+    document.body.classList.remove("sheet-open");
+  }
 }
 
 function chooseSelect(key, value) {
@@ -1064,8 +1115,10 @@ function wire() {
   const onScroll = () => {
     nav.classList.toggle("solid", window.scrollY > 40);
     // The popover is fixed to the trigger's rect, so follow the trigger.
-    Object.keys(SELECTS).forEach((k) => { if (SELECTS[k].open) placeSelect(k); });
-    placePanel();
+    if (!isTouch()) {
+      Object.keys(SELECTS).forEach((k) => { if (SELECTS[k].open) placeSelect(k); });
+      placePanel();
+    }
   };
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", () => {
@@ -1084,7 +1137,7 @@ function activeFilterCount() {
 function placePanel() {
   const p = $("#fpanel");
   if (p.hidden) return;
-  if (window.matchMedia("(max-width: 720px)").matches) {
+  if (isTouch()) {
     p.style.left = p.style.top = p.style.width = "";   // CSS drives the sheet
     return;
   }
@@ -1099,7 +1152,7 @@ function togglePanel(force) {
   const open = force ?? p.hidden;
   p.hidden = !open;
   $("#fbtn").setAttribute("aria-expanded", String(open));
-  document.body.classList.toggle("sheet-open", open && window.matchMedia("(max-width: 720px)").matches);
+  document.body.classList.toggle("sheet-open", open && isTouch());
   if (open) placePanel();
 }
 
@@ -1164,9 +1217,15 @@ async function boot() {
   const h = location.hash.match(/^#film=(.+)$/);
   if (h) openMovie(decodeURIComponent(h[1]));
 
-  // ?view=list / ?view=grid makes a view shareable.
-  const qv = new URLSearchParams(location.search).get("view");
-  if (qv === "list" || qv === "grid") { state.view = qv; syncView(); render(); }
+  // ?view= and ?sort= make a view shareable.
+  const qs = new URLSearchParams(location.search);
+  const qv = qs.get("view");
+  const qsort = qs.get("sort");
+  let touched = false;
+  if (qv === "list" || qv === "grid") { state.view = qv; syncView(); touched = true; }
+  if (qsort && $$(`#sortchips [data-sort="${qsort}"]`).length) { state.sort = qsort; touched = true; }
+  if (qs.get("date") === "all") { state.date = "all"; state.range = "all"; buildDays(); touched = true; }
+  if (touched) { syncChips(); render(); }
 }
 
 boot();
