@@ -249,7 +249,7 @@ def special_score(m: dict) -> int:
     lb = m.get("letterboxd_rating")
     if lb:
         score += max(0, (lb - 3.2)) * 6          # 4.5 -> +7.8
-    return round(score)
+    return round(score, 2)
 
 
 def main():

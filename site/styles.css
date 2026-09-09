@@ -867,3 +867,15 @@ html { overflow-x: clip; }
   #theme { display: none; }
   .brand svg { display: none; }
 }
+
+/* Group headers for the decade / director sorts in list view. */
+.lgroup {
+  position: sticky; top: calc(var(--nav-h) + 2px); z-index: 3;
+  margin: 18px 0 2px; padding: 7px 0 6px;
+  font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--text-3);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.lgroup:first-child { margin-top: 0; }

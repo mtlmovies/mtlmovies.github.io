@@ -17,6 +17,7 @@ const STR = {
     cinema: "Cinéma", hood: "Quartier", genre: "Genre", sort: "Trier",
     sortRelevance: "Suggéré", sortSoonest: "Prochaine séance", sortRating: "Mieux noté",
     sortYear: "Plus récent", sortTitle: "Titre (A→Z)",
+    sortDirector: "Réalisateur (A→Z)", sortDecade: "Décennie", sortOldest: "Plus ancien",
     reset: "Réinitialiser", filter: "Filtrer…",
     noneFound: "Aucun résultat",
     heroClassic: "Classique à l'affiche", heroNow: "À l'affiche",
@@ -44,7 +45,8 @@ const STR = {
     versions: "Versions", viewGrid: "Grille", viewList: "Liste",
     tonight: "Ce soir", thisWeek: "Cette semaine", repertory: "Répertoire",
     onlyOnce: "Séance unique", matinee: "En journée", lateShow: "Tard le soir",
-    radar: "À ne pas manquer", radarSub: "Ce qu'un cinéphile montréalais regretterait de rater.",
+    radar: "À ne pas manquer",
+    radarSub: "Classé par rareté : pellicule, restaurations, rencontres, séances uniques, puis la note.",
     why: "Pourquoi cette séance compte", tonightCta: "Que voir ce soir ?",
     tagFilm: "Pellicule", tagQa: "Rencontre", tagPremiere: "Première",
     tagResto: "Restauration", tagOnly: "Séance unique", tagImax: "IMAX",
@@ -65,6 +67,7 @@ const STR = {
     cinema: "Cinema", hood: "Neighbourhood", genre: "Genre", sort: "Sort",
     sortRelevance: "Suggested", sortSoonest: "Next showing", sortRating: "Top rated",
     sortYear: "Newest", sortTitle: "Title (A→Z)",
+    sortDirector: "Director (A→Z)", sortDecade: "Decade", sortOldest: "Oldest first",
     reset: "Reset", filter: "Filter…",
     noneFound: "No matches",
     heroClassic: "Classic on screen", heroNow: "Now showing",
@@ -92,7 +95,8 @@ const STR = {
     versions: "Versions", viewGrid: "Grid", viewList: "List",
     tonight: "Tonight", thisWeek: "This week", repertory: "Repertory",
     onlyOnce: "One screening", matinee: "Daytime", lateShow: "Late night",
-    radar: "Don't miss", radarSub: "What a Montréal cinephile would regret missing.",
+    radar: "Don't miss",
+    radarSub: "Ranked by rarity: film prints, restorations, Q&As, one-off screenings, then rating.",
     why: "Why this screening matters", tonightCta: "What can I see tonight?",
     tagFilm: "On film", tagQa: "Q&A", tagPremiere: "Premiere",
     tagResto: "Restored", tagOnly: "One only", tagImax: "IMAX",
@@ -216,10 +220,20 @@ function visible() {
   }
   const lb = (x) => x.m.letterboxd_rating ?? -1;
   const s = state.sort;
+  const dir = (x) => (x.m.director || "\uffff").split(",")[0].trim();
   if (s === "rating") out.sort((a, b) => lb(b) - lb(a) || a.m.title.localeCompare(b.m.title, locale()));
   else if (s === "title") out.sort((a, b) => a.m.title.localeCompare(b.m.title, locale()));
   else if (s === "year") out.sort((a, b) => (b.m.year ?? 0) - (a.m.year ?? 0));
-  else if (s === "soonest") out.sort((a, b) => (a.shows[0]?.start || "9").localeCompare(b.shows[0]?.start || "9"));
+  else if (s === "oldest") out.sort((a, b) => (a.m.year ?? 9999) - (b.m.year ?? 9999));
+  else if (s === "decade") {
+    // Group by decade, newest decade first, best-rated inside each.
+    const dec = (x) => (x.m.year ? Math.floor(x.m.year / 10) * 10 : -1);
+    out.sort((a, b) => dec(b) - dec(a) || lb(b) - lb(a) ||
+                       a.m.title.localeCompare(b.m.title, locale()));
+  } else if (s === "director") {
+    out.sort((a, b) => dir(a).localeCompare(dir(b), locale()) ||
+                       (a.m.year ?? 0) - (b.m.year ?? 0));
+  } else if (s === "soonest") out.sort((a, b) => (a.shows[0]?.start || "9").localeCompare(b.shows[0]?.start || "9"));
   else {
     // The build already scored how much a cinephile would regret missing it.
     const score = (x) => (x.m.special ?? 0) +
@@ -368,7 +382,11 @@ function radarHTML({ m, shows }) {
 }
 
 function radarSectionHTML(list) {
-  const picks = list.filter((x) => (x.m.special ?? 0) >= 12).slice(0, 8);
+  const picks = list
+    .filter((x) => (x.m.special ?? 0) >= 12)
+    .sort((a, b) => (b.m.special ?? 0) - (a.m.special ?? 0) ||
+                    (b.m.letterboxd_rating ?? -1) - (a.m.letterboxd_rating ?? -1))
+    .slice(0, 8);
   if (picks.length < 3) return "";
   return `<section class="sec radar-sec">
     <div class="sec-head">
@@ -412,9 +430,28 @@ function render() {
   renderHero(list[0]);
 
   if (state.view === "list") {
+    // Grouped sorts get visible headers, otherwise the ordering is invisible.
+    const groupOf = state.sort === "decade"
+      ? (x) => (x.m.year ? `${Math.floor(x.m.year / 10) * 10}s` : "—")
+      : state.sort === "director"
+        ? (x) => (x.m.director || "—").split(",")[0].trim()
+        : null;
+
+    let body = "";
+    if (groupOf) {
+      let cur = null;
+      for (const x of list) {
+        const g = groupOf(x);
+        if (g !== cur) { cur = g; body += `<div class="lgroup">${esc(g)}</div>`; }
+        body += listRowHTML(x);
+      }
+    } else {
+      body = list.map(listRowHTML).join("");
+    }
+
     root.innerHTML = `<section class="sec">
       <div class="sec-head"><h2>${esc(state.q ? t("resultsFor", state.q) : t("secAll"))}<em>${list.length}</em></h2></div>
-      <div class="list">${list.map(listRowHTML).join("")}</div>
+      <div class="list">${body}</div>
     </section>`;
     return;
   }
@@ -431,15 +468,17 @@ function render() {
   // both "Tonight" and "Classics". Only the final catch-all row excludes what
   // has already been shown.
   const shown = new Set();
-  const pick = (pred, n = 22) => {
-    const out = [];
-    for (const x of list) {
-      if (!pred(x)) continue;
-      out.push(x);
-      if (out.length >= n) break;
-    }
-    out.forEach((x) => shown.add(x.m.id));
-    return out;
+  const byRating = (a, b) => (b.m.letterboxd_rating ?? -1) - (a.m.letterboxd_rating ?? -1);
+  const bySoonest = (a, b) => (a.shows[0]?.start || "9").localeCompare(b.shows[0]?.start || "9");
+  // Sort before capping: a row titled "top rated" that cuts at 22 by some
+  // other order drops the highest-rated film in it, which is what happened to
+  // Lawrence of Arabia.
+  const pick = (pred, n = 24, cmp = null) => {
+    const out = list.filter(pred);
+    if (cmp) out.sort(cmp);
+    const cut = out.slice(0, n);
+    cut.forEach((x) => shown.add(x.m.id));
+    return cut;
   };
   const has = (x, tag) => (x.m.tags || []).includes(tag) || x.shows.some((s) => (s.tags || []).includes(tag));
 
@@ -453,10 +492,12 @@ function render() {
       later.forEach((x) => shown.add(x.m.id));
     }
   }
-  parts.push(rowHTML(t("secFilm"), pick((x) => has(x, "celluloid")), t("secFilmSub")));
-  parts.push(rowHTML(t("secClassics"), pick((x) => has(x, "classic") || has(x, "restoration")), t("secClassicsSub")));
-  parts.push(rowHTML(t("secTop"), pick((x) => (x.m.letterboxd_rating ?? 0) >= 3.9)));
-  parts.push(rowHTML(t("secOnce"), pick((x) => x.shows.length === 1), t("secOnceSub")));
+  parts.push(rowHTML(t("secFilm"), pick((x) => has(x, "celluloid"), 24, byRating), t("secFilmSub")));
+  parts.push(rowHTML(t("secClassics"),
+    pick((x) => has(x, "classic") || has(x, "restoration"), 30, byRating), t("secClassicsSub")));
+  parts.push(rowHTML(t("secTop"),
+    pick((x) => (x.m.letterboxd_rating ?? 0) >= 3.9, 24, byRating)));
+  parts.push(rowHTML(t("secOnce"), pick((x) => x.shows.length === 1, 24, bySoonest), t("secOnceSub")));
 
   for (const v of state.data.venues) {
     if (v.chain !== "independent") continue;
@@ -799,6 +840,9 @@ function buildFilters() {
       { value: "soonest", label: t("sortSoonest") },
       { value: "rating", label: t("sortRating") },
       { value: "year", label: t("sortYear") },
+      { value: "oldest", label: t("sortOldest") },
+      { value: "decade", label: t("sortDecade") },
+      { value: "director", label: t("sortDirector") },
       { value: "title", label: t("sortTitle") },
     ],
   });
@@ -885,6 +929,10 @@ function wire() {
     const day = e.target.closest("#days .day");
     if (day) {
       state.date = day.dataset.date;
+      state.tonight = false;           // an explicit date overrides "tonight"
+      if (day.dataset.date === "all") state.range = "all";
+      else if (state.range === "all") state.range = "day";
+      syncChips();
       $$("#days .day").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.date === state.date)));
       render(); return;
     }
