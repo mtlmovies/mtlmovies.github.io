@@ -1131,9 +1131,15 @@ function wire() {
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") { if (!$("#modal").hidden) closeModal(); else Object.keys(SELECTS).forEach(closeSelect); }
     if (e.key === "/" && document.activeElement.tagName !== "INPUT") {
-      e.preventDefault(); $(".search").classList.add("open"); $("#q").focus();
+      e.preventDefault(); openSearch();
     }
   });
+
+  function openSearch() { $(".search").classList.add("open"); $("#q").focus(); }
+  function closeSearch() {
+    state.q = ""; $("#q").value = ""; render();
+    $(".search").classList.remove("open"); $("#q").blur();
+  }
 
   let tm;
   $("#q").addEventListener("input", (e) => {
@@ -1141,7 +1147,10 @@ function wire() {
     clearTimeout(tm); tm = setTimeout(render, 140);
   });
   $("#q").addEventListener("blur", () => { if (!state.q) $(".search").classList.remove("open"); });
-  $("#search-btn").addEventListener("click", () => { $(".search").classList.add("open"); $("#q").focus(); });
+  $("#q").addEventListener("keydown", (e) => { if (e.key === "Escape") closeSearch(); });
+  $("#search-btn").addEventListener("click", () => {
+    if ($(".search").classList.contains("open")) closeSearch(); else openSearch();
+  });
 
   $("#theme").addEventListener("click", () => {
     const cur = document.documentElement.getAttribute("data-theme");

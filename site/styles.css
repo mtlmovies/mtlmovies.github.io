@@ -138,7 +138,7 @@ img { display: block; max-width: 100%; }
 }
 .lang button[aria-pressed="true"] { background: var(--text); color: var(--bg); }
 
-.search { position: relative; flex: none; display: flex; align-items: center; }
+.search { position: relative; flex: none; display: flex; align-items: center; min-width: 0; }
 .search input {
   width: 0; opacity: 0; height: 34px; padding: 0; border: 1px solid transparent;
   background: var(--surface-2); border-radius: 99px; color: var(--text); min-width: 0;
@@ -147,6 +147,12 @@ img { display: block; max-width: 100%; }
 .search.open input { width: min(42vw, 340px); opacity: 1; padding: 0 14px; border-color: var(--line-2); }
 .search input::placeholder { color: var(--text-3); }
 .search input:focus { outline: none; border-color: var(--line-2); }
+.search input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+
+/* The trigger button doubles as a close/cancel affordance once open. */
+#search-btn .i-close { display: none; }
+.search.open #search-btn .i-search { display: none; }
+.search.open #search-btn .i-close { display: block; }
 
 /* ------------------------------------------------------------------- hero */
 
@@ -797,7 +803,6 @@ a.slot:hover small { color: var(--bg); opacity: .68; }
 @media (max-width: 720px) {
   :root { --nav-h: 58px; }
   .brand span { display: none; }
-  .search.open input { width: min(58vw, 240px); }
   .hero { min-height: 64vh; padding-bottom: 22px; }
   .hero-meta { font-size: 13px; gap: 7px; }
   .hero p { font-size: 14.5px; margin-bottom: 18px; }
@@ -918,6 +923,21 @@ html { overflow-x: clip; }
   .fpanel input,
   .search input,
   #q { font-size: 16px; }
+}
+
+/* Full-width search takeover on narrow screens: there isn't room to grow
+   the input in place without shoving the brand/lang/theme controls off the
+   edge of the viewport, so an open search replaces them instead of
+   fighting them for space. */
+@media (max-width: 640px) {
+  .nav:has(.search.open) .brand,
+  .nav:has(.search.open) .nav-sp,
+  .nav:has(.search.open) .lang,
+  .nav:has(.search.open) #theme { display: none; }
+
+  .nav:has(.search.open) .nav-act { flex: 1; min-width: 0; }
+  .search.open { flex: 1; min-width: 0; }
+  .search.open input { width: 100%; max-width: none; }
 }
 
 .sortchips { display: flex; gap: 7px; flex-wrap: wrap; align-items: center; }
