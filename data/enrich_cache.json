@@ -1113,6 +1113,19 @@
  "hunger": {
   "enriched_at": "2026-09-09"
  },
+ "hunger:1983": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/u6/ll/1h/vc/the-hunger-1200-1200-675-675-crop-000000.jpg?v=96fb197b0d",
+  "enriched_at": "2026-09-10",
+  "imdb_id": "tt0085701",
+  "letterboxd_rating": 3.6,
+  "letterboxd_url": "https://letterboxd.com/film/the-hunger/",
+  "letterboxd_votes": 89779,
+  "overview": "Miriam est une femme-vampire née en Egypte il y a 4000 ans. Elle possède le don de l'immortalité et de la jeunesse. Elle vit désormais à New York, avec son compagnon John depuis 300 ans. John est alors frappé d'un processus accéléré de vieillissement. Afin de tenter de le sauver, Miriam rencontre la séduisante Sarah, docteur spécialiste des mécanismes du vieillissement, sur laquelle elle jette son dévolu...",
+  "poster": "https://media.themoviedb.org/t/p/w500/hJAWdY2QwjHoHNi03wRQtfaVIXc.jpg",
+  "runtime": 97,
+  "tmdb_id": "11654",
+  "year": 1983
+ },
  "ilpaesevillage": {
   "enriched_at": "2026-09-09"
  },
@@ -1353,6 +1366,19 @@
   "runtime": 94,
   "tmdb_id": "1738359",
   "year": 2025
+ },
+ "labyrinth:1986": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/n7/na/p8/gq/labyrinth-1200-1200-675-675-crop-000000.jpg?v=1f511877b4",
+  "enriched_at": "2026-09-10",
+  "imdb_id": "tt0091369",
+  "letterboxd_rating": 3.78,
+  "letterboxd_url": "https://letterboxd.com/film/labyrinth/",
+  "letterboxd_votes": 525944,
+  "overview": "Une toute jeune fille romantique se sentant mal à l'aise dans sa famille s'évade en lisant des contes fantastiques. Son livre favori \"le Labyrinthe\" lui ouvre une nuit les portes d'un autre monde. Sarah voit son jeune frère, Toby, enlevé par une troupe de lutins aux ordres du séduisant et cruel Jareth. Elle part au secours de l'enfant et pénètre dans le labyrinthe qui mène au palais du ravisseur. \"Labyrinthe est à la fois un récit d'aventures et une plongée dans les rêves et les sentiments d'une jeune fille au seuil de la maturité.\"",
+  "poster": "https://media.themoviedb.org/t/p/w500/qEJ1eC4JMJgwFOYmmxWikWOX9k8.jpg",
+  "runtime": 101,
+  "tmdb_id": "13597",
+  "year": 1986
  },
  "langueestdonchistoiredamour": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/5/8/0/0/3/8/580038-la-langue-est-donc-une-histoire-d-amour-0-230-0-345-crop.jpg?v=b1b1404e40",
