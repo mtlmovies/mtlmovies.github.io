@@ -40,6 +40,13 @@ LOCATIONS = {
                        neighbourhood="Rive-Sud", lat=45.4900, lng=-73.4700),
 }
 
+# "SARDAR 2 TAM.ENG.SUB", "HAIWAAN HIN.ENG.SUB" — a source-language code
+# followed by the subtitle language. Trailing only, so a real title is safe.
+SUB_SUFFIX_RE = re.compile(
+    r"[\s.\-]*\b(?:[A-Z]{2,4}[\s.]+)?(?:ENG|ENGLISH|FR|FRE|FRENCH)[\s.]*SUBS?\b[\s.]*$",
+    re.I,
+)
+
 # Anchor on the card container, not the title: the poster <div> comes BEFORE
 # the <h3>, so splitting on the title captures the next film's artwork.
 CARD_RE = re.compile(
@@ -94,6 +101,11 @@ def _parse_day(html: str, meta: dict, day: dt.date) -> list[Screening]:
             version = "VOSTA"
         elif re.search(r"\bV\.?F\.?\b|FRENCH", up):
             version = "VF"
+        # The suffix is language metadata, not part of the name; version_raw
+        # now carries it, so keep it out of the displayed title.
+        stripped = SUB_SUFFIX_RE.sub("", title)
+        if stripped != title:
+            title = stripped.strip(" .-") or title
 
         for ticket_href, raw_time in TIME_RE.findall(card):
             hm = parse_time(clean(raw_time))

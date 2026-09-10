@@ -1033,6 +1033,14 @@ body.sheet-open .bar .bar-row:first-child { max-height: 84px; opacity: 1; }
 .sc .k { display: inline-flex; align-items: center; gap: 5px; }
 .lsck { display: inline-flex; align-items: center; gap: 3px; }
 
+/* ------------------------------------------------------------------ IMDb */
+
+/* Twice as wide as tall: the wordmark plate, not a square glyph. */
+.imdbmark { height: 1em; width: 2em; flex: none; display: inline-block; vertical-align: -0.2em; }
+.rate-chip .imdbmark { height: 14px; width: 28px; }
+.lsck .imdbmark { height: 11px; width: 22px; }
+.sc .imdbmark { height: 13px; width: 26px; }
+
 /* Collapsed must be exactly one line, whatever the width: wrapping is what
    was leaving ~175px of chrome on a 390px screen. */
 @media (max-width: 720px) {

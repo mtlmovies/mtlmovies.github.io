@@ -267,6 +267,14 @@ const ICON = {
         <circle cx="20" cy="12" r="8" fill="#00E054"/>
         <circle cx="32" cy="12" r="8" fill="#40BCF4"/>
       </svg>`,
+  // IMDb's yellow wordmark. textLength pins the letters inside the plate
+  // whatever sans-serif the browser picks.
+  imdb: `<svg class="imdbmark" viewBox="0 0 64 32" aria-hidden="true">
+        <rect width="64" height="32" rx="5" fill="#F5C518"/>
+        <text x="32" y="24" text-anchor="middle" textLength="52" lengthAdjust="spacingAndGlyphs"
+              font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22"
+              font-weight="800" fill="#000">IMDb</text>
+      </svg>`,
 };
 
 /** Distinct version labels across a film's screenings, most common first. */
@@ -371,7 +379,7 @@ function listRowHTML({ m, shows }) {
     </div>
     <div class="lsc">
       ${m.letterboxd_rating ? `<span class="lscv" style="color:${rateColor(m.letterboxd_rating)}">${m.letterboxd_rating.toFixed(1)}</span><span class="lsck" title="Letterboxd">${ICON.lb}</span>` : ""}
-      ${m.imdb_rating ? `<span class="lscv im" style="color:${rateColor10(m.imdb_rating)}">${m.imdb_rating.toFixed(1)}</span><span class="lsck">IMDb</span>` : ""}
+      ${m.imdb_rating ? `<span class="lscv im" style="color:${rateColor10(m.imdb_rating)}">${m.imdb_rating.toFixed(1)}</span><span class="lsck" title="IMDb">${ICON.imdb}</span>` : ""}
     </div>
   </button>`;
 }
@@ -621,7 +629,7 @@ function renderHero(entry) {
       <div class="hero-meta">
         ${meta.map((x) => `<span>${esc(x)}</span>`).join(`<span class="dot"></span>`)}
         ${m.letterboxd_rating ? `<span class="rate-chip" style="--sc:${rateColor(m.letterboxd_rating)}" title="Letterboxd">${ICON.lb} ${m.letterboxd_rating.toFixed(2)}</span>` : ""}
-        ${m.imdb_rating ? `<span class="rate-chip imdb">IMDb ${m.imdb_rating.toFixed(1)}</span>` : ""}
+        ${m.imdb_rating ? `<span class="rate-chip imdb" title="IMDb">${ICON.imdb} ${m.imdb_rating.toFixed(1)}</span>` : ""}
       </div>
       ${m.synopsis ? `<p>${esc(m.synopsis)}</p>` : ""}
       <div class="hero-act">
@@ -671,7 +679,7 @@ function openMovie(id) {
     <div><div class="v" style="color:${rateColor(m.letterboxd_rating)}">${m.letterboxd_rating.toFixed(2)}</div><div class="k">${ICON.lb} Letterboxd</div></div>
     ${m.letterboxd_votes ? `<span class="c">${nf.format(m.letterboxd_votes)}</span>` : ""}</a>`);
   if (m.imdb_rating) scores.push(`<a class="sc imdb" href="${esc(m.imdb_url || "#")}" target="_blank" rel="noopener">
-    <div><div class="v" style="color:${rateColor10(m.imdb_rating)}">${m.imdb_rating.toFixed(1)}</div><div class="k">IMDb</div></div>
+    <div><div class="v" style="color:${rateColor10(m.imdb_rating)}">${m.imdb_rating.toFixed(1)}</div><div class="k">${ICON.imdb}</div></div>
     ${m.imdb_votes ? `<span class="c">${nf.format(m.imdb_votes)}</span>` : ""}</a>`);
   if (m.rt_rating != null) scores.push(`<div class="sc rt"><div><div class="v">${m.rt_rating}%</div><div class="k">Rotten Tomatoes</div></div></div>`);
   if (m.metacritic != null) scores.push(`<div class="sc"><div><div class="v">${m.metacritic}</div><div class="k">Metacritic</div></div></div>`);
