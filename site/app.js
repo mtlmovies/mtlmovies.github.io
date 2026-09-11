@@ -55,6 +55,7 @@ const STR = {
     tagResto: "Restauration", tagOnly: "Séance unique", tagImax: "IMAX",
     tagAnniv: "Anniversaire", tagFest: "Festival", tagLate: "Tard",
     nothingTonight: "Plus rien ce soir — regardez demain.",
+    playingAt: "À l'affiche à", openMaps: "Voir sur la carte",
     filters: "Filtres", fgFormat: "Format & séances", fgTime: "Heure",
     fgLang: "Langue", fgWhere: "Où", evening: "En soirée", close: "Fermer",
   },
@@ -108,6 +109,7 @@ const STR = {
     tagResto: "Restored", tagOnly: "One only", tagImax: "IMAX",
     tagAnniv: "Anniversary", tagFest: "Festival", tagLate: "Late",
     nothingTonight: "Nothing left tonight — try tomorrow.",
+    playingAt: "Playing at", openMaps: "Open in Maps",
     filters: "Filters", fgFormat: "Format & screenings", fgTime: "Time of day",
     fgLang: "Language", fgWhere: "Where", evening: "Evening", close: "Close",
   },
@@ -119,6 +121,33 @@ const t = (k, ...a) => {
   return typeof v === "function" ? v(...a) : v ?? k;
 };
 const locale = () => (LANG === "fr" ? "fr-CA" : "en-CA");
+
+/* ------------------------------------------------------- film copy by language
+
+   The build gives every film an `i18n` block with whatever each cinema (and
+   TMDB) published per language. The reader sees their own language when it
+   exists and the other one when it does not — an English page listing a film
+   only Cinéma Moderne carries still shows Moderne's French synopsis rather
+   than nothing. */
+
+const otherLang = () => (LANG === "fr" ? "en" : "fr");
+
+function say(m, key) {
+  const b = (m && m.i18n) || {};
+  const mine = b[LANG] && b[LANG][key];
+  if (mine && mine.length) return mine;
+  const alt = b[otherLang()] && b[otherLang()][key];
+  if (alt && alt.length) return alt;
+  return m ? m[key] : undefined;
+}
+
+const mTitle = (m) => say(m, "title") || (m && m.title) || "";
+const mSynopsis = (m) => say(m, "synopsis") || "";
+const mCountry = (m) => say(m, "country") || "";
+const mGenres = (m) => say(m, "genres") || [];
+/** Every title we know for a film, in any language — what search runs against. */
+const allTitles = (m) => [m.title, m.original_title, ...(m.alt_titles || []),
+  ...Object.values(m.i18n || {}).map((v) => v.title)].filter(Boolean);
 
 /* -------------------------------------------------------------------- state */
 
@@ -211,11 +240,14 @@ function showMatches(st, m) {
 
 function movieMatches(m, shows) {
   if (!shows.length) return false;
-  if (state.genre && !(m.genres || []).includes(state.genre)) return false;
+  if (state.genre && !mGenres(m).includes(state.genre)) return false;
   if (state.q) {
     const q = state.q.toLowerCase();
-    const hay = [m.title, m.original_title, m.director, m.cast, (m.genres || []).join(" "), m.country,
-                 (m.alt_titles || []).join(" ")].filter(Boolean).join(" ").toLowerCase();
+    // Search sees every language: "The Odyssey" finds a film a cinema lists
+    // only as « L'Odyssée ».
+    const hay = [...allTitles(m), m.director, m.cast, m.country, mCountry(m),
+                 ...Object.values(m.i18n || {}).flatMap((v) => v.genres || []),
+                 (m.genres || []).join(" ")].filter(Boolean).join(" ").toLowerCase();
     if (!hay.includes(q)) return false;
   }
   return true;
@@ -230,15 +262,15 @@ function visible() {
   const lb = (x) => x.m.letterboxd_rating ?? -1;
   const s = state.sort;
   const dir = (x) => (x.m.director || "\uffff").split(",")[0].trim();
-  if (s === "rating") out.sort((a, b) => lb(b) - lb(a) || a.m.title.localeCompare(b.m.title, locale()));
-  else if (s === "title") out.sort((a, b) => a.m.title.localeCompare(b.m.title, locale()));
+  if (s === "rating") out.sort((a, b) => lb(b) - lb(a) || mTitle(a.m).localeCompare(mTitle(b.m), locale()));
+  else if (s === "title") out.sort((a, b) => mTitle(a.m).localeCompare(mTitle(b.m), locale()));
   else if (s === "year") out.sort((a, b) => (b.m.year ?? 0) - (a.m.year ?? 0));
   else if (s === "oldest") out.sort((a, b) => (a.m.year ?? 9999) - (b.m.year ?? 9999));
   else if (s === "decade") {
     // Group by decade, newest decade first, best-rated inside each.
     const dec = (x) => (x.m.year ? Math.floor(x.m.year / 10) * 10 : -1);
     out.sort((a, b) => dec(b) - dec(a) || lb(b) - lb(a) ||
-                       a.m.title.localeCompare(b.m.title, locale()));
+                       mTitle(a.m).localeCompare(mTitle(b.m), locale()));
   } else if (s === "director") {
     out.sort((a, b) => dir(a).localeCompare(dir(b), locale()) ||
                        (a.m.year ?? 0) - (b.m.year ?? 0));
@@ -260,6 +292,7 @@ const ICON = {
   ticket: `<svg viewBox="0 0 16 16" fill="currentColor"><path d="M2 5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1.2a1.8 1.8 0 0 0 0 3.6V11a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V9.8a1.8 1.8 0 0 0 0-3.6z"/></svg>`,
   play: `<svg viewBox="0 0 16 16" fill="currentColor"><path d="M5 3.2v9.6l7.5-4.8z"/></svg>`,
   ext: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3.5H3.5v9h9v-3M9.5 3.5h3v3M12.5 3.5 7 9"/></svg>`,
+  pin: `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 14.5s4.5-4.4 4.5-7.6a4.5 4.5 0 1 0-9 0C3.5 10.1 8 14.5 8 14.5Z"/><circle cx="8" cy="6.8" r="1.7"/></svg>`,
   star: `<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1.6l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.4 4.2 13.4l.7-4.3-3.1-3 4.3-.6z"/></svg>`,
   // Letterboxd's three-dot mark, so a rating is attributed rather than "LB".
   lb: `<svg class="lbmark" viewBox="0 0 40 24" aria-hidden="true">
@@ -277,6 +310,16 @@ const ICON = {
       </svg>`,
 };
 
+/** Where to send someone who wants to get there. Coordinates when we have them. */
+function mapsUrl(v) {
+  if (!v) return "";
+  if (v.maps_url) return v.maps_url;
+  const q = v.lat != null && v.lng != null
+    ? `${v.lat},${v.lng}`
+    : [v.name, v.address, v.city, "Québec"].filter(Boolean).join(", ");
+  return q ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}` : "";
+}
+
 /** Distinct version labels across a film's screenings, most common first. */
 function versionSummary(shows) {
   const counts = new Map();
@@ -290,7 +333,7 @@ function versionSummary(shows) {
 function artHTML(m) {
   // Posters only. A 16:9 still centre-cropped into a 2:3 tile reads as a
   // screenshot, not artwork, so a titled placeholder is the better fallback.
-  const ph = `<div class="ph">${esc(m.title)}</div>`;
+  const ph = `<div class="ph">${esc(mTitle(m))}</div>`;
   return m.poster ? `${ph}<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">` : ph;
 }
 
@@ -340,13 +383,13 @@ function cardHTML({ m, shows }) {
       ${tagsHTML(m, shows)}
       ${m.letterboxd_rating ? `<span class="score" style="--sc:${rateColor(m.letterboxd_rating)}">${m.letterboxd_rating.toFixed(1)}</span>` : ""}
       <div class="over">
-        <div class="t">${esc(m.title)}</div>
+        <div class="t">${esc(mTitle(m))}</div>
         <div class="v">${esc(vlabel)}</div>
         <div class="times">${times}</div>
       </div>
     </div>
     <div class="cap">
-      <div class="n">${esc(m.title)}</div>
+      <div class="n">${esc(mTitle(m))}</div>
       <div class="m">${esc(meta || vlabel)}</div>
     </div>
   </button>`;
@@ -366,7 +409,7 @@ function listRowHTML({ m, shows }) {
   return `<button class="lrow" data-id="${esc(m.id)}">
     <div class="lart">${m.poster ? `<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">` : ""}</div>
     <div class="lmain">
-      <div class="lt">${esc(m.title)}
+      <div class="lt">${esc(mTitle(m))}
         ${(m.tags || []).includes("celluloid") ? `<span class="tag film">35mm</span>` : ""}
         ${(m.tags || []).includes("classic") ? `<span class="tag classic">${esc(t("classicTag"))}</span>` : ""}
       </div>
@@ -393,10 +436,10 @@ function radarHTML({ m, shows }) {
   const when = next ? `${dayLong(next.date)} · ${next.time}` : "";
 
   return `<button class="radar" data-id="${esc(m.id)}">
-    <div class="radar-art">${m.poster ? `<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">` : `<div class="ph">${esc(m.title)}</div>`}</div>
+    <div class="radar-art">${m.poster ? `<img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.remove()">` : `<div class="ph">${esc(mTitle(m))}</div>`}</div>
     <div class="radar-body">
       <div class="radar-tags">${reasons}</div>
-      <div class="radar-t">${esc(m.title)}</div>
+      <div class="radar-t">${esc(mTitle(m))}</div>
       <div class="radar-m">${esc([m.year, m.director, runtimeStr(m.runtime)].filter(Boolean).join(" · "))}</div>
       <div class="radar-w">${esc(v ? v.short_name || v.name : "")}${when ? ` · ${esc(when)}` : ""}</div>
       ${m.letterboxd_rating ? `<div class="radar-r" style="color:${rateColor(m.letterboxd_rating)}">${ICON.lb} ${m.letterboxd_rating.toFixed(2)}</div>` : ""}
@@ -618,20 +661,20 @@ function renderHero(entry) {
   const { m, shows } = entry;
   hero.hidden = false;
   const art = m.backdrop || m.poster || "";
-  const meta = [m.year, m.director, runtimeStr(m.runtime), m.country].filter(Boolean);
+  const meta = [m.year, m.director, runtimeStr(m.runtime), mCountry(m) || m.country].filter(Boolean);
   const vs = [...new Set(shows.map((s) => state.venues.get(s.venue)?.short_name).filter(Boolean))];
 
   hero.innerHTML = `
     <div class="hero-media">${art ? `<img src="${esc(art)}" alt="">` : ""}</div>
     <div class="hero-in">
       <div class="eyebrow">${esc((m.tags || []).includes("classic") ? t("heroClassic") : t("heroNow"))}</div>
-      <h1>${esc(m.title)}</h1>
+      <h1>${esc(mTitle(m))}</h1>
       <div class="hero-meta">
         ${meta.map((x) => `<span>${esc(x)}</span>`).join(`<span class="dot"></span>`)}
         ${m.letterboxd_rating ? `<span class="rate-chip" style="--sc:${rateColor(m.letterboxd_rating)}" title="Letterboxd">${ICON.lb} ${m.letterboxd_rating.toFixed(2)}</span>` : ""}
         ${m.imdb_rating ? `<span class="rate-chip imdb" title="IMDb">${ICON.imdb} ${m.imdb_rating.toFixed(1)}</span>` : ""}
       </div>
-      ${m.synopsis ? `<p>${esc(m.synopsis)}</p>` : ""}
+      ${mSynopsis(m) ? `<p>${esc(mSynopsis(m))}</p>` : ""}
       <div class="hero-act">
         <button class="btn btn-white" data-id="${esc(m.id)}">${ICON.ticket} ${esc(t("showtimes"))}</button>
         ${m.trailer ? `<a class="btn btn-glass" href="${esc(m.trailer)}" target="_blank" rel="noopener">${ICON.play} ${esc(t("trailer"))}</a>` : ""}
@@ -640,7 +683,7 @@ function renderHero(entry) {
     </div>
     ${heroList.length > 1 ? `<div class="hero-dots">${heroList.map((x, i) =>
       `<button class="hdot${i === heroIdx ? " on" : ""}" data-hero="${i}"
-         aria-label="${esc(x.m.title)}"${i === heroIdx ? ' aria-current="true"' : ""}></button>`).join("")}</div>` : ""}`;
+         aria-label="${esc(mTitle(x.m))}"${i === heroIdx ? ' aria-current="true"' : ""}></button>`).join("")}</div>` : ""}`;
 
   hero.onmouseenter = () => { heroPaused = true; };
   hero.onmouseleave = () => { heroPaused = false; };
@@ -687,8 +730,8 @@ function openMovie(id) {
   const credits = [];
   if (m.director) credits.push([t("director"), m.director]);
   if (m.cast) credits.push([t("cast"), m.cast]);
-  if (m.country) credits.push([t("country"), m.country]);
-  if (m.genres?.length) credits.push([t("genreL"), m.genres.join(", ")]);
+  if (mCountry(m) || m.country) credits.push([t("country"), mCountry(m) || m.country]);
+  if (mGenres(m).length) credits.push([t("genreL"), mGenres(m).join(", ")]);
   if (m.rating) credits.push([t("rated"), m.rating]);
 
   const today = todayStr(), now = nowHHMM();
@@ -707,11 +750,33 @@ function openMovie(id) {
         const tag = href ? "a" : "span";
         return `<${tag} class="slot${past ? " past" : ""}"${href ? ` href="${esc(href)}" target="_blank" rel="noopener"` : ""}>${s.time}${lbl ? `<small>${esc(lbl)}</small>` : ""}</${tag}>`;
       }).join("")}</div></div>`).join("");
-    return `<div class="venue">
-      <div class="venue-n">${esc(v.name)}</div>
-      <div class="venue-a">${esc([v.address, v.city].filter(Boolean).join(", "))}</div>
+    const where = [v.address, v.city].filter(Boolean).join(", ");
+    const maps = mapsUrl(v);
+    return `<div class="venue" id="v-${esc(vid)}">
+      <div class="venue-n">${esc(v.name)}<span class="venue-c">${sts.length}</span></div>
+      ${where ? (maps
+        ? `<a class="venue-a map" href="${esc(maps)}" target="_blank" rel="noopener"
+             title="${esc(t("openMaps"))}">${ICON.pin} ${esc(where)}</a>`
+        : `<div class="venue-a">${esc(where)}</div>`) : ""}
       ${days}</div>`;
   }).join("");
+
+  // Which rooms is it playing in? Each cinema is a tag that jumps to its
+  // showtimes below, with its own link out to the map. Busiest room first,
+  // and a blockbuster in seventeen multiplexes keeps the rest behind "+N".
+  const CINE_SHOWN = 6;
+  const ranked = [...byVenue.entries()].sort((a, b) => b[1].length - a[1].length);
+  const cinemaTags = ranked.map(([vid, sts], i) => {
+    const v = state.venues.get(vid) || { name: vid };
+    const maps = mapsUrl(v);
+    return `<span class="cchip${i >= CINE_SHOWN ? " extra" : ""}">
+      <button type="button" data-venue-jump="${esc(vid)}">${esc(v.short_name || v.name)}
+        <b>${sts.length}</b></button>
+      ${maps ? `<a href="${esc(maps)}" target="_blank" rel="noopener"
+        aria-label="${esc(v.name)} — ${esc(t("openMaps"))}" title="${esc(t("openMaps"))}">${ICON.pin}</a>` : ""}
+    </span>`;
+  }).join("") + (ranked.length > CINE_SHOWN
+    ? `<button type="button" class="cmore">+${ranked.length - CINE_SHOWN}</button>` : "");
 
   const links = [];
   if (m.trailer) links.push(`<a class="btn btn-glass btn-sm" href="${esc(m.trailer)}" target="_blank" rel="noopener">${ICON.play} ${esc(t("trailer"))}</a>`);
@@ -725,22 +790,30 @@ function openMovie(id) {
     <button class="x" aria-label="Close">✕</button>
     ${img ? `<div class="phero${m.backdrop ? "" : " contain"}"><img src="${esc(img)}" alt=""></div>` : ""}
     <div class="pbody">
-      <h2>${esc(m.title)}</h2>
-      ${m.original_title && m.original_title.toLowerCase() !== m.title.toLowerCase() ? `<div class="alt">${esc(m.original_title)}</div>` : ""}
-      ${(m.alt_titles || []).length ? `<div class="alt">${esc(t("alsoAs"))} : ${esc(m.alt_titles.join(" · "))}</div>` : ""}
+      <h2>${esc(mTitle(m))}</h2>
+      ${m.original_title && m.original_title.toLowerCase() !== mTitle(m).toLowerCase() ? `<div class="alt">${esc(m.original_title)}</div>` : ""}
+      ${(() => {
+        // Never repeat the title we are already showing back at the reader.
+        const alts = (m.alt_titles || []).filter((x) => x.toLowerCase() !== mTitle(m).toLowerCase());
+        return alts.length ? `<div class="alt">${esc(t("alsoAs"))} : ${esc(alts.join(" · "))}</div>` : "";
+      })()}
       <div class="facts">
         ${m.year ? `<span class="fact hi">${m.year}</span>` : ""}
         ${m.runtime ? `<span class="fact">${esc(runtimeStr(m.runtime))}</span>` : ""}
-        ${(m.genres || []).slice(0, 3).map((g) => `<span class="fact">${esc(g)}</span>`).join("")}
+        ${mGenres(m).slice(0, 3).map((g) => `<span class="fact">${esc(g)}</span>`).join("")}
         ${(m.tags || []).includes("celluloid") ? `<span class="fact hi">35 mm</span>` : ""}
         ${(m.tags || []).includes("restoration") ? `<span class="fact hi">${esc(t("restoTag"))}</span>` : ""}
       </div>
+      ${cinemaTags ? `<div class="facts cines">
+        <span class="vk">${esc(t("playingAt"))}</span>
+        ${cinemaTags}
+      </div>` : ""}
       ${versionSummary(shows).length ? `<div class="facts vers">
         <span class="vk">${esc(t("versions"))}</span>
         ${versionSummary(shows).map((v) => `<span class="fact">${esc(v)}</span>`).join("")}
       </div>` : ""}
       ${scores.length ? `<div class="scores">${scores.join("")}</div>` : ""}
-      ${m.synopsis ? `<div class="syn">${esc(m.synopsis)}</div>` : ""}
+      ${mSynopsis(m) ? `<div class="syn">${esc(mSynopsis(m))}</div>` : ""}
       ${credits.length ? `<dl class="credits">${credits.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
       ${links.length ? `<div class="links">${links.join("")}</div>` : ""}
       <div class="shows"><h3>${esc(t("screenings"))} · ${shows.length}</h3>${venues}</div>
@@ -946,7 +1019,7 @@ function buildFilters() {
       const v = state.venues.get(s.venue);
       if (v?.neighbourhood) countHood.set(v.neighbourhood, (countHood.get(v.neighbourhood) || 0) + 1);
     }
-    for (const g of m.genres || []) countGenre.set(g, (countGenre.get(g) || 0) + 1);
+    for (const g of mGenres(m)) countGenre.set(g, (countGenre.get(g) || 0) + 1);
   }
 
   makeSelect($("#f-venue"), {
@@ -1029,6 +1102,11 @@ function setLang(l) {
   if (l === LANG) return;
   LANG = l;
   try { localStorage.setItem("mtlcine-lang", l); } catch {}
+  // Genres are localized, so a genre picked in French ("Drame") has no
+  // counterpart in the English list — drop it rather than filter to nothing.
+  if (state.genre && !state.data?.movies.some((m) => mGenres(m).includes(state.genre))) {
+    state.genre = "";
+  }
   paintStatic();
   buildDays();
   buildFilters();
@@ -1052,6 +1130,16 @@ function wire() {
 
     const dot = e.target.closest("[data-hero]");
     if (dot) { heroGo(Number(dot.dataset.hero)); return; }
+
+    const more = e.target.closest(".cmore");
+    if (more) { more.closest(".cines")?.classList.add("all"); more.remove(); return; }
+
+    const jump = e.target.closest("[data-venue-jump]");
+    if (jump) {
+      $(`#panel #v-${CSS.escape(jump.dataset.venueJump)}`)
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
 
     const card = e.target.closest("[data-id]");
     if (card) { openMovie(card.dataset.id); return; }

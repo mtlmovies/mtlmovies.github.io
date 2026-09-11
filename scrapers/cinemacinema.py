@@ -13,8 +13,10 @@ from common import (
     Screening,
     Venue,
     clean,
+    lang_bundle,
     log,
     http_json,
+    merge_i18n,
     parse_time,
     strip_html,
     today,
@@ -132,6 +134,32 @@ def _countries(f: dict) -> str:
     )
 
 
+def _film_i18n(film: dict, lang: str) -> dict:
+    """The title / synopsis / genres of one film page, in the language it came in."""
+    return lang_bundle(
+        lang,
+        title=clean(film.get("titre")),
+        synopsis=strip_html(film.get("synopsis")),
+        genres=_genres(film),
+        country=_countries(film),
+    )
+
+
+def _english(slug: str) -> dict:
+    """The same film page under `/en/`, when the CMS has an English version.
+
+    Best-effort by design: the group translates most, not all, of its
+    programme, and an untranslated film simply 404s or answers in French —
+    either way the French copy stays the fallback.
+    """
+    try:
+        nodes = fetch_data(f"/en/films/{slug}")
+    except Exception:  # noqa: BLE001
+        return {}
+    film = find_key(nodes, "cmFilmCurrent")
+    return _film_i18n(film, "en") if isinstance(film, dict) else {}
+
+
 def _tags(film: dict, rep: dict) -> tuple:
     tags = []
     title = (film.get("titre") or "").lower()
@@ -177,6 +205,7 @@ def fetch() -> tuple[list[Venue], list[Screening]]:
             continue
 
         film_url = f"{BASE}/fr/films/{slug}"
+        i18n = merge_i18n(_film_i18n(film, "fr"), _english(slug))
         synopsis = strip_html(film.get("synopsis"))
         year = film.get("annee") if isinstance(film.get("annee"), int) else None
         runtime = film.get("duree") if isinstance(film.get("duree"), int) else None
@@ -222,6 +251,7 @@ def fetch() -> tuple[list[Venue], list[Screening]]:
                     rating=clean(film.get("classment")),
                     source="cinemacinema",
                     tags=_tags(film, rep),
+                    i18n=i18n,
                 )
             )
 

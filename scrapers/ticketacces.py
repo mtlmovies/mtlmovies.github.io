@@ -17,7 +17,9 @@ from common import (
     Venue,
     clean,
     http_get,
+    lang_bundle,
     log,
+    merge_i18n,
     month_from_name,
     parse_time,
     strip_html,
@@ -88,6 +90,29 @@ def _event_page(host: str, eid: str) -> str:
     )
 
 
+def _event_page_en(host: str, eid: str) -> str:
+    """The same event under `/en/`. Not every organisation translates its
+    programme, so this is allowed to come back empty."""
+    try:
+        return http_get(
+            f"https://{host}/en/organisation/representations/index.cfm?EvenementID={eid}",
+            browser_ua=True, retries=1,
+        )
+    except Exception:  # noqa: BLE001
+        return ""
+
+
+def _english_i18n(html: str) -> dict:
+    if not html:
+        return {}
+    title_m = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.S)
+    return lang_bundle(
+        "en",
+        title=clean(title_m.group(1)) if title_m else "",
+        synopsis=_synopsis(html),
+    )
+
+
 def _fields(html: str) -> dict:
     out = {}
     for label, value in FIELD_RE.findall(html):
@@ -121,7 +146,9 @@ def _synopsis(html: str) -> str:
     chunk = html[start:end]
     txt = strip_html(chunk)
     # Everything before the credits block is the synopsis.
-    cut = re.search(r"(?im)^\s*(réalisation|realisation|pays|année|annee|format)\s*:", txt)
+    cut = re.search(
+        r"(?im)^\s*(réalisation|realisation|directed by|director|pays|country|"
+        r"année|annee|year|format)\s*:", txt)
     if cut:
         txt = txt[: cut.start()]
     # Drop boilerplate + the credits lines we extract separately.
@@ -131,8 +158,10 @@ def _synopsis(html: str) -> str:
         if not l or len(l) < 3:
             continue
         low = l.lower()
-        if low.startswith(("réalisation", "realisation", "pays", "année", "annee", "format",
-                           "bande annonce", "genre", "durée", "duree", "distribution")):
+        if low.startswith(("réalisation", "realisation", "director", "directed by",
+                           "pays", "country", "année", "annee", "year", "format",
+                           "bande annonce", "trailer", "genre", "durée", "duree",
+                           "running time", "distribution", "cast")):
             continue
         if "cookie" in low or "navigateur" in low or "voir les dates" in low:
             continue
@@ -140,7 +169,8 @@ def _synopsis(html: str) -> str:
     return "\n\n".join(lines[:6]).strip()
 
 
-def _parse_event(html: str, org_key: str, cfg: dict, eid: str) -> list[Screening]:
+def _parse_event(html: str, org_key: str, cfg: dict, eid: str,
+                 en_html: str = "") -> list[Screening]:
     fields = _fields(html)
     text = strip_html(html)
 
@@ -160,6 +190,10 @@ def _parse_event(html: str, org_key: str, cfg: dict, eid: str) -> list[Screening
     runtime = _runtime(fields.get("durée") or fields.get("duree") or "")
     extra = fields.get("informations supplémentaires", "")
     synopsis = _synopsis(html)
+    i18n = merge_i18n(
+        lang_bundle("fr", synopsis=synopsis, genres=genres, country=country),
+        _english_i18n(en_html),
+    )
 
     trailer_m = re.search(r'href="(https://(?:www\.)?(?:youtube\.com|youtu\.be|vimeo\.com)[^"]*)"', html)
     trailer = trailer_m.group(1) if trailer_m else ""
@@ -247,6 +281,7 @@ def _parse_event(html: str, org_key: str, cfg: dict, eid: str) -> list[Screening
                 trailer=trailer,
                 source=f"ticketacces:{org_key}",
                 tags=tuple(dict.fromkeys(tags)),
+                i18n=merge_i18n(lang_bundle("fr", title=row_title), i18n),
             )
         )
     return out
@@ -262,7 +297,8 @@ def fetch_org(org_key: str) -> tuple[list[Venue], list[Screening]]:
     for eid in eids:
         try:
             page = _event_page(cfg["host"], eid)
-            screenings.extend(_parse_event(page, org_key, cfg, eid))
+            en_page = _event_page_en(cfg["host"], eid)
+            screenings.extend(_parse_event(page, org_key, cfg, eid, en_page))
         except Exception as e:  # noqa: BLE001
             log(f"[ticketacces:{org_key}] event {eid}: {e}")
         time.sleep(0.2)

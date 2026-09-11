@@ -514,7 +514,17 @@ a.sc:hover { border-color: var(--line-2); transform: translateY(-2px); }
 .venue { padding: 15px 0; border-top: 1px solid var(--line); }
 .venue:last-child { border-bottom: 1px solid var(--line); }
 .venue-n { font-size: 14.5px; font-weight: 700; letter-spacing: -.022em; }
+.venue-c {
+  margin-left: 7px; font-size: 11px; font-weight: 600; color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
 .venue-a { font-size: 12.5px; color: var(--text-3); margin-top: 1px; }
+a.venue-a {
+  display: inline-flex; align-items: center; gap: 5px; margin-top: 3px;
+  text-decoration: none; transition: color var(--fast) var(--ease);
+}
+a.venue-a:hover { color: var(--text); text-decoration: underline; }
+a.venue-a svg { width: 13px; height: 13px; flex: none; }
 .dayline { display: grid; grid-template-columns: 104px 1fr; gap: 12px; align-items: start; padding: 6px 0; }
 .dayline .d { font-size: 12.5px; color: var(--text-3); font-weight: 600; padding-top: 7px; text-transform: capitalize; }
 .slots { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -573,10 +583,44 @@ a.slot:hover small { color: var(--bg); opacity: .68; }
 /* --------------------------------------------------------- version summary */
 
 .facts.vers { margin-top: -10px; margin-bottom: 18px; }
-.facts.vers .vk {
+.facts.vers .vk,
+.facts.cines .vk {
   font-size: 9.5px; font-weight: 750; letter-spacing: .1em; text-transform: uppercase;
   color: var(--text-3); margin-right: 2px;
 }
+
+/* --------------------------------------------------------- cinema tags
+   Which rooms a film is playing in, each one a jump to its showtimes and a
+   link to the map. */
+
+.facts.cines { margin-top: -8px; margin-bottom: 14px; }
+.cchip {
+  display: inline-flex; align-items: stretch; overflow: hidden;
+  border: 1px solid var(--line); border-radius: 99px; background: var(--surface);
+  transition: border-color var(--fast) var(--ease);
+}
+.cchip:hover { border-color: var(--line-2); }
+.cchip button, .cchip a {
+  display: inline-flex; align-items: center; gap: 5px; padding: 5px 11px;
+  border: 0; background: none; color: var(--text-2);
+  font: inherit; font-size: 12.5px; font-weight: 550; cursor: pointer;
+  transition: background var(--fast) var(--ease), color var(--fast) var(--ease);
+}
+.cchip button:hover, .cchip a:hover { background: var(--surface-2); color: var(--text); }
+.cchip button b {
+  font-size: 10.5px; font-weight: 700; color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+.cchip a { padding: 5px 9px; border-left: 1px solid var(--line); color: var(--text-3); }
+.cchip a svg { width: 13px; height: 13px; }
+.facts.cines .cchip.extra { display: none; }
+.facts.cines.all .cchip.extra { display: inline-flex; }
+.cmore {
+  padding: 5px 11px; border-radius: 99px; border: 1px dashed var(--line-2);
+  background: none; color: var(--text-3); font: inherit; font-size: 12.5px;
+  font-weight: 600; cursor: pointer;
+}
+.cmore:hover { color: var(--text); border-color: var(--text-3); }
 
 /* -------------------------------------------------------------- view toggle */
 
@@ -812,6 +856,20 @@ a.slot:hover small { color: var(--bg); opacity: .68; }
   .dayline { grid-template-columns: 1fr; gap: 4px; }
   .dayline .d { padding-top: 0; }
   .credits { grid-template-columns: 1fr 1fr; }
+
+  /* The side-scrolling rows sat flush against the screen edges and against
+     each other on a phone, so a card being dragged read as part of the row
+     above it. Wider gutters, more air between the cards, and a clear gap
+     before the next section heading. */
+  .row, .radar-row {
+    --rowpad: calc(var(--pad) + 6px);
+    gap: 16px; padding: 12px var(--rowpad) 30px;
+    scroll-padding-left: var(--rowpad);
+  }
+  .sec { margin-top: 32px; }
+  .shows { margin-top: 30px; }
+  .venue { padding: 18px 0; }
+  .slots { gap: 8px; }
 }
 
 @media (max-width: 420px) {

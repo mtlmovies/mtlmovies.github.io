@@ -19,9 +19,15 @@ result to `data/`, and redeploys a static site to GitHub Pages. No server, no da
 - **Filters that matter to a film nerd** — classics, restorations, **35 mm / 70 mm
   projections**, independent cinemas only, version (VF / VOA / subtitled),
   neighbourhood, genre, cinema, single-screening-only.
+- **Bilingual listings** — every film carries per-language copy (title, synopsis,
+  genres). Cinemas that publish both languages are read in both; anything they
+  publish in one language only is topped up from TMDB in the other. The page
+  shows your language and falls back to the other rather than to nothing.
 - **Ratings** — Letterboxd first (as requested), then Rotten Tomatoes, IMDb, Metacritic.
 - **Links back to the source** — every showtime links to the cinema's own page or
   its ticketing checkout, so the sale goes to the cinema.
+- **Where it's playing** — each film lists the rooms screening it as tags, and
+  every cinema links out to its location on Google Maps.
 - Trailer, synopsis, director, cast, country, runtime, age rating, original title.
 - Dark/light theme, keyboard `/` to search, deep links (`#film=<id>`).
 
@@ -96,8 +102,11 @@ Two optional secrets improve it (set them in *Settings → Secrets → Actions*)
 | `TMDB_API_KEY` | better title matching, backdrops, overviews, TMDB score |
 | `OMDB_API_KEY` | IMDb rating, **Rotten Tomatoes**, Metacritic |
 
-Lookups are cached in `data/enrich_cache.json` (committed) and refreshed every 21
-days, so a daily run only looks up films it has never seen.
+It also reads each film's TMDB page once per language (`en-US`, `fr-CA`), which
+is where the English copy comes from for the many venues that publish in French
+only. Lookups are cached in `data/enrich_cache.json` (committed) and refreshed
+every 21 days, so a daily run only looks up films it has never seen; entries
+cached before the translations existed are topped up in place.
 
 ## Automation
 

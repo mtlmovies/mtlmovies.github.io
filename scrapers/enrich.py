@@ -121,10 +121,19 @@ def _tmdb_search(title: str, limit: int = 5) -> list[str]:
     return out
 
 
-def _tmdb_page(tmdb_id: str) -> dict:
-    """Poster, year and runtime from a TMDB film page."""
+def _tmdb_page(tmdb_id: str, language: str = "") -> dict:
+    """Poster, year and runtime from a TMDB film page.
+
+    `language` asks TMDB for a localized page ("en-US", "fr-CA"): the title,
+    the overview and the genre names come back translated, which is where the
+    site's English copy comes from for the many venues that publish in French
+    only.
+    """
+    url = f"{TMDB_WEB}/movie/{tmdb_id}"
+    if language:
+        url += "?" + urllib.parse.urlencode({"language": language})
     try:
-        html = http_get(f"{TMDB_WEB}/movie/{tmdb_id}", browser_ua=True, retries=2, timeout=30)
+        html = http_get(url, browser_ua=True, retries=2, timeout=30)
     except Exception:
         return {}
     out: dict = {"tmdb_id": str(tmdb_id)}
@@ -145,6 +154,43 @@ def _tmdb_page(tmdb_id: str) -> dict:
     d = re.search(r'<meta property="og:description" content="([^"]+)"', html)
     if d:
         out["overview"] = clean(d.group(1))
+    genres = []
+    for g in _TMDB_GENRE_RE.findall(html):
+        g = clean(g)
+        if g and g not in genres:
+            genres.append(g)
+    if genres:
+        out["genres"] = genres[:4]
+    return out
+
+
+# TMDB links every genre as /genre/<id>-<slug>/movie, with the localized name
+# as the link text.
+_TMDB_GENRE_RE = re.compile(r'href="/genre/\d+-[^"]*"[^>]*>([^<]{2,30})</a>')
+
+# TMDB's own locale codes for the two languages the site speaks.
+TMDB_LOCALES = {"en": "en-US", "fr": "fr-CA"}
+# Bumped when the shape of the translated fields changes, so cached entries
+# from before the change are topped up instead of waiting out the 21-day TTL.
+I18N_VERSION = 1
+
+
+def translations(tmdb_id: str) -> dict:
+    """Title, overview and genres in both languages for one TMDB film."""
+    out: dict = {"i18n_v": I18N_VERSION}
+    if not tmdb_id:
+        return out
+    for lang, locale in TMDB_LOCALES.items():
+        page = _tmdb_page(tmdb_id, language=locale)
+        if not page:
+            continue
+        if page.get("title"):
+            out[f"title_{lang}"] = page["title"]
+        if page.get("overview"):
+            out[f"overview_{lang}"] = page["overview"]
+        if page.get("genres"):
+            out[f"genres_{lang}"] = page["genres"]
+        time.sleep(0.25)
     return out
 
 
@@ -389,8 +435,35 @@ def enrich_film(title: str, year=None, director: str = "", original_title: str =
     for k, v in _omdb(info.get("imdb_id", "")).items():
         info.setdefault(k, v)
 
+    if info.get("tmdb_id"):
+        info.update(translations(info["tmdb_id"]))
+
     info["enriched_at"] = time.strftime("%Y-%m-%d")
     return info
+
+
+def backfill_translations(cache: dict, keys: list[str], limit: int | None = None) -> int:
+    """Add the translated copy to entries identified before it existed.
+
+    Two page reads per film, against films we have already identified — far
+    cheaper than expiring the whole cache to pick the new fields up.
+    """
+    todo = [k for k in keys
+            if (cache.get(k) or {}).get("tmdb_id")
+            and (cache.get(k) or {}).get("i18n_v") != I18N_VERSION]
+    if limit:
+        todo = todo[:limit]
+    if not todo:
+        return 0
+    log(f"[enrich] translating {len(todo)} films")
+    done = 0
+    for k in todo:
+        try:
+            cache[k].update(translations(cache[k]["tmdb_id"]))
+            done += 1
+        except Exception as e:  # noqa: BLE001
+            log(f"[enrich] translate {k}: {e}")
+    return done
 
 
 def enrich_all(films: list[dict], cache_path: str, limit: int | None = None) -> dict:
@@ -426,5 +499,6 @@ def enrich_all(films: list[dict], cache_path: str, limit: int | None = None) -> 
             log(f"[enrich] {i}/{len(todo)}")
             save_cache(cache_path, cache)
 
+    backfill_translations(cache, [f["key"] for f in films])
     save_cache(cache_path, cache)
     return cache
