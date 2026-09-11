@@ -126,6 +126,19 @@
  "anvilstoryanvil": {
   "enriched_at": "2026-09-09"
  },
+ "anvilstoryanvil:2008": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7k/gm/wh/wv/anvil-story-of-anvil-1200-1200-675-675-crop-000000.jpg?v=2601b11c0b",
+  "enriched_at": "2026-09-11",
+  "imdb_id": "tt1157605",
+  "letterboxd_rating": 3.84,
+  "letterboxd_url": "https://letterboxd.com/film/anvil-the-story-of-anvil/",
+  "letterboxd_votes": 14137,
+  "overview": "At 14, best friends Robb Reiner and Lips made a pact to rock together forever. Their band, Anvil, hailed as the \"demi-gods of Canadian metal\" influenced a musical generation that includes Metallica, Slayer, and Anthrax. Following a calamitous European tour, Lips and Robb, now in their fifties, set off to record their 13th album in one last attempt to fulfill their boyhood dreams.",
+  "poster": "https://media.themoviedb.org/t/p/w500/rDrMuFaWBKwjwEnw4C06Sm97huY.jpg",
+  "runtime": 81,
+  "tmdb_id": "18094",
+  "year": 2008
+ },
  "apocalypsecarletournagemariachapdelaine": {
   "enriched_at": "2026-09-09"
  },
@@ -1187,6 +1200,19 @@
   "tmdb_id": "1291595",
   "year": 2026
  },
+ "interetdadam": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/6/7/1/5/tmdb/ltpZ8p6WiaMJqFU5Wpsdx6fRT5I-1200-1200-675-675-crop-000000.jpg?v=798025bc98",
+  "enriched_at": "2026-09-11",
+  "imdb_id": "tt32318707",
+  "letterboxd_rating": 3.38,
+  "letterboxd_url": "https://letterboxd.com/film/adams-sake/",
+  "letterboxd_votes": 8491,
+  "overview": "A head nurse defies hospital rules to let a mother stay with her malnourished son. As they navigate a complex crisis, the nurse's empathy proves just as vital to the boy's healing as medicine.",
+  "poster": "https://media.themoviedb.org/t/p/w500/3hcK2phIRQW5UeeyVr2YLMOEN8U.jpg",
+  "runtime": 78,
+  "tmdb_id": "1293858",
+  "year": 2025
+ },
  "interetdadam:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/6/7/1/5/tmdb/ltpZ8p6WiaMJqFU5Wpsdx6fRT5I-1200-1200-675-675-crop-000000.jpg?v=798025bc98",
   "enriched_at": "2026-09-09",
@@ -1716,6 +1742,17 @@
   "wikidata_id": "Q6945105",
   "year": 1983
  },
+ "nct1275thtourneocityseoulredlinecinemas": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/0/5/8/5/6/1605856-nct-127-5th-tour-neo-city-seoul-the-redline-0-230-0-345-crop.jpg?v=378b1a9f02",
+  "enriched_at": "2026-09-11",
+  "imdb_id": "tt44568569",
+  "letterboxd_url": "https://letterboxd.com/film/nct-127-5th-tour-neo-city-seoul-the-redline/",
+  "overview": "Back after almost two years, NCT 127's fifth tour, NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’, is coming live to cinemas! Experience the explosive energy, world-class performances, and electrifying atmosphere of KSPO DOME brought to life on the big screen with immersive sound. NCTzens, join us for the spectacular kickoff of 'THE REDLINE'!",
+  "poster": "https://media.themoviedb.org/t/p/w500/yvD0TWLNHlyP9dNHStjFV8v68nP.jpg",
+  "runtime": 255,
+  "tmdb_id": "1740257",
+  "year": 2026
+ },
  "newlovetokyo": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/m5/uz/ge/vt/new%20love%20in%20tokyo-1200-1200-675-675-crop-000000.jpg?v=38636a194c",
   "enriched_at": "2026-09-09",
@@ -2083,6 +2120,9 @@
  "qcc31peeweesbigadventure:1985": {
   "enriched_at": "2026-09-09"
  },
+ "qcc32inconnulac:2013": {
+  "enriched_at": "2026-09-11"
+ },
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-09"
  },
@@ -2204,6 +2244,19 @@
   "wikidata_id": "Q533383",
   "year": 2003
  },
+ "rose:2020": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/5/5/4/1/4/655414-the-rose-family-0-230-0-345-crop.jpg?v=a2674d7c4b",
+  "enriched_at": "2026-09-11",
+  "imdb_id": "tt12854806",
+  "letterboxd_rating": 3.65,
+  "letterboxd_url": "https://letterboxd.com/film/les-rose/",
+  "letterboxd_votes": 782,
+  "overview": "En octobre 1970, des membres du Front de libération du Québec (FLQ) enlèvent le ministre Pierre Laporte, déclenchant une crise sans précédent au Québec. Cinquante ans plus tard, Félix Rose tente de comprendre ce qui a pu mener son père et son oncle à commettre de tels actes. Grâce aux confidences de son oncle Jacques, qui accepte pour la première fois de s’exprimer sur le sujet, et aux traces précieuses laissées par son père Paul, il fait revivre la richesse de l’héritage d’une famille ouvrière québécoise et redonne à la crise d’octobre sa dimension sociale. Fruit de dix ans de recherche, Les Rose permet de faire revivre des moments et des personnages que l’on ne connaissait que par quelques clichés, et laisse entrevoir le blocage social vécu par une jeunesse révoltée et les bouleversements qui s’ensuivirent.",
+  "poster": "https://media.themoviedb.org/t/p/w500/eu8aiOkYvbKTTHY4He7dOpZJGJI.jpg",
+  "runtime": 129,
+  "tmdb_id": "733123",
+  "year": 2020
+ },
  "rosenevada:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/p8/5h/ju/vb/xKeYArWgmP7oEyDxsz7aK9fETm-1200-1200-675-675-crop-000000.jpg?v=029e71e047",
   "enriched_at": "2026-09-09",
@@ -2320,6 +2373,9 @@
   "runtime": 104,
   "tmdb_id": "26372",
   "year": 1968
+ },
+ "shaunmoutonbeeeteferme": {
+  "enriched_at": "2026-09-11"
  },
  "sheepdetectives": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/76/w9/hj/wo/g6uEVedSBXsZ3QuXKP4WDCeSsOy%20(1)-1200-1200-675-675-crop-000000.jpg?v=08bcff0341",
