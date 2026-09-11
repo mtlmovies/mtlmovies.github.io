@@ -14,8 +14,10 @@ import datetime as dt
 import importlib
 import json
 import os
+import re
 import sys
 import traceback
+import unicodedata
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -64,6 +66,31 @@ def screening_i18n(s: Screening) -> dict:
         lang_bundle(source_lang(s.source), title=s.title, synopsis=s.synopsis,
                     genres=s.genres, country=s.country),
     )
+
+
+def _flatten(s: str) -> str:
+    """Case, accents, punctuation and parentheticals removed — everything that
+    is not the words themselves."""
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c)).lower()
+    s = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", s)
+    return re.sub(r"[^a-z0-9]+", "", s)
+
+
+def is_echo(a: str | None, b: str | None) -> bool:
+    """Are these the same text, give or take punctuation and a parenthetical?
+
+    Sources that publish "both" languages often repeat one of them: Cineplex
+    answers `language=fr` with the English film name, and a French-only venue
+    has nothing else to give. Such a value must not sit in a language slot and
+    block the real translation — but "Hope (Korean w/e.s.t.)" against TMDB's
+    "Hope" is the same title annotated, and swapping that one loses the
+    annotation for nothing.
+    """
+    fa, fb = _flatten(a), _flatten(b)
+    if not fa or not fb:
+        return False
+    return fa == fb or fa.startswith(fb) or fb.startswith(fa)
 
 
 def run_adapter(name: str):
@@ -231,15 +258,21 @@ def apply_enrichment(movies: list[dict], cache: dict):
                 m[dst] = info[src]
         if info.get("genres") and not m.get("genres"):
             m["genres"] = info["genres"]
-        # Translated copy: only ever fills a language the venues left empty, so
-        # a cinema's own English synopsis always outranks TMDB's.
+        # Translated copy: fills a language the venues left empty, and replaces
+        # one they filled with a copy of the other language (see is_echo) — a
+        # cinema's own, genuinely different English synopsis always wins.
         i18n = m.setdefault("i18n", {})
         for lang in LANGS:
             dst = i18n.setdefault(lang, {})
+            other = i18n.get("fr" if lang == "en" else "en") or {}
             for src, key in ((f"overview_{lang}", "synopsis"),
                              (f"title_{lang}", "title")):
-                if info.get(src) and not dst.get(key):
-                    dst[key] = info[src]
+                cand = info.get(src)
+                if not cand:
+                    continue
+                have = dst.get(key)
+                if not have or (is_echo(have, other.get(key)) and not is_echo(cand, have)):
+                    dst[key] = cand
             if info.get(f"genres_{lang}") and not dst.get("genres"):
                 dst["genres"] = list(info[f"genres_{lang}"])
         m["i18n"] = {k: v for k, v in i18n.items() if v}
