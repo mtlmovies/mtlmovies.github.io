@@ -121,9 +121,28 @@ def shell(*, title, description, canonical, body, jsonld=None, lang="fr-CA") -> 
 # film pages
 # ---------------------------------------------------------------------------
 
+def copy_en(m: dict, key: str, default=""):
+    """These pages are written in English, so they read the English copy the
+    build collected and fall back to the French one."""
+    i18n = m.get("i18n") or {}
+    for lang in ("en", "fr"):
+        v = (i18n.get(lang) or {}).get(key)
+        if v:
+            return v
+    return m.get(key) or default
+
+
+def maps_link(v: dict) -> str:
+    url = v.get("maps_url") or ""
+    where = ", ".join(x for x in (v.get("address"), v.get("city")) if x)
+    if not url or not where:
+        return e(where)
+    return f'<a href="{e(url)}" rel="noopener" target="_blank">{e(where)} — map</a>'
+
+
 def film_page(m: dict, venues: dict, out_dir: str):
     slug = m["slug"]
-    title = m["title"]
+    title = copy_en(m, "title") or m["title"]
     year = m.get("year")
     director = m.get("director") or ""
     shows = sorted(m["showtimes"], key=lambda s: s["start"])
@@ -160,7 +179,7 @@ def film_page(m: dict, venues: dict, out_dir: str):
         )
         blocks.append(
             f'<div class="sched"><h3><a href="{SITE}/cinema/{e(v.get("slug", vid))}/">{e(v["name"])}</a></h3>'
-            f'<div style="font-size:12.5px;color:var(--text-3);margin-bottom:8px">{e(v.get("address", ""))}</div>'
+            f'<div style="font-size:12.5px;color:var(--text-3);margin-bottom:8px">{maps_link(v)}</div>'
             f"{days}</div>"
         )
 
@@ -168,7 +187,7 @@ def film_page(m: dict, venues: dict, out_dir: str):
     for k, val in (("Year", year), ("Runtime", runtime_str(m.get("runtime"))),
                    ("Director", director), ("Cast", m.get("cast")),
                    ("Country", m.get("country")),
-                   ("Genre", ", ".join(m.get("genres") or [])),
+                   ("Genre", ", ".join(copy_en(m, "genres") or m.get("genres") or [])),
                    ("Letterboxd", m.get("letterboxd_rating")),
                    ("IMDb", m.get("imdb_rating"))):
         if val:
@@ -183,7 +202,7 @@ def film_page(m: dict, venues: dict, out_dir: str):
   <div>{f'<img src="{e(poster)}" alt="{e(title)} poster" width="180" loading="lazy">' if poster else ''}</div>
   <div>
     <h1>{e(title)}</h1>
-    <p class="lede">{e(m.get('synopsis') or desc)}</p>
+    <p class="lede">{e(copy_en(m, 'synopsis') or desc)}</p>
     {f'<p class="lede" style="margin-top:10px;font-size:13px;color:var(--text-3)">{e(tags)}</p>' if tags else ''}
     <dl class="kv">{''.join(facts)}</dl>
   </div>
@@ -201,8 +220,8 @@ def film_page(m: dict, venues: dict, out_dir: str):
     }
     if poster:
         ld["image"] = poster
-    if m.get("synopsis"):
-        ld["description"] = m["synopsis"][:900]
+    if copy_en(m, "synopsis"):
+        ld["description"] = copy_en(m, "synopsis")[:900]
     if director:
         ld["director"] = {"@type": "Person", "name": director.split(",")[0].strip()}
     if year:
@@ -275,7 +294,7 @@ def cinema_page(v: dict, movies: list, out_dir: str):
             "".join(f'<span>{e(s["time"])}</span>' for s in ss) + "</div></div>"
             for d, ss in list(by_day.items())[:8])
         rows.append(
-            f'<div class="sched"><h3><a href="{SITE}/movie/{e(m["slug"])}/">{e(m["title"])}</a>'
+            f'<div class="sched"><h3><a href="{SITE}/movie/{e(m["slug"])}/">{e(copy_en(m, "title") or m["title"])}</a>'
             f'{f" <span style=\'color:var(--text-3);font-weight:500\'>{e(m["year"])}</span>" if m.get("year") else ""}</h3>{days}</div>')
 
     facts = []
@@ -284,6 +303,9 @@ def cinema_page(v: dict, movies: list, out_dir: str):
                    ("Films listed", len(mine))):
         if val:
             facts.append(f"<div><dt>{e(k)}</dt><dd>{e(val)}</dd></div>")
+    if v.get("maps_url"):
+        facts.append(f'<div><dt>Map</dt><dd><a href="{e(v["maps_url"])}" rel="noopener" '
+                     f'target="_blank">Open in Google Maps</a></dd></div>')
 
     body = f"""
 <div class="crumbs"><a href="{SITE}/">{e(NAME)}</a> / <a href="{SITE}/cinemas/">Cinemas</a> / {e(v['name'])}</div>
@@ -340,7 +362,7 @@ THEMES = [
 
 def theme_page(slug, title, movies, blurb, out_dir):
     items = "".join(
-        f'<div class="sched"><h3><a href="{SITE}/movie/{e(m["slug"])}/">{e(m["title"])}</a>'
+        f'<div class="sched"><h3><a href="{SITE}/movie/{e(m["slug"])}/">{e(copy_en(m, "title") or m["title"])}</a>'
         f'{f" <span style=\'color:var(--text-3);font-weight:500\'>{e(m["year"])}</span>" if m.get("year") else ""}</h3>'
         f'<div style="font-size:12.5px;color:var(--text-3)">'
         f'{e(", ".join(sorted({s["venue"] for s in m["showtimes"]})[:4]))} · '

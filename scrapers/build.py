@@ -23,8 +23,9 @@ DATA = os.path.join(ROOT, "data")
 PAGES = os.path.join(ROOT, "pages")
 sys.path.insert(0, HERE)
 
-from common import (SPECIAL_WEIGHTS, Screening, Venue, clean, derive_tags, log,
-                    parse_version, title_key, today)  # noqa: E402
+from common import (LANGS, SPECIAL_WEIGHTS, Screening, Venue, clean, derive_tags,
+                    lang_bundle, log, merge_i18n, parse_version, title_key,
+                    today)  # noqa: E402
 
 ADAPTERS = [
     "cinemacinema",
@@ -36,6 +37,33 @@ ADAPTERS = [
     "cinematheque",
     "outremont",
 ]
+
+
+# The language a source publishes in when it says nothing about it. Anything a
+# source *does* say (its own `Screening.i18n`) wins over this.
+SOURCE_LANG = {
+    "cinemacinema": "fr",
+    "cinemamoderne": "fr",
+    "ticketacces": "fr",
+    "cineplex": "en",
+    "cinestarz": "en",
+    "guzzo": "fr",
+    "cinematheque": "fr",
+    "outremont": "fr",
+}
+
+
+def source_lang(source: str) -> str:
+    return SOURCE_LANG.get((source or "").split(":")[0], "fr")
+
+
+def screening_i18n(s: Screening) -> dict:
+    """What one listing says, in the language(s) it says it in."""
+    return merge_i18n(
+        getattr(s, "i18n", None) or {},
+        lang_bundle(source_lang(s.source), title=s.title, synopsis=s.synopsis,
+                    genres=s.genres, country=s.country),
+    )
 
 
 def run_adapter(name: str):
@@ -104,6 +132,24 @@ def merge(screenings: list[Screening], venues: dict) -> list[dict]:
                 if t not in tags:
                     tags.append(t)
 
+        # Per-language copy for the whole film: the longest synopsis wins (the
+        # venues truncate at different lengths), genres accumulate.
+        i18n: dict = {}
+        for s in items:
+            for lang, vals in screening_i18n(s).items():
+                dst = i18n.setdefault(lang, {})
+                if vals.get("title") and not dst.get("title"):
+                    dst["title"] = vals["title"]
+                syn = vals.get("synopsis") or ""
+                if syn and len(syn) > len(dst.get("synopsis") or ""):
+                    dst["synopsis"] = syn
+                for g in vals.get("genres") or []:
+                    dst.setdefault("genres", [])
+                    if g not in dst["genres"]:
+                        dst["genres"].append(g)
+                if vals.get("country") and not dst.get("country"):
+                    dst["country"] = vals["country"]
+
         shows = []
         for s in items:
             v = parse_version(s.version_raw)
@@ -149,6 +195,7 @@ def merge(screenings: list[Screening], venues: dict) -> list[dict]:
             "trailer": best("trailer"),
             "country": best("country"),
             "rating": best("rating"),
+            "i18n": i18n,
             "tags": tags,
             "showtimes": shows,
         })
@@ -184,6 +231,18 @@ def apply_enrichment(movies: list[dict], cache: dict):
                 m[dst] = info[src]
         if info.get("genres") and not m.get("genres"):
             m["genres"] = info["genres"]
+        # Translated copy: only ever fills a language the venues left empty, so
+        # a cinema's own English synopsis always outranks TMDB's.
+        i18n = m.setdefault("i18n", {})
+        for lang in LANGS:
+            dst = i18n.setdefault(lang, {})
+            for src, key in ((f"overview_{lang}", "synopsis"),
+                             (f"title_{lang}", "title")):
+                if info.get(src) and not dst.get(key):
+                    dst[key] = info[src]
+            if info.get(f"genres_{lang}") and not dst.get("genres"):
+                dst["genres"] = list(info[f"genres_{lang}"])
+        m["i18n"] = {k: v for k, v in i18n.items() if v}
         if m.get("imdb_id"):
             m["imdb_url"] = f"https://www.imdb.com/title/{m['imdb_id']}/"
 
@@ -232,6 +291,21 @@ def merge_by_identity(movies: list[dict]) -> list[dict]:
                         "year", "runtime"):
                 if not base.get(key) and other.get(key):
                     base[key] = other[key]
+            # The French listing and the English listing of the same film are
+            # exactly what this fold joins, so their copy joins too.
+            joined = base.get("i18n") or {}
+            for lang, vals in (other.get("i18n") or {}).items():
+                dst = joined.setdefault(lang, {})
+                for k, v in vals.items():
+                    if k == "genres":
+                        merged = list(dst.get("genres") or [])
+                        for g in v:
+                            if g not in merged:
+                                merged.append(g)
+                        dst["genres"] = merged
+                    elif v and not dst.get(k):
+                        dst[k] = v
+            base["i18n"] = joined
         base["showtimes"].sort(key=lambda s: s["start"])
         base["alt_titles"] = sorted({m["title"] for m in items[1:]} - {base["title"]})
         out.append(base)

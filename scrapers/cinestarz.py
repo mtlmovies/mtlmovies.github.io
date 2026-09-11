@@ -10,7 +10,8 @@ import datetime as dt
 import re
 import time
 
-from common import Screening, Venue, clean, http_get, log, parse_time, today
+from common import (Screening, Venue, clean, http_get, lang_bundle, log,
+                    parse_time, today)
 
 BASE = "https://www.cinestarz.ca"
 DAYS_AHEAD = 7
@@ -127,6 +128,8 @@ def _parse_day(html: str, meta: dict, day: dt.date) -> list[Screening]:
                     rating=rating,
                     poster=poster,
                     source="cinestarz",
+                    # This chain publishes an English-only programme.
+                    i18n=lang_bundle("en", title=title),
                 )
             )
     return out

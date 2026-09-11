@@ -178,6 +178,22 @@ def title_key(title: str, year=None) -> str:
     return t or slugify(title)
 
 
+def maps_url(name: str = "", address: str = "", city: str = "",
+             lat: float | None = None, lng: float | None = None) -> str:
+    """A Google Maps link for a venue — coordinates when we have them.
+
+    Coordinates are unambiguous; the name+address query is the fallback and
+    still lands on the right pin for every venue we list.
+    """
+    if lat is not None and lng is not None:
+        q = f"{lat},{lng}"
+    else:
+        q = ", ".join(p for p in (name, address, city, "Québec") if p)
+    if not q:
+        return ""
+    return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(q)
+
+
 def digest(*parts) -> str:
     return hashlib.sha1("|".join(str(p) for p in parts).encode()).hexdigest()[:12]
 
@@ -331,7 +347,9 @@ class Venue:
     source: str = ""
 
     def as_dict(self):
-        return dataclasses.asdict(self)
+        d = dataclasses.asdict(self)
+        d["maps_url"] = maps_url(self.name, self.address, self.city, self.lat, self.lng)
+        return d
 
 
 @dataclasses.dataclass
@@ -363,12 +381,46 @@ class Screening:
     rating: str = ""              # age classification
     source: str = ""
     tags: tuple = ()              # e.g. ("classic", "restoration", "event")
+    # Per-language copy, keyed by language: {"en": {"title", "synopsis",
+    # "genres"}, "fr": {...}}. Sources that publish only one language fill the
+    # one they publish; the site falls back to the other when a key is missing.
+    i18n: dict = dataclasses.field(default_factory=dict)
 
     def as_dict(self):
         d = dataclasses.asdict(self)
         d["genres"] = list(self.genres)
         d["tags"] = list(self.tags)
         return d
+
+
+LANGS = ("en", "fr")
+
+
+def lang_bundle(lang: str, *, title="", synopsis="", genres=(), country="") -> dict:
+    """`{lang: {...}}` with the empty fields dropped.
+
+    Adapters call this once per language they can actually read; everything
+    that stays empty is simply absent, which is what lets the site fall back.
+    """
+    vals = {k: v for k, v in (
+        ("title", clean(title)),
+        ("synopsis", (synopsis or "").strip()),
+        ("genres", [g for g in genres if g]),
+        ("country", clean(country)),
+    ) if v}
+    return {lang: vals} if vals and lang in LANGS else {}
+
+
+def merge_i18n(*bundles: dict) -> dict:
+    """Combine `lang_bundle` results, first non-empty value per field winning."""
+    out: dict = {}
+    for b in bundles:
+        for lang, vals in (b or {}).items():
+            dst = out.setdefault(lang, {})
+            for k, v in vals.items():
+                if v and not dst.get(k):
+                    dst[k] = v
+    return {k: v for k, v in out.items() if v}
 
 
 def make_start(date: dt.date, hm) -> tuple[str, str, str]:

@@ -10,7 +10,8 @@ import datetime as dt
 import time
 import urllib.parse
 
-from common import Screening, Venue, clean, http_json, log, parse_time, today
+from common import (Screening, Venue, clean, http_json, lang_bundle, log,
+                    merge_i18n, parse_time, today)
 
 API = "https://apis.cineplex.com/prod/cpx/theatrical/api"
 KEY = "dcdac5601d864addbc2675a2e96cb1f8"
@@ -21,6 +22,10 @@ HEADERS = {
 }
 
 DAYS_AHEAD = 10
+# The API answers in whichever language is asked for. English is the primary
+# read; French is collected over the first few days only, which is enough to
+# see every film in the circuit without doubling the day-by-day crawl.
+FRENCH_DAYS = 4
 
 # Greater Montréal locations only (theatreId -> descriptor).
 THEATRES = {
@@ -94,9 +99,52 @@ def _experience_tags(exp: dict) -> tuple[str, tuple]:
     return (fmt or "2D"), tuple(dict.fromkeys(tags))
 
 
+def _film_key(movie: dict) -> str:
+    """Identify a film across the two language responses."""
+    for k in ("id", "filmId", "vistaFilmId", "filmUrl", "name"):
+        v = movie.get(k)
+        if v:
+            return str(v).strip().lower()
+    return ""
+
+
+def _movies(data) -> list:
+    for theatre in data or []:
+        for dateblock in theatre.get("dates") or []:
+            for movie in dateblock.get("movies") or []:
+                yield movie
+
+
+def _french_catalogue(start: dt.date) -> dict:
+    """film key -> French title and genres, read from the same public API."""
+    out: dict[str, dict] = {}
+    for tid in THEATRES:
+        for offset in range(FRENCH_DAYS):
+            day = start + dt.timedelta(days=offset)
+            try:
+                data = _get("/v1/showtimes", language="fr", locationId=tid,
+                            date=day.isoformat())
+            except Exception as e:  # noqa: BLE001
+                log(f"[cineplex] fr {tid} {day}: {e}")
+                continue
+            for movie in _movies(data):
+                key = _film_key(movie)
+                title = clean(movie.get("name"))
+                if not key or not title or key in out:
+                    continue
+                out[key] = {
+                    "title": title,
+                    "genres": tuple(clean(g) for g in (movie.get("genres") or []) if g),
+                }
+            time.sleep(0.15)
+    log(f"[cineplex] French titles for {len(out)} films")
+    return out
+
+
 def fetch() -> tuple[list[Venue], list[Screening]]:
     start = today()
     screenings: list[Screening] = []
+    french = _french_catalogue(start)
 
     for tid, meta in THEATRES.items():
         got = 0
@@ -120,6 +168,12 @@ def fetch() -> tuple[list[Venue], list[Screening]]:
                         genres = tuple(clean(g) for g in (movie.get("genres") or []) if g)
                         runtime = movie.get("runtimeInMinutes") or None
                         poster = clean(movie.get("largePosterImageUrl") or movie.get("mediumPosterImageUrl"))
+                        fr = french.get(_film_key(movie)) or {}
+                        i18n = merge_i18n(
+                            lang_bundle("en", title=title, genres=genres),
+                            lang_bundle("fr", title=fr.get("title", ""),
+                                        genres=fr.get("genres", ())),
+                        )
 
                         for exp in movie.get("experiences") or []:
                             fmt, extra_tags = _experience_tags(exp)
@@ -158,6 +212,7 @@ def fetch() -> tuple[list[Venue], list[Screening]]:
                                         poster=poster,
                                         source="cineplex",
                                         tags=tuple(dict.fromkeys(tags)),
+                                        i18n=i18n,
                                     )
                                 )
                                 got += 1
