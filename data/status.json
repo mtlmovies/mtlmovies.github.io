@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T14:05:58+00:00",
+ "generated_at": "2026-09-11T14:11:40+00:00",
  "counts": {
   "movies": 232,
   "venues": 26,
@@ -11,49 +11,49 @@
    "ok": true,
    "screenings": 341,
    "venues": 3,
-   "seconds": 38.1
+   "seconds": 17.6
   },
   {
    "source": "cinemamoderne",
    "ok": true,
    "screenings": 62,
    "venues": 1,
-   "seconds": 2.0
+   "seconds": 5.7
   },
   {
    "source": "ticketacces",
    "ok": true,
    "screenings": 50,
    "venues": 2,
-   "seconds": 33.5
+   "seconds": 37.9
   },
   {
    "source": "cineplex",
    "ok": true,
    "screenings": 3849,
    "venues": 11,
-   "seconds": 53.6
+   "seconds": 70.0
   },
   {
    "source": "cinestarz",
    "ok": true,
    "screenings": 2410,
    "venues": 7,
-   "seconds": 22.4
+   "seconds": 23.2
   },
   {
    "source": "guzzo",
    "ok": true,
    "screenings": 0,
    "venues": 1,
-   "seconds": 1.9
+   "seconds": 2.1
   },
   {
    "source": "cinematheque",
    "ok": true,
    "screenings": 138,
    "venues": 1,
-   "seconds": 100.7
+   "seconds": 133.5
   },
   {
    "source": "outremont",
