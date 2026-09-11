@@ -369,6 +369,29 @@ function tagsHTML(m, shows, limit = 2) {
   return out.length ? `<div class="tags">${out.join("")}</div>` : "";
 }
 
+/** Which rooms, as badges. Busiest first; the tail collapses into "+N".
+
+   Up to three names fit under a poster on two lines. Past that the names
+   stop being the point — a blockbuster is "everywhere" — so a long list
+   shows two and a count, which keeps every card the same height. */
+function cinemaBadges(shows) {
+  const counts = new Map();
+  for (const s of shows) {
+    const v = state.venues.get(s.venue);
+    const n = (v && (v.short_name || v.name)) || s.venue;
+    counts.set(n, (counts.get(n) || 0) + 1);
+  }
+  const ranked = [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], locale()))
+    .map(([n]) => n);
+  if (!ranked.length) return "";
+  const limit = ranked.length > 3 ? 2 : 3;
+  const rest = ranked.slice(limit);
+  return `<div class="cines">${ranked.slice(0, limit).map((n) =>
+    `<span class="cine">${esc(n)}</span>`).join("")}${rest.length
+      ? `<span class="cine more" title="${esc(rest.join(" · "))}">+${rest.length}</span>` : ""}</div>`;
+}
+
 function cardHTML({ m, shows }) {
   const sorted = [...shows].sort((a, b) => a.start.localeCompare(b.start));
   const times = sorted.slice(0, 4).map((s) => `<b>${s.time}</b>`).join("") +
@@ -391,6 +414,7 @@ function cardHTML({ m, shows }) {
     <div class="cap">
       <div class="n">${esc(mTitle(m))}</div>
       <div class="m">${esc(meta || vlabel)}</div>
+      ${cinemaBadges(shows)}
     </div>
   </button>`;
 }
