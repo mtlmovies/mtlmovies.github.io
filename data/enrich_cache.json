@@ -2429,11 +2429,24 @@
  "labyrinth": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/0/4/4/6/6/1604466-labyrinth-2025-2-0-230-0-345-crop.jpg?v=3339ffe667",
   "enriched_at": "2026-09-09",
+  "genres_en": [
+   "Action",
+   "Horror"
+  ],
+  "genres_fr": [
+   "Action",
+   "Horreur"
+  ],
+  "i18n_v": 1,
   "imdb_id": "tt38128471",
   "letterboxd_url": "https://letterboxd.com/film/labyrinth-2025-2/",
   "overview": "A group of strangers are brought together under mysterious circumstances by a nefarious leader to be judged for their past transgressions in a facility designed to test their mettle against a gauntlet of deadly challenges. Most will fall while others find redemption in this action-packed descent into Hell.",
+  "overview_en": "A group of strangers are brought together under mysterious circumstances by a nefarious leader to be judged for their past transgressions in a facility designed to test their mettle against a gauntlet of deadly challenges. Most will fall while others find redemption in this action-packed descent into Hell.",
+  "overview_fr": "A group of strangers are brought together under mysterious circumstances by a nefarious leader to be judged for their past transgressions in a facility designed to test their mettle against a gauntlet of deadly challenges. Most will fall while others find redemption in this action-packed descent into Hell.",
   "poster": "https://media.themoviedb.org/t/p/w500/iovuh1ZecuLWXROSqXrzk4foWbt.jpg",
   "runtime": 94,
+  "title_en": "Labyrinth",
+  "title_fr": "Labyrinth",
   "tmdb_id": "1738359",
   "year": 2025
  },
@@ -2625,13 +2638,26 @@
  "mamanputain:1973": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/r3/zd/ul/nc/d7f7Dq0I5SuevNHVqLwInQq3EBr-1200-1200-675-675-crop-000000.jpg?v=1b85333bb5",
   "enriched_at": "2026-09-09",
+  "genres_en": [
+   "Drama",
+   "Romance"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Romance"
+  ],
+  "i18n_v": 1,
   "imdb_id": "tt0070359",
   "letterboxd_rating": 4.15,
   "letterboxd_url": "https://letterboxd.com/film/the-mother-and-the-whore/",
   "letterboxd_votes": 23869,
   "overview": "Aimless young Alexandre juggles his relationships with his girlfriend, Marie, and a casual lover named Veronika. Marie becomes increasingly jealous of Alexandre's fling with Veronika and as the trio continues their unsustainable affair, the emotional stakes get higher, leading to conflict and unhappiness.",
+  "overview_en": "Aimless young Alexandre juggles his relationships with his girlfriend, Marie, and a casual lover named Veronika. Marie becomes increasingly jealous of Alexandre's fling with Veronika and as the trio continues their unsustainable affair, the emotional stakes get higher, leading to conflict and unhappiness.",
+  "overview_fr": "Aimless young Alexandre juggles his relationships with his girlfriend, Marie, and a casual lover named Veronika. Marie becomes increasingly jealous of Alexandre's fling with Veronika and as the trio continues their unsustainable affair, the emotional stakes get higher, leading to conflict and unhappiness.",
   "poster": "https://media.themoviedb.org/t/p/w500/vTboNhuETaWuwGAIS2NRmOs8R55.jpg",
   "runtime": 219,
+  "title_en": "The Mother and the Whore",
+  "title_fr": "La Maman et la Putain",
   "tmdb_id": "48693",
   "year": 1973
  },
@@ -2670,13 +2696,28 @@
  "manwhofelltoearth:1976": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/v3/am/ij/mi/man-1200-1200-675-675-crop-000000.jpg?v=99ebb38991",
   "enriched_at": "2026-09-09",
+  "genres_en": [
+   "Science Fiction",
+   "Drama",
+   "Fantasy"
+  ],
+  "genres_fr": [
+   "Science-Fiction",
+   "Drame",
+   "Fantastique"
+  ],
+  "i18n_v": 1,
   "imdb_id": "tt0074851",
   "letterboxd_rating": 3.46,
   "letterboxd_url": "https://letterboxd.com/film/the-man-who-fell-to-earth/",
   "letterboxd_votes": 65315,
   "overview": "Envoyé sur Terre pour trouver un remède au manque d'eau qui décime lentement les habitants de sa planète, un extra-terrestre est confronté à la folie des humains et au souvenir nostalgique d'une femme et de ses deux enfants qui l'attendent.",
+  "overview_en": "Thomas Jerome Newton is an alien who has come to Earth in search of water to save his home planet. Aided by lawyer Oliver Farnsworth, Thomas uses his knowledge of advanced technology to create profitable inventions. While developing a method to transport water, Thomas meets Mary-Lou, a quiet hotel clerk, and begins to fall in love with her. Just as he is ready to leave Earth, Thomas is intercepted by the U.S. government, and his entire plan is threatened.",
+  "overview_fr": "Envoyé sur Terre pour trouver un remède au manque d'eau qui décime lentement les habitants de sa planète, un extra-terrestre est confronté à la folie des humains et au souvenir nostalgique d'une femme et de ses deux enfants qui l'attendent.",
   "poster": "https://media.themoviedb.org/t/p/w500/5TvSWz1SyJ2fOue81IczPhv9zGr.jpg",
   "runtime": 139,
+  "title_en": "The Man Who Fell to Earth",
+  "title_fr": "L'Homme qui venait d'ailleurs",
   "tmdb_id": "991",
   "year": 1976
  },
@@ -5056,13 +5097,24 @@
  "villesansjuifs:1924": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/7/3/7/0/67370-the-city-without-jews-0-230-0-345-crop.jpg?v=db3d80fa8f",
   "enriched_at": "2026-09-09",
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
   "imdb_id": "tt0016392",
   "letterboxd_rating": 3.29,
   "letterboxd_url": "https://letterboxd.com/film/the-city-without-jews/",
   "letterboxd_votes": 580,
   "overview": "In the Republic of Utopia, because of the bad economic crisis ailing the nation, the Jews are made the scapegoats for the economic and social ills affecting the population; therefore, the government decides to expel them. Leo Strakosch is among the exiled. He is engaged to Counsellor's Linder's daughter. He gets into the Republic, in a clandestine way, to show to the society the wrongness of their anti-semitic prejudice. Bettauer's novel differs essentially from the film version. \"Vienna\" was named \"Utopia.\" Even a happy ending was provided.",
+  "overview_en": "In the Republic of Utopia, because of the bad economic crisis ailing the nation, the Jews are made the scapegoats for the economic and social ills affecting the population; therefore, the government decides to expel them. Leo Strakosch is among the exiled. He is engaged to Counsellor's Linder's daughter. He gets into the Republic, in a clandestine way, to show to the society the wrongness of their anti-semitic prejudice. Bettauer's novel differs essentially from the film version. \"Vienna\" was named \"Utopia.\" Even a happy ending was provided.",
+  "overview_fr": "In the Republic of Utopia, because of the bad economic crisis ailing the nation, the Jews are made the scapegoats for the economic and social ills affecting the population; therefore, the government decides to expel them. Leo Strakosch is among the exiled. He is engaged to Counsellor's Linder's daughter. He gets into the Republic, in a clandestine way, to show to the society the wrongness of their anti-semitic prejudice. Bettauer's novel differs essentially from the film version. \"Vienna\" was named \"Utopia.\" Even a happy ending was provided.",
   "poster": "https://media.themoviedb.org/t/p/w500/7iEb9qQuQuuoRh8Op3WroHMvuLl.jpg",
   "runtime": 87,
+  "title_en": "The City without Jews",
+  "title_fr": "The City without Jews",
   "tmdb_id": "80881",
   "year": 1924
  },
