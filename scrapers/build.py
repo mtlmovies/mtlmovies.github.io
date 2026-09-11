@@ -68,24 +68,36 @@ def screening_i18n(s: Screening) -> dict:
     )
 
 
+# A leading article is the one word venues drop freely: Cineplex lists
+# "ODYSSEY" for what TMDB calls "The Odyssey".
+_LEADING_ARTICLE = re.compile(r"^(the|an?|les?|la|l|une?|des|du|de)\b[\s']*")
+
+
 def _flatten(s: str) -> str:
-    """Case, accents, punctuation and parentheticals removed — everything that
-    is not the words themselves."""
+    """Case, accents, punctuation, parentheticals and a leading article
+    removed — everything that is not the words themselves."""
     s = unicodedata.normalize("NFKD", s or "")
     s = "".join(c for c in s if not unicodedata.combining(c)).lower()
-    s = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", s)
+    s = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", s).strip()
+    while True:
+        stripped = _LEADING_ARTICLE.sub("", s).strip()
+        if stripped == s:
+            break
+        s = stripped
     return re.sub(r"[^a-z0-9]+", "", s)
 
 
 def is_echo(a: str | None, b: str | None) -> bool:
-    """Are these the same text, give or take punctuation and a parenthetical?
+    """Are these the same text, give or take case, punctuation, a leading
+    article and a parenthetical?
 
     Sources that publish "both" languages often repeat one of them: Cineplex
     answers `language=fr` with the English film name, and a French-only venue
     has nothing else to give. Such a value must not sit in a language slot and
     block the real translation — but "Hope (Korean w/e.s.t.)" against TMDB's
     "Hope" is the same title annotated, and swapping that one loses the
-    annotation for nothing.
+    annotation for nothing. "The Thing" and "Thing" are likewise one title,
+    not a translation of each other.
     """
     fa, fb = _flatten(a), _flatten(b)
     if not fa or not fb:
