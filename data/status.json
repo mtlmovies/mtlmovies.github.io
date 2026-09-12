@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-12T12:41:35+00:00",
+ "generated_at": "2026-09-12T13:30:08+00:00",
  "counts": {
-  "movies": 228,
+  "movies": 231,
   "venues": 26,
-  "showtimes": 5965
+  "showtimes": 5971
  },
  "sources": [
   {
@@ -11,57 +11,57 @@
    "ok": true,
    "screenings": 304,
    "venues": 3,
-   "seconds": 20.3
+   "seconds": 39.4
   },
   {
    "source": "cinemamoderne",
    "ok": true,
    "screenings": 58,
    "venues": 1,
-   "seconds": 1.2
+   "seconds": 1.9
   },
   {
    "source": "ticketacces",
    "ok": true,
    "screenings": 48,
    "venues": 2,
-   "seconds": 20.7
+   "seconds": 33.9
   },
   {
    "source": "cineplex",
    "ok": true,
    "screenings": 3338,
    "venues": 11,
-   "seconds": 49.4
+   "seconds": 54.6
   },
   {
    "source": "cinestarz",
    "ok": true,
    "screenings": 2083,
    "venues": 7,
-   "seconds": 16.1
+   "seconds": 22.3
   },
   {
    "source": "guzzo",
    "ok": true,
    "screenings": 5,
    "venues": 1,
-   "seconds": 1.7
+   "seconds": 1.6
   },
   {
    "source": "cinematheque",
    "ok": true,
-   "screenings": 129,
+   "screenings": 135,
    "venues": 1,
-   "seconds": 29.7
+   "seconds": 37.0
   },
   {
    "source": "outremont",
    "ok": false,
    "screenings": 0,
    "venues": 0,
-   "error": "RuntimeError: 5 cinema events listed, none with a start time. Their programme publishes dates only, and the start times are held in a Tuxedo box office with no publicly readable source (Firebase RTDB denies every path even to an anonymous session; Firestore is disabled; no sitemap or feed).",
-   "seconds": 4.7
+   "error": "RuntimeError: programme unreachable: GET https://theatreoutremont.ca/programmation/ failed after 2 tries: <urlopen error timed out>",
+   "seconds": 163.7
   }
  ]
 }
