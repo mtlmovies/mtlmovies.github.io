@@ -568,6 +568,9 @@
  "billie": {
   "enriched_at": "2026-09-12"
  },
+ "billie:2025": {
+  "enriched_at": "2026-09-13"
+ },
  "blackeagles": {
   "enriched_at": "2026-09-12"
  },
@@ -1688,6 +1691,40 @@
  "furyo": {
   "enriched_at": "2026-09-12"
  },
+ "furyo:1983": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/e5/z6/p4/wc/merry-christmas-mr-lawrence-1200-1200-675-675-crop-000000.jpg?v=6605c86985",
+  "enriched_at": "2026-09-13",
+  "genres": [
+   "Drame",
+   "Histoire",
+   "Guerre"
+  ],
+  "genres_en": [
+   "Drama",
+   "History",
+   "War"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Histoire",
+   "Guerre"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0085933",
+  "letterboxd_rating": 3.94,
+  "letterboxd_url": "https://letterboxd.com/film/merry-christmas-mr-lawrence/",
+  "letterboxd_votes": 53926,
+  "overview": "Island of Java, 1942, during World War II. British Major Jack Celliers arrives at a Japanese prison camp, run by the strict Captain Yonoi. Colonel John Lawrence, who has a profound knowledge of Japanese culture, and Sergeant Hara, brutal and simpleton, will witness the struggle of wills between two men from very different backgrounds who are tragically destined to clash.",
+  "overview_en": "Island of Java, 1942, during World War II. British Major Jack Celliers arrives at a Japanese prison camp, run by the strict Captain Yonoi. Colonel John Lawrence, who has a profound knowledge of Japanese culture, and Sergeant Hara, brutal and simpleton, will witness the struggle of wills between two men from very different backgrounds who are tragically destined to clash.",
+  "overview_fr": "Island of Java, 1942, during World War II. British Major Jack Celliers arrives at a Japanese prison camp, run by the strict Captain Yonoi. Colonel John Lawrence, who has a profound knowledge of Japanese culture, and Sergeant Hara, brutal and simpleton, will witness the struggle of wills between two men from very different backgrounds who are tragically destined to clash.",
+  "poster": "https://media.themoviedb.org/t/p/w500/5RTn77fRM6jtopJ0SVIGqCHGj2U.jpg",
+  "runtime": 124,
+  "title_en": "Merry Christmas, Mr. Lawrence",
+  "title_fr": "Merry Christmas, Mr. Lawrence",
+  "tmdb_id": "11948",
+  "wikidata_id": "Q696855",
+  "year": 1983
+ },
  "gabrielle:2013": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/lh/rv/5j/zo/qbGeHj0oMMoKCHdXPLM5Xi45uwb-1200-1200-675-675-crop-000000.jpg?v=2be566d003",
   "enriched_at": "2026-09-09",
@@ -1875,6 +1912,39 @@
  },
  "hardboiled": {
   "enriched_at": "2026-09-12"
+ },
+ "hardboiled:1992": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xu/qb/2s/ry/hard-boiled-1200-1200-675-675-crop-000000.jpg?v=95347f1c03",
+  "enriched_at": "2026-09-13",
+  "genres": [
+   "Action",
+   "Thriller",
+   "Crime"
+  ],
+  "genres_en": [
+   "Action",
+   "Thriller",
+   "Crime"
+  ],
+  "genres_fr": [
+   "Action",
+   "Thriller",
+   "Crime"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0104684",
+  "letterboxd_rating": 4.2,
+  "letterboxd_url": "https://letterboxd.com/film/hard-boiled/",
+  "letterboxd_votes": 142054,
+  "overview": "En 1997, alors que les Britanniques sont sur le point de rendre à la Chine une Hong-Kong gangrénée par le crime, et alors que bien des policiers ont baissé les bras, un groupe d'inspecteurs inflexibles mené par 'Tequila' Yuen décide de mettre fin à la suprématie des gangs.",
+  "overview_en": "A cop who loses his partner in a shoot-out with gun smugglers goes on a mission to catch them. In order to get closer to the leaders of the ring he joins forces with an undercover cop who's working as a gangster hitman. They use all means of excessive force to find them.",
+  "overview_fr": "En 1997, alors que les Britanniques sont sur le point de rendre à la Chine une Hong-Kong gangrénée par le crime, et alors que bien des policiers ont baissé les bras, un groupe d'inspecteurs inflexibles mené par 'Tequila' Yuen décide de mettre fin à la suprématie des gangs.",
+  "poster": "https://media.themoviedb.org/t/p/w500/mai1O5tLfZO0uObW8ods0szMAjT.jpg",
+  "runtime": 126,
+  "title_en": "Hard Boiled",
+  "title_fr": "À toute épreuve",
+  "tmdb_id": "11782",
+  "year": 1992
  },
  "heartbeats:2010": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/z9/d8/xx/im/heartbeats-1200-1200-675-675-crop-000000.jpg?v=360434c07a",
@@ -3230,6 +3300,9 @@
  "newnewautrenouvellevagueanimationindependantejaponaise": {
   "enriched_at": "2026-09-12"
  },
+ "newnewautrenouvellevagueanimationindependantejaponaise:2021": {
+  "enriched_at": "2026-09-13"
+ },
  "nightlivingdead:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j1/z4/q2/vi/bhgMBDnjG9tIVE3RNCD9YeNJHq5-1200-1200-675-675-crop-000000.jpg?v=42c7601897",
   "enriched_at": "2026-09-09",
@@ -3745,6 +3818,33 @@
   "letterboxd_rating": 3.49,
   "letterboxd_url": "https://letterboxd.com/film/a-losing-game-2025/",
   "letterboxd_votes": 215,
+  "overview": "Les perdants suit trois candidat·es aux élections provinciales d’octobre 2022. Leur point commun: une défaite assurée. À travers leurs campagnes respectives, le film décortique le système électoral et ses nombreux dysfonctionnements: difficultés supplémentaires pour les femmes et les personnes racisées, mode de scrutin déficient, financement inéquitable, poids des médias et des sondages...",
+  "overview_en": "A Losing Game follows three people who ran for office in the 2022 Quebec provincial election, casting a critical eye on its electoral system and the many ways in which it is dysfunctional.",
+  "overview_fr": "Les perdants suit trois candidat·es aux élections provinciales d’octobre 2022. Leur point commun: une défaite assurée. À travers leurs campagnes respectives, le film décortique le système électoral et ses nombreux dysfonctionnements: difficultés supplémentaires pour les femmes et les personnes racisées, mode de scrutin déficient, financement inéquitable, poids des médias et des sondages...",
+  "poster": "https://media.themoviedb.org/t/p/w500/jfNIMsxarLBbQbzg29RDpgVgVqR.jpg",
+  "runtime": 98,
+  "title_en": "A Losing Game",
+  "title_fr": "Les perdants",
+  "tmdb_id": "1415512",
+  "year": 2025
+ },
+ "perdants:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/9/6/3/1/0/1296310-a-losing-game-2025-0-230-0-345-crop.jpg?v=bc4e8c51c8",
+  "enriched_at": "2026-09-13",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt35974089",
+  "letterboxd_rating": 3.48,
+  "letterboxd_url": "https://letterboxd.com/film/a-losing-game-2025/",
+  "letterboxd_votes": 220,
   "overview": "Les perdants suit trois candidat·es aux élections provinciales d’octobre 2022. Leur point commun: une défaite assurée. À travers leurs campagnes respectives, le film décortique le système électoral et ses nombreux dysfonctionnements: difficultés supplémentaires pour les femmes et les personnes racisées, mode de scrutin déficient, financement inéquitable, poids des médias et des sondages...",
   "overview_en": "A Losing Game follows three people who ran for office in the 2022 Quebec provincial election, casting a critical eye on its electoral system and the many ways in which it is dysfunctional.",
   "overview_fr": "Les perdants suit trois candidat·es aux élections provinciales d’octobre 2022. Leur point commun: une défaite assurée. À travers leurs campagnes respectives, le film décortique le système électoral et ses nombreux dysfonctionnements: difficultés supplémentaires pour les femmes et les personnes racisées, mode de scrutin déficient, financement inéquitable, poids des médias et des sondages...",
