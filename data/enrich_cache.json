@@ -277,7 +277,7 @@
   "enriched_at": "2026-09-09"
  },
  "apocalypsecarletournagemariachapdelaine:1983": {
-  "enriched_at": "2026-09-10"
+  "enriched_at": "2026-09-13"
  },
  "apocalypsenowfinalcut:1979": {
   "enriched_at": "2026-09-12"
@@ -638,7 +638,7 @@
   "year": 2025
  },
  "bluewindow:2016": {
-  "enriched_at": "2026-09-10"
+  "enriched_at": "2026-09-13"
  },
  "bolbhaveinnabol": {
   "enriched_at": "2026-09-09"
@@ -3324,6 +3324,36 @@
   "runtime": 78,
   "tmdb_id": "1147971"
  },
+ "nostosilritorno": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xm/s6/rs/e2/nostos-1200-1200-675-675-crop-000000.jpg?v=cbd7d85dd3",
+  "enriched_at": "2026-09-13",
+  "genres": [
+   "Drame",
+   "Aventure"
+  ],
+  "genres_en": [
+   "Drama",
+   "Adventure"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Aventure"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0100271",
+  "letterboxd_rating": 4.14,
+  "letterboxd_url": "https://letterboxd.com/film/nostos-the-return/",
+  "letterboxd_votes": 7224,
+  "overview": "At the end of the war, Odysseus, the wandering hero, with his companions begins his sail back home to the Mediterranean. The conclusion of his adventure is delayed by many natural obstacles and he takes an internal journey of fleeting memories of his childhood, his parents, love for a beautiful girl, nostalgia for the past, regret for what he did, and the deep silence that envelops everything. He confronts the most terrible loneliness following a shipwreck in which all the comrades perish.",
+  "overview_en": "At the end of the war, Odysseus, the wandering hero, with his companions begins his sail back home to the Mediterranean. The conclusion of his adventure is delayed by many natural obstacles and he takes an internal journey of fleeting memories of his childhood, his parents, love for a beautiful girl, nostalgia for the past, regret for what he did, and the deep silence that envelops everything. He confronts the most terrible loneliness following a shipwreck in which all the comrades perish.",
+  "overview_fr": "At the end of the war, Odysseus, the wandering hero, with his companions begins his sail back home to the Mediterranean. The conclusion of his adventure is delayed by many natural obstacles and he takes an internal journey of fleeting memories of his childhood, his parents, love for a beautiful girl, nostalgia for the past, regret for what he did, and the deep silence that envelops everything. He confronts the most terrible loneliness following a shipwreck in which all the comrades perish.",
+  "poster": "https://media.themoviedb.org/t/p/w500/kKNUsI1DUmggpRgx4wpCtKKkEwB.jpg",
+  "runtime": 88,
+  "title_en": "Nostos: The Return",
+  "title_fr": "Nostos: The Return",
+  "tmdb_id": "237957",
+  "year": 1990
+ },
  "oasisdontlookbackanger": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/2/4/2/3/8/tmdb/7Ud7QIJo21odjCaev6V4md9sK16-1200-1200-675-675-crop-000000.jpg?v=0e27dead37",
   "enriched_at": "2026-09-09",
@@ -4958,11 +4988,45 @@
   "tmdb_id": "270886",
   "year": 2014
  },
+ "twentyyearsmetcinemascelebration": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/4/4/2/9/1564429-twenty-years-of-the-met-in-cinemas-an-anniversary-0-230-0-345-crop.jpg?v=931ee900b6",
+  "enriched_at": "2026-09-13",
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/twenty-years-of-the-met-in-cinemas-an-anniversary/",
+  "poster": "https://media.themoviedb.org/t/p/w500/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg",
+  "title_en": "Twenty Years of the Met in Cinemas: An Anniversary Celebration",
+  "title_fr": "Twenty Years of the Met in Cinemas: An Anniversary Celebration",
+  "tmdb_id": "1703617",
+  "year": 2026
+ },
  "twentyyearsmetcinemascelebrationanglaisavecstfrmetropolitanopera": {
-  "enriched_at": "2026-09-10"
+  "enriched_at": "2026-09-13"
  },
  "twentyyearsmetcinemascelebrationenglishwestmetropolitanopera": {
-  "enriched_at": "2026-09-10"
+  "enriched_at": "2026-09-13"
+ },
+ "ufc331": {
+  "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
+  "enriched_at": "2026-09-13",
+  "genres": [
+   "Action"
+  ],
+  "genres_en": [
+   "Action"
+  ],
+  "genres_fr": [
+   "Action"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/tmdb/1751676/",
+  "overview": "UFC 331: Van vs. Pantoja 2 (branded as Crypto.com UFC 331 for sponsorship reasons) is an upcoming mixed martial arts event produced by the Ultimate Fighting Championship that is scheduled to take place on September 19, 2026, at the Crypto.com Arena in Los Angeles, California, United States.",
+  "overview_en": "UFC 331: Van vs. Pantoja 2 (branded as Crypto.com UFC 331 for sponsorship reasons) is an upcoming mixed martial arts event produced by the Ultimate Fighting Championship that is scheduled to take place on September 19, 2026, at the Crypto.com Arena in Los Angeles, California, United States.",
+  "overview_fr": "UFC 331: Van vs. Pantoja 2 (branded as Crypto.com UFC 331 for sponsorship reasons) is an upcoming mixed martial arts event produced by the Ultimate Fighting Championship that is scheduled to take place on September 19, 2026, at the Crypto.com Arena in Los Angeles, California, United States.",
+  "poster": "https://media.themoviedb.org/t/p/w500/dhlxwlMxTdLzTe3Ebq4xWg1Bl8t.jpg",
+  "title_en": "UFC 331: Van vs. Pantoja 2",
+  "title_fr": "UFC 331: Van vs. Pantoja 2",
+  "tmdb_id": "1751676",
+  "year": 2026
  },
  "uprising": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cs/s4/la/gk/uprising-1200-1200-675-675-crop-000000.jpg?v=b9a5bdc65d",
