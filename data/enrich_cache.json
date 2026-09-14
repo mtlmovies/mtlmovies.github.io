@@ -2490,6 +2490,36 @@
   "tmdb_id": "16328",
   "year": 1971
  },
+ "justeillusion:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/n1/4r/kd/lt/just%20a-1200-1200-675-675-crop-000000.jpg?v=f95e6cce8a",
+  "enriched_at": "2026-09-14",
+  "genres": [
+   "Comédie",
+   "Drame"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36842933",
+  "letterboxd_rating": 3.81,
+  "letterboxd_url": "https://letterboxd.com/film/just-an-illusion-2026/",
+  "letterboxd_votes": 59331,
+  "overview": "In 1985 suburban Paris, 12-year-old Vincent lives with his distant older brother and quarrelling parents. Amid laughter and unease, he navigates friendship and first love, while beginning to confront the adult world.",
+  "overview_en": "In 1985 suburban Paris, 12-year-old Vincent lives with his distant older brother and quarrelling parents. Amid laughter and unease, he navigates friendship and first love, while beginning to confront the adult world.",
+  "overview_fr": "In 1985 suburban Paris, 12-year-old Vincent lives with his distant older brother and quarrelling parents. Amid laughter and unease, he navigates friendship and first love, while beginning to confront the adult world.",
+  "poster": "https://media.themoviedb.org/t/p/w500/eWPq3wSvJEMakESTXzaBECUNBYr.jpg",
+  "runtime": 119,
+  "title_en": "Just an Illusion",
+  "title_fr": "Juste une illusion",
+  "tmdb_id": "1404684",
+  "year": 2026
+ },
  "kagemushaombreguerrier:1980": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j5/ws/62/s0/kagemusha-1200-1200-675-675-crop-000000.jpg?v=ef20a6a239",
   "enriched_at": "2026-09-09",
