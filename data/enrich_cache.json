@@ -453,7 +453,7 @@
   "year": 2006
  },
  "bagnoles2oe": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "barriotriste": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/9/1/7/1/5/tmdb/3AhCk3cEiHjtXFLFw2Ewj7ZQdqH-1200-1200-675-675-crop-000000.jpg?v=2db32397f9",
@@ -594,7 +594,7 @@
   "year": 2026
  },
  "bethlehemkudumbaunitmalayalam": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "bethlehemkudumbaunitmalengsub": {
   "enriched_at": "2026-09-09"
@@ -787,7 +787,7 @@
   "year": 2026
  },
  "buddyspecialeventpricing": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "byanymeans": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/a8/w9/h0/k9/1jANqIbqrWJZb8GM5Kb3L6U8iHi-1200-1200-675-675-crop-000000.jpg?v=93e6be2389",
@@ -2059,7 +2059,7 @@
   "year": 2026
  },
  "haiwaanhindi": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "haiwaanhinengsub": {
   "enriched_at": "2026-09-09"
@@ -2375,7 +2375,7 @@
   "enriched_at": "2026-09-15"
  },
  "imgamemalayalam": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "incendies:2010": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xc/7a/mq/v8/incendies-1200-1200-675-675-crop-000000.jpg?v=916978c613",
@@ -3089,7 +3089,7 @@
   "enriched_at": "2026-09-09"
  },
  "mandaaditamil": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "manwhofelltoearth:1976": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/v3/am/ij/mi/man-1200-1200-675-675-crop-000000.jpg?v=99ebb38991",
@@ -4448,6 +4448,17 @@
   "wikidata_id": "Q140484908",
   "year": null
  },
+ "redflag": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/1/1/4/1/8/1511418-meerjungmann-0-230-0-345-crop.jpg?v=f914dc1ea0",
+  "enriched_at": "2026-09-15",
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/meerjungmann/",
+  "poster": "https://media.themoviedb.org/t/p/w500/nLrsVt77ASwp1MHd85eXI2UEP64.jpg",
+  "tmdb_id": "1647086"
+ },
+ "redflagarabic": {
+  "enriched_at": "2026-09-15"
+ },
  "regarddulysse:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9o/xn/pn/3u/ulysses%20gaze-1200-1200-675-675-crop-000000.jpg?v=b7e515a0d5",
   "enriched_at": "2026-09-09",
@@ -4802,7 +4813,7 @@
   "enriched_at": "2026-09-09"
  },
  "sardar2tamil": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "secretmesanges": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/8/8/4/890884-the-songbirds-secret-0-230-0-345-crop.jpg?v=ee8f0b84f5",
@@ -4858,6 +4869,40 @@
  },
  "shaunmoutonbeeeteferme": {
   "enriched_at": "2026-09-14"
+ },
+ "shaunsheepbeastmossybottom": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
+  "enriched_at": "2026-09-15",
+  "genres": [
+   "Animation",
+   "Comédie",
+   "Familial",
+   "Aventure"
+  ],
+  "genres_en": [
+   "Animation",
+   "Comedy",
+   "Family",
+   "Adventure"
+  ],
+  "genres_fr": [
+   "Animation",
+   "Comédie",
+   "Familial",
+   "Aventure"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36841161",
+  "letterboxd_url": "https://letterboxd.com/film/shaun-the-sheep-the-beast-of-mossy-bottom/",
+  "overview": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
+  "overview_en": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
+  "overview_fr": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
+  "poster": "https://media.themoviedb.org/t/p/w500/poG8LaprHjz2Ka0c6zCvDrVjEUq.jpg",
+  "runtime": 81,
+  "title_en": "Shaun the Sheep: The Beast of Mossy Bottom",
+  "title_fr": "Shaun the Sheep: The Beast of Mossy Bottom",
+  "tmdb_id": "1477104",
+  "year": 2026
  },
  "sheepdetectives": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/76/w9/hj/wo/g6uEVedSBXsZ3QuXKP4WDCeSsOy%20(1)-1200-1200-675-675-crop-000000.jpg?v=08bcff0341",
