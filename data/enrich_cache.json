@@ -26,7 +26,7 @@
   "year": 2026
  },
  "15nov": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "6portraitsneorealistes": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/8/4/9/2/8/1484928-6-portraits-neorealistes-0-230-0-345-crop.jpg?v=7751933a06",
@@ -114,7 +114,7 @@
   "year": 2026
  },
  "akirarerelease": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "akirarereleaseexperience": {
   "enriched_at": "2026-09-09"
@@ -207,7 +207,7 @@
   "year": 2026
  },
  "amoursimpossibles:1980": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "andrerieus2026summerconcertvivamaastricht": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/4/1/8/2/1564182-andre-rieus-2026-summer-concert-viva-maastricht-0-230-0-345-crop.jpg?v=e0c7c1bf86",
@@ -280,7 +280,7 @@
   "enriched_at": "2026-09-13"
  },
  "apocalypsenowfinalcut:1979": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "arbreauxsabots:1978": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0w/lc/fc/qx/the-tree-of-wooden-clogs-1200-1200-675-675-crop-000000.jpg?v=9ab7ba0a70",
@@ -365,6 +365,9 @@
   "tmdb_id": "1101383",
   "year": 2026
  },
+ "aucoeurbete": {
+  "enriched_at": "2026-09-15"
+ },
  "audition:1999": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/qc/fp/8g/nx/audition-1200-1200-675-675-crop-000000.jpg?v=3b73fff95d",
   "enriched_at": "2026-09-09",
@@ -399,6 +402,12 @@
   "tmdb_id": "",
   "wikidata_id": "Q141005271",
   "year": null
+ },
+ "avengersendgame": {
+  "enriched_at": "2026-09-15"
+ },
+ "avengersendgameexperience": {
+  "enriched_at": "2026-09-15"
  },
  "backrooms:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/7/6/4/1/9/tmdb/nwlTTCHTIBtkvb70762Ug25khlV-1200-1200-675-675-crop-000000.jpg?v=ffeffd44cc",
@@ -473,10 +482,10 @@
   "year": 2026
  },
  "bataillegaulleliberte:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "bataillegaulleresistance:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "beans:2021": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dd/jt/zz/9y/beans-1200-1200-675-675-crop-000000.jpg?v=8e30e63657",
@@ -502,6 +511,31 @@
   "tmdb_id": "726220",
   "wikidata_id": "Q97959512",
   "year": 2020
+ },
+ "bestwayisbyaccident": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/3/5/7/6/1443576-the-best-way-is-by-accident-0-230-0-345-crop.jpg?v=cf3c7b169b",
+  "enriched_at": "2026-09-15",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt42353729",
+  "letterboxd_url": "https://letterboxd.com/film/the-best-way-is-by-accident/",
+  "overview": "Après la mort de son père adoptif, une jeune cinéaste replonge dans ses archives vidéo pour finalement réaliser qu’elle ne l’a jamais filmé – sauf une fois, par accident. Maintenant à l’aube de la fin du monde, elle veille à filmer l’extraordinaire dans l’ordinaire… lui aussi voué à disparaître.",
+  "overview_en": "After the death of her adoptive father, a young filmmaker delves into his video archives only to realize that she never filmed him—except once, by accident. As the end of the world approaches, she now sets out to capture the extraordinary in the ordinary… which, too, is destined to disappear.",
+  "overview_fr": "Après la mort de son père adoptif, une jeune cinéaste replonge dans ses archives vidéo pour finalement réaliser qu’elle ne l’a jamais filmé – sauf une fois, par accident. Maintenant à l’aube de la fin du monde, elle veille à filmer l’extraordinaire dans l’ordinaire… lui aussi voué à disparaître.",
+  "poster": "https://media.themoviedb.org/t/p/w500/xqlXPtOj3YIVERreVbDw62als44.jpg",
+  "runtime": 111,
+  "title_en": "The Best Way Is by Accident",
+  "title_fr": "La meilleure façon, c'est par accident",
+  "tmdb_id": "1571076",
+  "year": 2026
  },
  "bestyearsourlives:1946": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kq/rl/hd/wf/bestyears-1200-1200-675-675-crop-000000.jpg?v=ccd5eeb1fd",
@@ -572,7 +606,7 @@
   "enriched_at": "2026-09-13"
  },
  "blackeagles": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "blackzombie:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/9/6/2/8/3/1496283-black-zombie-0-230-0-345-crop.jpg?v=4cedf49e9a",
@@ -807,6 +841,34 @@
   "title_en": "Call of My Life",
   "title_fr": "Call of My Life",
   "tmdb_id": "1659503",
+  "year": 2026
+ },
+ "cameronwinteratcarnegiehall": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/lz/1f/ly/ui/uCgPElnLyK1ENKFiniuEPQTGWI9-1200-1200-675-675-crop-000000.jpg?v=fc10c46f68",
+  "enriched_at": "2026-09-15",
+  "genres": [
+   "Musique",
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Music",
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Musique",
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt44879019",
+  "letterboxd_url": "https://letterboxd.com/film/cameron-winter-at-carnegie-hall/",
+  "overview": "A concert film documenting Cameron Winter's sold-out performance at Carnegie Hall.",
+  "overview_en": "A concert film documenting Cameron Winter's sold-out performance at Carnegie Hall.",
+  "overview_fr": "A concert film documenting Cameron Winter's sold-out performance at Carnegie Hall.",
+  "poster": "https://media.themoviedb.org/t/p/w500/sQt2KQWkpGb79UKlCJNJ2BKobjo.jpg",
+  "runtime": 75,
+  "title_en": "Cameron Winter at Carnegie Hall",
+  "title_fr": "Cameron Winter at Carnegie Hall",
+  "tmdb_id": "1597242",
   "year": 2026
  },
  "carrie:1976": {
@@ -1086,7 +1148,7 @@
   "enriched_at": "2026-09-09"
  },
  "colony": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "colorpomegranatesstaffpicks:1969": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kq/7d/as/nu/the-color-of-pomegranates-1200-1200-675-675-crop-000000.jpg?v=aa00f006dc",
@@ -1194,6 +1256,39 @@
   "tmdb_id": "1356039",
   "year": 2025
  },
+ "contrebandiers:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/9/3/5/tmdb/zLeq2fbHU6UdA7mhsYnIULORTgq-1200-1200-675-675-crop-000000.jpg?v=50b4186d50",
+  "enriched_at": "2026-09-15",
+  "genres": [
+   "Drame",
+   "Thriller",
+   "Crime"
+  ],
+  "genres_en": [
+   "Drama",
+   "Thriller",
+   "Crime"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Thriller",
+   "Crime"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt10794054",
+  "letterboxd_rating": 3.46,
+  "letterboxd_url": "https://letterboxd.com/film/the-weight-2026/",
+  "letterboxd_votes": 7947,
+  "overview": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he’ll win his freedom.",
+  "overview_en": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he’ll win his freedom.",
+  "overview_fr": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he’ll win his freedom.",
+  "poster": "https://media.themoviedb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
+  "runtime": 112,
+  "title_en": "The Weight",
+  "title_fr": "The Weight",
+  "tmdb_id": "1433583",
+  "year": 2026
+ },
  "coyotevsacme": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ci/qq/vp/cm/coyote-1200-1200-675-675-crop-000000.jpg?v=e21dafdd5b",
   "enriched_at": "2026-09-09",
@@ -1223,13 +1318,13 @@
   "year": 2026
  },
  "crunchyrollanimenightssneakpeek": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "danemarkilesferoeroyaumebonheur": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "dearyou": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "dig:2004": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/yt/ml/74/1p/dig-1200-1200-675-675-crop-000000.jpg?v=44cfb417b7",
@@ -1409,7 +1504,27 @@
   "year": 2009
  },
  "enavantmusique:1982": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
+ },
+ "endirect": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/1/3/3/4/3/1613343-solidarite-incendies-le-grand-concert-en-0-230-0-345-crop.jpg?v=23a33c9eca",
+  "enriched_at": "2026-09-15",
+  "genres": [
+   "Musique"
+  ],
+  "genres_en": [
+   "Music"
+  ],
+  "genres_fr": [
+   "Musique"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/solidarite-incendies-le-grand-concert-en/",
+  "poster": "https://media.themoviedb.org/t/p/w500/rKm9CrwbhbKd0dAmC6iFWgvTod8.jpg",
+  "title_en": "Solidarité Incendies - Le Grand Concert en direct",
+  "title_fr": "Solidarité Incendies - Le Grand Concert en direct",
+  "tmdb_id": "1747721",
+  "year": 2026
  },
  "endoakstreet": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/9/2/9/6/2/tmdb/mJDCrEFKHUqoZe4xyI8CE47pw7P-1200-1200-675-675-crop-000000.jpg?v=8ab201f560",
@@ -1440,7 +1555,7 @@
   "year": 2026
  },
  "enqueteverite:1979": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "espoir": {
   "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
@@ -1546,10 +1661,13 @@
   "year": 1995
  },
  "festivalsatellitesprogram1:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "festivalsatellitesprogram2:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
+ },
+ "filfilmjusteillusion:2026": {
+  "enriched_at": "2026-09-15"
  },
  "fillesroi:2023": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/6/2/0/9/5/1062095-les-filles-du-roi-0-230-0-345-crop.jpg?v=4371303c1e",
@@ -1563,40 +1681,40 @@
   "year": 2023
  },
  "filmpopagridulce:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmpopaki:2025": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmpopbuttholesurfersholetruthnothingbutt:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmpopiamtryingtobreakyourheartfilmaboutwilco:2002": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmpopimaginaldisk:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmpopkanatenhswhenpineneedlesfall:2023": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmpoppulpwhatdoyoudofor:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmpopsummer2000xcetrastory:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmpopturnitup:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmpopweareshaggs:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmpopxoxwantstobepopstar": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "filmslaureatsfare": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "findingemily": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/3/4/3/9/8/tmdb/5E1Mz14VaUDxe5K28HEkXNnysW-1200-1200-675-675-crop-000000.jpg?v=6734068b89",
@@ -1671,6 +1789,42 @@
   "title_fr": "Et pour quelques dollars de plus",
   "tmdb_id": "938",
   "year": 1965
+ },
+ "forgottenisland": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ti/lc/c6/03/eYvHMdFl1Qp0o810lCsRtjfs2sY-1200-1200-675-675-crop-000000.jpg?v=a68fd5db00",
+  "enriched_at": "2026-09-15",
+  "genres": [
+   "Animation",
+   "Aventure",
+   "Fantastique",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Animation",
+   "Adventure",
+   "Fantasy",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Animation",
+   "Aventure",
+   "Fantastique",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36583977",
+  "letterboxd_rating": 3.76,
+  "letterboxd_url": "https://letterboxd.com/film/forgotten-island-2026/",
+  "letterboxd_votes": 5811,
+  "overview": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+  "overview_en": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+  "overview_fr": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+  "poster": "https://media.themoviedb.org/t/p/w500/cJcOqukOclDsim9Li5fCrquqtsZ.jpg",
+  "runtime": 109,
+  "title_en": "Forgotten Island",
+  "title_fr": "Forgotten Island",
+  "tmdb_id": "1465063",
+  "year": 2026
  },
  "francoise:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/6/0/3/7/6/1360376-francoise-2026-0-230-0-345-crop.jpg?v=977cb6f189",
@@ -1752,7 +1906,7 @@
   "year": 2013
  },
  "gaulleliberty": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "ghost2bigtorig": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/5/3/4/2/1555342-2-big-to-rig-0-230-0-345-crop.jpg?v=4a41c3cc91",
@@ -1769,7 +1923,7 @@
   "year": 2026
  },
  "ghostbusters": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "ghostshell30th": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/k2/5y/em/z6/ghost-in-the-shell-1200-1200-675-675-crop-000000.jpg?v=99a1bf740b",
@@ -1800,10 +1954,10 @@
   "year": 1995
  },
  "ghostshell:1995": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "ginochouinardauxilesguadeloupe": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "goodbadugly60th:1966": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/07/zz/2k/vy/the-good-the-bad-and-the-ugly-1200-1200-675-675-crop-000000.jpg?v=6fdc9111b0",
@@ -1946,6 +2100,34 @@
   "tmdb_id": "11782",
   "year": 1992
  },
+ "heartbeast": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/4/7/4/6/8/1147468-heart-of-the-beast-2026-0-230-0-345-crop.jpg?v=9503afe033",
+  "enriched_at": "2026-09-15",
+  "genres": [
+   "Aventure",
+   "Thriller"
+  ],
+  "genres_en": [
+   "Adventure",
+   "Thriller"
+  ],
+  "genres_fr": [
+   "Aventure",
+   "Thriller"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt7526136",
+  "letterboxd_url": "https://letterboxd.com/film/heart-of-the-beast-2026/",
+  "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+  "overview_en": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+  "overview_fr": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+  "poster": "https://media.themoviedb.org/t/p/w500/fFruf8qH9oS3etjFrfWK3NuUJBR.jpg",
+  "runtime": 101,
+  "title_en": "Heart of the Beast",
+  "title_fr": "Heart of the Beast",
+  "tmdb_id": "1263337",
+  "year": 2026
+ },
  "heartbeats:2010": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/z9/d8/xx/im/heartbeats-1200-1200-675-675-crop-000000.jpg?v=360434c07a",
   "enriched_at": "2026-09-09",
@@ -1991,7 +2173,7 @@
   "tmdb_id": "1536950"
  },
  "heritiers:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "histoirejouets5": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/95/lo/so/uy/1WAxiCSwgPAKlOGrqbCdks0A1NI-1200-1200-675-675-crop-000000.jpg?v=6787fc1781",
@@ -2153,8 +2335,44 @@
   "tmdb_id": "11654",
   "year": 1983
  },
+ "ileoubli": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ti/lc/c6/03/eYvHMdFl1Qp0o810lCsRtjfs2sY-1200-1200-675-675-crop-000000.jpg?v=a68fd5db00",
+  "enriched_at": "2026-09-15",
+  "genres": [
+   "Animation",
+   "Aventure",
+   "Fantastique",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Animation",
+   "Adventure",
+   "Fantasy",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Animation",
+   "Aventure",
+   "Fantastique",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36583977",
+  "letterboxd_rating": 3.76,
+  "letterboxd_url": "https://letterboxd.com/film/forgotten-island-2026/",
+  "letterboxd_votes": 5811,
+  "overview": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+  "overview_en": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+  "overview_fr": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+  "poster": "https://media.themoviedb.org/t/p/w500/cJcOqukOclDsim9Li5fCrquqtsZ.jpg",
+  "runtime": 109,
+  "title_en": "Forgotten Island",
+  "title_fr": "Forgotten Island",
+  "tmdb_id": "1465063",
+  "year": 2026
+ },
  "ilpaesevillage": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-12"
@@ -2188,7 +2406,7 @@
   "year": 2010
  },
  "inheritors:2023": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "insidieuxhorsplusloin": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
@@ -2378,7 +2596,7 @@
   "enriched_at": "2026-09-09"
  },
  "islandeveloaugrevent": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "itends:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6s/nw/3k/i2/blIQ1Xlc3gfOHqWc67ULnyYGEAe-1200-1200-675-675-crop-000000.jpg?v=68470cf57d",
@@ -2962,7 +3180,7 @@
   "year": 2001
  },
  "marsexpress": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "medecinamericain:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/6/4/9/3/2/tmdb/yzNoanH2Jfn5bj7d6reKeaAbd4S-1200-1200-675-675-crop-000000.jpg?v=0562e8da20",
@@ -3000,7 +3218,7 @@
   "year": 2026
  },
  "memoiresprincessemumbi:2025": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "memoiresprincessemumbi:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/5/8/8/6/tmdb/knhbKdKeJcDH6SegNC57si0UuGk-1200-1200-675-675-crop-000000.jpg?v=3a8c39d388",
@@ -3088,8 +3306,72 @@
   "tmdb_id": "1315772",
   "year": 2026
  },
+ "mirror": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jm/ln/y7/xx/mirror-mirror-2012-1200-1200-675-675-crop-000000.jpg?v=7b5a5b3b2b",
+  "enriched_at": "2026-09-15",
+  "genres": [
+   "Aventure",
+   "Comédie",
+   "Familial",
+   "Fantastique"
+  ],
+  "genres_en": [
+   "Adventure",
+   "Comedy",
+   "Family",
+   "Fantasy"
+  ],
+  "genres_fr": [
+   "Aventure",
+   "Comédie",
+   "Familial",
+   "Fantastique"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt1667353",
+  "letterboxd_rating": 3.0,
+  "letterboxd_url": "https://letterboxd.com/film/mirror-mirror-2012/",
+  "letterboxd_votes": 172262,
+  "overview": "À la mort de son père le roi, Blanche-Neige est prise en charge par son affreuse belle-mère, qui règne maintenant sur le royaume. Le jour de ses 18 ans, Blanche-Neige désobéit à sa tutrice et fait la rencontre d'un prince charmant dans la forêt. Comme punition, elle est abandonnée dans le bois par le serviteur de la Reine, qui est incapable de la tuer. Dans cette forêt enchantée, elle fait la connaissance de sept nains aux caractères hétéroclites qui lui apprennent à se défendre et à gagner de la confiance en elle pour affronter ses ennemis et reprendre son trône, tandis que la reine tente d'épouser le prince.",
+  "overview_en": "After she spends all her money, an evil enchantress queen schemes to marry a handsome, wealthy prince. There's just one problem - he's in love with a beautiful princess, Snow White. Now, joined by seven rebellious dwarves, Snow White launches an epic battle of good vs. evil...",
+  "overview_fr": "À la mort de son père le roi, Blanche-Neige est prise en charge par son affreuse belle-mère, qui règne maintenant sur le royaume. Le jour de ses 18 ans, Blanche-Neige désobéit à sa tutrice et fait la rencontre d'un prince charmant dans la forêt. Comme punition, elle est abandonnée dans le bois par le serviteur de la Reine, qui est incapable de la tuer. Dans cette forêt enchantée, elle fait la connaissance de sept nains aux caractères hétéroclites qui lui apprennent à se défendre et à gagner de la confiance en elle pour affronter ses ennemis et reprendre son trône, tandis que la reine tente d'épouser le prince.",
+  "poster": "https://media.themoviedb.org/t/p/w500/5452sWlOzAHWZXaB0Whp6qln0V4.jpg",
+  "runtime": 106,
+  "title_en": "Mirror Mirror",
+  "title_fr": "Miroir, Miroir",
+  "tmdb_id": "62764",
+  "year": 2012
+ },
  "mirzapurmovie": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
+ },
+ "misanthropenationaltheatrelive": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/6/2/0/6/1556206-national-theatre-live-the-misanthrope-0-230-0-345-crop.jpg?v=d0b16cfaca",
+  "enriched_at": "2026-09-15",
+  "genres": [
+   "Drame",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Drama",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt42715304",
+  "letterboxd_url": "https://letterboxd.com/film/national-theatre-live-the-misanthrope/",
+  "overview": "Alice, a brilliant novelist, despises the hollow contemporary mantras of kindness and respect. But the bolder she becomes in speaking out, the more colleagues avoid her, and the more her personal relationships begin to fracture. As she challenges fashionable ideas and lends her voice to causes others are afraid to touch, she faces intense criticism and backlash. Alice will soon learn the price she must pay as an artist and as a woman for daring to speak her mind. Award-winner Sandra Oh is the Misanthrope in Martin Crimp's cutting new version of Molière's dark comedy, directed by National Theatre Director Indhu Rubasingham.",
+  "overview_en": "Alice, a brilliant novelist, despises the hollow contemporary mantras of kindness and respect. But the bolder she becomes in speaking out, the more colleagues avoid her, and the more her personal relationships begin to fracture. As she challenges fashionable ideas and lends her voice to causes others are afraid to touch, she faces intense criticism and backlash. Alice will soon learn the price she must pay as an artist and as a woman for daring to speak her mind. Award-winner Sandra Oh is the Misanthrope in Martin Crimp's cutting new version of Molière's dark comedy, directed by National Theatre Director Indhu Rubasingham.",
+  "overview_fr": "Alice, a brilliant novelist, despises the hollow contemporary mantras of kindness and respect. But the bolder she becomes in speaking out, the more colleagues avoid her, and the more her personal relationships begin to fracture. As she challenges fashionable ideas and lends her voice to causes others are afraid to touch, she faces intense criticism and backlash. Alice will soon learn the price she must pay as an artist and as a woman for daring to speak her mind. Award-winner Sandra Oh is the Misanthrope in Martin Crimp's cutting new version of Molière's dark comedy, directed by National Theatre Director Indhu Rubasingham.",
+  "poster": "https://media.themoviedb.org/t/p/w500/d9IOrH7HY4Q5fMNAxq3NtVwGfLM.jpg",
+  "runtime": 150,
+  "title_en": "National Theatre Live: The Misanthrope",
+  "title_fr": "National Theatre Live: The Misanthrope",
+  "tmdb_id": "1693710",
+  "year": 2026
  },
  "mllebottine:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/0/4/0/890040-miss-boots-0-230-0-345-crop.jpg?v=5b4bd3c02f",
@@ -3174,7 +3456,7 @@
   "year": 2014
  },
  "mondaysurprisepremieres": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "mortician": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/8/4/1/3/1/184131-mortician-0-230-0-345-crop.jpg?v=5b02f98a6e",
@@ -3698,7 +3980,7 @@
   "year": 2026
  },
  "passionchrist": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "patpatrouillefilmmissiondino": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
@@ -3912,7 +4194,7 @@
   "year": 1998
  },
  "perspectivessourdestourne": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "petitevieux": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/7/1/2/1081712-blue-sky-jo-0-230-0-345-crop.jpg?v=9dc98a6baf",
@@ -3967,7 +4249,7 @@
   "year": 1940
  },
  "photosaigoncoupsfeusurdeuxvies:2026": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "place:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/7/9/3/5/1/1579351-the-parking-spot-2026-0-230-0-345-crop.jpg?v=f3ff0333aa",
@@ -4089,22 +4371,22 @@
   "enriched_at": "2026-09-14"
  },
  "qcc29marlonriggsdoublefeature": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "qcc30whateverhappenedtobabyjane:1962": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "qcc31peeweesbigadventure:1985": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "qcc32inconnulac:2013": {
   "enriched_at": "2026-09-14"
  },
  "qepcshortfilmsshowcase": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "quebecduplessisapres": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "rashomon:1950": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fj/p1/fz/8h/rashomon-1200-1200-675-675-crop-000000.jpg?v=be65ddef83",
@@ -4135,7 +4417,7 @@
   "year": 1950
  },
  "redballonwhitemanepetitsmodernes:1953": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "redemptions:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/7/0/1/6/1567016-redemptions-0-230-0-345-crop.jpg?v=9ec64b0beb",
@@ -4243,7 +4525,7 @@
   "year": 2026
  },
  "revedafrique": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "revolte": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cs/s4/la/gk/uprising-1200-1200-675-675-crop-000000.jpg?v=b9a5bdc65d",
@@ -4658,7 +4940,7 @@
   "year": 2022
  },
  "singhvskaur2": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "sphinx:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/8/0/5/0/4/280504-le-sphinx-0-230-0-345-crop.jpg?v=183ccda635",
@@ -4949,7 +5231,7 @@
   "year": 2026
  },
  "theaterthought:2022": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "tony:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/va/ir/j7/p7/bOqTOVkHAL4z87P0Opf6q5mIeRy-1200-1200-675-675-crop-000000.jpg?v=ac8d6352de",
@@ -5243,7 +5525,7 @@
   "year": 2000
  },
  "vampirehumanistecherchesuicidaireconsentant": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "vertige2": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/9/3/2/4/7/tmdb/iAlOJ7KUyZffBJBHf8nhXlrqGdY-1200-1200-675-675-crop-000000.jpg?v=4df19174ba",
@@ -5430,7 +5712,7 @@
   "year": 2026
  },
  "virginsuicidescinetricot:1999": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "vishwanathsons": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/e3/na/5a/p2/sd0RKOpnqESIWxU3sZwZhBsgAHl-1200-1200-675-675-crop-000000.jpg?v=996de8cf5e",
@@ -5475,7 +5757,7 @@
   "year": 2025
  },
  "wallacegromitclassicshorts:1996": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  },
  "wrong:2012": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0c/ie/fz/9l/wrong-1200-1200-675-675-crop-000000.jpg?v=648ff8ca5f",
@@ -5505,6 +5787,6 @@
   "year": 2012
  },
  "ziggystardustspidersfrommars:1979": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-15"
  }
 }
