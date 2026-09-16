@@ -220,6 +220,9 @@
   "tmdb_id": "1702801",
   "year": 2026
  },
+ "animazemontrealinternationalanimationfestival": {
+  "enriched_at": "2026-09-16"
+ },
  "antigone:2019": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9l/qx/gl/gd/anitgone-1200-1200-675-675-crop-000000.jpg?v=8d84c0c65a",
   "enriched_at": "2026-09-09",
@@ -277,7 +280,7 @@
   "enriched_at": "2026-09-09"
  },
  "apocalypsecarletournagemariachapdelaine:1983": {
-  "enriched_at": "2026-09-13"
+  "enriched_at": "2026-09-16"
  },
  "apocalypsenowfinalcut:1979": {
   "enriched_at": "2026-09-15"
@@ -603,10 +606,37 @@
   "enriched_at": "2026-09-12"
  },
  "billie:2025": {
-  "enriched_at": "2026-09-13"
+  "enriched_at": "2026-09-16"
  },
  "blackeagles": {
   "enriched_at": "2026-09-15"
+ },
+ "blackeagles:2021": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jk/bx/4m/uk/black-1200-1200-675-675-crop-000000.jpg?v=6ada283e15",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt14149744",
+  "letterboxd_rating": 3.71,
+  "letterboxd_url": "https://letterboxd.com/film/black-eagles/",
+  "letterboxd_votes": 1196,
+  "overview": "The documentary Schwarze Adler (Black Eagles) lets black players of the German national football team tell their personal stories for the first time. What road did they take before they got to where we cheer for them? What hurdles did they have to overcome? What prejudices and racist hostility were they exposed to – and what was it like in the past, what is it like today?",
+  "overview_en": "The documentary Schwarze Adler (Black Eagles) lets black players of the German national football team tell their personal stories for the first time. What road did they take before they got to where we cheer for them? What hurdles did they have to overcome? What prejudices and racist hostility were they exposed to – and what was it like in the past, what is it like today?",
+  "overview_fr": "The documentary Schwarze Adler (Black Eagles) lets black players of the German national football team tell their personal stories for the first time. What road did they take before they got to where we cheer for them? What hurdles did they have to overcome? What prejudices and racist hostility were they exposed to – and what was it like in the past, what is it like today?",
+  "poster": "https://media.themoviedb.org/t/p/w500/ex43MgaNo504DrG5IQWhSoxRI57.jpg",
+  "runtime": 102,
+  "title_en": "Black Eagles",
+  "title_fr": "Black Eagles",
+  "tmdb_id": "818563",
+  "year": 2021
  },
  "blackzombie:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/9/6/2/8/3/1496283-black-zombie-0-230-0-345-crop.jpg?v=4cedf49e9a",
@@ -675,7 +705,7 @@
   "year": 2025
  },
  "bluewindow:2016": {
-  "enriched_at": "2026-09-13"
+  "enriched_at": "2026-09-16"
  },
  "bolbhaveinnabol": {
   "enriched_at": "2026-09-09"
@@ -1118,6 +1148,39 @@
   "tmdb_id": "9589",
   "year": 1981
  },
+ "chronovisor:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/6/7/7/8/4/tmdb/xbp6MM3ZIL7neN7qLk8pp0t0eOj-1200-1200-675-675-crop-000000.jpg?v=07d5de2e38",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Mystère",
+   "Science-Fiction",
+   "Horreur"
+  ],
+  "genres_en": [
+   "Mystery",
+   "Science Fiction",
+   "Horror"
+  ],
+  "genres_fr": [
+   "Mystère",
+   "Science-Fiction",
+   "Horreur"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt39196981",
+  "letterboxd_rating": 3.81,
+  "letterboxd_url": "https://letterboxd.com/film/chronovisor/",
+  "letterboxd_votes": 2155,
+  "overview": "A French academic is seduced into a world of untold histories in her scholarly quest to uncover the mystery of a history-capturing camera-like machine created by clandestine Benedictine monks. An academic-noir, armchair mystery in the lineage of Jorge Luis Borges and Umberto Eco.",
+  "overview_en": "A French academic is seduced into a world of untold histories in her scholarly quest to uncover the mystery of a history-capturing camera-like machine created by clandestine Benedictine monks. An academic-noir, armchair mystery in the lineage of Jorge Luis Borges and Umberto Eco.",
+  "overview_fr": "A French academic is seduced into a world of untold histories in her scholarly quest to uncover the mystery of a history-capturing camera-like machine created by clandestine Benedictine monks. An academic-noir, armchair mystery in the lineage of Jorge Luis Borges and Umberto Eco.",
+  "poster": "https://media.themoviedb.org/t/p/w500/AngfVgLk5EngnbuFpISjvFJkYBz.jpg",
+  "runtime": 99,
+  "title_en": "Chronovisor",
+  "title_fr": "Chronovisor",
+  "tmdb_id": "1599181",
+  "year": 2026
+ },
  "cinemaparadisostaffpicks:1988": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1i/b1/z6/5u/cinema-paradiso-1200-1200-675-675-crop-000000.jpg?v=8efaca6418",
   "enriched_at": "2026-09-09",
@@ -1143,6 +1206,39 @@
   "title_fr": "Cinema Paradiso",
   "tmdb_id": "11216",
   "year": 1988
+ },
+ "clue:1985": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mk/mi/1k/v8/clue-1200-1200-675-675-crop-000000.jpg?v=3742386ac7",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Comédie",
+   "Crime",
+   "Mystère"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Crime",
+   "Mystery"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Crime",
+   "Mystère"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0088930",
+  "letterboxd_rating": 3.93,
+  "letterboxd_url": "https://letterboxd.com/film/clue/",
+  "letterboxd_votes": 550017,
+  "overview": "Trois hommes et trois femmes sont invités à passer une soirée dans un vieux manoir. Chacun est désigné par un pseudonyme (Mme Green, Miss Scarlet, Professeur Plum, etc.) et ils ne se connaissent guère les uns les autres. Ils ont cependant quelque chose en commun: ils sont tous victimes d'un maître chanteur qui se trouve être leur hôte, M. Boddy. M. Boddy est assassiné à l'occasion d'une panne de courant et quelques autres meurtres s'ensuivent. Les invités et le valet qui les a reçus cherchent à faire la lumière sur l'affaire avant l'arrivée de la police.",
+  "overview_en": "Clue finds six colorful dinner guests gathered at the mansion of their host, Mr. Boddy -- who turns up dead after his secret is exposed: He was blackmailing all of them. With the killer among them, the guests and Boddy's chatty butler must suss out the culprit before the body count rises.",
+  "overview_fr": "Trois hommes et trois femmes sont invités à passer une soirée dans un vieux manoir. Chacun est désigné par un pseudonyme (Mme Green, Miss Scarlet, Professeur Plum, etc.) et ils ne se connaissent guère les uns les autres. Ils ont cependant quelque chose en commun: ils sont tous victimes d'un maître chanteur qui se trouve être leur hôte, M. Boddy. M. Boddy est assassiné à l'occasion d'une panne de courant et quelques autres meurtres s'ensuivent. Les invités et le valet qui les a reçus cherchent à faire la lumière sur l'affaire avant l'arrivée de la police.",
+  "poster": "https://media.themoviedb.org/t/p/w500/o5mjpz2Mvx4v5vUEVdWclBurxuc.jpg",
+  "runtime": 94,
+  "title_en": "Clue",
+  "title_fr": "Cluedo",
+  "tmdb_id": "15196",
+  "year": 1985
  },
  "cocoononesummergirlhood": {
   "enriched_at": "2026-09-09"
@@ -1322,6 +1418,31 @@
  },
  "danemarkilesferoeroyaumebonheur": {
   "enriched_at": "2026-09-15"
+ },
+ "danielfieryfurnace": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/7/5/2/0/6/1575206-daniel-the-fiery-furnace-0-230-0-345-crop.jpg?v=24df664011",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37542993",
+  "letterboxd_url": "https://letterboxd.com/film/daniel-and-the-fiery-furnace/",
+  "overview": "During the Jewish exile to Babylon, Daniel and his friends face trials as Babylon's armies conquer Jerusalem. Under King Nebuchadnezzar, they gain royal favor but make enemies. Their faith is tested at the fiery furnace.",
+  "overview_en": "During the Jewish exile to Babylon, Daniel and his friends face trials as Babylon's armies conquer Jerusalem. Under King Nebuchadnezzar, they gain royal favor but make enemies. Their faith is tested at the fiery furnace.",
+  "overview_fr": "During the Jewish exile to Babylon, Daniel and his friends face trials as Babylon's armies conquer Jerusalem. Under King Nebuchadnezzar, they gain royal favor but make enemies. Their faith is tested at the fiery furnace.",
+  "poster": "https://media.themoviedb.org/t/p/w500/wOXpSTox0QxMf17ocXv4sHfOYLV.jpg",
+  "runtime": 108,
+  "title_en": "Daniel and the Fiery Furnace",
+  "title_fr": "Daniel and the Fiery Furnace",
+  "tmdb_id": "1706702",
+  "year": 2026
  },
  "dearyou": {
   "enriched_at": "2026-09-15"
@@ -2010,6 +2131,23 @@
   "tmdb_id": "41277",
   "year": 2003
  },
+ "grandsaut": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/9/1/1/6/3/1091163-le-grand-saut-0-230-0-345-crop.jpg?v=dc20eb9159",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/le-grand-saut/",
+  "poster": "https://media.themoviedb.org/t/p/w500/817TXDgDYGADjScfgoxQ1sopANO.jpg",
+  "tmdb_id": "1206531"
+ },
  "guepard": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/b2/26/wl/xg/the-leopard-1200-1200-675-675-crop-000000.jpg?v=5b38f9d921",
   "enriched_at": "2026-09-09",
@@ -2648,16 +2786,54 @@
   "tmdb_id": "1288059",
   "year": 2026
  },
+ "iwantyoursex:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/0/9/5/4/tmdb/qNZm0m1WWjYx8UVyrEkEwN4dgyl-1200-1200-675-675-crop-000000.jpg?v=ad8344b874",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Comédie"
+  ],
+  "genres_en": [
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt32332915",
+  "letterboxd_rating": 3.2,
+  "letterboxd_url": "https://letterboxd.com/film/i-want-your-sex/",
+  "letterboxd_votes": 95340,
+  "overview": "When a naive young man becomes the sexual muse for a renowned and provocative artist, his dream job quickly turns dangerous as he is drawn into an obsessive world of power, betrayal, and murder.",
+  "overview_en": "When a naive young man becomes the sexual muse for a renowned and provocative artist, his dream job quickly turns dangerous as he is drawn into an obsessive world of power, betrayal, and murder.",
+  "overview_fr": "When a naive young man becomes the sexual muse for a renowned and provocative artist, his dream job quickly turns dangerous as he is drawn into an obsessive world of power, betrayal, and murder.",
+  "poster": "https://media.themoviedb.org/t/p/w500/z4iVSwpZUSmIxilSfgvciDJROdX.jpg",
+  "runtime": 90,
+  "title_en": "I Want Your Sex",
+  "title_fr": "I Want Your Sex",
+  "tmdb_id": "1288059",
+  "year": 2026
+ },
  "jacquotnantesstaffpicks:1991": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/m4/28/ol/ym/jacquot-1200-1200-675-675-crop-000000.jpg?v=459d787600",
   "enriched_at": "2026-09-09",
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
   "imdb_id": "tt0102141",
   "letterboxd_rating": 4.16,
   "letterboxd_url": "https://letterboxd.com/film/jacquot-de-nantes/",
   "letterboxd_votes": 9949,
   "overview": "Jacquot Demy, the son of a garage owner and a hairdresser, is fascinated by cinema and decides to pursue his dream of becoming a filmmaker by any means necessary.",
+  "overview_en": "Jacquot Demy, the son of a garage owner and a hairdresser, is fascinated by cinema and decides to pursue his dream of becoming a filmmaker by any means necessary.",
+  "overview_fr": "Jacquot Demy, the son of a garage owner and a hairdresser, is fascinated by cinema and decides to pursue his dream of becoming a filmmaker by any means necessary.",
   "poster": "https://media.themoviedb.org/t/p/w500/pBZ7IzqUZBBqWpnppJWzWpgUBTD.jpg",
   "runtime": 120,
+  "title_en": "Jacquot",
+  "title_fr": "Jacquot de Nantes",
   "tmdb_id": "41789",
   "year": 1991
  },
@@ -2981,6 +3157,45 @@
  "legendariesfamilyfavourites": {
   "enriched_at": "2026-09-12"
  },
+ "legobatmanfilm": {
+  "enriched_at": "2026-09-16"
+ },
+ "legobatmanmovie": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/rr/3t/0c/j2/the-lego-batman-movie-1200-1200-675-675-crop-000000.jpg?v=384ad2376c",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Animation",
+   "Action",
+   "Comédie",
+   "Familial"
+  ],
+  "genres_en": [
+   "Animation",
+   "Action",
+   "Comedy",
+   "Family"
+  ],
+  "genres_fr": [
+   "Animation",
+   "Action",
+   "Comédie",
+   "Familial"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt4116284",
+  "letterboxd_rating": 4.0,
+  "letterboxd_url": "https://letterboxd.com/film/the-lego-batman-movie/",
+  "letterboxd_votes": 1212654,
+  "overview": "Sous l’influence d’Alfred, son fidèle majordome, Bruce Wayne alias Batman adopte un enfant. Grâce à Barbara Gordon, il endosse avec succès ses nouvelles responsabilités comme parent. Lorsque le criminel Joker s’échappe de la prison et réunit autour de lui tous les malfaiteurs des bandes dessinées, le maire de Gotham demande à Batman de rétablir l’ordre et la paix. Avec le soutien de ses proches, le justicier masqué entreprend une guerre contre les délinquants, mais un tremblement de terre l’oblige de s’associer à eux pour protéger sa communauté.",
+  "overview_en": "A cooler-than-ever Batman must face the usual villains as the Joker plots a takeover of Gotham City. But when Bruce Wayne accidentally adopts a teenage orphan who wishes to become his sidekick, he’s forced to give up his lone-vigilante ways and learn to work with others.",
+  "overview_fr": "Sous l’influence d’Alfred, son fidèle majordome, Bruce Wayne alias Batman adopte un enfant. Grâce à Barbara Gordon, il endosse avec succès ses nouvelles responsabilités comme parent. Lorsque le criminel Joker s’échappe de la prison et réunit autour de lui tous les malfaiteurs des bandes dessinées, le maire de Gotham demande à Batman de rétablir l’ordre et la paix. Avec le soutien de ses proches, le justicier masqué entreprend une guerre contre les délinquants, mais un tremblement de terre l’oblige de s’associer à eux pour protéger sa communauté.",
+  "poster": "https://media.themoviedb.org/t/p/w500/6fs4BbybxTaZiX1ZqhKPQwR3BwC.jpg",
+  "runtime": 105,
+  "title_en": "The Lego Batman Movie",
+  "title_fr": "LEGO Batman : Le film",
+  "tmdb_id": "324849",
+  "year": 2017
+ },
  "littleprincepetitsmodernes:2015": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wm/dh/a8/sq/the-little-prince-1200-1200-675-675-crop-000000.jpg?v=189674e838",
   "enriched_at": "2026-09-09",
@@ -3182,6 +3397,39 @@
  "marsexpress": {
   "enriched_at": "2026-09-15"
  },
+ "marsexpress:2023": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wh/iw/ve/l2/club-1200-1200-675-675-crop-000000.jpg?v=065610cc1d",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Animation",
+   "Science-Fiction",
+   "Thriller"
+  ],
+  "genres_en": [
+   "Animation",
+   "Science Fiction",
+   "Thriller"
+  ],
+  "genres_fr": [
+   "Animation",
+   "Science-Fiction",
+   "Thriller"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt26915336",
+  "letterboxd_rating": 4.02,
+  "letterboxd_url": "https://letterboxd.com/film/mars-express/",
+  "letterboxd_votes": 87873,
+  "overview": "In 2200, private detective Aline Ruby and her android partner Carlos Rivera are hired by a wealthy businessman to track down a notorious hacker. On Mars, they descend deep into the underbelly of the planet's capital city where they uncover a darker story of brain farms, political corruption, and a missing girl who holds a secret about the robots that threatens to change the face of the universe.",
+  "overview_en": "In 2200, private detective Aline Ruby and her android partner Carlos Rivera are hired by a wealthy businessman to track down a notorious hacker. On Mars, they descend deep into the underbelly of the planet's capital city where they uncover a darker story of brain farms, political corruption, and a missing girl who holds a secret about the robots that threatens to change the face of the universe.",
+  "overview_fr": "In 2200, private detective Aline Ruby and her android partner Carlos Rivera are hired by a wealthy businessman to track down a notorious hacker. On Mars, they descend deep into the underbelly of the planet's capital city where they uncover a darker story of brain farms, political corruption, and a missing girl who holds a secret about the robots that threatens to change the face of the universe.",
+  "poster": "https://media.themoviedb.org/t/p/w500/JEPbbxkFtRASU1WzeQGRvKqjuO.jpg",
+  "runtime": 89,
+  "title_en": "Mars Express",
+  "title_fr": "Mars Express",
+  "tmdb_id": "586810",
+  "year": 2023
+ },
  "medecinamericain:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/6/4/9/3/2/tmdb/yzNoanH2Jfn5bj7d6reKeaAbd4S-1200-1200-675-675-crop-000000.jpg?v=0562e8da20",
   "enriched_at": "2026-09-09",
@@ -3372,6 +3620,9 @@
   "title_fr": "National Theatre Live: The Misanthrope",
   "tmdb_id": "1693710",
   "year": 2026
+ },
+ "mittiputt": {
+  "enriched_at": "2026-09-16"
  },
  "mllebottine:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/0/4/0/890040-miss-boots-0-230-0-345-crop.jpg?v=5b4bd3c02f",
@@ -3613,7 +3864,7 @@
   "enriched_at": "2026-09-12"
  },
  "newnewautrenouvellevagueanimationindependantejaponaise:2021": {
-  "enriched_at": "2026-09-13"
+  "enriched_at": "2026-09-16"
  },
  "nightlivingdead:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j1/z4/q2/vi/bhgMBDnjG9tIVE3RNCD9YeNJHq5-1200-1200-675-675-crop-000000.jpg?v=42c7601897",
@@ -4364,6 +4615,39 @@
   "wikidata_id": "Q131901398",
   "year": 2026
  },
+ "primetime": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/6/2/0/1/9/tmdb/mbnopFljGL3UIkSC22uQap4y5ah-1200-1200-675-675-crop-000000.jpg?v=d9a7b9f810",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Crime",
+   "Drame",
+   "Thriller"
+  ],
+  "genres_en": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "genres_fr": [
+   "Crime",
+   "Drame",
+   "Thriller"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt34206385",
+  "letterboxd_rating": 3.69,
+  "letterboxd_url": "https://letterboxd.com/film/primetime-2026/",
+  "letterboxd_votes": 1732,
+  "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
+  "overview_en": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
+  "overview_fr": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
+  "poster": "https://media.themoviedb.org/t/p/w500/1IDdeq1BrUtjsvyUB04URLfeHni.jpg",
+  "runtime": 110,
+  "title_en": "Primetime",
+  "title_fr": "Primetime",
+  "tmdb_id": "1375441",
+  "year": 2026
+ },
  "primeurssurpriseslundi": {
   "enriched_at": "2026-09-12"
  },
@@ -5091,6 +5375,37 @@
   "tmdb_id": "1398",
   "year": 1979
  },
+ "stuntdriver": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/3/6/0/2/9/1436029-the-stunt-driver-0-230-0-345-crop.jpg?v=aaa918feaf",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Action",
+   "Comédie",
+   "Drame"
+  ],
+  "genres_en": [
+   "Action",
+   "Comedy",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Action",
+   "Comédie",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt34611096",
+  "letterboxd_url": "https://letterboxd.com/film/the-stunt-driver/",
+  "overview": "Based on the true story of Montrealer Ken Carter, the “Mad Canadian” stunt driver who tried to jump the Saint Lawrence River in a rocket car in the mid-’70s. Carter's dream was to end his 30-year career with a big jump, a big paycheck, and mega stardom. In the process of accomplishing it, he hired a big sports manager and enlisted the best in rocket car design, with the National Film Board of Canada filming a documentary leading up to the event.",
+  "overview_en": "Based on the true story of Montrealer Ken Carter, the “Mad Canadian” stunt driver who tried to jump the Saint Lawrence River in a rocket car in the mid-’70s. Carter's dream was to end his 30-year career with a big jump, a big paycheck, and mega stardom. In the process of accomplishing it, he hired a big sports manager and enlisted the best in rocket car design, with the National Film Board of Canada filming a documentary leading up to the event.",
+  "overview_fr": "Based on the true story of Montrealer Ken Carter, the “Mad Canadian” stunt driver who tried to jump the Saint Lawrence River in a rocket car in the mid-’70s. Carter's dream was to end his 30-year career with a big jump, a big paycheck, and mega stardom. In the process of accomplishing it, he hired a big sports manager and enlisted the best in rocket car design, with the National Film Board of Canada filming a documentary leading up to the event.",
+  "poster": "https://media.themoviedb.org/t/p/w500/jFiMdTG8Hw41A3VxrzLEWtMFIYX.jpg",
+  "runtime": 99,
+  "title_en": "The Stunt Driver",
+  "title_fr": "The Stunt Driver",
+  "tmdb_id": "1562777",
+  "year": 2026
+ },
  "substance:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ju/7r/z4/9i/xfSVZf7naMoGuqoHaQhbvfPrfWs-1200-1200-675-675-crop-000000.jpg?v=adde104f43",
   "enriched_at": "2026-09-09",
@@ -5460,10 +5775,10 @@
   "year": 2026
  },
  "twentyyearsmetcinemascelebrationanglaisavecstfrmetropolitanopera": {
-  "enriched_at": "2026-09-13"
+  "enriched_at": "2026-09-16"
  },
  "twentyyearsmetcinemascelebrationenglishwestmetropolitanopera": {
-  "enriched_at": "2026-09-13"
+  "enriched_at": "2026-09-16"
  },
  "ufc331": {
   "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
@@ -5648,6 +5963,9 @@
   "tmdb_id": "426",
   "year": 1958
  },
+ "vibe": {
+  "enriched_at": "2026-09-16"
+ },
  "videodrome:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xa/04/29/l7/videodrome-1200-1200-675-675-crop-000000.jpg?v=0d3584f6b2",
   "enriched_at": "2026-09-09",
@@ -5803,6 +6121,39 @@
  },
  "wallacegromitclassicshorts:1996": {
   "enriched_at": "2026-09-15"
+ },
+ "weight": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/9/3/5/tmdb/zLeq2fbHU6UdA7mhsYnIULORTgq-1200-1200-675-675-crop-000000.jpg?v=50b4186d50",
+  "enriched_at": "2026-09-16",
+  "genres": [
+   "Drame",
+   "Thriller",
+   "Crime"
+  ],
+  "genres_en": [
+   "Drama",
+   "Thriller",
+   "Crime"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Thriller",
+   "Crime"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt10794054",
+  "letterboxd_rating": 3.47,
+  "letterboxd_url": "https://letterboxd.com/film/the-weight-2026/",
+  "letterboxd_votes": 8069,
+  "overview": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he’ll win his freedom.",
+  "overview_en": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he’ll win his freedom.",
+  "overview_fr": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he’ll win his freedom.",
+  "poster": "https://media.themoviedb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
+  "runtime": 112,
+  "title_en": "The Weight",
+  "title_fr": "The Weight",
+  "tmdb_id": "1433583",
+  "year": 2026
  },
  "wrong:2012": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0c/ie/fz/9l/wrong-1200-1200-675-675-crop-000000.jpg?v=648ff8ca5f",
