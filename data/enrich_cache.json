@@ -28,6 +28,31 @@
  "15nov": {
   "enriched_at": "2026-09-15"
  },
+ "15nov:1977": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/8/7/1/0/6/687106-15-nov-0-230-0-345-crop.jpg?v=11228bc95f",
+  "enriched_at": "2026-09-17",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0075608",
+  "letterboxd_url": "https://letterboxd.com/film/15-nov/",
+  "overview": "A look at November 15, 1976, the date the Parti Québécois seized power in the provincial elections, a victory that gave rise to an unprecedented outburst of joy at the Center Paul-Sauvé, a place where PQ sympathizers gathered.",
+  "overview_en": "A look at November 15, 1976, the date the Parti Québécois seized power in the provincial elections, a victory that gave rise to an unprecedented outburst of joy at the Center Paul-Sauvé, a place where PQ sympathizers gathered.",
+  "overview_fr": "A look at November 15, 1976, the date the Parti Québécois seized power in the provincial elections, a victory that gave rise to an unprecedented outburst of joy at the Center Paul-Sauvé, a place where PQ sympathizers gathered.",
+  "poster": "https://media.themoviedb.org/t/p/w500/gWncFxRCaoIF5i34y2cF3pcb8Kh.jpg",
+  "runtime": 105,
+  "title_en": "15 Nov",
+  "title_fr": "15 nov",
+  "tmdb_id": "767524",
+  "year": 1977
+ },
  "6portraitsneorealistes": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/8/4/9/2/8/1484928-6-portraits-neorealistes-0-230-0-345-crop.jpg?v=7751933a06",
   "enriched_at": "2026-09-09",
@@ -737,6 +762,39 @@
   "title_fr": "Bouchra",
   "tmdb_id": "1517206",
   "year": 2026
+ },
+ "boyfriendsgirlfriends:1987": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ef/qf/lg/e2/boyfriends-1200-1200-675-675-crop-000000.jpg?v=0e09f34b51",
+  "enriched_at": "2026-09-17",
+  "genres": [
+   "Romance",
+   "Drame",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Romance",
+   "Drama",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Romance",
+   "Drame",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0092550",
+  "letterboxd_rating": 4.08,
+  "letterboxd_url": "https://letterboxd.com/film/boyfriends-and-girlfriends/",
+  "letterboxd_votes": 27496,
+  "overview": "Middle-class Parisian suburbs: Blanche and Léa, office worker and student, meet and become friends. Léa is going out with Fabien, but is thinking of leaving him. Blanche falls for Léa's handsome and witty friend Alexandre, but is tongue-tied whenever she meets him. Léa goes on holiday and Blanche, still smitten with the dashing Alexandre, begins to get to know Fabien.",
+  "overview_en": "Middle-class Parisian suburbs: Blanche and Léa, office worker and student, meet and become friends. Léa is going out with Fabien, but is thinking of leaving him. Blanche falls for Léa's handsome and witty friend Alexandre, but is tongue-tied whenever she meets him. Léa goes on holiday and Blanche, still smitten with the dashing Alexandre, begins to get to know Fabien.",
+  "overview_fr": "Middle-class Parisian suburbs: Blanche and Léa, office worker and student, meet and become friends. Léa is going out with Fabien, but is thinking of leaving him. Blanche falls for Léa's handsome and witty friend Alexandre, but is tongue-tied whenever she meets him. Léa goes on holiday and Blanche, still smitten with the dashing Alexandre, begins to get to know Fabien.",
+  "poster": "https://media.themoviedb.org/t/p/w500/xaQ5u6xPkRiQgRn0tLFzIvZHKZe.jpg",
+  "runtime": 103,
+  "title_en": "Boyfriends and Girlfriends",
+  "title_fr": "L'Ami de mon amie",
+  "tmdb_id": "64544",
+  "year": 1987
  },
  "boymeetsgirl:1984": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6q/s3/le/e4/boy-meets-girl-1200-1200-675-675-crop-000000.jpg?v=b80e60f0fa",
@@ -2509,6 +2567,9 @@
   "tmdb_id": "1465063",
   "year": 2026
  },
+ "ileoubliaccesenavantpremiere": {
+  "enriched_at": "2026-09-17"
+ },
  "ilpaesevillage": {
   "enriched_at": "2026-09-15"
  },
@@ -2951,6 +3012,39 @@
   "tmdb_id": "26275",
   "year": 2004
  },
+ "kenrussellsdevils:1971": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7s/38/js/nr/devils-1200-1200-675-675-crop-000000.jpg?v=647a960c7d",
+  "enriched_at": "2026-09-17",
+  "genres": [
+   "Drame",
+   "Histoire",
+   "Horreur"
+  ],
+  "genres_en": [
+   "Drama",
+   "History",
+   "Horror"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Histoire",
+   "Horreur"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0066993",
+  "letterboxd_rating": 4.23,
+  "letterboxd_url": "https://letterboxd.com/film/the-devils/",
+  "letterboxd_votes": 83685,
+  "overview": "Le film retrace les grandes lignes de l'affaire des possédées de Loudun. Au 17ème siècle, en France, Richelieu veut convaincre Louis XIII d'en finir avec les gouvernements autonomes des petites villes de province. Loudun est une ville fortifiée du Poitou, dans laquelle catholiques et protestants vivent en bonne entente sous l'autorité bienveillante de l'abbé Grandier, un curé catholique charismatique et progressiste. Sa popularité, ainsi que sa réputation de prêtre libertin et séducteur, lui vaut des inimitiés parmi les notables locaux. La mère supérieure du couvent tout proche développe une attirance obsessionnelle pour le personnage. Les sœurs ursulines sombrent dans une forme d'hystérie collective, se disant possédées par des démons et par l'esprit de Grandier qu'elles accusent d'être en commerce avec le Diable. Ce sera le point de départ d'une cabale, menée par les autorités religieuses et civiles, contre le prêtre qui s'était ouvertement opposé aux projets de Richelieu.",
+  "overview_en": "In 1634 France, charismatic Father Urbain Grandier becomes the target of a sexually obsessed nun’s witchcraft accusations, which corrupt church and state officials are all too happy to exploit.​​​​​​​​​​​​​​​​",
+  "overview_fr": "Le film retrace les grandes lignes de l'affaire des possédées de Loudun. Au 17ème siècle, en France, Richelieu veut convaincre Louis XIII d'en finir avec les gouvernements autonomes des petites villes de province. Loudun est une ville fortifiée du Poitou, dans laquelle catholiques et protestants vivent en bonne entente sous l'autorité bienveillante de l'abbé Grandier, un curé catholique charismatique et progressiste. Sa popularité, ainsi que sa réputation de prêtre libertin et séducteur, lui vaut des inimitiés parmi les notables locaux. La mère supérieure du couvent tout proche développe une attirance obsessionnelle pour le personnage. Les sœurs ursulines sombrent dans une forme d'hystérie collective, se disant possédées par des démons et par l'esprit de Grandier qu'elles accusent d'être en commerce avec le Diable. Ce sera le point de départ d'une cabale, menée par les autorités religieuses et civiles, contre le prêtre qui s'était ouvertement opposé aux projets de Richelieu.",
+  "poster": "https://media.themoviedb.org/t/p/w500/m3EZBMHaB7VJ9pjJJ71fPb70dAR.jpg",
+  "runtime": 111,
+  "title_en": "The Devils",
+  "title_fr": "Les Diables",
+  "tmdb_id": "31767",
+  "year": 1971
+ },
  "kindergartenq:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
   "enriched_at": "2026-09-09",
@@ -3246,6 +3340,36 @@
   "title_en": "Luisa",
   "title_fr": "Luisa",
   "tmdb_id": "1497740",
+  "year": 2026
+ },
+ "maddiessecret:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/3/5/4/9/tmdb/kwBX4d1MsVl5h3GkQCXJAQ4r0O4-1200-1200-675-675-crop-000000.jpg?v=d082b93af2",
+  "enriched_at": "2026-09-17",
+  "genres": [
+   "Comédie",
+   "Drame"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37675037",
+  "letterboxd_rating": 3.67,
+  "letterboxd_url": "https://letterboxd.com/film/maddies-secret/",
+  "letterboxd_votes": 40741,
+  "overview": "A plucky dishwasher leaps to viral superstardom at a trendy food content creation company. While her life seems picturesque — complete with an adoring husband, ride-or-die best friend and a cupboard full of woman-owned ethically-sourced chili crisp to boot — mounting professional pressures threaten to reawaken a hidden secret from her troubled past.",
+  "overview_en": "A plucky dishwasher leaps to viral superstardom at a trendy food content creation company. While her life seems picturesque — complete with an adoring husband, ride-or-die best friend and a cupboard full of woman-owned ethically-sourced chili crisp to boot — mounting professional pressures threaten to reawaken a hidden secret from her troubled past.",
+  "overview_fr": "A plucky dishwasher leaps to viral superstardom at a trendy food content creation company. While her life seems picturesque — complete with an adoring husband, ride-or-die best friend and a cupboard full of woman-owned ethically-sourced chili crisp to boot — mounting professional pressures threaten to reawaken a hidden secret from her troubled past.",
+  "poster": "https://media.themoviedb.org/t/p/w500/vADal7sH7E9xFr4w2k4V3EPSzF6.jpg",
+  "runtime": 100,
+  "title_en": "Maddie's Secret",
+  "title_fr": "Maddie's Secret",
+  "tmdb_id": "1517868",
   "year": 2026
  },
  "mamanputain:1973": {
@@ -3708,6 +3832,36 @@
  },
  "mondaysurprisepremieres": {
   "enriched_at": "2026-09-15"
+ },
+ "monsieurlazhar:2011": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/y6/7c/kj/wj/monsieur-lazhar-1200-1200-675-675-crop-000000.jpg?v=ada2c0bdeb",
+  "enriched_at": "2026-09-17",
+  "genres": [
+   "Drame",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Drama",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt2011971",
+  "letterboxd_rating": 3.77,
+  "letterboxd_url": "https://letterboxd.com/film/monsieur-lazhar/",
+  "letterboxd_votes": 14406,
+  "overview": "Un Algérien en attente du statut de réfugié obtient par ruse le poste de remplaçant d'une institutrice montréalaise qui s'est pendue dans la classe de ses élèves de sixième année.",
+  "overview_en": "During a harsh Montréal winter, an elementary-school class is left reeling after its teacher commits suicide. Bachir Lazhar, a charismatic Algerian immigrant, steps in as the substitute teacher for the classroom of traumatized children. All the while, he must keep his personal life tucked away: the fact that he is seeking political refuge in Québec – and that he, like the children, has suffered an appalling loss.",
+  "overview_fr": "Un Algérien en attente du statut de réfugié obtient par ruse le poste de remplaçant d'une institutrice montréalaise qui s'est pendue dans la classe de ses élèves de sixième année.",
+  "poster": "https://media.themoviedb.org/t/p/w500/u1618rLsJhBGrHIC32UsF3kUV1U.jpg",
+  "runtime": 94,
+  "title_en": "Monsieur Lazhar",
+  "title_fr": "Monsieur Lazhar",
+  "tmdb_id": "78480",
+  "year": 2011
  },
  "mortician": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/8/4/1/3/1/184131-mortician-0-230-0-345-crop.jpg?v=5b02f98a6e",
@@ -4174,6 +4328,9 @@
   "tmdb_id": "1284046",
   "year": 2026
  },
+ "paradise": {
+  "enriched_at": "2026-09-17"
+ },
  "partousmoyens": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/a8/w9/h0/k9/1jANqIbqrWJZb8GM5Kb3L6U8iHi-1200-1200-675-675-crop-000000.jpg?v=93e6be2389",
   "enriched_at": "2026-09-09",
@@ -4552,6 +4709,30 @@
   "tmdb_id": "842859",
   "year": 2024
  },
+ "plusriennestegalparailleurs": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/1/4/5/6/6/1514566-all-things-are-no-longer-equal-0-230-0-345-crop.jpg?v=48ebb1dd29",
+  "enriched_at": "2026-09-17",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/all-things-are-no-longer-equal/",
+  "overview": "Blending video art, documentary and music video, Martin Bureau’s film explores the abuses of Western society, at once ravaged by late-stage capitalism and unable to free itself from it. A visceral image and sound experience, All Things Are No Longer Equal juxtaposes an aesthetic of excess and domination with the measured critical commentary of philosopher Alain Deneault, calling for reinvented forms of collective and local solidarity.",
+  "overview_en": "Blending video art, documentary and music video, Martin Bureau’s film explores the abuses of Western society, at once ravaged by late-stage capitalism and unable to free itself from it. A visceral image and sound experience, All Things Are No Longer Equal juxtaposes an aesthetic of excess and domination with the measured critical commentary of philosopher Alain Deneault, calling for reinvented forms of collective and local solidarity.",
+  "overview_fr": "Blending video art, documentary and music video, Martin Bureau’s film explores the abuses of Western society, at once ravaged by late-stage capitalism and unable to free itself from it. A visceral image and sound experience, All Things Are No Longer Equal juxtaposes an aesthetic of excess and domination with the measured critical commentary of philosopher Alain Deneault, calling for reinvented forms of collective and local solidarity.",
+  "poster": "https://media.themoviedb.org/t/p/w500/lhFEamogpHvVfUcTEoeEv2u7FRz.jpg",
+  "runtime": 66,
+  "title_en": "All Things Are No Longer Equal",
+  "title_fr": "Plus rien n'est égal par ailleurs",
+  "tmdb_id": "1650665",
+  "year": 2026
+ },
  "plusriennestegalparailleurs:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/1/4/5/6/6/1514566-all-things-are-no-longer-equal-0-230-0-345-crop.jpg?v=48ebb1dd29",
   "enriched_at": "2026-09-09",
@@ -4649,10 +4830,10 @@
   "year": 2026
  },
  "primeurssurpriseslundi": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-17"
  },
  "pulpwhatdoyoudofor": {
-  "enriched_at": "2026-09-14"
+  "enriched_at": "2026-09-17"
  },
  "qcc29marlonriggsdoublefeature": {
   "enriched_at": "2026-09-15"
@@ -4664,13 +4845,38 @@
   "enriched_at": "2026-09-15"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-09-14"
+  "enriched_at": "2026-09-17"
  },
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-15"
  },
  "quebecduplessisapres": {
   "enriched_at": "2026-09-15"
+ },
+ "quebecduplessisapres:1972": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/3/1/9/5/3/3/319533-quebec-duplessis-and-after--0-230-0-345-crop.jpg?v=7e540ad22a",
+  "enriched_at": "2026-09-17",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0069150",
+  "letterboxd_url": "https://letterboxd.com/film/quebec-duplessis-and-after/",
+  "overview": "Ce long métrage documentaire fait un parallèle audacieux entre la campagne électorale de 1970, au Québec, et celle de Maurice Duplessis, en 1936. Grâce à des extraits soumis à un montage serré, le cinéaste, presque pamphlétaire, examine le bouillonnement d'espoir suscité par les élections provinciales de 1970 et pose la question : la Révolution tranquille a-t-elle vraiment changé quelque chose au Québec? Est-il possible que se lève un homme nouveau, en politique, au Québec?",
+  "overview_en": "This film establishes a parallel between the 1970 electoral campaign in Québec and the 1936 campaign dominated by Maurice Duplessis. It shows the hope but also the uncertainty that existed in 1970. Had the Quiet Revolution really changed things in Québec? Was it possible that a new leader would emerge on the political scene? (NFB.ca)",
+  "overview_fr": "Ce long métrage documentaire fait un parallèle audacieux entre la campagne électorale de 1970, au Québec, et celle de Maurice Duplessis, en 1936. Grâce à des extraits soumis à un montage serré, le cinéaste, presque pamphlétaire, examine le bouillonnement d'espoir suscité par les élections provinciales de 1970 et pose la question : la Révolution tranquille a-t-elle vraiment changé quelque chose au Québec? Est-il possible que se lève un homme nouveau, en politique, au Québec?",
+  "poster": "https://media.themoviedb.org/t/p/w500/gcNfZfBTjlT9gvT9Tv4MKJDyH58.jpg",
+  "runtime": 114,
+  "title_en": "Quebec: Duplessis and After...",
+  "title_fr": "Québec: Duplessis et après...",
+  "tmdb_id": "384784",
+  "year": 1972
  },
  "rashomon:1950": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fj/p1/fz/8h/rashomon-1200-1200-675-675-crop-000000.jpg?v=be65ddef83",
@@ -5152,7 +5358,7 @@
   "year": 1968
  },
  "shaunmoutonbeeeteferme": {
-  "enriched_at": "2026-09-14"
+  "enriched_at": "2026-09-17"
  },
  "shaunsheepbeastmossybottom": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
@@ -5241,6 +5447,31 @@
   "title_fr": "Shining : L'enfant lumière",
   "tmdb_id": "694",
   "year": 1980
+ },
+ "sickling": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/7/0/0/5/5/270055-hammer-and-sickle-0-230-0-345-crop.jpg?v=3c792f0faf",
+  "enriched_at": "2026-09-17",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0111128",
+  "letterboxd_url": "https://letterboxd.com/film/hammer-and-sickle/",
+  "overview": "A bizarre tale of a fictional experiment performed during the Stalin-controlled years in the USSR. The main character is changed from a woman into a man. This is part of a larger plan to change more women into men and have a stronger workforce.",
+  "overview_en": "A bizarre tale of a fictional experiment performed during the Stalin-controlled years in the USSR. The main character is changed from a woman into a man. This is part of a larger plan to change more women into men and have a stronger workforce.",
+  "overview_fr": "A bizarre tale of a fictional experiment performed during the Stalin-controlled years in the USSR. The main character is changed from a woman into a man. This is part of a larger plan to change more women into men and have a stronger workforce.",
+  "poster": "https://media.themoviedb.org/t/p/w500/zv8pmvcLOobtNXfs16IHots1vYj.jpg",
+  "runtime": 93,
+  "title_en": "Hammer and Sickle",
+  "title_fr": "Hammer and Sickle",
+  "tmdb_id": "340653",
+  "year": 1994
  },
  "sickmyselfstaffpicks:2022": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/3q/kp/mc/4m/sick-1200-1200-675-675-crop-000000.jpg?v=f9fb06d5d4",
