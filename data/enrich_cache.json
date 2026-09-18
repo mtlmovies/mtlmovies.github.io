@@ -630,6 +630,9 @@
   "tmdb_id": "1310573",
   "year": 2026
  },
+ "barrylyndon": {
+  "enriched_at": "2026-09-18"
+ },
  "bataillegaulleliberte:2026": {
   "enriched_at": "2026-09-18"
  },
@@ -660,6 +663,9 @@
   "tmdb_id": "726220",
   "wikidata_id": "Q97959512",
   "year": 2020
+ },
+ "beauserge": {
+  "enriched_at": "2026-09-18"
  },
  "behula": {
   "enriched_at": "2026-09-18"
@@ -886,6 +892,39 @@
   "title_fr": "Bouchra",
   "tmdb_id": "1517206",
   "year": 2026
+ },
+ "boy": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tf/qc/1u/72/qlRtMzXVqglW1SJ8KlSr7UNIyGN-1200-1200-675-675-crop-000000.jpg?v=f8912c614a",
+  "enriched_at": "2026-09-18",
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Action"
+  ],
+  "genres_en": [
+   "Crime",
+   "Thriller",
+   "Action"
+  ],
+  "genres_fr": [
+   "Crime",
+   "Thriller",
+   "Action"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt13923084",
+  "letterboxd_rating": 3.06,
+  "letterboxd_url": "https://letterboxd.com/film/boy-kills-world/",
+  "letterboxd_votes": 98588,
+  "overview": "Transformé en machine à tuer par un mystérieux shaman, un garçon sourd-muet entreprend de venger le meurtre de sa mère et de sa soeur par la dictatrice de son pays.",
+  "overview_en": "When his family is murdered, a deaf-mute named Boy escapes to the jungle and is trained by a mysterious shaman to repress his childish imagination and become an instrument of death.",
+  "overview_fr": "Transformé en machine à tuer par un mystérieux shaman, un garçon sourd-muet entreprend de venger le meurtre de sa mère et de sa soeur par la dictatrice de son pays.",
+  "poster": "https://media.themoviedb.org/t/p/w500/yvvwmcn5xJm5BOo81XGuUtDbxq1.jpg",
+  "runtime": 111,
+  "title_en": "Boy Kills World",
+  "title_fr": "Boy vs le monde",
+  "tmdb_id": "882059",
+  "year": 2024
  },
  "boyfriendsgirlfriends:1987": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ef/qf/lg/e2/boyfriends-1200-1200-675-675-crop-000000.jpg?v=0e09f34b51",
@@ -1622,6 +1661,9 @@
   "tmdb_id": "1204680",
   "year": 2026
  },
+ "cruelstoryyouth": {
+  "enriched_at": "2026-09-18"
+ },
  "crunchyrollanimenightssneakpeek": {
   "enriched_at": "2026-09-18"
  },
@@ -1687,6 +1729,42 @@
   "year": 2026
  },
  "dearyou": {
+  "enriched_at": "2026-09-18"
+ },
+ "deathbyhanging:1968": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/4u/x5/p6/fu/death-by-hanging-1200-1200-675-675-crop-000000.jpg?v=4128034593",
+  "enriched_at": "2026-09-18",
+  "genres": [
+   "Comédie",
+   "Drame"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0063198",
+  "letterboxd_rating": 4.1,
+  "letterboxd_url": "https://letterboxd.com/film/death-by-hanging/",
+  "letterboxd_votes": 16676,
+  "overview": "A Korean man is sentenced to death in Japan but somehow survives his execution, sending the authorities into a panic about what to do next.",
+  "overview_en": "A Korean man is sentenced to death in Japan but somehow survives his execution, sending the authorities into a panic about what to do next.",
+  "overview_fr": "A Korean man is sentenced to death in Japan but somehow survives his execution, sending the authorities into a panic about what to do next.",
+  "poster": "https://media.themoviedb.org/t/p/w500/woAIFqMBfLtkZoSVqsujWeGGnH2.jpg",
+  "runtime": 118,
+  "title_en": "Death by Hanging",
+  "title_fr": "Death by Hanging",
+  "tmdb_id": "98193",
+  "year": 1968
+ },
+ "derenmenkenschneemann": {
+  "enriched_at": "2026-09-18"
+ },
+ "diaryshinjukuthief": {
   "enriched_at": "2026-09-18"
  },
  "dig:2004": {
@@ -2646,6 +2724,9 @@
  "hitamengsub": {
   "enriched_at": "2026-09-09"
  },
+ "hommagesylviegroulx": {
+  "enriched_at": "2026-09-18"
+ },
  "hommequiment:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/g6/8c/nb/wm/pq8JxWkSfnrdPeou1R7zWBi9ebs-1200-1200-675-675-crop-000000.jpg?v=8f009c012d",
   "enriched_at": "2026-09-09",
@@ -3159,6 +3240,9 @@
   "tmdb_id": "16328",
   "year": 1971
  },
+ "jurassicpark": {
+  "enriched_at": "2026-09-18"
+ },
  "justeillusion:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/n1/4r/kd/lt/just%20a-1200-1200-675-675-crop-000000.jpg?v=f95e6cce8a",
   "enriched_at": "2026-09-14",
@@ -3359,6 +3443,33 @@
   "title_fr": "Labyrinthe",
   "tmdb_id": "13597",
   "year": 1986
+ },
+ "landwithin": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/3/4/0/0/8/1334008-a-land-within-0-230-0-345-crop.jpg?v=33ce0249e0",
+  "enriched_at": "2026-09-18",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt35668693",
+  "letterboxd_rating": 3.35,
+  "letterboxd_url": "https://letterboxd.com/film/a-land-within/",
+  "letterboxd_votes": 390,
+  "overview": "South Tyrol, 1961: Paul was hoping to escape the confines of his village and study painting. But because his older brother Anton is a wanted terrorist, he’s forced to stay at the farm and help Anton’s wife, Anna, and their son. As Paul is drawn into a vortex of violence and toxic masculinity, Anna struggles with the radicalization of her husband and the patriarchal structures in place at the time.",
+  "overview_en": "South Tyrol, 1961: Paul was hoping to escape the confines of his village and study painting. But because his older brother Anton is a wanted terrorist, he’s forced to stay at the farm and help Anton’s wife, Anna, and their son. As Paul is drawn into a vortex of violence and toxic masculinity, Anna struggles with the radicalization of her husband and the patriarchal structures in place at the time.",
+  "overview_fr": "South Tyrol, 1961: Paul was hoping to escape the confines of his village and study painting. But because his older brother Anton is a wanted terrorist, he’s forced to stay at the farm and help Anton’s wife, Anna, and their son. As Paul is drawn into a vortex of violence and toxic masculinity, Anna struggles with the radicalization of her husband and the patriarchal structures in place at the time.",
+  "poster": "https://media.themoviedb.org/t/p/w500/tTTENNQlkgP7WLBiQJgze7qdFhO.jpg",
+  "runtime": 112,
+  "title_en": "A Land Within",
+  "title_fr": "A Land Within",
+  "tmdb_id": "1457025",
+  "year": 2025
  },
  "langueestdonchistoiredamour": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/5/8/0/0/3/8/580038-la-langue-est-donc-une-histoire-d-amour-0-230-0-345-crop.jpg?v=b1b1404e40",
@@ -4197,6 +4308,9 @@
   "tmdb_id": "1288445",
   "year": 2026
  },
+ "mybrilliantcareer": {
+  "enriched_at": "2026-09-18"
+ },
  "mybrotherswedding:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l7/7t/pp/tx/my%20brother-1200-1200-675-675-crop-000000.jpg?v=01510d17d8",
   "enriched_at": "2026-09-09",
@@ -4588,6 +4702,9 @@
   "enriched_at": "2026-09-17"
  },
  "paradisetelugu": {
+  "enriched_at": "2026-09-18"
+ },
+ "parleznousdamour": {
   "enriched_at": "2026-09-18"
  },
  "parthasard": {
@@ -5028,6 +5145,9 @@
   "title_fr": "Possession",
   "tmdb_id": "21484",
   "year": 1981
+ },
+ "pouletauxprunes": {
+  "enriched_at": "2026-09-18"
  },
  "practicalmagic2": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/8/5/0/2/2/tmdb/yDgYYuz8jDQCRJbHC3XM7IIGoeR-1200-1200-675-675-crop-000000.jpg?v=104462dc86",
@@ -5763,6 +5883,9 @@
  },
  "singhvskaur2": {
   "enriched_at": "2026-09-15"
+ },
+ "smallchildsfirstadventure": {
+  "enriched_at": "2026-09-18"
  },
  "sphinx:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/8/0/5/0/4/280504-le-sphinx-0-230-0-345-crop.jpg?v=183ccda635",
