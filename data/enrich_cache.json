@@ -1727,6 +1727,39 @@
  "cruelstoryyouth": {
   "enriched_at": "2026-09-18"
  },
+ "cruelstoryyouth:1960": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/k2/ov/0x/r3/cruel-1200-1200-675-675-crop-000000.jpg?v=837a1306b6",
+  "enriched_at": "2026-09-19",
+  "genres": [
+   "Romance",
+   "Drame",
+   "Crime"
+  ],
+  "genres_en": [
+   "Romance",
+   "Drama",
+   "Crime"
+  ],
+  "genres_fr": [
+   "Romance",
+   "Drame",
+   "Crime"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0054286",
+  "letterboxd_rating": 3.62,
+  "letterboxd_url": "https://letterboxd.com/film/cruel-story-of-youth/",
+  "letterboxd_votes": 7448,
+  "overview": "A harsh young man seduces a freeloading young woman and eventually takes advantage of her knack for hitchhiking to rob middle-class men.",
+  "overview_en": "A harsh young man seduces a freeloading young woman and eventually takes advantage of her knack for hitchhiking to rob middle-class men.",
+  "overview_fr": "A harsh young man seduces a freeloading young woman and eventually takes advantage of her knack for hitchhiking to rob middle-class men.",
+  "poster": "https://media.themoviedb.org/t/p/w500/6pYg3Fo7kSWg76bNjkMbJoGvxvX.jpg",
+  "runtime": 97,
+  "title_en": "Cruel Story of Youth",
+  "title_fr": "Cruel Story of Youth",
+  "tmdb_id": "88527",
+  "year": 1960
+ },
  "crunchyrollanimenightssneakpeek": {
   "enriched_at": "2026-09-18"
  },
