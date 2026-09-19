@@ -309,7 +309,7 @@
   "year": 2024
  },
  "animazemontrealinternationalanimationfestival": {
-  "enriched_at": "2026-09-16"
+  "enriched_at": "2026-09-19"
  },
  "antigone:2019": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9l/qx/gl/gd/anitgone-1200-1200-675-675-crop-000000.jpg?v=8d84c0c65a",
@@ -368,7 +368,7 @@
   "enriched_at": "2026-09-09"
  },
  "apocalypsecarletournagemariachapdelaine:1983": {
-  "enriched_at": "2026-09-16"
+  "enriched_at": "2026-09-19"
  },
  "apocalypsenowfinalcut:1979": {
   "enriched_at": "2026-09-18"
@@ -422,6 +422,33 @@
   "title_fr": "The Aryans",
   "tmdb_id": "267430",
   "year": 2014
+ },
+ "ascowithoutpermission:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/3/1/7/8/9/1231789-asco-without-permission-0-230-0-345-crop.jpg?v=a08a4a549f",
+  "enriched_at": "2026-09-19",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt18263546",
+  "letterboxd_rating": 3.54,
+  "letterboxd_url": "https://letterboxd.com/film/asco-without-permission/",
+  "letterboxd_votes": 288,
+  "overview": "\"ASCO: Without Permission\" is a genre-defying film that profiles the extraordinary, Los Angeles based, Chicano art group of the 70's-80's, ASCO, who merged activism and art as they challenged representation in the art world, Hollywood and the news media. Unrecognized in their time, they are now being considered amongst the most important artists of the 20th century. Utilizing a wholly original approach to filmmaking where nonfiction and fiction are interconnected through collaborative film works made with the next generation of Latinx artists, \"Without Permission\" reimagines what is possible today in cinema and art while celebrating an iconoclastic group that was far ahead of its time.",
+  "overview_en": "\"ASCO: Without Permission\" is a genre-defying film that profiles the extraordinary, Los Angeles based, Chicano art group of the 70's-80's, ASCO, who merged activism and art as they challenged representation in the art world, Hollywood and the news media. Unrecognized in their time, they are now being considered amongst the most important artists of the 20th century. Utilizing a wholly original approach to filmmaking where nonfiction and fiction are interconnected through collaborative film works made with the next generation of Latinx artists, \"Without Permission\" reimagines what is possible today in cinema and art while celebrating an iconoclastic group that was far ahead of its time.",
+  "overview_fr": "\"ASCO: Without Permission\" is a genre-defying film that profiles the extraordinary, Los Angeles based, Chicano art group of the 70's-80's, ASCO, who merged activism and art as they challenged representation in the art world, Hollywood and the news media. Unrecognized in their time, they are now being considered amongst the most important artists of the 20th century. Utilizing a wholly original approach to filmmaking where nonfiction and fiction are interconnected through collaborative film works made with the next generation of Latinx artists, \"Without Permission\" reimagines what is possible today in cinema and art while celebrating an iconoclastic group that was far ahead of its time.",
+  "poster": "https://media.themoviedb.org/t/p/w500/suX1zqRn7FFlCtLz78JnF9g1Its.jpg",
+  "runtime": 90,
+  "title_en": "ASCO: Without Permission",
+  "title_fr": "ASCO: Without Permission",
+  "tmdb_id": "1337631",
+  "year": 2025
  },
  "auboutoakstreet": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/9/2/9/6/2/tmdb/mJDCrEFKHUqoZe4xyI8CE47pw7P-1200-1200-675-675-crop-000000.jpg?v=8ab201f560",
@@ -557,6 +584,9 @@
  },
  "avengersphasefinale": {
   "enriched_at": "2026-09-18"
+ },
+ "azaadsingh": {
+  "enriched_at": "2026-09-19"
  },
  "backrooms:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/7/6/4/1/9/tmdb/nwlTTCHTIBtkvb70762Ug25khlV-1200-1200-675-675-crop-000000.jpg?v=ffeffd44cc",
@@ -761,7 +791,7 @@
   "enriched_at": "2026-09-12"
  },
  "billie:2025": {
-  "enriched_at": "2026-09-16"
+  "enriched_at": "2026-09-19"
  },
  "blackeagles": {
   "enriched_at": "2026-09-15"
@@ -860,10 +890,43 @@
   "year": 2025
  },
  "bluewindow:2016": {
-  "enriched_at": "2026-09-16"
+  "enriched_at": "2026-09-19"
  },
  "bolbhaveinnabol": {
   "enriched_at": "2026-09-09"
+ },
+ "bouchra": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/iu/nc/r9/u2/uhmjRW26fBJu80H8cA29xM4X8wC-1200-1200-675-675-crop-000000.jpg?v=99a1571251",
+  "enriched_at": "2026-09-19",
+  "genres": [
+   "Animation",
+   "Drame",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Animation",
+   "Drama",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Animation",
+   "Drame",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36543744",
+  "letterboxd_rating": 3.82,
+  "letterboxd_url": "https://letterboxd.com/film/bouchra/",
+  "letterboxd_votes": 6726,
+  "overview": "Wrestling with writer’s block for her first film, Bouchra, a queer Moroccan jackal living in NYC, starts having difficult yet overdue phone calls with her mother in Casablanca that begin influencing the project. Balancing the precarity of working as an artist, the rift in her cultural identity and an array of romantic interests, Bouchra’s emotional reckoning becomes her path to expression.",
+  "overview_en": "Wrestling with writer’s block for her first film, Bouchra, a queer Moroccan jackal living in NYC, starts having difficult yet overdue phone calls with her mother in Casablanca that begin influencing the project. Balancing the precarity of working as an artist, the rift in her cultural identity and an array of romantic interests, Bouchra’s emotional reckoning becomes her path to expression.",
+  "overview_fr": "Wrestling with writer’s block for her first film, Bouchra, a queer Moroccan jackal living in NYC, starts having difficult yet overdue phone calls with her mother in Casablanca that begin influencing the project. Balancing the precarity of working as an artist, the rift in her cultural identity and an array of romantic interests, Bouchra’s emotional reckoning becomes her path to expression.",
+  "poster": "https://media.themoviedb.org/t/p/w500/gxJG2lWd2d7Akyj8fiEifJSDL85.jpg",
+  "runtime": 83,
+  "title_en": "Bouchra",
+  "title_fr": "Bouchra",
+  "tmdb_id": "1517206",
+  "year": 2026
  },
  "bouchra:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/iu/nc/r9/u2/uhmjRW26fBJu80H8cA29xM4X8wC-1200-1200-675-675-crop-000000.jpg?v=99a1571251",
@@ -2104,6 +2167,9 @@
   "tmdb_id": "11220",
   "year": 1995
  },
+ "festivalinternationalfilmblackmontreal": {
+  "enriched_at": "2026-09-19"
+ },
  "festivalsatellitesprogram1:2026": {
   "enriched_at": "2026-09-18"
  },
@@ -2112,6 +2178,36 @@
  },
  "filfilmjusteillusion:2026": {
   "enriched_at": "2026-09-18"
+ },
+ "filipinana:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/0/3/6/1/2/tmdb/7lgpPrmD2XYABOw8Cu3kyUn4usR-1200-1200-675-675-crop-000000.jpg?v=1b07fd073d",
+  "enriched_at": "2026-09-19",
+  "genres": [
+   "Drame",
+   "Mystère"
+  ],
+  "genres_en": [
+   "Drama",
+   "Mystery"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Mystère"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt29512008",
+  "letterboxd_rating": 3.51,
+  "letterboxd_url": "https://letterboxd.com/film/filipinana-2026/",
+  "letterboxd_votes": 10443,
+  "overview": "While working at an elite country club outside Manila, a 17-year-old Ilocana worker uncovers the violent truths of her workplace, her country, and her own past after attempting to return a lost golf club to the club's president.",
+  "overview_en": "While working at an elite country club outside Manila, a 17-year-old Ilocana worker uncovers the violent truths of her workplace, her country, and her own past after attempting to return a lost golf club to the club's president.",
+  "overview_fr": "While working at an elite country club outside Manila, a 17-year-old Ilocana worker uncovers the violent truths of her workplace, her country, and her own past after attempting to return a lost golf club to the club's president.",
+  "poster": "https://media.themoviedb.org/t/p/w500/64hnrTmeJEvUYoJyuOM7taE3CqT.jpg",
+  "runtime": 101,
+  "title_en": "Filipiñana",
+  "title_fr": "Filipiñana",
+  "tmdb_id": "1417935",
+  "year": 2026
  },
  "fillesroi:2023": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/6/2/0/9/5/1062095-les-filles-du-roi-0-230-0-345-crop.jpg?v=4371303c1e",
@@ -2727,6 +2823,9 @@
  "hommagesylviegroulx": {
   "enriched_at": "2026-09-18"
  },
+ "hommagesylviegroulx:1975": {
+  "enriched_at": "2026-09-19"
+ },
  "hommequiment:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/g6/8c/nb/wm/pq8JxWkSfnrdPeou1R7zWBi9ebs-1200-1200-675-675-crop-000000.jpg?v=8f009c012d",
   "enriched_at": "2026-09-09",
@@ -2866,7 +2965,7 @@
   "enriched_at": "2026-09-17"
  },
  "ilpaesevillage": {
-  "enriched_at": "2026-09-15"
+  "enriched_at": "2026-09-19"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-15"
@@ -3604,7 +3703,7 @@
   "enriched_at": "2026-09-12"
  },
  "legobatmanfilm": {
-  "enriched_at": "2026-09-16"
+  "enriched_at": "2026-09-19"
  },
  "legobatmanmovie": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/rr/3t/0c/j2/the-lego-batman-movie-1200-1200-675-675-crop-000000.jpg?v=384ad2376c",
@@ -4101,7 +4200,7 @@
   "year": 2026
  },
  "mittiputt": {
-  "enriched_at": "2026-09-16"
+  "enriched_at": "2026-09-19"
  },
  "mllebottine:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/0/4/0/890040-miss-boots-0-230-0-345-crop.jpg?v=5b4bd3c02f",
@@ -4388,7 +4487,7 @@
   "enriched_at": "2026-09-12"
  },
  "newnewautrenouvellevagueanimationindependantejaponaise:2021": {
-  "enriched_at": "2026-09-16"
+  "enriched_at": "2026-09-19"
  },
  "nightlivingdead:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j1/z4/q2/vi/bhgMBDnjG9tIVE3RNCD9YeNJHq5-1200-1200-675-675-crop-000000.jpg?v=42c7601897",
@@ -4983,6 +5082,9 @@
  "perspectivessourdestourne": {
   "enriched_at": "2026-09-18"
  },
+ "perspectivessourdestourne:2025": {
+  "enriched_at": "2026-09-19"
+ },
  "petitevieux": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/7/1/2/1081712-blue-sky-jo-0-230-0-345-crop.jpg?v=9dc98a6baf",
   "enriched_at": "2026-09-09",
@@ -5228,6 +5330,9 @@
  },
  "qcc32inconnulac:2013": {
   "enriched_at": "2026-09-17"
+ },
+ "qccunzipped:1995": {
+  "enriched_at": "2026-09-19"
  },
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-18"
@@ -6391,10 +6496,10 @@
   "year": 2026
  },
  "twentyyearsmetcinemascelebrationanglaisavecstfrmetropolitanopera": {
-  "enriched_at": "2026-09-16"
+  "enriched_at": "2026-09-19"
  },
  "twentyyearsmetcinemascelebrationenglishwestmetropolitanopera": {
-  "enriched_at": "2026-09-16"
+  "enriched_at": "2026-09-19"
  },
  "ufc331": {
   "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
@@ -6607,7 +6712,7 @@
   "year": 1958
  },
  "vibe": {
-  "enriched_at": "2026-09-16"
+  "enriched_at": "2026-09-19"
  },
  "videodrome:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xa/04/29/l7/videodrome-1200-1200-675-675-crop-000000.jpg?v=0d3584f6b2",
