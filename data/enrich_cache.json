@@ -727,6 +727,33 @@
  "beauserge": {
   "enriched_at": "2026-09-18"
  },
+ "beauserge:1958": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/io/i9/s8/gu/lebeau-1200-1200-675-675-crop-000000.jpg?v=d9de02fce9",
+  "enriched_at": "2026-09-20",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0051404",
+  "letterboxd_rating": 3.63,
+  "letterboxd_url": "https://letterboxd.com/film/le-beau-serge/",
+  "letterboxd_votes": 7985,
+  "overview": "After long absence, a man returns to his hometown only to find his best friend has become an alcoholic.",
+  "overview_en": "After long absence, a man returns to his hometown only to find his best friend has become an alcoholic.",
+  "overview_fr": "After long absence, a man returns to his hometown only to find his best friend has become an alcoholic.",
+  "poster": "https://media.themoviedb.org/t/p/w500/cvzE5sXIbkOMD5vdsciPJFT8YyJ.jpg",
+  "runtime": 98,
+  "title_en": "Le Beau Serge",
+  "title_fr": "Le Beau Serge",
+  "tmdb_id": "5562",
+  "year": 1959
+ },
  "behula": {
   "enriched_at": "2026-09-18"
  },
@@ -4869,6 +4896,34 @@
  "parleznousdamour": {
   "enriched_at": "2026-09-18"
  },
+ "parleznousdamour:1976": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/a5/w1/2u/q6/x3OeTMAJxuqL7IxjAtKOQZkCpFw-1200-1200-675-675-crop-000000.jpg?v=86087fbae4",
+  "enriched_at": "2026-09-20",
+  "genres": [
+   "Drame",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Drama",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0075036",
+  "letterboxd_url": "https://letterboxd.com/film/talk-about-love/",
+  "overview": "Un animateur de télévision tente de réagir au processus d'aliénation dont est victime le public des émissions de variétés.",
+  "overview_en": "A television host tries to react to the process of alienation that the public is subjected to from variety shows.",
+  "overview_fr": "Un animateur de télévision tente de réagir au processus d'aliénation dont est victime le public des émissions de variétés.",
+  "poster": "https://media.themoviedb.org/t/p/w500/4YPPxPH1GiGBCT0wSWXVotuTlGL.jpg",
+  "runtime": 127,
+  "title_en": "Talk About Love",
+  "title_fr": "Parlez-nous d'amour",
+  "tmdb_id": "255978",
+  "year": 1976
+ },
  "parthasard": {
   "enriched_at": "2026-09-18"
  },
@@ -6899,6 +6954,42 @@
   "title_fr": "The Last Viking",
   "tmdb_id": "1295400",
   "year": 2025
+ },
+ "viking:2022": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dw/1d/01/q0/viking-1200-1200-675-675-crop-000000.jpg?v=05fabc046c",
+  "enriched_at": "2026-09-20",
+  "genres": [
+   "Drame",
+   "Comédie",
+   "Fantastique",
+   "Science-Fiction"
+  ],
+  "genres_en": [
+   "Drama",
+   "Comedy",
+   "Fantasy",
+   "Science Fiction"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Comédie",
+   "Fantastique",
+   "Science-Fiction"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt21440560",
+  "letterboxd_rating": 3.66,
+  "letterboxd_url": "https://letterboxd.com/film/viking-2022/",
+  "letterboxd_votes": 5134,
+  "overview": "Cinq personnes sont recrutées par la Viking Society pour collaborer à la première mission habitée vers Mars. Elles ont été choisies en raison des similitudes psychologiques qu'elles partagent avec les cinq astronautes qui se rendront sur la planète rouge. Ces volontaires forment donc une équipe B d'alter ego qui vivront l'aventure en parallèle, à huis clos sur Terre.",
+  "overview_en": "Five people are recruited by the Viking Society to collaborate on the first manned mission to Mars. They were chosen because of the psychological similarities they share with the five astronauts who will travel to the red planet. These volunteers therefore form a B-team of alter egos who will experience the adventure in parallel, behind closed doors on Earth.",
+  "overview_fr": "Cinq personnes sont recrutées par la Viking Society pour collaborer à la première mission habitée vers Mars. Elles ont été choisies en raison des similitudes psychologiques qu'elles partagent avec les cinq astronautes qui se rendront sur la planète rouge. Ces volontaires forment donc une équipe B d'alter ego qui vivront l'aventure en parallèle, à huis clos sur Terre.",
+  "poster": "https://media.themoviedb.org/t/p/w500/pkbG9xXZwwXAG8Bb8WXJweOlF1M.jpg",
+  "runtime": 104,
+  "title_en": "Viking",
+  "title_fr": "Viking",
+  "tmdb_id": "911345",
+  "year": 2022
  },
  "villesansjuifs:1924": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/7/3/7/0/67370-the-city-without-jews-0-230-0-345-crop.jpg?v=db3d80fa8f",
