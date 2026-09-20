@@ -663,6 +663,36 @@
  "barrylyndon": {
   "enriched_at": "2026-09-18"
  },
+ "barrylyndon:1975": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/su/h6/e2/cr/barry-lyndon-1200-1200-675-675-crop-000000.jpg?v=b70b5426e8",
+  "enriched_at": "2026-09-20",
+  "genres": [
+   "Drame",
+   "Histoire"
+  ],
+  "genres_en": [
+   "Drama",
+   "History"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Histoire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0072684",
+  "letterboxd_rating": 4.41,
+  "letterboxd_url": "https://letterboxd.com/film/barry-lyndon/",
+  "letterboxd_votes": 467848,
+  "overview": "An Irish rogue uses his cunning and wit to work his way up the social classes of 18th century England, transforming himself from the humble Redmond Barry into the noble Barry Lyndon.",
+  "overview_en": "An Irish rogue uses his cunning and wit to work his way up the social classes of 18th century England, transforming himself from the humble Redmond Barry into the noble Barry Lyndon.",
+  "overview_fr": "An Irish rogue uses his cunning and wit to work his way up the social classes of 18th century England, transforming himself from the humble Redmond Barry into the noble Barry Lyndon.",
+  "poster": "https://media.themoviedb.org/t/p/w500/prwtTDfRbwdNOzjURTabW3UYW0O.jpg",
+  "runtime": 188,
+  "title_en": "Barry Lyndon",
+  "title_fr": "Barry Lyndon",
+  "tmdb_id": "3175",
+  "year": 1975
+ },
  "bataillegaulleliberte:2026": {
   "enriched_at": "2026-09-18"
  },
@@ -2995,7 +3025,7 @@
   "year": 2026
  },
  "ileoubliaccesenavantpremiere": {
-  "enriched_at": "2026-09-17"
+  "enriched_at": "2026-09-20"
  },
  "ilpaesevillage": {
   "enriched_at": "2026-09-19"
@@ -4831,7 +4861,7 @@
   "year": 2026
  },
  "paradise": {
-  "enriched_at": "2026-09-17"
+  "enriched_at": "2026-09-20"
  },
  "paradisetelugu": {
   "enriched_at": "2026-09-18"
@@ -5347,10 +5377,44 @@
   "year": 2026
  },
  "primeurssurpriseslundi": {
-  "enriched_at": "2026-09-17"
+  "enriched_at": "2026-09-20"
+ },
+ "psychic": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0g/8w/vm/hx/mHeyQoYO5zyWLZxsyVzGZLymf15-1200-1200-675-675-crop-000000.jpg?v=07b1f21364",
+  "enriched_at": "2026-09-20",
+  "genres": [
+   "Horreur",
+   "Mystère",
+   "Thriller"
+  ],
+  "genres_en": [
+   "Horror",
+   "Mystery",
+   "Thriller"
+  ],
+  "genres_fr": [
+   "Horreur",
+   "Mystère",
+   "Thriller"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0075614",
+  "letterboxd_rating": 3.55,
+  "letterboxd_url": "https://letterboxd.com/film/the-psychic/",
+  "letterboxd_votes": 17860,
+  "overview": "A woman with psychic powers has a vision of a murder that took place in a house owned by her husband.",
+  "overview_en": "A woman with psychic powers has a vision of a murder that took place in a house owned by her husband.",
+  "overview_fr": "A woman with psychic powers has a vision of a murder that took place in a house owned by her husband.",
+  "poster": "https://media.themoviedb.org/t/p/w500/hT8hau3udkLBRLFkct43CWWfVbs.jpg",
+  "runtime": 97,
+  "title_en": "The Psychic",
+  "title_fr": "The Psychic",
+  "tmdb_id": "27703",
+  "wikidata_id": "Q1079719",
+  "year": 1977
  },
  "pulpwhatdoyoudofor": {
-  "enriched_at": "2026-09-17"
+  "enriched_at": "2026-09-20"
  },
  "qcc29marlonriggsdoublefeature": {
   "enriched_at": "2026-09-15"
@@ -5362,7 +5426,7 @@
   "enriched_at": "2026-09-15"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-09-17"
+  "enriched_at": "2026-09-20"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-09-19"
@@ -5544,6 +5608,9 @@
   "title_fr": "Resident Evil",
   "tmdb_id": "1423191",
   "year": 2026
+ },
+ "residentevildubbedspanish": {
+  "enriched_at": "2026-09-20"
  },
  "revedafrique": {
   "enriched_at": "2026-09-18"
@@ -5878,7 +5945,7 @@
   "year": 1968
  },
  "shaunmoutonbeeeteferme": {
-  "enriched_at": "2026-09-17"
+  "enriched_at": "2026-09-20"
  },
  "shaunsheepbeastmossybottom": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
@@ -5967,6 +6034,36 @@
   "title_fr": "Shining : L'enfant lumière",
   "tmdb_id": "694",
   "year": 1980
+ },
+ "shock": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/3/8/0/8/5/38085-the-last-casino-0-230-0-345-crop.jpg?v=93b211a162",
+  "enriched_at": "2026-09-20",
+  "genres": [
+   "Drame",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Drama",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0419909",
+  "letterboxd_rating": 3.41,
+  "letterboxd_url": "https://letterboxd.com/film/the-last-casino/",
+  "letterboxd_votes": 281,
+  "overview": "A University teacher finds three bright students and decides to teach them how to count cards to make lots of money. As they learn how to play the casinos, things get tricky when the debt owing teacher informs them that their front man wants restitution for loses in about a weeks time. The three students decide to hit all the major casinos in Ontario and Quebec until discovered.",
+  "overview_en": "A University teacher finds three bright students and decides to teach them how to count cards to make lots of money. As they learn how to play the casinos, things get tricky when the debt owing teacher informs them that their front man wants restitution for loses in about a weeks time. The three students decide to hit all the major casinos in Ontario and Quebec until discovered.",
+  "overview_fr": "A University teacher finds three bright students and decides to teach them how to count cards to make lots of money. As they learn how to play the casinos, things get tricky when the debt owing teacher informs them that their front man wants restitution for loses in about a weeks time. The three students decide to hit all the major casinos in Ontario and Quebec until discovered.",
+  "poster": "https://media.themoviedb.org/t/p/w500/7yzEJF3fK1ZGoNLJ2Azi5DkjagW.jpg",
+  "runtime": 92,
+  "title_en": "The Last Casino",
+  "title_fr": "The Last Casino",
+  "tmdb_id": "22085",
+  "year": 2004
  },
  "sickling": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/7/0/0/5/5/270055-hammer-and-sickle-0-230-0-345-crop.jpg?v=3c792f0faf",
