@@ -95,6 +95,21 @@
   "runtime": 75,
   "tmdb_id": "1614818"
  },
+ "6portraitsneorealistes:2026": {
+  "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
+  "enriched_at": "2026-09-21",
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/six-neorealist-portraits/",
+  "overview": "La caméra de Robert Morin rôde à Rome, un fantôme qui traverse les frontières, observe six individus qui ont migré là à partir de l’Afrique. La nuit, sur les téléviseurs, on suit le Voleur de bicyclette de Vittorio De Sica; le jour, on entend les téléjournaux, les humoristes, les badauds qui observent avec un détachement quasi orwellien la vie humaine se débattre dans sa quête de dignité. Morin poursuit sa numérologie du monde dans un film qui évoque l’histoire du cinéma pour confronter un réel criblé d’écrans. Une finale qui brise le miroir. Et le recolle.",
+  "overview_en": "Robert Morin's camera roams through Rome, a phantom crossing borders, observing six individuals who migrated to the city from Africa. At night, television screens play Vittorio De Sica's Bicycle Thieves; by day, news broadcasts, comedians, and onlookers watch with an almost Orwellian detachment as human life struggles forward in its quest for dignity. Morin continues his numerology of the world in a film that draws on the history of cinema to confront a reality riddled with meaningless screens. A finale that shatters the mirror. And stitches it back together.",
+  "overview_fr": "La caméra de Robert Morin rôde à Rome, un fantôme qui traverse les frontières, observe six individus qui ont migré là à partir de l’Afrique. La nuit, sur les téléviseurs, on suit le Voleur de bicyclette de Vittorio De Sica; le jour, on entend les téléjournaux, les humoristes, les badauds qui observent avec un détachement quasi orwellien la vie humaine se débattre dans sa quête de dignité. Morin poursuit sa numérologie du monde dans un film qui évoque l’histoire du cinéma pour confronter un réel criblé d’écrans. Une finale qui brise le miroir. Et le recolle.",
+  "poster": "https://media.themoviedb.org/t/p/w780/iMfxLrob1eNSAIiAvKGoBGgRBtZ.jpg",
+  "runtime": 75,
+  "title_en": "Six Neorealist Portraits",
+  "title_fr": "Six Neorealist Portraits",
+  "tmdb_id": "1596947",
+  "year": 2026
+ },
  "812": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ho/pb/4o/of/8%20half-1200-1200-675-675-crop-000000.jpg?v=b249097cac",
   "enriched_at": "2026-09-09",
@@ -169,7 +184,7 @@
   "year": 2026
  },
  "akirarerelease": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "akirarereleaseexperience": {
   "enriched_at": "2026-09-09"
@@ -262,7 +277,7 @@
   "year": 2026
  },
  "amoursimpossibles:1980": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "andrerieus2026summerconcertvivamaastricht": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/4/1/8/2/1564182-andre-rieus-2026-summer-concert-viva-maastricht-0-230-0-345-crop.jpg?v=e0c7c1bf86",
@@ -371,7 +386,7 @@
   "enriched_at": "2026-09-19"
  },
  "apocalypsenowfinalcut:1979": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "arbreauxsabots:1978": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0w/lc/fc/qx/the-tree-of-wooden-clogs-1200-1200-675-675-crop-000000.jpg?v=9ab7ba0a70",
@@ -580,10 +595,13 @@
   "year": 2019
  },
  "avengersendgameexperience": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "avengersphasefinale": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
+ },
+ "avrevedafrique": {
+  "enriched_at": "2026-09-21"
  },
  "azaadsingh": {
   "enriched_at": "2026-09-19"
@@ -694,10 +712,10 @@
   "year": 1975
  },
  "bataillegaulleliberte:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "bataillegaulleresistance:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "beans:2021": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dd/jt/zz/9y/beans-1200-1200-675-675-crop-000000.jpg?v=8e30e63657",
@@ -725,7 +743,7 @@
   "year": 2020
  },
  "beauserge": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "beauserge:1958": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/io/i9/s8/gu/lebeau-1200-1200-675-675-crop-000000.jpg?v=d9de02fce9",
@@ -839,7 +857,7 @@
   "year": 2026
  },
  "bethlehemkudumbaunitmalayalam": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "bethlehemkudumbaunitmalengsub": {
   "enriched_at": "2026-09-09"
@@ -849,6 +867,31 @@
  },
  "billie:2025": {
   "enriched_at": "2026-09-19"
+ },
+ "bitlight:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/0/2/6/2/0/1602620-a-bit-of-light-2026-0-230-0-345-crop.jpg?v=f0a2a5d893",
+  "enriched_at": "2026-09-21",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt43704846",
+  "letterboxd_url": "https://letterboxd.com/film/a-bit-of-light-2026/",
+  "overview": "After being arrested and having his medical practice shut down, an Iranian doctor loses faith in the future and resolves to end his life - but one final day among his family begins to unsettle his decision.",
+  "overview_en": "After being arrested and having his medical practice shut down, an Iranian doctor loses faith in the future and resolves to end his life - but one final day among his family begins to unsettle his decision.",
+  "overview_fr": "After being arrested and having his medical practice shut down, an Iranian doctor loses faith in the future and resolves to end his life - but one final day among his family begins to unsettle his decision.",
+  "poster": "https://media.themoviedb.org/t/p/w500/8kb96ECYdM6u02BuVDMNJxMY2sK.jpg",
+  "runtime": 87,
+  "title_en": "A Bit of Light",
+  "title_fr": "A Bit of Light",
+  "tmdb_id": "1736490",
+  "year": 2026
  },
  "blackeagles": {
   "enriched_at": "2026-09-15"
@@ -1187,6 +1230,39 @@
   "title_fr": "Par tous les moyens",
   "tmdb_id": "1380417",
   "year": 2026
+ },
+ "cairostation:1958": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/f7/90/21/70/cairo-1200-1200-675-675-crop-000000.jpg?v=38bf5c125e",
+  "enriched_at": "2026-09-21",
+  "genres": [
+   "Crime",
+   "Drame",
+   "Thriller"
+  ],
+  "genres_en": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "genres_fr": [
+   "Crime",
+   "Drame",
+   "Thriller"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0051390",
+  "letterboxd_rating": 3.82,
+  "letterboxd_url": "https://letterboxd.com/film/cairo-station/",
+  "letterboxd_votes": 19526,
+  "overview": "Un marchand de journaux du Caire devient dangereusement obsédé par une vendeuse de limonade au moment même où un tueur en série sème la terreur en ville.",
+  "overview_en": "Qinawi, a physically challenged peddler who makes his living selling newspapers in the central Cairo train station, is obsessed with Hanuma, an attractive young woman who sells drinks. While she jokes with him about a possible relationship, she is actually in love with Abu Siri, a strong and respected porter at the station who is struggling to unionize his fellow workers to combat their boss' exploitative and abusive treatment.",
+  "overview_fr": "Un marchand de journaux du Caire devient dangereusement obsédé par une vendeuse de limonade au moment même où un tueur en série sème la terreur en ville.",
+  "poster": "https://media.themoviedb.org/t/p/w500/anaeMmWPEGNlH3CXTHHJ8pv8CSc.jpg",
+  "runtime": 73,
+  "title_en": "Cairo Station",
+  "title_fr": "Gare centrale",
+  "tmdb_id": "47324",
+  "year": 1958
  },
  "callmylife": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/2/3/4/7/3/1523473-call-of-my-life-0-230-0-345-crop.jpg?v=4a3ff4fe70",
@@ -1575,6 +1651,30 @@
   "tmdb_id": "11216",
   "year": 1988
  },
+ "clowngaza:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/0/5/3/9/1440539-the-clown-of-gaza-0-230-0-345-crop.jpg?v=cc702400bf",
+  "enriched_at": "2026-09-21",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/the-clown-of-gaza/",
+  "overview": "A portrait of the greatly beloved performer Alaa Meqdad. The bombings of Gaza City—where he once lived with his parents, sisters, wife, and children—have forced him and his family into a tent camp. With extraordinary optimism, he embraces life in the here and now, and tries to make it more enjoyable for others. Together with his partner, he performs as Aloosh the clown for children in hospitals and on the streets. Their jokes, songs, and boundless energy make the horrific reality momentarily disappear.",
+  "overview_en": "A portrait of the greatly beloved performer Alaa Meqdad. The bombings of Gaza City—where he once lived with his parents, sisters, wife, and children—have forced him and his family into a tent camp. With extraordinary optimism, he embraces life in the here and now, and tries to make it more enjoyable for others. Together with his partner, he performs as Aloosh the clown for children in hospitals and on the streets. Their jokes, songs, and boundless energy make the horrific reality momentarily disappear.",
+  "overview_fr": "A portrait of the greatly beloved performer Alaa Meqdad. The bombings of Gaza City—where he once lived with his parents, sisters, wife, and children—have forced him and his family into a tent camp. With extraordinary optimism, he embraces life in the here and now, and tries to make it more enjoyable for others. Together with his partner, he performs as Aloosh the clown for children in hospitals and on the streets. Their jokes, songs, and boundless energy make the horrific reality momentarily disappear.",
+  "poster": "https://media.themoviedb.org/t/p/w500/vcVLsG09IvvVPjLhViC0wFreZB3.jpg",
+  "runtime": 61,
+  "title_en": "The Clown of Gaza",
+  "title_fr": "The Clown of Gaza",
+  "tmdb_id": "1568023",
+  "year": 2025
+ },
  "clue:1985": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mk/mi/1k/v8/clue-1200-1200-675-675-crop-000000.jpg?v=3742386ac7",
   "enriched_at": "2026-09-16",
@@ -1818,10 +1918,10 @@
   "year": 1960
  },
  "crunchyrollanimenightssneakpeek": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "danemarkilesferoeroyaumebonheur": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "danielfieryfurnace": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/7/5/2/0/6/1575206-daniel-the-fiery-furnace-0-230-0-345-crop.jpg?v=24df664011",
@@ -1882,7 +1982,7 @@
   "year": 2026
  },
  "dearyou": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "deathbyhanging:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/4u/x5/p6/fu/death-by-hanging-1200-1200-675-675-crop-000000.jpg?v=4128034593",
@@ -1915,10 +2015,10 @@
   "year": 1968
  },
  "derenmenkenschneemann": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "diaryshinjukuthief": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "dig:2004": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/yt/ml/74/1p/dig-1200-1200-675-675-crop-000000.jpg?v=44cfb417b7",
@@ -1946,6 +2046,9 @@
   "tmdb_id": "1843",
   "wikidata_id": "Q3025746",
   "year": 2004
+ },
+ "djeddi:2026": {
+  "enriched_at": "2026-09-21"
  },
  "dogstars": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mg/jf/b5/t1/dog%20stars-1200-1200-675-675-crop-000000.jpg?v=07cdea3a26",
@@ -2098,10 +2201,10 @@
   "year": 2009
  },
  "empirepassion": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "enavantmusique:1982": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "endirect": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/1/3/3/4/3/1613343-solidarite-incendies-le-grand-concert-en-0-230-0-345-crop.jpg?v=23a33c9eca",
@@ -2152,7 +2255,7 @@
   "year": 2026
  },
  "enqueteverite:1979": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "espoir": {
   "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
@@ -2261,13 +2364,13 @@
   "enriched_at": "2026-09-19"
  },
  "festivalsatellitesprogram1:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "festivalsatellitesprogram2:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filfilmjusteillusion:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filipinana:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/0/3/6/1/2/tmdb/7lgpPrmD2XYABOw8Cu3kyUn4usR-1200-1200-675-675-crop-000000.jpg?v=1b07fd073d",
@@ -2311,40 +2414,40 @@
   "year": 2023
  },
  "filmpopagridulce:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmpopaki:2025": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmpopbuttholesurfersholetruthnothingbutt:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmpopiamtryingtobreakyourheartfilmaboutwilco:2002": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmpopimaginaldisk:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmpopkanatenhswhenpineneedlesfall:2023": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmpoppulpwhatdoyoudofor:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmpopsummer2000xcetrastory:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmpopturnitup:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmpopweareshaggs:2026": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmpopxoxwantstobepopstar": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "filmslaureatsfare": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "findingemily": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/3/4/3/9/8/tmdb/5E1Mz14VaUDxe5K28HEkXNnysW-1200-1200-675-675-crop-000000.jpg?v=6734068b89",
@@ -2397,10 +2500,10 @@
   "year": 1964
  },
  "florilegei": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "florilegeii": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "forfewdollarsmore:1965": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9k/y1/6f/j7/8tbWZYvniZcjFZEX4XiCjrbHgl4-1200-1200-675-675-crop-000000.jpg?v=63cce732f7",
@@ -2542,7 +2645,7 @@
   "year": 2013
  },
  "gaulleliberty": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "ghost2bigtorig": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/5/3/4/2/1555342-2-big-to-rig-0-230-0-345-crop.jpg?v=4a41c3cc91",
@@ -2559,7 +2662,7 @@
   "year": 2026
  },
  "ghostbusters": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "ghostshell30th": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/k2/5y/em/z6/ghost-in-the-shell-1200-1200-675-675-crop-000000.jpg?v=99a1bf740b",
@@ -2590,10 +2693,10 @@
   "year": 1995
  },
  "ghostshell:1995": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "ginochouinardauxilesguadeloupe": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "goodbadugly60th:1966": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/07/zz/2k/vy/the-good-the-bad-and-the-ugly-1200-1200-675-675-crop-000000.jpg?v=6fdc9111b0",
@@ -3089,7 +3192,7 @@
   "year": 2010
  },
  "inheritors:2023": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "insidieuxhorsplusloin": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
@@ -3247,6 +3350,40 @@
   "tmdb_id": "950028",
   "year": 2026
  },
+ "invite": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/8/5/4/8/3/1/tmdb/lEwqBGNR65KZv6Ej5ufcmhZu2y2-1200-1200-675-675-crop-000000.jpg?v=0c1941692d",
+  "enriched_at": "2026-09-21",
+  "genres": [
+   "Comédie",
+   "Drame",
+   "Romance"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Drama",
+   "Romance"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Drame",
+   "Romance"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt14173636",
+  "letterboxd_rating": 3.97,
+  "letterboxd_url": "https://letterboxd.com/film/the-invite-2026/",
+  "letterboxd_votes": 889347,
+  "overview": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+  "overview_en": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+  "overview_fr": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+  "poster": "https://media.themoviedb.org/t/p/w500/aNWcc9tMgpqYoa61SElbYGZs9OW.jpg",
+  "runtime": 107,
+  "title_en": "The Invite",
+  "title_fr": "The Invite",
+  "tmdb_id": "950028",
+  "wikidata_id": "Q134083296",
+  "year": 2026
+ },
  "invite:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/8/5/4/8/3/1/tmdb/lEwqBGNR65KZv6Ej5ufcmhZu2y2-1200-1200-675-675-crop-000000.jpg?v=0c1941692d",
   "enriched_at": "2026-09-09",
@@ -3279,7 +3416,7 @@
   "enriched_at": "2026-09-09"
  },
  "islandeveloaugrevent": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "itends:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6s/nw/3k/i2/blIQ1Xlc3gfOHqWc67ULnyYGEAe-1200-1200-675-675-crop-000000.jpg?v=68470cf57d",
@@ -3430,7 +3567,7 @@
   "year": 1971
  },
  "jurassicpark": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "justeillusion:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/n1/4r/kd/lt/just%20a-1200-1200-675-675-crop-000000.jpg?v=f95e6cce8a",
@@ -3831,6 +3968,34 @@
   "tmdb_id": "324849",
   "year": 2017
  },
+ "linkinparkunshatter": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/7/3/6/4/6/1273646-linkin-park-unshatter-0-230-0-345-crop.jpg?v=c5b3ff7277",
+  "enriched_at": "2026-09-21",
+  "genres": [
+   "Musique",
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Music",
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Musique",
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt43442522",
+  "letterboxd_url": "https://letterboxd.com/film/linkin-park-unshatter/",
+  "overview": "After a seven-year hiatus following the devastating loss of their beloved bandmate Chester Bennington, LINKIN PARK'S remaining members struggled to find their way forward. Their shared history and enduring friendship, combined with the fresh perspective of two new band members Emily Armstrong and Colin Brittain spark a renewed creative energy that leads them on a transformative journey of artistic reinvention. Following the band from intimate 2022 studio sessions through their explosive FROM ZERO album release and concert in São Paulo, this documentary weaves together rare vault footage, electrifying performances from sold-out shows, and candid interviews with band members and fans—capturing the raw, honest story of what it means to start over.",
+  "overview_en": "After a seven-year hiatus following the devastating loss of their beloved bandmate Chester Bennington, LINKIN PARK'S remaining members struggled to find their way forward. Their shared history and enduring friendship, combined with the fresh perspective of two new band members Emily Armstrong and Colin Brittain spark a renewed creative energy that leads them on a transformative journey of artistic reinvention. Following the band from intimate 2022 studio sessions through their explosive FROM ZERO album release and concert in São Paulo, this documentary weaves together rare vault footage, electrifying performances from sold-out shows, and candid interviews with band members and fans—capturing the raw, honest story of what it means to start over.",
+  "overview_fr": "After a seven-year hiatus following the devastating loss of their beloved bandmate Chester Bennington, LINKIN PARK'S remaining members struggled to find their way forward. Their shared history and enduring friendship, combined with the fresh perspective of two new band members Emily Armstrong and Colin Brittain spark a renewed creative energy that leads them on a transformative journey of artistic reinvention. Following the band from intimate 2022 studio sessions through their explosive FROM ZERO album release and concert in São Paulo, this documentary weaves together rare vault footage, electrifying performances from sold-out shows, and candid interviews with band members and fans—capturing the raw, honest story of what it means to start over.",
+  "poster": "https://media.themoviedb.org/t/p/w500/kHNrz7DBVPrtyMhJxmBm2poS2l9.jpg",
+  "runtime": 108,
+  "title_en": "LINKIN PARK: UNSHATTER",
+  "title_fr": "LINKIN PARK: UNSHATTER",
+  "tmdb_id": "1388805",
+  "year": 2026
+ },
  "littleprincepetitsmodernes:2015": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wm/dh/a8/sq/the-little-prince-1200-1200-675-675-crop-000000.jpg?v=189674e838",
   "enriched_at": "2026-09-09",
@@ -3969,7 +4134,7 @@
   "enriched_at": "2026-09-09"
  },
  "mandaaditamil": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "manwhofelltoearth:1976": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/v3/am/ij/mi/man-1200-1200-675-675-crop-000000.jpg?v=99ebb38991",
@@ -4000,7 +4165,7 @@
   "year": 1976
  },
  "manwholefthiswillfilm": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "mariachapdelaine": {
   "enriched_at": "2026-09-09"
@@ -4259,7 +4424,7 @@
   "year": 2012
  },
  "mirzapurmovie": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "misanthropenationaltheatrelive": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/6/2/0/6/1556206-national-theatre-live-the-misanthrope-0-230-0-345-crop.jpg?v=d0b16cfaca",
@@ -4375,7 +4540,7 @@
   "year": 2014
  },
  "mondaysurprisepremieres": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "monsieurlazhar:2011": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/y6/7c/kj/wj/monsieur-lazhar-1200-1200-675-675-crop-000000.jpg?v=ada2c0bdeb",
@@ -4498,7 +4663,7 @@
   "year": 2026
  },
  "mybrilliantcareer": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "mybrotherswedding:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l7/7t/pp/tx/my%20brother-1200-1200-675-675-crop-000000.jpg?v=01510d17d8",
@@ -4891,10 +5056,10 @@
   "enriched_at": "2026-09-20"
  },
  "paradisetelugu": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "parleznousdamour": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "parleznousdamour:1976": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/a5/w1/2u/q6/x3OeTMAJxuqL7IxjAtKOQZkCpFw-1200-1200-675-675-crop-000000.jpg?v=86087fbae4",
@@ -4925,7 +5090,7 @@
   "year": 1976
  },
  "parthasard": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "partousmoyens": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/a8/w9/h0/k9/1jANqIbqrWJZb8GM5Kb3L6U8iHi-1200-1200-675-675-crop-000000.jpg?v=93e6be2389",
@@ -5256,7 +5421,29 @@
   "year": 1940
  },
  "photosaigoncoupsfeusurdeuxvies:2026": {
-  "enriched_at": "2026-09-18"
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/7/4/7/2/8/1474728-saigon-story-two-shootings-in-the-forest-0-230-0-345-crop.jpg?v=195486f454",
+  "enriched_at": "2026-09-21",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36451987",
+  "letterboxd_url": "https://letterboxd.com/film/saigon-story-two-shootings-in-the-forest/",
+  "overview": "Que cache l’une des images de guerre les plus légendaires du 20e siècle? Avec une approche narrative captivante, le cinéaste Kim Nguyen, nommé aux Oscars, explore le lien énigmatique entre deux familles vietnamiennes et la photo L’exécution de Saigon, prise pendant la guerre du Vietnam. Entre drame historique et enquête captivante, Une photo à Saigon déterre les secrets personnels et collectifs, révélant la nature insaisissable de la mémoire et le chemin sinueux de la guérison.",
+  "overview_en": "Which is more final, the gun or the camera? Armed with a powerful visual style, Oscar®-nominated filmmaker Kim Nguyen reveals the elusive connection between two families and one iconic photo: Saigon Execution. Part history, part mystery, Saigon Story confronts the family secrets left in the wake of the Vietnam War, exposing the resilience of survivors and the blurred legacy of wartime memory.",
+  "overview_fr": "Que cache l’une des images de guerre les plus légendaires du 20e siècle? Avec une approche narrative captivante, le cinéaste Kim Nguyen, nommé aux Oscars, explore le lien énigmatique entre deux familles vietnamiennes et la photo L’exécution de Saigon, prise pendant la guerre du Vietnam. Entre drame historique et enquête captivante, Une photo à Saigon déterre les secrets personnels et collectifs, révélant la nature insaisissable de la mémoire et le chemin sinueux de la guérison.",
+  "poster": "https://media.themoviedb.org/t/p/w500/ev5ZegjbZxSgzYvNUXszvT8WdwS.jpg",
+  "runtime": 91,
+  "title_en": "Une photo à Saigon : coups de feu sur deux vies",
+  "title_fr": "Une photo à Saigon : coups de feu sur deux vies",
+  "tmdb_id": "1606750",
+  "year": 2026
  },
  "place:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/7/9/3/5/1/1579351-the-parking-spot-2026-0-230-0-345-crop.jpg?v=f3ff0333aa",
@@ -5367,7 +5554,7 @@
   "year": 1981
  },
  "pouletauxprunes": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "practicalmagic2": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/8/5/0/2/2/tmdb/yDgYYuz8jDQCRJbHC3XM7IIGoeR-1200-1200-675-675-crop-000000.jpg?v=104462dc86",
@@ -5475,7 +5662,7 @@
   "enriched_at": "2026-09-15"
  },
  "qcc30whateverhappenedtobabyjane:1962": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "qcc31peeweesbigadventure:1985": {
   "enriched_at": "2026-09-15"
@@ -5487,7 +5674,7 @@
   "enriched_at": "2026-09-19"
  },
  "qepcshortfilmsshowcase": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "quebecduplessisapres": {
   "enriched_at": "2026-09-15"
@@ -5586,7 +5773,7 @@
   "tmdb_id": "1647086"
  },
  "redflagarabic": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "regarddulysse:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9o/xn/pn/3u/ulysses%20gaze-1200-1200-675-675-crop-000000.jpg?v=b7e515a0d5",
@@ -5668,7 +5855,7 @@
   "enriched_at": "2026-09-20"
  },
  "revedafrique": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "revolte": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cs/s4/la/gk/uprising-1200-1200-675-675-crop-000000.jpg?v=b9a5bdc65d",
@@ -6175,7 +6362,7 @@
   "enriched_at": "2026-09-15"
  },
  "smallchildsfirstadventure": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "sphinx:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/8/0/5/0/4/280504-le-sphinx-0-230-0-345-crop.jpg?v=183ccda635",
@@ -6497,7 +6684,7 @@
   "year": 2026
  },
  "theaterthought:2022": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  },
  "tony:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/va/ir/j7/p7/bOqTOVkHAL4z87P0Opf6q5mIeRy-1200-1200-675-675-crop-000000.jpg?v=ac8d6352de",
@@ -6820,6 +7007,34 @@
  "vampirehumanistecherchesuicidaireconsentant": {
   "enriched_at": "2026-09-18"
  },
+ "verity": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/6/7/1/5/1/1167151-verity-2026-0-230-0-345-crop.jpg?v=c2749e27fe",
+  "enriched_at": "2026-09-21",
+  "genres": [
+   "Mystère",
+   "Thriller"
+  ],
+  "genres_en": [
+   "Mystery",
+   "Thriller"
+  ],
+  "genres_fr": [
+   "Mystère",
+   "Thriller"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt32261958",
+  "letterboxd_url": "https://letterboxd.com/film/verity-2026/",
+  "overview": "Lowen Ashleigh is hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who is unable to finish following an accident. Lowen gradually uncovers Verity's disturbing truths while residing at the Crawfords' home to work.",
+  "overview_en": "Lowen Ashleigh is hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who is unable to finish following an accident. Lowen gradually uncovers Verity's disturbing truths while residing at the Crawfords' home to work.",
+  "overview_fr": "Lowen Ashleigh is hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who is unable to finish following an accident. Lowen gradually uncovers Verity's disturbing truths while residing at the Crawfords' home to work.",
+  "poster": "https://media.themoviedb.org/t/p/w500/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
+  "runtime": 117,
+  "title_en": "Verity",
+  "title_fr": "Verity",
+  "tmdb_id": "1283515",
+  "year": 2026
+ },
  "vertige2": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/9/3/2/4/7/tmdb/iAlOJ7KUyZffBJBHf8nhXlrqGdY-1200-1200-675-675-crop-000000.jpg?v=4df19174ba",
   "enriched_at": "2026-09-09",
@@ -7075,6 +7290,33 @@
  "vishwanathsonstamengsub": {
   "enriched_at": "2026-09-09"
  },
+ "vivalaldjerie:2004": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/3/5/2/2/123522-viva-algeria-0-230-0-345-crop.jpg?v=6d5972d235",
+  "enriched_at": "2026-09-21",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0348884",
+  "letterboxd_rating": 3.35,
+  "letterboxd_url": "https://letterboxd.com/film/viva-algeria/",
+  "letterboxd_votes": 319,
+  "overview": "Sous pression terroriste, deux femmes se réfugient dans un hôtel situé au centre d'Alger. Goucem, la fille âgée de 27 ans, s'est fabriqué une apparence de vie \"normale\" en travaillant pour un photographe. Elle partage par ailleurs sa vie entre un homme marié et généreux et des week-ends chauds en boîte de nuit. Devant la télévision, Papicha, la mère, vacille entre peur et nostalgie d'un passé heureux de danseuse de cabaret.",
+  "overview_en": "This movie portrays three women living in today's Algeria between modern society and Islamic fundamentalism, self-determination and dependence. Goucem, a young woman who works for a photographer and mistress of a rich doctor, her mother Papicha, a former cabaret star, and her best friend Fifi, a prostitute, all live in a hotel in the city center of Algiers. Their difficult personal situation and the growing influence of Islam lead to dramatic consequences...",
+  "overview_fr": "Sous pression terroriste, deux femmes se réfugient dans un hôtel situé au centre d'Alger. Goucem, la fille âgée de 27 ans, s'est fabriqué une apparence de vie \"normale\" en travaillant pour un photographe. Elle partage par ailleurs sa vie entre un homme marié et généreux et des week-ends chauds en boîte de nuit. Devant la télévision, Papicha, la mère, vacille entre peur et nostalgie d'un passé heureux de danseuse de cabaret.",
+  "poster": "https://media.themoviedb.org/t/p/w500/dqNLCtp95pXT68qlIyS1qcRumJi.jpg",
+  "runtime": 113,
+  "title_en": "Viva Algeria",
+  "title_fr": "Viva Laldjérie",
+  "tmdb_id": "167284",
+  "year": 2004
+ },
  "vivaldimoi:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/5/3/4/7/6/tmdb/tjRhxRyaF7LgGnNP2lrAIo3cQSb-1200-1200-675-675-crop-000000.jpg?v=8a7daffeff",
   "enriched_at": "2026-09-09",
@@ -7151,7 +7393,34 @@
   "wikidata_id": "Q129874",
   "year": 2012
  },
+ "yesterdayeyedidntsleep:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/0/4/7/6/7/1404767-yesterday-the-eye-didnt-sleep-0-230-0-345-crop.jpg?v=03b80886d5",
+  "enriched_at": "2026-09-21",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37775830",
+  "letterboxd_rating": 3.35,
+  "letterboxd_url": "https://letterboxd.com/film/yesterday-the-eye-didnt-sleep/",
+  "letterboxd_votes": 689,
+  "overview": "In a Bedouin village on the Lebanon–Syria border, a burned truck sets off a hunt for Gamra, blamed for burning her lover’s car. As her cousin searches for her, he accidentally kills a man from a rival clan, sparking a blood feud. His sisters are traded for peace. Will their sacrifice end the violence, or ignite a war across the village?",
+  "overview_en": "In a Bedouin village on the Lebanon–Syria border, a burned truck sets off a hunt for Gamra, blamed for burning her lover’s car. As her cousin searches for her, he accidentally kills a man from a rival clan, sparking a blood feud. His sisters are traded for peace. Will their sacrifice end the violence, or ignite a war across the village?",
+  "overview_fr": "In a Bedouin village on the Lebanon–Syria border, a burned truck sets off a hunt for Gamra, blamed for burning her lover’s car. As her cousin searches for her, he accidentally kills a man from a rival clan, sparking a blood feud. His sisters are traded for peace. Will their sacrifice end the violence, or ignite a war across the village?",
+  "poster": "https://media.themoviedb.org/t/p/w500/w7SAe4TrBqmpzam3WGNjphNn9mB.jpg",
+  "runtime": 100,
+  "title_en": "Yesterday the Eye Didn't Sleep",
+  "title_fr": "Yesterday the Eye Didn't Sleep",
+  "tmdb_id": "1529849",
+  "year": 2026
+ },
  "ziggystardustspidersfrommars:1979": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-21"
  }
 }
