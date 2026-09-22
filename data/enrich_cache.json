@@ -383,7 +383,7 @@
   "enriched_at": "2026-09-09"
  },
  "apocalypsecarletournagemariachapdelaine:1983": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "apocalypsenowfinalcut:1979": {
   "enriched_at": "2026-09-21"
@@ -604,7 +604,7 @@
   "enriched_at": "2026-09-21"
  },
  "azaadsingh": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "backrooms:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/7/6/4/1/9/tmdb/nwlTTCHTIBtkvb70762Ug25khlV-1200-1200-675-675-crop-000000.jpg?v=ffeffd44cc",
@@ -800,6 +800,31 @@
   "tmdb_id": "1571076",
   "year": 2026
  },
+ "bestwayisbyaccident:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/3/5/7/6/1443576-the-best-way-is-by-accident-0-230-0-345-crop.jpg?v=cf3c7b169b",
+  "enriched_at": "2026-09-22",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt42353729",
+  "letterboxd_url": "https://letterboxd.com/film/the-best-way-is-by-accident/",
+  "overview": "Après la mort de son père adoptif, une jeune cinéaste replonge dans ses archives vidéo pour finalement réaliser qu’elle ne l’a jamais filmé – sauf une fois, par accident. Maintenant à l’aube de la fin du monde, elle veille à filmer l’extraordinaire dans l’ordinaire… lui aussi voué à disparaître.",
+  "overview_en": "After the death of her adoptive father, a young filmmaker delves into his video archives only to realize that she never filmed him—except once, by accident. As the end of the world approaches, she now sets out to capture the extraordinary in the ordinary… which, too, is destined to disappear.",
+  "overview_fr": "Après la mort de son père adoptif, une jeune cinéaste replonge dans ses archives vidéo pour finalement réaliser qu’elle ne l’a jamais filmé – sauf une fois, par accident. Maintenant à l’aube de la fin du monde, elle veille à filmer l’extraordinaire dans l’ordinaire… lui aussi voué à disparaître.",
+  "poster": "https://media.themoviedb.org/t/p/w500/xqlXPtOj3YIVERreVbDw62als44.jpg",
+  "runtime": 111,
+  "title_en": "The Best Way Is by Accident",
+  "title_fr": "La meilleure façon, c'est par accident",
+  "tmdb_id": "1571076",
+  "year": 2026
+ },
  "bestyearsourlives:1946": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kq/rl/hd/wf/bestyears-1200-1200-675-675-crop-000000.jpg?v=ccd5eeb1fd",
   "enriched_at": "2026-09-09",
@@ -866,7 +891,7 @@
   "enriched_at": "2026-09-12"
  },
  "billie:2025": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "bitlight:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/0/2/6/2/0/1602620-a-bit-of-light-2026-0-230-0-345-crop.jpg?v=f0a2a5d893",
@@ -990,7 +1015,7 @@
   "year": 2025
  },
  "bluewindow:2016": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "bolbhaveinnabol": {
   "enriched_at": "2026-09-09"
@@ -2128,6 +2153,9 @@
   "tmdb_id": "86507",
   "year": 2011
  },
+ "doomakethumalayalam": {
+  "enriched_at": "2026-09-22"
+ },
  "douniaprincessedalep:2023": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/7/3/7/1/3/873713-dounia-and-the-princess-of-aleppo-0-230-0-345-crop.jpg?v=fccc63994b",
   "enriched_at": "2026-09-09",
@@ -2361,7 +2389,7 @@
   "year": 1995
  },
  "festivalinternationalfilmblackmontreal": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "festivalsatellitesprogram1:2026": {
   "enriched_at": "2026-09-21"
@@ -2766,6 +2794,37 @@
   "poster": "https://media.themoviedb.org/t/p/w500/817TXDgDYGADjScfgoxQ1sopANO.jpg",
   "tmdb_id": "1206531"
  },
+ "grandsaut:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/3/6/0/2/9/1436029-the-stunt-driver-0-230-0-345-crop.jpg?v=aaa918feaf",
+  "enriched_at": "2026-09-22",
+  "genres": [
+   "Action",
+   "Comédie",
+   "Drame"
+  ],
+  "genres_en": [
+   "Action",
+   "Comedy",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Action",
+   "Comédie",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt34611096",
+  "letterboxd_url": "https://letterboxd.com/film/the-stunt-driver/",
+  "overview": "Based on the true story of Montrealer Ken Carter, the “Mad Canadian” stunt driver who tried to jump the Saint Lawrence River in a rocket car in the mid-’70s. Carter's dream was to end his 30-year career with a big jump, a big paycheck, and mega stardom. In the process of accomplishing it, he hired a big sports manager and enlisted the best in rocket car design, with the National Film Board of Canada filming a documentary leading up to the event.",
+  "overview_en": "Based on the true story of Montrealer Ken Carter, the “Mad Canadian” stunt driver who tried to jump the Saint Lawrence River in a rocket car in the mid-’70s. Carter's dream was to end his 30-year career with a big jump, a big paycheck, and mega stardom. In the process of accomplishing it, he hired a big sports manager and enlisted the best in rocket car design, with the National Film Board of Canada filming a documentary leading up to the event.",
+  "overview_fr": "Based on the true story of Montrealer Ken Carter, the “Mad Canadian” stunt driver who tried to jump the Saint Lawrence River in a rocket car in the mid-’70s. Carter's dream was to end his 30-year career with a big jump, a big paycheck, and mega stardom. In the process of accomplishing it, he hired a big sports manager and enlisted the best in rocket car design, with the National Film Board of Canada filming a documentary leading up to the event.",
+  "poster": "https://media.themoviedb.org/t/p/w500/jFiMdTG8Hw41A3VxrzLEWtMFIYX.jpg",
+  "runtime": 99,
+  "title_en": "The Stunt Driver",
+  "title_fr": "The Stunt Driver",
+  "tmdb_id": "1562777",
+  "year": 2026
+ },
  "guepard": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/b2/26/wl/xg/the-leopard-1200-1200-675-675-crop-000000.jpg?v=5b38f9d921",
   "enriched_at": "2026-09-09",
@@ -3017,7 +3076,7 @@
   "enriched_at": "2026-09-18"
  },
  "hommagesylviegroulx:1975": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "hommequiment:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/g6/8c/nb/wm/pq8JxWkSfnrdPeou1R7zWBi9ebs-1200-1200-675-675-crop-000000.jpg?v=8f009c012d",
@@ -3157,8 +3216,38 @@
  "ileoubliaccesenavantpremiere": {
   "enriched_at": "2026-09-20"
  },
+ "ileoublie": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/gi/ka/mn/0a/i-like-movies-1200-1200-675-675-crop-000000.jpg?v=5490449592",
+  "enriched_at": "2026-09-22",
+  "genres": [
+   "Comédie",
+   "Drame"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt14913282",
+  "letterboxd_rating": 3.59,
+  "letterboxd_url": "https://letterboxd.com/film/i-like-movies/",
+  "letterboxd_votes": 59121,
+  "overview": "Lawrence Kweller, un cinéphile socialement maladroit de 17 ans, prend un emploi à temps partiel au magasin de vidéos Sequels, où il noue une amitié compliquée avec son aînée, Alana. Lawrence espère gagner assez d'argent pour fréquenter une école de cinéma à New York.",
+  "overview_en": "Socially inept 17-year-old cinephile Lawrence Kweller gets a job at a video store, where he forms a complicated friendship with his older female manager.",
+  "overview_fr": "Lawrence Kweller, un cinéphile socialement maladroit de 17 ans, prend un emploi à temps partiel au magasin de vidéos Sequels, où il noue une amitié compliquée avec son aînée, Alana. Lawrence espère gagner assez d'argent pour fréquenter une école de cinéma à New York.",
+  "poster": "https://media.themoviedb.org/t/p/w500/phb6rDzREtNXvTXuXVuAYcJBR7F.jpg",
+  "runtime": 99,
+  "title_en": "I Like Movies",
+  "title_fr": "Maniaque de films",
+  "tmdb_id": "980996",
+  "year": 2023
+ },
  "ilpaesevillage": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-15"
@@ -3540,6 +3629,36 @@
   "tmdb_id": "1570621",
   "year": 2025
  },
+ "jimqueen:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/5/7/3/8/0/tmdb/vQw05sfFEVCVpysDAU5C8NU1gMO-1200-1200-675-675-crop-000000.jpg?v=2d4514f5c0",
+  "enriched_at": "2026-09-22",
+  "genres": [
+   "Animation",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Animation",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Animation",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36955518",
+  "letterboxd_rating": 3.97,
+  "letterboxd_url": "https://letterboxd.com/film/jim-queen/",
+  "letterboxd_votes": 51266,
+  "overview": "When Heterosis, a mysterious virus that turns gay men straight, sweeps through the Parisian gay scene, Jim, the six-packed sovereign of the Gym Queens, goes from Pride royalty to social outcast. With only Lucien, a freshly-out twink with more heart than abs, still by his side, Jim must race to find a cure before the disease erases the community that once worshipped him.",
+  "overview_en": "When Heterosis, a mysterious virus that turns gay men straight, sweeps through the Parisian gay scene, Jim, the six-packed sovereign of the Gym Queens, goes from Pride royalty to social outcast. With only Lucien, a freshly-out twink with more heart than abs, still by his side, Jim must race to find a cure before the disease erases the community that once worshipped him.",
+  "overview_fr": "When Heterosis, a mysterious virus that turns gay men straight, sweeps through the Parisian gay scene, Jim, the six-packed sovereign of the Gym Queens, goes from Pride royalty to social outcast. With only Lucien, a freshly-out twink with more heart than abs, still by his side, Jim must race to find a cure before the disease erases the community that once worshipped him.",
+  "poster": "https://media.themoviedb.org/t/p/w500/jw8vwfyKOf509Zj1cu27waGFZLB.jpg",
+  "runtime": 85,
+  "title_en": "Jim Queen and the Quest for Chloroqueer",
+  "title_fr": "Jim Queen",
+  "tmdb_id": "1061798",
+  "year": 2026
+ },
  "johnnysenvatenguerre:1971": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jh/tk/vz/6f/nNEcfPsdkNomQmHvA9ruyqlEB5J-1200-1200-675-675-crop-000000.jpg?v=fd5f8f6048",
   "enriched_at": "2026-09-09",
@@ -3668,6 +3787,30 @@
   "title_fr": "Les Diables",
   "tmdb_id": "31767",
   "year": 1971
+ },
+ "kindergarten:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
+  "enriched_at": "2026-09-22",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/kindergarten-2025/",
+  "overview": "L’espace à la fois bienveillant et tumultueux d’une garderie est le point d’ancrage de cette exploration libre sur la petite enfance. Construit en suivant progressivement l’évolution des âges à l’écran, le film nous entraine dans la bulle de différents enfants âgés de 1 à 5 ans, à cette étape où la conscience passe tranquillement du « Je » au « Nous ». À travers ces moments rarement filmés, la nature humaine s’installe progressivement. Jardin d'enfants est le quatrième film d’une série sur les étapes marquantes de la vie.",
+  "overview_en": "The caring yet bustling environment of a kindergarten serves as the anchor for this deep dive into early childhood. Structured to follow the gradual progression of ages on screen, the film takes us into the bubble of various children from ages 1 to 5, at a stage where the world seems to revolve around them, and self-awareness slowly shifts from 'I' to 'We’. Through these rarely filmed moments, human nature gradually takes shape. Kindergarten is the fourth film of a series about life's milestones.",
+  "overview_fr": "L’espace à la fois bienveillant et tumultueux d’une garderie est le point d’ancrage de cette exploration libre sur la petite enfance. Construit en suivant progressivement l’évolution des âges à l’écran, le film nous entraine dans la bulle de différents enfants âgés de 1 à 5 ans, à cette étape où la conscience passe tranquillement du « Je » au « Nous ». À travers ces moments rarement filmés, la nature humaine s’installe progressivement. Jardin d'enfants est le quatrième film d’une série sur les étapes marquantes de la vie.",
+  "poster": "https://media.themoviedb.org/t/p/w500/72AYPA9qwq47uxEUfWxSe0CHPiq.jpg",
+  "runtime": 84,
+  "title_en": "Kindergarten",
+  "title_fr": "Jardin d'enfants",
+  "tmdb_id": "1570621",
+  "year": 2025
  },
  "kindergartenq:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
@@ -4455,7 +4598,7 @@
   "year": 2026
  },
  "mittiputt": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "mllebottine:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/0/4/0/890040-miss-boots-0-230-0-345-crop.jpg?v=5b4bd3c02f",
@@ -4665,6 +4808,36 @@
  "mybrilliantcareer": {
   "enriched_at": "2026-09-21"
  },
+ "mybrilliantcareer:1979": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/2f/20/zc/vl/my%20brilliant%20career-1200-1200-675-675-crop-000000.jpg?v=e9d3a83cf8",
+  "enriched_at": "2026-09-22",
+  "genres": [
+   "Drame",
+   "Romance"
+  ],
+  "genres_en": [
+   "Drama",
+   "Romance"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Romance"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0079596",
+  "letterboxd_rating": 3.75,
+  "letterboxd_url": "https://letterboxd.com/film/my-brilliant-career/",
+  "letterboxd_votes": 10983,
+  "overview": "A young woman who is determined to maintain her independence finds herself at odds with her family who wants her to tame her wild side and get married.",
+  "overview_en": "A young woman who is determined to maintain her independence finds herself at odds with her family who wants her to tame her wild side and get married.",
+  "overview_fr": "A young woman who is determined to maintain her independence finds herself at odds with her family who wants her to tame her wild side and get married.",
+  "poster": "https://media.themoviedb.org/t/p/w500/gCMG0e3e4GM5uaHKlBnqGy0fhuP.jpg",
+  "runtime": 100,
+  "title_en": "My Brilliant Career",
+  "title_fr": "My Brilliant Career",
+  "tmdb_id": "16659",
+  "year": 1979
+ },
  "mybrotherswedding:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l7/7t/pp/tx/my%20brother-1200-1200-675-675-crop-000000.jpg?v=01510d17d8",
   "enriched_at": "2026-09-09",
@@ -4742,7 +4915,7 @@
   "enriched_at": "2026-09-12"
  },
  "newnewautrenouvellevagueanimationindependantejaponaise:2021": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "nightlivingdead:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j1/z4/q2/vi/bhgMBDnjG9tIVE3RNCD9YeNJHq5-1200-1200-675-675-crop-000000.jpg?v=42c7601897",
@@ -5366,7 +5539,7 @@
   "enriched_at": "2026-09-18"
  },
  "perspectivessourdestourne:2025": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "petitevieux": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/7/1/2/1081712-blue-sky-jo-0-230-0-345-crop.jpg?v=9dc98a6baf",
@@ -5671,7 +5844,7 @@
   "enriched_at": "2026-09-20"
  },
  "qccunzipped:1995": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-21"
@@ -6603,6 +6776,9 @@
   "tmdb_id": "11906",
   "year": 1977
  },
+ "symphoniesurbainesnadinegomez:2015": {
+  "enriched_at": "2026-09-22"
+ },
  "taleautumn:1998": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ub/hx/j5/6i/autumn%20tale-1200-1200-675-675-crop-000000.jpg?v=d163b29a03",
   "enriched_at": "2026-09-09",
@@ -7112,7 +7288,7 @@
   "year": 1958
  },
  "vibe": {
-  "enriched_at": "2026-09-19"
+  "enriched_at": "2026-09-22"
  },
  "videodrome:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xa/04/29/l7/videodrome-1200-1200-675-675-crop-000000.jpg?v=0d3584f6b2",
@@ -7257,6 +7433,36 @@
   "title_fr": "The Last Whale Singer",
   "tmdb_id": "677558",
   "year": 2026
+ },
+ "virginsuicides:1999": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6y/xk/bi/nf/the-virgin-suicides-70-1200-1200-675-675-crop-000000.jpg?v=69bb61a9c3",
+  "enriched_at": "2026-09-22",
+  "genres": [
+   "Drame",
+   "Romance"
+  ],
+  "genres_en": [
+   "Drama",
+   "Romance"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Romance"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0159097",
+  "letterboxd_rating": 3.86,
+  "letterboxd_url": "https://letterboxd.com/film/the-virgin-suicides/",
+  "letterboxd_votes": 1423767,
+  "overview": "A group of male friends become obsessed with five mysterious sisters who are sheltered by their strict, religious parents.",
+  "overview_en": "A group of male friends become obsessed with five mysterious sisters who are sheltered by their strict, religious parents.",
+  "overview_fr": "A group of male friends become obsessed with five mysterious sisters who are sheltered by their strict, religious parents.",
+  "poster": "https://media.themoviedb.org/t/p/w500/yHIAt0xdPis7UwoJuM2AwORsLAM.jpg",
+  "runtime": 97,
+  "title_en": "The Virgin Suicides",
+  "title_fr": "The Virgin Suicides",
+  "tmdb_id": "1443",
+  "year": 2000
  },
  "virginsuicidescinetricot:1999": {
   "enriched_at": "2026-09-18"
