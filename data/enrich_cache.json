@@ -773,7 +773,19 @@
   "year": 1959
  },
  "behula": {
-  "enriched_at": "2026-09-18"
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/2/6/4/1/1/1526411-song-of-behula-0-230-0-345-crop.jpg?v=a14a46e75d",
+  "enriched_at": "2026-09-23",
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/song-of-behula/",
+  "overview": "The Adi Ganga River has seen gods and myths flow by, as well as the goods of the British East India Company. Today, it is clogged with rubbish. Blending folk music and pictorial traditions with a contemporary postcolonial and environmentalist discourse, the film is a fascinating exploration of the boundaries and possibilities of cinematic formats.",
+  "overview_en": "The Adi Ganga River has seen gods and myths flow by, as well as the goods of the British East India Company. Today, it is clogged with rubbish. Blending folk music and pictorial traditions with a contemporary postcolonial and environmentalist discourse, the film is a fascinating exploration of the boundaries and possibilities of cinematic formats.",
+  "overview_fr": "The Adi Ganga River has seen gods and myths flow by, as well as the goods of the British East India Company. Today, it is clogged with rubbish. Blending folk music and pictorial traditions with a contemporary postcolonial and environmentalist discourse, the film is a fascinating exploration of the boundaries and possibilities of cinematic formats.",
+  "poster": "https://media.themoviedb.org/t/p/w500/vmVTYfGwLTtqUBM5VKIsaKA7oDc.jpg",
+  "runtime": 13,
+  "title_en": "Song of Behula",
+  "title_fr": "Song of Behula",
+  "tmdb_id": "1662622",
+  "year": 2026
  },
  "bestwayisbyaccident": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/3/5/7/6/1443576-the-best-way-is-by-accident-0-230-0-345-crop.jpg?v=cf3c7b169b",
@@ -886,6 +898,37 @@
  },
  "bethlehemkudumbaunitmalengsub": {
   "enriched_at": "2026-09-09"
+ },
+ "bewareboiuna": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/2/7/0/9/5/1127095-beware-boiuna-0-230-0-345-crop.jpg?v=df1e66d6c2",
+  "enriched_at": "2026-09-23",
+  "genres": [
+   "Aventure",
+   "Horreur",
+   "Thriller"
+  ],
+  "genres_en": [
+   "Adventure",
+   "Horror",
+   "Thriller"
+  ],
+  "genres_fr": [
+   "Aventure",
+   "Horreur",
+   "Thriller"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt10377864",
+  "letterboxd_url": "https://letterboxd.com/film/beware-boiuna/",
+  "overview": "Deep in the Amazon, a medical mission spirals into a fight for survival when Boiúna, a colossal ancient predator, awakens to reclaim her domain. In the jungle where nature holds absolute power, she decides who lives and who dies.",
+  "overview_en": "Deep in the Amazon, a medical mission spirals into a fight for survival when Boiúna, a colossal ancient predator, awakens to reclaim her domain. In the jungle where nature holds absolute power, she decides who lives and who dies.",
+  "overview_fr": "Deep in the Amazon, a medical mission spirals into a fight for survival when Boiúna, a colossal ancient predator, awakens to reclaim her domain. In the jungle where nature holds absolute power, she decides who lives and who dies.",
+  "poster": "https://media.themoviedb.org/t/p/w500/tENVMxKvOkslv8kagVNdIEQ13RT.jpg",
+  "runtime": 104,
+  "title_en": "Beware Boiúna",
+  "title_fr": "Beware Boiúna",
+  "tmdb_id": "1244523",
+  "year": 2026
  },
  "billie": {
   "enriched_at": "2026-09-12"
@@ -2072,6 +2115,31 @@
   "wikidata_id": "Q3025746",
   "year": 2004
  },
+ "digger": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9e/bq/fx/ti/digger-1200-1200-675-675-crop-000000.jpg?v=96e129a6f2",
+  "enriched_at": "2026-09-23",
+  "genres": [
+   "Comédie"
+  ],
+  "genres_en": [
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt31450459",
+  "letterboxd_url": "https://letterboxd.com/film/digger-2026/",
+  "overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+  "overview_en": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+  "overview_fr": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+  "poster": "https://media.themoviedb.org/t/p/w500/jUDHdoRH5xBnG0JzJ5ktqYV9u8E.jpg",
+  "runtime": 129,
+  "title_en": "Digger",
+  "title_fr": "Digger",
+  "tmdb_id": "1248832",
+  "year": 2026
+ },
  "djeddi:2026": {
   "enriched_at": "2026-09-21"
  },
@@ -2987,6 +3055,54 @@
   "runtime": 70,
   "tmdb_id": "1536950"
  },
+ "heritiers": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kv/nl/ss/s7/4CiIa6ngd81He5NoclYvKWQcTTh-1200-1200-675-675-crop-000000.jpg?v=41f2de9a66",
+  "enriched_at": "2026-09-23",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/the-inheritors-2025/",
+  "overview": "Les héritiers observe dans une intimité saisissante le quotidien d’une colonie de goélands à bec cerclé qui niche chaque année à proximité du plus grand dépotoir canadien pour nourrir leurs oisillons. En alternant les perspectives de la proie et des prédateurs, on accompagne ces mal-aimés au cours d’une saison de reproduction alors qu’ils deviennent victimes d’une collecte de données intrusive et la cible d’un contrôle impitoyable par l’art millénaire de la fauconnerie. Avec une bande sonore et une cinématographie qui laissent s’exprimer les oiseaux, Les héritiers est une expérience sensorielle sur les nouvelles manières de vivre et de mourir dans nos paysages hantés par la consommation et la pollution de masse. Un présage des écologies du futur.",
+  "overview_en": "The Inheritors offers an intimately arresting observation of the daily life of a colony of ring-billed gulls which nest alongside Canada’s largest landfill to feed their young. Alternating between the perspectives of prey and predator, we follow these unwanted creatures through a full breeding season as they become the targets of invasive data collection, then of harsh deterrence measures using the age-old art of falconry. With sound and cinematography that lets the birds speak for themselves, The Inheritors is a sensory experience which invites us to contemplate new ways of living and dying on a planet haunted by mass consumption and pollution. A foretelling of the ecologies of our future.",
+  "overview_fr": "Les héritiers observe dans une intimité saisissante le quotidien d’une colonie de goélands à bec cerclé qui niche chaque année à proximité du plus grand dépotoir canadien pour nourrir leurs oisillons. En alternant les perspectives de la proie et des prédateurs, on accompagne ces mal-aimés au cours d’une saison de reproduction alors qu’ils deviennent victimes d’une collecte de données intrusive et la cible d’un contrôle impitoyable par l’art millénaire de la fauconnerie. Avec une bande sonore et une cinématographie qui laissent s’exprimer les oiseaux, Les héritiers est une expérience sensorielle sur les nouvelles manières de vivre et de mourir dans nos paysages hantés par la consommation et la pollution de masse. Un présage des écologies du futur.",
+  "poster": "https://media.themoviedb.org/t/p/w500/d0v0vxANiWYNZ9re8iK1askpf6r.jpg",
+  "runtime": 79,
+  "title_en": "The Inheritors",
+  "title_fr": "Les héritiers",
+  "tmdb_id": "1558826",
+  "year": 2025
+ },
+ "heritiers:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kv/nl/ss/s7/4CiIa6ngd81He5NoclYvKWQcTTh-1200-1200-675-675-crop-000000.jpg?v=41f2de9a66",
+  "enriched_at": "2026-09-23",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/the-inheritors-2025/",
+  "overview": "Les héritiers observe dans une intimité saisissante le quotidien d’une colonie de goélands à bec cerclé qui niche chaque année à proximité du plus grand dépotoir canadien pour nourrir leurs oisillons. En alternant les perspectives de la proie et des prédateurs, on accompagne ces mal-aimés au cours d’une saison de reproduction alors qu’ils deviennent victimes d’une collecte de données intrusive et la cible d’un contrôle impitoyable par l’art millénaire de la fauconnerie. Avec une bande sonore et une cinématographie qui laissent s’exprimer les oiseaux, Les héritiers est une expérience sensorielle sur les nouvelles manières de vivre et de mourir dans nos paysages hantés par la consommation et la pollution de masse. Un présage des écologies du futur.",
+  "overview_en": "The Inheritors offers an intimately arresting observation of the daily life of a colony of ring-billed gulls which nest alongside Canada’s largest landfill to feed their young. Alternating between the perspectives of prey and predator, we follow these unwanted creatures through a full breeding season as they become the targets of invasive data collection, then of harsh deterrence measures using the age-old art of falconry. With sound and cinematography that lets the birds speak for themselves, The Inheritors is a sensory experience which invites us to contemplate new ways of living and dying on a planet haunted by mass consumption and pollution. A foretelling of the ecologies of our future.",
+  "overview_fr": "Les héritiers observe dans une intimité saisissante le quotidien d’une colonie de goélands à bec cerclé qui niche chaque année à proximité du plus grand dépotoir canadien pour nourrir leurs oisillons. En alternant les perspectives de la proie et des prédateurs, on accompagne ces mal-aimés au cours d’une saison de reproduction alors qu’ils deviennent victimes d’une collecte de données intrusive et la cible d’un contrôle impitoyable par l’art millénaire de la fauconnerie. Avec une bande sonore et une cinématographie qui laissent s’exprimer les oiseaux, Les héritiers est une expérience sensorielle sur les nouvelles manières de vivre et de mourir dans nos paysages hantés par la consommation et la pollution de masse. Un présage des écologies du futur.",
+  "poster": "https://media.themoviedb.org/t/p/w500/d0v0vxANiWYNZ9re8iK1askpf6r.jpg",
+  "runtime": 79,
+  "title_en": "The Inheritors",
+  "title_fr": "Les héritiers",
+  "tmdb_id": "1558826",
+  "year": 2025
+ },
  "heritiers:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kv/nl/ss/s7/4CiIa6ngd81He5NoclYvKWQcTTh-1200-1200-675-675-crop-000000.jpg?v=41f2de9a66",
   "enriched_at": "2026-09-18",
@@ -3731,6 +3847,36 @@
   "tmdb_id": "11953",
   "year": 1980
  },
+ "kairos:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/9/6/7/9/6/0/967960-kairos-2026-0-230-0-345-crop.jpg?v=71189013bd",
+  "enriched_at": "2026-09-23",
+  "genres": [
+   "Drame",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Drama",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt30608304",
+  "letterboxd_rating": 3.47,
+  "letterboxd_url": "https://letterboxd.com/film/kairos-2026/",
+  "letterboxd_votes": 248,
+  "overview": "After a year of filming abroad, Manu, a once prominent actor, returns to his hometown. But getting back into the business isn't as easy as he thought. After several unsuccessful auditions, he's no longer sure of anything. Against all odds, he lands a job hosting a nighttime call-in radio show. His listeners are mainly newcomers, refugees and exiles with varied life experiences, working graveyard shifts. Manu gradually appropriates this space, this gathering of mixed voices, to launch philosophical questions into the night. His words are engaging. He becomes an anchor for many listeners. His life takes on new meaning.",
+  "overview_en": "After a year of filming abroad, Manu, a once prominent actor, returns to his hometown. But getting back into the business isn't as easy as he thought. After several unsuccessful auditions, he's no longer sure of anything. Against all odds, he lands a job hosting a nighttime call-in radio show. His listeners are mainly newcomers, refugees and exiles with varied life experiences, working graveyard shifts. Manu gradually appropriates this space, this gathering of mixed voices, to launch philosophical questions into the night. His words are engaging. He becomes an anchor for many listeners. His life takes on new meaning.",
+  "overview_fr": "After a year of filming abroad, Manu, a once prominent actor, returns to his hometown. But getting back into the business isn't as easy as he thought. After several unsuccessful auditions, he's no longer sure of anything. Against all odds, he lands a job hosting a nighttime call-in radio show. His listeners are mainly newcomers, refugees and exiles with varied life experiences, working graveyard shifts. Manu gradually appropriates this space, this gathering of mixed voices, to launch philosophical questions into the night. His words are engaging. He becomes an anchor for many listeners. His life takes on new meaning.",
+  "poster": "https://media.themoviedb.org/t/p/w500/fga2LyJ0x1ixfV0oESetWxtrXe0.jpg",
+  "runtime": 96,
+  "title_en": "Kaïros",
+  "title_fr": "Kaïros",
+  "tmdb_id": "1073591",
+  "year": 2026
+ },
  "kamikazegirls:2004": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dy/qr/46/nq/kamikaze-girls-1200-1200-675-675-crop-000000.jpg?v=60e133c3b7",
   "enriched_at": "2026-09-09",
@@ -4190,6 +4336,9 @@
   "title_fr": "Luisa",
   "tmdb_id": "1497740",
   "year": 2026
+ },
+ "luttmubarak": {
+  "enriched_at": "2026-09-23"
  },
  "maddiessecret:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/3/5/4/9/tmdb/kwBX4d1MsVl5h3GkQCXJAQ4r0O4-1200-1200-675-675-crop-000000.jpg?v=d082b93af2",
@@ -5226,7 +5375,35 @@
   "year": 2026
  },
  "paradise": {
-  "enriched_at": "2026-09-20"
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/6/3/2/6/7/1263267-the-paradise-2026-0-230-0-345-crop.jpg?v=efbcb4a5aa",
+  "enriched_at": "2026-09-23",
+  "genres": [
+   "Action",
+   "Thriller",
+   "Drame"
+  ],
+  "genres_en": [
+   "Action",
+   "Thriller",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Action",
+   "Thriller",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt31969655",
+  "letterboxd_url": "https://letterboxd.com/film/the-paradise-2026/",
+  "overview": "In 1980s Secunderabad, a marginalised tribe battles discrimination and fights for citizenship under an unexpected leader's guidance, challenging systemic oppression.",
+  "overview_en": "In 1980s Secunderabad, a marginalised tribe battles discrimination and fights for citizenship under an unexpected leader's guidance, challenging systemic oppression.",
+  "overview_fr": "In 1980s Secunderabad, a marginalised tribe battles discrimination and fights for citizenship under an unexpected leader's guidance, challenging systemic oppression.",
+  "poster": "https://media.themoviedb.org/t/p/w500/nwfbqtbFbgqQuMfAtkesuCVHJjq.jpg",
+  "runtime": 174,
+  "title_en": "The Paradise",
+  "title_fr": "The Paradise",
+  "tmdb_id": "1376856",
+  "year": 2026
  },
  "paradisetelugu": {
   "enriched_at": "2026-09-21"
@@ -5427,6 +5604,9 @@
   "title_fr": "Pauline Julien, intime et politique",
   "tmdb_id": "550384",
   "year": 2018
+ },
+ "paulinejulienwomancountry": {
+  "enriched_at": "2026-09-23"
  },
  "pawpatroldinomovie": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
@@ -5829,7 +6009,7 @@
   "year": 1977
  },
  "pulpwhatdoyoudofor": {
-  "enriched_at": "2026-09-20"
+  "enriched_at": "2026-09-23"
  },
  "qcc29marlonriggsdoublefeature": {
   "enriched_at": "2026-09-15"
@@ -5841,7 +6021,7 @@
   "enriched_at": "2026-09-15"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-09-20"
+  "enriched_at": "2026-09-23"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-09-22"
@@ -6025,7 +6205,7 @@
   "year": 2026
  },
  "residentevildubbedspanish": {
-  "enriched_at": "2026-09-20"
+  "enriched_at": "2026-09-23"
  },
  "revedafrique": {
   "enriched_at": "2026-09-21"
@@ -6333,6 +6513,36 @@
   "tmdb_id": "989246",
   "year": 2025
  },
+ "sensesensibility:1995": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7u/vd/40/n9/sense-and-sensibility-1995-1200-1200-675-675-crop-000000.jpg?v=5e4124508f",
+  "enriched_at": "2026-09-23",
+  "genres": [
+   "Drame",
+   "Romance"
+  ],
+  "genres_en": [
+   "Drama",
+   "Romance"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Romance"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0114388",
+  "letterboxd_rating": 3.87,
+  "letterboxd_url": "https://letterboxd.com/film/sense-and-sensibility/",
+  "letterboxd_votes": 245954,
+  "overview": "En Angleterre, au début du XIXe siècle. À sa mort, monsieur Dashwood laisse son épouse et ses trois filles dépourvues de tout bien. Chassées de leur maison par le fils aîné, un être grossier entièrement dominé par son acariâtre épouse, les quatre femmes doivent se résoudre à demander asile à une cousine éloignée. Avant de partir, Elinor, l'aînée des filles, la plus vertueuse, a le temps de s'éprendre du frère de sa belle-sœur, le charmant mais bafouillant Edward. Marianne, la cadette, déjoue les plans de son envahissante cousine. Plutôt que de s'éprendre du colonel Brandon, un riche célibataire des environs, elle s'enflamme pour le séduisant Willoughby...",
+  "overview_en": "The Dashwood sisters, sensible Elinor and passionate Marianne, learn that their prospects of marriage seem doomed by their family's sudden loss of fortune. After Henry Dashwood dies unexpectedly, his estate must pass on by law to his son. These circumstances leave Mr. Dashwood's wife and daughters without a home and with barely enough money to live on. As Elinor and Marianne struggle to find romantic fulfillment in a society obsessed with financial and social status, they must learn to mix sense with sensibility in their dealings with both money and men.",
+  "overview_fr": "En Angleterre, au début du XIXe siècle. À sa mort, monsieur Dashwood laisse son épouse et ses trois filles dépourvues de tout bien. Chassées de leur maison par le fils aîné, un être grossier entièrement dominé par son acariâtre épouse, les quatre femmes doivent se résoudre à demander asile à une cousine éloignée. Avant de partir, Elinor, l'aînée des filles, la plus vertueuse, a le temps de s'éprendre du frère de sa belle-sœur, le charmant mais bafouillant Edward. Marianne, la cadette, déjoue les plans de son envahissante cousine. Plutôt que de s'éprendre du colonel Brandon, un riche célibataire des environs, elle s'enflamme pour le séduisant Willoughby...",
+  "poster": "https://media.themoviedb.org/t/p/w500/sDN7yTEpCXdXn4zrPKoSIU248Ox.jpg",
+  "runtime": 136,
+  "title_en": "Sense and Sensibility",
+  "title_fr": "Raison et sentiments",
+  "tmdb_id": "4584",
+  "year": 1995
+ },
  "shame:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tx/j8/e2/uo/shame-1200-1200-675-675-crop-000000.jpg?v=fa06b92886",
   "enriched_at": "2026-09-09",
@@ -6360,7 +6570,7 @@
   "year": 1968
  },
  "shaunmoutonbeeeteferme": {
-  "enriched_at": "2026-09-20"
+  "enriched_at": "2026-09-23"
  },
  "shaunsheepbeastmossybottom": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
@@ -6539,6 +6749,9 @@
  },
  "smallchildsfirstadventure:1958": {
   "enriched_at": "2026-09-22"
+ },
+ "spacejamfamilyfavourites": {
+  "enriched_at": "2026-09-23"
  },
  "sphinx:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/8/0/5/0/4/280504-le-sphinx-0-230-0-345-crop.jpg?v=183ccda635",
@@ -6754,6 +6967,9 @@
   "title_fr": "Supergirl",
   "tmdb_id": "1081003",
   "year": 2026
+ },
+ "superwingsvitessemaximumfilmsenfamil": {
+  "enriched_at": "2026-09-23"
  },
  "suspiria:1977": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/t4/ch/a6/pn/suspiria-1200-1200-675-675-crop-000000.jpg?v=32b7a16f8b",
@@ -7184,7 +7400,7 @@
   "year": 2000
  },
  "vampirehumanistecherchesuicidaireconsentant": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-23"
  },
  "verity": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/6/7/1/5/1/1167151-verity-2026-0-230-0-345-crop.jpg?v=c2749e27fe",
@@ -7538,6 +7754,9 @@
   "runtime": 111,
   "tmdb_id": "1365683",
   "year": 2025
+ },
+ "vvaanforceforrest": {
+  "enriched_at": "2026-09-23"
  },
  "wallacegromitclassicshorts:1996": {
   "enriched_at": "2026-09-18"
