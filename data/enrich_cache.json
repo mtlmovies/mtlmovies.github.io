@@ -83,6 +83,22 @@
   "tmdb_id": "767524",
   "year": 1977
  },
+ "3princessespourroland": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/5/3/8/2/6/9/538269-trois-princesses-pour-roland-0-230-0-345-crop.jpg?v=b635141e32",
+  "enriched_at": "2026-09-24",
+  "i18n_v": 1,
+  "imdb_id": "tt0311938",
+  "letterboxd_url": "https://letterboxd.com/film/trois-princesses-pour-roland/",
+  "overview": "Trois princesses pour Roland, quatre personnes, une famille. Une famille drôle et dure, touchante et repoussante comme toutes les familles; une famille pauvre comme beaucoup de familles; une famille unique pour la réalisatrice, qui la côtoie depuis l’enfance. Le suicide de Roland devient le prétexte pour laisser ce documentaire nous parler de pauvreté, d’amour, de haine, du présent, du passé, d’alcool, de violence. Avec un regard empreint de tendresse, André-Line, la réalisatrice, nous présente sa tante, Madeleine, sa cousine, Nathalie, et sa petite cousine, Caroline. Trois générations de femmes dont les vies se ressemblent et se répètent, étonnamment. Un constat sans jugement, sans commentaire, laissant à chacun matière à réfléchir sur ce que nous léguons, sur ce dont nous héritons.",
+  "overview_fr": "Trois princesses pour Roland, quatre personnes, une famille. Une famille drôle et dure, touchante et repoussante comme toutes les familles; une famille pauvre comme beaucoup de familles; une famille unique pour la réalisatrice, qui la côtoie depuis l’enfance. Le suicide de Roland devient le prétexte pour laisser ce documentaire nous parler de pauvreté, d’amour, de haine, du présent, du passé, d’alcool, de violence. Avec un regard empreint de tendresse, André-Line, la réalisatrice, nous présente sa tante, Madeleine, sa cousine, Nathalie, et sa petite cousine, Caroline. Trois générations de femmes dont les vies se ressemblent et se répètent, étonnamment. Un constat sans jugement, sans commentaire, laissant à chacun matière à réfléchir sur ce que nous léguons, sur ce dont nous héritons.",
+  "poster": "https://media.themoviedb.org/t/p/w500/tEPwKVWVNdMsQuhJJPJJ7GiTLT9.jpg",
+  "runtime": 91,
+  "title_en": "Trois princesses pour Roland",
+  "title_fr": "Trois princesses pour Roland",
+  "tmdb_id": "611216",
+  "wikidata_id": "Q61764543",
+  "year": 2001
+ },
  "6portraitsneorealistes": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/8/4/9/2/8/1484928-6-portraits-neorealistes-0-230-0-345-crop.jpg?v=7751933a06",
   "enriched_at": "2026-09-09",
@@ -184,7 +200,7 @@
   "year": 2026
  },
  "akirarerelease": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "akirarereleaseexperience": {
   "enriched_at": "2026-09-09"
@@ -386,7 +402,7 @@
   "enriched_at": "2026-09-22"
  },
  "apocalypsenowfinalcut:1979": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "arbreauxsabots:1978": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0w/lc/fc/qx/the-tree-of-wooden-clogs-1200-1200-675-675-crop-000000.jpg?v=9ab7ba0a70",
@@ -595,13 +611,13 @@
   "year": 2019
  },
  "avengersendgameexperience": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "avengersphasefinale": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "avrevedafrique": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "azaadsingh": {
   "enriched_at": "2026-09-22"
@@ -712,10 +728,10 @@
   "year": 1975
  },
  "bataillegaulleliberte:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "bataillegaulleresistance:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "beans:2021": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dd/jt/zz/9y/beans-1200-1200-675-675-crop-000000.jpg?v=8e30e63657",
@@ -894,7 +910,7 @@
   "year": 2026
  },
  "bethlehemkudumbaunitmalayalam": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "bethlehemkudumbaunitmalengsub": {
   "enriched_at": "2026-09-09"
@@ -1924,6 +1940,12 @@
   "tmdb_id": "1433583",
   "year": 2026
  },
+ "cosifantutteitalianwestmetropolitanopera": {
+  "enriched_at": "2026-09-24"
+ },
+ "cosifantutteitalienavecstfrmetropolitanopera": {
+  "enriched_at": "2026-09-24"
+ },
  "coyotevsacme": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ci/qq/vp/cm/coyote-1200-1200-675-675-crop-000000.jpg?v=e21dafdd5b",
   "enriched_at": "2026-09-09",
@@ -1992,7 +2014,7 @@
   "enriched_at": "2026-09-21"
  },
  "danemarkilesferoeroyaumebonheur": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "danielfieryfurnace": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/7/5/2/0/6/1575206-daniel-the-fiery-furnace-0-230-0-345-crop.jpg?v=24df664011",
@@ -2053,7 +2075,7 @@
   "year": 2026
  },
  "dearyou": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "deathbyhanging:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/4u/x5/p6/fu/death-by-hanging-1200-1200-675-675-crop-000000.jpg?v=4128034593",
@@ -2086,10 +2108,10 @@
   "year": 1968
  },
  "derenmenkenschneemann": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "diaryshinjukuthief": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "dig:2004": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/yt/ml/74/1p/dig-1200-1200-675-675-crop-000000.jpg?v=44cfb417b7",
@@ -2144,7 +2166,7 @@
   "year": 2026
  },
  "djeddi:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "dogstars": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mg/jf/b5/t1/dog%20stars-1200-1200-675-675-crop-000000.jpg?v=07cdea3a26",
@@ -2300,10 +2322,10 @@
   "year": 2009
  },
  "empirepassion": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "enavantmusique:1982": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "endirect": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/1/3/3/4/3/1613343-solidarite-incendies-le-grand-concert-en-0-230-0-345-crop.jpg?v=23a33c9eca",
@@ -2463,13 +2485,13 @@
   "enriched_at": "2026-09-22"
  },
  "festivalsatellitesprogram1:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "festivalsatellitesprogram2:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "filfilmjusteillusion:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "filipinana:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/0/3/6/1/2/tmdb/7lgpPrmD2XYABOw8Cu3kyUn4usR-1200-1200-675-675-crop-000000.jpg?v=1b07fd073d",
@@ -2513,34 +2535,34 @@
   "year": 2023
  },
  "filmpopagridulce:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "filmpopaki:2025": {
   "enriched_at": "2026-09-21"
  },
  "filmpopbuttholesurfersholetruthnothingbutt:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "filmpopiamtryingtobreakyourheartfilmaboutwilco:2002": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "filmpopimaginaldisk:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "filmpopkanatenhswhenpineneedlesfall:2023": {
   "enriched_at": "2026-09-21"
  },
  "filmpoppulpwhatdoyoudofor:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "filmpopsummer2000xcetrastory:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "filmpopturnitup:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "filmpopweareshaggs:2026": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "filmpopxoxwantstobepopstar": {
   "enriched_at": "2026-09-21"
@@ -2599,10 +2621,10 @@
   "year": 1964
  },
  "florilegei": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "florilegeii": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "forfewdollarsmore:1965": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9k/y1/6f/j7/8tbWZYvniZcjFZEX4XiCjrbHgl4-1200-1200-675-675-crop-000000.jpg?v=63cce732f7",
@@ -2744,7 +2766,7 @@
   "year": 2013
  },
  "gaulleliberty": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "ghost2bigtorig": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/5/3/4/2/1555342-2-big-to-rig-0-230-0-345-crop.jpg?v=4a41c3cc91",
@@ -2761,7 +2783,7 @@
   "year": 2026
  },
  "ghostbusters": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "ghostshell30th": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/k2/5y/em/z6/ghost-in-the-shell-1200-1200-675-675-crop-000000.jpg?v=99a1bf740b",
@@ -2795,7 +2817,7 @@
   "enriched_at": "2026-09-21"
  },
  "ginochouinardauxilesguadeloupe": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "goodbadugly60th:1966": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/07/zz/2k/vy/the-good-the-bad-and-the-ugly-1200-1200-675-675-crop-000000.jpg?v=6fdc9111b0",
@@ -3400,7 +3422,7 @@
   "year": 2010
  },
  "inheritors:2023": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "insidieuxhorsplusloin": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
@@ -3624,7 +3646,7 @@
   "enriched_at": "2026-09-09"
  },
  "islandeveloaugrevent": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "itends:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6s/nw/3k/i2/blIQ1Xlc3gfOHqWc67ULnyYGEAe-1200-1200-675-675-crop-000000.jpg?v=68470cf57d",
@@ -3805,7 +3827,7 @@
   "year": 1971
  },
  "jurassicpark": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "justeillusion:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/n1/4r/kd/lt/just%20a-1200-1200-675-675-crop-000000.jpg?v=f95e6cce8a",
@@ -4460,7 +4482,7 @@
   "year": 1976
  },
  "manwholefthiswillfilm": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "mariachapdelaine": {
   "enriched_at": "2026-09-09"
@@ -4719,7 +4741,7 @@
   "year": 2012
  },
  "mirzapurmovie": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "misanthropenationaltheatrelive": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/6/2/0/6/1556206-national-theatre-live-the-misanthrope-0-230-0-345-crop.jpg?v=d0b16cfaca",
@@ -5409,7 +5431,7 @@
   "year": 2026
  },
  "paradisetelugu": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "parleznousdamour": {
   "enriched_at": "2026-09-21"
@@ -5443,7 +5465,7 @@
   "year": 1976
  },
  "parthasard": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "partousmoyens": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/a8/w9/h0/k9/1jANqIbqrWJZb8GM5Kb3L6U8iHi-1200-1200-675-675-crop-000000.jpg?v=93e6be2389",
@@ -5750,6 +5772,30 @@
   "tmdb_id": "1196668",
   "year": 2024
  },
+ "petitjesus": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/9/2/3/4/1/6/923416-baby-jesus-0-230-0-345-crop.jpg?v=67aebc11b2",
+  "enriched_at": "2026-09-24",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/baby-jesus-2004/",
+  "overview": "This is the story of a miracle that never happened... This is the story of a family... This is the story of my disabled brother... In fact, I think it's the story of a storm... I was 11 when my brother was born. It was August 30, 1977. It was the first time I saw my father cry. It was necessary to pray and above all, to be very wise. That's when my dad stopped talking and my mom stopped laughing.",
+  "overview_en": "This is the story of a miracle that never happened... This is the story of a family... This is the story of my disabled brother... In fact, I think it's the story of a storm... I was 11 when my brother was born. It was August 30, 1977. It was the first time I saw my father cry. It was necessary to pray and above all, to be very wise. That's when my dad stopped talking and my mom stopped laughing.",
+  "overview_fr": "This is the story of a miracle that never happened... This is the story of a family... This is the story of my disabled brother... In fact, I think it's the story of a storm... I was 11 when my brother was born. It was August 30, 1977. It was the first time I saw my father cry. It was necessary to pray and above all, to be very wise. That's when my dad stopped talking and my mom stopped laughing.",
+  "poster": "https://media.themoviedb.org/t/p/w500/7u58wYfqBMMc5sCVrE2FvqdBArh.jpg",
+  "runtime": 78,
+  "title_en": "Baby Jesus",
+  "title_fr": "Le petit Jésus",
+  "tmdb_id": "1024466",
+  "year": 2004
+ },
  "philadelphiastory:1940": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fb/5g/0b/qp/the-philadelphia-story-1200-1200-675-675-crop-000000.jpg?v=0700316506",
   "enriched_at": "2026-09-09",
@@ -5799,6 +5845,39 @@
   "title_en": "Une photo à Saigon : coups de feu sur deux vies",
   "title_fr": "Une photo à Saigon : coups de feu sur deux vies",
   "tmdb_id": "1606750",
+  "year": 2026
+ },
+ "pinocchio": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0a/0h/k4/pg/dNKFETDDujxm2PUN873Jwiw5VML%20(1)-1200-1200-675-675-crop-000000.jpg?v=0f9692a8f6",
+  "enriched_at": "2026-09-24",
+  "genres": [
+   "Horreur",
+   "Fantastique",
+   "Mystère"
+  ],
+  "genres_en": [
+   "Horror",
+   "Fantasy",
+   "Mystery"
+  ],
+  "genres_fr": [
+   "Horreur",
+   "Fantastique",
+   "Mystère"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt30887701",
+  "letterboxd_rating": 2.59,
+  "letterboxd_url": "https://letterboxd.com/film/pinocchio-unstrung/",
+  "letterboxd_votes": 13927,
+  "overview": "Influenced by a sinister Cricket and created by Geppetto, Pinocchio launches a violent crusade to carve himself into a real boy like his brother James, one piece at a time.",
+  "overview_en": "Influenced by a sinister Cricket and created by Geppetto, Pinocchio launches a violent crusade to carve himself into a real boy like his brother James, one piece at a time.",
+  "overview_fr": "Influenced by a sinister Cricket and created by Geppetto, Pinocchio launches a violent crusade to carve himself into a real boy like his brother James, one piece at a time.",
+  "poster": "https://media.themoviedb.org/t/p/w500/x2stUgbljKbL4YsDrU0hiOuPzOf.jpg",
+  "runtime": 82,
+  "title_en": "Pinocchio: Unstrung",
+  "title_fr": "Pinocchio: Unstrung",
+  "tmdb_id": "1232569",
   "year": 2026
  },
  "place:2026": {
@@ -5910,7 +5989,7 @@
   "year": 1981
  },
  "pouletauxprunes": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "practicalmagic2": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/8/5/0/2/2/tmdb/yDgYYuz8jDQCRJbHC3XM7IIGoeR-1200-1200-675-675-crop-000000.jpg?v=104462dc86",
@@ -6018,10 +6097,10 @@
   "enriched_at": "2026-09-15"
  },
  "qcc30whateverhappenedtobabyjane:1962": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "qcc31peeweesbigadventure:1985": {
-  "enriched_at": "2026-09-15"
+  "enriched_at": "2026-09-24"
  },
  "qcc32inconnulac:2013": {
   "enriched_at": "2026-09-23"
@@ -6030,7 +6109,7 @@
   "enriched_at": "2026-09-22"
  },
  "qepcshortfilmsshowcase": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "quebecduplessisapres": {
   "enriched_at": "2026-09-15"
@@ -6129,7 +6208,7 @@
   "tmdb_id": "1647086"
  },
  "redflagarabic": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "regarddulysse:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9o/xn/pn/3u/ulysses%20gaze-1200-1200-675-675-crop-000000.jpg?v=b7e515a0d5",
@@ -6211,7 +6290,7 @@
   "enriched_at": "2026-09-23"
  },
  "revedafrique": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "revolte": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cs/s4/la/gk/uprising-1200-1200-675-675-crop-000000.jpg?v=b9a5bdc65d",
@@ -6275,13 +6354,26 @@
  "room:2003": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ay/jb/b5/xa/the-room-1200-1200-675-675-crop-000000.jpg?v=b2e17b62e4",
   "enriched_at": "2026-09-09",
+  "genres_en": [
+   "Drama",
+   "Romance"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Romance"
+  ],
+  "i18n_v": 1,
   "imdb_id": "tt0368226",
   "letterboxd_rating": 2.58,
   "letterboxd_url": "https://letterboxd.com/film/the-room/",
   "letterboxd_votes": 280599,
   "overview": "Johnny is a successful banker with great respect for and dedication to the people in his life, especially his future wife Lisa. The happy-go-lucky guy sees his world being torn apart when his friends begin to betray him one-by-one.",
+  "overview_en": "Johnny is a successful banker with great respect for and dedication to the people in his life, especially his future wife Lisa. The happy-go-lucky guy sees his world being torn apart when his friends begin to betray him one-by-one.",
+  "overview_fr": "Johnny is a successful banker with great respect for and dedication to the people in his life, especially his future wife Lisa. The happy-go-lucky guy sees his world being torn apart when his friends begin to betray him one-by-one.",
   "poster": "https://media.themoviedb.org/t/p/w500/9QscHN4pXj6Ja1k7e1ZT4vWDGnr.jpg",
   "runtime": 100,
+  "title_en": "The Room",
+  "title_fr": "The Room",
   "tmdb_id": "17473",
   "wikidata_id": "Q533383",
   "year": 2003
@@ -6599,6 +6691,42 @@
   "i18n_v": 1,
   "imdb_id": "tt36841161",
   "letterboxd_url": "https://letterboxd.com/film/shaun-the-sheep-the-beast-of-mossy-bottom/",
+  "overview": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
+  "overview_en": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
+  "overview_fr": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
+  "poster": "https://media.themoviedb.org/t/p/w500/poG8LaprHjz2Ka0c6zCvDrVjEUq.jpg",
+  "runtime": 81,
+  "title_en": "Shaun the Sheep: The Beast of Mossy Bottom",
+  "title_fr": "Shaun the Sheep: The Beast of Mossy Bottom",
+  "tmdb_id": "1477104",
+  "year": 2026
+ },
+ "shaunsheepbeastmossybottom:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
+  "enriched_at": "2026-09-24",
+  "genres": [
+   "Animation",
+   "Comédie",
+   "Familial",
+   "Aventure"
+  ],
+  "genres_en": [
+   "Animation",
+   "Comedy",
+   "Family",
+   "Adventure"
+  ],
+  "genres_fr": [
+   "Animation",
+   "Comédie",
+   "Familial",
+   "Aventure"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36841161",
+  "letterboxd_rating": 3.57,
+  "letterboxd_url": "https://letterboxd.com/film/shaun-the-sheep-the-beast-of-mossy-bottom/",
+  "letterboxd_votes": 8798,
   "overview": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
   "overview_en": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
   "overview_fr": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
@@ -6974,6 +7102,9 @@
  "superwingsvitessemaximumfilmsenfamil": {
   "enriched_at": "2026-09-23"
  },
+ "superwingsvitessemaximumfilmsenfamille": {
+  "enriched_at": "2026-09-24"
+ },
  "suspiria:1977": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/t4/ch/a6/pn/suspiria-1200-1200-675-675-crop-000000.jpg?v=32b7a16f8b",
   "enriched_at": "2026-09-09",
@@ -7082,7 +7213,7 @@
   "year": 2026
  },
  "theaterthought:2022": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-09-24"
  },
  "tony:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/va/ir/j7/p7/bOqTOVkHAL4z87P0Opf6q5mIeRy-1200-1200-675-675-crop-000000.jpg?v=ac8d6352de",
@@ -7511,6 +7642,9 @@
  },
  "vibe": {
   "enriched_at": "2026-09-22"
+ },
+ "videoclubspectateurennemi": {
+  "enriched_at": "2026-09-24"
  },
  "videodrome:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xa/04/29/l7/videodrome-1200-1200-675-675-crop-000000.jpg?v=0d3584f6b2",
