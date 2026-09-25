@@ -2188,6 +2188,36 @@
  "diaryshinjukuthief": {
   "enriched_at": "2026-09-24"
  },
+ "diaryshinjukuthief:1969": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ks/yi/kw/j0/iMPZUJLRzjUwjklVtanFWcPJ1Wa-1200-1200-675-675-crop-000000.jpg?v=098e9b9394",
+  "enriched_at": "2026-09-25",
+  "genres": [
+   "Drame",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Drama",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0063598",
+  "letterboxd_rating": 3.33,
+  "letterboxd_url": "https://letterboxd.com/film/diary-of-a-shinjuku-thief/",
+  "letterboxd_votes": 3225,
+  "overview": "In Tokyo's Shinjuku district, the lives of a young man prone to theft, a young woman he meets at a bookstore, and a kabuki actor intersect.",
+  "overview_en": "In Tokyo's Shinjuku district, the lives of a young man prone to theft, a young woman he meets at a bookstore, and a kabuki actor intersect.",
+  "overview_fr": "In Tokyo's Shinjuku district, the lives of a young man prone to theft, a young woman he meets at a bookstore, and a kabuki actor intersect.",
+  "poster": "https://media.themoviedb.org/t/p/w500/pL81JaRXHS2f34Gy2ueQSuQRPSG.jpg",
+  "runtime": 96,
+  "title_en": "Diary of a Shinjuku Thief",
+  "title_fr": "Diary of a Shinjuku Thief",
+  "tmdb_id": "104744",
+  "year": 1969
+ },
  "dig:2004": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/yt/ml/74/1p/dig-1200-1200-675-675-crop-000000.jpg?v=44cfb417b7",
   "enriched_at": "2026-09-09",
@@ -4216,6 +4246,33 @@
   "tmdb_id": "1457025",
   "year": 2025
  },
+ "landwithin:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/3/4/0/0/8/1334008-a-land-within-0-230-0-345-crop.jpg?v=33ce0249e0",
+  "enriched_at": "2026-09-25",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt35668693",
+  "letterboxd_rating": 3.36,
+  "letterboxd_url": "https://letterboxd.com/film/a-land-within/",
+  "letterboxd_votes": 391,
+  "overview": "South Tyrol, 1961: Paul was hoping to escape the confines of his village and study painting. But because his older brother Anton is a wanted terrorist, he’s forced to stay at the farm and help Anton’s wife, Anna, and their son. As Paul is drawn into a vortex of violence and toxic masculinity, Anna struggles with the radicalization of her husband and the patriarchal structures in place at the time.",
+  "overview_en": "South Tyrol, 1961: Paul was hoping to escape the confines of his village and study painting. But because his older brother Anton is a wanted terrorist, he’s forced to stay at the farm and help Anton’s wife, Anna, and their son. As Paul is drawn into a vortex of violence and toxic masculinity, Anna struggles with the radicalization of her husband and the patriarchal structures in place at the time.",
+  "overview_fr": "South Tyrol, 1961: Paul was hoping to escape the confines of his village and study painting. But because his older brother Anton is a wanted terrorist, he’s forced to stay at the farm and help Anton’s wife, Anna, and their son. As Paul is drawn into a vortex of violence and toxic masculinity, Anna struggles with the radicalization of her husband and the patriarchal structures in place at the time.",
+  "poster": "https://media.themoviedb.org/t/p/w500/tTTENNQlkgP7WLBiQJgze7qdFhO.jpg",
+  "runtime": 112,
+  "title_en": "A Land Within",
+  "title_fr": "A Land Within",
+  "tmdb_id": "1457025",
+  "year": 2025
+ },
  "langueestdonchistoiredamour": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/5/8/0/0/3/8/580038-la-langue-est-donc-une-histoire-d-amour-0-230-0-345-crop.jpg?v=b1b1404e40",
   "enriched_at": "2026-09-09",
@@ -5194,7 +5251,7 @@
   "enriched_at": "2026-09-25"
  },
  "newnewautrenouvellevagueanimationindependantejaponaise:2021": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "nightlivingdead:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j1/z4/q2/vi/bhgMBDnjG9tIVE3RNCD9YeNJHq5-1200-1200-675-675-crop-000000.jpg?v=42c7601897",
@@ -7020,7 +7077,7 @@
   "enriched_at": "2026-09-24"
  },
  "smallchildsfirstadventure:1958": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "spacejamfamilyfavourites": {
   "enriched_at": "2026-09-23"
@@ -7271,7 +7328,7 @@
   "year": 1977
  },
  "symphoniesurbainesnadinegomez:2015": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "taleautumn:1998": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ub/hx/j5/6i/autumn%20tale-1200-1200-675-675-crop-000000.jpg?v=d163b29a03",
