@@ -399,7 +399,18 @@
   "enriched_at": "2026-09-09"
  },
  "apocalypsecarletournagemariachapdelaine:1983": {
-  "enriched_at": "2026-09-22"
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/4/1/3/2/0/1641320-apocalypse-carle-le-tournage-de-maria-chapdelaine-0-230-0-345-crop.jpg?v=b00d051faa",
+  "enriched_at": "2026-09-25",
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/apocalypse-carle-le-tournage-de-maria-chapdelaine/",
+  "overview": "Document unique, Apocalypse Carle nous rend témoins de moments cruciaux de cette fascinante entreprise collective qu'est un film. Il plonge le spectateur au cœur des problèmes qu'ont dû affronter Gilles Carle et son équipe. C'est un Gilles Carle à la fois souple et exigeant, plein d'humour, avec ses moments de panique et de colère, poursuivant un but ultime : la création de « cette symphonie d'images et de folie dont on ne connaît le résultat que le soir de la première ».",
+  "overview_fr": "Document unique, Apocalypse Carle nous rend témoins de moments cruciaux de cette fascinante entreprise collective qu'est un film. Il plonge le spectateur au cœur des problèmes qu'ont dû affronter Gilles Carle et son équipe. C'est un Gilles Carle à la fois souple et exigeant, plein d'humour, avec ses moments de panique et de colère, poursuivant un but ultime : la création de « cette symphonie d'images et de folie dont on ne connaît le résultat que le soir de la première ».",
+  "poster": "https://media.themoviedb.org/t/p/w500/lUkAb5303sEP3XvbgjxODWDNy6I.jpg",
+  "runtime": 28,
+  "title_en": "Apocalypse Carle : le tournage de Maria Chapdelaine",
+  "title_fr": "Apocalypse Carle : le tournage de Maria Chapdelaine",
+  "tmdb_id": "1779296",
+  "year": 1983
  },
  "apocalypsenowfinalcut:1979": {
   "enriched_at": "2026-09-24"
@@ -733,6 +744,37 @@
  "bataillegaulleresistance:2026": {
   "enriched_at": "2026-09-24"
  },
+ "baththa": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/9/2/0/2/1/1392021-baththa-0-230-0-345-crop.jpg?v=e43a0dedb7",
+  "enriched_at": "2026-09-25",
+  "genres": [
+   "Thriller",
+   "Drame"
+  ],
+  "genres_en": [
+   "Thriller",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Thriller",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt32012509",
+  "letterboxd_url": "https://letterboxd.com/film/baththa/",
+  "overview": "In 1986 Madras, a timid eight-year-old boy accidentally traps a feared gangster inside a deserted school toilet. As the gangster is forced to confront hunger, loneliness and his own vulnerability, an unlikely bond begins to grow between the two, changing their lives forever.",
+  "overview_en": "In 1986 Madras, a timid eight-year-old boy accidentally traps a feared gangster inside a deserted school toilet. As the gangster is forced to confront hunger, loneliness and his own vulnerability, an unlikely bond begins to grow between the two, changing their lives forever.",
+  "overview_fr": "In 1986 Madras, a timid eight-year-old boy accidentally traps a feared gangster inside a deserted school toilet. As the gangster is forced to confront hunger, loneliness and his own vulnerability, an unlikely bond begins to grow between the two, changing their lives forever.",
+  "poster": "https://media.themoviedb.org/t/p/w500/bsFSlIwsH0Lrqo9TtGv4KwvgKS1.jpg",
+  "runtime": 160,
+  "title_en": "Baththa",
+  "title_fr": "Baththa",
+  "tmdb_id": "1515692",
+  "year": 2026
+ },
+ "baththatamil": {
+  "enriched_at": "2026-09-25"
+ },
  "beans:2021": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dd/jt/zz/9y/beans-1200-1200-675-675-crop-000000.jpg?v=8e30e63657",
   "enriched_at": "2026-09-09",
@@ -950,7 +992,7 @@
   "enriched_at": "2026-09-12"
  },
  "billie:2025": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "bitlight:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/0/2/6/2/0/1602620-a-bit-of-light-2026-0-230-0-345-crop.jpg?v=f0a2a5d893",
@@ -1074,7 +1116,7 @@
   "year": 2025
  },
  "bluewindow:2016": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "bolbhaveinnabol": {
   "enriched_at": "2026-09-09"
@@ -1257,6 +1299,39 @@
   "title_fr": "Sur la route de Madison",
   "tmdb_id": "688",
   "year": 1995
+ },
+ "buddy": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0a/6z/rm/nm/ytoLEl5yDaxB8AtZ52uKWjaQ9ql-1200-1200-675-675-crop-000000.jpg?v=492d66a109",
+  "enriched_at": "2026-09-25",
+  "genres": [
+   "Horreur",
+   "Comédie",
+   "Fantastique"
+  ],
+  "genres_en": [
+   "Horror",
+   "Comedy",
+   "Fantasy"
+  ],
+  "genres_fr": [
+   "Horreur",
+   "Comédie",
+   "Fantastique"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37281055",
+  "letterboxd_rating": 3.08,
+  "letterboxd_url": "https://letterboxd.com/film/buddy-2026/",
+  "letterboxd_votes": 214325,
+  "overview": "A magical, singing orange unicorn holds his cast hostage in a surreal TV-show dimension, as he becomes more and more demented.",
+  "overview_en": "A magical, singing orange unicorn holds his cast hostage in a surreal TV-show dimension, as he becomes more and more demented.",
+  "overview_fr": "A magical, singing orange unicorn holds his cast hostage in a surreal TV-show dimension, as he becomes more and more demented.",
+  "poster": "https://media.themoviedb.org/t/p/w500/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
+  "runtime": 95,
+  "title_en": "Buddy",
+  "title_fr": "Buddy",
+  "tmdb_id": "1514026",
+  "year": 2026
  },
  "buddy:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0a/6z/rm/nm/ytoLEl5yDaxB8AtZ52uKWjaQ9ql-1200-1200-675-675-crop-000000.jpg?v=492d66a109",
@@ -2246,8 +2321,38 @@
   "tmdb_id": "86507",
   "year": 2011
  },
+ "donttroubletrouble": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/4/6/0/3/6/1146036-don-t-trouble-the-trouble-0-230-0-345-crop.jpg?v=614bb1b37a",
+  "enriched_at": "2026-09-25",
+  "genres": [
+   "Drame",
+   "Fantastique"
+  ],
+  "genres_en": [
+   "Drama",
+   "Fantasy"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Fantastique"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt31841170",
+  "letterboxd_url": "https://letterboxd.com/film/dont-trouble-the-trouble/",
+  "poster": "https://media.themoviedb.org/t/p/w500/uuEfTZeDNuzJaXIrpHdryuwwGB5.jpg",
+  "title_en": "Don't Trouble The Trouble",
+  "title_fr": "Don't Trouble The Trouble",
+  "tmdb_id": "1261763",
+  "year": 2026
+ },
+ "donttroubletroubletelegu": {
+  "enriched_at": "2026-09-25"
+ },
+ "donttroubletroubletelugu": {
+  "enriched_at": "2026-09-25"
+ },
  "doomakethumalayalam": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "douniaprincessedalep:2023": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/7/3/7/1/3/873713-dounia-and-the-princess-of-aleppo-0-230-0-345-crop.jpg?v=fccc63994b",
@@ -2482,7 +2587,7 @@
   "year": 1995
  },
  "festivalinternationalfilmblackmontreal": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "festivalsatellitesprogram1:2026": {
   "enriched_at": "2026-09-24"
@@ -2703,7 +2808,7 @@
   "enriched_at": "2026-09-09"
  },
  "furyo": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-25"
  },
  "furyo:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/e5/z6/p4/wc/merry-christmas-mr-lawrence-1200-1200-675-675-crop-000000.jpg?v=6605c86985",
@@ -3217,7 +3322,7 @@
   "enriched_at": "2026-09-18"
  },
  "hommagesylviegroulx:1975": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "hommequiment:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/g6/8c/nb/wm/pq8JxWkSfnrdPeou1R7zWBi9ebs-1200-1200-675-675-crop-000000.jpg?v=8f009c012d",
@@ -3388,7 +3493,7 @@
   "year": 2023
  },
  "ilpaesevillage": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-15"
@@ -4772,7 +4877,7 @@
   "year": 2026
  },
  "mittiputt": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "mllebottine:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/0/4/0/890040-miss-boots-0-230-0-345-crop.jpg?v=5b4bd3c02f",
@@ -5086,7 +5191,7 @@
   "year": 1994
  },
  "newnewautrenouvellevagueanimationindependantejaponaise": {
-  "enriched_at": "2026-09-12"
+  "enriched_at": "2026-09-25"
  },
  "newnewautrenouvellevagueanimationindependantejaponaise:2021": {
   "enriched_at": "2026-09-22"
@@ -5166,6 +5271,9 @@
   "title_fr": "Nina Roza",
   "tmdb_id": "1527449",
   "year": 2026
+ },
+ "ninjascroll": {
+  "enriched_at": "2026-09-25"
  },
  "nitassinan:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/3/4/3/2/3/1034323-nitassinan-0-230-0-345-crop.jpg?v=03115664fd",
@@ -5744,7 +5852,7 @@
   "enriched_at": "2026-09-18"
  },
  "perspectivessourdestourne:2025": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "petitevieux": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/7/1/2/1081712-blue-sky-jo-0-230-0-345-crop.jpg?v=9dc98a6baf",
@@ -5762,6 +5870,36 @@
   "letterboxd_rating": 3.44,
   "letterboxd_url": "https://letterboxd.com/film/blue-sky-jo/",
   "letterboxd_votes": 666,
+  "overview": "Hélène, se fait appeler Jo parce qu’elle veut être comme Joséphine La Petite Mousquetaire, héroïne de son dessin animé préféré. Malgré ses 10 ans, la jeune fille est déterminée à sauver son père du travail et du malheur. En cours de route, elle rencontre son voisin Roger, un vieil homme bourru qui cache un cœur tendre.",
+  "overview_en": "With the help of a gruff old neighbor, a little girl from Limoilou, blessed with a fertile imagination, sets out to make her father happier.",
+  "overview_fr": "Hélène, se fait appeler Jo parce qu’elle veut être comme Joséphine La Petite Mousquetaire, héroïne de son dessin animé préféré. Malgré ses 10 ans, la jeune fille est déterminée à sauver son père du travail et du malheur. En cours de route, elle rencontre son voisin Roger, un vieil homme bourru qui cache un cœur tendre.",
+  "poster": "https://media.themoviedb.org/t/p/w500/2NWpOWfOe1x2vBW4DDfumY43UiV.jpg",
+  "runtime": 105,
+  "title_en": "Blue Sky Jo",
+  "title_fr": "La petite et le vieux",
+  "tmdb_id": "1196668",
+  "year": 2024
+ },
+ "petitevieux:2024": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/7/1/2/1081712-blue-sky-jo-0-230-0-345-crop.jpg?v=9dc98a6baf",
+  "enriched_at": "2026-09-25",
+  "genres": [
+   "Drame",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Drama",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt33327831",
+  "letterboxd_rating": 3.44,
+  "letterboxd_url": "https://letterboxd.com/film/blue-sky-jo/",
+  "letterboxd_votes": 670,
   "overview": "Hélène, se fait appeler Jo parce qu’elle veut être comme Joséphine La Petite Mousquetaire, héroïne de son dessin animé préféré. Malgré ses 10 ans, la jeune fille est déterminée à sauver son père du travail et du malheur. En cours de route, elle rencontre son voisin Roger, un vieil homme bourru qui cache un cœur tendre.",
   "overview_en": "With the help of a gruff old neighbor, a little girl from Limoilou, blessed with a fertile imagination, sets out to make her father happier.",
   "overview_fr": "Hélène, se fait appeler Jo parce qu’elle veut être comme Joséphine La Petite Mousquetaire, héroïne de son dessin animé préféré. Malgré ses 10 ans, la jeune fille est déterminée à sauver son père du travail et du malheur. En cours de route, elle rencontre son voisin Roger, un vieil homme bourru qui cache un cœur tendre.",
@@ -6106,7 +6244,7 @@
   "enriched_at": "2026-09-23"
  },
  "qccunzipped:1995": {
-  "enriched_at": "2026-09-22"
+  "enriched_at": "2026-09-25"
  },
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-24"
@@ -6291,6 +6429,9 @@
  },
  "revedafrique": {
   "enriched_at": "2026-09-24"
+ },
+ "revedafriqueaventuriersvoyageurs": {
+  "enriched_at": "2026-09-25"
  },
  "revolte": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cs/s4/la/gk/uprising-1200-1200-675-675-crop-000000.jpg?v=b9a5bdc65d",
@@ -7401,6 +7542,39 @@
  },
  "twentyyearsmetcinemascelebrationenglishwestmetropolitanopera": {
   "enriched_at": "2026-09-19"
+ },
+ "twinpeaksfirewalkwithme": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cb/kc/9q/tm/g5G19q0xgkzWEvfcGo1KcL8nQOk-1200-1200-675-675-crop-000000.jpg?v=c77496f3f2",
+  "enriched_at": "2026-09-25",
+  "genres": [
+   "Drame",
+   "Mystère",
+   "Horreur"
+  ],
+  "genres_en": [
+   "Drama",
+   "Mystery",
+   "Horror"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Mystère",
+   "Horreur"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0105665",
+  "letterboxd_rating": 4.35,
+  "letterboxd_url": "https://letterboxd.com/film/twin-peaks-fire-walk-with-me/",
+  "letterboxd_votes": 506786,
+  "overview": "La mort mysterieuse de Teresa Banks dans la tranquille petite ville de Twin Peaks va donner bien du fil a retordre aux agents Dale Cooper et Chester Desmond qui vont mener une enquete en forme de charade et decouvrir que bien des citoyens de la ville sont impliqués dans cette affaire. Un an plus tard, ce sont les sept derniers jours de Laura Palmer, qui se termineront par la mort brutale de cette dernière annonçant ainsi le début de Twin Peaks, le soap opera.",
+  "overview_en": "In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and supernatural encounters, Agent Dale Cooper chillingly predicts that the culprit will claim another life. Meanwhile, in the more cozy town of Twin Peaks, hedonistic beauty Laura Palmer hangs with lowlifes and seems destined for a grisly fate.",
+  "overview_fr": "La mort mysterieuse de Teresa Banks dans la tranquille petite ville de Twin Peaks va donner bien du fil a retordre aux agents Dale Cooper et Chester Desmond qui vont mener une enquete en forme de charade et decouvrir que bien des citoyens de la ville sont impliqués dans cette affaire. Un an plus tard, ce sont les sept derniers jours de Laura Palmer, qui se termineront par la mort brutale de cette dernière annonçant ainsi le début de Twin Peaks, le soap opera.",
+  "poster": "https://media.themoviedb.org/t/p/w500/1uJjOuN7rA66V1Nc6BK4UWIxmIq.jpg",
+  "runtime": 135,
+  "title_en": "Twin Peaks: Fire Walk with Me",
+  "title_fr": "Twin Peaks: Feu marche avec moi",
+  "tmdb_id": "1923",
+  "year": 1992
  },
  "ufc331": {
   "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
