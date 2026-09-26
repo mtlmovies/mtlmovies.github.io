@@ -738,6 +738,36 @@
   "tmdb_id": "3175",
   "year": 1975
  },
+ "bashulittlestranger:1989": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jn/vl/46/ya/6Uec5IEBspUbwxzRmmYL4S5BxY5-1200-1200-675-675-crop-000000.jpg?v=0614252aa6",
+  "enriched_at": "2026-09-26",
+  "genres": [
+   "Drame",
+   "Guerre"
+  ],
+  "genres_en": [
+   "Drama",
+   "War"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Guerre"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0096894",
+  "letterboxd_rating": 4.09,
+  "letterboxd_url": "https://letterboxd.com/film/bashu-the-little-stranger/",
+  "letterboxd_votes": 5101,
+  "overview": "During the Iran-Iraq War, young Bashu loses his home and family. Orphaned, he sneaks into a truck leaving the area, and gets off in the Northern country, where everything from landscape to language is different. He meets Naii, trying to raise her two young children on a farm while her husband is away. Despite cultural differences and a language barrier, Bashu and Naii slowly form a strong bond.",
+  "overview_en": "During the Iran-Iraq War, young Bashu loses his home and family. Orphaned, he sneaks into a truck leaving the area, and gets off in the Northern country, where everything from landscape to language is different. He meets Naii, trying to raise her two young children on a farm while her husband is away. Despite cultural differences and a language barrier, Bashu and Naii slowly form a strong bond.",
+  "overview_fr": "During the Iran-Iraq War, young Bashu loses his home and family. Orphaned, he sneaks into a truck leaving the area, and gets off in the Northern country, where everything from landscape to language is different. He meets Naii, trying to raise her two young children on a farm while her husband is away. Despite cultural differences and a language barrier, Bashu and Naii slowly form a strong bond.",
+  "poster": "https://media.themoviedb.org/t/p/w500/6yuGd778sTkgc94CvxDIh1W4TWf.jpg",
+  "runtime": 120,
+  "title_en": "Bashu, the Little Stranger",
+  "title_fr": "Bashu, the Little Stranger",
+  "tmdb_id": "43980",
+  "year": 1989
+ },
  "bataillegaulleliberte:2026": {
   "enriched_at": "2026-09-24"
  },
@@ -1215,6 +1245,9 @@
   "tmdb_id": "882059",
   "year": 2024
  },
+ "boy:1969": {
+  "enriched_at": "2026-09-26"
+ },
  "boyfriendsgirlfriends:1987": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ef/qf/lg/e2/boyfriends-1200-1200-675-675-crop-000000.jpg?v=0e09f34b51",
   "enriched_at": "2026-09-17",
@@ -1626,7 +1659,7 @@
   "year": 2025
  },
  "charleboissymphoniquecelebrationgrandioseavecosm:2026": {
-  "enriched_at": "2026-09-23"
+  "enriched_at": "2026-09-26"
  },
  "chateaudarioka": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/bl/kc/7o/27/z5oMoDs6a1GAuK5cNAeBkAr0yk-1200-1200-675-675-crop-000000.jpg?v=789a65f6ee",
@@ -3964,6 +3997,36 @@
  "jurassicpark": {
   "enriched_at": "2026-09-24"
  },
+ "jurassicpark:1993": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8x/wj/zt/pp/jurassic-park-1200-1200-675-675-crop-000000.jpg?v=ec7c8120cd",
+  "enriched_at": "2026-09-26",
+  "genres": [
+   "Aventure",
+   "Science-Fiction"
+  ],
+  "genres_en": [
+   "Adventure",
+   "Science Fiction"
+  ],
+  "genres_fr": [
+   "Aventure",
+   "Science-Fiction"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0107290",
+  "letterboxd_rating": 4.13,
+  "letterboxd_url": "https://letterboxd.com/film/jurassic-park/",
+  "letterboxd_votes": 2468057,
+  "overview": "Ne pas réveiller le chat qui dort... C'est ce que le milliardaire John Hammond aurait dû se rappeler avant de se lancer dans le \"clonage\" de dinosaures. C'est à partir d'une goutte de sang absorbée par un moustique fossilisé que John Hammond et son équipe ont réussi à faire renaître une dizaine d'espèces de dinosaures. Il s'apprête maintenant avec la complicité du docteur Alan Grant, paléontologue de renom, et de son amie Ellie, à ouvrir le plus grand parc à thème du monde. Mais c'était sans compter la cupidité et la malveillance de l'informaticien Dennis Nedry, et éventuellement des dinosaures, seuls maîtres sur l'île...",
+  "overview_en": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+  "overview_fr": "Ne pas réveiller le chat qui dort... C'est ce que le milliardaire John Hammond aurait dû se rappeler avant de se lancer dans le \"clonage\" de dinosaures. C'est à partir d'une goutte de sang absorbée par un moustique fossilisé que John Hammond et son équipe ont réussi à faire renaître une dizaine d'espèces de dinosaures. Il s'apprête maintenant avec la complicité du docteur Alan Grant, paléontologue de renom, et de son amie Ellie, à ouvrir le plus grand parc à thème du monde. Mais c'était sans compter la cupidité et la malveillance de l'informaticien Dennis Nedry, et éventuellement des dinosaures, seuls maîtres sur l'île...",
+  "poster": "https://media.themoviedb.org/t/p/w500/piXVw2Rs7qqxs3XdZOy2jV0vmD9.jpg",
+  "runtime": 126,
+  "title_en": "Jurassic Park",
+  "title_fr": "Le parc jurassique",
+  "tmdb_id": "329",
+  "year": 1993
+ },
  "justeillusion:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/n1/4r/kd/lt/just%20a-1200-1200-675-675-crop-000000.jpg?v=f95e6cce8a",
   "enriched_at": "2026-09-14",
@@ -4525,7 +4588,7 @@
   "year": 2026
  },
  "luttmubarak": {
-  "enriched_at": "2026-09-23"
+  "enriched_at": "2026-09-26"
  },
  "maddiessecret:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/3/5/4/9/tmdb/kwBX4d1MsVl5h3GkQCXJAQ4r0O4-1200-1200-675-675-crop-000000.jpg?v=d082b93af2",
@@ -5796,7 +5859,7 @@
   "year": 2018
  },
  "paulinejulienwomancountry": {
-  "enriched_at": "2026-09-23"
+  "enriched_at": "2026-09-26"
  },
  "pawpatroldinomovie": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
@@ -6159,6 +6222,36 @@
   "tmdb_id": "1650665",
   "year": 2026
  },
+ "portaltohell": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l1/1t/8j/ep/eTuPNfCR3hSUnDKm2zBATP4lJym-1200-1200-675-675-crop-000000.jpg?v=5d4ceb7368",
+  "enriched_at": "2026-09-26",
+  "genres": [
+   "Comédie",
+   "Horreur"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Horror"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Horreur"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt29543015",
+  "letterboxd_rating": 3.31,
+  "letterboxd_url": "https://letterboxd.com/film/portal-to-hell-2025/",
+  "letterboxd_votes": 1507,
+  "overview": "After a debt-collector finds a portal to hell in a washing machine at his local laundromat, he’s propositioned into feeding it sinners to save his neighbor’s soul, maybe even at the expense of his own.",
+  "overview_en": "After a debt-collector finds a portal to hell in a washing machine at his local laundromat, he’s propositioned into feeding it sinners to save his neighbor’s soul, maybe even at the expense of his own.",
+  "overview_fr": "After a debt-collector finds a portal to hell in a washing machine at his local laundromat, he’s propositioned into feeding it sinners to save his neighbor’s soul, maybe even at the expense of his own.",
+  "poster": "https://media.themoviedb.org/t/p/w500/xuXCPJZjmP2FuGG3U16sI1TYEdR.jpg",
+  "runtime": 93,
+  "title_en": "Portal to Hell",
+  "title_fr": "Portal to Hell",
+  "tmdb_id": "1405742",
+  "year": 2025
+ },
  "possession:1981": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/md/zx/rq/4v/possession-1200-1200-675-675-crop-000000.jpg?v=e8b6f32f0a",
   "enriched_at": "2026-09-09",
@@ -6185,6 +6278,36 @@
  },
  "pouletauxprunes": {
   "enriched_at": "2026-09-24"
+ },
+ "pouletauxprunes:2011": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/co/02/v8/zc/chicken-1200-1200-675-675-crop-000000.jpg?v=ce772829c2",
+  "enriched_at": "2026-09-26",
+  "genres": [
+   "Comédie",
+   "Drame"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt1663321",
+  "letterboxd_rating": 3.53,
+  "letterboxd_url": "https://letterboxd.com/film/chicken-with-plums/",
+  "letterboxd_votes": 5627,
+  "overview": "Since his beloved violin was broken, Nasser-Ali Khan, one of the most renowned musicians of his day, has lost all taste for life. Finding no instrument worthy of replacing it, he decides to confine himself to bed to await death.",
+  "overview_en": "Since his beloved violin was broken, Nasser-Ali Khan, one of the most renowned musicians of his day, has lost all taste for life. Finding no instrument worthy of replacing it, he decides to confine himself to bed to await death.",
+  "overview_fr": "Since his beloved violin was broken, Nasser-Ali Khan, one of the most renowned musicians of his day, has lost all taste for life. Finding no instrument worthy of replacing it, he decides to confine himself to bed to await death.",
+  "poster": "https://media.themoviedb.org/t/p/w500/fj7DKP9Bpzxf2lOAWOyLWR0khff.jpg",
+  "runtime": 92,
+  "title_en": "Chicken with Plums",
+  "title_fr": "Poulet aux Prunes",
+  "tmdb_id": "78206",
+  "year": 2011
  },
  "practicalmagic2": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/8/5/0/2/2/tmdb/yDgYYuz8jDQCRJbHC3XM7IIGoeR-1200-1200-675-675-crop-000000.jpg?v=104462dc86",
@@ -6249,7 +6372,7 @@
   "year": 2026
  },
  "primeurssurpriseslundi": {
-  "enriched_at": "2026-09-20"
+  "enriched_at": "2026-09-26"
  },
  "psychic": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0g/8w/vm/hx/mHeyQoYO5zyWLZxsyVzGZLymf15-1200-1200-675-675-crop-000000.jpg?v=07b1f21364",
@@ -6298,7 +6421,7 @@
   "enriched_at": "2026-09-24"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-09-23"
+  "enriched_at": "2026-09-26"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-09-25"
@@ -6482,7 +6605,7 @@
   "year": 2026
  },
  "residentevildubbedspanish": {
-  "enriched_at": "2026-09-23"
+  "enriched_at": "2026-09-26"
  },
  "revedafrique": {
   "enriched_at": "2026-09-24"
@@ -6863,7 +6986,7 @@
   "year": 1968
  },
  "shaunmoutonbeeeteferme": {
-  "enriched_at": "2026-09-23"
+  "enriched_at": "2026-09-26"
  },
  "shaunsheepbeastmossybottom": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
@@ -7080,7 +7203,10 @@
   "enriched_at": "2026-09-25"
  },
  "spacejamfamilyfavourites": {
-  "enriched_at": "2026-09-23"
+  "enriched_at": "2026-09-26"
+ },
+ "spaforgottenisland": {
+  "enriched_at": "2026-09-26"
  },
  "sphinx:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/8/0/5/0/4/280504-le-sphinx-0-230-0-345-crop.jpg?v=183ccda635",
@@ -7765,7 +7891,7 @@
   "year": 2000
  },
  "vampirehumanistecherchesuicidaireconsentant": {
-  "enriched_at": "2026-09-23"
+  "enriched_at": "2026-09-26"
  },
  "verity": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/6/7/1/5/1/1167151-verity-2026-0-230-0-345-crop.jpg?v=c2749e27fe",
@@ -8124,7 +8250,7 @@
   "year": 2025
  },
  "vvaanforceforrest": {
-  "enriched_at": "2026-09-23"
+  "enriched_at": "2026-09-26"
  },
  "wallacegromitclassicshorts:1996": {
   "enriched_at": "2026-09-18"
