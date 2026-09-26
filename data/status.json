@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-26T13:43:02+00:00",
+ "generated_at": "2026-09-26T14:15:07+00:00",
  "counts": {
-  "movies": 236,
+  "movies": 234,
   "venues": 26,
-  "showtimes": 6014
+  "showtimes": 6006
  },
  "sources": [
   {
@@ -11,57 +11,57 @@
    "ok": true,
    "screenings": 306,
    "venues": 3,
-   "seconds": 39.4
+   "seconds": 57.8
   },
   {
    "source": "cinemamoderne",
    "ok": true,
    "screenings": 57,
    "venues": 1,
-   "seconds": 1.8
+   "seconds": 1.5
   },
   {
    "source": "ticketacces",
    "ok": true,
    "screenings": 68,
    "venues": 2,
-   "seconds": 60.4
+   "seconds": 46.1
   },
   {
    "source": "cineplex",
    "ok": true,
    "screenings": 3382,
    "venues": 11,
-   "seconds": 67.9
+   "seconds": 60.0
   },
   {
    "source": "cinestarz",
    "ok": true,
    "screenings": 2063,
    "venues": 7,
-   "seconds": 27.0
+   "seconds": 21.3
   },
   {
    "source": "guzzo",
    "ok": true,
    "screenings": 4,
    "venues": 1,
-   "seconds": 1.9
+   "seconds": 2.0
   },
   {
    "source": "cinematheque",
    "ok": true,
-   "screenings": 134,
+   "screenings": 126,
    "venues": 1,
-   "seconds": 92.1
+   "seconds": 40.1
   },
   {
    "source": "outremont",
    "ok": false,
    "screenings": 0,
    "venues": 0,
-   "error": "RuntimeError: 4 cinema events listed, none with a start time. Their programme publishes dates only, and the start times are held in a Tuxedo box office with no publicly readable source (Firebase RTDB denies every path even to an anonymous session; Firestore is disabled; no sitemap or feed).",
-   "seconds": 5.7
+   "error": "RuntimeError: 5 cinema events listed, none with a start time. Their programme publishes dates only, and the start times are held in a Tuxedo box office with no publicly readable source (Firebase RTDB denies every path even to an anonymous session; Firestore is disabled; no sitemap or feed).",
+   "seconds": 4.7
   }
  ]
 }
