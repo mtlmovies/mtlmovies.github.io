@@ -200,7 +200,7 @@
   "year": 2026
  },
  "akirarerelease": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "akirarereleaseexperience": {
   "enriched_at": "2026-09-09"
@@ -339,6 +339,9 @@
   "tmdb_id": "1108354",
   "year": 2024
  },
+ "ange:1968": {
+  "enriched_at": "2026-09-27"
+ },
  "animazemontrealinternationalanimationfestival": {
   "enriched_at": "2026-09-19"
  },
@@ -413,7 +416,7 @@
   "year": 1983
  },
  "apocalypsenowfinalcut:1979": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "arbreauxsabots:1978": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0w/lc/fc/qx/the-tree-of-wooden-clogs-1200-1200-675-675-crop-000000.jpg?v=9ab7ba0a70",
@@ -622,13 +625,13 @@
   "year": 2019
  },
  "avengersendgameexperience": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "avengersphasefinale": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "avrevedafrique": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "azaadsingh": {
   "enriched_at": "2026-09-22"
@@ -769,10 +772,10 @@
   "year": 1989
  },
  "bataillegaulleliberte:2026": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "bataillegaulleresistance:2026": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "baththa": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/9/2/0/2/1/1392021-baththa-0-230-0-345-crop.jpg?v=e43a0dedb7",
@@ -874,6 +877,31 @@
   "title_fr": "Song of Behula",
   "tmdb_id": "1662622",
   "year": 2026
+ },
+ "behula:1921": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/9/0/5/3/4/9/905349-behula-0-230-0-345-crop.jpg?v=4f80200495",
+  "enriched_at": "2026-09-27",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0390893",
+  "letterboxd_url": "https://letterboxd.com/film/behula-1921/",
+  "overview": "The merchant Chand Sadagar is a faithful devotee of Chandi, and Manasa attempts to attract him. Rejected by him, Manasa condemns his son, Lakhindar, to perish on the night of his marriage to the beautiful Béhula.",
+  "overview_en": "The merchant Chand Sadagar is a faithful devotee of Chandi, and Manasa attempts to attract him. Rejected by him, Manasa condemns his son, Lakhindar, to perish on the night of his marriage to the beautiful Béhula.",
+  "overview_fr": "The merchant Chand Sadagar is a faithful devotee of Chandi, and Manasa attempts to attract him. Rejected by him, Manasa condemns his son, Lakhindar, to perish on the night of his marriage to the beautiful Béhula.",
+  "poster": "https://media.themoviedb.org/t/p/w500/z5fAvwt0KAYB7op7JIjVFEEoZo8.jpg",
+  "runtime": 60,
+  "title_en": "Béhula",
+  "title_fr": "Béhula",
+  "tmdb_id": "1004917",
+  "year": 1921
  },
  "bestwayisbyaccident": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/3/5/7/6/1443576-the-best-way-is-by-accident-0-230-0-345-crop.jpg?v=cf3c7b169b",
@@ -2048,11 +2076,14 @@
   "tmdb_id": "1433583",
   "year": 2026
  },
+ "cosifantutte": {
+  "enriched_at": "2026-09-27"
+ },
  "cosifantutteitalianwestmetropolitanopera": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "cosifantutteitalienavecstfrmetropolitanopera": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "coyotevsacme": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ci/qq/vp/cm/coyote-1200-1200-675-675-crop-000000.jpg?v=e21dafdd5b",
@@ -2122,7 +2153,7 @@
   "enriched_at": "2026-09-21"
  },
  "danemarkilesferoeroyaumebonheur": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "danielfieryfurnace": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/7/5/2/0/6/1575206-daniel-the-fiery-furnace-0-230-0-345-crop.jpg?v=24df664011",
@@ -2216,7 +2247,7 @@
   "year": 1968
  },
  "derenmenkenschneemann": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "diaryshinjukuthief": {
   "enriched_at": "2026-09-24"
@@ -2304,7 +2335,7 @@
   "year": 2026
  },
  "djeddi:2026": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "dogstars": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mg/jf/b5/t1/dog%20stars-1200-1200-675-675-crop-000000.jpg?v=07cdea3a26",
@@ -2490,7 +2521,7 @@
   "year": 2009
  },
  "empirepassion": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "enavantmusique:1982": {
   "enriched_at": "2026-09-24"
@@ -2656,10 +2687,10 @@
   "enriched_at": "2026-09-24"
  },
  "festivalsatellitesprogram2:2026": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "filfilmjusteillusion:2026": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "filipinana:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/0/3/6/1/2/tmdb/7lgpPrmD2XYABOw8Cu3kyUn4usR-1200-1200-675-675-crop-000000.jpg?v=1b07fd073d",
@@ -2703,13 +2734,13 @@
   "year": 2023
  },
  "filmpopagridulce:2026": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "filmpopaki:2025": {
   "enriched_at": "2026-09-21"
  },
  "filmpopbuttholesurfersholetruthnothingbutt:2026": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "filmpopiamtryingtobreakyourheartfilmaboutwilco:2002": {
   "enriched_at": "2026-09-24"
@@ -2792,7 +2823,7 @@
   "enriched_at": "2026-09-24"
  },
  "florilegeii": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "forfewdollarsmore:1965": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9k/y1/6f/j7/8tbWZYvniZcjFZEX4XiCjrbHgl4-1200-1200-675-675-crop-000000.jpg?v=63cce732f7",
@@ -2951,7 +2982,7 @@
   "year": 2026
  },
  "ghostbusters": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "ghostshell30th": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/k2/5y/em/z6/ghost-in-the-shell-1200-1200-675-675-crop-000000.jpg?v=99a1bf740b",
@@ -2985,7 +3016,7 @@
   "enriched_at": "2026-09-21"
  },
  "ginochouinardauxilesguadeloupe": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "goodbadugly60th:1966": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/07/zz/2k/vy/the-good-the-bad-and-the-ugly-1200-1200-675-675-crop-000000.jpg?v=6fdc9111b0",
@@ -3590,7 +3621,7 @@
   "year": 2010
  },
  "inheritors:2023": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "insidieuxhorsplusloin": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
@@ -3814,7 +3845,7 @@
   "enriched_at": "2026-09-09"
  },
  "islandeveloaugrevent": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "itends:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6s/nw/3k/i2/blIQ1Xlc3gfOHqWc67ULnyYGEAe-1200-1200-675-675-crop-000000.jpg?v=68470cf57d",
@@ -4707,7 +4738,7 @@
   "year": 1976
  },
  "manwholefthiswillfilm": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "mariachapdelaine": {
   "enriched_at": "2026-09-09"
@@ -4966,7 +4997,7 @@
   "year": 2012
  },
  "mirzapurmovie": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "misanthropenationaltheatrelive": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/6/2/0/6/1556206-national-theatre-live-the-misanthrope-0-230-0-345-crop.jpg?v=d0b16cfaca",
@@ -5659,7 +5690,7 @@
   "year": 2026
  },
  "paradisetelugu": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "parleznousdamour": {
   "enriched_at": "2026-09-21"
@@ -6415,10 +6446,10 @@
   "enriched_at": "2026-09-15"
  },
  "qcc30whateverhappenedtobabyjane:1962": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "qcc31peeweesbigadventure:1985": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "qcc32inconnulac:2013": {
   "enriched_at": "2026-09-26"
@@ -6486,7 +6517,7 @@
   "year": 1950
  },
  "redballonwhitemanepetitsmodernes:1953": {
-  "enriched_at": "2026-09-18"
+  "enriched_at": "2026-09-27"
  },
  "redemptions:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/7/0/1/6/1567016-redemptions-0-230-0-345-crop.jpg?v=9ec64b0beb",
@@ -6526,7 +6557,7 @@
   "tmdb_id": "1647086"
  },
  "redflagarabic": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "regarddulysse:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9o/xn/pn/3u/ulysses%20gaze-1200-1200-675-675-crop-000000.jpg?v=b7e515a0d5",
@@ -6608,7 +6639,7 @@
   "enriched_at": "2026-09-26"
  },
  "revedafrique": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "revedafriqueaventuriersvoyageurs": {
   "enriched_at": "2026-09-25"
@@ -7537,7 +7568,7 @@
   "year": 2026
  },
  "theaterthought:2022": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "tony:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/va/ir/j7/p7/bOqTOVkHAL4z87P0Opf6q5mIeRy-1200-1200-675-675-crop-000000.jpg?v=ac8d6352de",
@@ -7893,6 +7924,39 @@
  "vampirehumanistecherchesuicidaireconsentant": {
   "enriched_at": "2026-09-26"
  },
+ "vampirehumanistecherchesuicidaireconsentant:2023": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/i0/ww/8e/l2/Humanist-Vampire-1200-1200-675-675-crop-000000.jpg?v=db12cec4b4",
+  "enriched_at": "2026-09-27",
+  "genres": [
+   "Comédie",
+   "Fantastique",
+   "Horreur"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Fantasy",
+   "Horror"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Fantastique",
+   "Horreur"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt24216998",
+  "letterboxd_rating": 3.9,
+  "letterboxd_url": "https://letterboxd.com/film/humanist-vampire-seeking-consenting-suicidal-person/",
+  "letterboxd_votes": 208109,
+  "overview": "Sasha est une jeune vampire avec un grave problème : elle est trop humaniste pour mordre ! Lorsque ses parents, exaspérés, décident de lui couper les vivres, sa survie est menacée. Heureusement pour elle, Sasha fait la rencontre de Paul, un adolescent solitaire aux comportements suicidaires qui consent à lui offrir sa vie. Ce qui devait être un échange de bons procédés se transforme alors en épopée nocturne durant laquelle les deux nouveaux amis chercheront à réaliser les dernières volontés de Paul avant le lever du soleil.",
+  "overview_en": "Sasha is a young vampire with a serious problem: she's too sensitive to kill. When her exasperated parents cut off her blood supply, Sasha's life is in jeopardy. Luckily, she meets Paul, a lonely teenager with suicidal tendencies who is willing to give his life to save hers. But their friendly agreement soon becomes a nocturnal quest to fulfill Paul's last wishes before day breaks.",
+  "overview_fr": "Sasha est une jeune vampire avec un grave problème : elle est trop humaniste pour mordre ! Lorsque ses parents, exaspérés, décident de lui couper les vivres, sa survie est menacée. Heureusement pour elle, Sasha fait la rencontre de Paul, un adolescent solitaire aux comportements suicidaires qui consent à lui offrir sa vie. Ce qui devait être un échange de bons procédés se transforme alors en épopée nocturne durant laquelle les deux nouveaux amis chercheront à réaliser les dernières volontés de Paul avant le lever du soleil.",
+  "poster": "https://media.themoviedb.org/t/p/w500/wohEYX3lrYPAUXsNdYrCKSTaDb0.jpg",
+  "runtime": 92,
+  "title_en": "Humanist Vampire Seeking Consenting Suicidal Person",
+  "title_fr": "Vampire humaniste cherche suicidaire consentant",
+  "tmdb_id": "988402",
+  "year": 2023
+ },
  "verity": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/6/7/1/5/1/1167151-verity-2026-0-230-0-345-crop.jpg?v=c2749e27fe",
   "enriched_at": "2026-09-21",
@@ -8001,7 +8065,7 @@
   "enriched_at": "2026-09-22"
  },
  "videoclubspectateurennemi": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-27"
  },
  "videodrome:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xa/04/29/l7/videodrome-1200-1200-675-675-crop-000000.jpg?v=0d3584f6b2",
