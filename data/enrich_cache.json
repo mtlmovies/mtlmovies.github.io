@@ -806,7 +806,7 @@
   "year": 2026
  },
  "baththatamil": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "beans:2021": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dd/jt/zz/9y/beans-1200-1200-675-675-crop-000000.jpg?v=8e30e63657",
@@ -1050,7 +1050,7 @@
   "enriched_at": "2026-09-12"
  },
  "billie:2025": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "bitlight:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/0/2/6/2/0/1602620-a-bit-of-light-2026-0-230-0-345-crop.jpg?v=f0a2a5d893",
@@ -2440,13 +2440,13 @@
   "year": 2026
  },
  "donttroubletroubletelegu": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "donttroubletroubletelugu": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "doomakethumalayalam": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "douniaprincessedalep:2023": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/7/3/7/1/3/873713-dounia-and-the-princess-of-aleppo-0-230-0-345-crop.jpg?v=fccc63994b",
@@ -3416,7 +3416,7 @@
   "enriched_at": "2026-09-18"
  },
  "hommagesylviegroulx:1975": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "hommequiment:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/g6/8c/nb/wm/pq8JxWkSfnrdPeou1R7zWBi9ebs-1200-1200-675-675-crop-000000.jpg?v=8f009c012d",
@@ -3587,7 +3587,7 @@
   "year": 2023
  },
  "ilpaesevillage": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-15"
@@ -5028,7 +5028,7 @@
   "year": 2026
  },
  "mittiputt": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "mllebottine:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/0/4/0/890040-miss-boots-0-230-0-345-crop.jpg?v=5b4bd3c02f",
@@ -5345,7 +5345,7 @@
   "enriched_at": "2026-09-25"
  },
  "newnewautrenouvellevagueanimationindependantejaponaise:2021": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "nightlivingdead:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j1/z4/q2/vi/bhgMBDnjG9tIVE3RNCD9YeNJHq5-1200-1200-675-675-crop-000000.jpg?v=42c7601897",
@@ -5424,7 +5424,7 @@
   "year": 2026
  },
  "ninjascroll": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "nitassinan:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/3/4/3/2/3/1034323-nitassinan-0-230-0-345-crop.jpg?v=03115664fd",
@@ -6003,7 +6003,7 @@
   "enriched_at": "2026-09-18"
  },
  "perspectivessourdestourne:2025": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "petitevieux": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/7/1/2/1081712-blue-sky-jo-0-230-0-345-crop.jpg?v=9dc98a6baf",
@@ -6134,6 +6134,33 @@
   "title_en": "Une photo à Saigon : coups de feu sur deux vies",
   "title_fr": "Une photo à Saigon : coups de feu sur deux vies",
   "tmdb_id": "1606750",
+  "year": 2026
+ },
+ "pieddoeuvre:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/0/9/5/5/9/tmdb/xzY5ZwVZSMMn111DhNcQs2M3J9Q-1200-1200-675-675-crop-000000.jpg?v=56a3b13153",
+  "enriched_at": "2026-09-28",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37660587",
+  "letterboxd_rating": 3.2,
+  "letterboxd_url": "https://letterboxd.com/film/at-work-2025/",
+  "letterboxd_votes": 11041,
+  "overview": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
+  "overview_en": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
+  "overview_fr": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
+  "poster": "https://media.themoviedb.org/t/p/w500/iqeF5Yr65hPlEJojJGESjVclf6h.jpg",
+  "runtime": 92,
+  "title_en": "At Work",
+  "title_fr": "À pied d’œuvre",
+  "tmdb_id": "1430820",
   "year": 2026
  },
  "pinocchio": {
@@ -6455,7 +6482,7 @@
   "enriched_at": "2026-09-26"
  },
  "qccunzipped:1995": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-24"
@@ -6487,6 +6514,9 @@
   "title_fr": "Québec: Duplessis et après...",
   "tmdb_id": "384784",
   "year": 1972
+ },
+ "queenbudapestexperience": {
+  "enriched_at": "2026-09-28"
  },
  "rashomon:1950": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fj/p1/fz/8h/rashomon-1200-1200-675-675-crop-000000.jpg?v=be65ddef83",
@@ -6642,7 +6672,7 @@
   "enriched_at": "2026-09-27"
  },
  "revedafriqueaventuriersvoyageurs": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "revolte": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cs/s4/la/gk/uprising-1200-1200-675-675-crop-000000.jpg?v=b9a5bdc65d",
@@ -7198,6 +7228,9 @@
   "tmdb_id": "340653",
   "year": 1994
  },
+ "sickling:2026": {
+  "enriched_at": "2026-09-28"
+ },
  "sickmyselfstaffpicks:2022": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/3q/kp/mc/4m/sick-1200-1200-675-675-crop-000000.jpg?v=f9fb06d5d4",
   "enriched_at": "2026-09-09",
@@ -7231,7 +7264,7 @@
   "enriched_at": "2026-09-24"
  },
  "smallchildsfirstadventure:1958": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "spacejamfamilyfavourites": {
   "enriched_at": "2026-09-26"
@@ -7485,7 +7518,7 @@
   "year": 1977
  },
  "symphoniesurbainesnadinegomez:2015": {
-  "enriched_at": "2026-09-25"
+  "enriched_at": "2026-09-28"
  },
  "taleautumn:1998": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ub/hx/j5/6i/autumn%20tale-1200-1200-675-675-crop-000000.jpg?v=d163b29a03",
