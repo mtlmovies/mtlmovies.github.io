@@ -2334,6 +2334,9 @@
   "tmdb_id": "1248832",
   "year": 2026
  },
+ "digger:2026": {
+  "enriched_at": "2026-09-28"
+ },
  "djeddi:2026": {
   "enriched_at": "2026-09-27"
  },
@@ -2820,7 +2823,7 @@
   "year": 1964
  },
  "florilegei": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-28"
  },
  "florilegeii": {
   "enriched_at": "2026-09-27"
@@ -5724,7 +5727,7 @@
   "year": 1976
  },
  "parthasard": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-28"
  },
  "partousmoyens": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/a8/w9/h0/k9/1jANqIbqrWJZb8GM5Kb3L6U8iHi-1200-1200-675-675-crop-000000.jpg?v=93e6be2389",
@@ -6856,6 +6859,39 @@
   "title_en": "Runner",
   "title_fr": "Le transport",
   "tmdb_id": "1377237",
+  "year": 2026
+ },
+ "sacrifice:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/pm/12/ix/d4/3kYnfR6PN20bD4zshZfGza6jA6f-1200-1200-675-675-crop-000000.jpg?v=a7a9f90720",
+  "enriched_at": "2026-09-28",
+  "genres": [
+   "Aventure",
+   "Comédie",
+   "Action"
+  ],
+  "genres_en": [
+   "Adventure",
+   "Comedy",
+   "Action"
+  ],
+  "genres_fr": [
+   "Aventure",
+   "Comédie",
+   "Action"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt32268992",
+  "letterboxd_rating": 2.91,
+  "letterboxd_url": "https://letterboxd.com/film/sacrifice-2025/",
+  "letterboxd_votes": 5363,
+  "overview": "During a star-studded charity gala brimming with celebrities, billionaires and empty speeches, a movie star in the midst of an existential crisis is taken hostage by a radical warrior and her devoted followers. As the night descends into chaos, both an inward journey and an outward adventure ensue, where the line between performance and belief, salvation and sacrifice, begins to blur.",
+  "overview_en": "During a star-studded charity gala brimming with celebrities, billionaires and empty speeches, a movie star in the midst of an existential crisis is taken hostage by a radical warrior and her devoted followers. As the night descends into chaos, both an inward journey and an outward adventure ensue, where the line between performance and belief, salvation and sacrifice, begins to blur.",
+  "overview_fr": "During a star-studded charity gala brimming with celebrities, billionaires and empty speeches, a movie star in the midst of an existential crisis is taken hostage by a radical warrior and her devoted followers. As the night descends into chaos, both an inward journey and an outward adventure ensue, where the line between performance and belief, salvation and sacrifice, begins to blur.",
+  "poster": "https://media.themoviedb.org/t/p/w500/SGH7mlgfDyGgRCi2At62Ljg3zV.jpg",
+  "runtime": 103,
+  "title_en": "Sacrifice",
+  "title_fr": "Sacrifice",
+  "tmdb_id": "1284186",
   "year": 2026
  },
  "saigonstorytwoshootingsforestkingdom:2026": {
