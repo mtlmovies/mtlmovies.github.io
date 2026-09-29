@@ -495,6 +495,33 @@
   "tmdb_id": "1337631",
   "year": 2025
  },
+ "atwork:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/0/9/5/5/9/tmdb/xzY5ZwVZSMMn111DhNcQs2M3J9Q-1200-1200-675-675-crop-000000.jpg?v=56a3b13153",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37660587",
+  "letterboxd_rating": 3.2,
+  "letterboxd_url": "https://letterboxd.com/film/at-work-2025/",
+  "letterboxd_votes": 11048,
+  "overview": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
+  "overview_en": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
+  "overview_fr": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
+  "poster": "https://media.themoviedb.org/t/p/w500/iqeF5Yr65hPlEJojJGESjVclf6h.jpg",
+  "runtime": 92,
+  "title_en": "At Work",
+  "title_fr": "À pied d’œuvre",
+  "tmdb_id": "1430820",
+  "year": 2026
+ },
  "auboutoakstreet": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/9/2/9/6/2/tmdb/mJDCrEFKHUqoZe4xyI8CE47pw7P-1200-1200-675-675-crop-000000.jpg?v=8ab201f560",
   "enriched_at": "2026-09-12",
@@ -590,6 +617,31 @@
   "tmdb_id": "",
   "wikidata_id": "Q141005271",
   "year": null
+ },
+ "autremaman": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/2o/3d/bn/sl/smZ8BT4Vzw4iCEppTLCnN8jNYtn-1200-1200-675-675-crop-000000.jpg?v=3661b62b2c",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Horreur"
+  ],
+  "genres_en": [
+   "Horror"
+  ],
+  "genres_fr": [
+   "Horreur"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36586020",
+  "letterboxd_url": "https://letterboxd.com/film/other-mommy/",
+  "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+  "overview_en": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+  "overview_fr": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+  "poster": "https://media.themoviedb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
+  "runtime": 93,
+  "title_en": "Other Mommy",
+  "title_fr": "Other Mommy",
+  "tmdb_id": "1400837",
+  "year": 2026
  },
  "avengersendgame": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/pv/3f/zz/og/avengers-endgame-1200-1200-675-675-crop-000000.jpg?v=55fc50f8fa",
@@ -1274,7 +1326,7 @@
   "year": 2024
  },
  "boy:1969": {
-  "enriched_at": "2026-09-26"
+  "enriched_at": "2026-09-29"
  },
  "boyfriendsgirlfriends:1987": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ef/qf/lg/e2/boyfriends-1200-1200-675-675-crop-000000.jpg?v=0e09f34b51",
@@ -1687,7 +1739,7 @@
   "year": 2025
  },
  "charleboissymphoniquecelebrationgrandioseavecosm:2026": {
-  "enriched_at": "2026-09-26"
+  "enriched_at": "2026-09-29"
  },
  "chateaudarioka": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/bl/kc/7o/27/z5oMoDs6a1GAuK5cNAeBkAr0yk-1200-1200-675-675-crop-000000.jpg?v=789a65f6ee",
@@ -2828,6 +2880,9 @@
  "florilegeii": {
   "enriched_at": "2026-09-27"
  },
+ "fnc": {
+  "enriched_at": "2026-09-29"
+ },
  "forfewdollarsmore:1965": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9k/y1/6f/j7/8tbWZYvniZcjFZEX4XiCjrbHgl4-1200-1200-675-675-crop-000000.jpg?v=63cce732f7",
   "enriched_at": "2026-09-09",
@@ -2969,6 +3024,33 @@
  },
  "gaulleliberty": {
   "enriched_at": "2026-09-24"
+ },
+ "gentlemonster:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mm/84/5x/4d/p9cdAwkoPkmSC370arNTcDCpZYX-1200-1200-675-675-crop-000000.jpg?v=174adb9bbe",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37020296",
+  "letterboxd_rating": 3.33,
+  "letterboxd_url": "https://letterboxd.com/film/gentle-monster/",
+  "letterboxd_votes": 5945,
+  "overview": "After relocating with her family to the countryside, a renowned pianist uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception.",
+  "overview_en": "After relocating with her family to the countryside, a renowned pianist uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception.",
+  "overview_fr": "After relocating with her family to the countryside, a renowned pianist uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception.",
+  "poster": "https://media.themoviedb.org/t/p/w500/v7sbP2qv8ezCfo9FOI6DVUXDSaw.jpg",
+  "runtime": 114,
+  "title_en": "Gentle Monster",
+  "title_fr": "Gentle Monster",
+  "tmdb_id": "1473148",
+  "year": 2026
  },
  "ghost2bigtorig": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/5/3/4/2/1555342-2-big-to-rig-0-230-0-345-crop.jpg?v=4a41c3cc91",
@@ -3623,6 +3705,34 @@
   "tmdb_id": "46738",
   "year": 2010
  },
+ "influencerproject": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/1/7/5/9/4/1517594-the-influencer-project-0-230-0-345-crop.jpg?v=0e25ee66fe",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Horreur",
+   "Thriller"
+  ],
+  "genres_en": [
+   "Horror",
+   "Thriller"
+  ],
+  "genres_fr": [
+   "Horreur",
+   "Thriller"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt42643242",
+  "letterboxd_url": "https://letterboxd.com/film/the-influencer-project/",
+  "overview": "Influencer Chiara King travels to Copenhagen with a documentary crew promising an unfiltered look behind the glamorous business of online fame. But as the cameras and her devoted fans follow her every move, someone else is watching too. When an obsessive stalker begins closing in, the documentary mutates into something far more terrifying, blurring the line between content and evidence, follower and predator, fact and fiction.",
+  "overview_en": "Influencer Chiara King travels to Copenhagen with a documentary crew promising an unfiltered look behind the glamorous business of online fame. But as the cameras and her devoted fans follow her every move, someone else is watching too. When an obsessive stalker begins closing in, the documentary mutates into something far more terrifying, blurring the line between content and evidence, follower and predator, fact and fiction.",
+  "overview_fr": "Influencer Chiara King travels to Copenhagen with a documentary crew promising an unfiltered look behind the glamorous business of online fame. But as the cameras and her devoted fans follow her every move, someone else is watching too. When an obsessive stalker begins closing in, the documentary mutates into something far more terrifying, blurring the line between content and evidence, follower and predator, fact and fiction.",
+  "poster": "https://media.themoviedb.org/t/p/w500/3yolfJrhMf8XvfKVlBB6Zetn2wS.jpg",
+  "runtime": 102,
+  "title_en": "The Influencer Project",
+  "title_fr": "The Influencer Project",
+  "tmdb_id": "1654086",
+  "year": 2026
+ },
  "inheritors:2023": {
   "enriched_at": "2026-09-27"
  },
@@ -4027,6 +4137,34 @@
   "title_fr": "Johnny Got His Gun",
   "tmdb_id": "16328",
   "year": 1971
+ },
+ "jugementsocial": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/c2/0g/fz/tj/social-1200-1200-675-675-crop-000000.jpg?v=6601cd3e98",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Drame",
+   "Thriller"
+  ],
+  "genres_en": [
+   "Drama",
+   "Thriller"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Thriller"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37510326",
+  "letterboxd_url": "https://letterboxd.com/film/the-social-reckoning/",
+  "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+  "overview_en": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+  "overview_fr": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+  "poster": "https://media.themoviedb.org/t/p/w500/6B5gNoTM9PCC7jXTFd7tJGFfeFa.jpg",
+  "runtime": 112,
+  "title_en": "The Social Reckoning",
+  "title_fr": "The Social Reckoning",
+  "tmdb_id": "1281331",
+  "year": 2026
  },
  "jurassicpark": {
   "enriched_at": "2026-09-24"
@@ -4622,7 +4760,7 @@
   "year": 2026
  },
  "luttmubarak": {
-  "enriched_at": "2026-09-26"
+  "enriched_at": "2026-09-29"
  },
  "maddiessecret:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/3/5/4/9/tmdb/kwBX4d1MsVl5h3GkQCXJAQ4r0O4-1200-1200-675-675-crop-000000.jpg?v=d082b93af2",
@@ -5296,6 +5434,33 @@
   "wikidata_id": "Q6945105",
   "year": 1983
  },
+ "naza:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/6/2/0/2/0/6/tmdb/dDKy6eWfzaPgXZ2MOIn6tLuM9F2-1200-1200-675-675-crop-000000.jpg?v=66bd8f175a",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt44766123",
+  "letterboxd_rating": 4.02,
+  "letterboxd_url": "https://letterboxd.com/film/naza/",
+  "letterboxd_votes": 2084,
+  "overview": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
+  "overview_en": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
+  "overview_fr": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
+  "poster": "https://media.themoviedb.org/t/p/w500/uLsG2CW8oHnmXWdtPyruSegI8rF.jpg",
+  "runtime": 80,
+  "title_en": "NAZA",
+  "title_fr": "NAZA",
+  "tmdb_id": "1755291",
+  "year": 2026
+ },
  "nct1275thtourneocityseoulredlinecinemas": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/0/5/8/5/6/1605856-nct-127-5th-tour-neo-city-seoul-the-redline-0-230-0-345-crop.jpg?v=378b1a9f02",
   "enriched_at": "2026-09-11",
@@ -5661,6 +5826,31 @@
   "tmdb_id": "1284046",
   "year": 2026
  },
+ "othermommy": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/2o/3d/bn/sl/smZ8BT4Vzw4iCEppTLCnN8jNYtn-1200-1200-675-675-crop-000000.jpg?v=3661b62b2c",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Horreur"
+  ],
+  "genres_en": [
+   "Horror"
+  ],
+  "genres_fr": [
+   "Horreur"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36586020",
+  "letterboxd_url": "https://letterboxd.com/film/other-mommy/",
+  "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+  "overview_en": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+  "overview_fr": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+  "poster": "https://media.themoviedb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
+  "runtime": 93,
+  "title_en": "Other Mommy",
+  "title_fr": "Other Mommy",
+  "tmdb_id": "1400837",
+  "year": 2026
+ },
  "paradise": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/6/3/2/6/7/1263267-the-paradise-2026-0-230-0-345-crop.jpg?v=efbcb4a5aa",
   "enriched_at": "2026-09-23",
@@ -5893,7 +6083,7 @@
   "year": 2018
  },
  "paulinejulienwomancountry": {
-  "enriched_at": "2026-09-26"
+  "enriched_at": "2026-09-29"
  },
  "pawpatroldinomovie": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
@@ -6166,6 +6356,33 @@
   "tmdb_id": "1430820",
   "year": 2026
  },
+ "piedduvre": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/0/9/5/5/9/tmdb/xzY5ZwVZSMMn111DhNcQs2M3J9Q-1200-1200-675-675-crop-000000.jpg?v=56a3b13153",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37660587",
+  "letterboxd_rating": 3.2,
+  "letterboxd_url": "https://letterboxd.com/film/at-work-2025/",
+  "letterboxd_votes": 11048,
+  "overview": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
+  "overview_en": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
+  "overview_fr": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
+  "poster": "https://media.themoviedb.org/t/p/w500/iqeF5Yr65hPlEJojJGESjVclf6h.jpg",
+  "runtime": 92,
+  "title_en": "At Work",
+  "title_fr": "À pied d’œuvre",
+  "tmdb_id": "1430820",
+  "year": 2026
+ },
  "pinocchio": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0a/0h/k4/pg/dNKFETDDujxm2PUN873Jwiw5VML%20(1)-1200-1200-675-675-crop-000000.jpg?v=0f9692a8f6",
   "enriched_at": "2026-09-24",
@@ -6337,6 +6554,33 @@
   "tmdb_id": "21484",
   "year": 1981
  },
+ "possiblelove:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/su/95/as/k3/kPbyLj2OyjojqvR1jfK1VvXzabg-1200-1200-675-675-crop-000000.jpg?v=6eaf5bcb33",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37803364",
+  "letterboxd_rating": 4.15,
+  "letterboxd_url": "https://letterboxd.com/film/possible-love/",
+  "letterboxd_votes": 3683,
+  "overview": "A laid-off worker and his wife cross paths with a documentary filmmaker and her spouse and confront their hidden desires.",
+  "overview_en": "A laid-off worker and his wife cross paths with a documentary filmmaker and her spouse and confront their hidden desires.",
+  "overview_fr": "A laid-off worker and his wife cross paths with a documentary filmmaker and her spouse and confront their hidden desires.",
+  "poster": "https://media.themoviedb.org/t/p/w500/dLz9yHeLw4x4sD0WTSNi7HuK2ke.jpg",
+  "runtime": 165,
+  "title_en": "Possible Love",
+  "title_fr": "Possible Love",
+  "tmdb_id": "1483525",
+  "year": 2026
+ },
  "pouletauxprunes": {
   "enriched_at": "2026-09-24"
  },
@@ -6433,7 +6677,7 @@
   "year": 2026
  },
  "primeurssurpriseslundi": {
-  "enriched_at": "2026-09-26"
+  "enriched_at": "2026-09-29"
  },
  "psychic": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0g/8w/vm/hx/mHeyQoYO5zyWLZxsyVzGZLymf15-1200-1200-675-675-crop-000000.jpg?v=07b1f21364",
@@ -6482,7 +6726,7 @@
   "enriched_at": "2026-09-27"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-09-26"
+  "enriched_at": "2026-09-29"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-09-28"
@@ -6517,6 +6761,9 @@
   "title_fr": "Québec: Duplessis et après...",
   "tmdb_id": "384784",
   "year": 1972
+ },
+ "queenbudapest": {
+  "enriched_at": "2026-09-29"
  },
  "queenbudapestexperience": {
   "enriched_at": "2026-09-28"
@@ -6724,6 +6971,33 @@
   "title_fr": "Le ring",
   "tmdb_id": "50529",
   "year": 2007
+ },
+ "rollingloud": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/3/0/9/4/8/1230948-rolling-loud-the-movie-0-230-0-345-crop.jpg?v=2750781569",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Comédie",
+   "Musique"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Music"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Musique"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt33184695",
+  "letterboxd_url": "https://letterboxd.com/film/rolling-loud-the-movie/",
+  "overview": "A father makes a bad parenting choice by taking his young son to a wild hip-hop festival, leading to chaos as they navigate crowds, security, and family dynamics with eccentric companions.",
+  "overview_en": "A father makes a bad parenting choice by taking his young son to a wild hip-hop festival, leading to chaos as they navigate crowds, security, and family dynamics with eccentric companions.",
+  "overview_fr": "A father makes a bad parenting choice by taking his young son to a wild hip-hop festival, leading to chaos as they navigate crowds, security, and family dynamics with eccentric companions.",
+  "poster": "https://media.themoviedb.org/t/p/w500/yJsGgMrE2wE1rdtu70LI6rrF3mo.jpg",
+  "title_en": "Rolling Loud: The Movie",
+  "title_fr": "Rolling Loud: The Movie",
+  "tmdb_id": "1336166",
+  "year": 2026
  },
  "romin": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/7/0/2/0/1567020-romin-0-230-0-345-crop.jpg?v=1b30d50927",
@@ -7083,7 +7357,7 @@
   "year": 1968
  },
  "shaunmoutonbeeeteferme": {
-  "enriched_at": "2026-09-26"
+  "enriched_at": "2026-09-29"
  },
  "shaunsheepbeastmossybottom": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
@@ -7293,6 +7567,37 @@
   "tmdb_id": "788734",
   "year": 2022
  },
+ "sigma": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/7/9/4/9/3/1279493-sigma-2026-0-230-0-345-crop.jpg?v=1b9c22b1cf",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Action",
+   "Crime",
+   "Drame"
+  ],
+  "genres_en": [
+   "Action",
+   "Crime",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Action",
+   "Crime",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt39239754",
+  "letterboxd_url": "https://letterboxd.com/film/sigma-2026/",
+  "poster": "https://media.themoviedb.org/t/p/w500/18Lhkc3nf92bY1cacQomXIqihhN.jpg",
+  "runtime": 147,
+  "title_en": "Sigma",
+  "title_fr": "Sigma",
+  "tmdb_id": "1395215",
+  "year": 2026
+ },
+ "sigmatamil": {
+  "enriched_at": "2026-09-29"
+ },
  "singhvskaur2": {
   "enriched_at": "2026-09-15"
  },
@@ -7302,11 +7607,66 @@
  "smallchildsfirstadventure:1958": {
   "enriched_at": "2026-09-28"
  },
+ "socialreckoning": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/c2/0g/fz/tj/social-1200-1200-675-675-crop-000000.jpg?v=6601cd3e98",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Drame",
+   "Thriller"
+  ],
+  "genres_en": [
+   "Drama",
+   "Thriller"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Thriller"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt37510326",
+  "letterboxd_url": "https://letterboxd.com/film/the-social-reckoning/",
+  "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+  "overview_en": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+  "overview_fr": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+  "poster": "https://media.themoviedb.org/t/p/w500/6B5gNoTM9PCC7jXTFd7tJGFfeFa.jpg",
+  "runtime": 112,
+  "title_en": "The Social Reckoning",
+  "title_fr": "The Social Reckoning",
+  "tmdb_id": "1281331",
+  "year": 2026
+ },
  "spacejamfamilyfavourites": {
   "enriched_at": "2026-09-26"
  },
  "spaforgottenisland": {
-  "enriched_at": "2026-09-26"
+  "enriched_at": "2026-09-29"
+ },
+ "spaweekend": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/3/5/5/8/9/tmdb/ftFf9sfJq69xJ0AuiaIuDKBtfzg-1200-1200-675-675-crop-000000.jpg?v=15ba4ff6f8",
+  "enriched_at": "2026-09-29",
+  "genres": [
+   "Comédie"
+  ],
+  "genres_en": [
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt33305867",
+  "letterboxd_rating": 2.39,
+  "letterboxd_url": "https://letterboxd.com/film/spa-weekend-2026/",
+  "letterboxd_votes": 18371,
+  "overview": "Four lifelong friends realize that somewhere between careers, relationships, families, and everyday responsibilities, they’ve forgotten how to take care of themselves and each other. Burned out and overdue for a break, the women escape to a luxury spa retreat for an unforgettable weekend dedicated to fun, laughter, and a lot of really bad decisions.",
+  "overview_en": "Four lifelong friends realize that somewhere between careers, relationships, families, and everyday responsibilities, they’ve forgotten how to take care of themselves and each other. Burned out and overdue for a break, the women escape to a luxury spa retreat for an unforgettable weekend dedicated to fun, laughter, and a lot of really bad decisions.",
+  "overview_fr": "Four lifelong friends realize that somewhere between careers, relationships, families, and everyday responsibilities, they’ve forgotten how to take care of themselves and each other. Burned out and overdue for a break, the women escape to a luxury spa retreat for an unforgettable weekend dedicated to fun, laughter, and a lot of really bad decisions.",
+  "poster": "https://media.themoviedb.org/t/p/w500/wW2M5FnQrjTZPrIpOKqYpitAGdj.jpg",
+  "runtime": 97,
+  "title_en": "Spa Weekend",
+  "title_fr": "Spa Weekend",
+  "tmdb_id": "1341138",
+  "year": 2026
  },
  "sphinx:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/8/0/5/0/4/280504-le-sphinx-0-230-0-345-crop.jpg?v=183ccda635",
@@ -8383,7 +8743,7 @@
   "year": 2025
  },
  "vvaanforceforrest": {
-  "enriched_at": "2026-09-26"
+  "enriched_at": "2026-09-29"
  },
  "wallacegromitclassicshorts:1996": {
   "enriched_at": "2026-09-18"
