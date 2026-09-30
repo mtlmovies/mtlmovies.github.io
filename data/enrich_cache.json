@@ -354,7 +354,7 @@
   "year": 2024
  },
  "ange:1968": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "animazemontrealinternationalanimationfestival": {
   "enriched_at": "2026-09-19"
@@ -2447,6 +2447,39 @@
   "tmdb_id": "1756715",
   "year": 2026
  },
+ "deadcalm:1989": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/nk/hq/uw/e8/dead-calm-1200-1200-675-675-crop-000000.jpg?v=ab96c5fce2",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Thriller",
+   "Drame",
+   "Horreur"
+  ],
+  "genres_en": [
+   "Thriller",
+   "Drama",
+   "Horror"
+  ],
+  "genres_fr": [
+   "Thriller",
+   "Drame",
+   "Horreur"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0097162",
+  "letterboxd_rating": 3.37,
+  "letterboxd_url": "https://letterboxd.com/film/dead-calm/",
+  "letterboxd_votes": 41670,
+  "overview": "Pour oublier la mort tragique de leur fils dans un terrible accident, un couple décide de partir en mer. Sur l'océan, ils vont à la rescousse d'un homme qui est en train de couler. Mais ce que John et sa femme Rae ne savent pas encore, c'est que leur nouveau passager est un dangereux psychopathe...",
+  "overview_en": "An Australian couple takes a sailing trip in the Pacific to get over the recent loss of their son. While on the open sea, they come across a sinking ship with one survivor who is not at all what he seems.",
+  "overview_fr": "Pour oublier la mort tragique de leur fils dans un terrible accident, un couple décide de partir en mer. Sur l'océan, ils vont à la rescousse d'un homme qui est en train de couler. Mais ce que John et sa femme Rae ne savent pas encore, c'est que leur nouveau passager est un dangereux psychopathe...",
+  "poster": "https://media.themoviedb.org/t/p/w500/be8F0msUK8P5iQKavv2aP4gVeZx.jpg",
+  "runtime": 96,
+  "title_en": "Dead Calm",
+  "title_fr": "Calme blanc",
+  "tmdb_id": "10493",
+  "year": 1989
+ },
  "dearyou": {
   "enriched_at": "2026-09-24"
  },
@@ -3050,6 +3083,33 @@
  "finterres": {
   "enriched_at": "2026-09-30"
  },
+ "finterres:2019": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/5/1/3/4/6/9/513469-where-the-land-ends-0-230-0-345-crop.jpg?v=bd3665901f",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt9852644",
+  "letterboxd_rating": 3.52,
+  "letterboxd_url": "https://letterboxd.com/film/where-the-land-ends/",
+  "letterboxd_votes": 202,
+  "overview": "A documentary that explores what it means to be a young person in Quebec after the dissolution of the Quebec sovereignty movement.",
+  "overview_en": "A documentary that explores what it means to be a young person in Quebec after the dissolution of the Quebec sovereignty movement.",
+  "overview_fr": "A documentary that explores what it means to be a young person in Quebec after the dissolution of the Quebec sovereignty movement.",
+  "poster": "https://media.themoviedb.org/t/p/w500/9Z2NVmapIDsstiuLseIC9NFfxA3.jpg",
+  "runtime": 91,
+  "title_en": "Where the Land Ends",
+  "title_fr": "La Fin des terres",
+  "tmdb_id": "585646",
+  "year": 2019
+ },
  "fistfuldollars:1964": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ck/af/in/xb/a-fistfull-of-dollars-1200-1200-675-675-crop-000000.jpg?v=5b2cca9778",
   "enriched_at": "2026-09-09",
@@ -3077,7 +3137,13 @@
  "florilegei": {
   "enriched_at": "2026-09-28"
  },
+ "florilegei:1972": {
+  "enriched_at": "2026-09-30"
+ },
  "florilegeii": {
+  "enriched_at": "2026-09-30"
+ },
+ "florilegeii:1974": {
   "enriched_at": "2026-09-30"
  },
  "flow:2024": {
@@ -4123,6 +4189,36 @@
   "tmdb_id": "1229477",
   "year": 2025
  },
+ "interceptes:2024": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l4/sy/md/t9/9cHH3ZgBdDjP1zQUvw7TVeMqP42-1200-1200-675-675-crop-000000.jpg?v=cd18d2d24d",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire",
+   "Guerre"
+  ],
+  "genres_en": [
+   "Documentary",
+   "War"
+  ],
+  "genres_fr": [
+   "Documentaire",
+   "Guerre"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt30956212",
+  "letterboxd_rating": 3.86,
+  "letterboxd_url": "https://letterboxd.com/film/intercepted/",
+  "letterboxd_votes": 2001,
+  "overview": "A journey through Ukraine that reveals the banality of evil behind the Russian invasion with the shocking juxtaposition of two realities: the Ukrainians who have been suffering and resisting the war violence, and the Russian military, and civilians, who have been perpetrating it.",
+  "overview_en": "A journey through Ukraine that reveals the banality of evil behind the Russian invasion with the shocking juxtaposition of two realities: the Ukrainians who have been suffering and resisting the war violence, and the Russian military, and civilians, who have been perpetrating it.",
+  "overview_fr": "A journey through Ukraine that reveals the banality of evil behind the Russian invasion with the shocking juxtaposition of two realities: the Ukrainians who have been suffering and resisting the war violence, and the Russian military, and civilians, who have been perpetrating it.",
+  "poster": "https://media.themoviedb.org/t/p/w500/jK34X3lpVoeqokr5jsQcVdrZ5nv.jpg",
+  "runtime": 93,
+  "title_en": "Intercepted",
+  "title_fr": "Intercepted",
+  "tmdb_id": "1229477",
+  "year": 2025
+ },
  "interetdadam": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/6/7/1/5/tmdb/ltpZ8p6WiaMJqFU5Wpsdx6fRT5I-1200-1200-675-675-crop-000000.jpg?v=798025bc98",
   "enriched_at": "2026-09-11",
@@ -4412,6 +4508,33 @@
  },
  "jevoussaluesalopemisogynieautempsnumerique": {
   "enriched_at": "2026-09-30"
+ },
+ "jevoussaluesalopemisogynieautempsnumerique:2022": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/9/0/8/0/0/9/908009-backlash-misogyny-in-the-digital-age-0-230-0-345-crop.jpg?v=97c538264d",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt19817288",
+  "letterboxd_rating": 3.57,
+  "letterboxd_url": "https://letterboxd.com/film/backlash-misogyny-in-the-digital-age/",
+  "letterboxd_votes": 555,
+  "overview": "Je vous salue salope : La misogynie au temps du numérique nous plonge dans une histoire chorale chavirante où s'entremêlent les destins de femmes de têtes. La volonté est commune : ne plus se taire.",
+  "overview_en": "This documentary by Léa Clermont-Dion and Guylaine Maroist plunges us into the vortex of online misogyny and documents hatred towards women. This bleak opus, reminiscent of a psychological thriller, follows four women across two continents: former President of the Italian parliament Laura Boldrini, former Democratic representative Kiah Morris, French actor and YouTuber Marion Séclin, and Donna Zuckerberg, a specialist in online violence against women and the sister of Facebook’s founder. This tour de force reveals the devastating effects such unapologetic hatred has on victims, and brings to light the singular objective of cyber-misogyny: to silence women who shine. Some targets of cyber-violence will crumble under the crystallizing force of the click. Others, proud warriors, will stand tall and refuse to be silenced.",
+  "overview_fr": "Je vous salue salope : La misogynie au temps du numérique nous plonge dans une histoire chorale chavirante où s'entremêlent les destins de femmes de têtes. La volonté est commune : ne plus se taire.",
+  "poster": "https://media.themoviedb.org/t/p/w500/vsLKbsGGfif3e1WAOC7v8b78vb5.jpg",
+  "runtime": 80,
+  "title_en": "Backlash: Misogyny in the Digital Age",
+  "title_fr": "Je vous salue salope : La misogynie au temps du numérique",
+  "tmdb_id": "1008062",
+  "year": 2022
  },
  "jimqueen:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/5/7/3/8/0/tmdb/vQw05sfFEVCVpysDAU5C8NU1gMO-1200-1200-675-675-crop-000000.jpg?v=2d4514f5c0",
@@ -5224,6 +5347,36 @@
  },
  "manwholefthiswillfilm": {
   "enriched_at": "2026-09-30"
+ },
+ "manwholefthiswillfilm:1970": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hk/v7/qq/qb/3UGpGYNzHioVMuHLrtPy0MghmJ4-1200-1200-675-675-crop-000000.jpg?v=18e1fcf197",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Mystère"
+  ],
+  "genres_en": [
+   "Drama",
+   "Mystery"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Mystère"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0066466",
+  "letterboxd_rating": 3.67,
+  "letterboxd_url": "https://letterboxd.com/film/the-man-who-left-his-will-on-film/",
+  "letterboxd_votes": 4312,
+  "overview": "When a man chases down his stolen movie camera, the thief commits suicide by jumping off a building. But after the police take the camera as evidence, it becomes unclear if there was ever a thief in the first place.",
+  "overview_en": "When a man chases down his stolen movie camera, the thief commits suicide by jumping off a building. But after the police take the camera as evidence, it becomes unclear if there was ever a thief in the first place.",
+  "overview_fr": "When a man chases down his stolen movie camera, the thief commits suicide by jumping off a building. But after the police take the camera as evidence, it becomes unclear if there was ever a thief in the first place.",
+  "poster": "https://media.themoviedb.org/t/p/w500/pPQFw7HojNLJsqL0L53KYS7vpwP.jpg",
+  "runtime": 94,
+  "title_en": "The Man Who Left His Will on Film",
+  "title_fr": "The Man Who Left His Will on Film",
+  "tmdb_id": "104343",
+  "year": 1970
  },
  "mariachapdelaine": {
   "enriched_at": "2026-09-09"
@@ -6383,6 +6536,9 @@
  },
  "parthasard": {
   "enriched_at": "2026-09-28"
+ },
+ "parthasard:2025": {
+  "enriched_at": "2026-09-30"
  },
  "partousmoyens": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/a8/w9/h0/k9/1jANqIbqrWJZb8GM5Kb3L6U8iHi-1200-1200-675-675-crop-000000.jpg?v=93e6be2389",
