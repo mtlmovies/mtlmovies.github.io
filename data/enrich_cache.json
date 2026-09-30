@@ -128,7 +128,10 @@
  },
  "812": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ho/pb/4o/of/8%20half-1200-1200-675-675-crop-000000.jpg?v=b249097cac",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -139,7 +142,7 @@
   "imdb_id": "tt0056801",
   "letterboxd_rating": 4.26,
   "letterboxd_url": "https://letterboxd.com/film/8-half/",
-  "letterboxd_votes": 277239,
+  "letterboxd_votes": 280382,
   "overview": "Guido Anselmi, a film director, finds himself creatively barren at the peak of his career. Urged by his doctors to rest, Anselmi heads for a luxurious resort, but a sorry group gathers—his producer, staff, actors, wife, mistress, and relatives—each one begging him to get on with the show. In retreat from their dependency, he fantasizes about past women and dreams of his childhood.",
   "overview_en": "Guido Anselmi, a film director, finds himself creatively barren at the peak of his career. Urged by his doctors to rest, Anselmi heads for a luxurious resort, but a sorry group gathers—his producer, staff, actors, wife, mistress, and relatives—each one begging him to get on with the show. In retreat from their dependency, he fantasizes about past women and dreams of his childhood.",
   "overview_fr": "Guido Anselmi, a film director, finds himself creatively barren at the peak of his career. Urged by his doctors to rest, Anselmi heads for a luxurious resort, but a sorry group gathers—his producer, staff, actors, wife, mistress, and relatives—each one begging him to get on with the show. In retreat from their dependency, he fantasizes about past women and dreams of his childhood.",
@@ -153,7 +156,10 @@
  },
  "adieumaconcubine:1993": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/gr/an/nn/ns/farewell-my-concubine-1200-1200-675-675-crop-000000.jpg?v=9ffbacfc0a",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -162,9 +168,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt0106332",
-  "letterboxd_rating": 4.4,
+  "letterboxd_rating": 4.41,
   "letterboxd_url": "https://letterboxd.com/film/farewell-my-concubine/",
-  "letterboxd_votes": 81664,
+  "letterboxd_votes": 83261,
   "overview": "In an epic tale of theater, gender, love and class, two Beijing opera actors navigate political turmoil as their friendship evolves over decades.",
   "overview_en": "In an epic tale of theater, gender, love and class, two Beijing opera actors navigate political turmoil as their friendship evolves over decades.",
   "overview_fr": "In an epic tale of theater, gender, love and class, two Beijing opera actors navigate political turmoil as their friendship evolves over decades.",
@@ -177,7 +183,10 @@
  },
  "agathasalmanac": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/7/6/0/tmdb/gE32MBHgTTl7ROg9bWOnD8Mmm1j-1200-1200-675-675-crop-000000.jpg?v=775f0c3249",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
   "genres_en": [
    "Documentary"
   ],
@@ -186,9 +195,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt35932393",
-  "letterboxd_rating": 3.82,
+  "letterboxd_rating": 3.83,
   "letterboxd_url": "https://letterboxd.com/film/agathas-almanac/",
-  "letterboxd_votes": 2083,
+  "letterboxd_votes": 2159,
   "overview": "Defying modernity, 90-year-old Agatha forges a solitary existence on her ancestral farm preserving heirloom seeds.",
   "overview_en": "Defying modernity, 90-year-old Agatha forges a solitary existence on her ancestral farm preserving heirloom seeds.",
   "overview_fr": "Defying modernity, 90-year-old Agatha forges a solitary existence on her ancestral farm preserving heirloom seeds.",
@@ -200,14 +209,19 @@
   "year": 2026
  },
  "akirarerelease": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "akirarereleaseexperience": {
   "enriched_at": "2026-09-09"
  },
  "americanpsycho:2000": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tr/kl/dj/zi/american-psycho-1200-1200-675-675-crop-000000.jpg?v=59e7d630d5",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Thriller",
+   "Drame",
+   "Crime"
+  ],
   "genres_en": [
    "Thriller",
    "Drama",
@@ -222,7 +236,7 @@
   "imdb_id": "tt0144084",
   "letterboxd_rating": 3.75,
   "letterboxd_url": "https://letterboxd.com/film/american-psycho/",
-  "letterboxd_votes": 4144928,
+  "letterboxd_votes": 4202549,
   "overview": "Au cœur des années Reagan, Patrick Bateman est un pur produit de la réussite américaine. Jeune, riche, il est un de ces golden boys qui triomphent à la bourse. Seul le nec plus ultra est digne de lui et il s'emploie à ne retrouver que des symboles qui lui renvoient une image de succès. Il accumule, avec une obsession maladive, les vêtements de luxe, les relations enviables. Son vœu le plus cher est de se fondre dans cette foule, de trouver sa place au milieu de ceux auxquels il s'identifie.",
   "overview_en": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
   "overview_fr": "Au cœur des années Reagan, Patrick Bateman est un pur produit de la réussite américaine. Jeune, riche, il est un de ces golden boys qui triomphent à la bourse. Seul le nec plus ultra est digne de lui et il s'emploie à ne retrouver que des symboles qui lui renvoient une image de succès. Il accumule, avec une obsession maladive, les vêtements de luxe, les relations enviables. Son vœu le plus cher est de se fondre dans cette foule, de trouver sa place au milieu de ceux auxquels il s'identifie.",
@@ -345,9 +359,39 @@
  "animazemontrealinternationalanimationfestival": {
   "enriched_at": "2026-09-19"
  },
+ "anselm:2023": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ik/oy/mp/jk/Anselm-1200-1200-675-675-crop-000000.jpg?v=e3ac76a4f8",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt27502250",
+  "letterboxd_rating": 3.61,
+  "letterboxd_url": "https://letterboxd.com/film/anselm/",
+  "letterboxd_votes": 12208,
+  "overview": "This unique cinematic experience dives deep into an artist’s work and reveals his life path, inspiration, and creative process. It explores his fascination with myth and history. Past and present are interwoven to diffuse the line between film and painting, allowing the audience to be completely immersed in the remarkable world of one of the greatest contemporary artists, Anselm Kiefer. Wim Wenders shot this unique portrait over the course of two years in stunning 3D.",
+  "overview_en": "This unique cinematic experience dives deep into an artist’s work and reveals his life path, inspiration, and creative process. It explores his fascination with myth and history. Past and present are interwoven to diffuse the line between film and painting, allowing the audience to be completely immersed in the remarkable world of one of the greatest contemporary artists, Anselm Kiefer. Wim Wenders shot this unique portrait over the course of two years in stunning 3D.",
+  "overview_fr": "This unique cinematic experience dives deep into an artist’s work and reveals his life path, inspiration, and creative process. It explores his fascination with myth and history. Past and present are interwoven to diffuse the line between film and painting, allowing the audience to be completely immersed in the remarkable world of one of the greatest contemporary artists, Anselm Kiefer. Wim Wenders shot this unique portrait over the course of two years in stunning 3D.",
+  "poster": "https://media.themoviedb.org/t/p/w500/a0k1q1PUsZk9GlKhrRTStm0uhSB.jpg",
+  "runtime": 93,
+  "title_en": "Anselm",
+  "title_fr": "Anselm",
+  "tmdb_id": "1112547",
+  "year": 2023
+ },
  "antigone:2019": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9l/qx/gl/gd/anitgone-1200-1200-675-675-crop-000000.jpg?v=8d84c0c65a",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -358,7 +402,7 @@
   "imdb_id": "tt10260042",
   "letterboxd_rating": 3.47,
   "letterboxd_url": "https://letterboxd.com/film/antigone-2019/",
-  "letterboxd_votes": 6978,
+  "letterboxd_votes": 7050,
   "overview": "En aidant son frère à s’évader de prison, Antigone confronte les autorités: la police, le système judiciaire et pénal ainsi que le père de don ami Hémon. L’adolescente brillante au parcours jusque-là sans tache voit l’étau se resserrer sur elle. Mais à la loi des hommes, elle substitue son propre sens de la justice, dicté par l’amour et la solidarité.",
   "overview_en": "Sophie Deraspe’s adaptation of the classic Greek tragedy of the same name reimagines the story of a woman’s quest for justice as a commentary on the immigrant experience in contemporary Montreal.",
   "overview_fr": "En aidant son frère à s’évader de prison, Antigone confronte les autorités: la police, le système judiciaire et pénal ainsi que le père de don ami Hémon. L’adolescente brillante au parcours jusque-là sans tache voit l’étau se resserrer sur elle. Mais à la loi des hommes, elle substitue son propre sens de la justice, dicté par l’amour et la solidarité.",
@@ -416,11 +460,14 @@
   "year": 1983
  },
  "apocalypsenowfinalcut:1979": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "arbreauxsabots:1978": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0w/lc/fc/qx/the-tree-of-wooden-clogs-1200-1200-675-675-crop-000000.jpg?v=9ab7ba0a70",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -431,7 +478,7 @@
   "imdb_id": "tt0077138",
   "letterboxd_rating": 4.08,
   "letterboxd_url": "https://letterboxd.com/film/the-tree-of-wooden-clogs/",
-  "letterboxd_votes": 9459,
+  "letterboxd_votes": 9559,
   "overview": "On a turn-of-the-20th-century northern Italian farm, a group of sharecroppers eke out a threadbare existence. A priest advises Batisti and his wife Batistina that their young son Minec should be formally educated, so they sacrifice his help in the fields and send him to school. When Minec's wooden shoe breaks one day, Batisti--in an act of desperation--puts the family's future at risk to replace the clog.",
   "overview_en": "On a turn-of-the-20th-century northern Italian farm, a group of sharecroppers eke out a threadbare existence. A priest advises Batisti and his wife Batistina that their young son Minec should be formally educated, so they sacrifice his help in the fields and send him to school. When Minec's wooden shoe breaks one day, Batisti--in an act of desperation--puts the family's future at risk to replace the clog.",
   "overview_fr": "On a turn-of-the-20th-century northern Italian farm, a group of sharecroppers eke out a threadbare existence. A priest advises Batisti and his wife Batistina that their young son Minec should be formally educated, so they sacrifice his help in the fields and send him to school. When Minec's wooden shoe breaks one day, Batisti--in an act of desperation--puts the family's future at risk to replace the clog.",
@@ -611,10 +658,30 @@
  },
  "autre:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/4/7/0/4/1564704-lautre-2026-0-230-0-345-crop.jpg?v=d80a16db3b",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Thriller",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Thriller",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Thriller",
+   "Comédie"
+  ],
+  "i18n_v": 1,
   "imdb_id": "tt43106511",
   "letterboxd_url": "https://letterboxd.com/film/lautre-2026/",
-  "tmdb_id": "",
+  "overview": "Alité suite à un grave cancer, un homme voit sa convalescence vaciller lorsque son jeune voisin de chambre se met à raviver ses peurs les plus profondes.",
+  "overview_en": "Bedridden following a severe cancer, a man sees his recovery falter when his young roommate begins to stir up his deepest fears.",
+  "overview_fr": "Alité suite à un grave cancer, un homme voit sa convalescence vaciller lorsque son jeune voisin de chambre se met à raviver ses peurs les plus profondes.",
+  "poster": "https://media.themoviedb.org/t/p/w500/7zy3GMIvxSzB2sfSLuRhIhEcJ3T.jpg",
+  "runtime": 109,
+  "title_en": "L'Autre",
+  "title_fr": "The Other",
+  "tmdb_id": "1703273",
   "wikidata_id": "Q141005271",
   "year": null
  },
@@ -677,13 +744,43 @@
   "year": 2019
  },
  "avengersendgameexperience": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "avengersphasefinale": {
-  "enriched_at": "2026-09-27"
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/pv/3f/zz/og/avengers-endgame-1200-1200-675-675-crop-000000.jpg?v=55fc50f8fa",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Aventure",
+   "Science-Fiction",
+   "Action"
+  ],
+  "genres_en": [
+   "Adventure",
+   "Science Fiction",
+   "Action"
+  ],
+  "genres_fr": [
+   "Aventure",
+   "Science-Fiction",
+   "Action"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt4154796",
+  "letterboxd_rating": 4.03,
+  "letterboxd_url": "https://letterboxd.com/film/avengers-endgame/",
+  "letterboxd_votes": 4062304,
+  "overview": "Depuis que Thanos a fait disparaître en un seul claquement de doigts la moitié de toute forme de vie, l'univers est en déroute. Les survivants sont en colère, devant faire le deuil de leur existence passée. Le fautif s'est complètement volatilisé dans la nature, obligeant les Avengers à se lancer à ses trousses afin de lui ravir les pierres du Gant de l'infini. Iron Man est en mission dans l'espace, pendant que Captain America, Thor, Hulk et leurs camarades protègent la Terre. Lorsque Captain Marvel débarque pour leur prêter main-forte, le groupe reçoit un signal émanant d'une planète leur indiquant la présence de Thanos...",
+  "overview_en": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+  "overview_fr": "Depuis que Thanos a fait disparaître en un seul claquement de doigts la moitié de toute forme de vie, l'univers est en déroute. Les survivants sont en colère, devant faire le deuil de leur existence passée. Le fautif s'est complètement volatilisé dans la nature, obligeant les Avengers à se lancer à ses trousses afin de lui ravir les pierres du Gant de l'infini. Iron Man est en mission dans l'espace, pendant que Captain America, Thor, Hulk et leurs camarades protègent la Terre. Lorsque Captain Marvel débarque pour leur prêter main-forte, le groupe reçoit un signal émanant d'une planète leur indiquant la présence de Thanos...",
+  "poster": "https://media.themoviedb.org/t/p/w500/wF7jv3x51hXgkl7t5KHePuRjXc8.jpg",
+  "runtime": 181,
+  "title_en": "Avengers: Endgame",
+  "title_fr": "Avengers : Phase finale",
+  "tmdb_id": "299534",
+  "year": 2019
  },
  "avrevedafrique": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "azaadsingh": {
   "enriched_at": "2026-09-22"
@@ -824,10 +921,10 @@
   "year": 1989
  },
  "bataillegaulleliberte:2026": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "bataillegaulleresistance:2026": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "baththa": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/9/2/0/2/1/1392021-baththa-0-230-0-345-crop.jpg?v=e43a0dedb7",
@@ -1160,8 +1257,13 @@
   "year": 2021
  },
  "blackzombie:2026": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/9/6/2/8/3/1496283-black-zombie-0-230-0-345-crop.jpg?v=4cedf49e9a",
-  "enriched_at": "2026-09-09",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/9/6/2/8/3/tmdb/hvL5IBqlNjrFYbDF7XlhW7eeY2f-1200-1200-675-675-crop-000000.jpg?v=109d437472",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire",
+   "Horreur",
+   "Thriller"
+  ],
   "genres_en": [
    "Documentary",
    "Horror",
@@ -1174,9 +1276,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt39368474",
-  "letterboxd_rating": 3.66,
+  "letterboxd_rating": 3.69,
   "letterboxd_url": "https://letterboxd.com/film/black-zombie/",
-  "letterboxd_votes": 555,
+  "letterboxd_votes": 701,
   "overview": "From the flickering screens of Hollywood horror, to the haunted cane fields of colonial Haiti, Black Zombie unearths the buried origins of the zombie, reclaiming it as a symbol of survival and spiritual resistance.",
   "overview_en": "From the flickering screens of Hollywood horror, to the haunted cane fields of colonial Haiti, Black Zombie unearths the buried origins of the zombie, reclaiming it as a symbol of survival and spiritual resistance.",
   "overview_fr": "From the flickering screens of Hollywood horror, to the haunted cane fields of colonial Haiti, Black Zombie unearths the buried origins of the zombie, reclaiming it as a symbol of survival and spiritual resistance.",
@@ -1189,7 +1291,12 @@
  },
  "blowout:1981": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wn/ia/3s/a3/blow-out-1200-1200-675-675-crop-000000.jpg?v=d5f4e4bff2",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Crime",
+   "Mystère",
+   "Thriller"
+  ],
   "genres_en": [
    "Crime",
    "Mystery",
@@ -1204,7 +1311,7 @@
   "imdb_id": "tt0082085",
   "letterboxd_rating": 4.1,
   "letterboxd_url": "https://letterboxd.com/film/blow-out/",
-  "letterboxd_votes": 311163,
+  "letterboxd_votes": 319295,
   "overview": "Alors qu'il enregistre les bruits nocturnes de la nature dans une campagne isolée, un ingénieur du son est témoin d'un accident d'automobile. Mais il va peu à peu s'apercevoir que cet évènement cache en fait une autre réalité...",
   "overview_en": "While recording sound effects for a slasher flick, Jack Terry stumbles upon a real-life horror: a car careening off a bridge and into a river. Jack jumps into the water and fishes out Sally from the car, but the other passenger is already dead — a governor intending to run for president. As Jack does some investigating of his tapes, and starts a perilous romance with Sally, he enters a tangled web of conspiracy that might leave him dead.",
   "overview_fr": "Alors qu'il enregistre les bruits nocturnes de la nature dans une campagne isolée, un ingénieur du son est témoin d'un accident d'automobile. Mais il va peu à peu s'apercevoir que cet évènement cache en fait une autre réalité...",
@@ -1266,22 +1373,30 @@
  },
  "bouchra:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/iu/nc/r9/u2/uhmjRW26fBJu80H8cA29xM4X8wC-1200-1200-675-675-crop-000000.jpg?v=99a1571251",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Animation",
+   "Drame",
+   "Comédie",
+   "Documentaire"
+  ],
   "genres_en": [
    "Animation",
    "Drama",
-   "Comedy"
+   "Comedy",
+   "Documentary"
   ],
   "genres_fr": [
    "Animation",
    "Drame",
-   "Comédie"
+   "Comédie",
+   "Documentaire"
   ],
   "i18n_v": 1,
   "imdb_id": "tt36543744",
   "letterboxd_rating": 3.82,
   "letterboxd_url": "https://letterboxd.com/film/bouchra/",
-  "letterboxd_votes": 5921,
+  "letterboxd_votes": 7752,
   "overview": "Wrestling with writer’s block for her first film, Bouchra, a queer Moroccan jackal living in NYC, starts having difficult yet overdue phone calls with her mother in Casablanca that begin influencing the project. Balancing the precarity of working as an artist, the rift in her cultural identity and an array of romantic interests, Bouchra’s emotional reckoning becomes her path to expression.",
   "overview_en": "Wrestling with writer’s block for her first film, Bouchra, a queer Moroccan jackal living in NYC, starts having difficult yet overdue phone calls with her mother in Casablanca that begin influencing the project. Balancing the precarity of working as an artist, the rift in her cultural identity and an array of romantic interests, Bouchra’s emotional reckoning becomes her path to expression.",
   "overview_fr": "Wrestling with writer’s block for her first film, Bouchra, a queer Moroccan jackal living in NYC, starts having difficult yet overdue phone calls with her mother in Casablanca that begin influencing the project. Balancing the precarity of working as an artist, the rift in her cultural identity and an array of romantic interests, Bouchra’s emotional reckoning becomes her path to expression.",
@@ -1389,7 +1504,11 @@
  },
  "bridgesmadisoncounty:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/5z/hx/37/14/bridges-1200-1200-675-675-crop-000000.jpg?v=a6157228df",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Romance"
+  ],
   "genres_en": [
    "Drama",
    "Romance"
@@ -1402,7 +1521,7 @@
   "imdb_id": "tt0112579",
   "letterboxd_rating": 4.1,
   "letterboxd_url": "https://letterboxd.com/film/the-bridges-of-madison-county/",
-  "letterboxd_votes": 137392,
+  "letterboxd_votes": 139542,
   "overview": "À la mort de leur mère, Michael Johnson et sa sœur Caroline se retrouvent dans la ferme où ils ont passé leur enfance, dans l'Iowa. Ils apprennent avec consternation que la défunte, Francesca, a demandé que ses cendres soient répandues du haut du pont de Roseman. Une bizarrerie que la lecture du journal intime de Francesca va expliquer. Jadis, au cours de l'été 1965, alors que son mari et ses deux enfants s'absentent pour quelques jours, Francesca voit arriver une camionnette bringuebalante. Robert Kincaid, un photographe sexagénaire, en descend et lui demande le chemin du pont de Roseman. Plutôt que de le lui expliquer, Francesca décide de lui montrer le chemin...",
   "overview_en": "Photographer Robert Kincaid wanders into the life of housewife Francesca Johnson for four days in the 1960s.",
   "overview_fr": "À la mort de leur mère, Michael Johnson et sa sœur Caroline se retrouvent dans la ferme où ils ont passé leur enfance, dans l'Iowa. Ils apprennent avec consternation que la défunte, Francesca, a demandé que ses cendres soient répandues du haut du pont de Roseman. Une bizarrerie que la lecture du journal intime de Francesca va expliquer. Jadis, au cours de l'été 1965, alors que son mari et ses deux enfants s'absentent pour quelques jours, Francesca voit arriver une camionnette bringuebalante. Robert Kincaid, un photographe sexagénaire, en descend et lui demande le chemin du pont de Roseman. Plutôt que de le lui expliquer, Francesca décide de lui montrer le chemin...",
@@ -1592,7 +1711,11 @@
  },
  "carrie:1976": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/oy/wp/1g/b5/carrie-1200-1200-675-675-crop-000000.jpg?v=358988d90c",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Thriller"
+  ],
   "genres_en": [
    "Horror",
    "Thriller"
@@ -1605,7 +1728,7 @@
   "imdb_id": "tt0074285",
   "letterboxd_rating": 3.85,
   "letterboxd_url": "https://letterboxd.com/film/carrie-1976/",
-  "letterboxd_votes": 946518,
+  "letterboxd_votes": 964854,
   "overview": "Withdrawn and sensitive teenager Carrie White faces bullying from her classmates and abuse from her fanatically pious mother. When she begins to suspect that she has supernatural powers, things take a dark and violent turn.",
   "overview_en": "Withdrawn and sensitive teenager Carrie White faces bullying from her classmates and abuse from her fanatically pious mother. When she begins to suspect that she has supernatural powers, things take a dark and violent turn.",
   "overview_fr": "Withdrawn and sensitive teenager Carrie White faces bullying from her classmates and abuse from her fanatically pious mother. When she begins to suspect that she has supernatural powers, things take a dark and violent turn.",
@@ -1771,7 +1894,10 @@
  },
  "chersparents": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/5/6/3/3/6/1256336-chers-parents-2026-0-230-0-345-crop.jpg?v=1f828f4cc0",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie"
+  ],
   "genres_en": [
    "Comedy"
   ],
@@ -1780,9 +1906,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt35405429",
-  "letterboxd_rating": 2.84,
+  "letterboxd_rating": 2.82,
   "letterboxd_url": "https://letterboxd.com/film/chers-parents-2026/",
-  "letterboxd_votes": 3468,
+  "letterboxd_votes": 3596,
   "overview": "A trio of siblings faces turmoil when their parents reveal they've won the lottery but refuse to share a cent, unraveling buried secrets, unspoken tensions, and deep-seated jealousy that shake the family to its core.",
   "overview_en": "A trio of siblings faces turmoil when their parents reveal they've won the lottery but refuse to share a cent, unraveling buried secrets, unspoken tensions, and deep-seated jealousy that shake the family to its core.",
   "overview_fr": "A trio of siblings faces turmoil when their parents reveal they've won the lottery but refuse to share a cent, unraveling buried secrets, unspoken tensions, and deep-seated jealousy that shake the family to its core.",
@@ -1795,7 +1921,10 @@
  },
  "chiengarde:2018": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dk/ap/ci/av/bgxzgCkaJzQW3FxH8RtT9DWHboe-1200-1200-675-675-crop-000000.jpg?v=cbc905d390",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -1806,7 +1935,7 @@
   "imdb_id": "tt8042452",
   "letterboxd_rating": 3.43,
   "letterboxd_url": "https://letterboxd.com/film/family-first/",
-  "letterboxd_votes": 1522,
+  "letterboxd_votes": 1551,
   "overview": "JP vit avec son frère Vincent, sa mère Joe et sa copine Mel dans un petit appartement de Verdun. Constamment sur la corde raide, JP tente de conserver un équilibre entre les nombreux besoins de sa famille de qui il se sent responsable, son travail de collecteur qu'il fait avec son frère et ses fonctions dans le petit cartel de drogue de son oncle Dany qu'il considère comme un père.",
   "overview_en": "JP lives with his brother Vincent, his mother Joe and his girlfriend Mel in a small appartement of Verdun. Constantly walking a tightrope, JP tries to maintain a proper balance between the numerous needs of his family of which he feels responsible for, the collecting job he is doing with his brother and his involvements in his uncle’s drug cartel who he sees as a father figure.",
   "overview_fr": "JP vit avec son frère Vincent, sa mère Joe et sa copine Mel dans un petit appartement de Verdun. Constamment sur la corde raide, JP tente de conserver un équilibre entre les nombreux besoins de sa famille de qui il se sent responsable, son travail de collecteur qu'il fait avec son frère et ses fonctions dans le petit cartel de drogue de son oncle Dany qu'il considère comme un père.",
@@ -1902,7 +2031,11 @@
  },
  "cinemaparadisostaffpicks:1988": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1i/b1/z6/5u/cinema-paradiso-1200-1200-675-675-crop-000000.jpg?v=8efaca6418",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Romance"
+  ],
   "genres_en": [
    "Drama",
    "Romance"
@@ -1913,9 +2046,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt0095765",
-  "letterboxd_rating": 4.51,
+  "letterboxd_rating": 4.52,
   "letterboxd_url": "https://letterboxd.com/film/cinema-paradiso/",
-  "letterboxd_votes": 550026,
+  "letterboxd_votes": 559855,
   "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
   "overview_en": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
   "overview_fr": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
@@ -1925,6 +2058,39 @@
   "title_fr": "Cinema Paradiso",
   "tmdb_id": "11216",
   "year": 1988
+ },
+ "civildead": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hz/es/kf/fg/civil%20dead-1200-1200-675-675-crop-000000.jpg?v=f6f44b14f6",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie",
+   "Fantastique",
+   "Drame"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Fantasy",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Fantastique",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt16402818",
+  "letterboxd_rating": 3.62,
+  "letterboxd_url": "https://letterboxd.com/film/the-civil-dead/",
+  "letterboxd_votes": 4649,
+  "overview": "A misanthropic, struggling photographer just wants to watch TV and eat candy while his wife is out of town, but when a desperate old pal resurfaces, his plans are thwarted, with spooky consequences.",
+  "overview_en": "A misanthropic, struggling photographer just wants to watch TV and eat candy while his wife is out of town, but when a desperate old pal resurfaces, his plans are thwarted, with spooky consequences.",
+  "overview_fr": "A misanthropic, struggling photographer just wants to watch TV and eat candy while his wife is out of town, but when a desperate old pal resurfaces, his plans are thwarted, with spooky consequences.",
+  "poster": "https://media.themoviedb.org/t/p/w500/lSSxkgPwUg1aPYSlvbIJ9Cmi9B2.jpg",
+  "runtime": 104,
+  "title_en": "The Civil Dead",
+  "title_fr": "The Civil Dead",
+  "tmdb_id": "913417",
+  "year": 2023
  },
  "clowngaza:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/0/5/3/9/1440539-the-clown-of-gaza-0-230-0-345-crop.jpg?v=cc702400bf",
@@ -1991,7 +2157,11 @@
  },
  "colorpomegranatesstaffpicks:1969": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kq/7d/as/nu/the-color-of-pomegranates-1200-1200-675-675-crop-000000.jpg?v=aa00f006dc",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Histoire"
+  ],
   "genres_en": [
    "Drama",
    "History"
@@ -2004,7 +2174,7 @@
   "imdb_id": "tt0063555",
   "letterboxd_rating": 4.11,
   "letterboxd_url": "https://letterboxd.com/film/the-color-of-pomegranates/",
-  "letterboxd_votes": 108982,
+  "letterboxd_votes": 110695,
   "overview": "The life of the revered 18th-century Armenian poet and musician Sayat-Nova. Portraying events in the life of the artist from childhood up to his death, the movie addresses in particular his relationships with women, including his muse. The production tells Sayat-Nova's dramatic story by using both his poems and largely still camerawork, creating a work hailed as revolutionary by Mikhail Vartanov.",
   "overview_en": "The life of the revered 18th-century Armenian poet and musician Sayat-Nova. Portraying events in the life of the artist from childhood up to his death, the movie addresses in particular his relationships with women, including his muse. The production tells Sayat-Nova's dramatic story by using both his poems and largely still camerawork, creating a work hailed as revolutionary by Mikhail Vartanov.",
   "overview_fr": "The life of the revered 18th-century Armenian poet and musician Sayat-Nova. Portraying events in the life of the artist from childhood up to his death, the movie addresses in particular his relationships with women, including his muse. The production tells Sayat-Nova's dramatic story by using both his poems and largely still camerawork, creating a work hailed as revolutionary by Mikhail Vartanov.",
@@ -2017,7 +2187,11 @@
  },
  "compostelle:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/8/7/7/0/1/tmdb/lW9uSLT4t7trf1rG0nnOj14AoXT-1200-1200-675-675-crop-000000.jpg?v=f2a20dc11a",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Comédie"
+  ],
   "genres_en": [
    "Drama",
    "Comedy"
@@ -2028,9 +2202,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt39814688",
-  "letterboxd_rating": 3.38,
+  "letterboxd_rating": 3.4,
   "letterboxd_url": "https://letterboxd.com/film/compostelle/",
-  "letterboxd_votes": 6522,
+  "letterboxd_votes": 7429,
   "overview": "Fred and Adam have nothing in common. Yet, they will meet while walking the Way of St. James as a form of spiritual path.",
   "overview_en": "Fred and Adam have nothing in common. Yet, they will meet while walking the Way of St. James as a form of spiritual path.",
   "overview_fr": "Fred and Adam have nothing in common. Yet, they will meet while walking the Way of St. James as a form of spiritual path.",
@@ -2129,20 +2303,25 @@
   "year": 2026
  },
  "cosifantutte": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "cosifantutteitalianwestmetropolitanopera": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "cosifantutteitalienavecstfrmetropolitanopera": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "coursterrycours": {
   "enriched_at": "2026-09-29"
  },
  "coyotevsacme": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ci/qq/vp/cm/coyote-1200-1200-675-675-crop-000000.jpg?v=e21dafdd5b",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie",
+   "Aventure",
+   "Familial"
+  ],
   "genres_en": [
    "Comedy",
    "Adventure",
@@ -2155,13 +2334,13 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt1756855",
-  "letterboxd_rating": 3.86,
+  "letterboxd_rating": 3.84,
   "letterboxd_url": "https://letterboxd.com/film/coyote-vs-acme/",
-  "letterboxd_votes": 315743,
+  "letterboxd_votes": 545714,
   "overview": "Après des décennies à être réduit en miettes par des bombes, pulvérisé à la dynamite, déchiqueté par des aimants, assommé par des rochers, écrasé par des trains, piégé par des tunnels, projeté par des ressorts, aplati par des rouleaux compresseurs, trahi par des ratés mécaniques, malmené par des élastiques, secoué par des fusées, poignardé dans le dos par des costumes de chauve-souris, catapulté par des patins-fusées, renversé par des monocycles, ébranlé par des pilules sismiques, recouvert de caoutchouc par des groupes ennemis, et précipité tête première du haut de toutes les falaises du Sud-Ouest, Wile, Wile E. Coyote (Genius) contre-attaque enfin. Faisant équipe avec l’avocat-vedette des panneaux publicitaires spécialisé dans les accidents Kevin Avery (Will Forte), il s’attaque à l’avocat d’affaires rusé Buddy Crane (John Cena) et à ACME, Inc., le conglomérat obsédé par le profit étant à l’origine de chacune des catastrophes chaotiques du Coyote.",
   "overview_en": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
   "overview_fr": "Après des décennies à être réduit en miettes par des bombes, pulvérisé à la dynamite, déchiqueté par des aimants, assommé par des rochers, écrasé par des trains, piégé par des tunnels, projeté par des ressorts, aplati par des rouleaux compresseurs, trahi par des ratés mécaniques, malmené par des élastiques, secoué par des fusées, poignardé dans le dos par des costumes de chauve-souris, catapulté par des patins-fusées, renversé par des monocycles, ébranlé par des pilules sismiques, recouvert de caoutchouc par des groupes ennemis, et précipité tête première du haut de toutes les falaises du Sud-Ouest, Wile, Wile E. Coyote (Genius) contre-attaque enfin. Faisant équipe avec l’avocat-vedette des panneaux publicitaires spécialisé dans les accidents Kevin Avery (Will Forte), il s’attaque à l’avocat d’affaires rusé Buddy Crane (John Cena) et à ACME, Inc., le conglomérat obsédé par le profit étant à l’origine de chacune des catastrophes chaotiques du Coyote.",
-  "poster": "https://media.themoviedb.org/t/p/w500/1iV9DQw0ZEIiWqs0Uswh4hFD6ij.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/fXft7uRhD2brlfafrlIp1fQwxZR.jpg",
   "runtime": 103,
   "title_en": "Coyote vs. Acme",
   "title_fr": "Coyote vs. Acme",
@@ -2208,7 +2387,7 @@
   "enriched_at": "2026-09-21"
  },
  "danemarkilesferoeroyaumebonheur": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "danielfieryfurnace": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/7/5/2/0/6/1575206-daniel-the-fiery-furnace-0-230-0-345-crop.jpg?v=24df664011",
@@ -2302,7 +2481,29 @@
   "year": 1968
  },
  "derenmenkenschneemann": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
+ },
+ "derniersouffleaucurhoteldieumontreal:2017": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/2/2/8/5/7/422857-le-dernier-souffle-au-cur-de-l-hotel-dieu-de-montreal-0-230-0-345-crop.jpg?v=47fea949cf",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/le-dernier-souffle-au-cur-de-lhotel-dieu-de-montreal/",
+  "overview": "Fondé par Jeanne Mance en 1642 en même temps que la ville, l’Hôtel-Dieu de Montréal est sur le point de disparaître, pour être remplacé par le nouveau CHUM. Pourtant, peu de gens connaissent cet hôpital.",
+  "overview_fr": "Fondé par Jeanne Mance en 1642 en même temps que la ville, l’Hôtel-Dieu de Montréal est sur le point de disparaître, pour être remplacé par le nouveau CHUM. Pourtant, peu de gens connaissent cet hôpital.",
+  "poster": "https://media.themoviedb.org/t/p/w500/3MjaUSNJxwD0yyNe83mfacNovQo.jpg",
+  "title_en": "Le dernier souffle, au cœur de l'Hôtel-Dieu de Montréal",
+  "title_fr": "Le dernier souffle, au cœur de l'Hôtel-Dieu de Montréal",
+  "tmdb_id": "492383",
+  "year": 2017
  },
  "diaryshinjukuthief": {
   "enriched_at": "2026-09-24"
@@ -2393,37 +2594,19 @@
   "enriched_at": "2026-09-28"
  },
  "djeddi:2026": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "dogstars": {
-  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mg/jf/b5/t1/dog%20stars-1200-1200-675-675-crop-000000.jpg?v=07cdea3a26",
-  "enriched_at": "2026-09-09",
-  "genres_en": [
-   "Science Fiction",
-   "Thriller"
-  ],
-  "genres_fr": [
-   "Science-Fiction",
-   "Thriller"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt21285562",
-  "letterboxd_rating": 2.84,
-  "letterboxd_url": "https://letterboxd.com/film/the-dog-stars/",
-  "letterboxd_votes": 126450,
-  "overview": "Après qu'une pandémie a ravagé la population mondiale, un homme mène une existence solitaire dans un hangar d'aviation du Colorado, accompagné de son chien et d'un tireur austère avec lequel il s'est lié d'amitié. Lorsqu'une mystérieuse transmission est captée à la radio pendant qu'il pilote son vieux Cessna, il se lance à la recherche de l'origine du signal.",
-  "overview_en": "After the world's population has been ravaged by a pandemic, a man lives a lonesome existence in a Colorado airplane hangar with his dog and a dour gunman he has befriended. When a mysterious transmission comes through on the radio while he’s flying his old Cessna, it sparks a hunt for the provenance of the sound.",
-  "overview_fr": "Après qu'une pandémie a ravagé la population mondiale, un homme mène une existence solitaire dans un hangar d'aviation du Colorado, accompagné de son chien et d'un tireur austère avec lequel il s'est lié d'amitié. Lorsqu'une mystérieuse transmission est captée à la radio pendant qu'il pilote son vieux Cessna, il se lance à la recherche de l'origine du signal.",
-  "poster": "https://media.themoviedb.org/t/p/w500/qNGNTIiEfDerfJEvdHSHyNxrruU.jpg",
-  "runtime": 119,
-  "title_en": "The Dog Stars",
-  "title_fr": "La constellation du chien",
-  "tmdb_id": "1384216",
-  "year": 2026
+  "enriched_at": "2026-09-30"
  },
  "dogville:2003": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/it/u4/om/y6/dogville-1200-1200-675-675-crop-000000.jpg?v=a288ff4968",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Crime",
+   "Drame",
+   "Thriller"
+  ],
   "genres_en": [
    "Crime",
    "Drama",
@@ -2438,7 +2621,7 @@
   "imdb_id": "tt0276919",
   "letterboxd_rating": 4.18,
   "letterboxd_url": "https://letterboxd.com/film/dogville/",
-  "letterboxd_votes": 218853,
+  "letterboxd_votes": 222047,
   "overview": "Dans les années trente, des coups de feu retentissent un soir dans Dogville, une petite ville des Rocheuses. Grace, une belle femme terrifiée, monte en courant un chemin de montagne où elle fait la rencontre de Tom, un jeune habitant de la bourgade. Elle lui explique qu'elle est traquée par des gangsters et que sa vie est en danger. Encouragée par Tom, la population locale consent à la cacher, en échange de quoi Grace accepte de travailler pour elle. Lorsqu'un avis de recherche est lancé contre la jeune femme, les habitants de Dogville s'estiment en droit d'exiger une compensation, vu le risque qu'ils courent à l'abriter. Mais la pauvre Grace garde en elle un secret fatal qui leur fera regretter leur geste…",
   "overview_en": "A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town, she learns that their support has a price.",
   "overview_fr": "Dans les années trente, des coups de feu retentissent un soir dans Dogville, une petite ville des Rocheuses. Grace, une belle femme terrifiée, monte en courant un chemin de montagne où elle fait la rencontre de Tom, un jeune habitant de la bourgade. Elle lui explique qu'elle est traquée par des gangsters et que sa vie est en danger. Encouragée par Tom, la population locale consent à la cacher, en échange de quoi Grace accepte de travailler pour elle. Lorsqu'un avis de recherche est lancé contre la jeune femme, les habitants de Dogville s'estiment en droit d'exiger une compensation, vu le risque qu'ils courent à l'abriter. Mais la pauvre Grace garde en elle un secret fatal qui leur fera regretter leur geste…",
@@ -2508,7 +2691,12 @@
  },
  "douniaprincessedalep:2023": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/7/3/7/1/3/873713-dounia-and-the-princess-of-aleppo-0-230-0-345-crop.jpg?v=fccc63994b",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Animation",
+   "Familial",
+   "Aventure"
+  ],
   "genres_en": [
    "Animation",
    "Family",
@@ -2521,9 +2709,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt23327624",
-  "letterboxd_rating": 3.63,
+  "letterboxd_rating": 3.64,
   "letterboxd_url": "https://letterboxd.com/film/dounia-and-the-princess-of-aleppo/",
-  "letterboxd_votes": 1046,
+  "letterboxd_votes": 1059,
   "overview": "Forced to leave Syria because of the war, Dounia and her grandparents go in search of a new safe haven. As she traverses the world in search of asylum, Dounia draws strength from the wisdom of the ancient world, brought to light by her grandmother's magic nigella seeds.",
   "overview_en": "Forced to leave Syria because of the war, Dounia and her grandparents go in search of a new safe haven. As she traverses the world in search of asylum, Dounia draws strength from the wisdom of the ancient world, brought to light by her grandmother's magic nigella seeds.",
   "overview_fr": "Forced to leave Syria because of the war, Dounia and her grandparents go in search of a new safe haven. As she traverses the world in search of asylum, Dounia draws strength from the wisdom of the ancient world, brought to light by her grandmother's magic nigella seeds.",
@@ -2533,6 +2721,9 @@
   "title_fr": "Dounia et la Princesse d'Alep",
   "tmdb_id": "970867",
   "year": 2023
+ },
+ "drishyamconclusion": {
+  "enriched_at": "2026-09-30"
  },
  "educationaumaobama": {
   "enriched_at": "2026-09-09"
@@ -2579,7 +2770,7 @@
   "year": 2009
  },
  "empirepassion": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "enavantmusique:1982": {
   "enriched_at": "2026-09-24"
@@ -2657,7 +2848,10 @@
  },
  "espwa:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/2/2/0/0/2/1622002-espwa-haiti-against-all-odds-0-230-0-345-crop.jpg?v=792051dbec",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
   "genres_en": [
    "Documentary"
   ],
@@ -2853,6 +3047,9 @@
   "tmdb_id": "1341138",
   "year": 2026
  },
+ "finterres": {
+  "enriched_at": "2026-09-30"
+ },
  "fistfuldollars:1964": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ck/af/in/xb/a-fistfull-of-dollars-1200-1200-675-675-crop-000000.jpg?v=5b2cca9778",
   "enriched_at": "2026-09-09",
@@ -2881,7 +3078,43 @@
   "enriched_at": "2026-09-28"
  },
  "florilegeii": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
+ },
+ "flow:2024": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xl/29/a9/xh/Flow-1200-1200-675-675-crop-000000.jpg?v=9f04435233",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Aventure",
+   "Animation",
+   "Familial",
+   "Fantastique"
+  ],
+  "genres_en": [
+   "Adventure",
+   "Animation",
+   "Family",
+   "Fantasy"
+  ],
+  "genres_fr": [
+   "Aventure",
+   "Animation",
+   "Familial",
+   "Fantastique"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt4772188",
+  "letterboxd_rating": 4.1,
+  "letterboxd_url": "https://letterboxd.com/film/flow-2024/",
+  "letterboxd_votes": 1116601,
+  "overview": "Leur habitat ayant été englouti, un chat et ses amis de différentes espèces vivent des aventures périlleuses à bord d’un vieux voilier.",
+  "overview_en": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+  "overview_fr": "Leur habitat ayant été englouti, un chat et ses amis de différentes espèces vivent des aventures périlleuses à bord d’un vieux voilier.",
+  "poster": "https://media.themoviedb.org/t/p/w500/zeinX0xt78GgtpCQjx7d2S6Gh7g.jpg",
+  "runtime": 85,
+  "title_en": "Flow",
+  "title_fr": "Flow, le chat qui n'avait plus peur de l'eau",
+  "tmdb_id": "823219",
+  "year": 2024
  },
  "fnc": {
   "enriched_at": "2026-09-29"
@@ -3001,7 +3234,11 @@
  },
  "gabrielle:2013": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/lh/rv/5j/zo/qbGeHj0oMMoKCHdXPLM5Xi45uwb-1200-1200-675-675-crop-000000.jpg?v=2be566d003",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Romance"
+  ],
   "genres_en": [
    "Drama",
    "Romance"
@@ -3012,9 +3249,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt3106846",
-  "letterboxd_rating": 3.41,
+  "letterboxd_rating": 3.42,
   "letterboxd_url": "https://letterboxd.com/film/gabrielle-2013-4/",
-  "letterboxd_votes": 1052,
+  "letterboxd_votes": 1069,
   "overview": "Une jeune femme atteinte d’un handicap intellectuel réclame son indépendance après que son amoureux, présentant lui aussi une déficience, eut reçu de sa mère l’interdiction de la fréquenter.",
   "overview_en": "Gabrielle is a young woman with Williams syndrome who has a contagious joie de vivre and an exceptional musical gift. Since she met her boyfriend Martin, at the recreation centre where they are choir members, they have been inseparable. However, because they are \"different,\" their loved ones are fearful of their relationship. As the choir prepare for an important music festival, Gabrielle does everything she can to gain her independence. As determined as she is, Gabrielle must still confront other people's prejudices as well as her own limitations in the hope of experiencing a love far from the \"ordinary\".",
   "overview_fr": "Une jeune femme atteinte d’un handicap intellectuel réclame son indépendance après que son amoureux, présentant lui aussi une déficience, eut reçu de sa mère l’interdiction de la fréquenter.",
@@ -3070,7 +3307,7 @@
   "year": 2026
  },
  "ghostbusters": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "ghostshell30th": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/k2/5y/em/z6/ghost-in-the-shell-1200-1200-675-675-crop-000000.jpg?v=99a1bf740b",
@@ -3104,11 +3341,14 @@
   "enriched_at": "2026-09-21"
  },
  "ginochouinardauxilesguadeloupe": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "goodbadugly60th:1966": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/07/zz/2k/vy/the-good-the-bad-and-the-ugly-1200-1200-675-675-crop-000000.jpg?v=6fdc9111b0",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Western"
+  ],
   "genres_en": [
    "Western"
   ],
@@ -3119,7 +3359,7 @@
   "imdb_id": "tt0060196",
   "letterboxd_rating": 4.51,
   "letterboxd_url": "https://letterboxd.com/film/the-good-the-bad-and-the-ugly/",
-  "letterboxd_votes": 818686,
+  "letterboxd_votes": 829702,
   "overview": "Pendant la Guerre de Sécession, Tuco et Joe se lancent à la recherche d'un coffre contenant 200 000 dollars en pièces d'or volés à l'armée sudiste. Ayant des indices complémentaires sur la cache, chacun a besoin de l'autre. Mais un troisième homme entre dans la course : Sentenza, un tueur qui ne recule devant rien pour parvenir à ses fins.",
   "overview_en": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
   "overview_fr": "Pendant la Guerre de Sécession, Tuco et Joe se lancent à la recherche d'un coffre contenant 200 000 dollars en pièces d'or volés à l'armée sudiste. Ayant des indices complémentaires sur la cache, chacun a besoin de l'autre. Mais un troisième homme entre dans la course : Sentenza, un tueur qui ne recule devant rien pour parvenir à ses fins.",
@@ -3228,6 +3468,9 @@
   "title_fr": "The Leopard",
   "tmdb_id": "1040",
   "year": 1963
+ },
+ "guillermodeltorospanslabyrinth20th": {
+  "enriched_at": "2026-09-30"
  },
  "haiwaan": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/5/2/6/9/6/1352696-haiwaan-2026-0-230-0-345-crop.jpg?v=feaa7b4850",
@@ -3351,7 +3594,10 @@
  },
  "hemela:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/1/1/6/9/1/1411691-hemela-0-230-0-345-crop.jpg?v=42556675ca",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
   "genres_en": [
    "Documentary"
   ],
@@ -3521,7 +3767,12 @@
  },
  "hope:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/5/4/6/6/3/tmdb/qv2gffpbllYE1Pxz5nhYQmYuht5-1200-1200-675-675-crop-000000.jpg?v=c62374719c",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Science-Fiction",
+   "Mystère",
+   "Action"
+  ],
   "genres_en": [
    "Science Fiction",
    "Mystery",
@@ -3534,13 +3785,13 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt27369017",
-  "letterboxd_rating": 3.33,
+  "letterboxd_rating": 3.21,
   "letterboxd_url": "https://letterboxd.com/film/hope-2026/",
-  "letterboxd_votes": 15002,
+  "letterboxd_votes": 119098,
   "overview": "In the remote South Korean village of Hope Harbor, police chief Bum-seok and officer Sung-ae are called to investigate a mysterious creature wreaking havoc on the community. But all is not as it seems, and perceptions can be misleading. What begins as ignorance plants the seed of disaster, escalating through human conflict into a tragedy of cosmic proportions.",
   "overview_en": "In the remote South Korean village of Hope Harbor, police chief Bum-seok and officer Sung-ae are called to investigate a mysterious creature wreaking havoc on the community. But all is not as it seems, and perceptions can be misleading. What begins as ignorance plants the seed of disaster, escalating through human conflict into a tragedy of cosmic proportions.",
   "overview_fr": "In the remote South Korean village of Hope Harbor, police chief Bum-seok and officer Sung-ae are called to investigate a mysterious creature wreaking havoc on the community. But all is not as it seems, and perceptions can be misleading. What begins as ignorance plants the seed of disaster, escalating through human conflict into a tragedy of cosmic proportions.",
-  "poster": "https://media.themoviedb.org/t/p/w500/bcK5naYzzfY0JBCgrPrsrbV6NO1.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/9iKkTo2N0mupXei7Z5ZBs1pziYJ.jpg",
   "runtime": 157,
   "title_en": "Hope",
   "title_fr": "Hope",
@@ -3549,7 +3800,12 @@
  },
  "house:1977": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/or/gm/iv/cm/5040XNTvwARvLq1KtfCgJXBj3LC-1200-1200-675-675-crop-000000.jpg?v=111eee7888",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie",
+   "Fantastique",
+   "Horreur"
+  ],
   "genres_en": [
    "Comedy",
    "Fantasy",
@@ -3562,9 +3818,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt0076162",
-  "letterboxd_rating": 3.99,
+  "letterboxd_rating": 3.98,
   "letterboxd_url": "https://letterboxd.com/film/house/",
-  "letterboxd_votes": 378668,
+  "letterboxd_votes": 383806,
   "overview": "Hoping to find a sense of connection to her late mother, Gorgeous takes a trip with her friends to visit her aunt's ancestral house in the countryside. The girls soon discover that there is more to the old house than meets the eye.",
   "overview_en": "Hoping to find a sense of connection to her late mother, Gorgeous takes a trip with her friends to visit her aunt's ancestral house in the countryside. The girls soon discover that there is more to the old house than meets the eye.",
   "overview_fr": "Hoping to find a sense of connection to her late mother, Gorgeous takes a trip with her friends to visit her aunt's ancestral house in the countryside. The girls soon discover that there is more to the old house than meets the eye.",
@@ -3682,7 +3938,12 @@
  },
  "incendies:2010": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xc/7a/mq/v8/incendies-1200-1200-675-675-crop-000000.jpg?v=916978c613",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Guerre",
+   "Mystère"
+  ],
   "genres_en": [
    "Drama",
    "War",
@@ -3697,7 +3958,7 @@
   "imdb_id": "tt1255953",
   "letterboxd_rating": 4.45,
   "letterboxd_url": "https://letterboxd.com/film/incendies/",
-  "letterboxd_votes": 659621,
+  "letterboxd_votes": 675013,
   "overview": "À la lecture du testament de leur mère, Jeanne et Simon Marwan se voient remettre deux enveloppes : l’une destinée à un père qu’ils croyaient mort et l‘autre à un frère dont ils ignoraient l’existence. Jeanne voit dans cet énigmatique legs la clé du silence de sa mère, enfermée dans un mutisme inexpliqué les dernières semaines précédant sa mort. Elle décide immédiatement de partir au Moyen Orient exhumer le passé de cette famille dont elle ne sait presque rien… Simon, lui, n’a que faire des caprices posthumes de cette mère qui s’est toujours montrée distante. Mais son amour pour sa sœur jumelle le poussera bientôt à rejoindre Jeanne et à sillonner avec elle le pays de leurs ancêtres sur la piste d’une mère bien loin de celle qu’ils ont connue.",
   "overview_en": "A mother's last wishes send twins Jeanne and Simon on a journey to Middle East in search of their tangled roots. Adapted from Wajdi Mouawad's acclaimed play, Incendies tells the powerful and moving tale of two young adults' voyage to the core of deep-rooted hatred, never-ending wars and enduring love.",
   "overview_fr": "À la lecture du testament de leur mère, Jeanne et Simon Marwan se voient remettre deux enveloppes : l’une destinée à un père qu’ils croyaient mort et l‘autre à un frère dont ils ignoraient l’existence. Jeanne voit dans cet énigmatique legs la clé du silence de sa mère, enfermée dans un mutisme inexpliqué les dernières semaines précédant sa mort. Elle décide immédiatement de partir au Moyen Orient exhumer le passé de cette famille dont elle ne sait presque rien… Simon, lui, n’a que faire des caprices posthumes de cette mère qui s’est toujours montrée distante. Mais son amour pour sa sœur jumelle le poussera bientôt à rejoindre Jeanne et à sillonner avec elle le pays de leurs ancêtres sur la piste d’une mère bien loin de celle qu’ils ont connue.",
@@ -3736,12 +3997,19 @@
   "tmdb_id": "1654086",
   "year": 2026
  },
+ "influencerprojectspecialeventpricing": {
+  "enriched_at": "2026-09-30"
+ },
  "inheritors:2023": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "insidieuxhorsplusloin": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Thriller"
+  ],
   "genres_en": [
    "Horror",
    "Thriller"
@@ -3754,7 +4022,7 @@
   "imdb_id": "tt32393988",
   "letterboxd_rating": 2.72,
   "letterboxd_url": "https://letterboxd.com/film/insidious-out-of-the-further/",
-  "letterboxd_votes": 204206,
+  "letterboxd_votes": 253061,
   "overview": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
   "overview_en": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
   "overview_fr": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
@@ -3767,7 +4035,11 @@
  },
  "insidioushorsplusloin": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Thriller"
+  ],
   "genres_en": [
    "Horror",
    "Thriller"
@@ -3780,7 +4052,7 @@
   "imdb_id": "tt32393988",
   "letterboxd_rating": 2.72,
   "letterboxd_url": "https://letterboxd.com/film/insidious-out-of-the-further/",
-  "letterboxd_votes": 204212,
+  "letterboxd_votes": 253063,
   "overview": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
   "overview_en": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
   "overview_fr": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
@@ -3793,7 +4065,11 @@
  },
  "insidiousoutfurther": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Thriller"
+  ],
   "genres_en": [
    "Horror",
    "Thriller"
@@ -3806,7 +4082,7 @@
   "imdb_id": "tt32393988",
   "letterboxd_rating": 2.72,
   "letterboxd_url": "https://letterboxd.com/film/insidious-out-of-the-further/",
-  "letterboxd_votes": 204212,
+  "letterboxd_votes": 253061,
   "overview": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
   "overview_en": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
   "overview_fr": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
@@ -3816,6 +4092,36 @@
   "title_fr": "Insidious: Out of the Further",
   "tmdb_id": "1291595",
   "year": 2026
+ },
+ "interceptes": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l4/sy/md/t9/9cHH3ZgBdDjP1zQUvw7TVeMqP42-1200-1200-675-675-crop-000000.jpg?v=cd18d2d24d",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire",
+   "Guerre"
+  ],
+  "genres_en": [
+   "Documentary",
+   "War"
+  ],
+  "genres_fr": [
+   "Documentaire",
+   "Guerre"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt30956212",
+  "letterboxd_rating": 3.86,
+  "letterboxd_url": "https://letterboxd.com/film/intercepted/",
+  "letterboxd_votes": 2001,
+  "overview": "A journey through Ukraine that reveals the banality of evil behind the Russian invasion with the shocking juxtaposition of two realities: the Ukrainians who have been suffering and resisting the war violence, and the Russian military, and civilians, who have been perpetrating it.",
+  "overview_en": "A journey through Ukraine that reveals the banality of evil behind the Russian invasion with the shocking juxtaposition of two realities: the Ukrainians who have been suffering and resisting the war violence, and the Russian military, and civilians, who have been perpetrating it.",
+  "overview_fr": "A journey through Ukraine that reveals the banality of evil behind the Russian invasion with the shocking juxtaposition of two realities: the Ukrainians who have been suffering and resisting the war violence, and the Russian military, and civilians, who have been perpetrating it.",
+  "poster": "https://media.themoviedb.org/t/p/w500/jK34X3lpVoeqokr5jsQcVdrZ5nv.jpg",
+  "runtime": 93,
+  "title_en": "Intercepted",
+  "title_fr": "Intercepted",
+  "tmdb_id": "1229477",
+  "year": 2025
  },
  "interetdadam": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/6/7/1/5/tmdb/ltpZ8p6WiaMJqFU5Wpsdx6fRT5I-1200-1200-675-675-crop-000000.jpg?v=798025bc98",
@@ -3869,7 +4175,12 @@
  },
  "invitation:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/8/5/4/8/3/1/tmdb/lEwqBGNR65KZv6Ej5ufcmhZu2y2-1200-1200-675-675-crop-000000.jpg?v=0c1941692d",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie",
+   "Drame",
+   "Romance"
+  ],
   "genres_en": [
    "Comedy",
    "Drama",
@@ -3882,9 +4193,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt14173636",
-  "letterboxd_rating": 3.98,
+  "letterboxd_rating": 3.96,
   "letterboxd_url": "https://letterboxd.com/film/the-invite-2026/",
-  "letterboxd_votes": 811014,
+  "letterboxd_votes": 947919,
   "overview": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
   "overview_en": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
   "overview_fr": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
@@ -3931,7 +4242,12 @@
  },
  "invite:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/8/5/4/8/3/1/tmdb/lEwqBGNR65KZv6Ej5ufcmhZu2y2-1200-1200-675-675-crop-000000.jpg?v=0c1941692d",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie",
+   "Drame",
+   "Romance"
+  ],
   "genres_en": [
    "Comedy",
    "Drama",
@@ -3944,9 +4260,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt14173636",
-  "letterboxd_rating": 3.98,
+  "letterboxd_rating": 3.96,
   "letterboxd_url": "https://letterboxd.com/film/the-invite-2026/",
-  "letterboxd_votes": 811013,
+  "letterboxd_votes": 947919,
   "overview": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
   "overview_en": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
   "overview_fr": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
@@ -3961,7 +4277,7 @@
   "enriched_at": "2026-09-09"
  },
  "islandeveloaugrevent": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "itends:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6s/nw/3k/i2/blIQ1Xlc3gfOHqWc67ULnyYGEAe-1200-1200-675-675-crop-000000.jpg?v=68470cf57d",
@@ -3991,7 +4307,10 @@
  },
  "iwantyoursex": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/0/9/5/4/tmdb/qNZm0m1WWjYx8UVyrEkEwN4dgyl-1200-1200-675-675-crop-000000.jpg?v=ad8344b874",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie"
+  ],
   "genres_en": [
    "Comedy"
   ],
@@ -4000,12 +4319,12 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt32332915",
-  "letterboxd_rating": 3.23,
+  "letterboxd_rating": 3.18,
   "letterboxd_url": "https://letterboxd.com/film/i-want-your-sex/",
-  "letterboxd_votes": 86890,
-  "overview": "When fresh-faced Elliot lands an exciting job for renowned artist, icon and provocateur Erika Tracy, his fantasies come true as Erika taps him to become her sexual muse. But Elliot soon finds himself out of his depth as Erika takes him on a journey more profound than he ever could have imagined, into a world of sex, obsession, power, betrayal and murder.",
-  "overview_en": "When fresh-faced Elliot lands an exciting job for renowned artist, icon and provocateur Erika Tracy, his fantasies come true as Erika taps him to become her sexual muse. But Elliot soon finds himself out of his depth as Erika takes him on a journey more profound than he ever could have imagined, into a world of sex, obsession, power, betrayal and murder.",
-  "overview_fr": "When fresh-faced Elliot lands an exciting job for renowned artist, icon and provocateur Erika Tracy, his fantasies come true as Erika taps him to become her sexual muse. But Elliot soon finds himself out of his depth as Erika takes him on a journey more profound than he ever could have imagined, into a world of sex, obsession, power, betrayal and murder.",
+  "letterboxd_votes": 104233,
+  "overview": "When a naive young man becomes the sexual muse for a renowned and provocative artist, his dream job quickly turns dangerous as he is drawn into an obsessive world of power, betrayal, and murder.",
+  "overview_en": "When a naive young man becomes the sexual muse for a renowned and provocative artist, his dream job quickly turns dangerous as he is drawn into an obsessive world of power, betrayal, and murder.",
+  "overview_fr": "When a naive young man becomes the sexual muse for a renowned and provocative artist, his dream job quickly turns dangerous as he is drawn into an obsessive world of power, betrayal, and murder.",
   "poster": "https://media.themoviedb.org/t/p/w500/z4iVSwpZUSmIxilSfgvciDJROdX.jpg",
   "runtime": 90,
   "title_en": "I Want Your Sex",
@@ -4042,7 +4361,10 @@
  },
  "jacquotnantesstaffpicks:1991": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/m4/28/ol/ym/jacquot-1200-1200-675-675-crop-000000.jpg?v=459d787600",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -4053,7 +4375,7 @@
   "imdb_id": "tt0102141",
   "letterboxd_rating": 4.16,
   "letterboxd_url": "https://letterboxd.com/film/jacquot-de-nantes/",
-  "letterboxd_votes": 9949,
+  "letterboxd_votes": 10119,
   "overview": "Jacquot Demy, the son of a garage owner and a hairdresser, is fascinated by cinema and decides to pursue his dream of becoming a filmmaker by any means necessary.",
   "overview_en": "Jacquot Demy, the son of a garage owner and a hairdresser, is fascinated by cinema and decides to pursue his dream of becoming a filmmaker by any means necessary.",
   "overview_fr": "Jacquot Demy, the son of a garage owner and a hairdresser, is fascinated by cinema and decides to pursue his dream of becoming a filmmaker by any means necessary.",
@@ -4066,7 +4388,10 @@
  },
  "jardindenfants": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
   "genres_en": [
    "Documentary"
   ],
@@ -4084,6 +4409,9 @@
   "title_fr": "Jardin d'enfants",
   "tmdb_id": "1570621",
   "year": 2025
+ },
+ "jevoussaluesalopemisogynieautempsnumerique": {
+  "enriched_at": "2026-09-30"
  },
  "jimqueen:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/5/7/3/8/0/tmdb/vQw05sfFEVCVpysDAU5C8NU1gMO-1200-1200-675-675-crop-000000.jpg?v=2d4514f5c0",
@@ -4170,7 +4498,7 @@
   "year": 2026
  },
  "jurassicpark": {
-  "enriched_at": "2026-09-24"
+  "enriched_at": "2026-09-30"
  },
  "jurassicpark:1993": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8x/wj/zt/pp/jurassic-park-1200-1200-675-675-crop-000000.jpg?v=ec7c8120cd",
@@ -4379,7 +4707,12 @@
  },
  "kwaidan:1965": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7z/5f/p3/5m/kwaidan-1200-1200-675-675-crop-000000.jpg?v=73cf6350db",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Fantastique",
+   "Drame"
+  ],
   "genres_en": [
    "Horror",
    "Fantasy",
@@ -4394,7 +4727,7 @@
   "imdb_id": "tt0058279",
   "letterboxd_rating": 4.22,
   "letterboxd_url": "https://letterboxd.com/film/kwaidan/",
-  "letterboxd_votes": 66155,
+  "letterboxd_votes": 67735,
   "overview": "Taking its title from an archaic Japanese word meaning \"ghost story,\" this anthology adapts four folk tales. A penniless samurai marries for money with tragic results. A man stranded in a blizzard is saved by Yuki the Snow Maiden, but his rescue comes at a cost. Blind musician Hoichi is forced to perform for an audience of ghosts. An author relates the story of a samurai who sees another warrior's reflection in his teacup.",
   "overview_en": "Taking its title from an archaic Japanese word meaning \"ghost story,\" this anthology adapts four folk tales. A penniless samurai marries for money with tragic results. A man stranded in a blizzard is saved by Yuki the Snow Maiden, but his rescue comes at a cost. Blind musician Hoichi is forced to perform for an audience of ghosts. An author relates the story of a samurai who sees another warrior's reflection in his teacup.",
   "overview_fr": "Taking its title from an archaic Japanese word meaning \"ghost story,\" this anthology adapts four folk tales. A penniless samurai marries for money with tragic results. A man stranded in a blizzard is saved by Yuki the Snow Maiden, but his rescue comes at a cost. Blind musician Hoichi is forced to perform for an audience of ghosts. An author relates the story of a samurai who sees another warrior's reflection in his teacup.",
@@ -4587,7 +4920,10 @@
  },
  "latefame:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/6/9/2/1/0/tmdb/tDG3iVhR4gZOTtXoBEtqZgNrD1U-1200-1200-675-675-crop-000000.jpg?v=a16f816989",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -4596,12 +4932,12 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt32298494",
-  "letterboxd_rating": 3.38,
+  "letterboxd_rating": 3.36,
   "letterboxd_url": "https://letterboxd.com/film/late-fame/",
-  "letterboxd_votes": 8101,
-  "overview": "Legendary New York poet Ed Saxberger's forgotten works captivate an eccentric group of young creatives, reigniting his artistic passion. Their intrigue intertwines with the bewitching presence of actress Gloria.",
-  "overview_en": "Legendary New York poet Ed Saxberger's forgotten works captivate an eccentric group of young creatives, reigniting his artistic passion. Their intrigue intertwines with the bewitching presence of actress Gloria.",
-  "overview_fr": "Legendary New York poet Ed Saxberger's forgotten works captivate an eccentric group of young creatives, reigniting his artistic passion. Their intrigue intertwines with the bewitching presence of actress Gloria.",
+  "letterboxd_votes": 10299,
+  "overview": "At the very end of the 1970’s, post office worker Ed Saxberger wrote a book of poetry that nobody cared about. After an eager and flattering fan appears on his doorstep, Saxberger is beckoned into a coterie of young admirers who anoint him a rediscovered genius. The group of downtown bohemians is led by their “tragic heroine,” Gloria. Intoxicated by the attention, and Gloria’s alluring presence, Saxberger gradually reckons with the authenticity of his newfound poetic circle.",
+  "overview_en": "At the very end of the 1970’s, post office worker Ed Saxberger wrote a book of poetry that nobody cared about. After an eager and flattering fan appears on his doorstep, Saxberger is beckoned into a coterie of young admirers who anoint him a rediscovered genius. The group of downtown bohemians is led by their “tragic heroine,” Gloria. Intoxicated by the attention, and Gloria’s alluring presence, Saxberger gradually reckons with the authenticity of his newfound poetic circle.",
+  "overview_fr": "At the very end of the 1970’s, post office worker Ed Saxberger wrote a book of poetry that nobody cared about. After an eager and flattering fan appears on his doorstep, Saxberger is beckoned into a coterie of young admirers who anoint him a rediscovered genius. The group of downtown bohemians is led by their “tragic heroine,” Gloria. Intoxicated by the attention, and Gloria’s alluring presence, Saxberger gradually reckons with the authenticity of his newfound poetic circle.",
   "poster": "https://media.themoviedb.org/t/p/w500/bcyXE0p4XmZUlcxvTDbvdG9lgsN.jpg",
   "runtime": 97,
   "title_en": "Late Fame",
@@ -4611,7 +4947,12 @@
  },
  "lawrencearabia:1962": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/99/4b/qr/9o/lawrence-of-arabia-1200-1200-675-675-crop-000000.jpg?v=083f410dd7",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Aventure",
+   "Histoire",
+   "Guerre"
+  ],
   "genres_en": [
    "Adventure",
    "History",
@@ -4626,7 +4967,7 @@
   "imdb_id": "tt0056172",
   "letterboxd_rating": 4.42,
   "letterboxd_url": "https://letterboxd.com/film/lawrence-of-arabia/",
-  "letterboxd_votes": 410432,
+  "letterboxd_votes": 419168,
   "overview": "Pendant la Première Guerre mondiale, un lieutenant britannique devient le commandant de troupes arabes au Moyen-Orient.",
   "overview_en": "During World War I, English officer Thomas Edward 'T.E.' Lawrence sets out to unite and lead the diverse, often warring, Arab tribes to fight the Turks.",
   "overview_fr": "Pendant la Première Guerre mondiale, un lieutenant britannique devient le commandant de troupes arabes au Moyen-Orient.",
@@ -4882,7 +5223,7 @@
   "year": 1976
  },
  "manwholefthiswillfilm": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "mariachapdelaine": {
   "enriched_at": "2026-09-09"
@@ -4994,8 +5335,11 @@
   "year": 2026
  },
  "meilleurefaconcestparaccident": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/3/5/7/6/1443576-the-best-way-is-by-accident-0-230-0-345-crop.jpg?v=cf3c7b169b",
-  "enriched_at": "2026-09-09",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/3/5/7/6/1443576-the-best-way-is-by-accident-0-230-0-345-crop.jpg?v=357d3e9b6a",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
   "genres_en": [
    "Documentary"
   ],
@@ -5004,11 +5348,13 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt42353729",
+  "letterboxd_rating": 3.75,
   "letterboxd_url": "https://letterboxd.com/film/the-best-way-is-by-accident/",
+  "letterboxd_votes": 1233,
   "overview": "Après la mort de son père adoptif, une jeune cinéaste replonge dans ses archives vidéo pour finalement réaliser qu’elle ne l’a jamais filmé – sauf une fois, par accident. Maintenant à l’aube de la fin du monde, elle veille à filmer l’extraordinaire dans l’ordinaire… lui aussi voué à disparaître.",
   "overview_en": "After the death of her adoptive father, a young filmmaker delves into his video archives only to realize that she never filmed him—except once, by accident. As the end of the world approaches, she now sets out to capture the extraordinary in the ordinary… which, too, is destined to disappear.",
   "overview_fr": "Après la mort de son père adoptif, une jeune cinéaste replonge dans ses archives vidéo pour finalement réaliser qu’elle ne l’a jamais filmé – sauf une fois, par accident. Maintenant à l’aube de la fin du monde, elle veille à filmer l’extraordinaire dans l’ordinaire… lui aussi voué à disparaître.",
-  "poster": "https://media.themoviedb.org/t/p/w500/xqlXPtOj3YIVERreVbDw62als44.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/7dftCXIoxQ51G8WvlX7fMrwoq2X.jpg",
   "runtime": 111,
   "title_en": "The Best Way Is by Accident",
   "title_fr": "La meilleure façon, c'est par accident",
@@ -5046,7 +5392,13 @@
  },
  "minionsmonsters": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/9/6/8/0/8/tmdb/pqFnCSJZ3Hq7QOM8uu2WC8k0R3q-1200-1200-675-675-crop-000000.jpg?v=0c3bc65b5a",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Aventure",
+   "Animation",
+   "Comédie",
+   "Familial"
+  ],
   "genres_en": [
    "Adventure",
    "Animation",
@@ -5063,7 +5415,7 @@
   "imdb_id": "tt32890033",
   "letterboxd_rating": 3.2,
   "letterboxd_url": "https://letterboxd.com/film/minions-monsters-2026/",
-  "letterboxd_votes": 499404,
+  "letterboxd_votes": 518775,
   "overview": "L’histoire turbulente, absurde et évidemment vraie des Minions et la manière dont ils ont conquis Hollywood, sont devenus de véritables stars de cinéma, ont tout perdu, ont libéré des monstres dans notre monde, puis ont tenté de sauver la planète du chaos qu’ils avaient créé.",
   "overview_en": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
   "overview_fr": "L’histoire turbulente, absurde et évidemment vraie des Minions et la manière dont ils ont conquis Hollywood, sont devenus de véritables stars de cinéma, ont tout perdu, ont libéré des monstres dans notre monde, puis ont tenté de sauver la planète du chaos qu’ils avaient créé.",
@@ -5076,7 +5428,13 @@
  },
  "minionsmonstres": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/9/6/8/0/8/tmdb/pqFnCSJZ3Hq7QOM8uu2WC8k0R3q-1200-1200-675-675-crop-000000.jpg?v=0c3bc65b5a",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Aventure",
+   "Animation",
+   "Comédie",
+   "Familial"
+  ],
   "genres_en": [
    "Adventure",
    "Animation",
@@ -5093,7 +5451,7 @@
   "imdb_id": "tt32890033",
   "letterboxd_rating": 3.2,
   "letterboxd_url": "https://letterboxd.com/film/minions-monsters-2026/",
-  "letterboxd_votes": 499404,
+  "letterboxd_votes": 518775,
   "overview": "L’histoire turbulente, absurde et évidemment vraie des Minions et la manière dont ils ont conquis Hollywood, sont devenus de véritables stars de cinéma, ont tout perdu, ont libéré des monstres dans notre monde, puis ont tenté de sauver la planète du chaos qu’ils avaient créé.",
   "overview_en": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
   "overview_fr": "L’histoire turbulente, absurde et évidemment vraie des Minions et la manière dont ils ont conquis Hollywood, sont devenus de véritables stars de cinéma, ont tout perdu, ont libéré des monstres dans notre monde, puis ont tenté de sauver la planète du chaos qu’ils avaient créé.",
@@ -5141,7 +5499,7 @@
   "year": 2012
  },
  "mirzapurmovie": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "misanthropenationaltheatrelive": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/6/2/0/6/1556206-national-theatre-live-the-misanthrope-0-230-0-345-crop.jpg?v=d0b16cfaca",
@@ -5176,7 +5534,12 @@
  },
  "mllebottine:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/0/4/0/890040-miss-boots-0-230-0-345-crop.jpg?v=5b4bd3c02f",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie",
+   "Familial",
+   "Musique"
+  ],
   "genres_en": [
    "Comedy",
    "Family",
@@ -5189,11 +5552,11 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt27854619",
-  "letterboxd_rating": 3.49,
+  "letterboxd_rating": 3.48,
   "letterboxd_url": "https://letterboxd.com/film/miss-boots/",
-  "letterboxd_votes": 1057,
+  "letterboxd_votes": 1070,
   "overview": "Philippe, un compositeur d’opéra en panne d’inspiration, se voit forcé d’héberger sa nièce Simone, une orpheline rebelle et excentrique dont la meilleure amie est une mouffette. Malgré leurs personnalités diamétralement opposées, Philippe et Simone découvrent rapidement qu’ils pourraient avoir besoin l’un de l’autre plus qu’ils ne l’auraient initialement cru.",
-  "overview_en": "Philippe, an opera composer in search of inspiration, is forced to take in Simone, his rebellious, eccentric niece whose best friend is a skunk. Despite their diametrically opposed personalities, Philippe and Simone quickly discover that they may need each other more than they first thought.",
+  "overview_en": "Philippe, an opera composer in search of inspiration, is forced to take in Simone, his rebellious, eccentric niece whose best friend is a skunk. Despite being total opposites, Philippe and Simone quickly discover that they may need each other more than they thought.",
   "overview_fr": "Philippe, un compositeur d’opéra en panne d’inspiration, se voit forcé d’héberger sa nièce Simone, une orpheline rebelle et excentrique dont la meilleure amie est une mouffette. Malgré leurs personnalités diamétralement opposées, Philippe et Simone découvrent rapidement qu’ils pourraient avoir besoin l’un de l’autre plus qu’ils ne l’auraient initialement cru.",
   "poster": "https://media.themoviedb.org/t/p/w500/mWN4yfppBmSQwYzSScAGFxV3uOF.jpg",
   "runtime": 110,
@@ -5204,7 +5567,13 @@
  },
  "moana": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ru/g1/69/5x/c6BPbkO5Npt1OdwttAxCFo06wtH-1200-1200-675-675-crop-000000.jpg?v=40983314e4",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Familial",
+   "Fantastique",
+   "Comédie",
+   "Aventure"
+  ],
   "genres_en": [
    "Family",
    "Fantasy",
@@ -5219,12 +5588,12 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt27419466",
-  "letterboxd_rating": 2.71,
+  "letterboxd_rating": 2.68,
   "letterboxd_url": "https://letterboxd.com/film/moana/",
-  "letterboxd_votes": 132167,
-  "overview": "Répondant à l'appel de l'océan, Vaiana s'aventure pour la première fois par-delà le récif de son île de Motunui. Accompagnée du célèbre demi-dieu Maui, elle embarque pour un voyage inoubliable destiné à permettre à son peuple de retrouver sa prospérité.",
+  "letterboxd_votes": 146199,
+  "overview": "Répondant à l'appel de l'océan, Moana s'aventure pour la première fois par-delà le récif de son île de Motunui. Accompagnée du célèbre demi-dieu Maui, elle embarque pour un voyage inoubliable destiné à permettre à son peuple de retrouver sa prospérité.",
   "overview_en": "Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.",
-  "overview_fr": "Répondant à l'appel de l'océan, Vaiana s'aventure pour la première fois par-delà le récif de son île de Motunui. Accompagnée du célèbre demi-dieu Maui, elle embarque pour un voyage inoubliable destiné à permettre à son peuple de retrouver sa prospérité.",
+  "overview_fr": "Répondant à l'appel de l'océan, Moana s'aventure pour la première fois par-delà le récif de son île de Motunui. Accompagnée du célèbre demi-dieu Maui, elle embarque pour un voyage inoubliable destiné à permettre à son peuple de retrouver sa prospérité.",
   "poster": "https://media.themoviedb.org/t/p/w500/cvZ8MNpVDFKfC0z1OnarsHAgnxh.jpg",
   "runtime": 115,
   "title_en": "Moana",
@@ -5234,7 +5603,10 @@
  },
  "mommy:2014": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tg/mx/rm/i0/mommy-2014-1200-1200-675-675-crop-000000.jpg?v=beb8f65b8a",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -5245,7 +5617,7 @@
   "imdb_id": "tt3612616",
   "letterboxd_rating": 4.32,
   "letterboxd_url": "https://letterboxd.com/film/mommy-2014/",
-  "letterboxd_votes": 278008,
+  "letterboxd_votes": 280428,
   "overview": "Une veuve mono-parentale hérite de la garde de son fils, un adolescent explosif et violent. Au coeur de leurs emportements et difficultés, ils tentent de joindre les deux bouts, notamment grâce à l’aide de l'énigmatique voisine d’en-face, Kyla. Tous les trois, ils retrouvent une forme d'équilibre et, bientôt, d'espoir.",
   "overview_en": "A peculiar neighbor offers hope to a recent widow who is struggling to raise a teenager who is unpredictable and, sometimes, violent.",
   "overview_fr": "Une veuve mono-parentale hérite de la garde de son fils, un adolescent explosif et violent. Au coeur de leurs emportements et difficultés, ils tentent de joindre les deux bouts, notamment grâce à l’aide de l'énigmatique voisine d’en-face, Kyla. Tous les trois, ils retrouvent une forme d'équilibre et, bientôt, d'espoir.",
@@ -5288,6 +5660,36 @@
   "title_fr": "Monsieur Lazhar",
   "tmdb_id": "78480",
   "year": 2011
+ },
+ "montrealmabelle:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/6/5/1/8/5/tmdb/ddkSgr9rQqq3fbtMps0rhUv59fI-1200-1200-675-675-crop-000000.jpg?v=70c9545767",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Romance"
+  ],
+  "genres_en": [
+   "Drama",
+   "Romance"
+  ],
+  "genres_fr": [
+   "Drame",
+   "Romance"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt38503727",
+  "letterboxd_rating": 3.63,
+  "letterboxd_url": "https://letterboxd.com/film/montreal-my-beautiful/",
+  "letterboxd_votes": 8645,
+  "overview": "Feng Xia, immigrante chinoise de 53 ans et mère de famille vivant à Montréal, a passé sa vie dans une obéissance silencieuse — envers sa famille, sa culture, et un mariage fondé sur le non-dit. Mais lorsqu’elle rencontre Camille, une jeune Québécoise libre et insouciante, un désir longtemps réprimé refait surface. Sous la chaleur étouffante de l’été montréalais, Feng Xia ose, pour la première fois, se choisir. Son aventure amoureuse interdite et sa quête de soi deviennent une confrontation bouleversante avec ses choix, son passé et le prix de la liberté.",
+  "overview_en": "At 53 years old, Feng Xia, a Chinese immigrant in Montreal, finally confronts her repressed desire for women and begins a secret affair with a young Québécoise.",
+  "overview_fr": "Feng Xia, immigrante chinoise de 53 ans et mère de famille vivant à Montréal, a passé sa vie dans une obéissance silencieuse — envers sa famille, sa culture, et un mariage fondé sur le non-dit. Mais lorsqu’elle rencontre Camille, une jeune Québécoise libre et insouciante, un désir longtemps réprimé refait surface. Sous la chaleur étouffante de l’été montréalais, Feng Xia ose, pour la première fois, se choisir. Son aventure amoureuse interdite et sa quête de soi deviennent une confrontation bouleversante avec ses choix, son passé et le prix de la liberté.",
+  "poster": "https://media.themoviedb.org/t/p/w500/xgJqnAfbI7IlSre1zEdMFxrkRD5.jpg",
+  "runtime": 118,
+  "title_en": "Montreal, My Beautiful",
+  "title_fr": "Montréal, ma belle",
+  "tmdb_id": "1178620",
+  "year": 2026
  },
  "mortician": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/8/4/1/3/1/184131-mortician-0-230-0-345-crop.jpg?v=5b02f98a6e",
@@ -5355,7 +5757,11 @@
  },
  "mutiny": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/5k/rx/kf/l1/frG3IO5kCrnyXDt1q9x4JtToSw3-1200-1200-675-675-crop-000000.jpg?v=5b5d58a3a9",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Action",
+   "Thriller"
+  ],
   "genres_en": [
    "Action",
    "Thriller"
@@ -5366,9 +5772,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt32338669",
-  "letterboxd_rating": 2.56,
+  "letterboxd_rating": 2.55,
   "letterboxd_url": "https://letterboxd.com/film/mutiny-2026/",
-  "letterboxd_votes": 45915,
+  "letterboxd_votes": 58309,
   "overview": "Après que son patron industriel milliardaire a été assassiné sous ses yeux, Cole Reed est désigné pour endosser le crime, ce qui le met en fuite alors qu'il s'efforce de découvrir une conspiration internationale.",
   "overview_en": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
   "overview_fr": "Après que son patron industriel milliardaire a été assassiné sous ses yeux, Cole Reed est désigné pour endosser le crime, ce qui le met en fuite alors qu'il s'efforce de découvrir une conspiration internationale.",
@@ -5414,7 +5820,10 @@
  },
  "mybrotherswedding:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l7/7t/pp/tx/my%20brother-1200-1200-675-675-crop-000000.jpg?v=01510d17d8",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -5425,11 +5834,11 @@
   "imdb_id": "tt0087763",
   "letterboxd_rating": 3.73,
   "letterboxd_url": "https://letterboxd.com/film/my-brothers-wedding/",
-  "letterboxd_votes": 5644,
+  "letterboxd_votes": 5916,
   "overview": "A young African-American man, living in Los Angeles without direction in his life, reluctantly agrees to be the best man for his brother, an upwardly mobile lawyer.",
   "overview_en": "A young African-American man, living in Los Angeles without direction in his life, reluctantly agrees to be the best man for his brother, an upwardly mobile lawyer.",
   "overview_fr": "A young African-American man, living in Los Angeles without direction in his life, reluctantly agrees to be the best man for his brother, an upwardly mobile lawyer.",
-  "poster": "https://media.themoviedb.org/t/p/w500/oYtUp1UDMVTsA4rcIuugF0PDnIO.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/zNTkmyNtdncmMFHOavpgevwsh6o.jpg",
   "runtime": 81,
   "title_en": "My Brother's Wedding",
   "title_fr": "My Brother's Wedding",
@@ -5488,7 +5897,11 @@
  },
  "newlovetokyo": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/m5/uz/ge/vt/new%20love%20in%20tokyo-1200-1200-675-675-crop-000000.jpg?v=38636a194c",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Romance",
+   "Drame"
+  ],
   "genres_en": [
    "Romance",
    "Drama"
@@ -5501,7 +5914,7 @@
   "imdb_id": "tt0109059",
   "letterboxd_rating": 3.95,
   "letterboxd_url": "https://letterboxd.com/film/a-new-love-in-tokyo/",
-  "letterboxd_votes": 4242,
+  "letterboxd_votes": 4429,
   "overview": "A look at the lives of two prostitutes in Tokyo: Rei, who works as an S&M dominatrix, and Ayumi, in the more straightforward profession of call girl. In addition to their working life, the film also looks at their private lives. Rei is acting in an amateur theatre company along with the receptionist from Ayumi's escort service, while Ayumi is living with her student-boyfriend as he struggles to finally get accepted to college.",
   "overview_en": "A look at the lives of two prostitutes in Tokyo: Rei, who works as an S&M dominatrix, and Ayumi, in the more straightforward profession of call girl. In addition to their working life, the film also looks at their private lives. Rei is acting in an amateur theatre company along with the receptionist from Ayumi's escort service, while Ayumi is living with her student-boyfriend as he struggles to finally get accepted to college.",
   "overview_fr": "A look at the lives of two prostitutes in Tokyo: Rei, who works as an S&M dominatrix, and Ayumi, in the more straightforward profession of call girl. In addition to their working life, the film also looks at their private lives. Rei is acting in an amateur theatre company along with the receptionist from Ayumi's escort service, while Ayumi is living with her student-boyfriend as he struggles to finally get accepted to college.",
@@ -5520,7 +5933,12 @@
  },
  "nightlivingdead:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/j1/z4/q2/vi/bhgMBDnjG9tIVE3RNCD9YeNJHq5-1200-1200-675-675-crop-000000.jpg?v=42c7601897",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Thriller",
+   "Science-Fiction"
+  ],
   "genres_en": [
    "Horror",
    "Thriller",
@@ -5535,7 +5953,7 @@
   "imdb_id": "tt0063350",
   "letterboxd_rating": 3.94,
   "letterboxd_url": "https://letterboxd.com/film/night-of-the-living-dead/",
-  "letterboxd_votes": 347392,
+  "letterboxd_votes": 351357,
   "overview": "Chaque année, Barbara et Johnny vont fleurir la tombe de leur père. La route est longue, les environs du cimetière déserts. Peu enclin à prier, Johnny se souvient du temps où il était enfant et où il s'amusait à effrayer sa sœur en répétant d'une voix grave : \"Ils arrivent pour te chercher, Barbara.\" La nuit tombe. Soudain, un homme étrange apparaît. Il s'approche de Barbara puis attaque Johnny, qui tombe et est laissé pour mort. Terrorisée, Barbara s'enfuit et se réfugie dans une maison de campagne. Elle y trouve Ben, ainsi que d'autres fugitifs. La radio leur apprend alors la terrible nouvelle : des morts s'attaquent aux vivants.",
   "overview_en": "A ragtag group barricade themselves in an old Pennsylvania farmhouse to remain safe from a horde of flesh-eating ghouls ravaging the Northeast.",
   "overview_fr": "Chaque année, Barbara et Johnny vont fleurir la tombe de leur père. La route est longue, les environs du cimetière déserts. Peu enclin à prier, Johnny se souvient du temps où il était enfant et où il s'amusait à effrayer sa sœur en répétant d'une voix grave : \"Ils arrivent pour te chercher, Barbara.\" La nuit tombe. Soudain, un homme étrange apparaît. Il s'approche de Barbara puis attaque Johnny, qui tombe et est laissé pour mort. Terrorisée, Barbara s'enfuit et se réfugie dans une maison de campagne. Elle y trouve Ben, ainsi que d'autres fugitifs. La radio leur apprend alors la terrible nouvelle : des morts s'attaquent aux vivants.",
@@ -5599,7 +6017,10 @@
  },
  "nitassinan:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/3/4/3/2/3/1034323-nitassinan-0-230-0-345-crop.jpg?v=03115664fd",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
   "genres_en": [
    "Documentary"
   ],
@@ -5671,7 +6092,11 @@
  },
  "obsession": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/3/4/4/7/2/tmdb/diOZbaDnB2CIilwd0527AB1qMvW-1200-1200-675-675-crop-000000.jpg?v=e165ee724d",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Thriller"
+  ],
   "genres_en": [
    "Horror",
    "Thriller"
@@ -5684,11 +6109,11 @@
   "imdb_id": "tt37287335",
   "letterboxd_rating": 4.07,
   "letterboxd_url": "https://letterboxd.com/film/obsession-2025/",
-  "letterboxd_votes": 4801662,
+  "letterboxd_votes": 5062785,
   "overview": "Et si vous pouviez réaliser votre rêve le plus fou ? Un jeune introverti met la main sur un objet magique capable d’exaucer n’importe quel souhait. Son Coup de cœur de toujours tombe alors raide dingue de lui… jusqu’à l’obsession la plus totale. Faites attention à ce que vous souhaitez !",
   "overview_en": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
   "overview_fr": "Et si vous pouviez réaliser votre rêve le plus fou ? Un jeune introverti met la main sur un objet magique capable d’exaucer n’importe quel souhait. Son Coup de cœur de toujours tombe alors raide dingue de lui… jusqu’à l’obsession la plus totale. Faites attention à ce que vous souhaitez !",
-  "poster": "https://media.themoviedb.org/t/p/w500/dbPtgeyOmdmaGCVSUoBXhd9WiOz.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/mDCR1frpUvGfIKksuM440VLb7X9.jpg",
   "runtime": 108,
   "title_en": "Obsession",
   "title_fr": "Obsession",
@@ -5697,7 +6122,12 @@
  },
  "odyssee": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/vn/7k/d6/d7/odyssey-1200-1200-675-675-crop-000000.jpg?v=9f3eb79026",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Aventure",
+   "Action",
+   "Fantastique"
+  ],
   "genres_en": [
    "Adventure",
    "Action",
@@ -5710,13 +6140,13 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt33764258",
-  "letterboxd_rating": 4.36,
+  "letterboxd_rating": 4.35,
   "letterboxd_url": "https://letterboxd.com/film/the-odyssey-2026/",
-  "letterboxd_votes": 4220317,
+  "letterboxd_votes": 4476155,
   "overview": "Ulysse, le légendaire roi grec d'Ithaque, entreprend un périlleux voyage de retour après la guerre de Troie. Son parcours sera marqué par des rencontres avec des êtres mythiques tels que le cyclope Polyphème, les Sirènes et la déesse-sorcière Circé, jusqu’à ses retrouvailles tant attendues avec son épouse, Pénélope.",
   "overview_en": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
   "overview_fr": "Ulysse, le légendaire roi grec d'Ithaque, entreprend un périlleux voyage de retour après la guerre de Troie. Son parcours sera marqué par des rencontres avec des êtres mythiques tels que le cyclope Polyphème, les Sirènes et la déesse-sorcière Circé, jusqu’à ses retrouvailles tant attendues avec son épouse, Pénélope.",
-  "poster": "https://media.themoviedb.org/t/p/w500/7QXCmstJ6QVumoyt2v6qsyJYeCF.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/cxS9D4yyMkn7euvdFXGMLJnEj13.jpg",
   "runtime": 173,
   "title_en": "The Odyssey",
   "title_fr": "L'Odyssée",
@@ -5725,7 +6155,12 @@
  },
  "odyssey": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/vn/7k/d6/d7/odyssey-1200-1200-675-675-crop-000000.jpg?v=9f3eb79026",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Aventure",
+   "Action",
+   "Fantastique"
+  ],
   "genres_en": [
    "Adventure",
    "Action",
@@ -5738,13 +6173,13 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt33764258",
-  "letterboxd_rating": 4.36,
+  "letterboxd_rating": 4.35,
   "letterboxd_url": "https://letterboxd.com/film/the-odyssey-2026/",
-  "letterboxd_votes": 4220317,
+  "letterboxd_votes": 4476155,
   "overview": "Ulysse, le légendaire roi grec d'Ithaque, entreprend un périlleux voyage de retour après la guerre de Troie. Son parcours sera marqué par des rencontres avec des êtres mythiques tels que le cyclope Polyphème, les Sirènes et la déesse-sorcière Circé, jusqu’à ses retrouvailles tant attendues avec son épouse, Pénélope.",
   "overview_en": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
   "overview_fr": "Ulysse, le légendaire roi grec d'Ithaque, entreprend un périlleux voyage de retour après la guerre de Troie. Son parcours sera marqué par des rencontres avec des êtres mythiques tels que le cyclope Polyphème, les Sirènes et la déesse-sorcière Circé, jusqu’à ses retrouvailles tant attendues avec son épouse, Pénélope.",
-  "poster": "https://media.themoviedb.org/t/p/w500/7QXCmstJ6QVumoyt2v6qsyJYeCF.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/cxS9D4yyMkn7euvdFXGMLJnEj13.jpg",
   "runtime": 173,
   "title_en": "The Odyssey",
   "title_fr": "L'Odyssée",
@@ -5886,7 +6321,34 @@
   "year": 2026
  },
  "paradisetelugu": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
+ },
+ "parfaites:2016": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/3/4/4/0/7/1/344071-perfect-0-230-0-345-crop.jpg?v=d76694a177",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt5868910",
+  "letterboxd_rating": 3.4,
+  "letterboxd_url": "https://letterboxd.com/film/perfect-2016/",
+  "letterboxd_votes": 210,
+  "overview": "Parfaites suit le parcours de l’équipe nationale canadienne de nage synchronisée, alors que les athlètes tentent de se qualifier pour les Jeux olympiques de Rio en 2016.",
+  "overview_en": "Perfect follows the Canadian synchronized swimming team beyond the beauty, to the brawn it takes to qualify for Rio 2016.",
+  "overview_fr": "Parfaites suit le parcours de l’équipe nationale canadienne de nage synchronisée, alors que les athlètes tentent de se qualifier pour les Jeux olympiques de Rio en 2016.",
+  "poster": "https://media.themoviedb.org/t/p/w500/pRGU3YsLmA8pLB08oDDMVABbNX9.jpg",
+  "runtime": 76,
+  "title_en": "Perfect",
+  "title_fr": "Perfect",
+  "tmdb_id": "409861",
+  "year": 2016
  },
  "parleznousdamour": {
   "enriched_at": "2026-09-21"
@@ -5983,7 +6445,13 @@
  },
  "patpatrouillefilmmissiondino": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Animation",
+   "Aventure",
+   "Familial",
+   "Fantastique"
+  ],
   "genres_en": [
    "Animation",
    "Adventure",
@@ -6000,7 +6468,7 @@
   "imdb_id": "tt29356163",
   "letterboxd_rating": 2.86,
   "letterboxd_url": "https://letterboxd.com/film/paw-patrol-the-dino-movie/",
-  "letterboxd_votes": 10507,
+  "letterboxd_votes": 12516,
   "overview": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
   "overview_en": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
   "overview_fr": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
@@ -6013,7 +6481,13 @@
  },
  "patpatrouillemissiondino": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Animation",
+   "Aventure",
+   "Familial",
+   "Fantastique"
+  ],
   "genres_en": [
    "Animation",
    "Adventure",
@@ -6030,7 +6504,7 @@
   "imdb_id": "tt29356163",
   "letterboxd_rating": 2.86,
   "letterboxd_url": "https://letterboxd.com/film/paw-patrol-the-dino-movie/",
-  "letterboxd_votes": 10507,
+  "letterboxd_votes": 12516,
   "overview": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
   "overview_en": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
   "overview_fr": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
@@ -6042,30 +6516,44 @@
   "year": 2026
  },
  "paulinejulienfemmepays:2026": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/5/4/6/9/1115469-pauline-julien-femme-pays-0-230-0-345-crop.jpg?v=f0fe1d9ca9",
-  "enriched_at": "2026-09-09",
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/5/4/6/9/1115469-pauline-julien-woman-of-the-country-0-230-0-345-crop.jpg?v=ceb628aa0a",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Histoire",
+   "Musique"
+  ],
   "genres_en": [
-   "Drama"
+   "Drama",
+   "History",
+   "Music"
   ],
   "genres_fr": [
-   "Drame"
+   "Drame",
+   "Histoire",
+   "Musique"
   ],
   "i18n_v": 1,
   "imdb_id": "tt39387187",
-  "letterboxd_url": "https://letterboxd.com/film/pauline-julien-woman-of-the-country/",
+  "letterboxd_rating": 3.64,
+  "letterboxd_url": "https://letterboxd.com/film/pauline-2026-2/",
+  "letterboxd_votes": 257,
   "overview": "Une femme perd la parole, à l’image d’un pays qui la perd en même temps qu’elle. Pauline Julien, chanteuse flamboyante, véritable icône poétique et politique, a laissé de nombreuses empreintes en nous. Nous la suivons autant dans ses triomphes sur scène, dans ses prises de position pour l’émancipation du pays du Québec, que dans des moments d’intimité absolue auprès de ses enfants, mais surtout, au cœur de son histoire d’amour incandescente avec Gérald Godin. Le film l’attrape au moment où elle apprend le diagnostic d’aphasie dégénérative qui lui arrachera la parole. Nous remontons le fil d’une vie faite de lumière, de travail, d’amour et de déchirements. Pauline danse, Pauline aime, Pauline gueule, Pauline baise, Pauline brûle. Pauline vit. Pauline meurt. Que nous reste-t-il d’elle?",
   "overview_en": "The story of Pauline Julien, a singing icon and independence activist, across several decades of Québec history.",
   "overview_fr": "Une femme perd la parole, à l’image d’un pays qui la perd en même temps qu’elle. Pauline Julien, chanteuse flamboyante, véritable icône poétique et politique, a laissé de nombreuses empreintes en nous. Nous la suivons autant dans ses triomphes sur scène, dans ses prises de position pour l’émancipation du pays du Québec, que dans des moments d’intimité absolue auprès de ses enfants, mais surtout, au cœur de son histoire d’amour incandescente avec Gérald Godin. Le film l’attrape au moment où elle apprend le diagnostic d’aphasie dégénérative qui lui arrachera la parole. Nous remontons le fil d’une vie faite de lumière, de travail, d’amour et de déchirements. Pauline danse, Pauline aime, Pauline gueule, Pauline baise, Pauline brûle. Pauline vit. Pauline meurt. Que nous reste-t-il d’elle?",
-  "poster": "https://media.themoviedb.org/t/p/w500/vPo759lUuAe5Jx89kS3dttKqCav.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/qYcdaQtKE0f773LKTr0c7GZgovT.jpg",
   "runtime": 110,
-  "title_en": "Pauline Julien: Woman of the Country",
+  "title_en": "Pauline",
   "title_fr": "Pauline Julien: Femme pays",
   "tmdb_id": "1232113",
   "year": 2026
  },
  "paulinejulienintimepolitique:2018": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/7/9/3/2/9/479329-pauline-julien-intimate-and-political-0-230-0-345-crop.jpg?v=7d693c39b3",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
   "genres_en": [
    "Documentary"
   ],
@@ -6090,7 +6578,13 @@
  },
  "pawpatroldinomovie": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Animation",
+   "Aventure",
+   "Familial",
+   "Fantastique"
+  ],
   "genres_en": [
    "Animation",
    "Adventure",
@@ -6107,7 +6601,7 @@
   "imdb_id": "tt29356163",
   "letterboxd_rating": 2.86,
   "letterboxd_url": "https://letterboxd.com/film/paw-patrol-the-dino-movie/",
-  "letterboxd_votes": 10507,
+  "letterboxd_votes": 12516,
   "overview": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
   "overview_en": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
   "overview_fr": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
@@ -6421,7 +6915,10 @@
  },
  "place:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/7/9/3/5/1/1579351-the-parking-spot-2026-0-230-0-345-crop.jpg?v=f3ff0333aa",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -6503,6 +7000,9 @@
   "tmdb_id": "1650665",
   "year": 2026
  },
+ "pompeisousnuages:2025": {
+  "enriched_at": "2026-09-30"
+ },
  "portaltohell": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l1/1t/8j/ep/eTuPNfCR3hSUnDKm2zBATP4lJym-1200-1200-675-675-crop-000000.jpg?v=5d4ceb7368",
   "enriched_at": "2026-09-26",
@@ -6535,7 +7035,10 @@
  },
  "possession:1981": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/md/zx/rq/4v/possession-1200-1200-675-675-crop-000000.jpg?v=e8b6f32f0a",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur"
+  ],
   "genres_en": [
    "Horror"
   ],
@@ -6546,7 +7049,7 @@
   "imdb_id": "tt0082933",
   "letterboxd_rating": 4.03,
   "letterboxd_url": "https://letterboxd.com/film/possession/",
-  "letterboxd_votes": 519784,
+  "letterboxd_votes": 529218,
   "overview": "Rentrant d'un long voyage, Mark retrouve à Berlin sa femme Anna et son fils, Bob. Mais rapidement, il se rend compte que le comportement de sa femme a changé. Prise de violentes crises, elle quitte le domicile. L'amie du couple, Annie, révèle à Mark le nom de l'amant d'Anna, Heinrich. Lorsqu'elle disparaît, Mark engage un détective qui découvre bientôt qu'Anna s'est réfugiée dans une étrange demeure où semble se cacher une créature surgie des ténèbres.",
   "overview_en": "A young woman left her family for an unspecified reason. The husband determines to find out the truth and starts following his wife. At first, he suspects that a man is involved. But gradually, he finds out more and more strange behaviors and bizarre incidents that indicate something more than a possessed love affair.",
   "overview_fr": "Rentrant d'un long voyage, Mark retrouve à Berlin sa femme Anna et son fils, Bob. Mais rapidement, il se rend compte que le comportement de sa femme a changé. Prise de violentes crises, elle quitte le domicile. L'amie du couple, Annie, révèle à Mark le nom de l'amant d'Anna, Heinrich. Lorsqu'elle disparaît, Mark engage un détective qui découvre bientôt qu'Anna s'est réfugiée dans une étrange demeure où semble se cacher une créature surgie des ténèbres.",
@@ -6619,7 +7122,12 @@
  },
  "practicalmagic2": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/8/5/0/2/2/tmdb/yDgYYuz8jDQCRJbHC3XM7IIGoeR-1200-1200-675-675-crop-000000.jpg?v=104462dc86",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Romance",
+   "Fantastique",
+   "Comédie"
+  ],
   "genres_en": [
    "Romance",
    "Fantasy",
@@ -6632,18 +7140,17 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt32588798",
-  "letterboxd_rating": 3.16,
+  "letterboxd_rating": 2.88,
   "letterboxd_url": "https://letterboxd.com/film/practical-magic-2/",
-  "letterboxd_votes": 1005,
+  "letterboxd_votes": 136197,
   "overview": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
   "overview_en": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
   "overview_fr": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
   "poster": "https://media.themoviedb.org/t/p/w500/oXCREUXRuwJckqLXp3WC8YUyZb7.jpg",
-  "runtime": 110,
+  "runtime": 130,
   "title_en": "Practical Magic 2",
   "title_fr": "Practical Magic 2",
   "tmdb_id": "1302904",
-  "wikidata_id": "Q131901398",
   "year": 2026
  },
  "primetime": {
@@ -6723,10 +7230,10 @@
   "enriched_at": "2026-09-15"
  },
  "qcc30whateverhappenedtobabyjane:1962": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "qcc31peeweesbigadventure:1985": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "qcc32inconnulac:2013": {
   "enriched_at": "2026-09-29"
@@ -6773,7 +7280,12 @@
  },
  "rashomon:1950": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fj/p1/fz/8h/rashomon-1200-1200-675-675-crop-000000.jpg?v=be65ddef83",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Crime",
+   "Drame",
+   "Mystère"
+  ],
   "genres_en": [
    "Crime",
    "Drama",
@@ -6788,7 +7300,7 @@
   "imdb_id": "tt0042876",
   "letterboxd_rating": 4.19,
   "letterboxd_url": "https://letterboxd.com/film/rashomon/",
-  "letterboxd_votes": 311558,
+  "letterboxd_votes": 315669,
   "overview": "Four people recount different versions of the story of a man's murder and the rape of his wife.",
   "overview_en": "Four people recount different versions of the story of a man's murder and the rape of his wife.",
   "overview_fr": "Four people recount different versions of the story of a man's murder and the rape of his wife.",
@@ -6800,11 +7312,16 @@
   "year": 1950
  },
  "redballonwhitemanepetitsmodernes:1953": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "redemptions:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/7/0/1/6/1567016-redemptions-0-230-0-345-crop.jpg?v=9ec64b0beb",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Thriller",
+   "Crime"
+  ],
   "genres_en": [
    "Drama",
    "Thriller",
@@ -6819,7 +7336,7 @@
   "imdb_id": "tt36412781",
   "letterboxd_rating": 3.45,
   "letterboxd_url": "https://letterboxd.com/film/redemptions/",
-  "letterboxd_votes": 726,
+  "letterboxd_votes": 796,
   "overview": "Marcel, un tueur à gages à la retraite, est forcé de reprendre le collier et de commettre deux meurtres à Montréal. Ce faisant, il initie, sans le savoir, une suite d'événements fortuits qui finiront par mettre en danger la vie de sa propre fille à Paris.",
   "overview_en": "Marcel, a retired hitman, is forced back into action and commits two murders in Montreal. In doing so, he unwittingly sets in motion a chain of unforeseen events that will ultimately endanger the life of his own daughter in Paris.",
   "overview_fr": "Marcel, un tueur à gages à la retraite, est forcé de reprendre le collier et de commettre deux meurtres à Montréal. Ce faisant, il initie, sans le savoir, une suite d'événements fortuits qui finiront par mettre en danger la vie de sa propre fille à Paris.",
@@ -6840,7 +7357,7 @@
   "tmdb_id": "1647086"
  },
  "redflagarabic": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "regarddulysse:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9o/xn/pn/3u/ulysses%20gaze-1200-1200-675-675-crop-000000.jpg?v=b7e515a0d5",
@@ -6872,7 +7389,10 @@
  },
  "renversement:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/8/4/1/9/1/1584191-un-renversement-0-230-0-345-crop.jpg?v=61a7121ab2",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
   "genres_en": [
    "Documentary"
   ],
@@ -6893,26 +7413,33 @@
   "year": 2026
  },
  "residentevil": {
-  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/0/2/7/1/7/tmdb/ddfXMkaPViSrg0P5aoYGFMc58x2-1200-1200-675-675-crop-000000.jpg?v=0ba8111cd6",
-  "enriched_at": "2026-09-09",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/c7/2d/gq/lu/resi-1200-1200-675-675-crop-000000.jpg?v=8d3221cbed",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Science-Fiction",
+   "Aventure"
+  ],
   "genres_en": [
    "Horror",
-   "Thriller",
+   "Science Fiction",
    "Adventure"
   ],
   "genres_fr": [
    "Horreur",
-   "Thriller",
+   "Science-Fiction",
    "Aventure"
   ],
   "i18n_v": 1,
   "imdb_id": "tt35538033",
-  "letterboxd_url": "https://letterboxd.com/film/untitled-resident-evil-reboot/",
+  "letterboxd_rating": 3.78,
+  "letterboxd_url": "https://letterboxd.com/film/resident-evil-2026/",
+  "letterboxd_votes": 1066360,
   "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
   "overview_en": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
   "overview_fr": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-  "poster": "https://media.themoviedb.org/t/p/w500/qku2uWSoJ9amQV5MWo1Eek29iji.jpg",
-  "runtime": 94,
+  "poster": "https://media.themoviedb.org/t/p/w500/6DQaQjKM3Hdb4wBy05WutwSBpew.jpg",
+  "runtime": 95,
   "title_en": "Resident Evil",
   "title_fr": "Resident Evil",
   "tmdb_id": "1423191",
@@ -6922,31 +7449,35 @@
   "enriched_at": "2026-09-26"
  },
  "revedafrique": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "revedafriqueaventuriersvoyageurs": {
   "enriched_at": "2026-09-28"
  },
  "revolte": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cs/s4/la/gk/uprising-1200-1200-675-675-crop-000000.jpg?v=b9a5bdc65d",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Histoire",
+   "Drame"
+  ],
   "genres_en": [
-   "Drama",
-   "Action",
-   "History"
+   "History",
+   "Drama"
   ],
   "genres_fr": [
-   "Drame",
-   "Action",
-   "Histoire"
+   "Histoire",
+   "Drame"
   ],
   "i18n_v": 1,
   "imdb_id": "tt36983905",
+  "letterboxd_rating": 2.81,
   "letterboxd_url": "https://letterboxd.com/film/the-uprising-2026/",
+  "letterboxd_votes": 33223,
   "overview": "Basé sur l'histoire vraie du soulèvement qui a inspiré la légende de Robin des Bois, Andrew Garfield incarne le chef d'une rébellion contre la tyrannie du roi Richard II dans une lutte pour la justice.",
   "overview_en": "As war and plague devastate 14th-century England, a humble peasant ignites a rebellion, uniting an army of commoners to defy the King’s might in a desperate fight for justice and survival.",
   "overview_fr": "Basé sur l'histoire vraie du soulèvement qui a inspiré la légende de Robin des Bois, Andrew Garfield incarne le chef d'une rébellion contre la tyrannie du roi Richard II dans une lutte pour la justice.",
-  "poster": "https://media.themoviedb.org/t/p/w500/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/AerogFyDhF2u3e9c917nFMJ6vr3.jpg",
   "runtime": 128,
   "title_en": "The Uprising",
   "title_fr": "La révolte",
@@ -6955,7 +7486,10 @@
  },
  "ring:2007": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/1/5/8/15158-the-fight-0-230-0-345-crop.jpg?v=6d3979b5d0",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -7002,6 +7536,9 @@
   "tmdb_id": "1336166",
   "year": 2026
  },
+ "rollingloudspecialeventpricing": {
+  "enriched_at": "2026-09-30"
+ },
  "romin": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/7/0/2/0/1567020-romin-0-230-0-345-crop.jpg?v=1b30d50927",
   "enriched_at": "2026-09-09",
@@ -7015,7 +7552,11 @@
  },
  "room:2003": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ay/jb/b5/xa/the-room-1200-1200-675-675-crop-000000.jpg?v=b2e17b62e4",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Romance"
+  ],
   "genres_en": [
    "Drama",
    "Romance"
@@ -7028,7 +7569,7 @@
   "imdb_id": "tt0368226",
   "letterboxd_rating": 2.58,
   "letterboxd_url": "https://letterboxd.com/film/the-room/",
-  "letterboxd_votes": 280599,
+  "letterboxd_votes": 284437,
   "overview": "Johnny is a successful banker with great respect for and dedication to the people in his life, especially his future wife Lisa. The happy-go-lucky guy sees his world being torn apart when his friends begin to betray him one-by-one.",
   "overview_en": "Johnny is a successful banker with great respect for and dedication to the people in his life, especially his future wife Lisa. The happy-go-lucky guy sees his world being torn apart when his friends begin to betray him one-by-one.",
   "overview_fr": "Johnny is a successful banker with great respect for and dedication to the people in his life, especially his future wife Lisa. The happy-go-lucky guy sees his world being torn apart when his friends begin to betray him one-by-one.",
@@ -7066,7 +7607,11 @@
  },
  "rosenevada:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/p8/5h/ju/vb/xKeYArWgmP7oEyDxsz7aK9fETm-1200-1200-675-675-crop-000000.jpg?v=029e71e047",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Mystère",
+   "Drame"
+  ],
   "genres_en": [
    "Mystery",
    "Drama"
@@ -7079,11 +7624,11 @@
   "imdb_id": "tt35674521",
   "letterboxd_rating": 3.47,
   "letterboxd_url": "https://letterboxd.com/film/rose-of-nevada/",
-  "letterboxd_votes": 31878,
-  "overview": "A mysterious boat returns to a village 30 years after vanishing. Two men join its crew hoping for better fortune. After one voyage, they find themselves transported back in time, mistaken for the original crew.",
+  "letterboxd_votes": 34659,
+  "overview": "When a fishing boat, the Rose of Nevada, lost with all hands 30 years ago, mysteriously reappears in the old harbour of a forgotten Cornish village, for those who remember, it’s surely a sign. The boat must go out to sea again and maybe then the luck of the devastated village will turn. Young father Nick and enigmatic newcomer Liam join captain Murgey, and they head to sea. But when they return, satisfied with their haul, something is amiss – they’ve slipped back in time, and the villagers greet them as if they are the original crew.",
   "overview_en": "When a fishing boat, the Rose of Nevada, lost with all hands 30 years ago, mysteriously reappears in the old harbour of a forgotten Cornish village, for those who remember, it’s surely a sign. The boat must go out to sea again and maybe then the luck of the devastated village will turn. Young father Nick and enigmatic newcomer Liam join captain Murgey, and they head to sea. But when they return, satisfied with their haul, something is amiss – they’ve slipped back in time, and the villagers greet them as if they are the original crew.",
   "overview_fr": "When a fishing boat, the Rose of Nevada, lost with all hands 30 years ago, mysteriously reappears in the old harbour of a forgotten Cornish village, for those who remember, it’s surely a sign. The boat must go out to sea again and maybe then the luck of the devastated village will turn. Young father Nick and enigmatic newcomer Liam join captain Murgey, and they head to sea. But when they return, satisfied with their haul, something is amiss – they’ve slipped back in time, and the villagers greet them as if they are the original crew.",
-  "poster": "https://media.themoviedb.org/t/p/w500/aDBZ2PGgUbcGjyX7ZCXLOk4AFQH.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/1x34FPfKP8uYO7LlzopbHpJFGAh.jpg",
   "runtime": 114,
   "title_en": "Rose of Nevada",
   "title_fr": "Rose of Nevada",
@@ -7092,7 +7637,10 @@
  },
  "rroussilculparterre:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/3/2/2/5/0/1332250-r-roussil-le-cul-par-terre-0-230-0-345-crop.jpg?v=3e661ce96d",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
   "genres_en": [
    "Documentary"
   ],
@@ -7136,6 +7684,31 @@
   "title_en": "Runner",
   "title_fr": "Le transport",
   "tmdb_id": "1377237",
+  "year": 2026
+ },
+ "runterryrun": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/9/9/6/2/1449962-run-terry-run-0-230-0-345-crop.jpg?v=e4005d124e",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt39130015",
+  "letterboxd_url": "https://letterboxd.com/film/run-terry-run/",
+  "overview": "The extraordinary story of Canadian icon Terry Fox will be told like never before in Run Terry Run, a new feature-length documentary directed by acclaimed filmmaker Sean Menard. The film offers an intimate, behind-the-scenes look at Terry’s legendary 1980 Marathon of Hope, drawing from 96 reels of never-before-seen footage and unheard audio interviews that have remained untouched for 45 years.",
+  "overview_en": "The extraordinary story of Canadian icon Terry Fox will be told like never before in Run Terry Run, a new feature-length documentary directed by acclaimed filmmaker Sean Menard. The film offers an intimate, behind-the-scenes look at Terry’s legendary 1980 Marathon of Hope, drawing from 96 reels of never-before-seen footage and unheard audio interviews that have remained untouched for 45 years.",
+  "overview_fr": "The extraordinary story of Canadian icon Terry Fox will be told like never before in Run Terry Run, a new feature-length documentary directed by acclaimed filmmaker Sean Menard. The film offers an intimate, behind-the-scenes look at Terry’s legendary 1980 Marathon of Hope, drawing from 96 reels of never-before-seen footage and unheard audio interviews that have remained untouched for 45 years.",
+  "poster": "https://media.themoviedb.org/t/p/w500/sSstsc561xip9s5FKereo1r1I9i.jpg",
+  "runtime": 111,
+  "title_en": "Run Terry Run",
+  "title_fr": "Run Terry Run",
+  "tmdb_id": "1578210",
   "year": 2026
  },
  "sacrifice:2025": {
@@ -7195,7 +7768,10 @@
  },
  "sambatraore": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/9/0/6/0/169060-samba-traore-0-230-0-345-crop.jpg?v=c1fd64436f",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -7204,9 +7780,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt0108031",
-  "letterboxd_rating": 3.7,
+  "letterboxd_rating": 3.71,
   "letterboxd_url": "https://letterboxd.com/film/samba-traore/",
-  "letterboxd_votes": 983,
+  "letterboxd_votes": 1011,
   "overview": "The only surviving accomplice of a gas station robbery gone bad, Samba Traoré flees the scene with a suitcase full of cash. However, his newfound happiness is put to the test as he struggles to cope with the moral crisis of his crimes.",
   "overview_en": "The only surviving accomplice of a gas station robbery gone bad, Samba Traoré flees the scene with a suitcase full of cash. However, his newfound happiness is put to the test as he struggles to cope with the moral crisis of his crimes.",
   "overview_fr": "The only surviving accomplice of a gas station robbery gone bad, Samba Traoré flees the scene with a suitcase full of cash. However, his newfound happiness is put to the test as he struggles to cope with the moral crisis of his crimes.",
@@ -7277,9 +7853,19 @@
  "sardar2tamil": {
   "enriched_at": "2026-09-15"
  },
+ "scoobfamilyfavourites": {
+  "enriched_at": "2026-09-30"
+ },
+ "scoobfilmsenfamille": {
+  "enriched_at": "2026-09-30"
+ },
  "secretmesanges": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/8/8/4/890884-the-songbirds-secret-0-230-0-345-crop.jpg?v=ee8f0b84f5",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Animation",
+   "Familial"
+  ],
   "genres_en": [
    "Animation",
    "Family"
@@ -7292,7 +7878,7 @@
   "imdb_id": "tt29497084",
   "letterboxd_rating": 3.57,
   "letterboxd_url": "https://letterboxd.com/film/the-songbirds-secret/",
-  "letterboxd_votes": 1036,
+  "letterboxd_votes": 1054,
   "overview": "When 9-year-old Lucie arrives at Bectoile for the vacations, she has no idea of the adventures ahead. Her mother, Caroline, is leading an archaeological dig in the region with her colleague Pierrot. Bectoile is also the town where Caroline grew up, and the scene of a family secret... which Lucie is about to unveil! With the help of her new friend Yann and a very special pair of songbirds, Lucie is determined to delve into her family story. From the underground of a ruined castle to a camper van parked on the edge of the woods, this adventure will lead them from unusual surprises to fabulous discoveries!",
   "overview_en": "When 9-year-old Lucie arrives at Bectoile for the vacations, she has no idea of the adventures ahead. Her mother, Caroline, is leading an archaeological dig in the region with her colleague Pierrot. Bectoile is also the town where Caroline grew up, and the scene of a family secret... which Lucie is about to unveil! With the help of her new friend Yann and a very special pair of songbirds, Lucie is determined to delve into her family story. From the underground of a ruined castle to a camper van parked on the edge of the woods, this adventure will lead them from unusual surprises to fabulous discoveries!",
   "overview_fr": "When 9-year-old Lucie arrives at Bectoile for the vacations, she has no idea of the adventures ahead. Her mother, Caroline, is leading an archaeological dig in the region with her colleague Pierrot. Bectoile is also the town where Caroline grew up, and the scene of a family secret... which Lucie is about to unveil! With the help of her new friend Yann and a very special pair of songbirds, Lucie is determined to delve into her family story. From the underground of a ruined castle to a camper van parked on the edge of the woods, this adventure will lead them from unusual surprises to fabulous discoveries!",
@@ -7434,7 +8020,12 @@
  },
  "sheepdetectives": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/76/w9/hj/wo/g6uEVedSBXsZ3QuXKP4WDCeSsOy%20(1)-1200-1200-675-675-crop-000000.jpg?v=08bcff0341",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie",
+   "Familial",
+   "Mystère"
+  ],
   "genres_en": [
    "Comedy",
    "Family",
@@ -7449,7 +8040,7 @@
   "imdb_id": "tt32565993",
   "letterboxd_rating": 3.78,
   "letterboxd_url": "https://letterboxd.com/film/the-sheep-detectives/",
-  "letterboxd_votes": 1032823,
+  "letterboxd_votes": 1073863,
   "overview": "Dans cette enquête aussi drôle qu’inhabituelle, George est un berger qui lit chaque soir des romans policiers à ses moutons, convaincu qu’ils n’y comprennent rien. Mais lorsqu’un événement mystérieux bouleverse la tranquillité de la ferme, le troupeau décide de mener l’enquête. En suivant les indices et en enquêtant sur les suspects humains, les moutons se révèlent être de malins détectives.",
   "overview_en": "George Hardy is a shepherd who reads detective novels to his beloved sheep every night, assuming they can't possibly understand. But when a mysterious incident disrupts life on the farm, the sheep realize they must become the detectives. As they follow the clues and investigate human suspects, they prove that even sheep can be brilliant crime-solvers.",
   "overview_fr": "Dans cette enquête aussi drôle qu’inhabituelle, George est un berger qui lit chaque soir des romans policiers à ses moutons, convaincu qu’ils n’y comprennent rien. Mais lorsqu’un événement mystérieux bouleverse la tranquillité de la ferme, le troupeau décide de mener l’enquête. En suivant les indices et en enquêtant sur les suspects humains, les moutons se révèlent être de malins détectives.",
@@ -7462,7 +8053,11 @@
  },
  "shining:1980": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tm/ta/x1/yh/shining-1200-1200-675-675-crop-000000.jpg?v=3eeee4ee5a",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Thriller"
+  ],
   "genres_en": [
    "Horror",
    "Thriller"
@@ -7475,7 +8070,7 @@
   "imdb_id": "tt0081505",
   "letterboxd_rating": 4.21,
   "letterboxd_url": "https://letterboxd.com/film/the-shining/",
-  "letterboxd_votes": 3381656,
+  "letterboxd_votes": 3420595,
   "overview": "Jack Torrance, gardien d'un hôtel fermé l'hiver, sa femme et son fils Danny s'apprêtent à vivre de longs mois de solitude. Danny, qui possède un don de médium, le \"Shining\", est effrayé à l'idée d'habiter ce lieu, théâtre marqué par de terribles évènements passés...",
   "overview_en": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
   "overview_fr": "Jack Torrance, gardien d'un hôtel fermé l'hiver, sa femme et son fils Danny s'apprêtent à vivre de longs mois de solitude. Danny, qui possède un don de médium, le \"Shining\", est effrayé à l'idée d'habiter ce lieu, théâtre marqué par de terribles évènements passés...",
@@ -7546,7 +8141,11 @@
  },
  "sickmyselfstaffpicks:2022": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/3q/kp/mc/4m/sick-1200-1200-675-675-crop-000000.jpg?v=f9fb06d5d4",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie",
+   "Horreur"
+  ],
   "genres_en": [
    "Comedy",
    "Horror"
@@ -7559,7 +8158,7 @@
   "imdb_id": "tt18816518",
   "letterboxd_rating": 3.72,
   "letterboxd_url": "https://letterboxd.com/film/sick-of-myself/",
-  "letterboxd_votes": 193053,
+  "letterboxd_votes": 195167,
   "overview": "Increasingly overshadowed by her boyfriend's recent rise to fame as a contemporary artist creating sculptures from stolen furniture, Signe hatches a vicious plan to reclaim her rightfully deserved attention within the milieu of Oslo's cultural elite.",
   "overview_en": "Increasingly overshadowed by her boyfriend's recent rise to fame as a contemporary artist creating sculptures from stolen furniture, Signe hatches a vicious plan to reclaim her rightfully deserved attention within the milieu of Oslo's cultural elite.",
   "overview_fr": "Increasingly overshadowed by her boyfriend's recent rise to fame as a contemporary artist creating sculptures from stolen furniture, Signe hatches a vicious plan to reclaim her rightfully deserved attention within the milieu of Oslo's cultural elite.",
@@ -7695,7 +8294,12 @@
  },
  "spidermanbrandnewday": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/8/7/2/8/7/1/tmdb/jenQoCLJ4FEfFGZS13op91jlxjy-1200-1200-675-675-crop-000000.jpg?v=131b9e91eb",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Science-Fiction",
+   "Action",
+   "Aventure"
+  ],
   "genres_en": [
    "Science Fiction",
    "Action",
@@ -7708,9 +8312,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt22084616",
-  "letterboxd_rating": 4.05,
+  "letterboxd_rating": 4.04,
   "letterboxd_url": "https://letterboxd.com/film/spider-man-brand-new-day/",
-  "letterboxd_votes": 4005909,
+  "letterboxd_votes": 4285413,
   "overview": "Quatre ans se sont écoulés depuis les événements du film précédent. Peter, désormais adulte, vit seul, ayant volontairement disparu de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de sa ville – Spider-Man à plein temps – mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'un nouveau mode opératoire criminel donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
   "overview_en": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
   "overview_fr": "Quatre ans se sont écoulés depuis les événements du film précédent. Peter, désormais adulte, vit seul, ayant volontairement disparu de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de sa ville – Spider-Man à plein temps – mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'un nouveau mode opératoire criminel donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
@@ -7723,7 +8327,12 @@
  },
  "spidermanjournouveau": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/8/7/2/8/7/1/tmdb/jenQoCLJ4FEfFGZS13op91jlxjy-1200-1200-675-675-crop-000000.jpg?v=131b9e91eb",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Science-Fiction",
+   "Action",
+   "Aventure"
+  ],
   "genres_en": [
    "Science Fiction",
    "Action",
@@ -7736,9 +8345,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt22084616",
-  "letterboxd_rating": 4.05,
+  "letterboxd_rating": 4.04,
   "letterboxd_url": "https://letterboxd.com/film/spider-man-brand-new-day/",
-  "letterboxd_votes": 4005950,
+  "letterboxd_votes": 4285413,
   "overview": "Quatre ans se sont écoulés depuis les événements du film précédent. Peter, désormais adulte, vit seul, ayant volontairement disparu de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de sa ville – Spider-Man à plein temps – mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'un nouveau mode opératoire criminel donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
   "overview_en": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
   "overview_fr": "Quatre ans se sont écoulés depuis les événements du film précédent. Peter, désormais adulte, vit seul, ayant volontairement disparu de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de sa ville – Spider-Man à plein temps – mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'un nouveau mode opératoire criminel donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
@@ -7808,7 +8417,11 @@
  },
  "substance:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ju/7r/z4/9i/xfSVZf7naMoGuqoHaQhbvfPrfWs-1200-1200-675-675-crop-000000.jpg?v=adde104f43",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Science-Fiction"
+  ],
   "genres_en": [
    "Horror",
    "Science Fiction"
@@ -7821,7 +8434,7 @@
   "imdb_id": "tt17526714",
   "letterboxd_rating": 3.73,
   "letterboxd_url": "https://letterboxd.com/film/the-substance/",
-  "letterboxd_votes": 3815974,
+  "letterboxd_votes": 3862038,
   "overview": "Par un procédé biochimique, une actrice vieillissante crée une version d'elle plus jeune, qui vit à sa place une semaine sur deux.",
   "overview_en": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
   "overview_fr": "Par un procédé biochimique, une actrice vieillissante crée une version d'elle plus jeune, qui vit à sa place une semaine sur deux.",
@@ -7894,7 +8507,10 @@
  },
  "suspiria:1977": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/t4/ch/a6/pn/suspiria-1200-1200-675-675-crop-000000.jpg?v=32b7a16f8b",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur"
+  ],
   "genres_en": [
    "Horror"
   ],
@@ -7905,7 +8521,7 @@
   "imdb_id": "tt0076786",
   "letterboxd_rating": 3.92,
   "letterboxd_url": "https://letterboxd.com/film/suspiria/",
-  "letterboxd_votes": 590308,
+  "letterboxd_votes": 596084,
   "overview": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
   "overview_en": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
   "overview_fr": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
@@ -7921,7 +8537,11 @@
  },
  "taleautumn:1998": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ub/hx/j5/6i/autumn%20tale-1200-1200-675-675-crop-000000.jpg?v=d163b29a03",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Romance"
+  ],
   "genres_en": [
    "Drama",
    "Romance"
@@ -7934,7 +8554,7 @@
   "imdb_id": "tt0137439",
   "letterboxd_rating": 3.88,
   "letterboxd_url": "https://letterboxd.com/film/a-tale-of-autumn/",
-  "letterboxd_votes": 19424,
+  "letterboxd_votes": 19843,
   "overview": "Magali, forty-something, is a winemaker and a widow: she loves her work but feels lonely. Her friends Rosine and Isabelle both want secretly to find a husband for Magali.",
   "overview_en": "Magali, forty-something, is a winemaker and a widow: she loves her work but feels lonely. Her friends Rosine and Isabelle both want secretly to find a husband for Magali.",
   "overview_fr": "Magali, forty-something, is a winemaker and a widow: she loves her work but feels lonely. Her friends Rosine and Isabelle both want secretly to find a husband for Magali.",
@@ -7973,7 +8593,12 @@
  },
  "teenagesexdeathatcampmiasma:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7m/h0/iq/dx/5dbLRlAeIh4U3hyj4i4S4shv9AW-1200-1200-675-675-crop-000000.jpg?v=4f87c8fe02",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie",
+   "Horreur",
+   "Romance"
+  ],
   "genres_en": [
    "Comedy",
    "Horror",
@@ -7986,11 +8611,11 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt35298123",
-  "letterboxd_rating": 3.78,
+  "letterboxd_rating": 3.69,
   "letterboxd_url": "https://letterboxd.com/film/teenage-sex-and-death-at-camp-miasma/",
-  "letterboxd_votes": 272082,
+  "letterboxd_votes": 370079,
   "overview": "La réalisatrice du remake d'un film d'horreur devient obsédée par l’actrice mystérieuse qui incarnait la «final girl» dans le film original...",
-  "overview_en": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original's star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
+  "overview_en": "After years of slapdash sequels, the Camp Miasma franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original’s star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
   "overview_fr": "La réalisatrice du remake d'un film d'horreur devient obsédée par l’actrice mystérieuse qui incarnait la «final girl» dans le film original...",
   "poster": "https://media.themoviedb.org/t/p/w500/3JbhK9HrlORsqfnhlTCbu1nP8sx.jpg",
   "runtime": 112,
@@ -8000,11 +8625,15 @@
   "year": 2026
  },
  "theaterthought:2022": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "tony:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/va/ir/j7/p7/bOqTOVkHAL4z87P0Opf6q5mIeRy-1200-1200-675-675-crop-000000.jpg?v=ac8d6352de",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Comédie"
+  ],
   "genres_en": [
    "Drama",
    "Comedy"
@@ -8015,13 +8644,13 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt33095251",
-  "letterboxd_rating": 3.85,
+  "letterboxd_rating": 3.83,
   "letterboxd_url": "https://letterboxd.com/film/tony-2026/",
-  "letterboxd_votes": 240967,
+  "letterboxd_votes": 324798,
   "overview": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
   "overview_en": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
   "overview_fr": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
-  "poster": "https://media.themoviedb.org/t/p/w500/3WN0JWwRI7oGH7Ni2R6poVWej05.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/zsisvReIrSIUPS3JXawt1ib9JDS.jpg",
   "runtime": 106,
   "title_en": "Tony",
   "title_fr": "Tony",
@@ -8036,7 +8665,13 @@
  },
  "toystory5": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/95/lo/so/uy/1WAxiCSwgPAKlOGrqbCdks0A1NI-1200-1200-675-675-crop-000000.jpg?v=6787fc1781",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Animation",
+   "Familial",
+   "Comédie",
+   "Aventure"
+  ],
   "genres_en": [
    "Animation",
    "Family",
@@ -8051,9 +8686,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt29355505",
-  "letterboxd_rating": 3.65,
+  "letterboxd_rating": 3.63,
   "letterboxd_url": "https://letterboxd.com/film/toy-story-5/",
-  "letterboxd_votes": 1040951,
+  "letterboxd_votes": 1147092,
   "overview": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s’appelle… l'électronique !",
   "overview_en": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
   "overview_fr": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s’appelle… l'électronique !",
@@ -8066,7 +8701,11 @@
  },
  "trainspotting30th:1996": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jq/84/k3/al/trainspotting-55-1200-1200-675-675-crop-000000.jpg?v=c019cea1ec",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame",
+   "Crime"
+  ],
   "genres_en": [
    "Drama",
    "Crime"
@@ -8079,7 +8718,7 @@
   "imdb_id": "tt0117951",
   "letterboxd_rating": 4.23,
   "letterboxd_url": "https://letterboxd.com/film/trainspotting/",
-  "letterboxd_votes": 1324386,
+  "letterboxd_votes": 1346901,
   "overview": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends --Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind as Begbie and Sick Boy come knocking.",
   "overview_en": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends --Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind as Begbie and Sick Boy come knocking.",
   "overview_fr": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends --Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind as Begbie and Sick Boy come knocking.",
@@ -8148,7 +8787,11 @@
  },
  "tudorsnicole:2014": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/yo/mr/w8/gh/tu-dors-1200-1200-675-675-crop-000000.jpg?v=c858808465",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Comédie",
+   "Drame"
+  ],
   "genres_en": [
    "Comedy",
    "Drama"
@@ -8161,7 +8804,7 @@
   "imdb_id": "tt3483194",
   "letterboxd_rating": 3.64,
   "letterboxd_url": "https://letterboxd.com/film/youre-sleeping-nicole/",
-  "letterboxd_votes": 4527,
+  "letterboxd_votes": 4551,
   "overview": "Pendant l'absence de ses parents, une jeune femme et son ami passent l'été ensemble, et sont rejoints par son frère et ses amis musiciens.",
   "overview_en": "Making the most of the family home while her parents are away, 22-year-old Nicole is enjoying a peaceful summer with her best friend Véronique. But when Nicole’s older brother shows up with his band to record an album, the girls’ friendship is put to the test.",
   "overview_fr": "Pendant l'absence de ses parents, une jeune femme et son ami passent l'été ensemble, et sont rejoints par son frère et ses amis musiciens.",
@@ -8274,24 +8917,28 @@
  },
  "uprising": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cs/s4/la/gk/uprising-1200-1200-675-675-crop-000000.jpg?v=b9a5bdc65d",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Histoire",
+   "Drame"
+  ],
   "genres_en": [
-   "Drama",
-   "Action",
-   "History"
+   "History",
+   "Drama"
   ],
   "genres_fr": [
-   "Drame",
-   "Action",
-   "Histoire"
+   "Histoire",
+   "Drame"
   ],
   "i18n_v": 1,
   "imdb_id": "tt36983905",
+  "letterboxd_rating": 2.81,
   "letterboxd_url": "https://letterboxd.com/film/the-uprising-2026/",
+  "letterboxd_votes": 33222,
   "overview": "Basé sur l'histoire vraie du soulèvement qui a inspiré la légende de Robin des Bois, Andrew Garfield incarne le chef d'une rébellion contre la tyrannie du roi Richard II dans une lutte pour la justice.",
   "overview_en": "As war and plague devastate 14th-century England, a humble peasant ignites a rebellion, uniting an army of commoners to defy the King’s might in a desperate fight for justice and survival.",
   "overview_fr": "Basé sur l'histoire vraie du soulèvement qui a inspiré la légende de Robin des Bois, Andrew Garfield incarne le chef d'une rébellion contre la tyrannie du roi Richard II dans une lutte pour la justice.",
-  "poster": "https://media.themoviedb.org/t/p/w500/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
+  "poster": "https://media.themoviedb.org/t/p/w500/AerogFyDhF2u3e9c917nFMJ6vr3.jpg",
   "runtime": 128,
   "title_en": "The Uprising",
   "title_fr": "La révolte",
@@ -8300,7 +8947,11 @@
  },
  "urbanflesh:1999": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/9/6/4/4/7/196447-urban-flesh-0-230-0-345-crop.jpg?v=b112cfd862",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Horreur",
+   "Thriller"
+  ],
   "genres_en": [
    "Horror",
    "Thriller"
@@ -8354,7 +9005,7 @@
   "year": 2000
  },
  "vampirehumanistecherchesuicidaireconsentant": {
-  "enriched_at": "2026-09-26"
+  "enriched_at": "2026-09-30"
  },
  "vampirehumanistecherchesuicidaireconsentant:2023": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/i0/ww/8e/l2/Humanist-Vampire-1200-1200-675-675-crop-000000.jpg?v=db12cec4b4",
@@ -8497,7 +9148,7 @@
   "enriched_at": "2026-09-22"
  },
  "videoclubspectateurennemi": {
-  "enriched_at": "2026-09-27"
+  "enriched_at": "2026-09-30"
  },
  "videodrome:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xa/04/29/l7/videodrome-1200-1200-675-675-crop-000000.jpg?v=0d3584f6b2",
@@ -8617,22 +9268,27 @@
  },
  "vincentprophetiemers:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/6/0/1/8/5/0/tmdb/l57zMmISH0SCWsXR7iorceZTm8y-1200-1200-675-675-crop-000000.jpg?v=6d79fc3d28",
-  "enriched_at": "2026-09-09",
-  "genres_en": [
-   "Adventure",
+  "enriched_at": "2026-09-30",
+  "genres": [
    "Animation",
+   "Aventure",
+   "Familial"
+  ],
+  "genres_en": [
+   "Animation",
+   "Adventure",
    "Family"
   ],
   "genres_fr": [
-   "Aventure",
    "Animation",
+   "Aventure",
    "Familial"
   ],
   "i18n_v": 1,
   "imdb_id": "tt13518550",
-  "letterboxd_rating": 3.06,
+  "letterboxd_rating": 3.04,
   "letterboxd_url": "https://letterboxd.com/film/the-last-whale-singer/",
-  "letterboxd_votes": 452,
+  "letterboxd_votes": 507,
   "overview": "When a monstrous creature escapes from a melting iceberg, a self-doubting teenage humpback whale must face his greatest fears and dive into the darkest depths with his friends, to discover the mystical song that can save the oceans from destruction.",
   "overview_en": "When a monstrous creature escapes from a melting iceberg, a self-doubting teenage humpback whale must face his greatest fears and dive into the darkest depths with his friends, to discover the mystical song that can save the oceans from destruction.",
   "overview_fr": "When a monstrous creature escapes from a melting iceberg, a self-doubting teenage humpback whale must face his greatest fears and dive into the darkest depths with his friends, to discover the mystical song that can save the oceans from destruction.",
@@ -8641,6 +9297,33 @@
   "title_en": "The Last Whale Singer",
   "title_fr": "The Last Whale Singer",
   "tmdb_id": "677558",
+  "year": 2026
+ },
+ "violencecorpsautre:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/2/6/5/2/5/1426525-nobodys-violence-0-230-0-345-crop.jpg?v=855b9f94fb",
+  "enriched_at": "2026-09-30",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt38512625",
+  "letterboxd_rating": 3.24,
+  "letterboxd_url": "https://letterboxd.com/film/nobodys-violence/",
+  "letterboxd_votes": 369,
+  "overview": "Mira parcourt les routes à la rencontre de gens désespérés avec qui elle semble avoir noué d’étranges pactes de mort. Sans port d’attache, elle s’arrête chez Madeleine et Ludo, deux esprits libres installés en forêt. En pause de ses missions, déroutée par la rencontre fulgurante d’un jeune homme excessif et intrigant, elle profite de cette escale pour questionner ses errances et réévaluer ses sombres contrats.",
+  "overview_en": "Mira is a solitary woman of few words. She travels the roads meeting desperate people with whom she seems to have forged strange death pacts. With no apparent destination, she meets Madeleine and Ludo, two free-spirited hedonists living deep in the forest. Taking a break from her missions and unsettled by a sudden encounter with an excessive and intriguing young man, she uses this stopover to question her wandering life and reassess her dark agreements.",
+  "overview_fr": "Mira parcourt les routes à la rencontre de gens désespérés avec qui elle semble avoir noué d’étranges pactes de mort. Sans port d’attache, elle s’arrête chez Madeleine et Ludo, deux esprits libres installés en forêt. En pause de ses missions, déroutée par la rencontre fulgurante d’un jeune homme excessif et intrigant, elle profite de cette escale pour questionner ses errances et réévaluer ses sombres contrats.",
+  "poster": "https://media.themoviedb.org/t/p/w500/3APO2ls48cLlwqy3XGFLcL81i4v.jpg",
+  "runtime": 118,
+  "title_en": "Nobody's Violence",
+  "title_fr": "Violence du corps de l'autre",
+  "tmdb_id": "1552242",
   "year": 2026
  },
  "virginsuicides:1999": {
