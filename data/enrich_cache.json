@@ -957,6 +957,36 @@
  "baththatamil": {
   "enriched_at": "2026-10-01"
  },
+ "batmanreturns:1992": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tu/w9/6z/r2/batman-returns-1200-1200-675-675-crop-000000.jpg?v=1364777873",
+  "enriched_at": "2026-10-02",
+  "genres": [
+   "Action",
+   "Fantastique"
+  ],
+  "genres_en": [
+   "Action",
+   "Fantasy"
+  ],
+  "genres_fr": [
+   "Action",
+   "Fantastique"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0103776",
+  "letterboxd_rating": 3.6,
+  "letterboxd_url": "https://letterboxd.com/film/batman-returns/",
+  "letterboxd_votes": 542766,
+  "overview": "Non seulement Batman doit affronter le Pingouin, monstre doté d'une intelligence à toute épreuve qui sème la terreur, mais, plus difficile encore, il doit faire face à la séduction de deux super-femmes, la douce Selina Kyle et la féline Catwoman qui va lui donner bien du fil a retordre. Si Bruce Wayne apprécie Selina, Batman n'est pas insensible au charme de Catwoman.",
+  "overview_en": "The monstrous Penguin, who dwells in the sewers beneath Gotham, joins up with corrupt mayoral candidate Max Shreck to topple the Batman once and for all. But when Shreck's timid assistant Selina Kyle finds out, and Shreck tries to kill her, she's transformed into the sexy Catwoman. She teams up with the Penguin and Shreck to destroy Batman, but sparks fly unexpectedly when she confronts the caped crusader.",
+  "overview_fr": "Non seulement Batman doit affronter le Pingouin, monstre doté d'une intelligence à toute épreuve qui sème la terreur, mais, plus difficile encore, il doit faire face à la séduction de deux super-femmes, la douce Selina Kyle et la féline Catwoman qui va lui donner bien du fil a retordre. Si Bruce Wayne apprécie Selina, Batman n'est pas insensible au charme de Catwoman.",
+  "poster": "https://media.themoviedb.org/t/p/w500/fcvfqGsXceQsEieSQsPm6ju46wk.jpg",
+  "runtime": 126,
+  "title_en": "Batman Returns",
+  "title_fr": "Le retour de Batman",
+  "tmdb_id": "364",
+  "year": 1992
+ },
  "beans:2021": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/dd/jt/zz/9y/beans-1200-1200-675-675-crop-000000.jpg?v=8e30e63657",
   "enriched_at": "2026-09-09",
@@ -1335,6 +1365,9 @@
  "bluewindow:2016": {
   "enriched_at": "2026-09-25"
  },
+ "blumfestpresentsothermommyfaneventscreening": {
+  "enriched_at": "2026-10-02"
+ },
  "bolbhaveinnabol": {
   "enriched_at": "2026-09-09"
  },
@@ -1441,7 +1474,7 @@
   "year": 2024
  },
  "boy:1969": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "boyfriendsgirlfriends:1987": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ef/qf/lg/e2/boyfriends-1200-1200-675-675-crop-000000.jpg?v=0e09f34b51",
@@ -1862,7 +1895,7 @@
   "year": 2025
  },
  "charleboissymphoniquecelebrationgrandioseavecosm:2026": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "chateaudarioka": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/bl/kc/7o/27/z5oMoDs6a1GAuK5cNAeBkAr0yk-1200-1200-675-675-crop-000000.jpg?v=789a65f6ee",
@@ -2312,7 +2345,7 @@
   "enriched_at": "2026-09-30"
  },
  "coursterrycours": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "coyotevsacme": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ci/qq/vp/cm/coyote-1200-1200-675-675-crop-000000.jpg?v=e21dafdd5b",
@@ -3183,7 +3216,7 @@
   "year": 2024
  },
  "fnc": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "forfewdollarsmore:1965": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9k/y1/6f/j7/8tbWZYvniZcjFZEX4XiCjrbHgl4-1200-1200-675-675-crop-000000.jpg?v=63cce732f7",
@@ -3658,6 +3691,27 @@
   "tmdb_id": "51241",
   "year": 2010
  },
+ "hemela": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/1/1/6/9/1/1411691-hemela-0-230-0-345-crop.jpg?v=42556675ca",
+  "enriched_at": "2026-10-02",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "letterboxd_url": "https://letterboxd.com/film/hemela/",
+  "overview": "Portrait de Hemela Pourafzal, l'exubérante matriarche et propriétaire du Byblos Le Petit Café, un restaurant iranien incontournable installé à Montréal depuis plus de 37 ans, servant de point de rencontre central pour la diaspora iranienne et la scène artistique locale. Alors qu'Hemela revient sur les huit dernières décennies de sa vie aventureuse, nous découvrons ses histoires inédites et celles des femmes iraniennes à travers le prisme de sa vie.",
+  "overview_en": "A portrait of Hemela Pourafzal, the exuberant matriarch and owner of Byblos Le Petit Café, a staple Iranian restaurant nested in Montreal for more than 37 years, serving as a central meeting point for the Iranian diaspora and the local art scene. As Hemela reflects on the past eight decades of her adventurous life, we uncover her untold stories and that of Iranian women through the prism of her life.",
+  "overview_fr": "Portrait de Hemela Pourafzal, l'exubérante matriarche et propriétaire du Byblos Le Petit Café, un restaurant iranien incontournable installé à Montréal depuis plus de 37 ans, servant de point de rencontre central pour la diaspora iranienne et la scène artistique locale. Alors qu'Hemela revient sur les huit dernières décennies de sa vie aventureuse, nous découvrons ses histoires inédites et celles des femmes iraniennes à travers le prisme de sa vie.",
+  "poster": "https://media.themoviedb.org/t/p/w500/8sO9L2arzy5qQOUDPPFzfV4S5iZ.jpg",
+  "runtime": 70,
+  "tmdb_id": "1536950"
+ },
  "hemela:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/1/1/6/9/1/1411691-hemela-0-230-0-345-crop.jpg?v=42556675ca",
   "enriched_at": "2026-09-30",
@@ -3807,6 +3861,36 @@
   "title_en": "Parallel Tales",
   "title_fr": "Histoires parallèles",
   "tmdb_id": "1157869",
+  "year": 2026
+ },
+ "historyconcrete": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/6/4/8/3/5/tmdb/2QWJHuCeYyFvDRY5CGJ4nlmaqYn-1200-1200-675-675-crop-000000.jpg?v=e4602d7104",
+  "enriched_at": "2026-10-02",
+  "genres": [
+   "Documentaire",
+   "Comédie"
+  ],
+  "genres_en": [
+   "Documentary",
+   "Comedy"
+  ],
+  "genres_fr": [
+   "Documentaire",
+   "Comédie"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt39150234",
+  "letterboxd_rating": 3.99,
+  "letterboxd_url": "https://letterboxd.com/film/the-history-of-concrete/",
+  "letterboxd_votes": 16539,
+  "overview": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
+  "overview_en": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
+  "overview_fr": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
+  "poster": "https://media.themoviedb.org/t/p/w500/2GWR1g1VdUNnNpLh6XfAQ6LVfyd.jpg",
+  "runtime": 101,
+  "title_en": "The History of Concrete",
+  "title_fr": "The History of Concrete",
+  "tmdb_id": "1596296",
   "year": 2026
  },
  "hitamengsub": {
@@ -4221,7 +4305,10 @@
  },
  "interetdadam": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/6/7/1/5/tmdb/ltpZ8p6WiaMJqFU5Wpsdx6fRT5I-1200-1200-675-675-crop-000000.jpg?v=798025bc98",
-  "enriched_at": "2026-09-11",
+  "enriched_at": "2026-10-02",
+  "genres": [
+   "Drame"
+  ],
   "genres_en": [
    "Drama"
   ],
@@ -4230,9 +4317,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt32318707",
-  "letterboxd_rating": 3.38,
+  "letterboxd_rating": 3.39,
   "letterboxd_url": "https://letterboxd.com/film/adams-sake/",
-  "letterboxd_votes": 8491,
+  "letterboxd_votes": 8576,
   "overview": "A head nurse defies hospital rules to let a mother stay with her malnourished son. As they navigate a complex crisis, the nurse's empathy proves just as vital to the boy's healing as medicine.",
   "overview_en": "A head nurse defies hospital rules to let a mother stay with her malnourished son. As they navigate a complex crisis, the nurse's empathy proves just as vital to the boy's healing as medicine.",
   "overview_fr": "A head nurse defies hospital rules to let a mother stay with her malnourished son. As they navigate a complex crisis, the nurse's empathy proves just as vital to the boy's healing as medicine.",
@@ -5227,7 +5314,7 @@
   "year": 2026
  },
  "luttmubarak": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "maddiessecret:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/3/5/4/9/tmdb/kwBX4d1MsVl5h3GkQCXJAQ4r0O4-1200-1200-675-675-crop-000000.jpg?v=d082b93af2",
@@ -6442,6 +6529,9 @@
   "tmdb_id": "1400837",
   "year": 2026
  },
+ "othermommyfaneventscreening": {
+  "enriched_at": "2026-10-02"
+ },
  "paradise": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/6/3/2/6/7/1263267-the-paradise-2026-0-230-0-345-crop.jpg?v=efbcb4a5aa",
   "enriched_at": "2026-09-23",
@@ -6730,7 +6820,7 @@
   "year": 2018
  },
  "paulinejulienwomancountry": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "pawpatroldinomovie": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
@@ -6956,6 +7046,31 @@
   "title_fr": "The Philadelphia Story",
   "tmdb_id": "981",
   "year": 1940
+ },
+ "photosaigoncoupsfeusurdeuxvies": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/7/4/7/2/8/1474728-saigon-story-two-shootings-in-the-forest-0-230-0-345-crop.jpg?v=195486f454",
+  "enriched_at": "2026-10-02",
+  "genres": [
+   "Documentaire"
+  ],
+  "genres_en": [
+   "Documentary"
+  ],
+  "genres_fr": [
+   "Documentaire"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt36451987",
+  "letterboxd_url": "https://letterboxd.com/film/saigon-story-two-shootings-in-the-forest/",
+  "overview": "Que cache l’une des images de guerre les plus légendaires du 20e siècle? Avec une approche narrative captivante, le cinéaste Kim Nguyen, nommé aux Oscars, explore le lien énigmatique entre deux familles vietnamiennes et la photo L’exécution de Saigon, prise pendant la guerre du Vietnam. Entre drame historique et enquête captivante, Une photo à Saigon déterre les secrets personnels et collectifs, révélant la nature insaisissable de la mémoire et le chemin sinueux de la guérison.",
+  "overview_en": "Which is more final, the gun or the camera? Armed with a powerful visual style, Oscar®-nominated filmmaker Kim Nguyen reveals the elusive connection between two families and one iconic photo: Saigon Execution. Part history, part mystery, Saigon Story confronts the family secrets left in the wake of the Vietnam War, exposing the resilience of survivors and the blurred legacy of wartime memory.",
+  "overview_fr": "Que cache l’une des images de guerre les plus légendaires du 20e siècle? Avec une approche narrative captivante, le cinéaste Kim Nguyen, nommé aux Oscars, explore le lien énigmatique entre deux familles vietnamiennes et la photo L’exécution de Saigon, prise pendant la guerre du Vietnam. Entre drame historique et enquête captivante, Une photo à Saigon déterre les secrets personnels et collectifs, révélant la nature insaisissable de la mémoire et le chemin sinueux de la guérison.",
+  "poster": "https://media.themoviedb.org/t/p/w500/ev5ZegjbZxSgzYvNUXszvT8WdwS.jpg",
+  "runtime": 91,
+  "title_en": "Une photo à Saigon : coups de feu sur deux vies",
+  "title_fr": "Une photo à Saigon : coups de feu sur deux vies",
+  "tmdb_id": "1606750",
+  "year": 2026
  },
  "photosaigoncoupsfeusurdeuxvies:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/7/4/7/2/8/1474728-saigon-story-two-shootings-in-the-forest-0-230-0-345-crop.jpg?v=195486f454",
@@ -7343,7 +7458,7 @@
   "year": 2026
  },
  "primeurssurpriseslundi": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "psychic": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0g/8w/vm/hx/mHeyQoYO5zyWLZxsyVzGZLymf15-1200-1200-675-675-crop-000000.jpg?v=07b1f21364",
@@ -7392,7 +7507,7 @@
   "enriched_at": "2026-09-30"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-10-01"
@@ -7429,7 +7544,7 @@
   "year": 1972
  },
  "queenbudapest": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "queenbudapestexperience": {
   "enriched_at": "2026-10-01"
@@ -7739,7 +7854,10 @@
  },
  "rose:2020": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/5/5/4/1/4/655414-the-rose-family-0-230-0-345-crop.jpg?v=a2674d7c4b",
-  "enriched_at": "2026-09-11",
+  "enriched_at": "2026-10-02",
+  "genres": [
+   "Documentaire"
+  ],
   "genres_en": [
    "Documentary"
   ],
@@ -7750,7 +7868,7 @@
   "imdb_id": "tt12854806",
   "letterboxd_rating": 3.65,
   "letterboxd_url": "https://letterboxd.com/film/les-rose/",
-  "letterboxd_votes": 782,
+  "letterboxd_votes": 785,
   "overview": "En octobre 1970, des membres du Front de libération du Québec (FLQ) enlèvent le ministre Pierre Laporte, déclenchant une crise sans précédent au Québec. Cinquante ans plus tard, Félix Rose tente de comprendre ce qui a pu mener son père et son oncle à commettre de tels actes. Grâce aux confidences de son oncle Jacques, qui accepte pour la première fois de s’exprimer sur le sujet, et aux traces précieuses laissées par son père Paul, il fait revivre la richesse de l’héritage d’une famille ouvrière québécoise et redonne à la crise d’octobre sa dimension sociale. Fruit de dix ans de recherche, Les Rose permet de faire revivre des moments et des personnages que l’on ne connaissait que par quelques clichés, et laisse entrevoir le blocage social vécu par une jeunesse révoltée et les bouleversements qui s’ensuivirent.",
   "overview_en": "In October 1970, members of the Front de Libération du Québec (FLQ) kidnapped and murdered Minister Pierre Laporte, part of an unprecedented crisis in Quebec. Fifty years later, Félix Rose tries to understand what could have led his father and uncle to commit such crimes. Thanks to his uncle Jacques, who agrees for the first time to speak on the subject, and to the traces left by his father Paul, he revives the heritage of a Quebec working class family. The fruit of ten years of research, Les Rose allows us to revisit a time and people that we knew through clichés, and gives a glimpse of the experiences of a rebellious youth and the crimes that followed.",
   "overview_fr": "En octobre 1970, des membres du Front de libération du Québec (FLQ) enlèvent le ministre Pierre Laporte, déclenchant une crise sans précédent au Québec. Cinquante ans plus tard, Félix Rose tente de comprendre ce qui a pu mener son père et son oncle à commettre de tels actes. Grâce aux confidences de son oncle Jacques, qui accepte pour la première fois de s’exprimer sur le sujet, et aux traces précieuses laissées par son père Paul, il fait revivre la richesse de l’héritage d’une famille ouvrière québécoise et redonne à la crise d’octobre sa dimension sociale. Fruit de dix ans de recherche, Les Rose permet de faire revivre des moments et des personnages que l’on ne connaissait que par quelques clichés, et laisse entrevoir le blocage social vécu par une jeunesse révoltée et les bouleversements qui s’ensuivirent.",
@@ -8102,7 +8220,7 @@
   "year": 1968
  },
  "shaunmoutonbeeeteferme": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "shaunsheepbeastmossybottom": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
@@ -8354,7 +8472,7 @@
   "year": 2026
  },
  "sigmatamil": {
-  "enriched_at": "2026-09-29"
+  "enriched_at": "2026-10-02"
  },
  "singhvskaur2": {
   "enriched_at": "2026-09-15"

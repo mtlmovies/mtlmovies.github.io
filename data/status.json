@@ -1,67 +1,67 @@
 {
- "generated_at": "2026-10-01T16:58:26+00:00",
+ "generated_at": "2026-10-02T15:30:39+00:00",
  "counts": {
-  "movies": 234,
+  "movies": 224,
   "venues": 26,
-  "showtimes": 7480
+  "showtimes": 7123
  },
  "sources": [
   {
    "source": "cinemacinema",
    "ok": true,
-   "screenings": 403,
+   "screenings": 363,
    "venues": 3,
-   "seconds": 18.9
+   "seconds": 42.8
   },
   {
    "source": "cinemamoderne",
    "ok": true,
-   "screenings": 66,
+   "screenings": 64,
    "venues": 1,
-   "seconds": 1.4
+   "seconds": 2.4
   },
   {
    "source": "ticketacces",
    "ok": true,
-   "screenings": 65,
+   "screenings": 62,
    "venues": 2,
-   "seconds": 19.6
+   "seconds": 48.9
   },
   {
    "source": "cineplex",
    "ok": true,
-   "screenings": 4304,
+   "screenings": 3955,
    "venues": 11,
-   "seconds": 47.4
+   "seconds": 72.6
   },
   {
    "source": "cinestarz",
    "ok": true,
-   "screenings": 2483,
+   "screenings": 2512,
    "venues": 7,
-   "seconds": 24.6
+   "seconds": 23.8
   },
   {
    "source": "guzzo",
    "ok": true,
-   "screenings": 6,
+   "screenings": 8,
    "venues": 1,
-   "seconds": 1.5
+   "seconds": 2.0
   },
   {
    "source": "cinematheque",
    "ok": true,
-   "screenings": 153,
+   "screenings": 159,
    "venues": 1,
-   "seconds": 102.6
+   "seconds": 144.9
   },
   {
    "source": "outremont",
    "ok": false,
    "screenings": 0,
    "venues": 0,
-   "error": "RuntimeError: 3 cinema events listed, none with a start time. Their programme publishes dates only, and the start times are held in a Tuxedo box office with no publicly readable source (Firebase RTDB denies every path even to an anonymous session; Firestore is disabled; no sitemap or feed).",
-   "seconds": 3.7
+   "error": "RuntimeError: 4 cinema events listed, none with a start time. Their programme publishes dates only, and the start times are held in a Tuxedo box office with no publicly readable source (Firebase RTDB denies every path even to an anonymous session; Firestore is disabled; no sitemap or feed).",
+   "seconds": 5.6
   }
  ]
 }
