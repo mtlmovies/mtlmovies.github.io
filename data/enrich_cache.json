@@ -275,7 +275,7 @@
  },
  "amourmagie2": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/8/5/0/2/2/tmdb/yDgYYuz8jDQCRJbHC3XM7IIGoeR-1200-1200-675-675-crop-000000.jpg?v=104462dc86",
-  "enriched_at": "2026-09-12",
+  "enriched_at": "2026-10-03",
   "genres": [
    "Romance",
    "Fantastique",
@@ -293,9 +293,9 @@
   ],
   "i18n_v": 1,
   "imdb_id": "tt32588798",
-  "letterboxd_rating": 3.04,
+  "letterboxd_rating": 2.87,
   "letterboxd_url": "https://letterboxd.com/film/practical-magic-2/",
-  "letterboxd_votes": 24246,
+  "letterboxd_votes": 140784,
   "overview": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
   "overview_en": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
   "overview_fr": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
@@ -354,7 +354,7 @@
   "year": 2024
  },
  "ange:1968": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "animazemontrealinternationalanimationfestival": {
   "enriched_at": "2026-09-19"
@@ -461,6 +461,42 @@
  },
  "apocalypsenowfinalcut:1979": {
   "enriched_at": "2026-09-30"
+ },
+ "aprilx": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/8/7/0/5/5/1287055-april-x-0-230-0-345-crop.jpg?v=50d65059e0",
+  "enriched_at": "2026-10-03",
+  "genres": [
+   "Action",
+   "Thriller",
+   "Science-Fiction",
+   "Drame"
+  ],
+  "genres_en": [
+   "Action",
+   "Thriller",
+   "Science Fiction",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Action",
+   "Thriller",
+   "Science-Fiction",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt30850718",
+  "letterboxd_rating": 2.81,
+  "letterboxd_url": "https://letterboxd.com/film/april-x/",
+  "letterboxd_votes": 909,
+  "overview": "When his twin sister April (Lilly Krug) goes missing, Bax (Connor Storrie) searches every corner of their futuristic, post-Soviet cityscape to find her. Ultimately descending into a violent criminal underworld and madness, Bax is forced to confront the cost of identity, love, and survival.",
+  "overview_en": "When his twin sister April (Lilly Krug) goes missing, Bax (Connor Storrie) searches every corner of their futuristic, post-Soviet cityscape to find her. Ultimately descending into a violent criminal underworld and madness, Bax is forced to confront the cost of identity, love, and survival.",
+  "overview_fr": "When his twin sister April (Lilly Krug) goes missing, Bax (Connor Storrie) searches every corner of their futuristic, post-Soviet cityscape to find her. Ultimately descending into a violent criminal underworld and madness, Bax is forced to confront the cost of identity, love, and survival.",
+  "poster": "https://media.themoviedb.org/t/p/w500/Aqth7r2pr79YPYj6WPGDs23F4Wb.jpg",
+  "runtime": 92,
+  "title_en": "April X",
+  "title_fr": "April X",
+  "tmdb_id": "1403676",
+  "year": 2026
  },
  "arbreauxsabots:1978": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0w/lc/fc/qx/the-tree-of-wooden-clogs-1200-1200-675-675-crop-000000.jpg?v=9ab7ba0a70",
@@ -921,10 +957,64 @@
   "year": 1989
  },
  "bataillegaulleliberte:2026": {
-  "enriched_at": "2026-09-30"
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/gl/s3/0g/tg/libertie-1200-1200-675-675-crop-000000.jpg?v=eaa92d10b6",
+  "enriched_at": "2026-10-03",
+  "genres": [
+   "Histoire",
+   "Drame"
+  ],
+  "genres_en": [
+   "History",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Histoire",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt35856133",
+  "letterboxd_rating": 3.91,
+  "letterboxd_url": "https://letterboxd.com/film/de-gaulle-liberte/",
+  "letterboxd_votes": 45741,
+  "overview": "Part two of a two-part biopic following French army officer Charles De Gaulle's life and political commitment between 1940 and 1945, and trace his development towards a political career.",
+  "overview_en": "Part two of a two-part biopic following French army officer Charles De Gaulle's life and political commitment between 1940 and 1945, and trace his development towards a political career.",
+  "overview_fr": "Part two of a two-part biopic following French army officer Charles De Gaulle's life and political commitment between 1940 and 1945, and trace his development towards a political career.",
+  "poster": "https://media.themoviedb.org/t/p/w500/9qc5CzjnxGpjpuwVlIziVr7ODcL.jpg",
+  "runtime": 159,
+  "title_en": "De Gaulle: Liberté",
+  "title_fr": "La Bataille de Gaulle - Partie 2 : J’écris ton nom",
+  "tmdb_id": "1165369",
+  "year": 2026
  },
  "bataillegaulleresistance:2026": {
-  "enriched_at": "2026-09-30"
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/5/1/0/0/0/tmdb/ngxcfLFMefoFl6kzEth2OsMSRxz-1200-1200-675-675-crop-000000.jpg?v=1ef3f55119",
+  "enriched_at": "2026-10-03",
+  "genres": [
+   "Histoire",
+   "Drame"
+  ],
+  "genres_en": [
+   "History",
+   "Drama"
+  ],
+  "genres_fr": [
+   "Histoire",
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt28553375",
+  "letterboxd_rating": 3.72,
+  "letterboxd_url": "https://letterboxd.com/film/de-gaulle-resistance/",
+  "letterboxd_votes": 60921,
+  "overview": "June, 1940. France collapses and signs the armistice. In the midst of the chaos, one man refuses to give up. Alone against the odds, this unknown general flees to London to save what remains of freedom.",
+  "overview_en": "June, 1940. France collapses and signs the armistice. In the midst of the chaos, one man refuses to give up. Alone against the odds, this unknown general flees to London to save what remains of freedom.",
+  "overview_fr": "June, 1940. France collapses and signs the armistice. In the midst of the chaos, one man refuses to give up. Alone against the odds, this unknown general flees to London to save what remains of freedom.",
+  "poster": "https://media.themoviedb.org/t/p/w500/eSEX7Rkwph5PfBvYbdxSCBMzNh4.jpg",
+  "runtime": 160,
+  "title_en": "De Gaulle: Résistance",
+  "title_fr": "La Bataille de Gaulle - partie 1 : L'Âge de Fer",
+  "tmdb_id": "1165366",
+  "year": 2026
  },
  "baththa": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/9/2/0/2/1/1392021-baththa-0-230-0-345-crop.jpg?v=e43a0dedb7",
@@ -2336,13 +2426,13 @@
   "year": 2026
  },
  "cosifantutte": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "cosifantutteitalianwestmetropolitanopera": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "cosifantutteitalienavecstfrmetropolitanopera": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "coursterrycours": {
   "enriched_at": "2026-10-02"
@@ -2420,7 +2510,7 @@
   "enriched_at": "2026-09-21"
  },
  "danemarkilesferoeroyaumebonheur": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "danielfieryfurnace": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/7/5/2/0/6/1575206-daniel-the-fiery-furnace-0-230-0-345-crop.jpg?v=24df664011",
@@ -2547,7 +2637,7 @@
   "year": 1968
  },
  "derenmenkenschneemann": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "derniersouffleaucurhoteldieumontreal:2017": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/2/2/8/5/7/422857-le-dernier-souffle-au-cur-de-l-hotel-dieu-de-montreal-0-230-0-345-crop.jpg?v=47fea949cf",
@@ -2660,7 +2750,7 @@
   "enriched_at": "2026-10-01"
  },
  "djeddi:2026": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "dogstars": {
   "enriched_at": "2026-09-30"
@@ -2789,7 +2879,7 @@
   "year": 2023
  },
  "drishyamconclusion": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "educationaumaobama": {
   "enriched_at": "2026-09-09"
@@ -2836,7 +2926,7 @@
   "year": 2009
  },
  "empirepassion": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "enavantmusique:1982": {
   "enriched_at": "2026-09-24"
@@ -3114,7 +3204,7 @@
   "year": 2026
  },
  "finterres": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "finterres:2019": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/5/1/3/4/6/9/513469-where-the-land-ends-0-230-0-345-crop.jpg?v=bd3665901f",
@@ -3174,7 +3264,7 @@
   "enriched_at": "2026-09-30"
  },
  "florilegeii": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "florilegeii:1974": {
   "enriched_at": "2026-09-30"
@@ -3406,7 +3496,7 @@
   "year": 2026
  },
  "ghostbusters": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "ghostshell30th": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/k2/5y/em/z6/ghost-in-the-shell-1200-1200-675-675-crop-000000.jpg?v=99a1bf740b",
@@ -3440,7 +3530,7 @@
   "enriched_at": "2026-09-21"
  },
  "ginochouinardauxilesguadeloupe": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "goodbadugly60th:1966": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/07/zz/2k/vy/the-good-the-bad-and-the-ugly-1200-1200-675-675-crop-000000.jpg?v=6fdc9111b0",
@@ -3569,7 +3659,7 @@
   "year": 1963
  },
  "guillermodeltorospanslabyrinth20th": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "gulistanterreroses:2016": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/3/4/2/9/7/5/342975-gulistan-land-of-roses-0-230-0-345-crop.jpg?v=89c8626f6d",
@@ -3600,6 +3690,39 @@
   "title_fr": "Gulîstan, Land of Roses",
   "tmdb_id": "408690",
   "year": 2016
+ },
+ "hachanshakeyourbooty:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/55/4d/mx/os/dEu8lwu4q6k3m8xOLxGJzYoxjix-1200-1200-675-675-crop-000000.jpg?v=2f8c6eb888",
+  "enriched_at": "2026-10-03",
+  "genres": [
+   "Comédie",
+   "Drame",
+   "Romance"
+  ],
+  "genres_en": [
+   "Comedy",
+   "Drama",
+   "Romance"
+  ],
+  "genres_fr": [
+   "Comédie",
+   "Drame",
+   "Romance"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt39149197",
+  "letterboxd_rating": 3.8,
+  "letterboxd_url": "https://letterboxd.com/film/ha-chan-shake-your-booty/",
+  "letterboxd_votes": 6729,
+  "overview": "Haru and Luis love competing in Tokyo’s ballroom dance scene, but after tragedy strikes, Haru withdraws into isolation. When friends coax her back to the studio, she develops an infatuation with the new instructor. She must face what comes next as sparks fly.",
+  "overview_en": "Haru and Luis love competing in Tokyo’s ballroom dance scene, but after tragedy strikes, Haru withdraws into isolation. When friends coax her back to the studio, she develops an infatuation with the new instructor. She must face what comes next as sparks fly.",
+  "overview_fr": "Haru and Luis love competing in Tokyo’s ballroom dance scene, but after tragedy strikes, Haru withdraws into isolation. When friends coax her back to the studio, she develops an infatuation with the new instructor. She must face what comes next as sparks fly.",
+  "poster": "https://media.themoviedb.org/t/p/w500/w98RWv9o05OhXYfTvauDrotRZ13.jpg",
+  "runtime": 122,
+  "title_en": "Ha-Chan, Shake Your Booty!",
+  "title_fr": "Ha-Chan, Shake Your Booty!",
+  "tmdb_id": "1596249",
+  "year": 2026
  },
  "haiwaan": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/5/2/6/9/6/1352696-haiwaan-2026-0-230-0-345-crop.jpg?v=feaa7b4850",
@@ -4178,10 +4301,10 @@
   "year": 2026
  },
  "influencerprojectspecialeventpricing": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "inheritors:2023": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "insidieuxhorsplusloin": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
@@ -4490,7 +4613,7 @@
   "enriched_at": "2026-09-09"
  },
  "islandeveloaugrevent": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "itends:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6s/nw/3k/i2/blIQ1Xlc3gfOHqWc67ULnyYGEAe-1200-1200-675-675-crop-000000.jpg?v=68470cf57d",
@@ -4624,7 +4747,7 @@
   "year": 2025
  },
  "jevoussaluesalopemisogynieautempsnumerique": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "jevoussaluesalopemisogynieautempsnumerique:2022": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/9/0/8/0/0/9/908009-backlash-misogyny-in-the-digital-age-0-230-0-345-crop.jpg?v=97c538264d",
@@ -5488,7 +5611,7 @@
   "year": 1976
  },
  "manwholefthiswillfilm": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "manwholefthiswillfilm:1970": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hk/v7/qq/qb/3UGpGYNzHioVMuHLrtPy0MghmJ4-1200-1200-675-675-crop-000000.jpg?v=18e1fcf197",
@@ -7327,7 +7450,7 @@
   "year": 2026
  },
  "pompeisousnuages:2025": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "portaltohell": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/l1/1t/8j/ep/eTuPNfCR3hSUnDKm2zBATP4lJym-1200-1200-675-675-crop-000000.jpg?v=5d4ceb7368",
@@ -7556,10 +7679,10 @@
   "enriched_at": "2026-09-15"
  },
  "qcc30whateverhappenedtobabyjane:1962": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "qcc31peeweesbigadventure:1985": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "qcc32inconnulac:2013": {
   "enriched_at": "2026-10-02"
@@ -7638,7 +7761,7 @@
   "year": 1950
  },
  "redballonwhitemanepetitsmodernes:1953": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "redemptions:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/7/0/1/6/1567016-redemptions-0-230-0-345-crop.jpg?v=9ec64b0beb",
@@ -7863,7 +7986,7 @@
   "year": 2026
  },
  "rollingloudspecialeventpricing": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "romin": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/7/0/2/0/1567020-romin-0-230-0-345-crop.jpg?v=1b30d50927",
@@ -8183,10 +8306,10 @@
   "enriched_at": "2026-09-15"
  },
  "scoobfamilyfavourites": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "scoobfilmsenfamille": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "secretmesanges": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/8/8/4/890884-the-songbirds-secret-0-230-0-345-crop.jpg?v=ee8f0b84f5",
@@ -8954,7 +9077,7 @@
   "year": 2026
  },
  "theaterthought:2022": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "tony:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/va/ir/j7/p7/bOqTOVkHAL4z87P0Opf6q5mIeRy-1200-1200-675-675-crop-000000.jpg?v=ac8d6352de",
@@ -9477,7 +9600,7 @@
   "enriched_at": "2026-09-22"
  },
  "videoclubspectateurennemi": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-03"
  },
  "videodrome:1983": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xa/04/29/l7/videodrome-1200-1200-675-675-crop-000000.jpg?v=0d3584f6b2",
