@@ -1984,6 +1984,33 @@
   "tmdb_id": "1183751",
   "year": 2025
  },
+ "ceremony:1971": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/4g/y0/he/pa/ceremony-1200-1200-675-675-crop-000000.jpg?v=8283f9341b",
+  "enriched_at": "2026-10-04",
+  "genres": [
+   "Drame"
+  ],
+  "genres_en": [
+   "Drama"
+  ],
+  "genres_fr": [
+   "Drame"
+  ],
+  "i18n_v": 1,
+  "imdb_id": "tt0066639",
+  "letterboxd_rating": 3.87,
+  "letterboxd_url": "https://letterboxd.com/film/the-ceremony/",
+  "letterboxd_votes": 3070,
+  "overview": "Oshima’s magisterial epic, centering on the ambivalent surviving heir of the Sakurada clan, uses ritual and the microcosm of the traditional family to trace the rise and fall of militaristic Japan across several decades.",
+  "overview_en": "Oshima’s magisterial epic, centering on the ambivalent surviving heir of the Sakurada clan, uses ritual and the microcosm of the traditional family to trace the rise and fall of militaristic Japan across several decades.",
+  "overview_fr": "Oshima’s magisterial epic, centering on the ambivalent surviving heir of the Sakurada clan, uses ritual and the microcosm of the traditional family to trace the rise and fall of militaristic Japan across several decades.",
+  "poster": "https://media.themoviedb.org/t/p/w500/6zBCD5Wl2MHJQIkwftsNZNHWZXo.jpg",
+  "runtime": 123,
+  "title_en": "The Ceremony",
+  "title_fr": "The Ceremony",
+  "tmdb_id": "94466",
+  "year": 1971
+ },
  "charleboissymphoniquecelebrationgrandioseavecosm:2026": {
   "enriched_at": "2026-10-02"
  },
@@ -3267,7 +3294,7 @@
   "enriched_at": "2026-10-03"
  },
  "florilegeii:1974": {
-  "enriched_at": "2026-09-30"
+  "enriched_at": "2026-10-04"
  },
  "flow:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xl/29/a9/xh/Flow-1200-1200-675-675-crop-000000.jpg?v=9f04435233",
@@ -4053,7 +4080,7 @@
   "enriched_at": "2026-10-04"
  },
  "hommagesylviegroulx:1975": {
-  "enriched_at": "2026-10-01"
+  "enriched_at": "2026-10-04"
  },
  "hommequiment:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/g6/8c/nb/wm/pq8JxWkSfnrdPeou1R7zWBi9ebs-1200-1200-675-675-crop-000000.jpg?v=8f009c012d",
