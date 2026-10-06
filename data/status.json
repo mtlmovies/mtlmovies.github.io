@@ -1,67 +1,67 @@
 {
- "generated_at": "2026-10-05T19:12:27+00:00",
+ "generated_at": "2026-10-06T15:48:42+00:00",
  "counts": {
-  "movies": 211,
+  "movies": 223,
   "venues": 26,
-  "showtimes": 4372
+  "showtimes": 5174
  },
  "sources": [
   {
    "source": "cinemacinema",
    "ok": true,
-   "screenings": 507,
+   "screenings": 468,
    "venues": 3,
-   "seconds": 111.7
+   "seconds": 62.1
   },
   {
    "source": "cinemamoderne",
    "ok": true,
-   "screenings": 63,
+   "screenings": 68,
    "venues": 1,
-   "seconds": 1.3
+   "seconds": 1.2
   },
   {
    "source": "ticketacces",
    "ok": true,
-   "screenings": 51,
+   "screenings": 66,
    "venues": 2,
-   "seconds": 17.0
+   "seconds": 17.4
   },
   {
    "source": "cineplex",
    "ok": true,
-   "screenings": 2228,
+   "screenings": 1867,
    "venues": 11,
-   "seconds": 46.1
+   "seconds": 44.3
   },
   {
    "source": "cinestarz",
    "ok": true,
-   "screenings": 1372,
+   "screenings": 2555,
    "venues": 7,
-   "seconds": 22.7
+   "seconds": 25.1
   },
   {
    "source": "guzzo",
    "ok": true,
-   "screenings": 16,
+   "screenings": 8,
    "venues": 1,
-   "seconds": 3.8
+   "seconds": 2.3
   },
   {
    "source": "cinematheque",
    "ok": true,
-   "screenings": 135,
+   "screenings": 142,
    "venues": 1,
-   "seconds": 102.3
+   "seconds": 92.5
   },
   {
    "source": "outremont",
    "ok": false,
    "screenings": 0,
    "venues": 0,
-   "error": "RuntimeError: 5 cinema events listed, none with a start time. Their programme publishes dates only, and the start times are held in a Tuxedo box office with no publicly readable source (Firebase RTDB denies every path even to an anonymous session; Firestore is disabled; no sitemap or feed).",
-   "seconds": 6.0
+   "error": "RuntimeError: 4 cinema events listed, none with a start time. Their programme publishes dates only, and the start times are held in a Tuxedo box office with no publicly readable source (Firebase RTDB denies every path even to an anonymous session; Firestore is disabled; no sitemap or feed).",
+   "seconds": 4.8
   }
  ]
 }
