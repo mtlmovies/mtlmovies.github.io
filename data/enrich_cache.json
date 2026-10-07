@@ -1072,7 +1072,7 @@
   "year": 2026
  },
  "baththatamil": {
-  "enriched_at": "2026-10-04"
+  "enriched_at": "2026-10-07"
  },
  "batmanreturns:1992": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tu/w9/6z/r2/batman-returns-1200-1200-675-675-crop-000000.jpg?v=1364777873",
@@ -1365,6 +1365,9 @@
   "title_fr": "Beware Boiúna",
   "tmdb_id": "1244523",
   "year": 2026
+ },
+ "biggirlsdontcry": {
+  "enriched_at": "2026-10-07"
  },
  "billie": {
   "enriched_at": "2026-09-12"
@@ -2174,36 +2177,15 @@
  },
  "chronovisor:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/6/7/7/8/4/tmdb/xbp6MM3ZIL7neN7qLk8pp0t0eOj-1200-1200-675-675-crop-000000.jpg?v=07d5de2e38",
-  "enriched_at": "2026-09-16",
-  "genres": [
-   "Mystère",
-   "Science-Fiction",
-   "Horreur"
-  ],
-  "genres_en": [
-   "Mystery",
-   "Science Fiction",
-   "Horror"
-  ],
-  "genres_fr": [
-   "Mystère",
-   "Science-Fiction",
-   "Horreur"
-  ],
+  "enriched_at": "2026-10-07",
   "i18n_v": 1,
   "imdb_id": "tt39196981",
-  "letterboxd_rating": 3.81,
+  "letterboxd_rating": 3.8,
   "letterboxd_url": "https://letterboxd.com/film/chronovisor/",
-  "letterboxd_votes": 2155,
-  "overview": "A French academic is seduced into a world of untold histories in her scholarly quest to uncover the mystery of a history-capturing camera-like machine created by clandestine Benedictine monks. An academic-noir, armchair mystery in the lineage of Jorge Luis Borges and Umberto Eco.",
-  "overview_en": "A French academic is seduced into a world of untold histories in her scholarly quest to uncover the mystery of a history-capturing camera-like machine created by clandestine Benedictine monks. An academic-noir, armchair mystery in the lineage of Jorge Luis Borges and Umberto Eco.",
-  "overview_fr": "A French academic is seduced into a world of untold histories in her scholarly quest to uncover the mystery of a history-capturing camera-like machine created by clandestine Benedictine monks. An academic-noir, armchair mystery in the lineage of Jorge Luis Borges and Umberto Eco.",
-  "poster": "https://media.themoviedb.org/t/p/w500/AngfVgLk5EngnbuFpISjvFJkYBz.jpg",
-  "runtime": 99,
-  "title_en": "Chronovisor",
-  "title_fr": "Chronovisor",
+  "letterboxd_votes": 3632,
   "tmdb_id": "1599181",
-  "year": 2026
+  "wikidata_id": "Q141237175",
+  "year": null
  },
  "cinemaparadisostaffpicks:1988": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1i/b1/z6/5u/cinema-paradiso-1200-1200-675-675-crop-000000.jpg?v=8efaca6418",
@@ -2294,35 +2276,14 @@
  },
  "clue:1985": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mk/mi/1k/v8/clue-1200-1200-675-675-crop-000000.jpg?v=3742386ac7",
-  "enriched_at": "2026-09-16",
-  "genres": [
-   "Comédie",
-   "Crime",
-   "Mystère"
-  ],
-  "genres_en": [
-   "Comedy",
-   "Crime",
-   "Mystery"
-  ],
-  "genres_fr": [
-   "Comédie",
-   "Crime",
-   "Mystère"
-  ],
+  "enriched_at": "2026-10-07",
   "i18n_v": 1,
   "imdb_id": "tt0088930",
   "letterboxd_rating": 3.93,
   "letterboxd_url": "https://letterboxd.com/film/clue/",
-  "letterboxd_votes": 550017,
-  "overview": "Trois hommes et trois femmes sont invités à passer une soirée dans un vieux manoir. Chacun est désigné par un pseudonyme (Mme Green, Miss Scarlet, Professeur Plum, etc.) et ils ne se connaissent guère les uns les autres. Ils ont cependant quelque chose en commun: ils sont tous victimes d'un maître chanteur qui se trouve être leur hôte, M. Boddy. M. Boddy est assassiné à l'occasion d'une panne de courant et quelques autres meurtres s'ensuivent. Les invités et le valet qui les a reçus cherchent à faire la lumière sur l'affaire avant l'arrivée de la police.",
-  "overview_en": "Clue finds six colorful dinner guests gathered at the mansion of their host, Mr. Boddy -- who turns up dead after his secret is exposed: He was blackmailing all of them. With the killer among them, the guests and Boddy's chatty butler must suss out the culprit before the body count rises.",
-  "overview_fr": "Trois hommes et trois femmes sont invités à passer une soirée dans un vieux manoir. Chacun est désigné par un pseudonyme (Mme Green, Miss Scarlet, Professeur Plum, etc.) et ils ne se connaissent guère les uns les autres. Ils ont cependant quelque chose en commun: ils sont tous victimes d'un maître chanteur qui se trouve être leur hôte, M. Boddy. M. Boddy est assassiné à l'occasion d'une panne de courant et quelques autres meurtres s'ensuivent. Les invités et le valet qui les a reçus cherchent à faire la lumière sur l'affaire avant l'arrivée de la police.",
-  "poster": "https://media.themoviedb.org/t/p/w500/o5mjpz2Mvx4v5vUEVdWclBurxuc.jpg",
-  "runtime": 94,
-  "title_en": "Clue",
-  "title_fr": "Cluedo",
+  "letterboxd_votes": 563455,
   "tmdb_id": "15196",
+  "wikidata_id": "Q558795",
   "year": 1985
  },
  "cocoononesummergirlhood": {
@@ -2578,29 +2539,7 @@
   "enriched_at": "2026-10-06"
  },
  "danielfieryfurnace": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/7/5/2/0/6/1575206-daniel-the-fiery-furnace-0-230-0-345-crop.jpg?v=24df664011",
-  "enriched_at": "2026-09-16",
-  "genres": [
-   "Drame"
-  ],
-  "genres_en": [
-   "Drama"
-  ],
-  "genres_fr": [
-   "Drame"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt37542993",
-  "letterboxd_url": "https://letterboxd.com/film/daniel-and-the-fiery-furnace/",
-  "overview": "During the Jewish exile to Babylon, Daniel and his friends face trials as Babylon's armies conquer Jerusalem. Under King Nebuchadnezzar, they gain royal favor but make enemies. Their faith is tested at the fiery furnace.",
-  "overview_en": "During the Jewish exile to Babylon, Daniel and his friends face trials as Babylon's armies conquer Jerusalem. Under King Nebuchadnezzar, they gain royal favor but make enemies. Their faith is tested at the fiery furnace.",
-  "overview_fr": "During the Jewish exile to Babylon, Daniel and his friends face trials as Babylon's armies conquer Jerusalem. Under King Nebuchadnezzar, they gain royal favor but make enemies. Their faith is tested at the fiery furnace.",
-  "poster": "https://media.themoviedb.org/t/p/w500/wOXpSTox0QxMf17ocXv4sHfOYLV.jpg",
-  "runtime": 108,
-  "title_en": "Daniel and the Fiery Furnace",
-  "title_fr": "Daniel and the Fiery Furnace",
-  "tmdb_id": "1706702",
-  "year": 2026
+  "enriched_at": "2026-10-07"
  },
  "deadcalm": {
   "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
@@ -2812,7 +2751,16 @@
   "year": 2026
  },
  "digger:2026": {
-  "enriched_at": "2026-10-04"
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9e/bq/fx/ti/digger-1200-1200-675-675-crop-000000.jpg?v=96e129a6f2",
+  "enriched_at": "2026-10-07",
+  "i18n_v": 1,
+  "imdb_id": "tt31450459",
+  "letterboxd_rating": 3.84,
+  "letterboxd_url": "https://letterboxd.com/film/digger-2026/",
+  "letterboxd_votes": 263100,
+  "tmdb_id": "1248832",
+  "wikidata_id": "Q129677718",
+  "year": 2026
  },
  "djeddi:2026": {
   "enriched_at": "2026-10-06"
@@ -3321,7 +3269,7 @@
   "enriched_at": "2026-10-06"
  },
  "florilegeii:1974": {
-  "enriched_at": "2026-10-04"
+  "enriched_at": "2026-10-07"
  },
  "flow:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xl/29/a9/xh/Flow-1200-1200-675-675-crop-000000.jpg?v=9f04435233",
@@ -3632,21 +3580,7 @@
   "year": 2003
  },
  "grandsaut": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/9/1/1/6/3/1091163-le-grand-saut-0-230-0-345-crop.jpg?v=dc20eb9159",
-  "enriched_at": "2026-09-16",
-  "genres": [
-   "Documentaire"
-  ],
-  "genres_en": [
-   "Documentary"
-  ],
-  "genres_fr": [
-   "Documentaire"
-  ],
-  "i18n_v": 1,
-  "letterboxd_url": "https://letterboxd.com/film/le-grand-saut/",
-  "poster": "https://media.themoviedb.org/t/p/w500/817TXDgDYGADjScfgoxQ1sopANO.jpg",
-  "tmdb_id": "1206531"
+  "enriched_at": "2026-10-07"
  },
  "grandsaut:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/3/6/0/2/9/1436029-the-stunt-driver-0-230-0-345-crop.jpg?v=aaa918feaf",
@@ -4106,11 +4040,14 @@
  "hitamengsub": {
   "enriched_at": "2026-09-09"
  },
+ "homles:2026": {
+  "enriched_at": "2026-10-07"
+ },
  "hommagesylviegroulx": {
   "enriched_at": "2026-10-04"
  },
  "hommagesylviegroulx:1975": {
-  "enriched_at": "2026-10-04"
+  "enriched_at": "2026-10-07"
  },
  "hommequiment:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/g6/8c/nb/wm/pq8JxWkSfnrdPeou1R7zWBi9ebs-1200-1200-675-675-crop-000000.jpg?v=8f009c012d",
@@ -4258,7 +4195,7 @@
   "year": 2023
  },
  "ilpaesevillage": {
-  "enriched_at": "2026-10-04"
+  "enriched_at": "2026-10-07"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-15"
@@ -5715,13 +5652,12 @@
  },
  "marriagescoupscoeurequipe:2001": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/9/4/3/111943-marriages-0-230-0-345-crop.jpg?v=fef417d6e4",
-  "enriched_at": "2026-09-09",
+  "enriched_at": "2026-10-07",
+  "i18n_v": 1,
   "imdb_id": "tt0295425",
   "letterboxd_url": "https://letterboxd.com/film/marriages/",
-  "overview": "À la fin du XIXe siècle, une jeune femme promise au couvent s'éprend du fiancé de sa nièce.",
-  "poster": "https://media.themoviedb.org/t/p/w500/2EAWyB84lm4yIC8Ny5XqxOou1Jn.jpg",
-  "runtime": 95,
   "tmdb_id": "148253",
+  "wikidata_id": "Q3291178",
   "year": 2001
  },
  "marsexpress": {
@@ -5944,8 +5880,20 @@
   "tmdb_id": "1693710",
   "year": 2026
  },
+ "mistygreen:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hk/9v/jo/dg/xvUUS1Z8bhfSIE72BBDy4m70CVx-1200-1200-675-675-crop-000000.jpg?v=82b1335979",
+  "enriched_at": "2026-10-07",
+  "i18n_v": 1,
+  "imdb_id": "tt34385184",
+  "letterboxd_rating": 3.04,
+  "letterboxd_url": "https://letterboxd.com/film/misty-green/",
+  "letterboxd_votes": 1195,
+  "tmdb_id": "1381221",
+  "wikidata_id": "Q135494084",
+  "year": 2026
+ },
  "mittiputt": {
-  "enriched_at": "2026-10-04"
+  "enriched_at": "2026-10-07"
  },
  "mllebottine:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/0/4/0/890040-miss-boots-0-230-0-345-crop.jpg?v=5b4bd3c02f",
@@ -6900,6 +6848,9 @@
   "tmdb_id": "1185806",
   "year": 2026
  },
+ "patpatrouillefilmmissiondinofilmsenfamille": {
+  "enriched_at": "2026-10-07"
+ },
  "patpatrouillemissiondino": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
   "enriched_at": "2026-09-30",
@@ -7032,6 +6983,9 @@
   "title_fr": "PAW Patrol: The Dino Movie",
   "tmdb_id": "1185806",
   "year": 2026
+ },
+ "pawpatroldinomoviefamilyfavourites": {
+  "enriched_at": "2026-10-07"
  },
  "perdants": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/9/6/3/1/0/1296310-a-losing-game-2025-0-230-0-345-crop.jpg?v=bc4e8c51c8",
@@ -7600,37 +7554,7 @@
   "year": 2026
  },
  "primetime": {
-  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/6/2/0/1/9/tmdb/mbnopFljGL3UIkSC22uQap4y5ah-1200-1200-675-675-crop-000000.jpg?v=d9a7b9f810",
-  "enriched_at": "2026-09-16",
-  "genres": [
-   "Crime",
-   "Drame",
-   "Thriller"
-  ],
-  "genres_en": [
-   "Crime",
-   "Drama",
-   "Thriller"
-  ],
-  "genres_fr": [
-   "Crime",
-   "Drame",
-   "Thriller"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt34206385",
-  "letterboxd_rating": 3.69,
-  "letterboxd_url": "https://letterboxd.com/film/primetime-2026/",
-  "letterboxd_votes": 1732,
-  "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
-  "overview_en": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
-  "overview_fr": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
-  "poster": "https://media.themoviedb.org/t/p/w500/1IDdeq1BrUtjsvyUB04URLfeHni.jpg",
-  "runtime": 110,
-  "title_en": "Primetime",
-  "title_fr": "Primetime",
-  "tmdb_id": "1375441",
-  "year": 2026
+  "enriched_at": "2026-10-07"
  },
  "primeurssurpriseslundi": {
   "enriched_at": "2026-10-05"
@@ -7685,7 +7609,7 @@
   "enriched_at": "2026-10-05"
  },
  "qccunzipped:1995": {
-  "enriched_at": "2026-10-04"
+  "enriched_at": "2026-10-07"
  },
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-24"
@@ -7722,7 +7646,7 @@
   "enriched_at": "2026-10-05"
  },
  "queenbudapestexperience": {
-  "enriched_at": "2026-10-04"
+  "enriched_at": "2026-10-07"
  },
  "raisonsentiments": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fj/dz/gp/m9/bXRoEdk3zmkS4LfKu9cRBGbvI6o-1200-1200-675-675-crop-000000.jpg?v=d7dd5a5443",
@@ -8669,7 +8593,7 @@
   "enriched_at": "2026-09-24"
  },
  "smallchildsfirstadventure:1958": {
-  "enriched_at": "2026-10-04"
+  "enriched_at": "2026-10-07"
  },
  "socialreckoning": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/c2/0g/fz/tj/social-1200-1200-675-675-crop-000000.jpg?v=6601cd3e98",
@@ -8853,35 +8777,7 @@
   "enriched_at": "2026-10-06"
  },
  "stuntdriver": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/3/6/0/2/9/1436029-the-stunt-driver-0-230-0-345-crop.jpg?v=aaa918feaf",
-  "enriched_at": "2026-09-16",
-  "genres": [
-   "Action",
-   "Comédie",
-   "Drame"
-  ],
-  "genres_en": [
-   "Action",
-   "Comedy",
-   "Drama"
-  ],
-  "genres_fr": [
-   "Action",
-   "Comédie",
-   "Drame"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt34611096",
-  "letterboxd_url": "https://letterboxd.com/film/the-stunt-driver/",
-  "overview": "Based on the true story of Montrealer Ken Carter, the “Mad Canadian” stunt driver who tried to jump the Saint Lawrence River in a rocket car in the mid-’70s. Carter's dream was to end his 30-year career with a big jump, a big paycheck, and mega stardom. In the process of accomplishing it, he hired a big sports manager and enlisted the best in rocket car design, with the National Film Board of Canada filming a documentary leading up to the event.",
-  "overview_en": "Based on the true story of Montrealer Ken Carter, the “Mad Canadian” stunt driver who tried to jump the Saint Lawrence River in a rocket car in the mid-’70s. Carter's dream was to end his 30-year career with a big jump, a big paycheck, and mega stardom. In the process of accomplishing it, he hired a big sports manager and enlisted the best in rocket car design, with the National Film Board of Canada filming a documentary leading up to the event.",
-  "overview_fr": "Based on the true story of Montrealer Ken Carter, the “Mad Canadian” stunt driver who tried to jump the Saint Lawrence River in a rocket car in the mid-’70s. Carter's dream was to end his 30-year career with a big jump, a big paycheck, and mega stardom. In the process of accomplishing it, he hired a big sports manager and enlisted the best in rocket car design, with the National Film Board of Canada filming a documentary leading up to the event.",
-  "poster": "https://media.themoviedb.org/t/p/w500/jFiMdTG8Hw41A3VxrzLEWtMFIYX.jpg",
-  "runtime": 99,
-  "title_en": "The Stunt Driver",
-  "title_fr": "The Stunt Driver",
-  "tmdb_id": "1562777",
-  "year": 2026
+  "enriched_at": "2026-10-07"
  },
  "substance:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ju/7r/z4/9i/xfSVZf7naMoGuqoHaQhbvfPrfWs-1200-1200-675-675-crop-000000.jpg?v=adde104f43",
@@ -9001,7 +8897,7 @@
   "year": 1977
  },
  "symphoniesurbainesnadinegomez:2015": {
-  "enriched_at": "2026-10-04"
+  "enriched_at": "2026-10-07"
  },
  "taleautumn:1998": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ub/hx/j5/6i/autumn%20tale-1200-1200-675-675-crop-000000.jpg?v=d163b29a03",
@@ -9199,32 +9095,14 @@
  },
  "traintobusan10th:2016": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/11/sk/ys/wg/train-to-busan-1200-1200-675-675-crop-000000.jpg?v=e747d81711",
-  "enriched_at": "2026-09-09",
-  "genres_en": [
-   "Action",
-   "Horror",
-   "Thriller",
-   "Adventure"
-  ],
-  "genres_fr": [
-   "Action",
-   "Horreur",
-   "Thriller",
-   "Aventure"
-  ],
+  "enriched_at": "2026-10-07",
   "i18n_v": 1,
   "imdb_id": "tt5700672",
   "letterboxd_rating": 4.0,
   "letterboxd_url": "https://letterboxd.com/film/train-to-busan/",
-  "letterboxd_votes": 1302259,
-  "overview": "Un virus inconnu se répand en Corée du Sud, l'état d'urgence est décrété. Les passagers du train KTX se livrent à une lutte sans merci afin de survivre jusqu'à Busan, l'unique ville où ils seront en sécurité...",
-  "overview_en": "When a zombie virus pushes Korea into a state of emergency, those trapped on an express train to Busan must fight for their own survival.",
-  "overview_fr": "Un virus inconnu se répand en Corée du Sud, l'état d'urgence est décrété. Les passagers du train KTX se livrent à une lutte sans merci afin de survivre jusqu'à Busan, l'unique ville où ils seront en sécurité...",
-  "poster": "https://media.themoviedb.org/t/p/w500/9FiRluXOwGJZhb1BPSvJYO7SB7y.jpg",
-  "runtime": 118,
-  "title_en": "Train to Busan",
-  "title_fr": "Dernier train pour Busan",
+  "letterboxd_votes": 1329178,
   "tmdb_id": "396535",
+  "wikidata_id": "Q20948236",
   "year": 2016
  },
  "transport": {
@@ -9710,6 +9588,9 @@
   "tmdb_id": "911345",
   "year": 2022
  },
+ "villeneuveascensiondlegende:2026": {
+  "enriched_at": "2026-10-07"
+ },
  "villesansjuifs:1924": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/7/3/7/0/67370-the-city-without-jews-0-230-0-345-crop.jpg?v=db3d80fa8f",
   "enriched_at": "2026-09-09",
@@ -10024,6 +9905,18 @@
   "title_en": "You Can See Everything",
   "title_fr": "You Can See Everything",
   "tmdb_id": "1765072",
+  "year": 2026
+ },
+ "yourmotheryourmotheryourmother": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/5/2/1/6/tmdb/45Mbs6dmn2W0hvuyxXPDkKREHpP-1200-1200-675-675-crop-000000.jpg?v=8eaa4f95b2",
+  "enriched_at": "2026-10-07",
+  "i18n_v": 1,
+  "imdb_id": "tt35856037",
+  "letterboxd_rating": 3.99,
+  "letterboxd_url": "https://letterboxd.com/film/your-mother-your-mother-your-mother/",
+  "letterboxd_votes": 10326,
+  "tmdb_id": "1437396",
+  "wikidata_id": "Q133286528",
   "year": 2026
  },
  "ziggystardustspidersfrommars:1979": {
