@@ -576,31 +576,7 @@
   "year": 2014
  },
  "ascowithoutpermission:2025": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/3/1/7/8/9/1231789-asco-without-permission-0-230-0-345-crop.jpg?v=a08a4a549f",
-  "enriched_at": "2026-09-19",
-  "genres": [
-   "Documentaire"
-  ],
-  "genres_en": [
-   "Documentary"
-  ],
-  "genres_fr": [
-   "Documentaire"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt18263546",
-  "letterboxd_rating": 3.54,
-  "letterboxd_url": "https://letterboxd.com/film/asco-without-permission/",
-  "letterboxd_votes": 288,
-  "overview": "\"ASCO: Without Permission\" is a genre-defying film that profiles the extraordinary, Los Angeles based, Chicano art group of the 70's-80's, ASCO, who merged activism and art as they challenged representation in the art world, Hollywood and the news media. Unrecognized in their time, they are now being considered amongst the most important artists of the 20th century. Utilizing a wholly original approach to filmmaking where nonfiction and fiction are interconnected through collaborative film works made with the next generation of Latinx artists, \"Without Permission\" reimagines what is possible today in cinema and art while celebrating an iconoclastic group that was far ahead of its time.",
-  "overview_en": "\"ASCO: Without Permission\" is a genre-defying film that profiles the extraordinary, Los Angeles based, Chicano art group of the 70's-80's, ASCO, who merged activism and art as they challenged representation in the art world, Hollywood and the news media. Unrecognized in their time, they are now being considered amongst the most important artists of the 20th century. Utilizing a wholly original approach to filmmaking where nonfiction and fiction are interconnected through collaborative film works made with the next generation of Latinx artists, \"Without Permission\" reimagines what is possible today in cinema and art while celebrating an iconoclastic group that was far ahead of its time.",
-  "overview_fr": "\"ASCO: Without Permission\" is a genre-defying film that profiles the extraordinary, Los Angeles based, Chicano art group of the 70's-80's, ASCO, who merged activism and art as they challenged representation in the art world, Hollywood and the news media. Unrecognized in their time, they are now being considered amongst the most important artists of the 20th century. Utilizing a wholly original approach to filmmaking where nonfiction and fiction are interconnected through collaborative film works made with the next generation of Latinx artists, \"Without Permission\" reimagines what is possible today in cinema and art while celebrating an iconoclastic group that was far ahead of its time.",
-  "poster": "https://media.themoviedb.org/t/p/w500/suX1zqRn7FFlCtLz78JnF9g1Its.jpg",
-  "runtime": 90,
-  "title_en": "ASCO: Without Permission",
-  "title_fr": "ASCO: Without Permission",
-  "tmdb_id": "1337631",
-  "year": 2025
+  "enriched_at": "2026-10-10"
  },
  "atwork:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/0/9/5/5/9/tmdb/xzY5ZwVZSMMn111DhNcQs2M3J9Q-1200-1200-675-675-crop-000000.jpg?v=56a3b13153",
@@ -1312,7 +1288,7 @@
   "year": 2026
  },
  "biggirlsdontcry": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "billie": {
   "enriched_at": "2026-09-12"
@@ -2825,7 +2801,7 @@
   "enriched_at": "2026-10-09"
  },
  "eastwestlove": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "educationaumaobama": {
   "enriched_at": "2026-09-09"
@@ -2852,7 +2828,7 @@
   "year": 2011
  },
  "ehdinrozniaune": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "elegant:2009": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/8/9/1/9/4/1189194-elegant-0-230-0-345-crop.jpg?v=7f76598ee5",
@@ -3040,33 +3016,15 @@
  },
  "filipinana:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/0/3/6/1/2/tmdb/7lgpPrmD2XYABOw8Cu3kyUn4usR-1200-1200-675-675-crop-000000.jpg?v=1b07fd073d",
-  "enriched_at": "2026-09-19",
-  "genres": [
-   "Drame",
-   "Mystère"
-  ],
-  "genres_en": [
-   "Drama",
-   "Mystery"
-  ],
-  "genres_fr": [
-   "Drame",
-   "Mystère"
-  ],
+  "enriched_at": "2026-10-10",
   "i18n_v": 1,
-  "imdb_id": "tt29512008",
-  "letterboxd_rating": 3.51,
+  "imdb_id": "tt38268539",
+  "letterboxd_rating": 3.5,
   "letterboxd_url": "https://letterboxd.com/film/filipinana-2026/",
-  "letterboxd_votes": 10443,
-  "overview": "While working at an elite country club outside Manila, a 17-year-old Ilocana worker uncovers the violent truths of her workplace, her country, and her own past after attempting to return a lost golf club to the club's president.",
-  "overview_en": "While working at an elite country club outside Manila, a 17-year-old Ilocana worker uncovers the violent truths of her workplace, her country, and her own past after attempting to return a lost golf club to the club's president.",
-  "overview_fr": "While working at an elite country club outside Manila, a 17-year-old Ilocana worker uncovers the violent truths of her workplace, her country, and her own past after attempting to return a lost golf club to the club's president.",
-  "poster": "https://media.themoviedb.org/t/p/w500/64hnrTmeJEvUYoJyuOM7taE3CqT.jpg",
-  "runtime": 101,
-  "title_en": "Filipiñana",
-  "title_fr": "Filipiñana",
+  "letterboxd_votes": 12742,
   "tmdb_id": "1417935",
-  "year": 2026
+  "wikidata_id": "Q137836697",
+  "year": null
  },
  "fillesroi:2023": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/6/2/0/9/5/1062095-les-filles-du-roi-0-230-0-345-crop.jpg?v=4371303c1e",
@@ -3205,7 +3163,7 @@
   "enriched_at": "2026-10-06"
  },
  "florilegeii:1974": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "flow:2024": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xl/29/a9/xh/Flow-1200-1200-675-675-crop-000000.jpg?v=9f04435233",
@@ -3731,7 +3689,7 @@
   "year": 1992
  },
  "haunted": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "heartbeast": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/4/7/4/6/8/tmdb/bicMU6xVD5deVyKP2azpyx7xkmH-1200-1200-675-675-crop-000000.jpg?v=33c9689044",
@@ -3980,7 +3938,7 @@
   "enriched_at": "2026-09-09"
  },
  "homles:2026": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "hommagesylviegroulx": {
   "enriched_at": "2026-10-04"
@@ -4134,7 +4092,7 @@
   "year": 2023
  },
  "ilpaesevillage": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-15"
@@ -5913,7 +5871,7 @@
   "year": 2014
  },
  "mondaysurprisepremieres": {
-  "enriched_at": "2026-09-21"
+  "enriched_at": "2026-10-10"
  },
  "monsieurlazhar:2011": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/y6/7c/kj/wj/monsieur-lazhar-1200-1200-675-675-crop-000000.jpg?v=ada2c0bdeb",
@@ -6468,7 +6426,7 @@
   "year": 2026
  },
  "onceupontimemiddleeast": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "onenightonly": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/6/7/7/tmdb/mfgNUnFB25BNIwe9iPJ17cUN64S-1200-1200-675-675-crop-000000.jpg?v=7297a64765",
@@ -6746,7 +6704,7 @@
   "year": 2026
  },
  "patpatrouillefilmmissiondinofilmsenfamille": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "patpatrouillemissiondino": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
@@ -6882,7 +6840,7 @@
   "year": 2026
  },
  "pawpatroldinomoviefamilyfavourites": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "perdants": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/9/6/3/1/0/1296310-a-losing-game-2025-0-230-0-345-crop.jpg?v=bc4e8c51c8",
@@ -7433,10 +7391,10 @@
   "year": 2026
  },
  "primetime": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "primeurssurpriseslundi": {
-  "enriched_at": "2026-10-05"
+  "enriched_at": "2026-10-10"
  },
  "psychic": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0g/8w/vm/hx/mHeyQoYO5zyWLZxsyVzGZLymf15-1200-1200-675-675-crop-000000.jpg?v=07b1f21364",
@@ -7488,7 +7446,7 @@
   "enriched_at": "2026-10-08"
  },
  "qccunzipped:1995": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-24"
@@ -8488,7 +8446,7 @@
   "enriched_at": "2026-09-24"
  },
  "smallchildsfirstadventure:1958": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "socialreckoning": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/c2/0g/fz/tj/social-1200-1200-675-675-crop-000000.jpg?v=6601cd3e98",
@@ -8792,7 +8750,7 @@
   "year": 1977
  },
  "symphoniesurbainesnadinegomez:2015": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "taleautumn:1998": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ub/hx/j5/6i/autumn%20tale-1200-1200-675-675-crop-000000.jpg?v=d163b29a03",
@@ -8849,6 +8807,18 @@
   "title_fr": "Tangerine",
   "tmdb_id": "308084",
   "year": 2015
+ },
+ "taxidriver50th16mmnyc:1976": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tu/1i/09/tr/taxi-driver-40-1200-1200-675-675-crop-000000.jpg?v=dd9cd7a397",
+  "enriched_at": "2026-10-10",
+  "i18n_v": 1,
+  "imdb_id": "tt0075314",
+  "letterboxd_rating": 4.1,
+  "letterboxd_url": "https://letterboxd.com/film/taxi-driver/",
+  "letterboxd_votes": 2588212,
+  "tmdb_id": "103",
+  "wikidata_id": "Q47221",
+  "year": 1976
  },
  "teenagesexdeathatcampmiasma:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7m/h0/iq/dx/5dbLRlAeIh4U3hyj4i4S4shv9AW-1200-1200-675-675-crop-000000.jpg?v=4f87c8fe02",
@@ -9249,7 +9219,7 @@
   "year": 2000
  },
  "v": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "vampirehumanistecherchesuicidaireconsentant": {
   "enriched_at": "2026-09-30"
@@ -9490,7 +9460,7 @@
   "year": 2022
  },
  "villeneuveascensiondlegende:2026": {
-  "enriched_at": "2026-10-07"
+  "enriched_at": "2026-10-10"
  },
  "villesansjuifs:1924": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/7/3/7/0/67370-the-city-without-jews-0-230-0-345-crop.jpg?v=db3d80fa8f",
@@ -9730,6 +9700,9 @@
   "wikidata_id": "Q134876629",
   "year": 2026
  },
+ "wildwood": {
+  "enriched_at": "2026-10-10"
+ },
  "wrong:2012": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0c/ie/fz/9l/wrong-1200-1200-675-675-crop-000000.jpg?v=648ff8ca5f",
   "enriched_at": "2026-09-09",
@@ -9822,6 +9795,9 @@
   "tmdb_id": "1437396",
   "wikidata_id": "Q133286528",
   "year": 2026
+ },
+ "yuriice10th": {
+  "enriched_at": "2026-10-10"
  },
  "ziggystardustspidersfrommars:1979": {
   "enriched_at": "2026-09-21"
