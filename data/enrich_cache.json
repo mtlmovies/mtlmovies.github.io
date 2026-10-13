@@ -564,7 +564,7 @@
   "year": 2014
  },
  "ascowithoutpermission:2025": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "atwork:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/0/9/5/5/9/tmdb/xzY5ZwVZSMMn111DhNcQs2M3J9Q-1200-1200-675-675-crop-000000.jpg?v=56a3b13153",
@@ -1158,29 +1158,16 @@
   "year": 2026
  },
  "bestwayisbyaccident:2026": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/3/5/7/6/1443576-the-best-way-is-by-accident-0-230-0-345-crop.jpg?v=cf3c7b169b",
-  "enriched_at": "2026-09-22",
-  "genres": [
-   "Documentaire"
-  ],
-  "genres_en": [
-   "Documentary"
-  ],
-  "genres_fr": [
-   "Documentaire"
-  ],
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/3/5/7/6/1443576-the-best-way-is-by-accident-0-230-0-345-crop.jpg?v=d48fd9dff7",
+  "enriched_at": "2026-10-13",
   "i18n_v": 1,
   "imdb_id": "tt42353729",
+  "letterboxd_rating": 3.73,
   "letterboxd_url": "https://letterboxd.com/film/the-best-way-is-by-accident/",
-  "overview": "Après la mort de son père adoptif, une jeune cinéaste replonge dans ses archives vidéo pour finalement réaliser qu’elle ne l’a jamais filmé – sauf une fois, par accident. Maintenant à l’aube de la fin du monde, elle veille à filmer l’extraordinaire dans l’ordinaire… lui aussi voué à disparaître.",
-  "overview_en": "After the death of her adoptive father, a young filmmaker delves into his video archives only to realize that she never filmed him—except once, by accident. As the end of the world approaches, she now sets out to capture the extraordinary in the ordinary… which, too, is destined to disappear.",
-  "overview_fr": "Après la mort de son père adoptif, une jeune cinéaste replonge dans ses archives vidéo pour finalement réaliser qu’elle ne l’a jamais filmé – sauf une fois, par accident. Maintenant à l’aube de la fin du monde, elle veille à filmer l’extraordinaire dans l’ordinaire… lui aussi voué à disparaître.",
-  "poster": "https://media.themoviedb.org/t/p/w500/xqlXPtOj3YIVERreVbDw62als44.jpg",
-  "runtime": 111,
-  "title_en": "The Best Way Is by Accident",
-  "title_fr": "La meilleure façon, c'est par accident",
+  "letterboxd_votes": 1928,
   "tmdb_id": "1571076",
-  "year": 2026
+  "wikidata_id": "Q136670148",
+  "year": null
  },
  "bestyearsourlives:1946": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kq/rl/hd/wf/bestyears-1200-1200-675-675-crop-000000.jpg?v=ccd5eeb1fd",
@@ -1276,7 +1263,16 @@
   "year": 2026
  },
  "biggirlsdontcry": {
-  "enriched_at": "2026-10-10"
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/8/3/9/7/18397-big-girls-don-t-cry-they-get-even-0-230-0-345-crop.jpg?v=6fcbe4dfb2",
+  "enriched_at": "2026-10-13",
+  "i18n_v": 1,
+  "imdb_id": "tt0101444",
+  "letterboxd_rating": 3.09,
+  "letterboxd_url": "https://letterboxd.com/film/big-girls-dont-cry-they-get-even/",
+  "letterboxd_votes": 2005,
+  "tmdb_id": "46972",
+  "wikidata_id": "Q4092214",
+  "year": 1992
  },
  "billie": {
   "enriched_at": "2026-09-12"
@@ -1891,6 +1887,9 @@
   "tmdb_id": "94466",
   "year": 1971
  },
+ "cestquoiamour:2026": {
+  "enriched_at": "2026-10-13"
+ },
  "charleboissymphoniquecelebrationgrandioseavecosm:2026": {
   "enriched_at": "2026-10-11"
  },
@@ -2100,6 +2099,9 @@
   "title_fr": "The Civil Dead",
   "tmdb_id": "913417",
   "year": 2023
+ },
+ "clayface": {
+  "enriched_at": "2026-10-13"
  },
  "clowngaza:2025": {
   "enriched_at": "2026-10-12"
@@ -2372,37 +2374,7 @@
   "enriched_at": "2026-10-07"
  },
  "deadcalm": {
-  "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
-  "enriched_at": "2026-09-18",
-  "genres": [
-   "Horreur",
-   "Thriller",
-   "Musique",
-   "Drame"
-  ],
-  "genres_en": [
-   "Horror",
-   "Thriller",
-   "Music",
-   "Drama"
-  ],
-  "genres_fr": [
-   "Horreur",
-   "Thriller",
-   "Musique",
-   "Drame"
-  ],
-  "i18n_v": 1,
-  "letterboxd_url": "https://letterboxd.com/tmdb/1756715/",
-  "overview": "a man discovering inner piece inside of a room of a man discovering piece",
-  "overview_en": "a man discovering inner piece inside of a room of a man discovering piece",
-  "overview_fr": "a man discovering inner piece inside of a room of a man discovering piece",
-  "poster": "https://media.themoviedb.org/t/p/w500/nl6A6IVIdC3WNi8sAgWaPFkPnOT.jpg",
-  "runtime": 5,
-  "title_en": "Dead Calm",
-  "title_fr": "Dead Calm",
-  "tmdb_id": "1756715",
-  "year": 2026
+  "enriched_at": "2026-10-13"
  },
  "deadcalm:1989": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/nk/hq/uw/e8/dead-calm-1200-1200-675-675-crop-000000.jpg?v=ab96c5fce2",
@@ -2725,7 +2697,7 @@
   "enriched_at": "2026-10-12"
  },
  "eastwestlove": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "educationaumaobama": {
   "enriched_at": "2026-09-09"
@@ -2752,7 +2724,7 @@
   "year": 2011
  },
  "ehdinrozniaune": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "elegant:2009": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/8/9/1/9/4/1189194-elegant-0-230-0-345-crop.jpg?v=7f76598ee5",
@@ -2919,6 +2891,9 @@
   "title_fr": "Fallen Angels",
   "tmdb_id": "11220",
   "year": 1995
+ },
+ "fallenangelsbynoelcoward": {
+  "enriched_at": "2026-10-13"
  },
  "faust100th:1926": {
   "enriched_at": "2026-10-12"
@@ -3087,7 +3062,7 @@
   "enriched_at": "2026-10-06"
  },
  "florilegeii:1974": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "flow": {
   "enriched_at": "2026-10-11"
@@ -3458,6 +3433,9 @@
   "tmdb_id": "1040",
   "year": 1963
  },
+ "gueuledargile": {
+  "enriched_at": "2026-10-13"
+ },
  "guillermodeltorospanslabyrinth20th": {
   "enriched_at": "2026-10-12"
  },
@@ -3616,7 +3594,7 @@
   "year": 1992
  },
  "haunted": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "heartbeast": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/4/7/4/6/8/tmdb/bicMU6xVD5deVyKP2azpyx7xkmH-1200-1200-675-675-crop-000000.jpg?v=33c9689044",
@@ -3865,7 +3843,7 @@
   "enriched_at": "2026-09-09"
  },
  "homles:2026": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "hommagesylviegroulx": {
   "enriched_at": "2026-10-04"
@@ -3989,34 +3967,7 @@
   "enriched_at": "2026-09-20"
  },
  "ileoublie": {
-  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/gi/ka/mn/0a/i-like-movies-1200-1200-675-675-crop-000000.jpg?v=5490449592",
-  "enriched_at": "2026-09-22",
-  "genres": [
-   "Comédie",
-   "Drame"
-  ],
-  "genres_en": [
-   "Comedy",
-   "Drama"
-  ],
-  "genres_fr": [
-   "Comédie",
-   "Drame"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt14913282",
-  "letterboxd_rating": 3.59,
-  "letterboxd_url": "https://letterboxd.com/film/i-like-movies/",
-  "letterboxd_votes": 59121,
-  "overview": "Lawrence Kweller, un cinéphile socialement maladroit de 17 ans, prend un emploi à temps partiel au magasin de vidéos Sequels, où il noue une amitié compliquée avec son aînée, Alana. Lawrence espère gagner assez d'argent pour fréquenter une école de cinéma à New York.",
-  "overview_en": "Socially inept 17-year-old cinephile Lawrence Kweller gets a job at a video store, where he forms a complicated friendship with his older female manager.",
-  "overview_fr": "Lawrence Kweller, un cinéphile socialement maladroit de 17 ans, prend un emploi à temps partiel au magasin de vidéos Sequels, où il noue une amitié compliquée avec son aînée, Alana. Lawrence espère gagner assez d'argent pour fréquenter une école de cinéma à New York.",
-  "poster": "https://media.themoviedb.org/t/p/w500/phb6rDzREtNXvTXuXVuAYcJBR7F.jpg",
-  "runtime": 99,
-  "title_en": "I Like Movies",
-  "title_fr": "Maniaque de films",
-  "tmdb_id": "980996",
-  "year": 2023
+  "enriched_at": "2026-10-13"
  },
  "ilpaesevillage": {
   "enriched_at": "2026-10-10"
@@ -4547,32 +4498,14 @@
  },
  "jimqueen:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/5/7/3/8/0/tmdb/vQw05sfFEVCVpysDAU5C8NU1gMO-1200-1200-675-675-crop-000000.jpg?v=2d4514f5c0",
-  "enriched_at": "2026-09-22",
-  "genres": [
-   "Animation",
-   "Comédie"
-  ],
-  "genres_en": [
-   "Animation",
-   "Comedy"
-  ],
-  "genres_fr": [
-   "Animation",
-   "Comédie"
-  ],
+  "enriched_at": "2026-10-13",
   "i18n_v": 1,
   "imdb_id": "tt36955518",
-  "letterboxd_rating": 3.97,
+  "letterboxd_rating": 3.99,
   "letterboxd_url": "https://letterboxd.com/film/jim-queen/",
-  "letterboxd_votes": 51266,
-  "overview": "When Heterosis, a mysterious virus that turns gay men straight, sweeps through the Parisian gay scene, Jim, the six-packed sovereign of the Gym Queens, goes from Pride royalty to social outcast. With only Lucien, a freshly-out twink with more heart than abs, still by his side, Jim must race to find a cure before the disease erases the community that once worshipped him.",
-  "overview_en": "When Heterosis, a mysterious virus that turns gay men straight, sweeps through the Parisian gay scene, Jim, the six-packed sovereign of the Gym Queens, goes from Pride royalty to social outcast. With only Lucien, a freshly-out twink with more heart than abs, still by his side, Jim must race to find a cure before the disease erases the community that once worshipped him.",
-  "overview_fr": "When Heterosis, a mysterious virus that turns gay men straight, sweeps through the Parisian gay scene, Jim, the six-packed sovereign of the Gym Queens, goes from Pride royalty to social outcast. With only Lucien, a freshly-out twink with more heart than abs, still by his side, Jim must race to find a cure before the disease erases the community that once worshipped him.",
-  "poster": "https://media.themoviedb.org/t/p/w500/jw8vwfyKOf509Zj1cu27waGFZLB.jpg",
-  "runtime": 85,
-  "title_en": "Jim Queen and the Quest for Chloroqueer",
-  "title_fr": "Jim Queen",
+  "letterboxd_votes": 54422,
   "tmdb_id": "1061798",
+  "wikidata_id": "Q139159596",
   "year": 2026
  },
  "johnnysenvatenguerre:1971": {
@@ -5766,7 +5699,7 @@
   "year": 2014
  },
  "mondaysurprisepremieres": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "monsieurlazhar:2011": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/y6/7c/kj/wj/monsieur-lazhar-1200-1200-675-675-crop-000000.jpg?v=ada2c0bdeb",
@@ -5900,32 +5833,14 @@
  },
  "mybrilliantcareer:1979": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/2f/20/zc/vl/my%20brilliant%20career-1200-1200-675-675-crop-000000.jpg?v=e9d3a83cf8",
-  "enriched_at": "2026-09-22",
-  "genres": [
-   "Drame",
-   "Romance"
-  ],
-  "genres_en": [
-   "Drama",
-   "Romance"
-  ],
-  "genres_fr": [
-   "Drame",
-   "Romance"
-  ],
+  "enriched_at": "2026-10-13",
   "i18n_v": 1,
   "imdb_id": "tt0079596",
   "letterboxd_rating": 3.75,
   "letterboxd_url": "https://letterboxd.com/film/my-brilliant-career/",
-  "letterboxd_votes": 10983,
-  "overview": "A young woman who is determined to maintain her independence finds herself at odds with her family who wants her to tame her wild side and get married.",
-  "overview_en": "A young woman who is determined to maintain her independence finds herself at odds with her family who wants her to tame her wild side and get married.",
-  "overview_fr": "A young woman who is determined to maintain her independence finds herself at odds with her family who wants her to tame her wild side and get married.",
-  "poster": "https://media.themoviedb.org/t/p/w500/gCMG0e3e4GM5uaHKlBnqGy0fhuP.jpg",
-  "runtime": 100,
-  "title_en": "My Brilliant Career",
-  "title_fr": "My Brilliant Career",
+  "letterboxd_votes": 11126,
   "tmdb_id": "16659",
+  "wikidata_id": "Q930294",
   "year": 1979
  },
  "mybrotherswedding:1983": {
@@ -6321,7 +6236,7 @@
   "year": 2026
  },
  "onceupontimemiddleeast": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "onenightonly": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/6/7/7/tmdb/mfgNUnFB25BNIwe9iPJ17cUN64S-1200-1200-675-675-crop-000000.jpg?v=7297a64765",
@@ -7268,10 +7183,10 @@
   "year": 2026
  },
  "primetime": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "primeurssurpriseslundi": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "psychic": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0g/8w/vm/hx/mHeyQoYO5zyWLZxsyVzGZLymf15-1200-1200-675-675-crop-000000.jpg?v=07b1f21364",
@@ -7301,7 +7216,7 @@
   "enriched_at": "2026-10-11"
  },
  "qccunzipped:1995": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "qepcshortfilmsshowcase": {
   "enriched_at": "2026-09-24"
@@ -8274,7 +8189,7 @@
   "enriched_at": "2026-09-24"
  },
  "smallchildsfirstadventure:1958": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "socialreckoning": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/c2/0g/fz/tj/social-1200-1200-675-675-crop-000000.jpg?v=6601cd3e98",
@@ -8578,7 +8493,7 @@
   "year": 1977
  },
  "symphoniesurbainesnadinegomez:2015": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "taleautumn:1998": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ub/hx/j5/6i/autumn%20tale-1200-1200-675-675-crop-000000.jpg?v=d163b29a03",
@@ -9047,7 +8962,7 @@
   "year": 2000
  },
  "v": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "vampirehumanistecherchesuicidaireconsentant": {
   "enriched_at": "2026-09-30"
@@ -9239,7 +9154,7 @@
   "enriched_at": "2026-10-11"
  },
  "villeneuveascensiondlegende:2026": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "villesansjuifs:1924": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/7/3/7/0/67370-the-city-without-jews-0-230-0-345-crop.jpg?v=db3d80fa8f",
@@ -9327,33 +9242,15 @@
  },
  "virginsuicides:1999": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6y/xk/bi/nf/the-virgin-suicides-70-1200-1200-675-675-crop-000000.jpg?v=69bb61a9c3",
-  "enriched_at": "2026-09-22",
-  "genres": [
-   "Drame",
-   "Romance"
-  ],
-  "genres_en": [
-   "Drama",
-   "Romance"
-  ],
-  "genres_fr": [
-   "Drame",
-   "Romance"
-  ],
+  "enriched_at": "2026-10-13",
   "i18n_v": 1,
   "imdb_id": "tt0159097",
   "letterboxd_rating": 3.86,
   "letterboxd_url": "https://letterboxd.com/film/the-virgin-suicides/",
-  "letterboxd_votes": 1423767,
-  "overview": "A group of male friends become obsessed with five mysterious sisters who are sheltered by their strict, religious parents.",
-  "overview_en": "A group of male friends become obsessed with five mysterious sisters who are sheltered by their strict, religious parents.",
-  "overview_fr": "A group of male friends become obsessed with five mysterious sisters who are sheltered by their strict, religious parents.",
-  "poster": "https://media.themoviedb.org/t/p/w500/yHIAt0xdPis7UwoJuM2AwORsLAM.jpg",
-  "runtime": 97,
-  "title_en": "The Virgin Suicides",
-  "title_fr": "The Virgin Suicides",
+  "letterboxd_votes": 1442228,
   "tmdb_id": "1443",
-  "year": 2000
+  "wikidata_id": "Q1423971",
+  "year": 1999
  },
  "virginsuicidescinetricot:1999": {
   "enriched_at": "2026-09-18"
@@ -9412,6 +9309,18 @@
   "tmdb_id": "1365683",
   "year": 2025
  },
+ "vouspouveztoutvoir:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wr/rf/xg/hl/IMG_2387-1200-1200-675-675-crop-000000.jpg?v=cfa3502c10",
+  "enriched_at": "2026-10-13",
+  "i18n_v": 1,
+  "imdb_id": "tt45368240",
+  "letterboxd_rating": 4.19,
+  "letterboxd_url": "https://letterboxd.com/film/you-can-see-everything/",
+  "letterboxd_votes": 947,
+  "tmdb_id": "1765072",
+  "wikidata_id": "Q141336617",
+  "year": 2026
+ },
  "vvaanforceforrest": {
   "enriched_at": "2026-09-29"
  },
@@ -9464,8 +9373,35 @@
   "wikidata_id": "Q134876629",
   "year": 2026
  },
+ "wicker": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/8/0/8/9/2/tmdb/95FAaZea15Kjz4TVcCraWhMXt9H-1200-1200-675-675-crop-000000.jpg?v=3471d8c823",
+  "enriched_at": "2026-10-13",
+  "i18n_v": 1,
+  "imdb_id": "tt29611136",
+  "letterboxd_rating": 3.8,
+  "letterboxd_url": "https://letterboxd.com/film/wicker/",
+  "letterboxd_votes": 3245,
+  "tmdb_id": "1195803",
+  "wikidata_id": "Q136428321",
+  "year": 2026
+ },
  "wildwood": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
+ },
+ "wildwoodcontreemalefique": {
+  "enriched_at": "2026-10-13"
+ },
+ "winterkeptuswarm:1965": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/q5/lh/gb/q0/winter-1200-1200-675-675-crop-000000.jpg?v=e56974d417",
+  "enriched_at": "2026-10-13",
+  "i18n_v": 1,
+  "imdb_id": "tt0232954",
+  "letterboxd_rating": 3.54,
+  "letterboxd_url": "https://letterboxd.com/film/winter-kept-us-warm/",
+  "letterboxd_votes": 1788,
+  "tmdb_id": "169796",
+  "wikidata_id": "Q8026269",
+  "year": 1965
  },
  "wrong:2012": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0c/ie/fz/9l/wrong-1200-1200-675-675-crop-000000.jpg?v=648ff8ca5f",
@@ -9504,6 +9440,18 @@
   "letterboxd_votes": 842,
   "tmdb_id": "1529849",
   "wikidata_id": "Q139669860",
+  "year": 2026
+ },
+ "youcanseeeverything": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wr/rf/xg/hl/IMG_2387-1200-1200-675-675-crop-000000.jpg?v=cfa3502c10",
+  "enriched_at": "2026-10-13",
+  "i18n_v": 1,
+  "imdb_id": "tt45368240",
+  "letterboxd_rating": 4.19,
+  "letterboxd_url": "https://letterboxd.com/film/you-can-see-everything/",
+  "letterboxd_votes": 947,
+  "tmdb_id": "1765072",
+  "wikidata_id": "Q141336617",
   "year": 2026
  },
  "youcanseeeverything:2026": {
@@ -9546,12 +9494,12 @@
   "year": 2026
  },
  "yuriice10th": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  },
  "ziggystardustspidersfrommars:1979": {
   "enriched_at": "2026-09-21"
  },
  "zonedessai:2026": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-13"
  }
 }
