@@ -202,6 +202,16 @@
  "akirarereleaseexperience": {
   "enriched_at": "2026-09-09"
  },
+ "aligwhoizi": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/9/4/1/9/3/1594193-ali-g-who-iz-i-0-230-0-345-crop.jpg?v=0e3e07fb61",
+  "enriched_at": "2026-10-14",
+  "i18n_v": 1,
+  "imdb_id": "tt43655467",
+  "letterboxd_url": "https://letterboxd.com/film/ali-g-who-iz-i/",
+  "tmdb_id": "1727734",
+  "wikidata_id": "Q140673920",
+  "year": 2026
+ },
  "alteredstates:1980": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jn/hd/l1/hj/altered-states-1200-1200-675-675-crop-000000.jpg?v=ae3f3ebbf4",
   "enriched_at": "2026-10-05",
@@ -1232,34 +1242,15 @@
   "enriched_at": "2026-09-09"
  },
  "bewareboiuna": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/2/7/0/9/5/1127095-beware-boiuna-0-230-0-345-crop.jpg?v=df1e66d6c2",
-  "enriched_at": "2026-09-23",
-  "genres": [
-   "Aventure",
-   "Horreur",
-   "Thriller"
-  ],
-  "genres_en": [
-   "Adventure",
-   "Horror",
-   "Thriller"
-  ],
-  "genres_fr": [
-   "Aventure",
-   "Horreur",
-   "Thriller"
-  ],
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/2/7/0/9/5/tmdb/9nU0FKNefmhbgi2xXlvZchZsqwm-1200-1200-675-675-crop-000000.jpg?v=49b3834721",
+  "enriched_at": "2026-10-14",
   "i18n_v": 1,
   "imdb_id": "tt10377864",
+  "letterboxd_rating": 2.88,
   "letterboxd_url": "https://letterboxd.com/film/beware-boiuna/",
-  "overview": "Deep in the Amazon, a medical mission spirals into a fight for survival when Boiúna, a colossal ancient predator, awakens to reclaim her domain. In the jungle where nature holds absolute power, she decides who lives and who dies.",
-  "overview_en": "Deep in the Amazon, a medical mission spirals into a fight for survival when Boiúna, a colossal ancient predator, awakens to reclaim her domain. In the jungle where nature holds absolute power, she decides who lives and who dies.",
-  "overview_fr": "Deep in the Amazon, a medical mission spirals into a fight for survival when Boiúna, a colossal ancient predator, awakens to reclaim her domain. In the jungle where nature holds absolute power, she decides who lives and who dies.",
-  "poster": "https://media.themoviedb.org/t/p/w500/tENVMxKvOkslv8kagVNdIEQ13RT.jpg",
-  "runtime": 104,
-  "title_en": "Beware Boiúna",
-  "title_fr": "Beware Boiúna",
+  "letterboxd_votes": 7251,
   "tmdb_id": "1244523",
+  "wikidata_id": "Q141052811",
   "year": 2026
  },
  "biggirlsdontcry": {
@@ -1501,7 +1492,7 @@
   "year": 2024
  },
  "boy:1969": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "boyfriendsgirlfriends:1987": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ef/qf/lg/e2/boyfriends-1200-1200-675-675-crop-000000.jpg?v=0e09f34b51",
@@ -1891,7 +1882,7 @@
   "enriched_at": "2026-10-13"
  },
  "charleboissymphoniquecelebrationgrandioseavecosm:2026": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "chateaudarioka": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/bl/kc/7o/27/z5oMoDs6a1GAuK5cNAeBkAr0yk-1200-1200-675-675-crop-000000.jpg?v=789a65f6ee",
@@ -2281,7 +2272,7 @@
   "enriched_at": "2026-10-03"
  },
  "coursterrycours": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "coyotevsacme": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ci/qq/vp/cm/coyote-1200-1200-675-675-crop-000000.jpg?v=e21dafdd5b",
@@ -2466,6 +2457,9 @@
   "title_fr": "Le dernier souffle, au cœur de l'Hôtel-Dieu de Montréal",
   "tmdb_id": "492383",
   "year": 2017
+ },
+ "diables": {
+  "enriched_at": "2026-10-14"
  },
  "diaryshinjukuthief": {
   "enriched_at": "2026-09-24"
@@ -2756,32 +2750,7 @@
   "enriched_at": "2026-10-06"
  },
  "endoakstreet": {
-  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/9/2/9/6/2/tmdb/mJDCrEFKHUqoZe4xyI8CE47pw7P-1200-1200-675-675-crop-000000.jpg?v=8ab201f560",
-  "enriched_at": "2026-09-09",
-  "genres_en": [
-   "Science Fiction",
-   "Mystery",
-   "Thriller"
-  ],
-  "genres_fr": [
-   "Science-Fiction",
-   "Mystère",
-   "Thriller"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt27165187",
-  "letterboxd_rating": 3.06,
-  "letterboxd_url": "https://letterboxd.com/film/the-end-of-oak-street/",
-  "letterboxd_votes": 463825,
-  "overview": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
-  "overview_en": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
-  "overview_fr": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
-  "poster": "https://media.themoviedb.org/t/p/w500/6sKI8i1NvYra5yghRvTDb4Jemch.jpg",
-  "runtime": 100,
-  "title_en": "The End of Oak Street",
-  "title_fr": "Au bout de Oak Street",
-  "tmdb_id": "1101383",
-  "year": 2026
+  "enriched_at": "2026-10-14"
  },
  "enqueteverite:1979": {
   "enriched_at": "2026-09-21"
@@ -2902,7 +2871,7 @@
   "enriched_at": "2026-09-25"
  },
  "festivalnouveaucinema": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "festivalsatellitesprogram1:2026": {
   "enriched_at": "2026-09-24"
@@ -3677,31 +3646,10 @@
   "tmdb_id": "1536950"
  },
  "henryportraitserialkiller:1984": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "heritiers": {
-  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kv/nl/ss/s7/4CiIa6ngd81He5NoclYvKWQcTTh-1200-1200-675-675-crop-000000.jpg?v=41f2de9a66",
-  "enriched_at": "2026-09-23",
-  "genres": [
-   "Documentaire"
-  ],
-  "genres_en": [
-   "Documentary"
-  ],
-  "genres_fr": [
-   "Documentaire"
-  ],
-  "i18n_v": 1,
-  "letterboxd_url": "https://letterboxd.com/film/the-inheritors-2025/",
-  "overview": "Les héritiers observe dans une intimité saisissante le quotidien d’une colonie de goélands à bec cerclé qui niche chaque année à proximité du plus grand dépotoir canadien pour nourrir leurs oisillons. En alternant les perspectives de la proie et des prédateurs, on accompagne ces mal-aimés au cours d’une saison de reproduction alors qu’ils deviennent victimes d’une collecte de données intrusive et la cible d’un contrôle impitoyable par l’art millénaire de la fauconnerie. Avec une bande sonore et une cinématographie qui laissent s’exprimer les oiseaux, Les héritiers est une expérience sensorielle sur les nouvelles manières de vivre et de mourir dans nos paysages hantés par la consommation et la pollution de masse. Un présage des écologies du futur.",
-  "overview_en": "The Inheritors offers an intimately arresting observation of the daily life of a colony of ring-billed gulls which nest alongside Canada’s largest landfill to feed their young. Alternating between the perspectives of prey and predator, we follow these unwanted creatures through a full breeding season as they become the targets of invasive data collection, then of harsh deterrence measures using the age-old art of falconry. With sound and cinematography that lets the birds speak for themselves, The Inheritors is a sensory experience which invites us to contemplate new ways of living and dying on a planet haunted by mass consumption and pollution. A foretelling of the ecologies of our future.",
-  "overview_fr": "Les héritiers observe dans une intimité saisissante le quotidien d’une colonie de goélands à bec cerclé qui niche chaque année à proximité du plus grand dépotoir canadien pour nourrir leurs oisillons. En alternant les perspectives de la proie et des prédateurs, on accompagne ces mal-aimés au cours d’une saison de reproduction alors qu’ils deviennent victimes d’une collecte de données intrusive et la cible d’un contrôle impitoyable par l’art millénaire de la fauconnerie. Avec une bande sonore et une cinématographie qui laissent s’exprimer les oiseaux, Les héritiers est une expérience sensorielle sur les nouvelles manières de vivre et de mourir dans nos paysages hantés par la consommation et la pollution de masse. Un présage des écologies du futur.",
-  "poster": "https://media.themoviedb.org/t/p/w500/d0v0vxANiWYNZ9re8iK1askpf6r.jpg",
-  "runtime": 79,
-  "title_en": "The Inheritors",
-  "title_fr": "Les héritiers",
-  "tmdb_id": "1558826",
-  "year": 2025
+  "enriched_at": "2026-10-14"
  },
  "heritiers:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kv/nl/ss/s7/4CiIa6ngd81He5NoclYvKWQcTTh-1200-1200-675-675-crop-000000.jpg?v=41f2de9a66",
@@ -3970,7 +3918,7 @@
   "enriched_at": "2026-10-13"
  },
  "ilpaesevillage": {
-  "enriched_at": "2026-10-10"
+  "enriched_at": "2026-10-14"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-15"
@@ -4040,7 +3988,7 @@
   "enriched_at": "2026-10-06"
  },
  "inheritors:2023": {
-  "enriched_at": "2026-10-06"
+  "enriched_at": "2026-10-14"
  },
  "insidieuxhorsplusloin": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
@@ -4437,7 +4385,17 @@
   "year": 1991
  },
  "jailer2": {
-  "enriched_at": "2026-10-08"
+  "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
+  "enriched_at": "2026-10-14",
+  "i18n_v": 1,
+  "imdb_id": "tt33318732",
+  "letterboxd_url": "https://letterboxd.com/tmdb/1461831/",
+  "tmdb_id": "1461831",
+  "wikidata_id": "Q133255153",
+  "year": null
+ },
+ "jailer2tamil": {
+  "enriched_at": "2026-10-14"
  },
  "japonlumieredautomne": {
   "enriched_at": "2026-10-12"
@@ -4675,7 +4633,7 @@
   "year": 2004
  },
  "kenrussellsdevils:1971": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "kindergarten:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
@@ -4721,6 +4679,9 @@
   "title_fr": "Jardin d'enfants",
   "tmdb_id": "1570621",
   "year": 2025
+ },
+ "klarasun": {
+  "enriched_at": "2026-10-14"
  },
  "kwaidan:1964": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7z/5f/p3/5m/kwaidan-1200-1200-675-675-crop-000000.jpg?v=73cf6350db",
@@ -5053,7 +5014,7 @@
   "year": 2017
  },
  "libreschoisir:2025": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "linkinparkunshatter": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/7/3/6/4/6/tmdb/uL1HCc4wmcFcSr1zS3kXX3CNUeE-1200-1200-675-675-crop-000000.jpg?v=8f7f97868b",
@@ -5098,7 +5059,7 @@
   "year": 2015
  },
  "lostboysxdrawnquarterly:1987": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "louiselecavaliersursonchevalfeu:2018": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/4/1/4/6/0/441460-louise-lecavalier-in-motion-0-230-0-345-crop.jpg?v=73a82772a3",
@@ -5151,13 +5112,13 @@
   "enriched_at": "2026-10-08"
  },
  "macbeth": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "macbethitalianwestmetropolitanopera": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "macbethitalienavecstfrmetropolitanopera": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "maddiessecret:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/3/5/4/9/tmdb/kwBX4d1MsVl5h3GkQCXJAQ4r0O4-1200-1200-675-675-crop-000000.jpg?v=d082b93af2",
@@ -5188,6 +5149,9 @@
   "title_fr": "Maddie's Secret",
   "tmdb_id": "1517868",
   "year": 2026
+ },
+ "magicfarawaytreefamilyfavourites": {
+  "enriched_at": "2026-10-14"
  },
  "mamanputain:1973": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/r3/zd/ul/nc/d7f7Dq0I5SuevNHVqLwInQq3EBr-1200-1200-675-675-crop-000000.jpg?v=1b85333bb5",
@@ -5481,6 +5445,9 @@
   "tmdb_id": "1520504",
   "year": 2026
  },
+ "miaecolemonstres": {
+  "enriched_at": "2026-10-14"
+ },
  "minionsmonsters": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/9/6/8/0/8/tmdb/pqFnCSJZ3Hq7QOM8uu2WC8k0R3q-1200-1200-675-675-crop-000000.jpg?v=0c3bc65b5a",
   "enriched_at": "2026-09-30",
@@ -5712,6 +5679,16 @@
   "tmdb_id": "78480",
   "wikidata_id": "Q1679872",
   "year": 2011
+ },
+ "monstermia": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/4/6/1/8/1444618-monster-mia-0-230-0-345-crop.jpg?v=1fd2940ba0",
+  "enriched_at": "2026-10-14",
+  "i18n_v": 1,
+  "imdb_id": "tt38807889",
+  "letterboxd_url": "https://letterboxd.com/film/monster-mia/",
+  "tmdb_id": "1572116",
+  "wikidata_id": "Q140602704",
+  "year": 2026
  },
  "montrealmabelle:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/6/5/1/8/5/tmdb/ddkSgr9rQqq3fbtMps0rhUv59fI-1200-1200-675-675-crop-000000.jpg?v=70c9545767",
@@ -6595,6 +6572,18 @@
  "paulinejulienwomancountry": {
   "enriched_at": "2026-10-11"
  },
+ "paulinejulienwomancountry:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/5/4/6/9/1115469-pauline-2026-2-0-230-0-345-crop.jpg?v=7765e04726",
+  "enriched_at": "2026-10-14",
+  "i18n_v": 1,
+  "imdb_id": "tt39387187",
+  "letterboxd_rating": 3.67,
+  "letterboxd_url": "https://letterboxd.com/film/pauline-2026-2/",
+  "letterboxd_votes": 775,
+  "tmdb_id": "1232113",
+  "wikidata_id": "Q140291059",
+  "year": null
+ },
  "pawpatroldinomovie": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/7/1/9/6/9/tmdb/rlREba6gEHwcIyxvZLrUebJjxsI-1200-1200-675-675-crop-000000.jpg?v=ec999b4a38",
   "enriched_at": "2026-09-30",
@@ -7014,7 +7003,7 @@
   "year": 2024
  },
  "plusriennestegalparailleurs": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "plusriennestegalparailleurs:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/1/4/5/6/6/1514566-all-things-are-no-longer-equal-0-230-0-345-crop.jpg?v=48ebb1dd29",
@@ -7182,6 +7171,9 @@
   "tmdb_id": "1302904",
   "year": 2026
  },
+ "practicalmagiccinetricot:1998": {
+  "enriched_at": "2026-10-14"
+ },
  "primetime": {
   "enriched_at": "2026-10-13"
  },
@@ -7213,7 +7205,7 @@
   "enriched_at": "2026-10-12"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-10-13"
@@ -7254,6 +7246,18 @@
  },
  "queenbudapestexperience": {
   "enriched_at": "2026-10-07"
+ },
+ "raisonsentiment": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fj/dz/gp/m9/bXRoEdk3zmkS4LfKu9cRBGbvI6o-1200-1200-675-675-crop-000000.jpg?v=d7dd5a5443",
+  "enriched_at": "2026-10-14",
+  "i18n_v": 1,
+  "imdb_id": "tt37439146",
+  "letterboxd_rating": 3.89,
+  "letterboxd_url": "https://letterboxd.com/film/sense-and-sensibility-2026/",
+  "letterboxd_votes": 57370,
+  "tmdb_id": "1503762",
+  "wikidata_id": "Q135436961",
+  "year": 2026
  },
  "raisonsentiments": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fj/dz/gp/m9/bXRoEdk3zmkS4LfKu9cRBGbvI6o-1200-1200-675-675-crop-000000.jpg?v=d7dd5a5443",
@@ -7888,32 +7892,14 @@
  },
  "sensesensibility:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7u/vd/40/n9/sense-and-sensibility-1995-1200-1200-675-675-crop-000000.jpg?v=5e4124508f",
-  "enriched_at": "2026-09-23",
-  "genres": [
-   "Drame",
-   "Romance"
-  ],
-  "genres_en": [
-   "Drama",
-   "Romance"
-  ],
-  "genres_fr": [
-   "Drame",
-   "Romance"
-  ],
+  "enriched_at": "2026-10-14",
   "i18n_v": 1,
   "imdb_id": "tt0114388",
-  "letterboxd_rating": 3.87,
+  "letterboxd_rating": 3.88,
   "letterboxd_url": "https://letterboxd.com/film/sense-and-sensibility/",
-  "letterboxd_votes": 245954,
-  "overview": "En Angleterre, au début du XIXe siècle. À sa mort, monsieur Dashwood laisse son épouse et ses trois filles dépourvues de tout bien. Chassées de leur maison par le fils aîné, un être grossier entièrement dominé par son acariâtre épouse, les quatre femmes doivent se résoudre à demander asile à une cousine éloignée. Avant de partir, Elinor, l'aînée des filles, la plus vertueuse, a le temps de s'éprendre du frère de sa belle-sœur, le charmant mais bafouillant Edward. Marianne, la cadette, déjoue les plans de son envahissante cousine. Plutôt que de s'éprendre du colonel Brandon, un riche célibataire des environs, elle s'enflamme pour le séduisant Willoughby...",
-  "overview_en": "The Dashwood sisters, sensible Elinor and passionate Marianne, learn that their prospects of marriage seem doomed by their family's sudden loss of fortune. After Henry Dashwood dies unexpectedly, his estate must pass on by law to his son. These circumstances leave Mr. Dashwood's wife and daughters without a home and with barely enough money to live on. As Elinor and Marianne struggle to find romantic fulfillment in a society obsessed with financial and social status, they must learn to mix sense with sensibility in their dealings with both money and men.",
-  "overview_fr": "En Angleterre, au début du XIXe siècle. À sa mort, monsieur Dashwood laisse son épouse et ses trois filles dépourvues de tout bien. Chassées de leur maison par le fils aîné, un être grossier entièrement dominé par son acariâtre épouse, les quatre femmes doivent se résoudre à demander asile à une cousine éloignée. Avant de partir, Elinor, l'aînée des filles, la plus vertueuse, a le temps de s'éprendre du frère de sa belle-sœur, le charmant mais bafouillant Edward. Marianne, la cadette, déjoue les plans de son envahissante cousine. Plutôt que de s'éprendre du colonel Brandon, un riche célibataire des environs, elle s'enflamme pour le séduisant Willoughby...",
-  "poster": "https://media.themoviedb.org/t/p/w500/sDN7yTEpCXdXn4zrPKoSIU248Ox.jpg",
-  "runtime": 136,
-  "title_en": "Sense and Sensibility",
-  "title_fr": "Raison et sentiments",
+  "letterboxd_votes": 253424,
   "tmdb_id": "4584",
+  "wikidata_id": "Q643263",
   "year": 1995
  },
  "shame:1968": {
@@ -7943,7 +7929,7 @@
   "year": 1968
  },
  "shaunmoutonbeeeteferme": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "shaunsheepbeastmossybottom": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
@@ -8079,7 +8065,7 @@
   "year": 1980
  },
  "shock": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "sickling": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/7/0/0/5/5/270055-hammer-and-sickle-0-230-0-345-crop.jpg?v=3c792f0faf",
@@ -8847,29 +8833,14 @@
  },
  "unzipped:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/6/3/7/9/6/tmdb/rWzY3vyTqFRm5mGJzolv7XimdNV-1200-1200-675-675-crop-000000.jpg?v=509bcf7fa8",
-  "enriched_at": "2026-09-18",
-  "genres": [
-   "Documentaire"
-  ],
-  "genres_en": [
-   "Documentary"
-  ],
-  "genres_fr": [
-   "Documentaire"
-  ],
+  "enriched_at": "2026-10-14",
   "i18n_v": 1,
   "imdb_id": "tt0114805",
-  "letterboxd_rating": 3.81,
+  "letterboxd_rating": 3.9,
   "letterboxd_url": "https://letterboxd.com/film/unzipped/",
-  "letterboxd_votes": 2202,
-  "overview": "Isaac Mizrahi, one of the most successful designers in high fashion, plans his fall 1994 collection.",
-  "overview_en": "Isaac Mizrahi, one of the most successful designers in high fashion, plans his fall 1994 collection.",
-  "overview_fr": "Isaac Mizrahi, one of the most successful designers in high fashion, plans his fall 1994 collection.",
-  "poster": "https://media.themoviedb.org/t/p/w500/dnIzv4rXr9FXkqW880E3rStYQA7.jpg",
-  "runtime": 73,
-  "title_en": "Unzipped",
-  "title_fr": "Unzipped",
+  "letterboxd_votes": 2725,
   "tmdb_id": "77350",
+  "wikidata_id": "Q3951309",
   "year": 1995
  },
  "uprising": {
@@ -9151,7 +9122,7 @@
   "year": 2025
  },
  "viking:2022": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "villeneuveascensiondlegende:2026": {
   "enriched_at": "2026-10-13"
@@ -9328,7 +9299,7 @@
   "enriched_at": "2026-09-18"
  },
  "wallacegromitcursewererabbit:2005": {
-  "enriched_at": "2026-10-11"
+  "enriched_at": "2026-10-14"
  },
  "weight": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/9/3/5/tmdb/zLeq2fbHU6UdA7mhsYnIULORTgq-1200-1200-675-675-crop-000000.jpg?v=50b4186d50",
@@ -9501,5 +9472,8 @@
  },
  "zonedessai:2026": {
   "enriched_at": "2026-10-13"
+ },
+ "zorekentaxifrotwo:2021": {
+  "enriched_at": "2026-10-14"
  }
 }
