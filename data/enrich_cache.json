@@ -5338,6 +5338,9 @@
  "mariemadeleine:2026": {
   "enriched_at": "2026-10-18"
  },
+ "marquercongo:2026": {
+  "enriched_at": "2026-10-19"
+ },
  "marriagescoupscoeurequipe:2001": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/9/4/3/111943-marriages-0-230-0-345-crop.jpg?v=fef417d6e4",
   "enriched_at": "2026-10-07",
@@ -6081,6 +6084,18 @@
   "poster": "https://media.themoviedb.org/t/p/w500/fpZkoQCju6SFtOKd6XVM2XRdk0N.jpg",
   "runtime": 78,
   "tmdb_id": "1147971"
+ },
+ "nobodysviolence:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/2/6/5/2/5/1426525-nobodys-violence-0-230-0-345-crop.jpg?v=855b9f94fb",
+  "enriched_at": "2026-10-19",
+  "i18n_v": 1,
+  "imdb_id": "tt38512625",
+  "letterboxd_rating": 3.24,
+  "letterboxd_url": "https://letterboxd.com/film/nobodys-violence/",
+  "letterboxd_votes": 493,
+  "tmdb_id": "1552242",
+  "wikidata_id": "Q136376466",
+  "year": null
  },
  "nostosilritorno": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xm/s6/rs/e2/nostos-1200-1200-675-675-crop-000000.jpg?v=cbd7d85dd3",
