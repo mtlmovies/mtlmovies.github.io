@@ -100,7 +100,7 @@
   "year": 2001
  },
  "6portraitsneorealistes": {
-  "enriched_at": "2026-10-16"
+  "enriched_at": "2026-10-20"
  },
  "6portraitsneorealistes:2026": {
   "enriched_at": "2026-10-18"
@@ -330,6 +330,9 @@
  },
  "amoursimpossibles:1980": {
   "enriched_at": "2026-09-21"
+ },
+ "amourspossibles:2026": {
+  "enriched_at": "2026-10-20"
  },
  "andrerieus2026summerconcertvivamaastricht": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/4/1/8/2/1564182-andre-rieus-2026-summer-concert-viva-maastricht-0-230-0-345-crop.jpg?v=e0c7c1bf86",
@@ -704,29 +707,7 @@
   "year": null
  },
  "autremaman": {
-  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/2o/3d/bn/sl/smZ8BT4Vzw4iCEppTLCnN8jNYtn-1200-1200-675-675-crop-000000.jpg?v=3661b62b2c",
-  "enriched_at": "2026-09-29",
-  "genres": [
-   "Horreur"
-  ],
-  "genres_en": [
-   "Horror"
-  ],
-  "genres_fr": [
-   "Horreur"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt36586020",
-  "letterboxd_url": "https://letterboxd.com/film/other-mommy/",
-  "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-  "overview_en": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-  "overview_fr": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-  "poster": "https://media.themoviedb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
-  "runtime": 93,
-  "title_en": "Other Mommy",
-  "title_fr": "Other Mommy",
-  "tmdb_id": "1400837",
-  "year": 2026
+  "enriched_at": "2026-10-20"
  },
  "avengersendgame": {
   "enriched_at": "2026-10-18"
@@ -1491,7 +1472,7 @@
   "year": 2024
  },
  "boy:1969": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "boyfriendsgirlfriends:1987": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ef/qf/lg/e2/boyfriends-1200-1200-675-675-crop-000000.jpg?v=0e09f34b51",
@@ -1890,7 +1871,7 @@
   "enriched_at": "2026-10-19"
  },
  "charleboissymphoniquecelebrationgrandioseavecosm:2026": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "chateaudarioka": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/bl/kc/7o/27/z5oMoDs6a1GAuK5cNAeBkAr0yk-1200-1200-675-675-crop-000000.jpg?v=789a65f6ee",
@@ -2479,7 +2460,7 @@
   "enriched_at": "2026-10-19"
  },
  "diables": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "diaryshinjukuthief": {
   "enriched_at": "2026-09-24"
@@ -2755,7 +2736,7 @@
   "enriched_at": "2026-10-06"
  },
  "endoakstreet": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "enhypenworldtourbloodsaga": {
   "enriched_at": "2026-10-19"
@@ -2809,6 +2790,18 @@
  },
  "europa": {
   "enriched_at": "2026-10-19"
+ },
+ "eyesghana:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/0/0/4/2/4/1400424-the-eyes-of-ghana-0-230-0-345-crop.jpg?v=f21e09b3a9",
+  "enriched_at": "2026-10-20",
+  "i18n_v": 1,
+  "imdb_id": "tt37815334",
+  "letterboxd_rating": 3.67,
+  "letterboxd_url": "https://letterboxd.com/film/the-eyes-of-ghana/",
+  "letterboxd_votes": 576,
+  "tmdb_id": "1525208",
+  "wikidata_id": "Q136773036",
+  "year": null
  },
  "faceanother": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/o2/3j/aw/i9/face%20of%20another-1200-1200-675-675-crop-000000.jpg?v=d0e3b87478",
@@ -2877,6 +2870,9 @@
  },
  "fallenangelsbynoelcoward": {
   "enriched_at": "2026-10-19"
+ },
+ "fatherland:2026": {
+  "enriched_at": "2026-10-20"
  },
  "faust100th:1926": {
   "enriched_at": "2026-10-18"
@@ -3045,7 +3041,7 @@
   "enriched_at": "2026-10-18"
  },
  "florilegeii": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "florilegeii:1974": {
   "enriched_at": "2026-10-16"
@@ -3231,29 +3227,14 @@
  },
  "gentlemonster:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mm/84/5x/4d/p9cdAwkoPkmSC370arNTcDCpZYX-1200-1200-675-675-crop-000000.jpg?v=174adb9bbe",
-  "enriched_at": "2026-09-29",
-  "genres": [
-   "Drame"
-  ],
-  "genres_en": [
-   "Drama"
-  ],
-  "genres_fr": [
-   "Drame"
-  ],
+  "enriched_at": "2026-10-20",
   "i18n_v": 1,
   "imdb_id": "tt37020296",
-  "letterboxd_rating": 3.33,
+  "letterboxd_rating": 3.35,
   "letterboxd_url": "https://letterboxd.com/film/gentle-monster/",
-  "letterboxd_votes": 5945,
-  "overview": "After relocating with her family to the countryside, a renowned pianist uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception.",
-  "overview_en": "After relocating with her family to the countryside, a renowned pianist uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception.",
-  "overview_fr": "After relocating with her family to the countryside, a renowned pianist uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception.",
-  "poster": "https://media.themoviedb.org/t/p/w500/v7sbP2qv8ezCfo9FOI6DVUXDSaw.jpg",
-  "runtime": 114,
-  "title_en": "Gentle Monster",
-  "title_fr": "Gentle Monster",
+  "letterboxd_votes": 8119,
   "tmdb_id": "1473148",
+  "wikidata_id": "Q136335212",
   "year": 2026
  },
  "germanpeople": {
@@ -3678,10 +3659,10 @@
   "tmdb_id": "1536950"
  },
  "henryportraitserialkiller:1984": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "heritiers": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "heritiers:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kv/nl/ss/s7/4CiIa6ngd81He5NoclYvKWQcTTh-1200-1200-675-675-crop-000000.jpg?v=41f2de9a66",
@@ -3956,7 +3937,7 @@
   "enriched_at": "2026-10-19"
  },
  "ilpaesevillage": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-15"
@@ -4026,7 +4007,7 @@
   "enriched_at": "2026-10-06"
  },
  "inheritors:2023": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "insidieuxhorsplusloin": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
@@ -4436,7 +4417,7 @@
   "year": null
  },
  "jailer2tamil": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "japonlumieredautomne": {
   "enriched_at": "2026-10-18"
@@ -4534,32 +4515,7 @@
   "year": 1971
  },
  "jugementsocial": {
-  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/c2/0g/fz/tj/social-1200-1200-675-675-crop-000000.jpg?v=6601cd3e98",
-  "enriched_at": "2026-09-29",
-  "genres": [
-   "Drame",
-   "Thriller"
-  ],
-  "genres_en": [
-   "Drama",
-   "Thriller"
-  ],
-  "genres_fr": [
-   "Drame",
-   "Thriller"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt37510326",
-  "letterboxd_url": "https://letterboxd.com/film/the-social-reckoning/",
-  "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-  "overview_en": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-  "overview_fr": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-  "poster": "https://media.themoviedb.org/t/p/w500/6B5gNoTM9PCC7jXTFd7tJGFfeFa.jpg",
-  "runtime": 112,
-  "title_en": "The Social Reckoning",
-  "title_fr": "The Social Reckoning",
-  "tmdb_id": "1281331",
-  "year": 2026
+  "enriched_at": "2026-10-20"
  },
  "jurassicpark": {
   "enriched_at": "2026-09-30"
@@ -4656,7 +4612,7 @@
   "year": 2004
  },
  "kenrussellsdevils:1971": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "kindergarten:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
@@ -4707,7 +4663,7 @@
   "enriched_at": "2026-10-18"
  },
  "klarasun": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "kwaidan:1964": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7z/5f/p3/5m/kwaidan-1200-1200-675-675-crop-000000.jpg?v=73cf6350db",
@@ -5025,7 +4981,7 @@
   "year": 2017
  },
  "libreschoisir:2025": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "linkinparkunshatter": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/7/3/6/4/6/tmdb/uL1HCc4wmcFcSr1zS3kXX3CNUeE-1200-1200-675-675-crop-000000.jpg?v=8f7f97868b",
@@ -5041,39 +4997,21 @@
  },
  "littleprincepetitsmodernes:2015": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wm/dh/a8/sq/the-little-prince-1200-1200-675-675-crop-000000.jpg?v=189674e838",
-  "enriched_at": "2026-09-09",
-  "genres_en": [
-   "Adventure",
-   "Animation",
-   "Fantasy",
-   "Family"
-  ],
-  "genres_fr": [
-   "Aventure",
-   "Animation",
-   "Fantastique",
-   "Familial"
-  ],
+  "enriched_at": "2026-10-20",
   "i18n_v": 1,
   "imdb_id": "tt1754656",
-  "letterboxd_rating": 3.97,
+  "letterboxd_rating": 3.98,
   "letterboxd_url": "https://letterboxd.com/film/the-little-prince-2015/",
-  "letterboxd_votes": 225071,
-  "overview": "C’est l’histoire d’une histoire. C’est l’histoire d’une petite fille, intrépide et curieuse, qui vit dans un monde d’adultes. C’est l’histoire d’un aviateur, excentrique et facétieux, qui n’a jamais vraiment grandi. C’est l’histoire du Petit Prince qui va les réunir dans une aventure extraordinaire.",
-  "overview_en": "Based on the best-seller book 'The Little Prince', the movie tells the story of a little girl that lives with resignation in a world where efficiency and work are the only dogmas. Everything will change when accidentally she discovers her neighbor that will tell her about the story of the Little Prince that he once met.",
-  "overview_fr": "C’est l’histoire d’une histoire. C’est l’histoire d’une petite fille, intrépide et curieuse, qui vit dans un monde d’adultes. C’est l’histoire d’un aviateur, excentrique et facétieux, qui n’a jamais vraiment grandi. C’est l’histoire du Petit Prince qui va les réunir dans une aventure extraordinaire.",
-  "poster": "https://media.themoviedb.org/t/p/w500/yIGmrOYLXsi51YbelSwqfFPkcsO.jpg",
-  "runtime": 106,
-  "title_en": "The Little Prince",
-  "title_fr": "Le petit prince",
+  "letterboxd_votes": 233585,
   "tmdb_id": "309809",
+  "wikidata_id": "Q16386722",
   "year": 2015
  },
  "lola": {
   "enriched_at": "2026-10-19"
  },
  "lostboysxdrawnquarterly:1987": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "louiselecavaliersursonchevalfeu:2018": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/4/1/4/6/0/441460-louise-lecavalier-in-motion-0-230-0-345-crop.jpg?v=73a82772a3",
@@ -5466,7 +5404,7 @@
   "year": 2026
  },
  "miaecolemonstres": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "minionsmonsters": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/9/6/8/0/8/tmdb/pqFnCSJZ3Hq7QOM8uu2WC8k0R3q-1200-1200-675-675-crop-000000.jpg?v=0c3bc65b5a",
@@ -5887,30 +5825,15 @@
   "enriched_at": "2026-10-18"
  },
  "naza:2026": {
-  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/6/2/0/2/0/6/tmdb/dDKy6eWfzaPgXZ2MOIn6tLuM9F2-1200-1200-675-675-crop-000000.jpg?v=66bd8f175a",
-  "enriched_at": "2026-09-29",
-  "genres": [
-   "Documentaire"
-  ],
-  "genres_en": [
-   "Documentary"
-  ],
-  "genres_fr": [
-   "Documentaire"
-  ],
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/4g/94/d6/gn/qkuEfYYOZTW6ymbZMeyJeYQaMd7-1200-1200-675-675-crop-000000.jpg?v=48df2c0386",
+  "enriched_at": "2026-10-20",
   "i18n_v": 1,
   "imdb_id": "tt44766123",
-  "letterboxd_rating": 4.02,
+  "letterboxd_rating": 4.53,
   "letterboxd_url": "https://letterboxd.com/film/naza/",
-  "letterboxd_votes": 2084,
-  "overview": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
-  "overview_en": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
-  "overview_fr": "In secret conversations on the rooftops of Tel Aviv at night, the systems behind Israel's calculated mass killing of Palestinian civilians in Gaza are revealed by the people who designed and operated them.",
-  "poster": "https://media.themoviedb.org/t/p/w500/uLsG2CW8oHnmXWdtPyruSegI8rF.jpg",
-  "runtime": 80,
-  "title_en": "NAZA",
-  "title_fr": "NAZA",
+  "letterboxd_votes": 33713,
   "tmdb_id": "1755291",
+  "wikidata_id": "Q141168534",
   "year": 2026
  },
  "nct1275thtourneocityseoulredlinecinemas": {
@@ -6339,27 +6262,14 @@
  },
  "othermommy": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/2o/3d/bn/sl/smZ8BT4Vzw4iCEppTLCnN8jNYtn-1200-1200-675-675-crop-000000.jpg?v=3661b62b2c",
-  "enriched_at": "2026-09-29",
-  "genres": [
-   "Horreur"
-  ],
-  "genres_en": [
-   "Horror"
-  ],
-  "genres_fr": [
-   "Horreur"
-  ],
+  "enriched_at": "2026-10-20",
   "i18n_v": 1,
   "imdb_id": "tt36586020",
+  "letterboxd_rating": 2.19,
   "letterboxd_url": "https://letterboxd.com/film/other-mommy/",
-  "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-  "overview_en": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-  "overview_fr": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-  "poster": "https://media.themoviedb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
-  "runtime": 93,
-  "title_en": "Other Mommy",
-  "title_fr": "Other Mommy",
+  "letterboxd_votes": 222116,
   "tmdb_id": "1400837",
+  "wikidata_id": "Q134588273",
   "year": 2026
  },
  "othermommyfaneventscreening": {
@@ -6581,6 +6491,9 @@
   "title_fr": "PAW Patrol: The Dino Movie",
   "tmdb_id": "1185806",
   "year": 2026
+ },
+ "patrie:2026": {
+  "enriched_at": "2026-10-20"
  },
  "paulinejulienfemmepays:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/5/4/6/9/1115469-pauline-julien-woman-of-the-country-0-230-0-345-crop.jpg?v=ceb628aa0a",
@@ -7088,29 +7001,14 @@
  },
  "possiblelove:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/su/95/as/k3/kPbyLj2OyjojqvR1jfK1VvXzabg-1200-1200-675-675-crop-000000.jpg?v=6eaf5bcb33",
-  "enriched_at": "2026-09-29",
-  "genres": [
-   "Drame"
-  ],
-  "genres_en": [
-   "Drama"
-  ],
-  "genres_fr": [
-   "Drame"
-  ],
+  "enriched_at": "2026-10-20",
   "i18n_v": 1,
   "imdb_id": "tt37803364",
-  "letterboxd_rating": 4.15,
+  "letterboxd_rating": 4.14,
   "letterboxd_url": "https://letterboxd.com/film/possible-love/",
-  "letterboxd_votes": 3683,
-  "overview": "A laid-off worker and his wife cross paths with a documentary filmmaker and her spouse and confront their hidden desires.",
-  "overview_en": "A laid-off worker and his wife cross paths with a documentary filmmaker and her spouse and confront their hidden desires.",
-  "overview_fr": "A laid-off worker and his wife cross paths with a documentary filmmaker and her spouse and confront their hidden desires.",
-  "poster": "https://media.themoviedb.org/t/p/w500/dLz9yHeLw4x4sD0WTSNi7HuK2ke.jpg",
-  "runtime": 165,
-  "title_en": "Possible Love",
-  "title_fr": "Possible Love",
+  "letterboxd_votes": 8814,
   "tmdb_id": "1483525",
+  "wikidata_id": "Q137843740",
   "year": 2026
  },
  "pouletauxprunes": {
@@ -7162,7 +7060,7 @@
   "year": 2026
  },
  "practicalmagiccinetricot:1998": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "primetime": {
   "enriched_at": "2026-10-19"
@@ -7195,7 +7093,7 @@
   "enriched_at": "2026-10-18"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-10-16"
@@ -7236,6 +7134,18 @@
  },
  "queenbudapestexperience": {
   "enriched_at": "2026-10-07"
+ },
+ "raiseredlantern35th:1991": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hf/cr/z0/d7/raise-the-red-lantern-1200-1200-675-675-crop-000000.jpg?v=e062584d78",
+  "enriched_at": "2026-10-20",
+  "i18n_v": 1,
+  "imdb_id": "tt0101640",
+  "letterboxd_rating": 4.35,
+  "letterboxd_url": "https://letterboxd.com/film/raise-the-red-lantern/",
+  "letterboxd_votes": 62446,
+  "tmdb_id": "10404",
+  "wikidata_id": "Q665146",
+  "year": 1991
  },
  "raisonsentiment": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fj/dz/gp/m9/bXRoEdk3zmkS4LfKu9cRBGbvI6o-1200-1200-675-675-crop-000000.jpg?v=d7dd5a5443",
@@ -7896,7 +7806,7 @@
   "enriched_at": "2026-10-19"
  },
  "seventeenworldtournew": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "shame:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tx/j8/e2/uo/shame-1200-1200-675-675-crop-000000.jpg?v=fa06b92886",
@@ -7925,7 +7835,7 @@
   "year": 1968
  },
  "shaunmoutonbeeeteferme": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "shaunsheepbeastmossybottom": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
@@ -8028,7 +7938,7 @@
   "year": 1980
  },
  "shock": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "sickling": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/7/0/0/5/5/270055-hammer-and-sickle-0-230-0-345-crop.jpg?v=3c792f0faf",
@@ -8141,32 +8051,7 @@
   "enriched_at": "2026-10-19"
  },
  "socialreckoning": {
-  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/c2/0g/fz/tj/social-1200-1200-675-675-crop-000000.jpg?v=6601cd3e98",
-  "enriched_at": "2026-09-29",
-  "genres": [
-   "Drame",
-   "Thriller"
-  ],
-  "genres_en": [
-   "Drama",
-   "Thriller"
-  ],
-  "genres_fr": [
-   "Drame",
-   "Thriller"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt37510326",
-  "letterboxd_url": "https://letterboxd.com/film/the-social-reckoning/",
-  "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-  "overview_en": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-  "overview_fr": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-  "poster": "https://media.themoviedb.org/t/p/w500/6B5gNoTM9PCC7jXTFd7tJGFfeFa.jpg",
-  "runtime": 112,
-  "title_en": "The Social Reckoning",
-  "title_fr": "The Social Reckoning",
-  "tmdb_id": "1281331",
-  "year": 2026
+  "enriched_at": "2026-10-20"
  },
  "spacejamfamilyfavourites": {
   "enriched_at": "2026-09-26"
@@ -8552,7 +8437,7 @@
   "enriched_at": "2026-10-18"
  },
  "threebillboardsoutsideebbingmissouri": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "tomorrowxtogetherworldtouracttomorrow": {
   "enriched_at": "2026-10-18"
@@ -9052,7 +8937,7 @@
   "year": 2025
  },
  "viking:2022": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "villeneuveascensiondlegende:2026": {
   "enriched_at": "2026-10-19"
@@ -9229,7 +9114,7 @@
   "enriched_at": "2026-09-18"
  },
  "wallacegromitcursewererabbit:2005": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-20"
  },
  "weight": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/9/3/5/tmdb/zLeq2fbHU6UdA7mhsYnIULORTgq-1200-1200-675-675-crop-000000.jpg?v=50b4186d50",
