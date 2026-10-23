@@ -100,7 +100,7 @@
   "year": 2001
  },
  "6portraitsneorealistes": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "6portraitsneorealistes:2026": {
   "enriched_at": "2026-10-18"
@@ -342,7 +342,7 @@
   "enriched_at": "2026-09-21"
  },
  "amourspossibles:2026": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "andrerieus2026summerconcertvivamaastricht": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/4/1/8/2/1564182-andre-rieus-2026-summer-concert-viva-maastricht-0-230-0-345-crop.jpg?v=e0c7c1bf86",
@@ -647,7 +647,7 @@
   "year": null
  },
  "autremaman": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "avengersendgame": {
   "enriched_at": "2026-10-21"
@@ -922,32 +922,14 @@
  },
  "batmanreturns:1992": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tu/w9/6z/r2/batman-returns-1200-1200-675-675-crop-000000.jpg?v=1364777873",
-  "enriched_at": "2026-10-02",
-  "genres": [
-   "Action",
-   "Fantastique"
-  ],
-  "genres_en": [
-   "Action",
-   "Fantasy"
-  ],
-  "genres_fr": [
-   "Action",
-   "Fantastique"
-  ],
+  "enriched_at": "2026-10-23",
   "i18n_v": 1,
   "imdb_id": "tt0103776",
   "letterboxd_rating": 3.6,
   "letterboxd_url": "https://letterboxd.com/film/batman-returns/",
-  "letterboxd_votes": 542766,
-  "overview": "Non seulement Batman doit affronter le Pingouin, monstre doté d'une intelligence à toute épreuve qui sème la terreur, mais, plus difficile encore, il doit faire face à la séduction de deux super-femmes, la douce Selina Kyle et la féline Catwoman qui va lui donner bien du fil a retordre. Si Bruce Wayne apprécie Selina, Batman n'est pas insensible au charme de Catwoman.",
-  "overview_en": "The monstrous Penguin, who dwells in the sewers beneath Gotham, joins up with corrupt mayoral candidate Max Shreck to topple the Batman once and for all. But when Shreck's timid assistant Selina Kyle finds out, and Shreck tries to kill her, she's transformed into the sexy Catwoman. She teams up with the Penguin and Shreck to destroy Batman, but sparks fly unexpectedly when she confronts the caped crusader.",
-  "overview_fr": "Non seulement Batman doit affronter le Pingouin, monstre doté d'une intelligence à toute épreuve qui sème la terreur, mais, plus difficile encore, il doit faire face à la séduction de deux super-femmes, la douce Selina Kyle et la féline Catwoman qui va lui donner bien du fil a retordre. Si Bruce Wayne apprécie Selina, Batman n'est pas insensible au charme de Catwoman.",
-  "poster": "https://media.themoviedb.org/t/p/w500/fcvfqGsXceQsEieSQsPm6ju46wk.jpg",
-  "runtime": 126,
-  "title_en": "Batman Returns",
-  "title_fr": "Le retour de Batman",
+  "letterboxd_votes": 547666,
   "tmdb_id": "364",
+  "wikidata_id": "Q189054",
   "year": 1992
  },
  "bayblood:1971": {
@@ -1322,7 +1304,7 @@
   "enriched_at": "2026-10-21"
  },
  "boy:1969": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "boyfriendsgirlfriends:1987": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ef/qf/lg/e2/boyfriends-1200-1200-675-675-crop-000000.jpg?v=0e09f34b51",
@@ -1718,7 +1700,7 @@
   "enriched_at": "2026-10-22"
  },
  "charleboissymphoniquecelebrationgrandioseavecosm:2026": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "chateaudarioka": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/bl/kc/7o/27/z5oMoDs6a1GAuK5cNAeBkAr0yk-1200-1200-675-675-crop-000000.jpg?v=789a65f6ee",
@@ -1851,6 +1833,18 @@
  },
  "cinemaparadisostaffpicks:1988": {
   "enriched_at": "2026-10-21"
+ },
+ "citeenfantsperdus:1995": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wm/t3/m0/ke/city-of-lost-children-2-1200-1200-675-675-crop-000000.jpg?v=d5660bcfa4",
+  "enriched_at": "2026-10-23",
+  "i18n_v": 1,
+  "imdb_id": "tt0112682",
+  "letterboxd_rating": 3.77,
+  "letterboxd_url": "https://letterboxd.com/film/the-city-of-lost-children/",
+  "letterboxd_votes": 63219,
+  "tmdb_id": "902",
+  "wikidata_id": "Q749988",
+  "year": 1995
  },
  "civildead": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hz/es/kf/fg/civil%20dead-1200-1200-675-675-crop-000000.jpg?v=f6f44b14f6",
@@ -2189,6 +2183,9 @@
   "wikidata_id": "Q1197742",
   "year": 1986
  },
+ "delivrenousmal": {
+  "enriched_at": "2026-10-23"
+ },
  "derenmenkenschneemann": {
   "enriched_at": "2026-10-03"
  },
@@ -2458,7 +2455,7 @@
   "enriched_at": "2026-10-06"
  },
  "endoakstreet": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "enhypenworldtourbloodsaga": {
   "enriched_at": "2026-10-22"
@@ -2524,6 +2521,9 @@
   "tmdb_id": "1525208",
   "wikidata_id": "Q136773036",
   "year": null
+ },
+ "fabuleuxdestindameliepoulan:2001": {
+  "enriched_at": "2026-10-23"
  },
  "faceanother": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/o2/3j/aw/i9/face%20of%20another-1200-1200-675-675-crop-000000.jpg?v=d0e3b87478",
@@ -2606,7 +2606,7 @@
   "year": 2009
  },
  "fatherland:2026": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "faust100th:1926": {
   "enriched_at": "2026-10-21"
@@ -3108,34 +3108,7 @@
   "enriched_at": "2026-10-21"
  },
  "gulistanterreroses:2016": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/3/4/2/9/7/5/342975-gulistan-land-of-roses-0-230-0-345-crop.jpg?v=89c8626f6d",
-  "enriched_at": "2026-10-02",
-  "genres": [
-   "Documentaire",
-   "Guerre"
-  ],
-  "genres_en": [
-   "Documentary",
-   "War"
-  ],
-  "genres_fr": [
-   "Documentaire",
-   "Guerre"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt5100152",
-  "letterboxd_rating": 3.66,
-  "letterboxd_url": "https://letterboxd.com/film/gulistan-land-of-roses/",
-  "letterboxd_votes": 470,
-  "overview": "They belong to the armed wing of the PKK, the Kurdistan Workers' Party, which is also an active guerrilla movement. The mission of these female fighters? Defend Kurdish territory in Iraq and Syria, and defeat ISIS (the armed militants of the so-called Islamic State group), all while embodying a revolutionary ideal advocating female empowerment. As filmmaker Zaynê Akyol follows their highly regimented lives, seasoned fighters like Rojen and Sozdar openly share with us their most intimate thoughts and dreams. Even as fighting against ISIS intensifies in the Middle East, these women bravely continue their battle against barbarism. Offering a window into this largely unknown world, Gulîstan, Land of Roses exposes the hidden face of this highly mediatized war: the female, feminist face of a revolutionary group united by a common vision of freedom.",
-  "overview_en": "They belong to the armed wing of the PKK, the Kurdistan Workers' Party, which is also an active guerrilla movement. The mission of these female fighters? Defend Kurdish territory in Iraq and Syria, and defeat ISIS (the armed militants of the so-called Islamic State group), all while embodying a revolutionary ideal advocating female empowerment. As filmmaker Zaynê Akyol follows their highly regimented lives, seasoned fighters like Rojen and Sozdar openly share with us their most intimate thoughts and dreams. Even as fighting against ISIS intensifies in the Middle East, these women bravely continue their battle against barbarism. Offering a window into this largely unknown world, Gulîstan, Land of Roses exposes the hidden face of this highly mediatized war: the female, feminist face of a revolutionary group united by a common vision of freedom.",
-  "overview_fr": "They belong to the armed wing of the PKK, the Kurdistan Workers' Party, which is also an active guerrilla movement. The mission of these female fighters? Defend Kurdish territory in Iraq and Syria, and defeat ISIS (the armed militants of the so-called Islamic State group), all while embodying a revolutionary ideal advocating female empowerment. As filmmaker Zaynê Akyol follows their highly regimented lives, seasoned fighters like Rojen and Sozdar openly share with us their most intimate thoughts and dreams. Even as fighting against ISIS intensifies in the Middle East, these women bravely continue their battle against barbarism. Offering a window into this largely unknown world, Gulîstan, Land of Roses exposes the hidden face of this highly mediatized war: the female, feminist face of a revolutionary group united by a common vision of freedom.",
-  "poster": "https://media.themoviedb.org/t/p/w500/yLbTCFReCu8bdJyfaopHmenvQAC.jpg",
-  "runtime": 84,
-  "title_en": "Gulîstan, Land of Roses",
-  "title_fr": "Gulîstan, Land of Roses",
-  "tmdb_id": "408690",
-  "year": 2016
+  "enriched_at": "2026-10-23"
  },
  "hachanshakeyourbooty": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/55/4d/mx/os/dEu8lwu4q6k3m8xOLxGJzYoxjix-1200-1200-675-675-crop-000000.jpg?v=2f8c6eb888",
@@ -3357,10 +3330,10 @@
   "tmdb_id": "1536950"
  },
  "henryportraitserialkiller:1984": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "heritiers": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "heritiers:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kv/nl/ss/s7/4CiIa6ngd81He5NoclYvKWQcTTh-1200-1200-675-675-crop-000000.jpg?v=41f2de9a66",
@@ -3473,32 +3446,14 @@
  },
  "historyconcrete": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/6/4/8/3/5/tmdb/2QWJHuCeYyFvDRY5CGJ4nlmaqYn-1200-1200-675-675-crop-000000.jpg?v=e4602d7104",
-  "enriched_at": "2026-10-02",
-  "genres": [
-   "Documentaire",
-   "Comédie"
-  ],
-  "genres_en": [
-   "Documentary",
-   "Comedy"
-  ],
-  "genres_fr": [
-   "Documentaire",
-   "Comédie"
-  ],
+  "enriched_at": "2026-10-23",
   "i18n_v": 1,
   "imdb_id": "tt39150234",
-  "letterboxd_rating": 3.99,
+  "letterboxd_rating": 3.97,
   "letterboxd_url": "https://letterboxd.com/film/the-history-of-concrete/",
-  "letterboxd_votes": 16539,
-  "overview": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
-  "overview_en": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
-  "overview_fr": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
-  "poster": "https://media.themoviedb.org/t/p/w500/2GWR1g1VdUNnNpLh6XfAQ6LVfyd.jpg",
-  "runtime": 101,
-  "title_en": "The History of Concrete",
-  "title_fr": "The History of Concrete",
+  "letterboxd_votes": 44963,
   "tmdb_id": "1596296",
+  "wikidata_id": "Q137380446",
   "year": 2026
  },
  "hitamengsub": {
@@ -3605,7 +3560,7 @@
   "enriched_at": "2026-10-22"
  },
  "ilpaesevillage": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-15"
@@ -3675,7 +3630,19 @@
   "enriched_at": "2026-10-06"
  },
  "inheritors:2023": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
+ },
+ "insidegazaq:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/2/7/2/8/8/1427288-inside-gaza-0-230-0-345-crop.jpg?v=ee238cd10d",
+  "enriched_at": "2026-10-23",
+  "i18n_v": 1,
+  "imdb_id": "tt32209577",
+  "letterboxd_rating": 3.86,
+  "letterboxd_url": "https://letterboxd.com/film/inside-gaza/",
+  "letterboxd_votes": 423,
+  "tmdb_id": "1552998",
+  "wikidata_id": "Q137204841",
+  "year": 2025
  },
  "insidieuxhorsplusloin": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/4/1/5/7/tmdb/8ujQlfBsLwNDs1lHmGxDMYkUrRT-1200-1200-675-675-crop-000000.jpg?v=5ffaf6b50c",
@@ -3939,6 +3906,9 @@
   "title_fr": "The Invite",
   "tmdb_id": "950028",
   "year": 2026
+ },
+ "irregularatmagichighschoolmovie": {
+  "enriched_at": "2026-10-23"
  },
  "irumuditelugu": {
   "enriched_at": "2026-09-09"
@@ -4232,7 +4202,7 @@
   "year": 2004
  },
  "kenrussellsdevils:1971": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "kindergarten:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
@@ -4292,7 +4262,16 @@
   "year": 2026
  },
  "klarasun": {
-  "enriched_at": "2026-10-20"
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/7/7/2/2/4/2/tmdb/wxggaclXGNdO0U8u8zd8Vn0A5lV-1200-1200-675-675-crop-000000.jpg?v=57f4dd0791",
+  "enriched_at": "2026-10-23",
+  "i18n_v": 1,
+  "imdb_id": "tt14371256",
+  "letterboxd_rating": 3.16,
+  "letterboxd_url": "https://letterboxd.com/film/klara-and-the-sun/",
+  "letterboxd_votes": 3684,
+  "tmdb_id": "858035",
+  "wikidata_id": "Q124409386",
+  "year": 2026
  },
  "kwaidan:1964": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7z/5f/p3/5m/kwaidan-1200-1200-675-675-crop-000000.jpg?v=73cf6350db",
@@ -4580,7 +4559,7 @@
   "year": 2017
  },
  "libreschoisir:2025": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "linkinparkunshatter": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/7/3/6/4/6/tmdb/uL1HCc4wmcFcSr1zS3kXX3CNUeE-1200-1200-675-675-crop-000000.jpg?v=8f7f97868b",
@@ -4613,32 +4592,17 @@
   "enriched_at": "2026-10-21"
  },
  "lostboysxdrawnquarterly:1987": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "louiselecavaliersursonchevalfeu:2018": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/4/1/4/6/0/441460-louise-lecavalier-in-motion-0-230-0-345-crop.jpg?v=73a82772a3",
-  "enriched_at": "2026-10-02",
-  "genres": [
-   "Documentaire"
-  ],
-  "genres_en": [
-   "Documentary"
-  ],
-  "genres_fr": [
-   "Documentaire"
-  ],
+  "enriched_at": "2026-10-23",
   "i18n_v": 1,
   "imdb_id": "tt7100894",
   "letterboxd_url": "https://letterboxd.com/film/louise-lecavalier-in-motion/",
-  "overview": "In this homage, Louise Lecavalier's creative vision is fully explored, illuminating a woman in perpetual motion, spiritually, mentally and physically.",
-  "overview_en": "In this homage, Louise Lecavalier's creative vision is fully explored, illuminating a woman in perpetual motion, spiritually, mentally and physically.",
-  "overview_fr": "In this homage, Louise Lecavalier's creative vision is fully explored, illuminating a woman in perpetual motion, spiritually, mentally and physically.",
-  "poster": "https://media.themoviedb.org/t/p/w500/8mfYN2tm3iatYmruRbolt13PSRf.jpg",
-  "runtime": 103,
-  "title_en": "Louise Lecavalier – In Motion",
-  "title_fr": "Louise Lecavalier : sur son cheval de feu",
   "tmdb_id": "511790",
-  "year": 2018
+  "wikidata_id": "Q65055343",
+  "year": 2017
  },
  "lovemetender": {
   "enriched_at": "2026-10-21"
@@ -4710,6 +4674,18 @@
  "magicfarawaytreefamilyfavourites": {
   "enriched_at": "2026-10-17"
  },
+ "makingmarieantoinette": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/1/9/2/5/9/1619259-making-marie-antoinette-0-230-0-345-crop.jpg?v=80ac334bbf",
+  "enriched_at": "2026-10-23",
+  "i18n_v": 1,
+  "imdb_id": "tt43656794",
+  "letterboxd_rating": 3.83,
+  "letterboxd_url": "https://letterboxd.com/film/making-marie-antoinette/",
+  "letterboxd_votes": 977,
+  "tmdb_id": "1754364",
+  "wikidata_id": "Q141247887",
+  "year": null
+ },
  "mamanputain:1973": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/r3/zd/ul/nc/d7f7Dq0I5SuevNHVqLwInQq3EBr-1200-1200-675-675-crop-000000.jpg?v=1b85333bb5",
   "enriched_at": "2026-09-09",
@@ -4767,6 +4743,16 @@
  },
  "mandaaditamil": {
   "enriched_at": "2026-09-21"
+ },
+ "manmotionrickhansenstory": {
+  "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
+  "enriched_at": "2026-10-23",
+  "i18n_v": 1,
+  "imdb_id": "tt43696890",
+  "letterboxd_url": "https://letterboxd.com/film/man-in-motion-the-rick-hansen-story/",
+  "tmdb_id": "1735917",
+  "wikidata_id": "Q141182275",
+  "year": null
  },
  "manwhofelltoearth:1976": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/v3/am/ij/mi/man-1200-1200-675-675-crop-000000.jpg?v=99ebb38991",
@@ -4976,7 +4962,7 @@
   "year": 2026
  },
  "miaecolemonstres": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "minionsmonsters": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/9/6/8/0/8/tmdb/pqFnCSJZ3Hq7QOM8uu2WC8k0R3q-1200-1200-675-675-crop-000000.jpg?v=0c3bc65b5a",
@@ -5837,7 +5823,7 @@
   "enriched_at": "2026-10-21"
  },
  "patrie:2026": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "paulinejulienfemmepays:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/5/4/6/9/1115469-pauline-2026-2-0-230-0-345-crop.jpg?v=7765e04726",
@@ -6057,29 +6043,7 @@
   "year": 1940
  },
  "photosaigoncoupsfeusurdeuxvies": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/7/4/7/2/8/1474728-saigon-story-two-shootings-in-the-forest-0-230-0-345-crop.jpg?v=195486f454",
-  "enriched_at": "2026-10-02",
-  "genres": [
-   "Documentaire"
-  ],
-  "genres_en": [
-   "Documentary"
-  ],
-  "genres_fr": [
-   "Documentaire"
-  ],
-  "i18n_v": 1,
-  "imdb_id": "tt36451987",
-  "letterboxd_url": "https://letterboxd.com/film/saigon-story-two-shootings-in-the-forest/",
-  "overview": "Que cache l’une des images de guerre les plus légendaires du 20e siècle? Avec une approche narrative captivante, le cinéaste Kim Nguyen, nommé aux Oscars, explore le lien énigmatique entre deux familles vietnamiennes et la photo L’exécution de Saigon, prise pendant la guerre du Vietnam. Entre drame historique et enquête captivante, Une photo à Saigon déterre les secrets personnels et collectifs, révélant la nature insaisissable de la mémoire et le chemin sinueux de la guérison.",
-  "overview_en": "Which is more final, the gun or the camera? Armed with a powerful visual style, Oscar®-nominated filmmaker Kim Nguyen reveals the elusive connection between two families and one iconic photo: Saigon Execution. Part history, part mystery, Saigon Story confronts the family secrets left in the wake of the Vietnam War, exposing the resilience of survivors and the blurred legacy of wartime memory.",
-  "overview_fr": "Que cache l’une des images de guerre les plus légendaires du 20e siècle? Avec une approche narrative captivante, le cinéaste Kim Nguyen, nommé aux Oscars, explore le lien énigmatique entre deux familles vietnamiennes et la photo L’exécution de Saigon, prise pendant la guerre du Vietnam. Entre drame historique et enquête captivante, Une photo à Saigon déterre les secrets personnels et collectifs, révélant la nature insaisissable de la mémoire et le chemin sinueux de la guérison.",
-  "poster": "https://media.themoviedb.org/t/p/w500/ev5ZegjbZxSgzYvNUXszvT8WdwS.jpg",
-  "runtime": 91,
-  "title_en": "Une photo à Saigon : coups de feu sur deux vies",
-  "title_fr": "Une photo à Saigon : coups de feu sur deux vies",
-  "tmdb_id": "1606750",
-  "year": 2026
+  "enriched_at": "2026-10-23"
  },
  "photosaigoncoupsfeusurdeuxvies:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/7/4/7/2/8/1474728-saigon-story-two-shootings-in-the-forest-0-230-0-345-crop.jpg?v=195486f454",
@@ -6302,7 +6266,7 @@
   "year": 2026
  },
  "practicalmagiccinetricot:1998": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "primetime": {
   "enriched_at": "2026-10-22"
@@ -6335,7 +6299,7 @@
   "enriched_at": "2026-10-21"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-10-16"
@@ -6664,29 +6628,14 @@
  },
  "rose:2020": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/5/5/4/1/4/655414-the-rose-family-0-230-0-345-crop.jpg?v=a2674d7c4b",
-  "enriched_at": "2026-10-02",
-  "genres": [
-   "Documentaire"
-  ],
-  "genres_en": [
-   "Documentary"
-  ],
-  "genres_fr": [
-   "Documentaire"
-  ],
+  "enriched_at": "2026-10-23",
   "i18n_v": 1,
   "imdb_id": "tt12854806",
-  "letterboxd_rating": 3.65,
+  "letterboxd_rating": 3.66,
   "letterboxd_url": "https://letterboxd.com/film/les-rose/",
-  "letterboxd_votes": 785,
-  "overview": "En octobre 1970, des membres du Front de libération du Québec (FLQ) enlèvent le ministre Pierre Laporte, déclenchant une crise sans précédent au Québec. Cinquante ans plus tard, Félix Rose tente de comprendre ce qui a pu mener son père et son oncle à commettre de tels actes. Grâce aux confidences de son oncle Jacques, qui accepte pour la première fois de s’exprimer sur le sujet, et aux traces précieuses laissées par son père Paul, il fait revivre la richesse de l’héritage d’une famille ouvrière québécoise et redonne à la crise d’octobre sa dimension sociale. Fruit de dix ans de recherche, Les Rose permet de faire revivre des moments et des personnages que l’on ne connaissait que par quelques clichés, et laisse entrevoir le blocage social vécu par une jeunesse révoltée et les bouleversements qui s’ensuivirent.",
-  "overview_en": "In October 1970, members of the Front de Libération du Québec (FLQ) kidnapped and murdered Minister Pierre Laporte, part of an unprecedented crisis in Quebec. Fifty years later, Félix Rose tries to understand what could have led his father and uncle to commit such crimes. Thanks to his uncle Jacques, who agrees for the first time to speak on the subject, and to the traces left by his father Paul, he revives the heritage of a Quebec working class family. The fruit of ten years of research, Les Rose allows us to revisit a time and people that we knew through clichés, and gives a glimpse of the experiences of a rebellious youth and the crimes that followed.",
-  "overview_fr": "En octobre 1970, des membres du Front de libération du Québec (FLQ) enlèvent le ministre Pierre Laporte, déclenchant une crise sans précédent au Québec. Cinquante ans plus tard, Félix Rose tente de comprendre ce qui a pu mener son père et son oncle à commettre de tels actes. Grâce aux confidences de son oncle Jacques, qui accepte pour la première fois de s’exprimer sur le sujet, et aux traces précieuses laissées par son père Paul, il fait revivre la richesse de l’héritage d’une famille ouvrière québécoise et redonne à la crise d’octobre sa dimension sociale. Fruit de dix ans de recherche, Les Rose permet de faire revivre des moments et des personnages que l’on ne connaissait que par quelques clichés, et laisse entrevoir le blocage social vécu par une jeunesse révoltée et les bouleversements qui s’ensuivirent.",
-  "poster": "https://media.themoviedb.org/t/p/w500/eu8aiOkYvbKTTHY4He7dOpZJGJI.jpg",
-  "runtime": 129,
-  "title_en": "Les Rose",
-  "title_fr": "Les Rose",
+  "letterboxd_votes": 801,
   "tmdb_id": "733123",
+  "wikidata_id": "Q101245378",
   "year": 2020
  },
  "rosenevada:2025": {
@@ -6988,7 +6937,7 @@
   "enriched_at": "2026-10-22"
  },
  "seventeenworldtournew": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "shame:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tx/j8/e2/uo/shame-1200-1200-675-675-crop-000000.jpg?v=fa06b92886",
@@ -7017,7 +6966,7 @@
   "year": 1968
  },
  "shaunmoutonbeeeteferme": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "shaunsheepbeastmossybottom": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
@@ -7081,7 +7030,7 @@
   "year": 1980
  },
  "shock": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "sickling": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/7/0/0/5/5/270055-hammer-and-sickle-0-230-0-345-crop.jpg?v=3c792f0faf",
@@ -7195,6 +7144,9 @@
  },
  "socialreckoning": {
   "enriched_at": "2026-10-20"
+ },
+ "someonesdaughter": {
+  "enriched_at": "2026-10-23"
  },
  "spacejamfamilyfavourites": {
   "enriched_at": "2026-09-26"
@@ -7457,7 +7409,7 @@
   "enriched_at": "2026-10-21"
  },
  "threebillboardsoutsideebbingmissouri": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "titans": {
   "enriched_at": "2026-10-21"
@@ -8086,7 +8038,7 @@
   "enriched_at": "2026-09-18"
  },
  "wallacegromitcursewererabbit:2005": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-23"
  },
  "weight": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/9/3/5/tmdb/zLeq2fbHU6UdA7mhsYnIULORTgq-1200-1200-675-675-crop-000000.jpg?v=50b4186d50",
