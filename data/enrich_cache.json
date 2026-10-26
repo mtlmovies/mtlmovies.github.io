@@ -100,7 +100,7 @@
   "year": 2001
  },
  "6portraitsneorealistes": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "6portraitsneorealistes:2026": {
   "enriched_at": "2026-10-18"
@@ -208,12 +208,12 @@
  },
  "alteredstates:1980": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jn/hd/l1/hj/altered-states-1200-1200-675-675-crop-000000.jpg?v=ae3f3ebbf4",
-  "enriched_at": "2026-10-05",
+  "enriched_at": "2026-10-26",
   "i18n_v": 1,
   "imdb_id": "tt0080360",
   "letterboxd_rating": 3.7,
   "letterboxd_url": "https://letterboxd.com/film/altered-states/",
-  "letterboxd_votes": 84304,
+  "letterboxd_votes": 87310,
   "tmdb_id": "11542",
   "wikidata_id": "Q1194524",
   "year": 1980
@@ -342,7 +342,7 @@
   "enriched_at": "2026-09-21"
  },
  "amourspossibles:2026": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "andrerieus2026summerconcertvivamaastricht": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/4/1/8/2/1564182-andre-rieus-2026-summer-concert-viva-maastricht-0-230-0-345-crop.jpg?v=e0c7c1bf86",
@@ -647,7 +647,7 @@
   "year": null
  },
  "autremaman": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "avengersendgame": {
   "enriched_at": "2026-10-21"
@@ -657,6 +657,9 @@
  },
  "avengersphasefinale": {
   "enriched_at": "2026-10-21"
+ },
+ "avginochouinardauxilesguadeloupe": {
+  "enriched_at": "2026-10-26"
  },
  "avislandeveloaugrevent": {
   "enriched_at": "2026-10-21"
@@ -932,12 +935,12 @@
  },
  "begotten:1989": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/4b/af/3n/ef/begotten-1200-1200-675-675-crop-000000.jpg?v=1909864275",
-  "enriched_at": "2026-10-05",
+  "enriched_at": "2026-10-26",
   "i18n_v": 1,
   "imdb_id": "tt0101420",
   "letterboxd_rating": 2.86,
   "letterboxd_url": "https://letterboxd.com/film/begotten/",
-  "letterboxd_votes": 37855,
+  "letterboxd_votes": 39122,
   "tmdb_id": "1483",
   "wikidata_id": "Q374207",
   "year": 1989
@@ -2137,7 +2140,7 @@
   "year": 1986
  },
  "delivrenousmal": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "derenmenkenschneemann": {
   "enriched_at": "2026-10-03"
@@ -2408,7 +2411,7 @@
   "enriched_at": "2026-10-06"
  },
  "endoakstreet": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "enhypenworldtourbloodsaga": {
   "enriched_at": "2026-10-25"
@@ -2476,7 +2479,7 @@
   "year": null
  },
  "fabuleuxdestindameliepoulan:2001": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "faceanother": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/o2/3j/aw/i9/face%20of%20another-1200-1200-675-675-crop-000000.jpg?v=d0e3b87478",
@@ -2559,7 +2562,7 @@
   "year": 2009
  },
  "fatherland:2026": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "faust100th:1926": {
   "enriched_at": "2026-10-24"
@@ -2759,12 +2762,12 @@
  },
  "fly40th:1986": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hx/cr/qd/hx/the-fly-1200-1200-675-675-crop-000000.jpg?v=5b599b90db",
-  "enriched_at": "2026-10-05",
+  "enriched_at": "2026-10-26",
   "i18n_v": 1,
   "imdb_id": "tt0091064",
   "letterboxd_rating": 4.0,
   "letterboxd_url": "https://letterboxd.com/film/the-fly-1986/",
-  "letterboxd_votes": 583693,
+  "letterboxd_votes": 600136,
   "tmdb_id": "9426",
   "wikidata_id": "Q468700",
   "year": 1986
@@ -3143,10 +3146,12 @@
  },
  "hantee:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/3/9/6/9/6/1039696-hantee-0-230-0-345-crop.jpg?v=291e5e88b8",
-  "enriched_at": "2026-10-05",
+  "enriched_at": "2026-10-26",
   "i18n_v": 1,
   "imdb_id": "tt40202639",
-  "letterboxd_url": "https://letterboxd.com/film/hantee/",
+  "letterboxd_rating": 3.31,
+  "letterboxd_url": "https://letterboxd.com/film/haunted-2026-1/",
+  "letterboxd_votes": 418,
   "tmdb_id": "1153642",
   "wikidata_id": "Q140435994",
   "year": null
@@ -3286,10 +3291,10 @@
   "tmdb_id": "1536950"
  },
  "henryportraitserialkiller:1984": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "heritiers": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "heritiers:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/kv/nl/ss/s7/4CiIa6ngd81He5NoclYvKWQcTTh-1200-1200-675-675-crop-000000.jpg?v=41f2de9a66",
@@ -3516,7 +3521,7 @@
   "enriched_at": "2026-10-25"
  },
  "ilpaesevillage": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "imgamemalayalam": {
   "enriched_at": "2026-09-15"
@@ -3586,7 +3591,7 @@
   "enriched_at": "2026-10-06"
  },
  "inheritors:2023": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "insidegazaq:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/2/7/2/8/8/1427288-inside-gaza-0-230-0-345-crop.jpg?v=ee238cd10d",
@@ -3864,7 +3869,7 @@
   "year": 2026
  },
  "irregularatmagichighschoolmovie": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "irumuditelugu": {
   "enriched_at": "2026-09-09"
@@ -4158,7 +4163,7 @@
   "year": 2004
  },
  "kenrussellsdevils:1971": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "kindergarten:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
@@ -4231,12 +4236,12 @@
  },
  "kwaidan:1964": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7z/5f/p3/5m/kwaidan-1200-1200-675-675-crop-000000.jpg?v=73cf6350db",
-  "enriched_at": "2026-10-05",
+  "enriched_at": "2026-10-26",
   "i18n_v": 1,
   "imdb_id": "tt0058279",
   "letterboxd_rating": 4.22,
   "letterboxd_url": "https://letterboxd.com/film/kwaidan/",
-  "letterboxd_votes": 68247,
+  "letterboxd_votes": 70988,
   "tmdb_id": "30959",
   "wikidata_id": "Q133488",
   "year": 1964
@@ -4515,7 +4520,7 @@
   "year": 2017
  },
  "libreschoisir:2025": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "linkinparkunshatter": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/7/3/6/4/6/tmdb/uL1HCc4wmcFcSr1zS3kXX3CNUeE-1200-1200-675-675-crop-000000.jpg?v=8f7f97868b",
@@ -4548,7 +4553,7 @@
   "enriched_at": "2026-10-24"
  },
  "lostboysxdrawnquarterly:1987": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "louiselecavaliersursonchevalfeu:2018": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/4/1/4/6/0/441460-louise-lecavalier-in-motion-0-230-0-345-crop.jpg?v=73a82772a3",
@@ -4916,6 +4921,9 @@
   "title_fr": "Memory of Princess Mumbi",
   "tmdb_id": "1520504",
   "year": 2026
+ },
+ "messylegends:2025": {
+  "enriched_at": "2026-10-26"
  },
  "miaecolemonstres": {
   "enriched_at": "2026-10-23"
@@ -5765,7 +5773,7 @@
   "enriched_at": "2026-10-24"
  },
  "patrie:2026": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "paulinejulienfemmepays:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/5/4/6/9/1115469-pauline-2026-2-0-230-0-345-crop.jpg?v=7765e04726",
@@ -5985,7 +5993,7 @@
   "year": 1940
  },
  "photosaigoncoupsfeusurdeuxvies": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "photosaigoncoupsfeusurdeuxvies:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/7/4/7/2/8/1474728-saigon-story-two-shootings-in-the-forest-0-230-0-345-crop.jpg?v=195486f454",
@@ -6241,7 +6249,7 @@
   "enriched_at": "2026-10-24"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-10-16"
@@ -6318,6 +6326,12 @@
   "tmdb_id": "1503762",
   "wikidata_id": "Q135436961",
   "year": 2026
+ },
+ "ramayana": {
+  "enriched_at": "2026-10-26"
+ },
+ "rammsteinlivemexicocity": {
+  "enriched_at": "2026-10-26"
  },
  "ranabaali": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/7/4/1/6/6/1274166-ranabaali-0-230-0-345-crop.jpg?v=7777a6a1fb",
@@ -6832,12 +6846,12 @@
  },
  "scream30th:1996": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/z9/jc/wv/pg/scream-1200-1200-675-675-crop-000000.jpg?v=4e05ce8832",
-  "enriched_at": "2026-10-05",
+  "enriched_at": "2026-10-26",
   "i18n_v": 1,
   "imdb_id": "tt0117571",
   "letterboxd_rating": 4.02,
   "letterboxd_url": "https://letterboxd.com/film/scream/",
-  "letterboxd_votes": 2379426,
+  "letterboxd_votes": 2443718,
   "tmdb_id": "4232",
   "wikidata_id": "Q27411",
   "year": 1996
@@ -6888,7 +6902,7 @@
   "enriched_at": "2026-10-25"
  },
  "seventeenworldtournew": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "shame:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tx/j8/e2/uo/shame-1200-1200-675-675-crop-000000.jpg?v=fa06b92886",
@@ -6917,7 +6931,7 @@
   "year": 1968
  },
  "shaunmoutonbeeeteferme": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "shaunsheepbeastmossybottom": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1z/mc/0c/ny/izLG3cxbG89nK75OHyd1zvjR7n8-1200-1200-675-675-crop-000000.jpg?v=a6f303a831",
@@ -6968,6 +6982,18 @@
   "wikidata_id": "Q126405648",
   "year": 2026
  },
+ "shining": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tm/ta/x1/yh/shining-1200-1200-675-675-crop-000000.jpg?v=3eeee4ee5a",
+  "enriched_at": "2026-10-26",
+  "i18n_v": 1,
+  "imdb_id": "tt0081505",
+  "letterboxd_rating": 4.21,
+  "letterboxd_url": "https://letterboxd.com/film/the-shining/",
+  "letterboxd_votes": 3509362,
+  "tmdb_id": "694",
+  "wikidata_id": "Q186341",
+  "year": 1980
+ },
  "shining:1980": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tm/ta/x1/yh/shining-1200-1200-675-675-crop-000000.jpg?v=3eeee4ee5a",
   "enriched_at": "2026-10-21",
@@ -6981,7 +7007,7 @@
   "year": 1980
  },
  "shock": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "sickling": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/7/0/0/5/5/270055-hammer-and-sickle-0-230-0-345-crop.jpg?v=3c792f0faf",
@@ -7097,7 +7123,7 @@
   "enriched_at": "2026-10-20"
  },
  "someonesdaughter": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "spacejamfamilyfavourites": {
   "enriched_at": "2026-09-26"
@@ -7369,7 +7395,7 @@
   "enriched_at": "2026-10-24"
  },
  "threebillboardsoutsideebbingmissouri": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "titans": {
   "enriched_at": "2026-10-24"
@@ -7998,7 +8024,7 @@
   "enriched_at": "2026-09-18"
  },
  "wallacegromitcursewererabbit:2005": {
-  "enriched_at": "2026-10-23"
+  "enriched_at": "2026-10-26"
  },
  "weight": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/9/3/5/tmdb/zLeq2fbHU6UdA7mhsYnIULORTgq-1200-1200-675-675-crop-000000.jpg?v=50b4186d50",
