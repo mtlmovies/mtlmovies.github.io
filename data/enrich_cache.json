@@ -1507,7 +1507,7 @@
   "year": 2026
  },
  "cameronwinteratcarnegiehall": {
-  "enriched_at": "2026-10-24"
+  "enriched_at": "2026-10-27"
  },
  "cameronwinteratcarnegiehall:2026": {
   "enriched_at": "2026-10-27"
@@ -2745,7 +2745,7 @@
   "year": 2026
  },
  "finterres": {
-  "enriched_at": "2026-10-18"
+  "enriched_at": "2026-10-27"
  },
  "finterres:2019": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/5/1/3/4/6/9/513469-where-the-land-ends-0-230-0-345-crop.jpg?v=bd3665901f",
@@ -2793,7 +2793,7 @@
   "enriched_at": "2026-10-27"
  },
  "florilegeii": {
-  "enriched_at": "2026-10-20"
+  "enriched_at": "2026-10-27"
  },
  "florilegeii:1974": {
   "enriched_at": "2026-10-27"
@@ -4827,7 +4827,7 @@
   "year": 1976
  },
  "manwholefthiswillfilm": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-10-27"
  },
  "manwholefthiswillfilm:1970": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hk/v7/qq/qb/3UGpGYNzHioVMuHLrtPy0MghmJ4-1200-1200-675-675-crop-000000.jpg?v=18e1fcf197",
@@ -7466,7 +7466,7 @@
   "enriched_at": "2026-10-22"
  },
  "tasio:1981": {
-  "enriched_at": "2026-10-24"
+  "enriched_at": "2026-10-27"
  },
  "taxidriver50th16mmnyc:1976": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tu/1i/09/tr/taxi-driver-40-1200-1200-675-675-crop-000000.jpg?v=dd9cd7a397",
@@ -7945,6 +7945,9 @@
   "title_fr": "Vidéodrome",
   "tmdb_id": "837",
   "year": 1983
+ },
+ "vieillecorneille:2025": {
+  "enriched_at": "2026-10-27"
  },
  "viking": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/8/0/1/7/tmdb/dcf2MSKj9wW074jXP7cljI78gMC-1200-1200-675-675-crop-000000.jpg?v=a99194ece6",
