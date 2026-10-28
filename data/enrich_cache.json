@@ -1650,7 +1650,7 @@
   "year": 1971
  },
  "cestquoiamour:2026": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "charleboissymphoniquecelebrationgrandioseavecosm": {
   "enriched_at": "2026-10-24"
@@ -1787,15 +1787,15 @@
  },
  "chronovisor:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/6/7/7/8/4/tmdb/xbp6MM3ZIL7neN7qLk8pp0t0eOj-1200-1200-675-675-crop-000000.jpg?v=07d5de2e38",
-  "enriched_at": "2026-10-07",
+  "enriched_at": "2026-10-28",
   "i18n_v": 1,
   "imdb_id": "tt39196981",
-  "letterboxd_rating": 3.8,
+  "letterboxd_rating": 3.81,
   "letterboxd_url": "https://letterboxd.com/film/chronovisor/",
-  "letterboxd_votes": 3632,
+  "letterboxd_votes": 5114,
   "tmdb_id": "1599181",
   "wikidata_id": "Q141237175",
-  "year": null
+  "year": 2026
  },
  "cinemania": {
   "enriched_at": "2026-10-27"
@@ -1886,6 +1886,9 @@
  },
  "cocoononesummergirlhood": {
   "enriched_at": "2026-09-09"
+ },
+ "coeurmotard:2026": {
+  "enriched_at": "2026-10-28"
  },
  "colony": {
   "enriched_at": "2026-09-15"
@@ -2038,13 +2041,13 @@
   "enriched_at": "2026-10-03"
  },
  "cosifantutteitalianwestmetropolitanopera": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "cosifantutteitalienavecstfrmetropolitanopera": {
   "enriched_at": "2026-10-03"
  },
  "cosifantutteitalienavecstfrrediffusionmetropolitanopera": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "coursterrycours": {
   "enriched_at": "2026-10-14"
@@ -2207,6 +2210,9 @@
  "derenmenkenschneemann": {
   "enriched_at": "2026-10-03"
  },
+ "dernierpickpocketnewyork": {
+  "enriched_at": "2026-10-28"
+ },
  "derniersouffleaucurhoteldieumontreal:2017": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/2/2/8/5/7/422857-le-dernier-souffle-au-cur-de-l-hotel-dieu-de-montreal-0-230-0-345-crop.jpg?v=47fea949cf",
   "enriched_at": "2026-10-21",
@@ -2295,12 +2301,12 @@
  },
  "digger:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9e/bq/fx/ti/digger-1200-1200-675-675-crop-000000.jpg?v=96e129a6f2",
-  "enriched_at": "2026-10-07",
+  "enriched_at": "2026-10-28",
   "i18n_v": 1,
   "imdb_id": "tt31450459",
-  "letterboxd_rating": 3.84,
+  "letterboxd_rating": 3.91,
   "letterboxd_url": "https://letterboxd.com/film/digger-2026/",
-  "letterboxd_votes": 263100,
+  "letterboxd_votes": 604835,
   "tmdb_id": "1248832",
   "wikidata_id": "Q129677718",
   "year": 2026
@@ -2467,7 +2473,7 @@
   "enriched_at": "2026-09-24"
  },
  "enconversationavecjoxeanfernandezdirecteureuskadikofilmategia": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "endirect": {
   "enriched_at": "2026-10-06"
@@ -2476,7 +2482,7 @@
   "enriched_at": "2026-10-26"
  },
  "enhypenworldtourbloodsaga": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "enqueteverite:1979": {
   "enriched_at": "2026-09-21"
@@ -2539,6 +2545,16 @@
   "tmdb_id": "9065",
   "wikidata_id": "Q666017",
   "year": 1991
+ },
+ "everestotherside": {
+  "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
+  "enriched_at": "2026-10-28",
+  "i18n_v": 1,
+  "imdb_id": "tt38691481",
+  "letterboxd_url": "https://letterboxd.com/film/everest-north/",
+  "tmdb_id": "1714568",
+  "wikidata_id": "Q140745383",
+  "year": null
  },
  "eyesghana:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/0/0/4/2/4/1400424-the-eyes-of-ghana-0-230-0-345-crop.jpg?v=f21e09b3a9",
@@ -2621,7 +2637,7 @@
   "year": 1995
  },
  "fallenangelsbynoelcoward": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "fantasticmrfox:2009": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/be/5b/hi/85/fantastic-mr-fox-1200-1200-675-675-crop-000000.jpg?v=da0201b5cf",
@@ -2718,6 +2734,9 @@
  "filmslaureatsfare": {
   "enriched_at": "2026-09-21"
  },
+ "fils": {
+  "enriched_at": "2026-10-28"
+ },
  "findingemily": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/3/4/3/9/8/tmdb/5E1Mz14VaUDxe5K28HEkXNnysW-1200-1200-675-675-crop-000000.jpg?v=6734068b89",
   "enriched_at": "2026-09-09",
@@ -2784,7 +2803,7 @@
   "year": 1964
  },
  "fjord:2026": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "florilegei": {
   "enriched_at": "2026-10-16"
@@ -3020,7 +3039,7 @@
   "enriched_at": "2026-10-27"
  },
  "godzillaminuszero": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "goforbroke2": {
   "enriched_at": "2026-10-27"
@@ -3141,7 +3160,7 @@
   "year": 1963
  },
  "gueuledargile": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "guillermodeltorospanslabyrinth20th": {
   "enriched_at": "2026-10-12"
@@ -3331,6 +3350,15 @@
   "tmdb_id": "51241",
   "year": 2010
  },
+ "heatedrivalryepisodes12": {
+  "enriched_at": "2026-10-28"
+ },
+ "heatedrivalryepisodes34": {
+  "enriched_at": "2026-10-28"
+ },
+ "heatedrivalryepisodes56": {
+  "enriched_at": "2026-10-28"
+ },
  "hemela": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/1/1/6/9/1/1411691-hemela-0-230-0-345-crop.jpg?v=42556675ca",
   "enriched_at": "2026-10-02",
@@ -3428,7 +3456,7 @@
   "year": 2025
  },
  "hislastdollar": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "histoirejouets5": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/95/lo/so/uy/1WAxiCSwgPAKlOGrqbCdks0A1NI-1200-1200-675-675-crop-000000.jpg?v=6787fc1781",
@@ -3504,7 +3532,7 @@
   "enriched_at": "2026-09-09"
  },
  "homles:2026": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "hommagesylviegroulx": {
   "enriched_at": "2026-10-04"
@@ -3601,7 +3629,7 @@
   "enriched_at": "2026-09-20"
  },
  "ileoublie": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "ilpaesevillage": {
   "enriched_at": "2026-10-26"
@@ -4066,7 +4094,7 @@
   "year": null
  },
  "jailer2tamil": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "japonlumieredautomne": {
   "enriched_at": "2026-10-27"
@@ -4890,11 +4918,17 @@
   "tmdb_id": "148253",
   "year": 2001
  },
+ "marieecadaverique20efilmsenfamille": {
+  "enriched_at": "2026-10-28"
+ },
+ "marieecadaveriquefilmsenfamille": {
+  "enriched_at": "2026-10-28"
+ },
  "mariemadeleine:2026": {
   "enriched_at": "2026-10-27"
  },
  "marquercongo:2026": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "marriagescoupscoeurequipe:2001": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/9/4/3/111943-marriages-0-230-0-345-crop.jpg?v=fef417d6e4",
@@ -5521,7 +5555,7 @@
   "enriched_at": "2026-10-25"
  },
  "nouvellesrestaurationsbasques2:1985": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "oasisdontlookbackanger": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/2/4/2/3/8/tmdb/7Ud7QIJo21odjCaev6V4md9sK16-1200-1200-675-675-crop-000000.jpg?v=0e27dead37",
@@ -5599,28 +5633,16 @@
   "enriched_at": "2026-10-27"
  },
  "onceupontimehollywood": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/2/1/3/7/3/1621373-paranormal-hollywood-haunting-0-230-0-345-crop.jpg?v=cd004123d7",
-  "enriched_at": "2026-09-09",
-  "genres_en": [
-   "Documentary",
-   "Thriller"
-  ],
-  "genres_fr": [
-   "Documentaire",
-   "Thriller"
-  ],
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/3m/w9/ku/pt/once-upon-a-time-in-hollywood-1200-1200-675-675-crop-000000.jpg?v=4bbee2b818",
+  "enriched_at": "2026-10-28",
   "i18n_v": 1,
-  "imdb_id": "tt43452614",
-  "letterboxd_url": "https://letterboxd.com/film/paranormal-hollywood-haunting/",
-  "overview": "British paranormal investigators explore a Hollywood mansion, uncovering true story of couple Daniel and Arthur, whose journey from homelessness to Hollywood history explores LGBTQ identity, resilience, and unexplained supernatural events.",
-  "overview_en": "British paranormal investigators explore a Hollywood mansion, uncovering true story of couple Daniel and Arthur, whose journey from homelessness to Hollywood history explores LGBTQ identity, resilience, and unexplained supernatural events.",
-  "overview_fr": "British paranormal investigators explore a Hollywood mansion, uncovering true story of couple Daniel and Arthur, whose journey from homelessness to Hollywood history explores LGBTQ identity, resilience, and unexplained supernatural events.",
-  "poster": "https://media.themoviedb.org/t/p/w500/1EsLqcBBe03FrfTkZKtEE7vOlpw.jpg",
-  "runtime": 93,
-  "title_en": "Paranormal Hollywood Haunting",
-  "title_fr": "Paranormal Hollywood Haunting",
-  "tmdb_id": "1756543",
-  "year": 2026
+  "imdb_id": "tt7131622",
+  "letterboxd_rating": 3.78,
+  "letterboxd_url": "https://letterboxd.com/film/once-upon-a-time-in-hollywood/",
+  "letterboxd_votes": 3379606,
+  "tmdb_id": "466272",
+  "wikidata_id": "Q47300912",
+  "year": 2019
  },
  "onceupontimemiddleeast": {
   "enriched_at": "2026-10-22"
@@ -5649,6 +5671,18 @@
   "title_en": "One Night Only",
   "title_fr": "Une Seule Nuit",
   "tmdb_id": "1433367",
+  "year": 2026
+ },
+ "onlylivingpickpocketnewyork": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tl/fw/t7/f2/pickpocket4-1200-1200-675-675-crop-000000.jpg?v=bd8d7672de",
+  "enriched_at": "2026-10-28",
+  "i18n_v": 1,
+  "imdb_id": "tt36482679",
+  "letterboxd_rating": 3.45,
+  "letterboxd_url": "https://letterboxd.com/film/the-only-living-pickpocket-in-new-york/",
+  "letterboxd_votes": 12168,
+  "tmdb_id": "1458099",
+  "wikidata_id": "Q134114136",
   "year": 2026
  },
  "onslaught": {
@@ -5701,7 +5735,16 @@
   "enriched_at": "2026-10-27"
  },
  "ozzyblacksabbathbacktobeginning": {
-  "enriched_at": "2026-10-25"
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/9/1/5/3/4/1391534-back-to-the-beginning-ozzys-final-bow-0-230-0-345-crop.jpg?v=da2c0c6e1b",
+  "enriched_at": "2026-10-28",
+  "i18n_v": 1,
+  "imdb_id": "tt46055956",
+  "letterboxd_rating": 3.9,
+  "letterboxd_url": "https://letterboxd.com/film/back-to-the-beginning-ozzys-final-bow/",
+  "letterboxd_votes": 381,
+  "tmdb_id": "1515139",
+  "wikidata_id": "Q141893806",
+  "year": 2025
  },
  "paquettroubles:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/2/2/6/1/5/1622615-paquet-de-troubles-0-230-0-345-crop.jpg?v=d3e8e6d23f",
@@ -5851,6 +5894,9 @@
  },
  "passionchrist": {
   "enriched_at": "2026-09-15"
+ },
+ "patakkaguddiyan": {
+  "enriched_at": "2026-10-28"
  },
  "patpatrouillefilmmissiondino": {
   "enriched_at": "2026-10-27"
@@ -6055,6 +6101,9 @@
   "tmdb_id": "1024466",
   "year": 2004
  },
+ "phantomopera": {
+  "enriched_at": "2026-10-28"
+ },
  "philadelphiastory:1940": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/fb/5g/0b/qp/the-philadelphia-story-1200-1200-675-675-crop-000000.jpg?v=0700316506",
   "enriched_at": "2026-09-09",
@@ -6123,30 +6172,15 @@
  },
  "piedduvre": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/0/9/5/5/9/tmdb/xzY5ZwVZSMMn111DhNcQs2M3J9Q-1200-1200-675-675-crop-000000.jpg?v=56a3b13153",
-  "enriched_at": "2026-09-29",
-  "genres": [
-   "Drame"
-  ],
-  "genres_en": [
-   "Drama"
-  ],
-  "genres_fr": [
-   "Drame"
-  ],
+  "enriched_at": "2026-10-28",
   "i18n_v": 1,
   "imdb_id": "tt37660587",
   "letterboxd_rating": 3.2,
   "letterboxd_url": "https://letterboxd.com/film/at-work-2025/",
-  "letterboxd_votes": 11048,
-  "overview": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
-  "overview_en": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
-  "overview_fr": "A successful photographer gives up everything to devote himself to writing and discovers poverty.",
-  "poster": "https://media.themoviedb.org/t/p/w500/iqeF5Yr65hPlEJojJGESjVclf6h.jpg",
-  "runtime": 92,
-  "title_en": "At Work",
-  "title_fr": "À pied d’œuvre",
+  "letterboxd_votes": 11541,
   "tmdb_id": "1430820",
-  "year": 2026
+  "wikidata_id": "Q135438484",
+  "year": 2025
  },
  "pinocchio": {
   "enriched_at": "2026-10-18"
@@ -6308,7 +6342,7 @@
   "enriched_at": "2026-10-23"
  },
  "primetime": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "primeurssurpriseslundi": {
   "enriched_at": "2026-10-19"
@@ -6339,6 +6373,9 @@
  },
  "qcc32inconnulac:2013": {
   "enriched_at": "2026-10-26"
+ },
+ "qcc33jetuilelle:1974": {
+  "enriched_at": "2026-10-28"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-10-16"
@@ -6418,6 +6455,9 @@
  },
  "ramayana": {
   "enriched_at": "2026-10-26"
+ },
+ "ramayanaexperience": {
+  "enriched_at": "2026-10-28"
  },
  "rammsteinlivemexicocity": {
   "enriched_at": "2026-10-26"
@@ -6522,6 +6562,9 @@
   "title_fr": "Ulysses' Gaze",
   "tmdb_id": "22549",
   "year": 1995
+ },
+ "rembrandt": {
+  "enriched_at": "2026-10-28"
  },
  "renversement": {
   "enriched_at": "2026-10-27"
@@ -7226,6 +7269,18 @@
  "someonesdaughter": {
   "enriched_at": "2026-10-26"
  },
+ "sons": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/7/4/4/8/7/1174487-sons-2025-0-230-0-345-crop.jpg?v=5beb8ba00c",
+  "enriched_at": "2026-10-28",
+  "i18n_v": 1,
+  "imdb_id": "tt5265480",
+  "letterboxd_rating": 3.08,
+  "letterboxd_url": "https://letterboxd.com/film/sons-2025/",
+  "letterboxd_votes": 1535,
+  "tmdb_id": "1291829",
+  "wikidata_id": "Q134571223",
+  "year": 2025
+ },
  "spacejamfamilyfavourites": {
   "enriched_at": "2026-09-26"
  },
@@ -7398,7 +7453,7 @@
   "year": 2026
  },
  "supersimplesongs": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "superwingsvitessemaximumfilmsenfamil": {
   "enriched_at": "2026-09-23"
@@ -7981,7 +8036,7 @@
   "enriched_at": "2026-10-20"
  },
  "villeneuveascensiondlegende:2026": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "villesansjuifs:1924": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/7/3/7/0/67370-the-city-without-jews-0-230-0-345-crop.jpg?v=db3d80fa8f",
@@ -8136,6 +8191,9 @@
  "vvaanforceforrest": {
   "enriched_at": "2026-09-29"
  },
+ "walakanalaelbalarabic": {
+  "enriched_at": "2026-10-28"
+ },
  "wallacegromitclassicshorts:1996": {
   "enriched_at": "2026-09-18"
  },
@@ -8215,10 +8273,10 @@
   "year": 2026
  },
  "wildwood": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "wildwoodcontreemalefique": {
-  "enriched_at": "2026-10-25"
+  "enriched_at": "2026-10-28"
  },
  "winterkeptuswarm:1965": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/q5/lh/gb/q0/winter-1200-1200-675-675-crop-000000.jpg?v=e56974d417",
@@ -8300,12 +8358,12 @@
  },
  "yourmotheryourmotheryourmother": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/5/2/1/6/tmdb/45Mbs6dmn2W0hvuyxXPDkKREHpP-1200-1200-675-675-crop-000000.jpg?v=8eaa4f95b2",
-  "enriched_at": "2026-10-07",
+  "enriched_at": "2026-10-28",
   "i18n_v": 1,
   "imdb_id": "tt35856037",
-  "letterboxd_rating": 3.99,
+  "letterboxd_rating": 3.97,
   "letterboxd_url": "https://letterboxd.com/film/your-mother-your-mother-your-mother/",
-  "letterboxd_votes": 10326,
+  "letterboxd_votes": 48696,
   "tmdb_id": "1437396",
   "wikidata_id": "Q133286528",
   "year": 2026
