@@ -192,7 +192,7 @@
   "year": 2026
  },
  "agbaranlareturn": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "aileoucuisse": {
   "enriched_at": "2026-10-22"
@@ -432,7 +432,7 @@
   "enriched_at": "2026-10-21"
  },
  "antigone:2019": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "anvilstoryanvil": {
   "enriched_at": "2026-09-09"
@@ -624,7 +624,7 @@
   "year": 2026
  },
  "aucoeurbete": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "audition:1999": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/qc/fp/8g/nx/audition-1200-1200-675-675-crop-000000.jpg?v=3b73fff95d",
@@ -653,7 +653,7 @@
   "year": 2000
  },
  "aufondbaleine": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "autre:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/6/4/7/0/4/1564704-lautre-2026-0-230-0-345-crop.jpg?v=d80a16db3b",
@@ -852,10 +852,10 @@
   "year": 1989
  },
  "bataillegaulleliberte:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "bataillegaulleresistance:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "baththa": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/9/2/0/2/1/1392021-baththa-0-230-0-345-crop.jpg?v=e43a0dedb7",
@@ -1112,7 +1112,7 @@
   "enriched_at": "2026-09-28"
  },
  "bitlight:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "blackeagles": {
   "enriched_at": "2026-09-15"
@@ -1382,7 +1382,14 @@
   "enriched_at": "2026-10-24"
  },
  "btsworldtourarirangsaopauloliveviewing": {
-  "enriched_at": "2026-10-27"
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/3/4/8/0/2/1634802-bts-world-tour-arirang-in-sao-paulo-live-0-230-0-345-crop.jpg?v=7a7dcf9ebf",
+  "enriched_at": "2026-10-30",
+  "i18n_v": 1,
+  "imdb_id": "tt45591708",
+  "letterboxd_url": "https://letterboxd.com/film/bts-world-tour-arirang-in-sao-paulo/",
+  "tmdb_id": "1770234",
+  "wikidata_id": "Q141893777",
+  "year": 2026
  },
  "buddy": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0a/6z/rm/nm/ytoLEl5yDaxB8AtZ52uKWjaQ9ql-1200-1200-675-675-crop-000000.jpg?v=492d66a109",
@@ -1516,7 +1523,7 @@
   "enriched_at": "2026-10-27"
  },
  "cameronwinteratcarnegiehall:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "carrie": {
   "enriched_at": "2026-10-19"
@@ -1564,7 +1571,7 @@
   "year": 2006
  },
  "cathat": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cauchemarconseil": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/yu/rn/mh/bc/tJ8JufDYnDCou3TlJEmYT1S0srZ-1200-1200-675-675-crop-000000.jpg?v=99478fdbb7",
@@ -1662,7 +1669,7 @@
   "enriched_at": "2026-10-24"
  },
  "charleboissymphoniquecelebrationgrandioseavecosm:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "chatchapeaute": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/0/7/8/3/3/tmdb/pFLeuwKNJLC9ETW17uBaUwTWxWl-1200-1200-675-675-crop-000000.jpg?v=2a25298fc9",
@@ -1804,40 +1811,40 @@
   "year": 2026
  },
  "cinemania": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemaniaaunordhommes:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemaniachrysalides:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemaniafifthact:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemaniafinalact:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemaniagoalstrikingcongo:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemaniaidling:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemaniajulian:2025": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemanialabradorautopsysilence:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemaniamariemadeleine:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemaniaparadise:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "cinemaparadisostaffpicks:1988": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "citeenfantsperdus:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wm/t3/m0/ke/city-of-lost-children-2-1200-1200-675-675-crop-000000.jpg?v=d5660bcfa4",
@@ -1876,7 +1883,7 @@
   "year": 2026
  },
  "clowngaza:2025": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "clue:1985": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mk/mi/1k/v8/clue-1200-1200-675-675-crop-000000.jpg?v=3742386ac7",
@@ -1895,6 +1902,18 @@
  },
  "coeurmotard:2026": {
   "enriched_at": "2026-10-28"
+ },
+ "coldwar": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/rx/72/x5/uy/cold-war-1200-1200-675-675-crop-000000.jpg?v=ec5d39a54f",
+  "enriched_at": "2026-10-30",
+  "i18n_v": 1,
+  "imdb_id": "tt6543652",
+  "letterboxd_rating": 4.05,
+  "letterboxd_url": "https://letterboxd.com/film/cold-war-2018/",
+  "letterboxd_votes": 192495,
+  "tmdb_id": "440298",
+  "wikidata_id": "Q51834363",
+  "year": 2018
  },
  "colony": {
   "enriched_at": "2026-09-15"
@@ -2129,7 +2148,7 @@
   "year": 1997
  },
  "danemarkilesferoeroyaumebonheur": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "danielfieryfurnace": {
   "enriched_at": "2026-10-07"
@@ -2233,7 +2252,7 @@
   "enriched_at": "2026-10-22"
  },
  "deux:2019": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "diables": {
   "enriched_at": "2026-10-20"
@@ -2282,27 +2301,14 @@
  },
  "digger": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/9e/bq/fx/ti/digger-1200-1200-675-675-crop-000000.jpg?v=96e129a6f2",
-  "enriched_at": "2026-09-23",
-  "genres": [
-   "Comédie"
-  ],
-  "genres_en": [
-   "Comedy"
-  ],
-  "genres_fr": [
-   "Comédie"
-  ],
+  "enriched_at": "2026-10-30",
   "i18n_v": 1,
   "imdb_id": "tt31450459",
+  "letterboxd_rating": 3.91,
   "letterboxd_url": "https://letterboxd.com/film/digger-2026/",
-  "overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
-  "overview_en": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
-  "overview_fr": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
-  "poster": "https://media.themoviedb.org/t/p/w500/jUDHdoRH5xBnG0JzJ5ktqYV9u8E.jpg",
-  "runtime": 129,
-  "title_en": "Digger",
-  "title_fr": "Digger",
+  "letterboxd_votes": 611757,
   "tmdb_id": "1248832",
+  "wikidata_id": "Q129677718",
   "year": 2026
  },
  "digger:2026": {
@@ -2318,7 +2324,7 @@
   "year": 2026
  },
  "djeddi:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "dogstars": {
   "enriched_at": "2026-09-30"
@@ -2411,7 +2417,7 @@
   "enriched_at": "2026-10-21"
  },
  "dunetroisiemepartie:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "eastwestlove": {
   "enriched_at": "2026-10-13"
@@ -2515,6 +2521,9 @@
   "overview_fr": "A man that has it all, and knows it.",
   "poster": "https://media.themoviedb.org/t/p/w500/w30PWn3uo2Hb78GscNSoajv1qxs.jpg",
   "tmdb_id": "681756"
+ },
+ "espritlieux": {
+  "enriched_at": "2026-10-30"
  },
  "espwa:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/2/2/0/0/2/1622002-espwa-haiti-against-all-odds-0-230-0-345-crop.jpg?v=792051dbec",
@@ -2661,13 +2670,13 @@
   "year": 2009
  },
  "fantomeopera:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "fatherland:2026": {
   "enriched_at": "2026-10-29"
  },
  "faust100th:1926": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "festivalinternationalfilmblackmontreal": {
   "enriched_at": "2026-09-25"
@@ -2973,7 +2982,7 @@
   "year": 1983
  },
  "gabrielle:2013": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "gaulleliberty": {
   "enriched_at": "2026-09-24"
@@ -2994,7 +3003,7 @@
   "enriched_at": "2026-10-25"
  },
  "germanpeople:2025": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "ghost2bigtorig": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/5/3/4/2/1555342-2-big-to-rig-0-230-0-345-crop.jpg?v=4a41c3cc91",
@@ -3045,7 +3054,10 @@
   "enriched_at": "2026-09-21"
  },
  "ginochouinardauxilesguadeloupe": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
+ },
+ "godzilla00": {
+  "enriched_at": "2026-10-30"
  },
  "godzillaminuszero": {
   "enriched_at": "2026-10-28"
@@ -3054,7 +3066,7 @@
   "enriched_at": "2026-10-27"
  },
  "goldenboynationaltheatrelive": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "goodbadugly60th:1966": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/07/zz/2k/vy/the-good-the-bad-and-the-ugly-1200-1200-675-675-crop-000000.jpg?v=6fdc9111b0",
@@ -3368,6 +3380,9 @@
  "heatedrivalryepisodes56": {
   "enriched_at": "2026-10-28"
  },
+ "heatedrivalrymarathon": {
+  "enriched_at": "2026-10-30"
+ },
  "hemela": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/1/1/6/9/1/1411691-hemela-0-230-0-345-crop.jpg?v=42556675ca",
   "enriched_at": "2026-10-02",
@@ -3632,7 +3647,7 @@
   "enriched_at": "2026-10-27"
  },
  "ileoubli": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "ileoubliaccesenavantpremiere": {
   "enriched_at": "2026-09-20"
@@ -4106,7 +4121,7 @@
   "enriched_at": "2026-10-28"
  },
  "japonlumieredautomne": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "jardindenfants": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
@@ -4131,6 +4146,9 @@
   "title_fr": "Jardin d'enfants",
   "tmdb_id": "1570621",
   "year": 2025
+ },
+ "jeancocteau:2024": {
+  "enriched_at": "2026-10-30"
  },
  "jevoussaluesalopemisogynieautempsnumerique": {
   "enriched_at": "2026-10-06"
@@ -4670,7 +4688,7 @@
   "enriched_at": "2026-10-19"
  },
  "lola:1981": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "lostboysxdrawnquarterly:1987": {
   "enriched_at": "2026-10-26"
@@ -4905,26 +4923,12 @@
  },
  "mariages": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/9/4/3/111943-marriages-0-230-0-345-crop.jpg?v=fef417d6e4",
-  "enriched_at": "2026-09-09",
-  "genres_en": [
-   "Drama",
-   "Romance"
-  ],
-  "genres_fr": [
-   "Drame",
-   "Romance"
-  ],
+  "enriched_at": "2026-10-30",
   "i18n_v": 1,
   "imdb_id": "tt0295425",
   "letterboxd_url": "https://letterboxd.com/film/marriages/",
-  "overview": "À la fin du XIXe siècle, une jeune femme promise au couvent s'éprend du fiancé de sa nièce.",
-  "overview_en": "Yvonne is a young woman living in Quebec in the latter half of the 19th century, under the controlling influence of both her elder sister, Hélène, and the repressive Victorian society that pervades the area. Yvonne has a sensual passion that her sister hopes to extinguish by placing her in a convent. As summer arrives, a strange dream suggests a different future, and Yvonne confronts the unexpected return of both her mother and her first love.",
-  "overview_fr": "À la fin du XIXe siècle, une jeune femme promise au couvent s'éprend du fiancé de sa nièce.",
-  "poster": "https://media.themoviedb.org/t/p/w500/2EAWyB84lm4yIC8Ny5XqxOou1Jn.jpg",
-  "runtime": 95,
-  "title_en": "Marriages",
-  "title_fr": "Mariages",
   "tmdb_id": "148253",
+  "wikidata_id": "Q3291178",
   "year": 2001
  },
  "marieecadaverique20efilmsenfamille": {
@@ -4934,7 +4938,7 @@
   "enriched_at": "2026-10-28"
  },
  "mariemadeleine:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "marquercongo:2026": {
   "enriched_at": "2026-10-28"
@@ -5052,7 +5056,7 @@
   "enriched_at": "2026-10-29"
  },
  "miaecolemonstres": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "minionsmonsters": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/9/6/8/0/8/tmdb/pqFnCSJZ3Hq7QOM8uu2WC8k0R3q-1200-1200-675-675-crop-000000.jpg?v=0c3bc65b5a",
@@ -5067,13 +5071,13 @@
   "year": 2026
  },
  "minionsmonstres": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "minotaur:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "minotaure:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "mirror": {
   "enriched_at": "2026-10-21"
@@ -5638,11 +5642,14 @@
   "tmdb_id": "1339713",
   "year": 2026
  },
+ "ocean": {
+  "enriched_at": "2026-10-30"
+ },
  "odyssee": {
   "enriched_at": "2026-10-21"
  },
  "odyssey": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "onceupontimehollywood": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/3m/w9/ku/pt/once-upon-a-time-in-hollywood-1200-1200-675-675-crop-000000.jpg?v=4bbee2b818",
@@ -5744,7 +5751,7 @@
   "enriched_at": "2026-10-21"
  },
  "outoutserassemble:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "ozzyblacksabbathbacktobeginning": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/9/1/5/3/4/1391534-back-to-the-beginning-ozzys-final-bow-0-230-0-345-crop.jpg?v=da2c0c6e1b",
@@ -5911,13 +5918,13 @@
   "enriched_at": "2026-10-28"
  },
  "patpatrouillefilmmissiondino": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "patpatrouillefilmmissiondinofilmsenfamille": {
   "enriched_at": "2026-10-10"
  },
  "patpatrouillemissiondino": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "patrie:2026": {
   "enriched_at": "2026-10-29"
@@ -5960,7 +5967,7 @@
   "year": null
  },
  "pawpatroldinomovie": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "pawpatroldinomoviefamilyfavourites": {
   "enriched_at": "2026-10-10"
@@ -6384,7 +6391,7 @@
   "enriched_at": "2026-10-27"
  },
  "qcc31peeweesbigadventure:1985": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "qcc32inconnulac:2013": {
   "enriched_at": "2026-10-29"
@@ -6600,7 +6607,7 @@
   "enriched_at": "2026-10-28"
  },
  "renversement": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "renversement:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/8/4/1/9/1/1584191-un-renversement-0-230-0-345-crop.jpg?v=61a7121ab2",
@@ -6628,7 +6635,7 @@
   "year": 2026
  },
  "residentevil": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "residentevildubbedspanish": {
   "enriched_at": "2026-09-26"
@@ -7029,32 +7036,14 @@
  },
  "secretmesanges": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/8/8/4/890884-the-songbirds-secret-0-230-0-345-crop.jpg?v=ee8f0b84f5",
-  "enriched_at": "2026-09-30",
-  "genres": [
-   "Animation",
-   "Familial"
-  ],
-  "genres_en": [
-   "Animation",
-   "Family"
-  ],
-  "genres_fr": [
-   "Animation",
-   "Familial"
-  ],
+  "enriched_at": "2026-10-30",
   "i18n_v": 1,
   "imdb_id": "tt29497084",
   "letterboxd_rating": 3.57,
   "letterboxd_url": "https://letterboxd.com/film/the-songbirds-secret/",
-  "letterboxd_votes": 1054,
-  "overview": "When 9-year-old Lucie arrives at Bectoile for the vacations, she has no idea of the adventures ahead. Her mother, Caroline, is leading an archaeological dig in the region with her colleague Pierrot. Bectoile is also the town where Caroline grew up, and the scene of a family secret... which Lucie is about to unveil! With the help of her new friend Yann and a very special pair of songbirds, Lucie is determined to delve into her family story. From the underground of a ruined castle to a camper van parked on the edge of the woods, this adventure will lead them from unusual surprises to fabulous discoveries!",
-  "overview_en": "When 9-year-old Lucie arrives at Bectoile for the vacations, she has no idea of the adventures ahead. Her mother, Caroline, is leading an archaeological dig in the region with her colleague Pierrot. Bectoile is also the town where Caroline grew up, and the scene of a family secret... which Lucie is about to unveil! With the help of her new friend Yann and a very special pair of songbirds, Lucie is determined to delve into her family story. From the underground of a ruined castle to a camper van parked on the edge of the woods, this adventure will lead them from unusual surprises to fabulous discoveries!",
-  "overview_fr": "When 9-year-old Lucie arrives at Bectoile for the vacations, she has no idea of the adventures ahead. Her mother, Caroline, is leading an archaeological dig in the region with her colleague Pierrot. Bectoile is also the town where Caroline grew up, and the scene of a family secret... which Lucie is about to unveil! With the help of her new friend Yann and a very special pair of songbirds, Lucie is determined to delve into her family story. From the underground of a ruined castle to a camper van parked on the edge of the woods, this adventure will lead them from unusual surprises to fabulous discoveries!",
-  "poster": "https://media.themoviedb.org/t/p/w500/xMWZ3fOdrkHsEBRFw5rmeaDmUC.jpg",
-  "runtime": 76,
-  "title_en": "The Songbirds' Secret",
-  "title_fr": "Le Secret des mésanges",
+  "letterboxd_votes": 1090,
   "tmdb_id": "989246",
+  "wikidata_id": "Q136647519",
   "year": 2025
  },
  "sensesensibility:1995": {
@@ -7151,7 +7140,7 @@
   "year": 2026
  },
  "shaunsheepbeastmossybottom:2026": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "sheepdetectives": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/76/w9/hj/wo/g6uEVedSBXsZ3QuXKP4WDCeSsOy%20(1)-1200-1200-675-675-crop-000000.jpg?v=08bcff0341",
@@ -7376,10 +7365,10 @@
   "year": 1995
  },
  "spidermanbrandnewday": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "spidermanjournouveau": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "stalker:1979": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hm/9i/xs/np/stalker-1200-1200-675-675-crop-000000.jpg?v=cb028d9961",
@@ -7423,7 +7412,7 @@
   "year": 2026
  },
  "streetfighterfilm": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "stuntdriver": {
   "enriched_at": "2026-10-07"
@@ -7563,7 +7552,7 @@
   "enriched_at": "2026-10-22"
  },
  "tasio:1981": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "taxidriver50th16mmnyc:1976": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tu/1i/09/tr/taxi-driver-40-1200-1200-675-675-crop-000000.jpg?v=dd9cd7a397",
@@ -7590,7 +7579,7 @@
   "year": 2026
  },
  "theaterthought:2022": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "threebillboardsoutsideebbingmissouri": {
   "enriched_at": "2026-10-29"
@@ -7777,7 +7766,7 @@
   "year": 1992
  },
  "udtateer": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "ufc331": {
   "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
@@ -8044,7 +8033,7 @@
   "year": 1983
  },
  "vieillecorneille:2025": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "viking": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/8/0/1/7/tmdb/dcf2MSKj9wW074jXP7cljI78gMC-1200-1200-675-675-crop-000000.jpg?v=a99194ece6",
@@ -8300,7 +8289,7 @@
   "year": 2026
  },
  "wickerhommedosier": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-10-30"
  },
  "wildhorsenine": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/8/0/2/6/3/2/tmdb/tk3NDKJYKBAUOKJaH0qshGwCV01-1200-1200-675-675-crop-000000.jpg?v=1693d6f7b7",
