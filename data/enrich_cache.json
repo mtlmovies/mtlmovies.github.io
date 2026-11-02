@@ -5328,6 +5328,9 @@
  "murmures:2026": {
   "enriched_at": "2026-11-01"
  },
+ "musk:2026": {
+  "enriched_at": "2026-11-02"
+ },
  "mutinerie": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/5k/rx/kf/l1/frG3IO5kCrnyXDt1q9x4JtToSw3-1200-1200-675-675-crop-000000.jpg?v=5b5d58a3a9",
   "enriched_at": "2026-09-09",
@@ -7202,7 +7205,16 @@
   "year": 2026
  },
  "shaunsheepbeastmossybottom:2026": {
-  "enriched_at": "2026-10-30"
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cr/ee/15/i9/rn7vuYXYM3cCCcgxW2d6fcV8Weh-1200-1200-675-675-crop-000000.jpg?v=cb5d8fde94",
+  "enriched_at": "2026-11-02",
+  "i18n_v": 1,
+  "imdb_id": "tt36841161",
+  "letterboxd_rating": 3.59,
+  "letterboxd_url": "https://letterboxd.com/film/shaun-the-sheep-the-beast-of-mossy-bottom/",
+  "letterboxd_votes": 25826,
+  "tmdb_id": "1477104",
+  "wikidata_id": "Q134694705",
+  "year": 2026
  },
  "sheepdetectives": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/76/w9/hj/wo/g6uEVedSBXsZ3QuXKP4WDCeSsOy%20(1)-1200-1200-675-675-crop-000000.jpg?v=08bcff0341",
