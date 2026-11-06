@@ -1,59 +1,59 @@
 {
- "generated_at": "2026-11-05T17:56:21+00:00",
+ "generated_at": "2026-11-06T16:41:02+00:00",
  "counts": {
-  "movies": 231,
+  "movies": 223,
   "venues": 26,
-  "showtimes": 7452
+  "showtimes": 7022
  },
  "sources": [
   {
    "source": "cinemacinema",
    "ok": true,
-   "screenings": 371,
+   "screenings": 337,
    "venues": 3,
-   "seconds": 26.2
+   "seconds": 21.6
   },
   {
    "source": "cinemamoderne",
    "ok": true,
-   "screenings": 77,
-   "venues": 1,
-   "seconds": 1.2
-  },
-  {
-   "source": "ticketacces",
-   "ok": true,
-   "screenings": 55,
-   "venues": 2,
-   "seconds": 26.8
-  },
-  {
-   "source": "cineplex",
-   "ok": true,
-   "screenings": 4449,
-   "venues": 11,
-   "seconds": 71.4
-  },
-  {
-   "source": "cinestarz",
-   "ok": true,
-   "screenings": 2385,
-   "venues": 7,
-   "seconds": 21.2
-  },
-  {
-   "source": "guzzo",
-   "ok": true,
-   "screenings": 10,
+   "screenings": 74,
    "venues": 1,
    "seconds": 1.3
   },
   {
+   "source": "ticketacces",
+   "ok": true,
+   "screenings": 52,
+   "venues": 2,
+   "seconds": 27.8
+  },
+  {
+   "source": "cineplex",
+   "ok": true,
+   "screenings": 4051,
+   "venues": 11,
+   "seconds": 55.5
+  },
+  {
+   "source": "cinestarz",
+   "ok": true,
+   "screenings": 2394,
+   "venues": 7,
+   "seconds": 15.7
+  },
+  {
+   "source": "guzzo",
+   "ok": true,
+   "screenings": 15,
+   "venues": 1,
+   "seconds": 2.2
+  },
+  {
    "source": "cinematheque",
    "ok": true,
-   "screenings": 105,
+   "screenings": 99,
    "venues": 1,
-   "seconds": 67.5
+   "seconds": 55.6
   },
   {
    "source": "outremont",
@@ -61,7 +61,7 @@
    "screenings": 0,
    "venues": 0,
    "error": "RuntimeError: 4 cinema events listed, none with a start time. Their programme publishes dates only, and the start times are held in a Tuxedo box office with no publicly readable source (Firebase RTDB denies every path even to an anonymous session; Firestore is disabled; no sitemap or feed).",
-   "seconds": 4.1
+   "seconds": 4.6
   }
  ]
 }
