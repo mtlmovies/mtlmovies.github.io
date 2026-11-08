@@ -1,67 +1,67 @@
 {
- "generated_at": "2026-11-07T16:10:55+00:00",
+ "generated_at": "2026-11-08T15:53:59+00:00",
  "counts": {
-  "movies": 217,
+  "movies": 216,
   "venues": 26,
-  "showtimes": 5649
+  "showtimes": 5120
  },
  "sources": [
   {
    "source": "cinemacinema",
    "ok": true,
-   "screenings": 299,
+   "screenings": 262,
    "venues": 3,
-   "seconds": 21.4
+   "seconds": 34.2
   },
   {
    "source": "cinemamoderne",
    "ok": true,
-   "screenings": 70,
+   "screenings": 65,
    "venues": 1,
-   "seconds": 1.1
+   "seconds": 1.4
   },
   {
    "source": "ticketacces",
    "ok": true,
-   "screenings": 50,
+   "screenings": 46,
    "venues": 2,
-   "seconds": 15.0
+   "seconds": 20.3
   },
   {
    "source": "cineplex",
    "ok": true,
-   "screenings": 3526,
+   "screenings": 2969,
    "venues": 11,
-   "seconds": 54.2
+   "seconds": 56.7
   },
   {
    "source": "cinestarz",
    "ok": true,
-   "screenings": 1593,
+   "screenings": 1676,
    "venues": 7,
-   "seconds": 20.0
+   "seconds": 23.7
   },
   {
    "source": "guzzo",
    "ok": true,
    "screenings": 15,
    "venues": 1,
-   "seconds": 1.2
+   "seconds": 1.1
   },
   {
    "source": "cinematheque",
    "ok": true,
-   "screenings": 96,
+   "screenings": 87,
    "venues": 1,
-   "seconds": 64.0
+   "seconds": 66.3
   },
   {
    "source": "outremont",
    "ok": false,
    "screenings": 0,
    "venues": 0,
-   "error": "RuntimeError: 4 cinema events listed, none with a start time. Their programme publishes dates only, and the start times are held in a Tuxedo box office with no publicly readable source (Firebase RTDB denies every path even to an anonymous session; Firestore is disabled; no sitemap or feed).",
-   "seconds": 4.0
+   "error": "RuntimeError: 5 cinema events listed, none with a start time. Their programme publishes dates only, and the start times are held in a Tuxedo box office with no publicly readable source (Firebase RTDB denies every path even to an anonymous session; Firestore is disabled; no sitemap or feed).",
+   "seconds": 3.9
   }
  ]
 }
