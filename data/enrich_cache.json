@@ -100,7 +100,7 @@
   "year": 2001
  },
  "6neorealistportraits:2026": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "6portraitsneorealistes": {
   "enriched_at": "2026-11-10"
@@ -203,6 +203,18 @@
  },
  "agbaranlareturn": {
   "enriched_at": "2026-11-11"
+ },
+ "agentsecret:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/0/4/3/4/8/tmdb/NPJlNm5PixViH4dmH7pBnAgkzy-1200-1200-675-675-crop-000000.jpg?v=a48f74bf3c",
+  "enriched_at": "2026-11-12",
+  "i18n_v": 1,
+  "imdb_id": "tt27847051",
+  "letterboxd_rating": 3.8,
+  "letterboxd_url": "https://letterboxd.com/film/the-secret-agent-2025/",
+  "letterboxd_votes": 682101,
+  "tmdb_id": "1220564",
+  "wikidata_id": "Q132531438",
+  "year": 2025
  },
  "aileoucuisse": {
   "enriched_at": "2026-10-22"
@@ -452,6 +464,9 @@
  },
  "anselm:2023": {
   "enriched_at": "2026-10-21"
+ },
+ "antarctica:2026": {
+  "enriched_at": "2026-11-12"
  },
  "antigone:2019": {
   "enriched_at": "2026-11-11"
@@ -1405,6 +1420,9 @@
  "btsworldtourarirangbuenosairesliveviewing": {
   "enriched_at": "2026-10-24"
  },
+ "btsworldtourarirangkaohsiungliveviewing": {
+  "enriched_at": "2026-11-12"
+ },
  "btsworldtourarirangsaopauloliveviewing": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/3/4/8/0/2/1634802-bts-world-tour-arirang-in-sao-paulo-live-0-230-0-345-crop.jpg?v=7a7dcf9ebf",
   "enriched_at": "2026-10-30",
@@ -1891,6 +1909,9 @@
  "cinemaparadisostaffpicks:1988": {
   "enriched_at": "2026-11-11"
  },
+ "cinqtypespeur:2025": {
+  "enriched_at": "2026-11-12"
+ },
  "citeenfantsperdus:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wm/t3/m0/ke/city-of-lost-children-2-1200-1200-675-675-crop-000000.jpg?v=d5660bcfa4",
   "enriched_at": "2026-10-23",
@@ -1946,7 +1967,7 @@
   "enriched_at": "2026-09-09"
  },
  "coeurmotard:2026": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "coldwar": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/rx/72/x5/uy/cold-war-1200-1200-675-675-crop-000000.jpg?v=ec5d39a54f",
@@ -1975,8 +1996,11 @@
   "wikidata_id": "Q2235380",
   "year": 1969
  },
+ "comebackdad": {
+  "enriched_at": "2026-11-12"
+ },
  "commentbraquerbanque": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "compostelle:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/8/7/7/0/1/tmdb/lW9uSLT4t7trf1rG0nnOj14AoXT-1200-1200-675-675-crop-000000.jpg?v=f2a20dc11a",
@@ -2109,6 +2133,9 @@
   "tmdb_id": "29967",
   "wikidata_id": "Q741686",
   "year": 1954
+ },
+ "control:2026": {
+  "enriched_at": "2026-11-12"
  },
  "cosifantutte": {
   "enriched_at": "2026-10-03"
@@ -2290,7 +2317,7 @@
   "enriched_at": "2026-10-03"
  },
  "dernierpickpocketnewyork": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "derniersouffleaucurhoteldieumontreal:2017": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/2/2/8/5/7/422857-le-dernier-souffle-au-cur-de-l-hotel-dieu-de-montreal-0-230-0-345-crop.jpg?v=47fea949cf",
@@ -2516,7 +2543,7 @@
   "enriched_at": "2026-10-13"
  },
  "ebenezer": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "ebenezerchristmascarol": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/0/0/5/2/1440052-ebenezer-2026-0-230-0-345-crop.jpg?v=f9a47d0baf",
@@ -2576,7 +2603,7 @@
   "year": 2009
  },
  "emmenemoi:2026": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "empirepassion": {
   "enriched_at": "2026-10-18"
@@ -2597,7 +2624,7 @@
   "enriched_at": "2026-09-24"
  },
  "enconversationavecjoxeanfernandezdirecteureuskadikofilmategia": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "endirect": {
   "enriched_at": "2026-10-06"
@@ -2786,12 +2813,12 @@
  },
  "fantasticmrfox:2009": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/be/5b/hi/85/fantastic-mr-fox-1200-1200-675-675-crop-000000.jpg?v=da0201b5cf",
-  "enriched_at": "2026-10-22",
+  "enriched_at": "2026-11-12",
   "i18n_v": 1,
   "imdb_id": "tt0432283",
   "letterboxd_rating": 4.3,
   "letterboxd_url": "https://letterboxd.com/film/fantastic-mr-fox/",
-  "letterboxd_votes": 3064936,
+  "letterboxd_votes": 3109807,
   "tmdb_id": "10315",
   "wikidata_id": "Q465275",
   "year": 2009
@@ -2981,7 +3008,7 @@
   "year": 1964
  },
  "fjord:2026": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "florilegei": {
   "enriched_at": "2026-10-16"
@@ -3117,7 +3144,7 @@
   "enriched_at": "2026-11-11"
  },
  "fromasheswarviensub": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "fromdusktilldawn": {
   "enriched_at": "2026-09-09"
@@ -3193,7 +3220,7 @@
   "enriched_at": "2026-10-25"
  },
  "germanpeople:2025": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "ghost2bigtorig": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/5/3/4/2/1555342-2-big-to-rig-0-230-0-345-crop.jpg?v=4a41c3cc91",
@@ -3260,7 +3287,7 @@
   "enriched_at": "2026-11-08"
  },
  "ginochouinardilesguadeloupeaventuriersvoyageurs": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "godzilla00": {
   "enriched_at": "2026-11-11"
@@ -3278,13 +3305,16 @@
   "year": 2026
  },
  "godzillaminuszerocsxl": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "goforbroke2": {
   "enriched_at": "2026-10-27"
  },
  "goldenboynationaltheatrelive": {
   "enriched_at": "2026-11-11"
+ },
+ "gonzaguinhaplusgrandeliberte:2026": {
+  "enriched_at": "2026-11-12"
  },
  "goodbadugly60th:1966": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/07/zz/2k/vy/the-good-the-bad-and-the-ugly-1200-1200-675-675-crop-000000.jpg?v=6fdc9111b0",
@@ -3402,7 +3432,19 @@
   "enriched_at": "2026-11-10"
  },
  "gueuledargile": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
+ },
+ "gugusworld:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/1d/bb/no/fa/k5fSXCOQZISFdZhe8uTJR3u2JG2-1200-1200-675-675-crop-000000.jpg?v=d00c06056f",
+  "enriched_at": "2026-11-12",
+  "i18n_v": 1,
+  "imdb_id": "tt11826250",
+  "letterboxd_rating": 3.96,
+  "letterboxd_url": "https://letterboxd.com/film/gugus-world/",
+  "letterboxd_votes": 13900,
+  "tmdb_id": "1393615",
+  "wikidata_id": "Q137886911",
+  "year": 2026
  },
  "guillermodeltorospanslabyrinth20th": {
   "enriched_at": "2026-10-12"
@@ -3797,6 +3839,18 @@
  "hommagesylviegroulx:1975": {
   "enriched_at": "2026-10-07"
  },
+ "hommeavecgrandh:2025": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/eo/kn/c6/r1/homem-1200-1200-675-675-crop-000000.jpg?v=26d210f940",
+  "enriched_at": "2026-11-12",
+  "i18n_v": 1,
+  "imdb_id": "tt35301431",
+  "letterboxd_rating": 4.07,
+  "letterboxd_url": "https://letterboxd.com/film/latin-blood-the-ballad-of-ney-matogrosso/",
+  "letterboxd_votes": 181879,
+  "tmdb_id": "1212121",
+  "wikidata_id": "Q132778669",
+  "year": 2025
+ },
  "hommequiment:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/g6/8c/nb/wm/pq8JxWkSfnrdPeou1R7zWBi9ebs-1200-1200-675-675-crop-000000.jpg?v=8f009c012d",
   "enriched_at": "2026-09-09",
@@ -3892,7 +3946,7 @@
   "year": 1983
  },
  "hungergamesleversoleilsurmoisson": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "hungergamessunrisereaping": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/8/2/6/9/2/tmdb/5h9vKBzB6iOde9k6rGpLJ4hyIdm-1200-1200-675-675-crop-000000.jpg?v=530ad16b20",
@@ -3914,7 +3968,7 @@
   "enriched_at": "2026-09-20"
  },
  "ileoublie": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "ilpaesevillage": {
   "enriched_at": "2026-10-29"
@@ -3956,7 +4010,7 @@
   "year": 2010
  },
  "indemysteresgange": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "influencerproject": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/1/7/5/9/4/1517594-the-influencer-project-0-230-0-345-crop.jpg?v=0e25ee66fe",
@@ -4396,7 +4450,7 @@
   "year": 2026
  },
  "jailer2tamil": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "japonlumieredautomne": {
   "enriched_at": "2026-11-11"
@@ -4492,6 +4546,9 @@
   "title_fr": "Johnny Got His Gun",
   "tmdb_id": "16328",
   "year": 1971
+ },
+ "journalpilarenamazonie:2026": {
+  "enriched_at": "2026-11-12"
  },
  "jugementsocial": {
   "enriched_at": "2026-10-20"
@@ -5040,10 +5097,13 @@
   "enriched_at": "2026-10-17"
  },
  "macbethitalianwestmetropolitanopera": {
-  "enriched_at": "2026-10-17"
+  "enriched_at": "2026-11-12"
  },
  "macbethitalienavecstfrmetropolitanopera": {
   "enriched_at": "2026-10-17"
+ },
+ "macbethitalienavecstfrrediffusionmetropolitanopera": {
+  "enriched_at": "2026-11-12"
  },
  "maddiessecret:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/9/3/5/4/9/tmdb/kwBX4d1MsVl5h3GkQCXJAQ4r0O4-1200-1200-675-675-crop-000000.jpg?v=d082b93af2",
@@ -5090,6 +5150,9 @@
   "wikidata_id": "Q141247887",
   "year": null
  },
+ "males:2025": {
+  "enriched_at": "2026-11-12"
+ },
  "mamanputain:1973": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/r3/zd/ul/nc/d7f7Dq0I5SuevNHVqLwInQq3EBr-1200-1200-675-675-crop-000000.jpg?v=1b85333bb5",
   "enriched_at": "2026-09-09",
@@ -5115,6 +5178,18 @@
   "title_fr": "La Maman et la Putain",
   "tmdb_id": "48693",
   "year": 1973
+ },
+ "manas:2024": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/5r/f4/3c/1u/manas-1200-1200-675-675-crop-000000.jpg?v=141c3fc35b",
+  "enriched_at": "2026-11-12",
+  "i18n_v": 1,
+  "imdb_id": "tt27911420",
+  "letterboxd_rating": 4.09,
+  "letterboxd_url": "https://letterboxd.com/film/manas/",
+  "letterboxd_votes": 23789,
+  "tmdb_id": "1256408",
+  "wikidata_id": "Q130269583",
+  "year": 2024
  },
  "mandaadi": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/4/2/9/5/3/1342953-mandaadi-0-230-0-345-crop.jpg?v=03c883bf4f",
@@ -5372,6 +5447,9 @@
  },
  "miaecolemonstres": {
   "enriched_at": "2026-11-06"
+ },
+ "miltonbitucanascimento:2024": {
+  "enriched_at": "2026-11-12"
  },
  "minecraftmoviecommunityday": {
   "enriched_at": "2026-11-11"
@@ -5698,7 +5776,7 @@
   "enriched_at": "2026-10-27"
  },
  "nausicaavalleywind:1984": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "naza:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/4g/94/d6/gn/qkuEfYYOZTW6ymbZMeyJeYQaMd7-1200-1200-675-675-crop-000000.jpg?v=48df2c0386",
@@ -5903,7 +5981,7 @@
   "enriched_at": "2026-10-25"
  },
  "nouvellesrestaurationsbasques2:1985": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "oasisdontlookbackanger": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/2/4/2/3/8/tmdb/7Ud7QIJo21odjCaev6V4md9sK16-1200-1200-675-675-crop-000000.jpg?v=0e27dead37",
@@ -5982,6 +6060,18 @@
  },
  "odyssey": {
   "enriched_at": "2026-11-11"
+ },
+ "oldbandits:2026": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/5/1/2/8/2/tmdb/ssBROQ3WPs1JB9cyMaEi5rlt9i5-1200-1200-675-675-crop-000000.jpg?v=d4c1103fe3",
+  "enriched_at": "2026-11-12",
+  "i18n_v": 1,
+  "imdb_id": "tt34382332",
+  "letterboxd_rating": 2.95,
+  "letterboxd_url": "https://letterboxd.com/film/old-bandits/",
+  "letterboxd_votes": 21772,
+  "tmdb_id": "1362786",
+  "wikidata_id": "Q132063588",
+  "year": 2026
  },
  "onceupontimehollywood": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/3m/w9/ku/pt/once-upon-a-time-in-hollywood-1200-1200-675-675-crop-000000.jpg?v=4bbee2b818",
@@ -6702,7 +6792,7 @@
   "enriched_at": "2026-10-23"
  },
  "primetime": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "primeurssurpriseslundi": {
   "enriched_at": "2026-11-09"
@@ -6741,7 +6831,7 @@
   "enriched_at": "2026-11-10"
  },
  "qcc33jetuilelle:1974": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-10-16"
@@ -6835,7 +6925,7 @@
   "enriched_at": "2026-11-10"
  },
  "ramayanaexperience": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "ramayanahindi": {
   "enriched_at": "2026-11-10"
@@ -7036,10 +7126,10 @@
   "year": 2026
  },
  "ridmcettemaison:2022": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "ridmvanishingpoint:2025": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "ring:2007": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/1/5/8/15158-the-fight-0-230-0-345-crop.jpg?v=6d3979b5d0",
@@ -7065,6 +7155,9 @@
   "title_fr": "Le ring",
   "tmdb_id": "50529",
   "year": 2007
+ },
+ "ritas:2025": {
+  "enriched_at": "2026-11-12"
  },
  "rollingloud": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/3/0/9/4/8/1230948-rolling-loud-the-movie-0-230-0-345-crop.jpg?v=2750781569",
@@ -7379,7 +7472,7 @@
   "enriched_at": "2026-11-11"
  },
  "scenetamil": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "scoobfamilyfavourites": {
   "enriched_at": "2026-10-03"
@@ -8490,7 +8583,7 @@
   "enriched_at": "2026-10-20"
  },
  "villeneuveascensiondlegende:2026": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "villeneuveriselegend": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/3/0/8/9/8/1130898-villeneuve-the-rise-of-a-legend-0-230-0-345-crop.jpg?v=3c7b5d59c0",
@@ -8751,10 +8844,10 @@
   "year": 2026
  },
  "wildwood": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "wildwoodcontreemalefique": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "winterkeptuswarm:1965": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/q5/lh/gb/q0/winter-1200-1200-675-675-crop-000000.jpg?v=e56974d417",
@@ -8796,7 +8889,7 @@
   "year": 2012
  },
  "wutheringheights:2011": {
-  "enriched_at": "2026-11-09"
+  "enriched_at": "2026-11-12"
  },
  "yesterdayeyedidntsleep:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/0/4/7/6/7/1404767-yesterday-the-eye-didnt-sleep-0-230-0-345-crop.jpg?v=03b80886d5",
@@ -8824,12 +8917,12 @@
  },
  "youcanseeeverything:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wr/rf/xg/hl/IMG_2387-1200-1200-675-675-crop-000000.jpg?v=cfa3502c10",
-  "enriched_at": "2026-10-22",
+  "enriched_at": "2026-11-12",
   "i18n_v": 1,
   "imdb_id": "tt45368240",
-  "letterboxd_rating": 4.64,
+  "letterboxd_rating": 4.58,
   "letterboxd_url": "https://letterboxd.com/film/you-can-see-everything/",
-  "letterboxd_votes": 293514,
+  "letterboxd_votes": 766758,
   "tmdb_id": "1765072",
   "wikidata_id": "Q141336617",
   "year": 2026
