@@ -161,6 +161,9 @@
   "wikidata_id": "Q696413",
   "year": 1993
  },
+ "aduaherfriends:1960": {
+  "enriched_at": "2026-11-13"
+ },
  "affairecoffin": {
   "enriched_at": "2026-11-07"
  },
@@ -173,6 +176,18 @@
   "tmdb_id": "474090",
   "wikidata_id": "Q22000019",
   "year": 1980
+ },
+ "affreuxsalesmechants:1976": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/gi/ze/4f/ro/WocCSXqOw4AjzfVswB9YPGQsyO-1200-1200-675-675-crop-000000.jpg?v=47b5755080",
+  "enriched_at": "2026-11-13",
+  "i18n_v": 1,
+  "imdb_id": "tt0074252",
+  "letterboxd_rating": 3.85,
+  "letterboxd_url": "https://letterboxd.com/film/ugly-dirty-and-bad/",
+  "letterboxd_votes": 10393,
+  "tmdb_id": "19413",
+  "wikidata_id": "Q535295",
+  "year": 1976
  },
  "agathasalmanac": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/3/1/1/7/6/0/tmdb/gE32MBHgTTl7ROg9bWOnD8Mmm1j-1200-1200-675-675-crop-000000.jpg?v=775f0c3249",
@@ -236,6 +251,9 @@
  },
  "akirarereleaseexperience": {
   "enriched_at": "2026-09-09"
+ },
+ "alice:1988": {
+  "enriched_at": "2026-11-13"
  },
  "alicedoesntlivehereanymore:1974": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tl/mq/xv/58/alice-doesnt-live-here-anymore-1200-1200-675-675-crop-000000.jpg?v=0d8a3b0262",
@@ -716,6 +734,9 @@
  "avengersphasefinale": {
   "enriched_at": "2026-10-21"
  },
+ "aventurespinocchio": {
+  "enriched_at": "2026-11-13"
+ },
  "avginochouinardauxilesguadeloupe": {
   "enriched_at": "2026-11-10"
  },
@@ -727,6 +748,12 @@
  },
  "azaadsingh": {
   "enriched_at": "2026-09-22"
+ },
+ "azurasmar": {
+  "enriched_at": "2026-11-13"
+ },
+ "bachbottine": {
+  "enriched_at": "2026-11-13"
  },
  "backrooms:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/7/6/4/1/9/tmdb/nwlTTCHTIBtkvb70762Ug25khlV-1200-1200-675-675-crop-000000.jpg?v=ffeffd44cc",
@@ -800,6 +827,9 @@
   "tmdb_id": "674324",
   "wikidata_id": "Q108314506",
   "year": 2022
+ },
+ "barbie": {
+  "enriched_at": "2026-11-13"
  },
  "barriotriste": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/9/1/7/1/5/tmdb/3AhCk3cEiHjtXFLFw2Ewj7ZQdqH-1200-1200-675-675-crop-000000.jpg?v=2db32397f9",
@@ -1131,6 +1161,9 @@
   "tmdb_id": "1244523",
   "wikidata_id": "Q141052811",
   "year": 2026
+ },
+ "bienvenuemarwen": {
+  "enriched_at": "2026-11-13"
  },
  "biggirlsdontcry": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/8/3/9/7/18397-big-girls-don-t-cry-they-get-even-0-230-0-345-crop.jpg?v=6fcbe4dfb2",
@@ -1562,7 +1595,7 @@
   "year": 2026
  },
  "cameronwinteratcarnegiehall": {
-  "enriched_at": "2026-10-27"
+  "enriched_at": "2026-11-13"
  },
  "cameronwinteratcarnegiehall:2026": {
   "enriched_at": "2026-11-11"
@@ -1688,6 +1721,9 @@
   "title_fr": "Les cavaliers de la justice",
   "tmdb_id": "663870",
   "year": 2020
+ },
+ "celibataire": {
+  "enriched_at": "2026-11-13"
  },
  "ceremony": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/7/0/1/6/5/1070165-the-ceremony-2024-0-230-0-345-crop.jpg?v=110237b1c8",
@@ -2031,6 +2067,9 @@
   "title_fr": "Compostelle",
   "tmdb_id": "1404604",
   "year": 2026
+ },
+ "conflit": {
+  "enriched_at": "2026-11-13"
  },
  "constellationchien": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mg/jf/b5/t1/dog%20stars-1200-1200-675-675-crop-000000.jpg?v=07cdea3a26",
@@ -2431,6 +2470,18 @@
   "wikidata_id": "Q327681",
   "year": 2003
  },
+ "doll:1919": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/me/yo/ae/yg/doll-1200-1200-675-675-crop-000000.jpg?v=4707b066cb",
+  "enriched_at": "2026-11-13",
+  "i18n_v": 1,
+  "imdb_id": "tt0010600",
+  "letterboxd_rating": 3.87,
+  "letterboxd_url": "https://letterboxd.com/film/the-doll/",
+  "letterboxd_votes": 6230,
+  "tmdb_id": "48256",
+  "wikidata_id": "Q151596",
+  "year": 1919
+ },
  "dollypartonmameremoi:2011": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/7/3/1/3/0/73130-the-year-dolly-parton-was-my-mom-0-230-0-345-crop.jpg?v=8bc9075a79",
   "enriched_at": "2026-09-09",
@@ -2521,6 +2572,9 @@
  "drishyamconclusion": {
   "enriched_at": "2026-10-21"
  },
+ "drolegrenier:1946": {
+  "enriched_at": "2026-11-13"
+ },
  "drummerboy": {
   "enriched_at": "2026-11-02"
  },
@@ -2604,6 +2658,9 @@
  },
  "emmenemoi:2026": {
   "enriched_at": "2026-11-12"
+ },
+ "emperorsnightingale": {
+  "enriched_at": "2026-11-13"
  },
  "empirepassion": {
   "enriched_at": "2026-10-18"
@@ -2715,6 +2772,9 @@
   "tmdb_id": "1714568",
   "wikidata_id": "Q140745383",
   "year": null
+ },
+ "exerciceetat": {
+  "enriched_at": "2026-11-13"
  },
  "eyesghana:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/0/0/4/2/4/1400424-the-eyes-of-ghana-0-230-0-345-crop.jpg?v=f21e09b3a9",
@@ -3112,6 +3172,9 @@
   "wikidata_id": "Q138335503",
   "year": 2026
  },
+ "framptonsondouble:1971": {
+  "enriched_at": "2026-11-13"
+ },
  "francoise:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/6/0/3/7/6/1360376-francoise-2026-0-230-0-345-crop.jpg?v=977cb6f189",
   "enriched_at": "2026-09-09",
@@ -3148,6 +3211,16 @@
  },
  "fromdusktilldawn": {
   "enriched_at": "2026-09-09"
+ },
+ "fuoco:1968": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/uk/67/m1/4p/6uvHRfEedszJO247OBP8AT9MB7Q-1200-1200-675-675-crop-000000.jpg?v=30e5ff1c12",
+  "enriched_at": "2026-11-13",
+  "i18n_v": 1,
+  "imdb_id": "tt0173870",
+  "letterboxd_url": "https://letterboxd.com/film/fire-1968/",
+  "tmdb_id": "269999",
+  "wikidata_id": "Q13459982",
+  "year": 1968
  },
  "furyo": {
   "enriched_at": "2026-09-25"
@@ -3188,6 +3261,9 @@
  },
  "gabrielle:2013": {
   "enriched_at": "2026-11-05"
+ },
+ "gandahar": {
+  "enriched_at": "2026-11-13"
  },
  "gandahar:1987": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xt/oe/nl/u0/gandahar-1200-1200-675-675-crop-000000.jpg?v=c3c0129a35",
@@ -3280,6 +3356,9 @@
   "wikidata_id": "Q136502675",
   "year": 2026
  },
+ "ghostsrome": {
+  "enriched_at": "2026-11-13"
+ },
  "giantplay": {
   "enriched_at": "2026-11-13"
  },
@@ -3288,6 +3367,9 @@
  },
  "ginochouinardilesguadeloupeaventuriersvoyageurs": {
   "enriched_at": "2026-11-12"
+ },
+ "girlfromparma": {
+  "enriched_at": "2026-11-13"
  },
  "godzilla00": {
   "enriched_at": "2026-11-11"
@@ -3784,6 +3866,18 @@
   "tmdb_id": "1084244",
   "year": 2026
  },
+ "histoirejouets:1995": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/sf/gx/1q/o3/toy-story-90-1200-1200-675-675-crop-000000.jpg?v=ba6542b063",
+  "enriched_at": "2026-11-13",
+  "i18n_v": 1,
+  "imdb_id": "tt0114709",
+  "letterboxd_rating": 4.11,
+  "letterboxd_url": "https://letterboxd.com/film/toy-story/",
+  "letterboxd_votes": 2834255,
+  "tmdb_id": "862",
+  "wikidata_id": "Q171048",
+  "year": 1995
+ },
  "histoiresparalleles:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hl/2p/vd/vk/8mQayOm0n013Y36Rahd3O9OAuHT-1200-1200-675-675-crop-000000.jpg?v=5d80ba9d64",
   "enriched_at": "2026-09-09",
@@ -3960,6 +4054,9 @@
  },
  "hybecheeringparty": {
   "enriched_at": "2026-10-27"
+ },
+ "identite4courtmetrages4regards": {
+  "enriched_at": "2026-11-13"
  },
  "ileoubli": {
   "enriched_at": "2026-11-11"
@@ -4482,6 +4579,12 @@
  "jeancocteau:2024": {
   "enriched_at": "2026-11-11"
  },
+ "jeconnaissaisbien": {
+  "enriched_at": "2026-11-13"
+ },
+ "jetattendrai": {
+  "enriched_at": "2026-11-13"
+ },
  "jevoussaluesalopemisogynieautempsnumerique": {
   "enriched_at": "2026-10-06"
  },
@@ -4496,6 +4599,12 @@
   "tmdb_id": "1008062",
   "wikidata_id": "Q112129194",
   "year": 2022
+ },
+ "jevoustrouvetresbeau": {
+  "enriched_at": "2026-11-13"
+ },
+ "jimhensonschristmastoy": {
+  "enriched_at": "2026-11-13"
  },
  "jimqueen": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/5/7/3/8/0/tmdb/vQw05sfFEVCVpysDAU5C8NU1gMO-1200-1200-675-675-crop-000000.jpg?v=2d4514f5c0",
@@ -4546,6 +4655,9 @@
   "title_fr": "Johnny Got His Gun",
   "tmdb_id": "16328",
   "year": 1971
+ },
+ "jouet": {
+  "enriched_at": "2026-11-13"
  },
  "journalpilarenamazonie:2026": {
   "enriched_at": "2026-11-12"
@@ -5138,6 +5250,9 @@
  "magicfarawaytreefamilyfavourites": {
   "enriched_at": "2026-10-17"
  },
+ "magnificentcuckold": {
+  "enriched_at": "2026-11-13"
+ },
  "makingmarieantoinette": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/1/9/2/5/9/1619259-making-marie-antoinette-0-230-0-345-crop.jpg?v=80ac334bbf",
   "enriched_at": "2026-10-23",
@@ -5278,6 +5393,30 @@
  },
  "maraismort:1982": {
   "enriched_at": "2026-11-11"
+ },
+ "marcheombre:1984": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/0/8/7/10087-marche-a-l-ombre-0-230-0-345-crop.jpg?v=95be042a8f",
+  "enriched_at": "2026-11-13",
+  "i18n_v": 1,
+  "imdb_id": "tt0087681",
+  "letterboxd_rating": 3.39,
+  "letterboxd_url": "https://letterboxd.com/film/marche-a-lombre/",
+  "letterboxd_votes": 4555,
+  "tmdb_id": "55976",
+  "wikidata_id": "Q3289739",
+  "year": 1984
+ },
+ "marchschild:1958": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/0n/dm/7a/jp/8IfcHYpzneevmUv1VhwQ7FWGDV0-1200-1200-675-675-crop-000000.jpg?v=a5558f1b1f",
+  "enriched_at": "2026-11-13",
+  "i18n_v": 1,
+  "imdb_id": "tt0050753",
+  "letterboxd_rating": 3.39,
+  "letterboxd_url": "https://letterboxd.com/film/marchs-child/",
+  "letterboxd_votes": 210,
+  "tmdb_id": "296186",
+  "wikidata_id": "Q3870576",
+  "year": 1958
  },
  "mariachapdelaine": {
   "enriched_at": "2026-09-09"
@@ -5583,6 +5722,9 @@
   "tmdb_id": "680770",
   "wikidata_id": "Q113138253",
   "year": 2025
+ },
+ "monsieurhire": {
+  "enriched_at": "2026-11-13"
  },
  "monsieurlazhar:2011": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/y6/7c/kj/wj/monsieur-lazhar-1200-1200-675-675-crop-000000.jpg?v=ada2c0bdeb",
@@ -6169,6 +6311,9 @@
  "othermommyfaneventscreening": {
   "enriched_at": "2026-10-08"
  },
+ "ourladyturks": {
+  "enriched_at": "2026-11-13"
+ },
  "outoutserassemble": {
   "enriched_at": "2026-11-11"
  },
@@ -6192,6 +6337,9 @@
  },
  "paddington2journeefamiliale": {
   "enriched_at": "2026-11-11"
+ },
+ "paniqueauvillage": {
+  "enriched_at": "2026-11-13"
  },
  "paquettroubles:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/2/2/6/1/5/1622615-paquet-de-troubles-0-230-0-345-crop.jpg?v=d3e8e6d23f",
@@ -6456,6 +6604,9 @@
   "title_fr": "Les perdants",
   "tmdb_id": "1415512",
   "year": 2025
+ },
+ "perenoelestordure": {
+  "enriched_at": "2026-11-13"
  },
  "perfectblue:1997": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jf/e4/gt/jx/mHG7dpLb0ZScSY3LpP443IHRmjy-1200-1200-675-675-crop-000000.jpg?v=363b875554",
@@ -6797,6 +6948,16 @@
  "primeurssurpriseslundi": {
   "enriched_at": "2026-11-09"
  },
+ "prisonsansbarreaux:1938": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/4/3/2/6/7/243267-prison-without-bars-0-230-0-345-crop.jpg?v=5c7d7c9ed1",
+  "enriched_at": "2026-11-13",
+  "i18n_v": 1,
+  "imdb_id": "tt0160699",
+  "letterboxd_url": "https://letterboxd.com/film/prison-without-bars/",
+  "tmdb_id": "316252",
+  "wikidata_id": "Q3404002",
+  "year": 1938
+ },
  "programmecourtsmetragesmiryamcharles": {
   "enriched_at": "2026-11-11"
  },
@@ -6884,6 +7045,9 @@
  },
  "queenbudapestexperience": {
   "enriched_at": "2026-10-07"
+ },
+ "rafales": {
+  "enriched_at": "2026-11-13"
  },
  "raiseredlantern35th:1991": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hf/cr/z0/d7/raise-the-red-lantern-1200-1200-675-675-crop-000000.jpg?v=e062584d78",
@@ -7048,6 +7212,9 @@
   "title_fr": "Ulysses' Gaze",
   "tmdb_id": "22549",
   "year": 1995
+ },
+ "reglejeu:1939": {
+  "enriched_at": "2026-11-13"
  },
  "rembrandt": {
   "enriched_at": "2026-11-03"
@@ -7776,6 +7943,9 @@
  "smallchildsfirstadventure:1958": {
   "enriched_at": "2026-10-19"
  },
+ "smallsoldiers:1966": {
+  "enriched_at": "2026-11-13"
+ },
  "socialreckoning": {
   "enriched_at": "2026-10-20"
  },
@@ -8073,8 +8243,23 @@
   "wikidata_id": "Q134434223",
   "year": 2026
  },
+ "tenuesoiree:1986": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ay/rp/mh/te/rnHv3HFEKMttdW9IMxkeYoBUBwC-1200-1200-675-675-crop-000000.jpg?v=e505962b1a",
+  "enriched_at": "2026-11-13",
+  "i18n_v": 1,
+  "imdb_id": "tt0092068",
+  "letterboxd_rating": 3.51,
+  "letterboxd_url": "https://letterboxd.com/film/menage/",
+  "letterboxd_votes": 7467,
+  "tmdb_id": "3934",
+  "wikidata_id": "Q318838",
+  "year": 1986
+ },
  "theaterthought:2022": {
   "enriched_at": "2026-11-11"
+ },
+ "theoreme": {
+  "enriched_at": "2026-11-13"
  },
  "threebillboardsoutsideebbingmissouri": {
   "enriched_at": "2026-10-29"
@@ -8725,6 +8910,9 @@
  "vishwanathsonstamengsub": {
   "enriched_at": "2026-09-09"
  },
+ "visitor:1963": {
+  "enriched_at": "2026-11-13"
+ },
  "vivalaldjerie:2004": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/3/5/2/2/123522-viva-algeria-0-230-0-345-crop.jpg?v=6d5972d235",
   "enriched_at": "2026-10-12",
@@ -8818,6 +9006,18 @@
   "tmdb_id": "1255833",
   "wikidata_id": "Q134876629",
   "year": 2026
+ },
+ "whatmarielleknows": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/9/7/7/6/7/tmdb/dSekk1zqcmMkrOBWFtDXL1p7Usa-1200-1200-675-675-crop-000000.jpg?v=efd4cfb195",
+  "enriched_at": "2026-11-13",
+  "i18n_v": 1,
+  "imdb_id": "tt35500283",
+  "letterboxd_rating": 3.16,
+  "letterboxd_url": "https://letterboxd.com/film/what-marielle-knows/",
+  "letterboxd_votes": 4667,
+  "tmdb_id": "1416893",
+  "wikidata_id": "Q131840241",
+  "year": 2025
  },
  "wicker": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/8/0/8/9/2/tmdb/95FAaZea15Kjz4TVcCraWhMXt9H-1200-1200-675-675-crop-000000.jpg?v=3471d8c823",
