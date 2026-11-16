@@ -767,6 +767,18 @@
  "azurasmar": {
   "enriched_at": "2026-11-16"
  },
+ "azurasmar:2006": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/39/f7/ad/hh/asur-1200-1200-675-675-crop-000000.jpg?v=3deb4c9ad2",
+  "enriched_at": "2026-11-16",
+  "i18n_v": 1,
+  "imdb_id": "tt0439123",
+  "letterboxd_rating": 4.22,
+  "letterboxd_url": "https://letterboxd.com/film/azur-asmar-the-princes-quest/",
+  "letterboxd_votes": 91634,
+  "tmdb_id": "19026",
+  "wikidata_id": "Q2627763",
+  "year": 2006
+ },
  "bachbottine": {
   "enriched_at": "2026-11-16"
  },
@@ -8356,6 +8368,18 @@
  },
  "theoreme": {
   "enriched_at": "2026-11-16"
+ },
+ "theoreme:1968": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/eq/xc/ne/a5/theorem-1200-1200-675-675-crop-000000.jpg?v=2c059ce054",
+  "enriched_at": "2026-11-16",
+  "i18n_v": 1,
+  "imdb_id": "tt0063678",
+  "letterboxd_rating": 3.9,
+  "letterboxd_url": "https://letterboxd.com/film/theorem/",
+  "letterboxd_votes": 62479,
+  "tmdb_id": "5335",
+  "wikidata_id": "Q914157",
+  "year": 1968
  },
  "threebillboardsoutsideebbingmissouri": {
   "enriched_at": "2026-10-29"
