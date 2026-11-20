@@ -436,7 +436,7 @@
   "year": 2026
  },
  "andrewlloydwebbersstarlightexpresslivestage": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "ange": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/0/0/2/4/7/1000247-kali-avenging-angel-0-230-0-345-crop.jpg?v=f756149786",
@@ -499,7 +499,7 @@
   "enriched_at": "2026-11-18"
  },
  "antigone:2019": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "anvilstoryanvil": {
   "enriched_at": "2026-09-09"
@@ -691,7 +691,7 @@
   "year": 2026
  },
  "aucoeurbete": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "audition:1999": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/qc/fp/8g/nx/audition-1200-1200-675-675-crop-000000.jpg?v=3b73fff95d",
@@ -765,7 +765,7 @@
   "enriched_at": "2026-11-16"
  },
  "aventurespinocchio:1972": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "avginochouinardauxilesguadeloupe": {
   "enriched_at": "2026-11-10"
@@ -835,7 +835,7 @@
   "year": 1985
  },
  "bagages": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "bagages:2017": {
   "backdrop": "https://s.ltrbxd.com/static/img/default-share-BreRymVw.png",
@@ -998,8 +998,14 @@
   "tmdb_id": "43980",
   "year": 1989
  },
+ "bataillegaulleliberte": {
+  "enriched_at": "2026-11-20"
+ },
  "bataillegaulleliberte:2026": {
   "enriched_at": "2026-11-17"
+ },
+ "bataillegaulleresistance": {
+  "enriched_at": "2026-11-20"
  },
  "bataillegaulleresistance:2026": {
   "enriched_at": "2026-11-17"
@@ -2059,7 +2065,7 @@
   "enriched_at": "2026-11-05"
  },
  "cinemaparadisostaffpicks:1988": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "cinqtypespeur:2025": {
   "enriched_at": "2026-11-18"
@@ -2397,10 +2403,22 @@
   "year": 1997
  },
  "danemarkilesferoeroyaumebonheur": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "danielfieryfurnace": {
   "enriched_at": "2026-10-07"
+ },
+ "daybeast:1995": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/7b/at/yi/mu/q84Qc9fHlVfzvj7bDhilaGFYopV-1200-1200-675-675-crop-000000.jpg?v=4880f126fb",
+  "enriched_at": "2026-11-20",
+  "i18n_v": 1,
+  "imdb_id": "tt0112922",
+  "letterboxd_rating": 3.69,
+  "letterboxd_url": "https://letterboxd.com/film/the-day-of-the-beast/",
+  "letterboxd_votes": 58668,
+  "tmdb_id": "10722",
+  "wikidata_id": "Q1312929",
+  "year": 1995
  },
  "daystoremember": {
   "enriched_at": "2026-10-25"
@@ -2585,7 +2603,7 @@
   "enriched_at": "2026-10-30"
  },
  "doctorwhosatanpit": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "dogstars": {
   "enriched_at": "2026-09-30"
@@ -2726,7 +2744,7 @@
   "enriched_at": "2026-11-17"
  },
  "dunetroisiemepartie:2026": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "eastwestlove": {
   "enriched_at": "2026-10-13"
@@ -3076,7 +3094,7 @@
   "enriched_at": "2026-11-17"
  },
  "festivefunwithpeppacinemaexperience": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "filfilmjusteillusion:2026": {
   "enriched_at": "2026-09-27"
@@ -4116,7 +4134,7 @@
   "enriched_at": "2026-09-09"
  },
  "homles": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "homles:2026": {
   "enriched_at": "2026-11-06"
@@ -4262,7 +4280,7 @@
   "enriched_at": "2026-11-19"
  },
  "ileoubli": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "ileoubliaccesenavantpremiere": {
   "enriched_at": "2026-09-20"
@@ -4756,7 +4774,7 @@
   "enriched_at": "2026-11-19"
  },
  "japonlumieredautomne": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "jardindenfants": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
@@ -5613,7 +5631,7 @@
   "year": 1970
  },
  "maraismort:1982": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "marcheombre:1984": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/0/8/7/10087-marche-a-l-ombre-0-230-0-345-crop.jpg?v=95be042a8f",
@@ -5666,7 +5684,7 @@
  },
  "mariages": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/9/4/3/111943-marriages-0-230-0-345-crop.jpg?v=fef417d6e4",
-  "enriched_at": "2026-10-30",
+  "enriched_at": "2026-11-20",
   "i18n_v": 1,
   "imdb_id": "tt0295425",
   "letterboxd_url": "https://letterboxd.com/film/marriages/",
@@ -5681,7 +5699,7 @@
   "enriched_at": "2026-10-31"
  },
  "mariemadeleine:2026": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "marquercongo:2026": {
   "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
@@ -5830,10 +5848,10 @@
   "enriched_at": "2026-10-30"
  },
  "minotaur:2026": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "minotaure:2026": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "mirror": {
   "enriched_at": "2026-10-21"
@@ -6046,7 +6064,7 @@
   "enriched_at": "2026-11-19"
  },
  "musk:2026": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "mutinerie": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/5k/rx/kf/l1/frG3IO5kCrnyXDt1q9x4JtToSw3-1200-1200-675-675-crop-000000.jpg?v=5b5d58a3a9",
@@ -6344,7 +6362,7 @@
   "enriched_at": "2026-10-25"
  },
  "nottinghillcinetricot:1999": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "nouvellebellefamille": {
   "enriched_at": "2026-11-19"
@@ -6581,7 +6599,7 @@
   "enriched_at": "2026-11-19"
  },
  "outoutserassemble": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "outoutserassemble:2026": {
   "enriched_at": "2026-11-08"
@@ -7234,7 +7252,7 @@
   "year": 1938
  },
  "programmecourtsmetragesmiryamcharles": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "programmecourtsmetragesmyriamcharles": {
   "enriched_at": "2026-11-03"
@@ -7268,6 +7286,9 @@
  },
  "qcc33jetuilelle:1974": {
   "enriched_at": "2026-11-18"
+ },
+ "qcc34birdcage:1996": {
+  "enriched_at": "2026-11-20"
  },
  "qccunzipped:1995": {
   "enriched_at": "2026-10-16"
@@ -7519,7 +7540,7 @@
   "enriched_at": "2026-11-03"
  },
  "remember": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "rencontresinternationalesdocumentairemontreal": {
   "enriched_at": "2026-11-19"
@@ -7553,7 +7574,16 @@
   "year": 2026
  },
  "residentevil": {
-  "enriched_at": "2026-11-17"
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/c7/2d/gq/lu/resi-1200-1200-675-675-crop-000000.jpg?v=8d3221cbed",
+  "enriched_at": "2026-11-20",
+  "i18n_v": 1,
+  "imdb_id": "tt35538033",
+  "letterboxd_rating": 3.73,
+  "letterboxd_url": "https://letterboxd.com/film/resident-evil-2026/",
+  "letterboxd_votes": 2046043,
+  "tmdb_id": "1423191",
+  "wikidata_id": "Q136565785",
+  "year": 2026
  },
  "residentevildubbedspanish": {
   "enriched_at": "2026-09-26"
@@ -7978,12 +8008,12 @@
  },
  "secretmesanges": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/8/9/0/8/8/4/890884-the-songbirds-secret-0-230-0-345-crop.jpg?v=ee8f0b84f5",
-  "enriched_at": "2026-10-30",
+  "enriched_at": "2026-11-20",
   "i18n_v": 1,
   "imdb_id": "tt29497084",
   "letterboxd_rating": 3.57,
   "letterboxd_url": "https://letterboxd.com/film/the-songbirds-secret/",
-  "letterboxd_votes": 1090,
+  "letterboxd_votes": 1117,
   "tmdb_id": "989246",
   "wikidata_id": "Q136647519",
   "year": 2025
@@ -8565,7 +8595,7 @@
   "year": 1986
  },
  "theaterthought:2022": {
-  "enriched_at": "2026-11-17"
+  "enriched_at": "2026-11-20"
  },
  "theoreme": {
   "enriched_at": "2026-11-16"
@@ -9068,6 +9098,9 @@
   "title_fr": "Vidéodrome",
   "tmdb_id": "837",
   "year": 1983
+ },
+ "vieillecorneille": {
+  "enriched_at": "2026-11-20"
  },
  "vieillecorneille:2025": {
   "enriched_at": "2026-11-17"
