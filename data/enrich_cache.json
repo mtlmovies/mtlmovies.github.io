@@ -1842,6 +1842,18 @@
  "celibataire": {
   "enriched_at": "2026-11-19"
  },
+ "celibataire:1955": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ki/we/25/60/fpUokY9D4A33yCuOXSEIV7UkaBN-1200-1200-675-675-crop-000000.jpg?v=4ae9575f37",
+  "enriched_at": "2026-11-21",
+  "i18n_v": 1,
+  "imdb_id": "tt0049717",
+  "letterboxd_rating": 3.33,
+  "letterboxd_url": "https://letterboxd.com/film/the-bachelor-1955/",
+  "letterboxd_votes": 584,
+  "tmdb_id": "82481",
+  "wikidata_id": "Q776890",
+  "year": 1955
+ },
  "ceremony": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/0/7/0/1/6/5/1070165-the-ceremony-2024-0-230-0-345-crop.jpg?v=110237b1c8",
   "enriched_at": "2026-10-09",
@@ -4848,6 +4860,18 @@
  "jevoustrouvetresbeau": {
   "enriched_at": "2026-11-19"
  },
+ "jevoustrouvetresbeau:2005": {
+  "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/6/3/8/6/46386-you-are-so-beautiful-0-230-0-345-crop.jpg?v=fc57db5ec0",
+  "enriched_at": "2026-11-21",
+  "i18n_v": 1,
+  "imdb_id": "tt0450664",
+  "letterboxd_rating": 3.23,
+  "letterboxd_url": "https://letterboxd.com/film/you-are-so-beautiful/",
+  "letterboxd_votes": 2620,
+  "tmdb_id": "10268",
+  "wikidata_id": "Q2282109",
+  "year": 2005
+ },
  "jimhensonschristmastoy": {
   "enriched_at": "2026-11-19"
  },
@@ -4903,6 +4927,18 @@
  },
  "jouet": {
   "enriched_at": "2026-11-19"
+ },
+ "jouet:1976": {
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/4/5/4/tmdb/viADylz58ZMoNsnZPCrQMyDbHZY-1200-1200-675-675-crop-000000.jpg?v=10a5e71084",
+  "enriched_at": "2026-11-21",
+  "i18n_v": 1,
+  "imdb_id": "tt0074720",
+  "letterboxd_rating": 3.6,
+  "letterboxd_url": "https://letterboxd.com/film/the-toy-1976/",
+  "letterboxd_votes": 10051,
+  "tmdb_id": "56648",
+  "wikidata_id": "Q1170439",
+  "year": 1976
  },
  "journalpilarenamazonie:2026": {
   "enriched_at": "2026-11-21"
@@ -6630,6 +6666,18 @@
  "ourladyturks": {
   "enriched_at": "2026-11-19"
  },
+ "ourladyturks:1968": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/m4/w6/0g/l0/yLp0TDkHiL6WJ4JKSiEpUcTHXTX-1200-1200-675-675-crop-000000.jpg?v=1b6db4e7af",
+  "enriched_at": "2026-11-21",
+  "i18n_v": 1,
+  "imdb_id": "tt0063366",
+  "letterboxd_rating": 3.77,
+  "letterboxd_url": "https://letterboxd.com/film/our-lady-of-the-turks/",
+  "letterboxd_votes": 1207,
+  "tmdb_id": "59048",
+  "wikidata_id": "Q3878627",
+  "year": 1968
+ },
  "outoutserassemble": {
   "enriched_at": "2026-11-20"
  },
@@ -7388,6 +7436,16 @@
  },
  "rafales": {
   "enriched_at": "2026-11-19"
+ },
+ "rafales:1990": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/y6/jb/7r/87/6kqoZBofyLw05CX2uhwtMLiiBM-1200-1200-675-675-crop-000000.jpg?v=97c37ee684",
+  "enriched_at": "2026-11-21",
+  "i18n_v": 1,
+  "imdb_id": "tt0100453",
+  "letterboxd_url": "https://letterboxd.com/film/rafales/",
+  "tmdb_id": "350585",
+  "wikidata_id": "Q51539043",
+  "year": 1990
  },
  "raiseredlantern35th:1991": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hf/cr/z0/d7/raise-the-red-lantern-1200-1200-675-675-crop-000000.jpg?v=e062584d78",
