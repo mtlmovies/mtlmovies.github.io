@@ -103,7 +103,7 @@
   "enriched_at": "2026-11-21"
  },
  "6portraitsneorealistes": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "6portraitsneorealistes:2026": {
   "enriched_at": "2026-10-18"
@@ -171,7 +171,7 @@
   "year": 1993
  },
  "aduaherfriends:1960": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "affairecoffin": {
   "enriched_at": "2026-11-07"
@@ -262,7 +262,7 @@
   "enriched_at": "2026-09-09"
  },
  "alice:1988": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "alicedoesntlivehereanymore:1974": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tl/mq/xv/58/alice-doesnt-live-here-anymore-1200-1200-675-675-crop-000000.jpg?v=0d8a3b0262",
@@ -747,7 +747,7 @@
   "year": null
  },
  "autremaman": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "avdanemarkileferoe": {
   "enriched_at": "2026-11-22"
@@ -1369,12 +1369,12 @@
  },
  "bolanegra:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/bn/s6/4i/13/8TzXngI47d60TFnM5i91PAlXdKo-1200-1200-675-675-crop-000000.jpg?v=84dd117ec3",
-  "enriched_at": "2026-11-04",
+  "enriched_at": "2026-11-25",
   "i18n_v": 1,
   "imdb_id": "tt35511966",
-  "letterboxd_rating": 4.44,
+  "letterboxd_rating": 4.46,
   "letterboxd_url": "https://letterboxd.com/film/la-bola-negra/",
-  "letterboxd_votes": 252101,
+  "letterboxd_votes": 384408,
   "tmdb_id": "1422041",
   "wikidata_id": "Q134548431",
   "year": 2026
@@ -1706,10 +1706,13 @@
   "year": 2026
  },
  "cameronwinteratcarnegiehall": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "cameronwinteratcarnegiehall:2026": {
   "enriched_at": "2026-11-11"
+ },
+ "canneslions2026internationalfestivalcreativity:2026": {
+  "enriched_at": "2026-11-25"
  },
  "carmen": {
   "enriched_at": "2026-11-14"
@@ -1843,7 +1846,7 @@
   "year": 2020
  },
  "celibataire": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "celibataire:1955": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ki/we/25/60/fpUokY9D4A33yCuOXSEIV7UkaBN-1200-1200-675-675-crop-000000.jpg?v=4ae9575f37",
@@ -2149,7 +2152,7 @@
   "year": 2026
  },
  "clubkidenfantnuit:2026": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "clue:1985": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mk/mi/1k/v8/clue-1200-1200-675-675-crop-000000.jpg?v=3742386ac7",
@@ -2768,7 +2771,7 @@
   "enriched_at": "2026-10-21"
  },
  "drolegrenier:1946": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "drummerboy": {
   "enriched_at": "2026-11-02"
@@ -2861,7 +2864,16 @@
   "year": 2009
  },
  "elsinore": {
-  "enriched_at": "2026-11-22"
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/6/7/5/9/6/tmdb/6pMg3GaEamYdBvsuJfHPc12KXAz-1200-1200-675-675-crop-000000.jpg?v=b90eb6c108",
+  "enriched_at": "2026-11-25",
+  "i18n_v": 1,
+  "imdb_id": "tt37363222",
+  "letterboxd_rating": 3.87,
+  "letterboxd_url": "https://letterboxd.com/film/elsinore/",
+  "letterboxd_votes": 11869,
+  "tmdb_id": "1599230",
+  "wikidata_id": "Q137722359",
+  "year": 2026
  },
  "emmenemoi:2026": {
   "enriched_at": "2026-11-24"
@@ -2999,7 +3011,7 @@
   "year": null
  },
  "exerciceetat": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "eyesghana:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/0/0/4/2/4/1400424-the-eyes-of-ghana-0-230-0-345-crop.jpg?v=f21e09b3a9",
@@ -3112,7 +3124,7 @@
   "enriched_at": "2026-11-17"
  },
  "fatherland:2026": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "faust100th:1926": {
   "enriched_at": "2026-10-30"
@@ -3130,22 +3142,22 @@
   "enriched_at": "2026-09-27"
  },
  "festivaltristebushman:1971": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "festivaltristefromeast:1993": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "festivaltristeheiress:1949": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "festivaltristejoylife:2005": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "festivaltristelilya4ever:2002": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "festivaltristesafe:1995": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "festivaltristeyoucriedletmego:1997": {
   "enriched_at": "2026-11-22"
@@ -3461,7 +3473,7 @@
   "year": 1968
  },
  "furthermisadventurescliffboothexperience": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "furyo": {
   "enriched_at": "2026-09-25"
@@ -3504,7 +3516,7 @@
   "enriched_at": "2026-11-05"
  },
  "gandahar": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "gandahar:1987": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/xt/oe/nl/u0/gandahar-1200-1200-675-675-crop-000000.jpg?v=c3c0129a35",
@@ -3588,17 +3600,19 @@
   "enriched_at": "2026-09-21"
  },
  "ghostsoldier": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/3/5/6/0/0/1435600-ghost-soldier-0-230-0-345-crop.jpg?v=848ddc40ea",
-  "enriched_at": "2026-11-04",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/3/5/6/0/0/tmdb/oG2xaOERbYKs9RtEtOBkkDqqChb-1200-1200-675-675-crop-000000.jpg?v=031a4a4917",
+  "enriched_at": "2026-11-25",
   "i18n_v": 1,
   "imdb_id": "tt38686316",
+  "letterboxd_rating": 2.59,
   "letterboxd_url": "https://letterboxd.com/film/ghost-soldier/",
+  "letterboxd_votes": 5075,
   "tmdb_id": "1562642",
   "wikidata_id": "Q136502675",
   "year": 2026
  },
  "ghostsrome": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "ghostsrome:1961": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/38/03/dp/11/cUmXIUGNZ1ba867ClRNnsFKNZcH-1200-1200-675-675-crop-000000.jpg?v=3e2875a789",
@@ -3613,7 +3627,7 @@
   "year": 1961
  },
  "giantplay": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "ginochouinardauxilesguadeloupe": {
   "enriched_at": "2026-11-08"
@@ -3776,7 +3790,7 @@
   "year": 1963
  },
  "guerrefroide": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "gueuledargile": {
   "enriched_at": "2026-11-24"
@@ -3851,7 +3865,7 @@
   "year": 2026
  },
  "hadoota": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "hadootaar": {
   "enriched_at": "2026-11-22"
@@ -4108,7 +4122,7 @@
   "year": 2025
  },
  "hershey": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "hersheyspecialeventpricing": {
   "enriched_at": "2026-11-22"
@@ -4263,12 +4277,12 @@
  },
  "hours:2002": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/cg/ah/6o/hp/the-hours-1200-1200-675-675-crop-000000.jpg?v=99fa5f7396",
-  "enriched_at": "2026-11-04",
+  "enriched_at": "2026-11-25",
   "i18n_v": 1,
   "imdb_id": "tt0274558",
   "letterboxd_rating": 3.87,
   "letterboxd_url": "https://letterboxd.com/film/the-hours/",
-  "letterboxd_votes": 143394,
+  "letterboxd_votes": 144735,
   "tmdb_id": "590",
   "wikidata_id": "Q157044",
   "year": 2002
@@ -4365,7 +4379,7 @@
   "enriched_at": "2026-10-27"
  },
  "identite4courtmetrages4regards": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "ileoubli": {
   "enriched_at": "2026-11-23"
@@ -4859,7 +4873,7 @@
   "enriched_at": "2026-11-12"
  },
  "jamesgettingawaywithitftexclusiveinterviewperformance": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "japonlumieredautomne": {
   "enriched_at": "2026-11-23"
@@ -4928,7 +4942,7 @@
   "year": 2022
  },
  "jevoustrouvetresbeau": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "jevoustrouvetresbeau:2005": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/4/6/3/8/6/46386-you-are-so-beautiful-0-230-0-345-crop.jpg?v=fc57db5ec0",
@@ -4943,7 +4957,7 @@
   "year": 2005
  },
  "jimhensonschristmastoy": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "jimqueen": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/5/7/3/8/0/tmdb/vQw05sfFEVCVpysDAU5C8NU1gMO-1200-1200-675-675-crop-000000.jpg?v=2d4514f5c0",
@@ -4996,7 +5010,7 @@
   "year": 1971
  },
  "jouet": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "jouet:1976": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/4/5/4/tmdb/viADylz58ZMoNsnZPCrQMyDbHZY-1200-1200-675-675-crop-000000.jpg?v=10a5e71084",
@@ -5111,7 +5125,7 @@
   "year": 2004
  },
  "kenrussellsdevils:1971": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "kindergarten:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/8c/75/hn/x5/2vmQ4kiRPNqsnWt11qrNeGossWd-1200-1200-675-675-crop-000000.jpg?v=2f9115a80e",
@@ -5184,12 +5198,12 @@
  },
  "koyaanisqatsi:1982": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/o6/3h/yp/ch/koyaanisqatsi-1200-1200-675-675-crop-000000.jpg?v=a9e3b2f3ef",
-  "enriched_at": "2026-11-04",
+  "enriched_at": "2026-11-25",
   "i18n_v": 1,
   "imdb_id": "tt0085809",
   "letterboxd_rating": 4.32,
   "letterboxd_url": "https://letterboxd.com/film/koyaanisqatsi/",
-  "letterboxd_votes": 98916,
+  "letterboxd_votes": 99876,
   "tmdb_id": "11314",
   "wikidata_id": "Q1127828",
   "year": 1982
@@ -5613,7 +5627,7 @@
   "enriched_at": "2026-10-17"
  },
  "magnificentcuckold": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "makingmarieantoinette": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/6/1/9/2/5/9/1619259-making-marie-antoinette-0-230-0-345-crop.jpg?v=80ac334bbf",
@@ -5947,7 +5961,7 @@
   "enriched_at": "2026-11-23"
  },
  "messylegends:2025": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "miaecolemonstres": {
   "enriched_at": "2026-11-06"
@@ -6013,6 +6027,9 @@
   "tmdb_id": "1693710",
   "year": 2026
  },
+ "missionnoelfilmsenfamille": {
+  "enriched_at": "2026-11-25"
+ },
  "mistygreen:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/hk/9v/jo/dg/xvUUS1Z8bhfSIE72BBDy4m70CVx-1200-1200-675-675-crop-000000.jpg?v=82b1335979",
   "enriched_at": "2026-10-07",
@@ -6044,7 +6061,7 @@
   "enriched_at": "2026-10-24"
  },
  "moirocky": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "mommy:2014": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/tg/mx/rm/i0/mommy-2014-1200-1200-675-675-crop-000000.jpg?v=beb8f65b8a",
@@ -6187,7 +6204,7 @@
   "enriched_at": "2026-10-27"
  },
  "murmures:2026": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "musk:2026": {
   "enriched_at": "2026-11-23"
@@ -6503,7 +6520,7 @@
   "enriched_at": "2026-11-23"
  },
  "nouvellebellefamille": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "nouvellesrestaurationsbasques1": {
   "enriched_at": "2026-10-25"
@@ -6734,7 +6751,7 @@
   "enriched_at": "2026-10-08"
  },
  "ourladyturks": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "ourladyturks:1968": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/m4/w6/0g/l0/yLp0TDkHiL6WJ4JKSiEpUcTHXTX-1200-1200-675-675-crop-000000.jpg?v=1b6db4e7af",
@@ -6955,7 +6972,7 @@
   "enriched_at": "2026-11-24"
  },
  "patrie:2026": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "paulinejulienfemmepays:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/1/5/4/6/9/1115469-pauline-2026-2-0-230-0-345-crop.jpg?v=7765e04726",
@@ -7061,7 +7078,7 @@
   "year": 2025
  },
  "perenoelestordure": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "perfectblue:1997": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/jf/e4/gt/jx/mHG7dpLb0ZScSY3LpP443IHRmjy-1200-1200-675-675-crop-000000.jpg?v=363b875554",
@@ -7239,7 +7256,7 @@
   "year": 2025
  },
  "pierremercureecran": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "pinocchio": {
   "enriched_at": "2026-10-18"
@@ -7459,7 +7476,7 @@
   "enriched_at": "2026-11-17"
  },
  "qcc32inconnulac:2013": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "qcc33jetuilelle:1974": {
   "enriched_at": "2026-11-24"
@@ -7532,7 +7549,7 @@
   "enriched_at": "2026-10-07"
  },
  "rafales": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "rafales:1990": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/y6/jb/7r/87/6kqoZBofyLw05CX2uhwtMLiiBM-1200-1200-675-675-crop-000000.jpg?v=97c37ee684",
@@ -7581,7 +7598,7 @@
   "year": 2026
  },
  "ramayana": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "ramayanaexperience": {
   "enriched_at": "2026-11-12"
@@ -7721,7 +7738,7 @@
   "year": 1995
  },
  "reglejeu:1939": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "rembrandt": {
   "enriched_at": "2026-11-03"
@@ -7730,7 +7747,7 @@
   "enriched_at": "2026-11-23"
  },
  "rencontresinternationalesdocumentairemontreal": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "renversement": {
   "enriched_at": "2026-11-11"
@@ -7810,6 +7827,9 @@
   "title_fr": "La révolte",
   "tmdb_id": "977942",
   "year": 2026
+ },
+ "rexdinosaursstory:1993": {
+  "enriched_at": "2026-11-25"
  },
  "ridmcettemaison:2022": {
   "enriched_at": "2026-11-18"
@@ -8495,17 +8515,19 @@
   "enriched_at": "2026-10-19"
  },
  "smallsoldiers:1966": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "socialreckoning": {
   "enriched_at": "2026-10-20"
  },
  "soldatfantome": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/3/5/6/0/0/1435600-ghost-soldier-0-230-0-345-crop.jpg?v=848ddc40ea",
-  "enriched_at": "2026-11-04",
+  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/4/3/5/6/0/0/tmdb/oG2xaOERbYKs9RtEtOBkkDqqChb-1200-1200-675-675-crop-000000.jpg?v=031a4a4917",
+  "enriched_at": "2026-11-25",
   "i18n_v": 1,
   "imdb_id": "tt38686316",
+  "letterboxd_rating": 2.59,
   "letterboxd_url": "https://letterboxd.com/film/ghost-soldier/",
+  "letterboxd_votes": 5075,
   "tmdb_id": "1562642",
   "wikidata_id": "Q136502675",
   "year": 2026
@@ -8988,12 +9010,12 @@
  },
  "trumanshow:1998": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/z0/rf/dt/5l/truman-show-115-1200-1200-675-675-crop-000000.jpg?v=1047828fc6",
-  "enriched_at": "2026-11-04",
+  "enriched_at": "2026-11-25",
   "i18n_v": 1,
   "imdb_id": "tt0120382",
   "letterboxd_rating": 4.22,
   "letterboxd_url": "https://letterboxd.com/film/the-truman-show/",
-  "letterboxd_votes": 5497893,
+  "letterboxd_votes": 5571019,
   "tmdb_id": "37165",
   "wikidata_id": "Q214801",
   "year": 1998
@@ -9502,7 +9524,7 @@
   "enriched_at": "2026-09-09"
  },
  "visitor:1963": {
-  "enriched_at": "2026-11-22"
+  "enriched_at": "2026-11-25"
  },
  "vivalaldjerie:2004": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/2/3/5/2/2/123522-viva-algeria-0-230-0-345-crop.jpg?v=6d5972d235",
