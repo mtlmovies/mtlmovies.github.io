@@ -499,7 +499,7 @@
   "enriched_at": "2026-10-21"
  },
  "antarctica:2026": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "antigone:2019": {
   "enriched_at": "2026-11-26"
@@ -898,7 +898,7 @@
   "year": 2022
  },
  "barbie": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "barbie:2023": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/mm/bt/iu/mk/fRyYKQdsXIjw26MendWxpWmvnBs-1200-1200-675-675-crop-000000.jpg?v=0036da8577",
@@ -1262,7 +1262,7 @@
   "year": 2026
  },
  "bhogitelugu": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "bienvenuemarwen": {
   "enriched_at": "2026-11-19"
@@ -2113,7 +2113,7 @@
   "enriched_at": "2026-11-26"
  },
  "cinqtypespeur:2025": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "citeenfantsperdus:1995": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/wm/t3/m0/ke/city-of-lost-children-2-1200-1200-675-675-crop-000000.jpg?v=d5660bcfa4",
@@ -2215,10 +2215,10 @@
   "year": 1969
  },
  "comebackdad": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "commentbraquerbanque": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "compostelle:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/8/7/7/0/1/tmdb/lW9uSLT4t7trf1rG0nnOj14AoXT-1200-1200-675-675-crop-000000.jpg?v=f2a20dc11a",
@@ -2249,6 +2249,9 @@
   "title_fr": "Compostelle",
   "tmdb_id": "1404604",
   "year": 2026
+ },
+ "concertnoel2026dandrerieuletitsnow": {
+  "enriched_at": "2026-11-27"
  },
  "conflit": {
   "enriched_at": "2026-11-22"
@@ -2366,7 +2369,7 @@
   "year": 1954
  },
  "control:2026": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "cosifantutte": {
   "enriched_at": "2026-10-03"
@@ -2381,7 +2384,7 @@
   "enriched_at": "2026-10-31"
  },
  "cosmicsamsonmalayalam": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "coursterrycours": {
   "enriched_at": "2026-10-14"
@@ -2797,11 +2800,26 @@
  "dune": {
   "enriched_at": "2026-11-17"
  },
+ "dunedeuxiemepartie:2024": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/qp/uv/i4/8b/l6b9YZEokZl1nt7q0pprrur6btG-1200-1200-675-675-crop-000000.jpg?v=ed21d71137",
+  "enriched_at": "2026-11-27",
+  "i18n_v": 1,
+  "imdb_id": "tt15239678",
+  "letterboxd_rating": 4.38,
+  "letterboxd_url": "https://letterboxd.com/film/dune-part-two/",
+  "letterboxd_votes": 3848344,
+  "tmdb_id": "693134",
+  "wikidata_id": "Q109228991",
+  "year": 2023
+ },
  "dunepartoneduneparttwodoublefeatureexperience": {
   "enriched_at": "2026-11-13"
  },
  "duneparttwo": {
   "enriched_at": "2026-11-17"
+ },
+ "dunepremierepartie:2021": {
+  "enriched_at": "2026-11-27"
  },
  "dunetroisiemepartie:2026": {
   "enriched_at": "2026-11-26"
@@ -2822,11 +2840,13 @@
   "year": 2026
  },
  "ebenezerchristmascarol": {
-  "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/4/4/0/0/5/2/1440052-ebenezer-2026-0-230-0-345-crop.jpg?v=f9a47d0baf",
-  "enriched_at": "2026-11-06",
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/at/n5/4n/7d/bF6nvHAt2jU7PnkOI4cnaUF2DZn-1200-1200-675-675-crop-000000.jpg?v=86011e80bb",
+  "enriched_at": "2026-11-27",
   "i18n_v": 1,
   "imdb_id": "tt38773219",
+  "letterboxd_rating": 3.22,
   "letterboxd_url": "https://letterboxd.com/film/ebenezer-2026/",
+  "letterboxd_votes": 112165,
   "tmdb_id": "1567605",
   "wikidata_id": "Q136650058",
   "year": 2026
@@ -2891,7 +2911,7 @@
   "year": 2026
  },
  "emmenemoi:2026": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "emperorsnightingale": {
   "enriched_at": "2026-11-26"
@@ -2936,7 +2956,7 @@
   "year": null
  },
  "enerepeattelugu": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "enhypenworldtourbloodsaga": {
   "enriched_at": "2026-10-28"
@@ -2945,7 +2965,7 @@
   "enriched_at": "2026-09-21"
  },
  "escondites:2026": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "espoir": {
   "backdrop": "https://s.ltrbxd.com/static/img/default-share-7md9L34t.png",
@@ -3183,6 +3203,9 @@
  "festivefunwithpeppacinemaexperience": {
   "enriched_at": "2026-11-26"
  },
+ "filfilmcorset:2026": {
+  "enriched_at": "2026-11-27"
+ },
  "filfilmjusteillusion:2026": {
   "enriched_at": "2026-09-27"
  },
@@ -3332,7 +3355,7 @@
   "year": 1964
  },
  "fjord:2026": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "florilegei": {
   "enriched_at": "2026-10-16"
@@ -3435,7 +3458,7 @@
   "year": 1965
  },
  "forgottenisland": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "framptonsondouble:1971": {
   "enriched_at": "2026-11-25"
@@ -3564,7 +3587,7 @@
   "enriched_at": "2026-10-25"
  },
  "germanpeople:2025": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "ghost2bigtorig": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/5/5/3/4/2/1555342-2-big-to-rig-0-230-0-345-crop.jpg?v=4a41c3cc91",
@@ -3651,7 +3674,7 @@
   "enriched_at": "2026-11-21"
  },
  "girlfromparma": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "girlfromparma:1963": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/ya/qj/0i/g0/7xEvtSHWb3iQBzooY5KMYFKipfO-1200-1200-675-675-crop-000000.jpg?v=79f35f3600",
@@ -3669,16 +3692,7 @@
   "enriched_at": "2026-11-17"
  },
  "godzillaminuszero": {
-  "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/2/6/6/6/8/4/tmdb/me4VDyWuOVzeEoT4sAFiNwkmmw8-1200-1200-675-675-crop-000000.jpg?v=070fff48e5",
-  "enriched_at": "2026-11-06",
-  "i18n_v": 1,
-  "imdb_id": "tt34384661",
-  "letterboxd_rating": 4.17,
-  "letterboxd_url": "https://letterboxd.com/film/godzilla-minus-zero/",
-  "letterboxd_votes": 69078,
-  "tmdb_id": "1381071",
-  "wikidata_id": "Q136700760",
-  "year": 2026
+  "enriched_at": "2026-11-27"
  },
  "godzillaminuszerocsxl": {
   "enriched_at": "2026-11-21"
@@ -3690,7 +3704,7 @@
   "enriched_at": "2026-11-14"
  },
  "gonzaguinhaplusgrandeliberte:2026": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "goodbadugly60th:1966": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/07/zz/2k/vy/the-good-the-bad-and-the-ugly-1200-1200-675-675-crop-000000.jpg?v=6fdc9111b0",
@@ -3832,7 +3846,7 @@
   "enriched_at": "2026-10-23"
  },
  "gunmaasterg9hindi": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "hachanshakeyourbooty": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/55/4d/mx/os/dEu8lwu4q6k3m8xOLxGJzYoxjix-1200-1200-675-675-crop-000000.jpg?v=2f8c6eb888",
@@ -3889,10 +3903,10 @@
   "enriched_at": "2026-11-26"
  },
  "hailmary": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "hailmarymalayalam": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "haiwaan": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/5/2/6/9/6/1352696-haiwaan-2026-0-230-0-345-crop.jpg?v=feaa7b4850",
@@ -4348,6 +4362,18 @@
   "wikidata_id": "Q134520822",
   "year": 2026
  },
+ "hundredsbeavers:2022": {
+  "backdrop": "https://a.ltrbxd.com/resized/sm/upload/43/iv/r5/4g/hundreds-1200-1200-675-675-crop-000000.jpg?v=15f9aa37e6",
+  "enriched_at": "2026-11-27",
+  "i18n_v": 1,
+  "imdb_id": "tt12818328",
+  "letterboxd_rating": 4.14,
+  "letterboxd_url": "https://letterboxd.com/film/hundreds-of-beavers/",
+  "letterboxd_votes": 200641,
+  "tmdb_id": "1019939",
+  "wikidata_id": "Q124694222",
+  "year": 2022
+ },
  "hunger": {
   "enriched_at": "2026-09-09"
  },
@@ -4378,7 +4404,7 @@
   "year": 1983
  },
  "hungergamesleversoleilsurmoisson": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "hungergamessunrisereaping": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/8/2/6/9/2/tmdb/5h9vKBzB6iOde9k6rGpLJ4hyIdm-1200-1200-675-675-crop-000000.jpg?v=530ad16b20",
@@ -4445,7 +4471,7 @@
   "year": 2010
  },
  "indemysteresgange": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "influencerproject": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/5/1/7/5/9/4/1517594-the-influencer-project-0-230-0-345-crop.jpg?v=0e25ee66fe",
@@ -4939,7 +4965,7 @@
   "enriched_at": "2026-11-16"
  },
  "jetattendrai:1939": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "jevoussaluesalopemisogynieautempsnumerique": {
   "enriched_at": "2026-10-06"
@@ -5040,7 +5066,7 @@
   "year": 1976
  },
  "journalpilarenamazonie:2026": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "jugementsocial": {
   "enriched_at": "2026-10-20"
@@ -5657,7 +5683,7 @@
   "year": null
  },
  "males:2025": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "mamanputain:1973": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/r3/zd/ul/nc/d7f7Dq0I5SuevNHVqLwInQq3EBr-1200-1200-675-675-crop-000000.jpg?v=1b85333bb5",
@@ -5982,7 +6008,7 @@
   "enriched_at": "2026-11-06"
  },
  "miltonbitucanascimento:2024": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "minecraftmoviecommunityday": {
   "enriched_at": "2026-11-14"
@@ -6339,7 +6365,7 @@
   "year": 2004
  },
  "nausicaavalleywind:1984": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "naza:2026": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/4g/94/d6/gn/qkuEfYYOZTW6ymbZMeyJeYQaMd7-1200-1200-675-675-crop-000000.jpg?v=48df2c0386",
@@ -6661,10 +6687,10 @@
   "year": 2026
  },
  "omchapter1udhirambloodwood": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "omchapter1udhirimtamil": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "omchapter1undhirambloodwood": {
   "enriched_at": "2026-11-15"
@@ -6799,7 +6825,7 @@
   "enriched_at": "2026-11-08"
  },
  "oviolentenuit2": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "ozzyblacksabbathbacktobeginning": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/9/1/5/3/4/1391534-back-to-the-beginning-ozzys-final-bow-0-230-0-345-crop.jpg?v=da2c0c6e1b",
@@ -6823,7 +6849,7 @@
   "enriched_at": "2026-11-13"
  },
  "paniqueauvillage:2024": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "papertiger": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/6/7/0/2/5/2/670252-paper-tiger-0-230-0-345-crop.jpg?v=454043171e",
@@ -6996,7 +7022,7 @@
   "enriched_at": "2026-10-10"
  },
  "patpatrouillemissiondino": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "patrie:2026": {
   "enriched_at": "2026-11-25"
@@ -7039,10 +7065,10 @@
   "year": null
  },
  "pawpatrolchristmasfamilyfavourites": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "pawpatroldinomovie": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "pawpatroldinomoviefamilyfavourites": {
   "enriched_at": "2026-10-10"
@@ -7460,7 +7486,7 @@
   "enriched_at": "2026-11-09"
  },
  "prince3121lasvegaslive": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "prisonsansbarreaux:1938": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/2/4/3/2/6/7/243267-prison-without-bars-0-230-0-345-crop.jpg?v=5c7d7c9ed1",
@@ -7506,7 +7532,7 @@
   "enriched_at": "2026-11-25"
  },
  "qcc33jetuilelle:1974": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "qcc34birdcage:1996": {
   "enriched_at": "2026-11-26"
@@ -7890,7 +7916,7 @@
   "year": 2007
  },
  "ritas:2025": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "rocky:1976": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/5/1/0/9/0/tmdb/kK9v1wclQxug6ZUJucD4DTaHgVF-1200-1200-675-675-crop-000000.jpg?v=5cdbe54164",
@@ -8000,7 +8026,7 @@
   "year": 2026
  },
  "royalballetnutcracker": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "rroussilculparterre:2025": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/3/3/2/2/5/0/1332250-r-roussil-le-cul-par-terre-0-230-0-345-crop.jpg?v=3e661ce96d",
@@ -8643,10 +8669,10 @@
   "year": 1995
  },
  "spidermanbrandnewbrandnewday": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "spidermanbrandnewday": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "spidermanjournouveau": {
   "enriched_at": "2026-11-17"
@@ -9382,6 +9408,9 @@
  "vieillecorneille:2025": {
   "enriched_at": "2026-11-17"
  },
+ "vieillecorneille:2026": {
+  "enriched_at": "2026-11-27"
+ },
  "viking": {
   "backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/7/8/0/1/7/tmdb/dcf2MSKj9wW074jXP7cljI78gMC-1200-1200-675-675-crop-000000.jpg?v=a99194ece6",
   "enriched_at": "2026-09-09",
@@ -9414,7 +9443,7 @@
   "enriched_at": "2026-10-20"
  },
  "villeneuveascensiondlegende:2026": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "villeneuveriselegend": {
   "backdrop": "https://a.ltrbxd.com/resized/film-poster/1/1/3/0/8/9/8/1130898-villeneuve-the-rise-of-a-champion-0-230-0-345-crop.jpg?v=b60386e3f6",
@@ -9510,7 +9539,7 @@
   "year": 2026
  },
  "violentnight2": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "virginsuicides:1999": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/6y/xk/bi/nf/the-virgin-suicides-70-1200-1200-675-675-crop-000000.jpg?v=69bb61a9c3",
@@ -9729,10 +9758,10 @@
   "year": 2026
  },
  "wildwood": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "wildwoodcontreemalefique": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "winterkeptuswarm:1965": {
   "backdrop": "https://a.ltrbxd.com/resized/sm/upload/q5/lh/gb/q0/winter-1200-1200-675-675-crop-000000.jpg?v=e56974d417",
@@ -9774,7 +9803,7 @@
   "year": 2012
  },
  "wutheringheights:2011": {
-  "enriched_at": "2026-11-24"
+  "enriched_at": "2026-11-27"
  },
  "yehpremmolliya": {
   "enriched_at": "2026-11-26"
